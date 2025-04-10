@@ -16,6 +16,8 @@ theme:
   toggle:
     icon: material/weather-night
     name: Alternar modo claro/escuro
+  features:
+    - toggle
 
 
 nav:
