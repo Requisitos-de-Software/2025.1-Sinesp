@@ -1,5 +1,4 @@
-site_name: SINESP - Grupo 9
-
+site_name: SINESP – Grupo 9
 
 theme:
   name: material
@@ -9,22 +8,19 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
 
-
 nav:
-  - Home : index.md
+  - Home: index.md
   - Atas:
       - 28/03/2025: atas/ata_28_03.md
       - 04/04/2025: atas/ata_04_04.md
   - Planejamento:
-      - Ferramentas: planejamento/ferramentas.md 
-
+      - Ferramentas: planejamento/ferramentas.md
 
 extra_css:
   - stylesheets/extra.css
