@@ -1,23 +1,20 @@
-site_name: Grupo 09 
+site_name: SINESP - Grupo 9
 
 
 theme:
   name: material
-  language: pt
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
-  toggle:
-    icon: material/weather-night
-    name: Alternar modo claro/escuro
-  features:
-    - toggle
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
 
 
 nav:
@@ -25,3 +22,9 @@ nav:
   - Atas:
       - 28/03/2025: atas/ata_28_03.md
       - 04/04/2025: atas/ata_04_04.md
+  - Planejamento:
+      - Ferramentas: planejamento/ferramentas.md 
+
+
+extra_css:
+  - stylesheets/extra.css
