@@ -15,6 +15,8 @@ Documento baseado na lista de verificação feita para a entrega 1 do Grupo +1. 
 
 ## Lista de Inspeção – Entregas do Projeto - (tabela 1)
 
+<center>
+
 | ID | Item                                                                                                  | Autor    | Revisor  | Status               | Referência                    |
 |----|-------------------------------------------------------------------------------------------------------|----------|----------|----------------------| ----------------------|
 | 1 | App selecionado para o projeto identificado e justificado                                            | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | <div><img src="..\assets\img\lista_parte1_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div>|
@@ -29,10 +31,15 @@ Documento baseado na lista de verificação feita para a entrega 1 do Grupo +1. 
 | 10 | Métodos de verificação e validação aplicados aos artefatos (com autor e revisor)                     | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | <div><img src="..\assets\img\lista_parte1_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
 | 11 | Gravação da apresentação de cada etapa, com nomes dos participantes                                  | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | <div><img src="..\assets\img\lista_parte1_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
 | 12 | Possui opção de constraste de cores                                             | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | <div><img src="..\assets\img\lista_parte1_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
-Autor: [Lucas Alves](https://github.com/LucasAlves71)
+
+</center>
+
+<font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 ---
 
 ## Lista de Inspeção de Itens Técnicos e Documentais - (tabela 2)
+
+<center>
 
 | ID | Item                                                                                                  | Autor    | Revisor  | Status               | Referência                    |
 |----|-------------------------------------------------------------------------------------------------------|----------|----------|----------------------|----------------------|
@@ -44,11 +51,16 @@ Autor: [Lucas Alves](https://github.com/LucasAlves71)
 | 6 | Atas de reunião com data, horário, participantes e objetivos                                          | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | <div><img src="..\assets\img\lista_parte2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
 | 7 | Gravações de reuniões salvas                                                                          | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | <div><img src="..\assets\img\lista_parte2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
 | 8 | Apresentações no YouTube como "não listado"                                                           | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | <div><img src="..\assets\img\lista_parte2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
-Autor: [Lucas Alves](https://github.com/LucasAlves71)
+
+</center>
+
+<font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 
 ---
 
 ## Lista de Inspeção de Conteúdo da Disciplina - (tabela 3)
+
+<center>
 
 | ID | Item                                                                                                  | Autor    | Revisor  | Status               | Referência                    |
 |----|-------------------------------------------------------------------------------------------------------|----------|----------|----------------------|---------------------------------------|
@@ -62,7 +74,10 @@ Autor: [Lucas Alves](https://github.com/LucasAlves71)
 | 8 | Verificar se existe um contorno (linha contínua ou tracejada) delimitando claramente o que está sob responsabilidade do sistema                         | [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | <div><img src="..\assets\img\fonteChecklist.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf">Introducing Rich Pictures</a></div> |
 | 9 | Checar se grupos de usuários similares são representados por um único ator, conforme apropriado                         | [Othavio Bolzan](https://github.com/bolzanMGB) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | <div><img src="..\assets\img\fonteChecklist.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf">Introducing Rich Pictures</a></div> |
 | 10 | Cada integrante elaborou ao menos 1 conteúdo com referência e imagem da fonte                         | [Lucas Alves](https://github.com/LucasAlves71) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox"> Inconforme | <div><img src="..\assets\img\lista_rich_picture.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf">Plano de Ensino</a></div> |
-Autor: [Lucas Alves](https://github.com/LucasAlves71)
+
+</center>
+
+<font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 
 <div align="center">
   <img src="..\assets\img\fonteChecklist.png" alt="Legenda Checklist" width="1000px">
@@ -141,3 +156,4 @@ Autor: [Lucas Alves](https://github.com/LucasAlves71)
 | Versão | Data       | Descrição            | Autor(es)                                                                                           | Revisor(es)                                      |
 | ------ | ---------- | -------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
 | `1.0`  | 20/04/2025 | Criação do documento | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |
+| `1.1`  | 23/04/2025 | Atualização nas tabelas | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |
