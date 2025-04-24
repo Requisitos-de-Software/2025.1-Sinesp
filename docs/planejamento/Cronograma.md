@@ -60,6 +60,7 @@ Em **18 de abril de 2025**, o documento passou por atualização para maior deta
 | Definição do escopo e objetivos | Yzabella Miranda, Othavio Bolzan | Ana Luiza Soares | 04/04 | 12/04 | 12/04 - 13/04 |
 | Elaboração do cronograma planejado detalhado | Ana Luiza Soares | Matheus de Alcântara | 04/04 | 12/04 | 12/04 - 13/04 |
 | Elaboração do cronograma executado detalhado | Ana Luiza Soares e Isaque Camargos | Matheus de Alcântara | 04/04 | 12/04 | 12/04 - 13/04 |
+| Elaboração do cronograma executado detalhado      | Ana Luiza Soares e Isaque Camargos          | Matheus de Alcântara  | 04/04 | 12/04 | 12/04 - 13/04 |
 | Rich Picture do projeto | Isaque Camargos, Othavio, Ana Luiza | Kaleb Macedo | 04/04 | 12/04 | 12/04 - 13/04 |
 | Checklist da entrega | Lucas Alves | Isaque Camargos | 04/04 | 12/04 | 12/04 - 13/04 |
 
@@ -80,7 +81,7 @@ Em **18 de abril de 2025**, o documento passou por atualização para maior deta
 | Criação de personas e perfis de usuário | Isaque Camargos, Yzabella Miranda, Matheus de Alcântara | Lucas Alves | 19/04/2025 | 24/04/2025 | 24/04/2025 - 25/04/2025 |
 | Priorização dos requisitos: "First Thing First" e "Quality Function Deployment" | Ana Luiza Soares, Othavio Bolzan, Matheus de Alcântara | Isaque Camargos | 19/04/2025 | 24/04/2025 | 24/04/2025 - 25/04/2025 |
 | Elicitação de requisitos: Introspecção | Othavio Bolzan, Lucas Alves | Kaleb Macedo | 19/04/2025 | 24/04/2025 | 24/04/2025 - 25/04/2025 |
-| Elicitação de requisitos: Observação | Matheus de Alcântara, Yzabella Miranda | Othavio Bolzan | 19/04/2025 | 24/04/2025 | 24/04/2025 - 25/04/2025 |
+| Elicitação de requisitos: Grupo de Foco | Matheus de Alcântara, Yzabella Miranda | Othavio Bolzan | 19/04/2025 | 24/04/2025 | 24/04/2025 - 25/04/2025 |
 | Elicitação de requisitos: Questionário | Lucas Alves, Othavio Bolzan, Kaleb Macedo | Yzabella Miranda | 19/04/2025 | 24/04/2025 | 24/04/2025 - 25/04/2025 |
 | Elicitação de requisitos: Entrevista | Ana Luiza Soares, Isaque Camargos | Ana Luiza Soares | 19/04/2025 | 24/04/2025 | 24/04/2025 - 25/04/2025 |
 | Criação da lista de verificação | Kaleb Macedo, Lucas Alves  | Ana Luiza Soares | 19/04/2025 | 24/04/2025 | 24/04/2025 - 25/04/2025 |
@@ -218,19 +219,21 @@ Em **18 de abril de 2025**, o documento passou por atualização para maior deta
 
 # Referência
 
-Cronograma - Bilheteria Digital. Disponível em: <https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/planejamento/cronograma/#entrega-final>. Acesso em: 18 abr. 2025.
+*Cronograma - Bilheteria Digital*. Disponível em: <https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/planejamento/cronograma/#entrega-final>. Acesso em: 18 abr. 2025.
 
-Cronograma - Tik Tok. Disponível em: <https://requisitos-de-software.github.io/2022.1-TikTok/cronograma/>. Acesso em: 18 abr. 2025.
+*Cronograma - Tik Tok*. Disponível em: <https://requisitos-de-software.github.io/2022.1-TikTok/cronograma/>. Acesso em: 18 abr. 2025.
 
-Cronograma Realizado - Lichess. Disponível em: <https://requisitos-de-software.github.io/2022.2-Lichess/planejamento/cronograma_realizado/#ponto-de-controle-7>. Acesso em: 18 abr. 2025.
+*Cronograma Realizado - Lichess*. Disponível em: <https://requisitos-de-software.github.io/2022.2-Lichess/planejamento/cronograma_realizado/#ponto-de-controle-7>. Acesso em: 18 abr. 2025.
 
-DEEPSEEK. DeepSeek. Disponível em: <https://chat.deepseek.com/>. Acesso em: 18 abr. 2025.
+DEEPSEEK. *DeepSeek*. Disponível em: <https://chat.deepseek.com/>. Acesso em: 18 abr. 2025.
 
-KERZNER, Harold. Project Management: A Systems Approach to Planning, Scheduling, and Controlling. 12. ed. Hoboken: John Wiley & Sons, 2017.
+KERZNER, Harold. *Project Management: A Systems Approach to Planning, Scheduling, and Controlling*. 12. ed. Hoboken: John Wiley & Sons, 2017.
 
 MICROSOFT. Excel. Disponível em: <https://excel.cloud.microsoft/>. Acesso em: 18 abr. 2025.
 
-SALES, André Barros de. Plano de ensino da disciplina Requisitos de Software – 2025/1. Universidade de Brasília – FGA, 2025. Disponível em: https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf. Acesso em: 18 abr. 2025.
+SALES, André Barros de. *Ambientação - Aula 1, Exemplo de Cronograma*. Aprender 3. Distrito Federal, 2025. Disponível em: [https://aprender3.unb.br/mod/resource/view.php?id=1390833](https://aprender3.unb.br/mod/resource/view.php?id=1390833). Acesso em: 10 abr. 2025.
+
+SALES, André Barros de. *Plano de ensino da disciplina Requisitos de Software* – 2025/1. Universidade de Brasília – FGA, 2025. Disponível em: [assets/arquivos_pdf/plano-de-ensino-requisitos.pdf](assets/arquivos_pdf/plano-de-ensino-requisitos.pdf). Acesso em: 18 abr. 2025.
 
 
 <br>
