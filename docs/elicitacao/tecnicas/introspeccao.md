@@ -93,6 +93,10 @@ Considerando que o aplicativo é destinado a beneficiários de um plano de saúd
 A técnica de introspecção revelou-se eficaz para identificar requisitos que refletem as necessidades reais dos usuários do aplicativo **GDF Saúde**. Os requisitos elicitados destacam tanto funcionalidades já implementadas quanto oportunidades de melhoria, como a inclusão de suporte offline e maior acessibilidade para pessoas com deficiência visual. Além disso, a análise evidenciou a importância de uma interface intuitiva e de funcionalidades financeiras acessíveis, que atendam às demandas específicas dos beneficiários. Esses insights reforçam o potencial do aplicativo em oferecer uma experiência mais completa e inclusiva, alinhada às expectativas dos usuários. A introspecção, portanto, contribuiu significativamente para a compreensão das necessidades do público-alvo e para o direcionamento de futuras melhorias no aplicativo.
 ---
 
+## Vídeo de apresentação da Elicitação
+- **Reunião de Apresentação - Introspecção** – Apresentação da elicitação de requisitos introspecção  
+  🔗 [Assistir no YouTube](https://youtu.be/N8buZteffsk)
+
 ## Bibliografia
 
 - SERRANO, Milene; SERRANO, Maurício. *Requisitos (Aula 07): Elicitação, Modelagem e Análise*. UnB Gama, Brasília, 2023. Disponível em: https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf. Acesso em: 23/04/2025.
