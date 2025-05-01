@@ -38,12 +38,9 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 |----|----------------------|-------|------------|
 | 1  | A Especificação do Perfil do usuário possui informação de: idade, experiência, atitudes e tarefas primárias. | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | <div><img src="..\assets\img\PerfildeUsuario_Isaque.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096073/mod_resource/content/2/ihc-ux-%20Personas.pdf">Livro IHC</a></div> |
 | 2  | Há a faixa etária do usuário ? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\assets\img\PerfildeUsuario_Isaque.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096073/mod_resource/content/2/ihc-ux-%20Personas.pdf">Livro IHC</a></div> |
-| 3  | O perfil possui dados sobre a
-frequência e forma de uso da
-tecnologia por esse usuário? | [Kaleb Macedo](https://github.com/kalebmacedo) | <div><img src="..\assets\img\PerfildeUsuario_Kaleb.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096073/mod_resource/content/2/ihc-ux-%20Personas.pdf">Livro IHC</a></div> |
+| 3  | O perfil possui dados sobre a frequência e forma de uso da tecnologia por esse usuário? | [Kaleb Macedo](https://github.com/kalebmacedo) | <div><img src="..\assets\img\PerfildeUsuario_Kaleb.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096073/mod_resource/content/2/ihc-ux-%20Personas.pdf">Livro IHC</a></div> |
 | 4  | Foram identificadas aplicações ou ferramentas mais utilizadas? | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\assets\img\PerfildeUsuario_Lucas.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096073/mod_resource/content/2/ihc-ux-%20Personas.pdf">Livro IHC</a></div> |
-| 5  | Está alinhado com funcionalidades reais do
-sistema? | [Matheus de Alcântara](https://github.com/matheusdealcantara) | <div><img src="..\assets\img\PerfildeUsuario_Matheus.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096073/mod_resource/content/2/ihc-ux-%20Personas.pdf">Livro IHC</a></div> |
+| 5  | Está alinhado com funcionalidades reais do sistema? | [Matheus de Alcântara](https://github.com/matheusdealcantara) | <div><img src="..\assets\img\PerfildeUsuario_Matheus.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096073/mod_resource/content/2/ihc-ux-%20Personas.pdf">Livro IHC</a></div> |
 | 6 | O perfil é tratado como um artefato interativo, passível de revisão e refinamento ao longo do projeto? | [Othavio Bolzan](https://github.com/bolzanMGB) | <div><img src="..\assets\img\PerfildeUsuario_Othavio.png" alt="Referência do item" width="100px"><br><a hr  ef="https://aprender3.unb.br/pluginfile.php/3096073/mod_resource/content/2/ihc-ux-%20Personas.pdf">Livro IHC</a></div> |
 | 7  | Os dados dos usuários foram adequadamente coletados? | [Yzabella Miranda](https://github.com/redjsun) | <div><img src="..\assets\img\PerfildeUsuario_Yzabella.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096073/mod_resource/content/2/ihc-ux-%20Personas.pdf">Livro IHC</a></div> |
 
@@ -52,20 +49,44 @@ sistema? | [Matheus de Alcântara](https://github.com/matheusdealcantara) | <div
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 ---
 
+## Lista de Verificação - Entrevista - (Tabela 3)
+
+<center>
+
+| ID | Item de Verificação | Autor | Referência |
+|----|----------------------|-------|------------|
+| 1  | O tipo de entrevista (estruturada, semiestruturada, não estruturada) foi respeitado? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\entrevistaestruturada.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
+| 2  | As perguntas ou tópicos estavam claros, sem termos técnicos ou jargões inadequados? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\terminologia.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
+| 3  | As perguntas abertas foram exploradas com aprofundamento quando as respostas foram superficiais? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\elaborar.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
+| 4  | O roteiro foi previamente definido ?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\roteiro.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
+| 5  | As perguntas do roteiro seguiram uma ordem lógica ?  |[Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\roteiro.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
+| 6 | O entrevistador manteve o foco no objetivo da entrevista ? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\entrevistaestruturada.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
+| 7  | O entrevistador manteve uma postura neutra ?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\influencia.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
+| 8  | O entrevistador se apresentou ?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\estrutura.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
+| 9 | O entrevistador fez um período de aquecimento ?   | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\estrutura.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
+| 10  | O entrevistador concluiu a reunião formalmente ? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\estrutura.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
+
+</center>
+
+<font size="3"><p style="text-align: center">Fonte: [Isaque Camargos](https://github.com/isaqzin).</p></font>
+---
+
 ## Como utilizar esta lista de verificação
 
-Para cada item da lista, o revisor deve:
-1. Verificar se o artefato atende ao critério especificado
-2. Marcar como "Conforme" ou "Não conforme"
-3. Para itens não conformes, adicionar comentários específicos sobre o que precisa ser corrigido
-4. Sempre incluir referências a exemplos ou páginas específicas onde os problemas foram encontrados
+- Para cada item da lista, o revisor deve:
+    -  Verificar se o artefato atende ao critério especificado
+    -  Marcar como "Conforme" ou "Não conforme"
+    -  Para itens não conformes, adicionar comentários específicos sobre o que precisa ser corrigido
+    -  Sempre incluir referências a exemplos ou páginas específicas onde os problemas foram encontrados
 
 ## Referências
 
 - SALES, André Barros de. [Plano de Ensino – Requisitos de Software: REE012025 – Turma 03](https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf). Brasília: Universidade de Brasília, Faculdade UnB Gama, 2025. 7 p. Acessado em: 23 de abril de 2025
+- Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. Pg 144 - 148 .Disponível em: [Interação Humano-Computador e Experiência do usuário](https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html). Acesso em: 30 de abril de 2024 
 
 ## Histórico de Versões
 
 | Versão | Data       | Descrição            | Autor(es)                                       | Revisor(es)                                 |
 | ------ | ---------- | -------------------- | ----------------------------------------------- | ------------------------------------------- |
 | `1.0`  | 23/04/2025 | Criação do documento | [Lucas Alves](https://github.com/LucasAlves71) e [Kaleb Macedo](https://github.com/kalebmacedo) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+| `1.1`  | 01/05/2025 | Adição da Lista da entrevista| [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
