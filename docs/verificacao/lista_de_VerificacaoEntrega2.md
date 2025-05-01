@@ -36,7 +36,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 | ID | Item de Verificação | Autor | Referência |
 |----|----------------------|-------|------------|
-| 1  | A Especificação do Perfil do usuário possui informação de: idade, experiência, atitudes e tarefas primárias. | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | <div><img src="..\assets\img\PerfildeUsuario_Isaque.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096073/mod_resource/content/2/ihc-ux-%20Personas.pdf">Livro IHC</a></div> |
+| 1  | O perfil do usário foi definido claramente de forma que auxilia no recrutamento dos futuros participantes?| [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | <div><img src="..\assets\img\PerfildeUsuario_Ana.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096073/mod_resource/content/2/ihc-ux-%20Personas.pdf">Livro IHC</a></div> |
 | 2  | Há a faixa etária do usuário ? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\assets\img\PerfildeUsuario_Isaque.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096073/mod_resource/content/2/ihc-ux-%20Personas.pdf">Livro IHC</a></div> |
 | 3  | O perfil possui dados sobre a frequência e forma de uso da tecnologia por esse usuário? | [Kaleb Macedo](https://github.com/kalebmacedo) | <div><img src="..\assets\img\PerfildeUsuario_Kaleb.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096073/mod_resource/content/2/ihc-ux-%20Personas.pdf">Livro IHC</a></div> |
 | 4  | Foram identificadas aplicações ou ferramentas mais utilizadas? | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\assets\img\PerfildeUsuario_Lucas.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096073/mod_resource/content/2/ihc-ux-%20Personas.pdf">Livro IHC</a></div> |
@@ -90,3 +90,4 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 | ------ | ---------- | -------------------- | ----------------------------------------------- | ------------------------------------------- |
 | `1.0`  | 23/04/2025 | Criação do documento | [Lucas Alves](https://github.com/LucasAlves71) e [Kaleb Macedo](https://github.com/kalebmacedo) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 | `1.1`  | 01/05/2025 | Adição da Lista da entrevista| [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+| `1.2`  | 01/05/2025 | Atualizando lista de perfil de usuário | [Lucas Alves](https://github.com/LucasAlves71) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
