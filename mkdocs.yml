@@ -40,6 +40,9 @@ nav:
   - Pré-rastreabilidade:
       - Rich Picture: pre-rastreabilidade/rich_picture.md
 
+  - Elicitação:
+      - Técnicas:
+          - Introspecção: elicitacao/tecnicas/introspeccao.md
   - Verificação:
       - Grupo:
           - Entrega 1: verificacao/lista_de_VerificacaoEntrega1.md
