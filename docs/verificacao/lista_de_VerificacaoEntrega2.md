@@ -71,6 +71,28 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 <font size="3"><p style="text-align: center">Fonte: [Isaque Camargos](https://github.com/isaqzin).</p></font>
 ---
 
+# Lista de Verificação - Personas - (Tabela 4)
+Interaction Design: Beyond Human-Computer Interaction
+<center> 
+
+| ID  | Item de Verificação                                                                                          | Autor     | Referência                                                                                                                       |
+|-----|--------------------------------------------------------------------------------------------------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------|
+| 1  | A persona tem uma história que o contextualiza com sua realidade, no caso a sua identidade?                 | [Kaleb Macedo](https://github.com/kalebmacedo)     | <br><img src="..\verificacao\assets\img\img-personas\1-imagem-ISAQUE.png" alt="Foto Kaleb" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                                                                                                                  |
+| 2  | A persona está definida como usuário primário, secundário, outro stakeholder ou anti-usuário, quem não vai utilizar o sistema, logo não deve influenciar?               | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)       | <br><img src="..\verificacao\assets\img\img-personas\ANA-FOTO-PERSONAS.png" alt="Foto Ana" width="200"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                        |
+| 3  | A persona foi definida com base nos objetivos do domínio de atividade do usuário?                           | [Yzabella Miranda](https://github.com/redjsun)  | <br><img src="..\verificacao\assets\img\img-personas\ANA-FOTO-PERSONAS.png" alt="Foto Yza" width="200"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>              |
+| 4  | Aponta frustrações ou problemas enfrentados com sistemas anteriores?                                        | [Matheus de Alcântara](https://github.com/matheusdealcantara)   | <br><img src="..\verificacao\assets\img\img-personas\1-matheus.png" alt="Foto Matheus" width="150"/><br><a href="https://mrce.in/ebooks/Interaction%20Design%206th%20Ed.pdf">Livro Interaction Design: Beyond Human-Computer Interaction</a></div>                                                 |
+| 5  | As habilidades da persona identificada não se limitam ao nosso produto em específico?                       | [Isaque Camargos](https://github.com/isaqzin)    | <br><img src="..\verificacao\assets\img\img-personas\1-imagem-ISAQUE.png" alt="Foto Isaque" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                          |
+| 6  | A persona possui expectativas sobre como o sistema ou produto deve funcionar?                               | [Lucas Alves](https://github.com/LucasAlves71)     | <br><img src="..\verificacao\assets\img\img-personas\1-imagem-ISAQUE.png" alt="Foto Lucas" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                          |
+| 7  | Os requisitos da persona estão detalhados?                                                                   | [Othavio Araujo Bolzan](https://github.com/bolzanMGB)   | <br><img src="..\verificacao\assets\img\img-personas\1-imagem-ISAQUE.png" alt="Foto Othavio" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                          |
+| 8  | Há ao menos uma persona por papel de usuário?                                                                | [Isaque Camargos](https://github.com/isaqzin)    | Barbosa, S. D. J. et al., <br><img src="..\verificacao\assets\img\img-personas\1-imagem-ISAQUE.png" alt="Foto Isaque" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                          |
+| 9  | Tem uma imagem ou representação visual que a torne memorável?                                               | [Lucas Alves](https://github.com/LucasAlves71)     | <br><img src="..\verificacao\assets\img\img-personas\1-imagem-ISAQUE.png" alt="Foto Lucas" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                          |
+| 10  | A persona é derivada de dados reais coletados com usuários ou stakeholders reais? Possíveis usuários típicos?| [Kaleb Macedo](https://github.com/kalebmacedo)     | <br><img src="..\verificacao\assets\img\img-personas\1-imagem-ISAQUE.png" alt="Foto Kaleb" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                         |
+
+</center>
+
+<font size="3"><p style="text-align: center">Fonte: [Kaleb Macedo](https://github.com/kalebmacedo).</p></font>
+---
+
 ## Como utilizar esta lista de verificação
 
 - Para cada item da lista, o revisor deve:
@@ -91,3 +113,4 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 | `1.0`  | 23/04/2025 | Criação do documento | [Lucas Alves](https://github.com/LucasAlves71) e [Kaleb Macedo](https://github.com/kalebmacedo) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 | `1.1`  | 01/05/2025 | Adição da Lista da entrevista| [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 | `1.2`  | 01/05/2025 | Atualizando lista de perfil de usuário | [Lucas Alves](https://github.com/LucasAlves71) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+| `1.3`  | 01/05/2025 | Criação da Lista de Personas | [Kaleb Macedo](https://github.com/kalebmacedo) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
