@@ -51,6 +51,10 @@ nav:
           - Entrega 1: inspecao/lista_de_inspecaoEntrega1.md
       - Grupo +1:
           - Entrega 1: inspecao/lista_de_inspecaoEntrega1Grupo+1.md
+
+  - Elicitação:
+      - Glossário: elicitacao/glossario.md
+
           
 extra_css:
   - stylesheets/extra.css
