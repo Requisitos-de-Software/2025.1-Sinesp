@@ -48,7 +48,7 @@ Na Tabela 1, os termos críticos do GDF Saúde foram organizados e detalhados, c
 | **Dependente**           | Familiares vinculados ao titular (ex.: filhos até 24 anos). Regras específicas de inclusão e documentação. Termo com definição não intuitiva.                   |  
 | **Autorização Prévia**   | Avaliação obrigatória para procedimentos não urgentes. Processo técnico para evitar custos não cobertos.                                                        |  
 | **Rede de Atendimento**  | Prestadores de serviços credenciados pelo INAS. Termo técnico que restringe atendimentos a hospitais/clínicas contratadas.                                       |  
-| **CID-10**               | Sigla para *Classificação Estatística Internacional de Doenças (10ª revisão)*. Base para diagnósticos cobertos, especialmente em saúde mental.                   |  
+| **CID**               | Sigla para *Classificação Estatística Internacional de Doenças (10ª revisão)*. Base para diagnósticos cobertos, especialmente em saúde mental.                   |  
 | **Exclusões**            | Serviços não cobertos pelo plano (ex.: terapias alternativas). Lista detalhada com definições não intuitivas (ex.: check-up sem sintomas).                      |  
 | **Portaria**             | Ato administrativo que regulamenta o plano (ex.: Portaria nº 127/2024). Termo jurídico específico do contexto brasileiro.                                        |  
 | **Processo Administrativo** | Tramitação formal de solicitações ou recursos no INAS. Termo técnico com etapas definidas (ex.: revisão de cobertura).                                          |  
@@ -71,11 +71,11 @@ A partir da análise dos conceitos relacionados ao domínio do GDF Saúde, ident
 | GL002    | RF       | Validação de Cobertura        | Verificar se procedimentos estão na TABGDFSAÚDE e atendem às DUT antes da autorização.                 |  
 | GL003    | RF       | Gestão de Carência            | Bloquear procedimentos sujeitos a carência (ex.: parto após 300 dias) até cumprimento do prazo.        |  
 | GL004    | RF       | Cálculo de Coparticipação     | Aplicar percentuais de coparticipação conforme tipo de atendimento (ex.: 30% para consultas).          |  
-| GL005    | RF       | Autorização Prévia            | Exigir solicitação médica e análise técnica do INAS para procedimentos eletivos.                       |  
+| GL005    | RF       | Autorização Prévia            | Exigir solicitação médica e análise técnica do INAS para procedimentos eletivos por meio do aplicativo.                       |  
 | GL006    | RF       | Integração com Rede Credenciada | Permitir agendamento e pagamento automático para prestadores da Rede de Atendimento.                  |  
-| GL007    | RF       | Bloqueio de Exclusões         | Rejeitar automaticamente solicitações de procedimentos listados em Exclusões (ex.: cirurgias estéticas). |  
-| GL008    | RF       | Classificação por CID-10      | Vincular diagnósticos a códigos CID-10 para validar cobertura em saúde mental.                        |  
-| GL009    | RF       | Gerenciamento de Servidores   | Validar o vínculo ativo/inativo do servidor com o GDF para elegibilidade.                             |  
+| GL007    | RF       | Bloqueio de Exclusões         | Rejeitar automaticamente solicitações de procedimentos listados em Exclusões de acordo com o CID. (ex.: cirurgias estéticas). |    
+| GL008    | RF       | Gerenciamento de Servidores   | Validar o vínculo ativo/inativo do servidor com o GDF para elegibilidade.                             |  
+| GL009    | RF       | Gerenciamento dos Dependentes   | Validar a elegibiidade do dependente de acordo com as diretrizes do aplicativo.                             |  
 | GL010    | RNF      | Conformidade Legal            | Garantir conformidade com a Portaria nº 127/2024 e legislações complementares (ex.: Lei nº 3.831/2006). |  
 | GL011    | RNF      | Disponibilidade               | Manter sistema disponível 24/7 para autorizações de urgência/emergência.                               |  
 | GL012    | RNF      | Segurança de Dados            | Criptografar dados sensíveis (ex.: documentos) conforme LGPD.                                           |  
