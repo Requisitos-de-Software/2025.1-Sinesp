@@ -23,19 +23,21 @@ Por isso, o documento apresenta o cronograma da disciplina de **Requisitos de So
      - [Lichess (2022.2)](https://requisitos-de-software.github.io/2022.2-Lichess/planejamento/cronograma_realizado/#ponto-de-controle-7)  
      - [Bilheteria Digital (2023.1)](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/planejamento/cronograma/#entrega-final).  
 
-Em **18 de abril de 2025**, o documento passou por atualização para maior detalhamento, mantendo intacto o cronograma da *Entrega 1* uma vez que essa entrega já foi concluída.
+Em **18 de abril de 2025**, o documento passou por atualização para maior detalhamento, mantendo intacto o cronograma da *Entrega 1* uma vez que essa entrega já foi concluída. Mas no dia **01 de maio de 2025** foi atualizado novamente para atualizar a nova data de entrega para a entrega 2, que apesar de ter sido falado em sala de aula, não foi alterado no plano de ensino.
 
 
 <br>
 
 ## Entregas do Projeto
 
+<br>
+
 <p align="center">Tabela 1 – Datas das Entregas</p>
 
 | Entrega       | Descrição                                                      | Data Limite |
 |---------------|----------------------------------------------------------------|-------------|
 | Entrega 1     | Planejamento do Projeto (definição da equipe, ferramentas, rich picture e cronograma) | 13/04       |
-| Entrega 2     | Elicitação e Priorização de Requisitos (perfil, técnicas, priorização)              | 27/04       |
+| Entrega 2     | Elicitação e Priorização de Requisitos (perfil, técnicas, priorização)              | 04/05/2025      |
 | Entrega 3     | Modelagem de Requisitos (cenários, léxico, casos de uso, especificação suplementar)  | 13/05       |
 | Entrega 4     | Modelagem Ágil de Requisitos (histórias de usuário, backlogs, NFR framework)         | 27/05       |
 | Entrega 6     | Testes Finais e Pós‑Rastreabilidade (gerência II)                                    | 10/06       |
@@ -49,7 +51,9 @@ Em **18 de abril de 2025**, o documento passou por atualização para maior deta
 
 ## Cronograma da Entrega 1 – Planejamento  
 
-<p align="center">Tabela 2 – Entrega 1</p>
+<br>
+
+<p align="center">Tabela 2 – Entrega 1 Planejada</p>
 
 
 | Título | Autor(es) | Revisor | Início | Prazo | Período de Revisão |
@@ -71,23 +75,28 @@ Em **18 de abril de 2025**, o documento passou por atualização para maior deta
 
 ## Cronograma da Entrega 2 - Elicitação e Análise de Requisitos
 
+<br>
 
-<p align="center">Tabela 3 – Entrega 2</p>
+<p align="center">Tabela 3 – Entrega 2 Planejada</p>
 
 | Título | Autor(es) | Revisor | Data de início | Data do fim | Data para revisão |
 |---|---|---|---|---|---|
 | Correções no projeto conforme apontado na apresentação anterior | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves | Matheus de Alcântara | 22/04/2025 | 18/04/2025 | 18/04/2025 - 19/04/2025 |
-| Criação de personas e perfis de usuário | Isaque Camargos, Yzabella Miranda, Matheus de Alcântara | Lucas Alves | 19/04/2025 | 24/04/2025 | 24/04/2025 - 25/04/2025 |
-| Priorização dos requisitos: "First Thing First" e "Quality Function Deployment" | Ana Luiza Soares, Othavio Bolzan, Matheus de Alcântara | Isaque Camargos | 19/04/2025 | 24/04/2025 | 24/04/2025 - 25/04/2025 |
-| Elicitação de requisitos: Introspecção | Othavio Bolzan, Lucas Alves | Kaleb Macedo | 19/04/2025 | 24/04/2025 | 24/04/2025 - 25/04/2025 |
-| Elicitação de requisitos: Observação | Matheus de Alcântara, Yzabella Miranda | Othavio Bolzan | 19/04/2025 | 24/04/2025 | 24/04/2025 - 25/04/2025 |
-| Elicitação de requisitos: Questionário | Lucas Alves, Othavio Bolzan, Kaleb Macedo | Yzabella Miranda | 19/04/2025 | 24/04/2025 | 24/04/2025 - 25/04/2025 |
-| Elicitação de requisitos: Entrevista | Ana Luiza Soares, Isaque Camargos | Ana Luiza Soares | 19/04/2025 | 24/04/2025 | 24/04/2025 - 25/04/2025 |
-| Criação da lista de verificação | Kaleb Macedo, Lucas Alves  | Ana Luiza Soares | 19/04/2025 | 24/04/2025 | 24/04/2025 - 25/04/2025 |
-| Gravação da inspeção do grupo | Isaque Camargos, Ana Luiza Soares  | Matheus de Alcântara | 26/04/2025 | 26/04/2025 | 26/04/2025 |
-| Gravação da Apresentação | Isaque Camargos | Ana Luiza Soares | 26/04/2025 | 26/04/2025 | 26/04/2025 |
-| Envio da entrega | Yzabella Miranda | Kaleb Macedo | 27/04/2025 | 27/04/2025 | 27/04/2025 |
-| Gravação da Inspeção Grupo + 1 | Ana Luiza Soares | Othavio Bolzan | 28/04/2025 | 28/04/2025 | 28/04/2025 |
+| Criação de personas e perfis de usuário | Isaque Camargos, Yzabella Miranda, Matheus de Alcântara | Lucas Alves | 19/04/2025 | 02/05/2025 | 02/05/2025 - 03/05/2025 |
+| Priorização dos requisitos: "First Thing First" e "Quality Function Deployment" | Ana Luiza Soares, Othavio Bolzan, Matheus de Alcântara, Yzabella Miranda | Isaque Camargos | 19/04/2025 | 02/05/2025 | 02/05/2025 - 03/05/2025 |
+| Priorização dos requisitos: "MoSCoW" e "100 Dólares" | Isaque Camargos, Kaleb Macedo, Lucas Alves | Othavio Bolzan | 19/04/2025 | 02/05/2025 | 02/05/2025 - 03/05/2025 |
+| Elicitação de requisitos: Introspecção | Othavio Bolzan, Lucas Alves | Kaleb Macedo | 19/04/2025 | 02/05/2025 | 02/05/2025 - 03/05/2025 |
+| Elicitação de requisitos: Grupo Focal | Matheus de Alcântara, Yzabella Miranda | Othavio Bolzan | 19/04/2025 | 02/05/2025 | 02/05/2025 - 03/05/2025 |
+| Elicitação de requisitos: Questionário | Lucas Alves, Othavio Bolzan, Kaleb Macedo | Yzabella Miranda | 19/04/2025 | 02/05/2025 | 02/05/2025 - 03/05/2025 |
+| Elicitação de requisitos: Entrevista | Ana Luiza Soares, Isaque Camargos | Yzabella Miranda | 19/04/2025 | 02/05/2025 | 02/05/2025 - 03/05/2025 |
+| Elicitação de requisitos: Glossário | Ana Luiza Soares, Yzabella Miranda | Isaque Camargos | 19/04/2025 | 02/05/2025 | 02/05/2025 - 03/05/2025 |
+| Criação da lista de verificação | Kaleb Macedo, Lucas Alves  | Ana Luiza Soares | 19/04/2025 | 02/05/2025 | 02/05/2025 - 03/05/2025 |
+| Gravação da inspeção do grupo | Isaque Camargos, Ana Luiza Soares  | Matheus de Alcântara | 04/05/2025 | 04/05/2025 | 04/05/2025 |
+| Gravação da Apresentação | Isaque Camargos | Ana Luiza Soares | 04/05/2025 | 04/05/2025 | 04/05/2025 |
+| Envio da entrega | Yzabella Miranda | Kaleb Macedo | 04/05/2025 | 04/05/2025 | 04/05/2025 |
+| Gravação da Inspeção Grupo + 1 | Ana Luiza Soares | Othavio Bolzan | 05/05/2025 | 05/05/2025 | 05/05/2025 |
+
+
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
@@ -97,8 +106,9 @@ Em **18 de abril de 2025**, o documento passou por atualização para maior deta
 
 ## Cronograma da Entrega 3 – Modelagem de Requisitos
 
+<br>
 
-<p align="center">Tabela 4 – Entrega 3</p>
+<p align="center">Tabela 4 – Entrega 3 Planejada</p>
 
 | Título | Autor(es) | Revisor | Data de início | Data do fim | Data para revisão |
 |---|---|---|---|---|---|
@@ -121,7 +131,9 @@ Em **18 de abril de 2025**, o documento passou por atualização para maior deta
 
 ## Cronograma da Entrega 4 – Modelagem de Requisitos: Ágil
 
-<p align="center">Tabela 5 – Entrega 4</p>
+<br>
+
+<p align="center">Tabela 5 – Entrega 4 Planejada</p>
 
 | Título | Autor(es) | Revisor | Data de início | Data do fim | Data para revisão |
 |---|---|---|---|---|---|
@@ -143,7 +155,9 @@ Em **18 de abril de 2025**, o documento passou por atualização para maior deta
 
 ## Cronograma da Entrega 5 – Verificação e Validação
 
-<p align="center">Tabela 6 – Entrega 5</p>
+<br>
+
+<p align="center">Tabela 6 – Entrega 5 Planejada</p>
 
 | Título | Autor(es) | Revisor | Data de início | Data do fim | Data para revisão |
 |---|---|---|---|---|---|
@@ -177,7 +191,7 @@ Em **18 de abril de 2025**, o documento passou por atualização para maior deta
 
 ## Cronograma da Entrega 6 – Pós-Rastreabilidade - Gerência II
 
-<p align="center">Tabela 7 – Entrega 6</p>
+<p align="center">Tabela 7 – Entrega 6 Planejada</p>
 
 | Título | Autor(es) | Revisor | Data de início | Data do fim | Data para revisão |
 |---|---|---|---|---|---|
@@ -199,7 +213,9 @@ Em **18 de abril de 2025**, o documento passou por atualização para maior deta
 
 ## Cronograma da Entrega Final – Desenvolvimento e Finalização do Projeto
 
-<p align="center">Tabela 8 – Entrega Final</p>
+<br>
+
+<p align="center">Tabela 8 – Entrega Final Planejada</p>
 
 | Título | Autor(es) | Revisor | Data de início | Data do fim | Data para revisão |
 |---|---|---|---|---|---|
@@ -244,7 +260,7 @@ SALES, André Barros de. Plano de ensino da disciplina Requisitos de Software �
 | 1.1    | 12/04/2025 | Adição da tarefa "cronograma executado"         | [Isaque Camargos](https://github.com/isaqzin)         | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
 | 1.2    | 13/04/2025 | Ajustes de datas conforme regras do projeto e inclusão da tarefa de gravação das apresentações em cada entrega | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |  [Matheus de Alcântara](https://github.com/matheusdealcantara) |
 | 2.0    | 18/04/2025 | Detalhamento do Cronograma | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |  [Matheus de Alcântara](https://github.com/matheusdealcantara) |
-
+| 2.1    | 01/05/2025 | Atualização para corresponder com a nova data da entrega 2 | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |  
 ‌
 
 ‌
