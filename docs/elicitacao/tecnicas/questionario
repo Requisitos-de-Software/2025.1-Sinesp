@@ -1,10 +1,51 @@
 # Questionário de Perfil de Usuário - Aplicativo GDF-Saúde
 
+## Introdução e Metodologia
+O presente relatório tem como objetivo mapear o perfil dos usuários do aplicativo **GDF-Saúde** por meio de um instrumento de coleta quantitativa estruturado em forma de questionário. A metodologia adotada envolveu a elaboração de perguntas objetivas e discursivas relacionadas ao uso, experiência, percepção de segurança e sugestões de melhoria.
+
+O questionário foi elaborado e divulgado por meio dos seguintes canais:
+- A coleta foi feita via Google Forms, de forma anônima, respeitando a LGPD (Lei 13.709/2018).
+- Disparados em grupos de WhatsApp que possuem servidores públicos usuários do app
+- Divulgação espontânea entre colegas de trabalho e beneficiários do plano de saúde
+
 ## Objetivo  
 Este relatório tem como finalidade analisar em profundidade as respostas obtidas por meio do questionário aplicado a usuários e não usuários do aplicativo GDF-Saúde. Busca-se identificar perfis de uso, principais dificuldades enfrentadas, funcionalidades valorizadas, bem como oportunidades de melhoria a partir da experiência real dos respondentes.
 
 ---
 
+## Requisitos Elicitados
+As tabelas 1 e 2 listadas a seguir contém os requisitos que foram elicitados durante a realização desta técnica de elicitação de requisitos.
+
+### Requisitos Funcionais
+
+| ID   | Requisito Funcional                                                                                       | Prioridade |
+|------|-----------------------------------------------------------------------------------------------------------|------------|
+| RF01 | Permitir acesso rápido e estável à carteirinha digital                                                    | Alta       |
+| RF02 | Exibir extrato financeiro atualizado diariamente                                                          | Alta       |
+| RF03 | Listar rede credenciada com filtro por região, especialidade e tipo de atendimento                        | Alta       |
+| RF04 | Mostrar histórico de consultas, exames e coparticipações                                                  | Alta       |
+| RF05 | Permitir visualização dos valores a serem cobrados no mês                                                | Média      |
+| RF06 | Habilitar notificações personalizadas por tipo (importantes, lembretes etc.)                             | Média      |
+| RF07 | Adicionar consulta à rede odontológica                                                                    | Baixa      |
+| RF08 | Oferecer ferramenta de busca por especialidade em determinada localidade                                 | Alta       |
+| RF09 | Visualizar status de autorizações e solicitações médicas em tempo real                                   | Média      |
+
+---
+
+### Requisitos Não Funcionais
+
+| ID    | Requisito Não Funcional                                                                                  | Prioridade |
+|-------|----------------------------------------------------------------------------------------------------------|------------|
+| RNF01 | O aplicativo deve apresentar **alta disponibilidade** (mínimo de 99% uptime)                             | Alta       |
+| RNF02 | A interface deve ser **intuitiva, acessível e responsiva** em smartphones Android e iOS                 | Alta       |
+| RNF03 | O tempo de resposta das ações não deve ultrapassar 2 segundos                                            | Alta       |
+| RNF04 | As informações exibidas devem ser **claras, completas e atualizadas em tempo real**                     | Alta       |
+| RNF05 | O app deve ser compatível com leitores de tela (acessibilidade digital)                                  | Média      |
+| RNF06 | A segurança das informações do usuário deve seguir os padrões da LGPD                                    | Alta       |
+| RNF07 | O layout deve ser consistente com o portal oficial do plano                                              | Baixa      |
+| RNF08 | As notificações devem ser configuráveis pelo usuário (frequência, tipo)
+
+---
 ## INAS
 
 ### Utiliza
@@ -13,7 +54,7 @@ Este relatório tem como finalidade analisar em profundidade as respostas obtida
 
 <p align="center"><strong>Figura 1 da Utilização</strong> </p>
 <p align="center">
-  <img src="..\assets\inas.png" alt="10" width="500"/>
+  <img src="..\..\assets\inas.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -24,7 +65,7 @@ Este relatório tem como finalidade analisar em profundidade as respostas obtida
 
 <p align="center"><strong>Figura 2 Utilização </strong> </p>
 <p align="center">
-  <img src="..\assets\ja-utilizou.png" alt="10" width="500"/>
+  <img src="..\..\assets\ja-utilizou.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -40,7 +81,7 @@ As faixas etárias mais recorrentes entre os respondentes são:
 
 <p align="center"><strong>Figura 1: Faixa Etária</strong> </p>
 <p align="center">
-  <img src="..\assets\01.png" alt="01" width="500"/>
+  <img src="..\..\assets\01.png" alt="01" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -53,7 +94,7 @@ As faixas etárias mais recorrentes entre os respondentes são:
 
 <p align="center"><strong>Figura 2: Gênero</strong> </p>
 <p align="center">
-  <img src="..\assets\02.png" alt="02" width="500"/>
+  <img src="..\..\assets\02.png" alt="02" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -70,7 +111,7 @@ As regiões mais citadas incluem:
 
 <p align="center"><strong>Figura 3: Região Administrativa</strong> </p>
 <p align="center">
-  <img src="..\assets\03.png" alt="03" width="500"/>
+  <img src="..\..\assets\03.png" alt="03" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -82,7 +123,7 @@ As regiões mais citadas incluem:
 
 <p align="center"><strong>Figura 4: Escolaridade</strong> </p>
 <p align="center">
-  <img src="..\assets\04.png" alt="04" width="500"/>
+  <img src="..\..\assets\04.png" alt="04" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -94,7 +135,7 @@ As regiões mais citadas incluem:
 
 <p align="center"><strong>Figura 5: Ocupação</strong> </p>
 <p align="center">
-  <img src="..\assets\05.png" alt="05" width="500"/>
+  <img src="..\..\assets\05.png" alt="05" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -106,7 +147,7 @@ As regiões mais citadas incluem:
 
 <p align="center"><strong>Figura 6: Outro Plano</strong> </p>
 <p align="center">
-  <img src="..\assets\06.png" alt="06" width="500"/>
+  <img src="..\..\assets\06.png" alt="06" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -118,7 +159,7 @@ As regiões mais citadas incluem:
 
 <p align="center"><strong>Figura 7: Titular ou Dependente</strong> </p>
 <p align="center">
-  <img src="..\assets\07.png" alt="07" width="500"/>
+  <img src="..\..\assets\07.png" alt="07" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -131,7 +172,7 @@ As regiões mais citadas incluem:
 
 <p align="center"><strong>Figura 8: Dependentes</strong> </p>
 <p align="center">
-  <img src="..\assets\08.png" alt="08" width="500"/>
+  <img src="..\..\assets\08.png" alt="08" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -147,7 +188,7 @@ As regiões mais citadas incluem:
 
 <p align="center"><strong>Figura 9: Frequência de Uso</strong> </p>
 <p align="center">
-  <img src="..\assets\09.png" alt="09" width="500"/>
+  <img src="..\..\assets\09.png" alt="09" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -163,7 +204,7 @@ As principais funcionalidades acessadas foram:
 
 <p align="center"><strong>Figura 10: Finalidades Mais Comuns</strong> </p>
 <p align="center">
-  <img src="..\assets\10.png" alt="10" width="500"/>
+  <img src="..\..\assets\10.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -199,7 +240,7 @@ As principais respostas foram:
 
 <p align="center"><strong>Figura 11: Erros e Travamentos </strong> </p>
 <p align="center">
-  <img src="..\assets\12.png" alt="11" width="500"/>
+  <img src="..\..\assets\12.png" alt="11" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -212,7 +253,7 @@ As principais respostas foram:
 
 <p align="center"><strong>Figura 12: Escala de Facilidade</strong> </p>
 <p align="center">
-  <img src="..\assets\13.png" alt="12" width="500"/>
+  <img src="..\..\assets\13.png" alt="12" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -228,7 +269,7 @@ Aos que afirmaram sim a esta pergunta, as mais frequêntes são:
 
 <p align="center"><strong>Figura 13: Problemas Identificados</strong> </p>
 <p align="center">
-  <img src="..\assets\14.png" alt="13" width="500"/>
+  <img src="..\..\assets\14.png" alt="13" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -244,7 +285,7 @@ Aos que afirmaram sim a esta pergunta, as mais frequêntes são:
 
 <p align="center"><strong>Figura 14: Expectativa</strong> </p>
 <p align="center">
-  <img src="..\assets\15.png" alt="10" width="500"/>
+  <img src="..\..\assets\15.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -256,7 +297,7 @@ Aos que afirmaram sim a esta pergunta, as mais frequêntes são:
 
 <p align="center"><strong>Figura 15: Finalidades Mais Comuns</strong> </p>
 <p align="center">
-  <img src="..\assets\16.png" alt="10" width="500"/>
+  <img src="..\..\assets\16.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -286,7 +327,7 @@ As respostas foram:
 
 <p align="center"><strong>Figura 16: Segurança</strong> </p>
 <p align="center">
-  <img src="..\assets\18.png" alt="10" width="500"/>
+  <img src="..\..\assets\18.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -298,7 +339,7 @@ As respostas foram:
 
 <p align="center"><strong>Figura 17: Frquência de Notificação</strong> </p>
 <p align="center">
-  <img src="..\assets\19.png" alt="10" width="500"/>
+  <img src="..\..\assets\19.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -315,7 +356,7 @@ As respostas foram:
 
 <p align="center"><strong>Figura 18: Familiaridade</strong> </p>
 <p align="center">
-  <img src="..\assets\20.png" alt="10" width="500"/>
+  <img src="..\..\assets\20.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -328,7 +369,7 @@ As respostas foram:
 
 <p align="center"><strong>Figura 20: Dispositivo de Costume</strong> </p>
 <p align="center">
-  <img src="..\assets\21.png" alt="10" width="500"/>
+  <img src="..\..\assets\21.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -417,7 +458,7 @@ As respostas foram:
 
 <p align="center"><strong>Figura 21: Nunca Utilizou, motivos</strong> </p>
 <p align="center">
-  <img src="..\assets\Porque-nunca-utilizou.png" alt="10" width="500"/>
+  <img src="..\..\assets\Porque-nunca-utilizou.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -433,24 +474,24 @@ Os dados evidenciam que o aplicativo GDF-Saúde é conhecido e utilizado por boa
 ## Recomendações
 
 1. **Melhoria de performance e estabilidade**:
-   - Reduzir travamentos
-   - Corrigir bugs de acesso e carregamento
+      - Reduzir travamentos
+      - Corrigir bugs de acesso e carregamento
 
 2. **Reestruturação das funcionalidades principais**:
-   - Extrato financeiro e coparticipação em tempo real
-   - Ampliar e atualizar rede credenciada
+      - Extrato financeiro e coparticipação em tempo real
+      - Ampliar e atualizar rede credenciada
 
 3. **Experiência do usuário (UX)**:
-   - Melhorar interface
-   - Tornar navegação mais intuitiva
-   - Incluir filtros por especialidade, localização e atendimento
+      - Melhorar interface
+      - Tornar navegação mais intuitiva
+      - Incluir filtros por especialidade, localização e atendimento
 
 4. **Transparência e comunicação**:
-   - Criar guia para novos usuários
-   - Maior divulgação dos canais oficiais
+      - Criar guia para novos usuários
+      - Maior divulgação dos canais oficiais
 
 5. **Acessibilidade**:
-   - Interface adaptada a públicos diversos, incluindo idosos
+      - Interface adaptada a públicos diversos, incluindo idosos
 
 ---
 
@@ -458,7 +499,7 @@ Os dados evidenciam que o aplicativo GDF-Saúde é conhecido e utilizado por boa
 
 <p align="center"><strong>Figura 22: LGPD</strong> </p>
 <p align="center">
-  <img src="..\assets\lgpd.png" alt="10" width="500"/>
+  <img src="..\..\assets\lgpd.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -471,4 +512,6 @@ Os dados evidenciam que o aplicativo GDF-Saúde é conhecido e utilizado por boa
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |--------|------|-----------|-----------|-------------|
 | 1.0 | 23/04/2025 | Elaboração do Questionário |  [Lucas Alves](https://github.com/LucasAlves71) e [Othavio Bolzan](https://github.com/bolzanMGB)  | [Kaleb Macedo](https://github.com/kalebmacedo) |
-| 1.0 | 01/05/20225 | Elaboração da Documentação do Questionário | [Kaleb Macedo](https://github.com/kalebmacedo) | -- |
+| 1.1 | 01/05/20225 | Elaboração da Documentação do Questionário | [Kaleb Macedo](https://github.com/kalebmacedo) | -- |
+| 1.2 | 02/05/2025 | Correção das Imagens |  [Isaque Camargos](https://github.com/isaqzin)   | [Kaleb Macedo](https://github.com/kalebmacedo) |
+| 1.3 | 02/05/2025 | Adição de mais informação ao documento | [Kaleb Macedo](https://github.com/kalebmacedo)    | [Isaque Camargos](https://github.com/isaqzin) |
