@@ -1,4 +1,3 @@
-
 # Técnica de Elicitação: Grupo Focal
 
 ## Introdução
@@ -7,7 +6,7 @@ O grupo focal é uma técnica de elicitação de requisitos que consiste em uma 
 
 ## Metodologia
 
-A técnica do grupo focal envolve reunir de forma presencial ou remota um grupo de participantes representativos do público-alvo. Um moderador conduz a conversa com base em perguntas previamente preparadas, promovendo o debate entre os integrantes. Os dados coletados nessa interação ajudam a identificar necessidades, problemas e ideias valiosas para a definição de requisitos do sistema. Foi realizada pela integrante [Yzabella Miranda](https://github.com/redsjun) com os usuários Victor Schmidt e Marcos Goulart, a Tabela 1 apresenta os dados dos participantes da reunião. 
+A técnica do grupo focal envolve reunir de forma presencial ou remota um grupo de participantes representativos do público-alvo. Um moderador conduz a conversa com base em perguntas previamente preparadas, promovendo o debate entre os integrantes. Os dados coletados nessa interação ajudam a identificar necessidades, problemas e ideias valiosas para a definição de requisitos do sistema. Foi realizada pela integrante <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a> com os usuários Victor Schmidt e Marcos Goulart, a Tabela 1 apresenta os dados dos participantes da reunião. 
 
 ## Dados da Reunião
 
@@ -18,7 +17,7 @@ A técnica do grupo focal envolve reunir de forma presencial ou remota um grupo 
 | Marcos Goulart            | 20    | A cada 2 a 3 meses        | Usa para exames e consultas         |
 | Victor Schmidt            | 20    | 1x por semana             | Novo usuário, ainda explorando      |
 
-<p align="center">Autor: <b><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></b></p>
+<p align="center">Autor: <b><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></b></p>
 
 ## Discussão em Seções
 
@@ -87,7 +86,7 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
     </table>
 </div>
 
-<p align="center">Autor: <b><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></b></p>
+<p align="center">Autor: <b><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></b></p>
 
 ## Requisitos Funcionais
 
@@ -106,7 +105,7 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
 | RF09   | O sistema deve oferecer um canal para o usuário enviar feedback sobre atendimentos.                   | GF09    | Sim         |              |
 | RF10   | O sistema deve exibir notificações sobre prazos importantes relacionados a consultas e exames.        | GF10    | Sim         |              |
 
-<p align="center">Autor: <b><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></b></p>
+<p align="center">Autor: <b><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></b></p>
 
 ## Requisitos Não Funcionais
 
@@ -123,7 +122,7 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
 | RNF07   | O sistema deve apresentar desempenho adequado, respondendo a interações em até 2 segundos.                              | GF17    | Sim         |              |
 | RNF08   | O sistema deve ser compatível com diferentes versões do Android e iOS, a partir das versões mais utilizadas no mercado. | GF18    | Sim         |              |
 
-<p align="center">Autor: <b><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></b></p>
+<p align="center">Autor: <b><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></b></p>
 
 # Lista de Verificação – Grupo Focal
 
@@ -141,58 +140,60 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
             <tr>
                 <td>Q1</td>
                 <td>O objetivo da reunião está claro para todos os participantes?</td>
-                <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
                 <td><img src="../assets/img/grupo_focal_3.png"></td>
             </tr>
             <tr>
                 <td>Q2</td>
                 <td>A reunião foi realizada com representantes dos usuários?</td>
-                <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
                 <td><img src="../assets/img/grupo_focal_3.png"></td>
             </tr>
             <tr>
                 <td>Q3</td>
                 <td>Foi definida uma pauta com os principais temas da discussão?</td>
-                <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
                 <td><img src="../assets/img/grupo_focal_5.png"></td>
             </tr>
             <tr>
                 <td>Q4</td>
                 <td>O facilitador conduziu a sessão de forma neutra e produtiva?</td>
-                <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
                 <td><img src="../assets/img/grupo_focal_4.png"></td>
             </tr>
             <tr>
                 <td>Q5</td>
                 <td>Os participantes foram incentivados a dar suas opiniões livremente?</td>
-                <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
                 <td><img src="../assets/img/grupo_focal_3.png"></td>
             </tr>
             <tr>
                 <td>Q6</td>
                 <td>A sessão foi gravada ou registrada por alguém para garantir que nada fosse perdido?</td>
-                <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
                 <td><img src="../assets/img/grupo_focal_4.png"></td>
             </tr>
             <tr>
                 <td>Q7</td>
                 <td>Foi preparado algum material de apoio, como protótipos ou exemplos, para facilitar a discussão?</td>
-                <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
                 <td><img src="../assets/img/grupo_focal_5.png"></td>
             </tr>
             <tr>
                 <td>Q8</td>
                 <td>Os resultados da reunião serão compartilhados com os envolvidos para revisão e complementação?</td>
-                <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
                 <td><img src="../assets/img/grupo_focal_5.png"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
+<p align="center">Autor: <b><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></b></p>
+
 ## Referência bibliográfica
 
-WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3rd Edition. Microsoft Press, 2013. Disponível em: https://olivroqueaprende.com/WDK/Software_Requirements_3rd_Edition.pdf. Acesso em: 01 de maio 2025.
+WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3rd Edition. Microsoft Press, 2013. Disponível em: <a href="https://olivroqueaprende.com/WDK/Software_Requirements_3rd_Edition.pdf" target="_blank">https://olivroqueaprende.com/WDK/Software_Requirements_3rd_Edition.pdf</a>. Acesso em: 01 de maio 2025.
 
 <img src="../assets/img/grupo_focal_1.png">
 <img src="../assets/img/grupo_focal_2.png">
@@ -201,4 +202,5 @@ WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3rd Edition. Microsoft Press,
 
 | Versão | Data          | Descrição                          | Autor(es)     |  Revisor(es)  |
 | ------ | ------------- | ---------------------------------- | ------------- | ------------- |
-| `1.0`  |  01/05/2025 |  Criação inicial do documento com as tabelas dos requisitos elicitados e seus tipos. A participante [Yzabella Miranda](https://github.com/redsjun) realizou a reunião. | [Matheus de Alcântara](https://github.com/matheusdealcantara)  | [Othavio Bolzan](https://github.com/bolzanMGB) |
+| `1.0`  |  01/05/2025 |  Criação inicial do documento com as tabelas dos requisitos elicitados e seus tipos. A participante <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a> realizou a reunião. | <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a>  | <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a> |
+| `1.1`  | 02/05/2025  | Criação da lista de verificação do artefato e atualização dos links para criar uma nova guia no navegador para melhor usabilidade | <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a> | <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a> |
