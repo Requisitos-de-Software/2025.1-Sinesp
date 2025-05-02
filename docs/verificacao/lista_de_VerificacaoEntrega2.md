@@ -28,6 +28,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 </center>
 
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
+
 ---
 
 ## Lista de Verificação - Perfil de Usuário - (Tabela 2)
@@ -47,6 +48,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 </center>
 
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
+
 ---
 
 ## Lista de Verificação - Entrevista - (Tabela 3)
@@ -69,6 +71,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 </center>
 
 <font size="3"><p style="text-align: center">Fonte: [Isaque Camargos](https://github.com/isaqzin).</p></font>
+
 ---
 
 # Lista de Verificação - Personas - (Tabela 4)
@@ -91,6 +94,57 @@ Interaction Design: Beyond Human-Computer Interaction
 </center>
 
 <font size="3"><p style="text-align: center">Fonte: [Kaleb Macedo](https://github.com/kalebmacedo).</p></font>
+
+---
+
+## Lista de Verificação - $100 - (Tabela 5)
+
+<center>
+
+| ID | Item de Verificação | Autor | Referência |
+|----|----------------------|-------|------------|
+| 1  | A equipe de priorização recebeu exatamente 100 dólares imaginários para distribuir?  | [Isaque Camargos](https://github.com/isaqzin) |<div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div> |
+| 2  | Nenhum requisito recebeu mais do que 100 dólares ?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div>|
+| 3  | A soma de todos os valores deu exatamente 100 dólares ? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div>|
+| 4  | Foi feito a média dos valores que cada requisito recebeu ?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div> |
+| 5  | A parte interessada foi instruída para evitar manipulações nos valores ?  |[Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img2_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div> |
+| 6 | A distribuição de dinheiro foi feita com base no desejo das partes interessadas ? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img2_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div> |
+| 7  | Se o dinheiro acabou, todo o resto foi dado com valor 0 ?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div> |
+| 8  | Cada participante realizou sua própria alocação de forma independente ?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div> |
+
+
+</center>
+
+<font size="3"><p style="text-align: center">Fonte: [Isaque Camargos](https://github.com/isaqzin).</p></font>
+
+### Tradução das imagens da Tabela 5
+
+Essa tradução foi feita com auxilio do Chat GPT.
+
+<p align="center" > <font>Figura 1: Imagem 1 de fonte da tabela 5</font> </p>
+<div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100%"></div>
+<font size="3"><p style="text-align: center">Fonte: <a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></p></font>
+
+Tradução:
+A priorização diz respeito à alocação cuidadosa de recursos limitados para alcançar o benefício máximo a partir do investimento que uma organização faz em um projeto. Uma maneira de tornar a priorização mais tangível é representá-la em termos de um recurso real: dinheiro. Neste caso, é apenas dinheiro fictício, mas ainda assim é dinheiro.
+
+Dê à equipe de priorização 100 dólares imaginários para trabalhar. Os membros da equipe alocam esses dólares para "comprar" itens que gostariam que fossem implementados a partir do conjunto completo de requisitos candidatos. Eles atribuem mais dólares aos requisitos de maior prioridade.
+
+Se um requisito for três vezes mais importante para um stakeholder do que outro requisito, ela poderia, por exemplo, atribuir nove dólares ao primeiro requisito e três dólares ao segundo. Mas 100 dólares é tudo o que os priorizadores têm — quando o dinheiro acabar, nada mais poderá ser implementado, pelo menos na versão do projeto em que estão focando no momento.
+
+Uma abordagem é permitir que diferentes participantes do processo de priorização realizem suas próprias alocações de dólares e, em seguida, somar o total de dólares atribuídos a cada requisito para ver quais aparecem coletivamente como os de maior prioridade. 
+
+<p align="center" > <font>Figura 2: Imagem 2 de fonte da tabela 5</font> </p>
+<div><img src="..\..\assets\lventrega2\img2_100dol.png" alt="Referência do item" width="100%"></div>
+<font size="3"><p style="text-align: center">Fonte: <a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></p></font>
+
+Tradução:
+A abordagem dos cem dólares não é uma má forma de fazer um grupo pensar em termos de alocação de recursos com base na prioridade. No entanto, Davis (2005) aponta várias maneiras pelas quais os participantes podem "manipular" o processo para distorcer os resultados. Por exemplo, se você realmente, REALMENTE quiser um requisito específico, pode atribuir todos os seus 100 dólares a ele para tentar colocá-lo no topo da lista.
+
+Na prática, no entanto, você nunca aceitaria um sistema que implementasse apenas aquele único requisito. Nem esse esquema leva em consideração a quantidade de esforço necessária para implementar cada um dos requisitos. Se você puder obter três requisitos, cada um avaliado em $10 pelo mesmo esforço que um único avaliado em $15, é mais vantajoso ficar com os três. O esquema baseia-se apenas no valor percebido de certos requisitos por um grupo específico de stakeholders, o que é uma limitação comum de muitas técnicas de priorização.
+
+Outra técnica de priorização é baseada em dinheiro real, não fictício. Na técnica “objective chain” de Joy Beatty e Anthony Chen (2012), você atribui um valor em dólares estimado que representa o quanto cada funcionalidade proposta contribui para os objetivos de negócios do projeto. Assim, é possível comparar o valor relativo das funcionalidades entre si e selecionar quais implementar primeiro.
+    
 ---
 
 ## Como utilizar esta lista de verificação
@@ -104,7 +158,10 @@ Interaction Design: Beyond Human-Computer Interaction
 ## Referências
 
 - SALES, André Barros de. [Plano de Ensino – Requisitos de Software: REE012025 – Turma 03](https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf). Brasília: Universidade de Brasília, Faculdade UnB Gama, 2025. 7 p. Acessado em: 23 de abril de 2025
-- Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. Pg 144 - 148 .Disponível em: [Interação Humano-Computador e Experiência do usuário](https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html). Acesso em: 30 de abril de 2024 
+
+- Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. Pg 144 - 148  .Disponível em: [Interação Humano-Computador e Experiência do usuário](https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html).Acesso em: 30 de abril de 2024 
+
+- WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Press, 2013. ISBN 978-0-7356-7966-5. p. 321 - 322 Disponível em: [Software Requirements](https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf)  .Acesso em: 01 de maio de 2025
 
 ## Histórico de Versões
 
@@ -114,3 +171,4 @@ Interaction Design: Beyond Human-Computer Interaction
 | `1.1`  | 01/05/2025 | Adição da Lista da entrevista| [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 | `1.2`  | 01/05/2025 | Atualizando lista de perfil de usuário | [Lucas Alves](https://github.com/LucasAlves71) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 | `1.3`  | 01/05/2025 | Criação da Lista de Personas | [Kaleb Macedo](https://github.com/kalebmacedo) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+| `1.4`  | 01/05/2025 | Adição da Lista da técnica $100| [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
