@@ -92,18 +92,18 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
 
 <p align="center">Tabela 2: Requisitos funcionais</p>
 
-| Tipo   | Descrição                                                                                             | ID      | Elaborado   | Implementado |
-|--------|-------------------------------------------------------------------------------------------------------|---------|-------------|--------------|
-| RF01   | O sistema deve permitir ao usuário avaliar uma clínica após o atendimento.                            | GF01    | Sim         |              |
-| RF02   | O sistema deve notificar o usuário sobre retornos médicos pendentes.                                  | GF02    | Sim         |              |
-| RF03   | O sistema deve notificar o usuário sobre abertura de agenda e cancelamentos de horários de interesse. | GF03    | Sim         |              |
-| RF04   | O sistema deve exibir os exames solicitados e associar aos respectivos retornos médicos.              | GF04    | Sim         |              |
-| RF05   | O sistema deve divulgar informações sobre novas funcionalidades no aplicativo.                        | GF05    | Sim         |              |
-| RF06   | O sistema deve permitir que o usuário favorite horários de consulta desejados.                        | GF06    | Sim         |              |
-| RF07   | O sistema deve alertar o usuário caso algum horário favorito fique disponível por desistência.        | GF07    | Sim         |              |
-| RF08   | O sistema deve permitir ao usuário visualizar um histórico de consultas e exames realizados.          | GF08    | Sim         |              |
-| RF09   | O sistema deve oferecer um canal para o usuário enviar feedback sobre atendimentos.                   | GF09    | Sim         |              |
-| RF10   | O sistema deve exibir notificações sobre prazos importantes relacionados a consultas e exames.        | GF10    | Sim         |              |
+| Tipo   | Descrição                                                                                             | ID      | Implementado |
+|--------|-------------------------------------------------------------------------------------------------------|---------|--------------|
+| RF01   | O sistema deve permitir ao usuário avaliar uma clínica após o atendimento.                            | GF01    |              |
+| RF02   | O sistema deve notificar o usuário sobre retornos médicos pendentes.                                  | GF02    |              |
+| RF03   | O sistema deve notificar o usuário sobre abertura de agenda e cancelamentos de horários de interesse. | GF03    |              |
+| RF04   | O sistema deve exibir os exames solicitados e associar aos respectivos retornos médicos.              | GF04    |              |
+| RF05   | O sistema deve divulgar informações sobre novas funcionalidades no aplicativo.                        | GF05    |              |
+| RF06   | O sistema deve permitir que o usuário favorite horários de consulta desejados.                        | GF06    |              |
+| RF07   | O sistema deve alertar o usuário caso algum horário favorito fique disponível por desistência.        | GF07    |              |
+| RF08   | O sistema deve permitir ao usuário visualizar um histórico de consultas e exames realizados.          | GF08    |              |
+| RF09   | O sistema deve oferecer um canal para o usuário enviar feedback sobre atendimentos.                   | GF09    |              |
+| RF10   | O sistema deve exibir notificações sobre prazos importantes relacionados a consultas e exames.        | GF10    |              |
 
 <p align="center">Autor: <b><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></b></p>
 
@@ -111,16 +111,16 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
 
 <p align="center">Tabela 3: Requisitos não funcionais</p>
 
-| Tipo    | Descrição                                                                                                               | ID      | Elaborado   | Implementado |
-|---------|-------------------------------------------------------------------------------------------------------------------------|---------|-------------|--------------|
-| RNF01   | O sistema deve exigir autenticação via GovBR para login.                                                                | GF11    | Sim         |              |
-| RNF02   | O sistema deve incluir autenticação em dois fatores para acesso aos dados de saúde.                                     | GF12    | Sim         |              |
-| RNF03   | O sistema deve ter uma interface organizada em categorias.                                                              | GF13    | Sim         |              |
-| RNF04   | O sistema deve ser transparente quanto ao uso e segurança dos dados do usuário.                                         | GF14    | Sim         |              |
-| RNF05   | O sistema deve garantir que informações críticas estejam acessíveis em até três cliques.                                | GF15    | Sim         |              |
-| RNF06   | O sistema deve manter histórico de notificações acessível ao usuário por no mínimo 6 meses.                             | GF16    | Sim         |              |
-| RNF07   | O sistema deve apresentar desempenho adequado, respondendo a interações em até 2 segundos.                              | GF17    | Sim         |              |
-| RNF08   | O sistema deve ser compatível com diferentes versões do Android e iOS, a partir das versões mais utilizadas no mercado. | GF18    | Sim         |              |
+| Tipo    | Descrição                                                                                                               | ID      | Implementado |
+|---------|-------------------------------------------------------------------------------------------------------------------------|---------|--------------|
+| RNF01   | O sistema deve exigir autenticação via GovBR para login.                                                                | GF11    |              |
+| RNF02   | O sistema deve incluir autenticação em dois fatores para acesso aos dados de saúde.                                     | GF12    |              |
+| RNF03   | O sistema deve ter uma interface organizada em categorias.                                                              | GF13    |              |
+| RNF04   | O sistema deve ser transparente quanto ao uso e segurança dos dados do usuário.                                         | GF14    |              |
+| RNF05   | O sistema deve garantir que informações críticas estejam acessíveis em até três cliques.                                | GF15    |              |
+| RNF06   | O sistema deve manter histórico de notificações acessível ao usuário por no mínimo 6 meses.                             | GF16    |              |
+| RNF07   | O sistema deve apresentar desempenho adequado, respondendo a interações em até 2 segundos.                              | GF17    |              |
+| RNF08   | O sistema deve ser compatível com diferentes versões do Android e iOS, a partir das versões mais utilizadas no mercado. | GF18    |              |
 
 <p align="center">Autor: <b><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></b></p>
 
