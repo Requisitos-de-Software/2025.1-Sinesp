@@ -27,6 +27,10 @@ Os vídeos estão armazenados como **não listados no YouTube** e podem ser disp
 ### Reunião 03 – Organização para apresentação e estruturação final  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j282D-g8U4M" frameborder="0" allowfullscreen></iframe>
 
+---
+
+### Reunião 04 – Alinhamento final para entrega e responsabilidades  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1_o5faJMlo8" frameborder="0" allowfullscreen></iframe>
 
 ## Gravações Grupos +1
 
@@ -40,3 +44,4 @@ Os vídeos estão armazenados como **não listados no YouTube** e podem ser disp
 |--------|------|-----------|-----------|-------------|
 | 1.0 | 11/04/2024 | Criação da aba de Vídeos Gravados |  [Kaleb Macedo](https://github.com/kalebmacedo)  | Todos |
 | 1.1 | 14/04/2025 | Adição da Gravação do Grupo +1    |  [Kaleb Macedo](https://github.com/kalebmacedo)  | Todos |
+| 2.0 | 21/04/2025  | Adição da ATA do dia 21/04      | [Kaleb Macedo](https://github.com/kalebmacedo)  |  Todos  |
