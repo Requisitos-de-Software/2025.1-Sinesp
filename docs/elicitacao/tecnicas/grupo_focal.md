@@ -92,18 +92,18 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
 
 <p align="center">Tabela 2: Requisitos funcionais</p>
 
-| Tipo   | Descrição                                                                                             | ID      | Elaborado   | Implementado |
-|--------|-------------------------------------------------------------------------------------------------------|---------|-------------|--------------|
-| RF   | O sistema deve permitir ao usuário avaliar uma clínica após o atendimento.                            | GF01    | Sim         |              |
-| RF   | O sistema deve notificar o usuário sobre retornos médicos pendentes.                                  | GF02    | Sim         |              |
-| RF   | O sistema deve notificar o usuário sobre abertura de agenda e cancelamentos de horários de interesse. | GF03    | Sim         |              |
-| RF   | O sistema deve exibir os exames solicitados e associar aos respectivos retornos médicos.              | GF04    | Sim         |              |
-| RF   | O sistema deve divulgar informações sobre novas funcionalidades no aplicativo.                        | GF05    | Sim         |              |
-| RF   | O sistema deve permitir que o usuário favorite horários de consulta desejados.                        | GF06    | Sim         |              |
-| RF   | O sistema deve alertar o usuário caso algum horário favorito fique disponível por desistência.        | GF07    | Sim         |              |
-| RF   | O sistema deve permitir ao usuário visualizar um histórico de consultas e exames realizados.          | GF08    | Sim         |              |
-| RF  | O sistema deve oferecer um canal para o usuário enviar feedback sobre atendimentos.                   | GF09    | Sim         |              |
-| RF  | O sistema deve exibir notificações sobre prazos importantes relacionados a consultas e exames.        | GF10    | Sim         |              |
+| Tipo   | Descrição                                                                                             | ID      | Implementado |
+|--------|-------------------------------------------------------------------------------------------------------|---------|--------------|
+| RF   | O sistema deve permitir ao usuário avaliar uma clínica após o atendimento.                            | GF01    |         Não     |
+| RF   | O sistema deve notificar o usuário sobre retornos médicos pendentes.                                  | GF02    |       Não       |
+| RF   | O sistema deve notificar o usuário sobre abertura de agenda e cancelamentos de horários de interesse. | GF03    |       Não       |
+| RF   | O sistema deve exibir os exames solicitados e associar aos respectivos retornos médicos.              | GF04    |       Não       |
+| RF   | O sistema deve divulgar informações sobre novas funcionalidades no aplicativo.                        | GF05    |        Sem certeza ainda      |
+| RF   | O sistema deve permitir que o usuário favorite horários de consulta desejados.                        | GF06    |        Não      |
+| RF   | O sistema deve alertar o usuário caso algum horário favorito fique disponível por desistência.        | GF07    |     Não         |
+| RF   | O sistema deve permitir ao usuário visualizar um histórico de consultas e exames realizados.          | GF08    |       Sem certeza ainda       |
+| RF  | O sistema deve oferecer um canal para o usuário enviar feedback sobre atendimentos.                   | GF09    |     Não      |
+| RF  | O sistema deve exibir notificações sobre prazos importantes relacionados a consultas e exames.        | GF10    |        Não     |
 
 <p align="center">Autor: <b><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></b></p>
 
@@ -111,16 +111,16 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
 
 <p align="center">Tabela 3: Requisitos não funcionais</p>
 
-| Tipo    | Descrição                                                                                                               | ID      | Elaborado   | Implementado |
-|---------|-------------------------------------------------------------------------------------------------------------------------|---------|-------------|--------------|
-| RNF   | O sistema deve exigir autenticação via GovBR para login.                                                                | GF11    | Sim         |              |
-| RNF   | O sistema deve incluir autenticação em dois fatores para acesso aos dados de saúde.                                     | GF12    | Sim         |              |
-| RNF   | O sistema deve ter uma interface organizada em categorias.                                                              | GF13    | Sim         |              |
-| RNF   | O sistema deve ser transparente quanto ao uso e segurança dos dados do usuário.                                         | GF14    | Sim         |              |
-| RNF   | O sistema deve garantir que informações críticas estejam acessíveis em até três cliques.                                | GF15    | Sim         |              |
-| RNF   | O sistema deve manter histórico de notificações acessível ao usuário por no mínimo 6 meses.                             | GF16    | Sim         |              |
-| RNF   | O sistema deve apresentar desempenho adequado, respondendo a interações em até 2 segundos.                              | GF17    | Sim         |              |
-| RNF   | O sistema deve ser compatível com diferentes versões do Android e iOS, a partir das versões mais utilizadas no mercado. | GF18    | Sim         |              |
+| Tipo    | Descrição                                                                                                               | ID      |
+|---------|-------------------------------------------------------------------------------------------------------------------------|---------|
+| RNF   | O sistema deve exigir autenticação via GovBR para login.                                                                | GF11    |
+| RNF   | O sistema deve incluir autenticação em dois fatores para acesso aos dados de saúde.                                     | GF12    |
+| RNF   | O sistema deve ter uma interface organizada em categorias.                                                              | GF13 | 
+| RNF   | O sistema deve ser transparente quanto ao uso e segurança dos dados do usuário.                                         | GF14    |
+| RNF   | O sistema deve garantir que informações críticas estejam acessíveis em até três cliques.                                | GF15    |
+| RNF   | O sistema deve manter histórico de notificações acessível ao usuário por no mínimo 6 meses.                             | GF16    |
+| RNF   | O sistema deve apresentar desempenho adequado, respondendo a interações em até 2 segundos.                              | GF17    |
+| RNF   | O sistema deve ser compatível com diferentes versões do Android e iOS, a partir das versões mais utilizadas no mercado. | GF18    |
 
 <p align="center">Autor: <b><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></b></p>
 
@@ -204,3 +204,4 @@ WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3rd Edition. Microsoft Press,
 | ------ | ------------- | ---------------------------------- | ------------- | ------------- |
 | `1.0`  |  01/05/2025 |  Criação inicial do documento com as tabelas dos requisitos elicitados e seus tipos. A participante <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a> realizou a reunião. | <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a>  | <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a> |
 | `1.1`  | 02/05/2025  | Criação da lista de verificação do artefato e atualização dos links para criar uma nova guia no navegador para melhor usabilidade | <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a> | <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a> |
+| `1.2`  | 02/05/2025  | AJuste de tabela, link de imagens e enumeração de requisios funcionais e não funcionais | <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a> | <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a> |
