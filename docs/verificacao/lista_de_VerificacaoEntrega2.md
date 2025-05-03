@@ -10,7 +10,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ## Lista de Verificação - Baseada no plano de ensino - (Tabela 1)
 
-<center>
+
 
 | ID | Item de Verificação | Autor | Referência |
 |----|----------------------|-------|------------|
@@ -25,7 +25,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 | 9  | A gravação e o(s) registro(s) da atividade de priorização dos requisitos? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\assets\img\lista_Entrega2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
 | 10  | Cada integrante da equipe elaborou pelo menos um item do conteúdo da disciplina com referência bibliográfica da fonte e foto do texto referência? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\assets\img\lista_Entrega2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
 
-</center>
+
 
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 
@@ -33,7 +33,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ## Lista de Verificação - Itens Técnicos e Documentais - (Tabela 2)
 
-<center>
+
 
 | ID | Item de Verificação | Autor | Referência |
 |----|--------------------|-------|------------|
@@ -46,7 +46,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 | 7 | As gravações de reuniões foram salvas? - Arquivos de vídeo das reuniões, armazenados para consulta futura. | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\assets\img\lista_parte2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
 | 8 | As apresentações no YouTube estão configuradas como "não listado"? - Garantia de que os vídeos estão acessíveis apenas para quem tiver o link, respeitando a privacidade. | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\assets\img\lista_parte2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
 
-</center>
+
 
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 
@@ -54,7 +54,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ## Lista de Verificação - Perfil de Usuário - (Tabela 3)
 
-<center>
+
 
 | ID | Item de Verificação | Autor | Referência |
 |----|----------------------|-------|------------|
@@ -66,7 +66,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 | 6 | O perfil é tratado como um artefato interativo, passível de revisão e refinamento ao longo do projeto? | [Othavio Bolzan](https://github.com/bolzanMGB) | <div><img src="..\assets\img\PerfildeUsuario_Othavio.png" alt="Referência do item" width="100px"><br><a hr  ef="https://aprender3.unb.br/pluginfile.php/3096073/mod_resource/content/2/ihc-ux-%20Personas.pdf">Livro IHC</a></div> |
 | 7  | Os dados dos usuários foram adequadamente coletados? | [Yzabella Miranda](https://github.com/redjsun) | <div><img src="..\assets\img\PerfildeUsuario_Yzabella.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096073/mod_resource/content/2/ihc-ux-%20Personas.pdf">Livro IHC</a></div> |
 
-</center>
+
 
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 
@@ -74,7 +74,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ## Lista de Verificação - Entrevista - (Tabela 4)
 
-<center>
+
 
 | ID | Item de Verificação | Autor | Referência |
 |----|----------------------|-------|------------|
@@ -89,7 +89,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 | 9 | O entrevistador fez um período de aquecimento ?   | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\estrutura.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
 | 10  | O entrevistador concluiu a reunião formalmente ? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\estrutura.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
 
-</center>
+
 
 <font size="3"><p style="text-align: center">Fonte: [Isaque Camargos](https://github.com/isaqzin).</p></font>
 
@@ -97,7 +97,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 # Lista de Verificação - Personas - (Tabela 5)
 Interaction Design: Beyond Human-Computer Interaction
-<center> 
+
 
 | ID  | Item de Verificação                                                                                          | Autor     | Referência                                                                                                                       |
 |-----|--------------------------------------------------------------------------------------------------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------|
@@ -112,7 +112,7 @@ Interaction Design: Beyond Human-Computer Interaction
 | 9  | Tem uma imagem ou representação visual que a torne memorável?                                               | [Lucas Alves](https://github.com/LucasAlves71)     | <br><img src="..\verificacao\assets\img\img-personas\1-imagem-ISAQUE.png" alt="Foto Lucas" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                          |
 | 10  | A persona é derivada de dados reais coletados com usuários ou stakeholders reais? Possíveis usuários típicos?| [Kaleb Macedo](https://github.com/kalebmacedo)     | <br><img src="..\verificacao\assets\img\img-personas\1-imagem-ISAQUE.png" alt="Foto Kaleb" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                         |
 
-</center>
+
 
 <font size="3"><p style="text-align: center">Fonte: [Kaleb Macedo](https://github.com/kalebmacedo).</p></font>
 
@@ -120,7 +120,7 @@ Interaction Design: Beyond Human-Computer Interaction
 
 ## Lista de Verificação - $100 - (Tabela 6)
 
-<center>
+
 
 | ID | Item de Verificação | Autor | Referência |
 |----|----------------------|-------|------------|
@@ -134,7 +134,7 @@ Interaction Design: Beyond Human-Computer Interaction
 | 8  | Cada participante realizou sua própria alocação de forma independente ?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div> |
 
 
-</center>
+
 
 <font size="3"><p style="text-align: center">Fonte: [Isaque Camargos](https://github.com/isaqzin).</p></font>
 
