@@ -141,49 +141,49 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
                 <td>Q1</td>
                 <td>O objetivo da reunião está claro para todos os participantes?</td>
                 <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../tecnicas/assets/img/grupo_focal_3.png"></td>
+                <td><img src="../assets/img/grupo_focal_3.png"></td>
             </tr>
             <tr>
                 <td>Q2</td>
                 <td>A reunião foi realizada com representantes dos usuários?</td>
                 <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../tecnicas/assets/img/grupo_focal_3.png"></td>
+                <td><img src="../assets/img/grupo_focal_3.png"></td>
             </tr>
             <tr>
                 <td>Q3</td>
                 <td>Foi definida uma pauta com os principais temas da discussão?</td>
                 <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../tecnicas/assets/img/grupo_focal_5.png"></td>
+                <td><img src="../assets/img/grupo_focal_5.png"></td>
             </tr>
             <tr>
                 <td>Q4</td>
                 <td>O facilitador conduziu a sessão de forma neutra e produtiva?</td>
                 <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../tecnicas/assets/img/grupo_focal_4.png"></td>
+                <td><img src="../assets/img/grupo_focal_4.png"></td>
             </tr>
             <tr>
                 <td>Q5</td>
                 <td>Os participantes foram incentivados a dar suas opiniões livremente?</td>
                 <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../tecnicas/assets/img/grupo_focal_3.png"></td>
+                <td><img src="../assets/img/grupo_focal_3.png"></td>
             </tr>
             <tr>
                 <td>Q6</td>
                 <td>A sessão foi gravada ou registrada por alguém para garantir que nada fosse perdido?</td>
                 <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../tecnicas/assets/img/grupo_focal_4.png"></td>
+                <td><img src="../assets/img/grupo_focal_4.png"></td>
             </tr>
             <tr>
                 <td>Q7</td>
                 <td>Foi preparado algum material de apoio, como protótipos ou exemplos, para facilitar a discussão?</td>
                 <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../tecnicas/assets/img/grupo_focal_5.png"></td>
+                <td><img src="../assets/img/grupo_focal_5.png"></td>
             </tr>
             <tr>
                 <td>Q8</td>
                 <td>Os resultados da reunião serão compartilhados com os envolvidos para revisão e complementação?</td>
                 <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../tecnicas/assets/img/grupo_focal_5.png"></td>
+                <td><img src="../assets/img/grupo_focal_5.png"></td>
             </tr>
         </tbody>
     </table>
@@ -191,12 +191,20 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
 
 <p align="center">Autor: <b><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></b></p>
 
+## Vídeo da elicitação
+
+<div align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nrQDSP9eyk4" title="Grupo Focal GDF-Saúde" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<p align="center">Vídeo 1: Gravação do grupo focal</p>
+
 ## Referência bibliográfica
 
 WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3rd Edition. Microsoft Press, 2013. Disponível em: <a href="https://olivroqueaprende.com/WDK/Software_Requirements_3rd_Edition.pdf" target="_blank">https://olivroqueaprende.com/WDK/Software_Requirements_3rd_Edition.pdf</a>. Acesso em: 01 de maio 2025.
 
-<img src="../tecnicas//assets/img/grupo_focal_1.png">
-<img src="../tecnicas//assets/img/grupo_focal_2.png">
+<img src="../assets/img/grupo_focal_1.png">
+<img src="../assets/img/grupo_focal_2.png">
 
 ## Histórico de versões
 
@@ -204,4 +212,5 @@ WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3rd Edition. Microsoft Press,
 | ------ | ------------- | ---------------------------------- | ------------- | ------------- |
 | `1.0`  |  01/05/2025 |  Criação inicial do documento com as tabelas dos requisitos elicitados e seus tipos. A participante <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a> realizou a reunião. | <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a>  | <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a> |
 | `1.1`  | 02/05/2025  | Criação da lista de verificação do artefato e atualização dos links para criar uma nova guia no navegador para melhor usabilidade | <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a> | <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a> |
-| `1.2`  | 02/05/2025  | AJuste de tabela, link de imagens e enumeração de requisios funcionais e não funcionais | <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a> | <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a> |
+| `1.2`  | 02/05/2025  | Ajuste de tabela, link de imagens e enumeração de requisios funcionais e não funcionais | <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a> | <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a> |
+| `1.3`  | 03/05/2025  | Adicionar vídeo da elicitação integrado ao documento | <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a> | <a href="https://github.com/bolzanMGB" target="_blank">Othabio Bolzan</a> |
