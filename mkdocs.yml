@@ -24,6 +24,7 @@ nav:
       - 28/03/2025: atas/ata_28_03.md
       - 04/04/2025: atas/ata_04_04.md
       - 11/04/2025: atas/ata_11_04.md
+      - 21/04/2025: atas/ata_21_04.md
   - Videos:
       - videos: videos/videos.md
   - Apresentação:
@@ -38,7 +39,13 @@ nav:
       - Aplicativos Avaliados: planejamento/aplicativos-avaliados.md
   - Pré-rastreabilidade:
       - Rich Picture: pre-rastreabilidade/rich_picture.md
-
+  - Elicitação:
+      - Técnicas:
+          - Introspecção: elicitacao/tecnicas/introspeccao.md
+          - Entrevista: elicitacao/tecnicas/entrevista.md
+          - Grupo Focal: elicitacao/tecnicas/grupo_focal.md
+          - Questionário: elicitacao/tecnicas/questionario.md
+          - Glossário: elicitacao/tecnicas/glossario.md
   - Verificação:
       - Grupo:
           - Entrega 1: verificacao/lista_de_VerificacaoEntrega1.md
