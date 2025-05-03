@@ -19,8 +19,9 @@ Para a elaboração das personas, o criador deste artefato [Lucas Alves](https:/
 Maria Lúcia é professora de História em uma escola pública de Brasília. Aos 54 anos, divide seu tempo entre o trabalho, os cuidados com a casa e os netos. Nos últimos anos, passou a usar mais o celular para resolver questões do dia a dia, como pagar contas e acompanhar sua saúde. Apesar de se virar bem com aplicativos mais simples, ela se sente frustrada com sistemas mal organizados e com linguagem técnica demais. Quando precisa acessar os exames do marido ou agendar uma nova consulta pelo plano de saúde, ela prefere fazer tudo pelo smartphone, mas já se irritou algumas vezes com a demora no carregamento ou por não encontrar as informações facilmente. Seu desejo é simples: conseguir resolver o que precisa sem perder tempo — afinal, a rotina já é corrida o suficiente.
 
 <div style="text-align: center">
-  <img src="..\..\assets\img\personas\Persona_Maria.jpg" alt="Foto de Maria Lúcia" width="200px"/>
   <p><i>Figura 1: Representação da persona Maria Lúcia</i></p>
+  <img src="..\..\assets\img\personas\Persona_Maria.jpg" alt="Foto de Maria Lúcia" width="200px"/>
+  <p><i>THIS PERSON DOESN'T EXIST. Disponível em: https://thispersondoesnotexist.com/. Acesso em: 02 de maio de 2024.</i></p>
 </div>
 
 - **Nome:** Maria Lúcia da Silva  
@@ -42,8 +43,9 @@ Maria Lúcia é professora de História em uma escola pública de Brasília. Aos
 João Pedro é técnico administrativo em uma escola e vive uma rotina bastante estruturada. Ele **não utiliza o sistema do plano de saúde** porque prefere resolver essas questões pessoalmente ou com ajuda de terceiros. Representa um perfil que, apesar de fazer parte do público-alvo em potencial, **não é usuário do sistema** por falta de familiaridade, interesse ou confiança em soluções digitais. Sua resistência ao uso de tecnologia e preferências por métodos tradicionais fazem com que ele não se beneficie das funcionalidades oferecidas, o que o torna relevante para entender barreiras à adoção.
 
 <div style="text-align: center">
-  <img src="..\..\assets\img\personas\Persona_Joao.jpg" alt="Foto de João Pedro" width="200px"/>
   <p><i>Figura 2: Representação da persona João Pedro</i></p>
+  <img src="..\..\assets\img\personas\Persona_Joao.jpg" alt="Foto de João Pedro" width="200px"/>
+  <p><i>THIS PERSON DOESN'T EXIST. Disponível em: https://thispersondoesnotexist.com/. Acesso em: 02 de maio de 2025.</i></p>
 </div>
 
 - **Nome:** João Pedro Ramos  
@@ -65,8 +67,9 @@ João Pedro é técnico administrativo em uma escola e vive uma rotina bastante 
 Paulo Henrique trabalha na área administrativa da Secretaria de Saúde e é responsável por acompanhar dados sobre os planos de saúde oferecidos aos servidores. No dia a dia, acessa frequentemente relatórios, extratos e redes credenciadas para responder a demandas internas e encaminhar documentos a colegas. Embora tenha familiaridade com ferramentas digitais, sente frustração quando precisa navegar por muitas páginas ou realizar múltiplos cliques para chegar até uma informação básica. No escritório, utiliza um desktop com dois monitores, mas também costuma usar o smartphone fora do horário de trabalho. Já precisou enviar carteirinhas digitais por e-mail com urgência e ficou insatisfeito com a dificuldade de encontrá-las rapidamente. Para ele, produtividade e eficiência são fundamentais.
 
 <div style="text-align: center">
-  <img src="..\..\assets\img\personas\Persona_Paulo.jpg" alt="Foto de Paulo Henrique" width="200px"/>
   <p><i>Figura 3: Representação da persona Paulo Henrique</i></p>
+  <img src="..\..\assets\img\personas\Persona_Paulo.jpg" alt="Foto de Paulo Henrique" width="200px"/>
+  <p><i>THIS PERSON DOESN'T EXIST. Disponível em: https://thispersondoesnotexist.com/. Acesso em: 02 de maio de 2025.</i></p>
 </div>
 
 - **Nome:** Paulo Henrique Ferreira  
