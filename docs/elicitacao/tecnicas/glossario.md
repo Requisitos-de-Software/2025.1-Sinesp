@@ -1,17 +1,25 @@
 # Glossário
 
 ## Introdução
-A elaboração de um glossário atua tanto como ferramenta de gestão quanto como documento orientador, consolidando a linguagem técnica essencial para a compreensão de processos e regras específicas de um domínio. No contexto do aplicativo escolhido [GDF Saúde](https://requisitos-de-software.github.io/2025.1-GDF-Saude/planejamento/aplicativo/), plano de saúde suplementar para servidores públicos do Distrito Federal, essa sistematização é fundamental devido à complexidade de termos que exigem precisão para evitar falhas na comunicação entre beneficiários, gestores e prestadores.
 
-De acordo com Vazquez(2016), para identificar os termos candidatos ao glossário, deve prestar-se atenção a termos:
+A elaboração de um glossário atua tanto como ferramenta de gestão quanto como documento orientador, consolidando a linguagem técnica essencial para a compreensão de processos e regras específicas de um domínio. No contexto do aplicativo escolhido, [GDF Saúde](https://requisitos-de-software.github.io/2025.1-GDF-Saude/planejamento/aplicativo/), plano de saúde suplementar para servidores públicos do Distrito Federal, essa sistematização é fundamental devido à complexidade de termos que exigem precisão para evitar falhas na comunicação entre beneficiários, gestores e prestadores.
 
-- Únicos para o domínio;
-- Com mais de uma definição;
-- Com definição distinta do senso comum;
-- Com definições não intuitivas;
-- Técnicos do negócio;
-- Abreviações e siglas;
-- Sinônimos e antônimos.
+<br>
+
+## Metodologia
+
+De acordo com Vazquez (2016), para identificar os termos candidatos ao glossário, deve-se prestar atenção a termos que apresentem uma ou mais das seguintes características:
+
+* Únicos para o domínio;
+* Com mais de uma definição;
+* Com definição distinta do senso comum;
+* Com definições não intuitivas;
+* Técnicos do negócio;
+* Abreviações e siglas;
+* Sinônimos e antônimos.
+
+A aplicação desses critérios permite selecionar termos relevantes e garantir que o glossário seja claro, útil e coerente com o contexto específico do sistema.
+
 
 <br>
 
@@ -65,22 +73,23 @@ A partir da análise dos conceitos relacionados ao domínio do GDF Saúde, ident
 
 <p align="center">Tabela 1 – Requisitos Elicitados</p> 
 
-| **ID**   | **Tipo** | **Requisito**               | **Descrição**                                                                                          |  
-|----------|----------|-------------------------------|--------------------------------------------------------------------------------------------------------|  
-| GL001    | RF       | Cadastro de Beneficiários     | Permitir cadastro de titulares, dependentes e optantes com validação de documentos (CPF, comprovante de residência). |  
-| GL002    | RF       | Validação de Cobertura        | Verificar se procedimentos estão na TABGDFSAÚDE e atendem às DUT antes da autorização.                 |  
-| GL003    | RF       | Gestão de Carência            | Bloquear procedimentos sujeitos a carência (ex.: parto após 300 dias) até cumprimento do prazo.        |  
-| GL004    | RF       | Cálculo de Coparticipação     | Aplicar percentuais de coparticipação conforme tipo de atendimento (ex.: 30% para consultas).          |  
-| GL005    | RF       | Autorização Prévia            | Exigir solicitação médica e análise técnica do INAS para procedimentos eletivos por meio do aplicativo.                       |  
-| GL006    | RF       | Integração com Rede Credenciada | Permitir agendamento e pagamento automático para prestadores da Rede de Atendimento.                  |  
-| GL007    | RF       | Bloqueio de Exclusões         | Rejeitar automaticamente solicitações de procedimentos listados em Exclusões de acordo com o CID. (ex.: cirurgias estéticas). |    
-| GL008    | RF       | Gerenciamento de Servidores   | Validar o vínculo ativo/inativo do servidor com o GDF para elegibilidade.                             |  
-| GL009    | RF       | Gerenciamento dos Dependentes   | Validar a elegibiidade do dependente de acordo com as diretrizes do aplicativo.                             |  
-| GL010    | RNF      | Conformidade Legal            | Garantir conformidade com a Portaria nº 127/2024 e legislações complementares (ex.: Lei nº 3.831/2006). |  
-| GL011    | RNF      | Disponibilidade               | Manter sistema disponível 24/7 para autorizações de urgência/emergência.                               |  
-| GL012    | RNF      | Segurança de Dados            | Criptografar dados sensíveis (ex.: documentos) conforme LGPD.                                           |  
-| GL013    | RNF      | Desempenho                    | Processar autorizações prévias em até 10 dias úteis (conforme prazos do Capítulo VI).                   |  
-| GL014    | RNF      | Integração com Sistemas       | Comunicar-se com a folha de pagamento do GDF para descontos de mensalidades.                            |  
+| **ID** | **Descrição**                                                                                                                 |**Tipo** | **Implementado** |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------- |
+| GL001  | Permitir cadastro de titulares, dependentes e optantes com validação de documentos (CPF, comprovante de residência).          | RF       |       não           |
+| GL002  | Verificar se procedimentos estão na TABGDFSAÚDE e atendem às DUT antes da autorização.                                        | RF       |          não        |
+| GL003  | Bloquear procedimentos sujeitos a carência (ex.: parto após 300 dias) até cumprimento do prazo.                               | RF       |        não          |
+| GL004  | Aplicar percentuais de coparticipação conforme tipo de atendimento (ex.: 30% para consultas).                                 | RF       |       sim           |
+| GL005  | Exigir solicitação médica e análise técnica do INAS para procedimentos eletivos por meio do aplicativo.                       | RF       |        não          |
+| GL006  | Permitir agendamento e pagamento automático para prestadores da Rede de Atendimento.                                          | RF       |        não          |
+| GL007  | Rejeitar automaticamente solicitações de procedimentos listados em Exclusões de acordo com o CID. (ex.: cirurgias estéticas). | RF       |        sim          |
+| GL008  | Validar o vínculo ativo/inativo do servidor com o GDF para elegibilidade.                                                     | RF       |         sim         |
+| GL009  | Validar a elegibilidade do dependente de acordo com as diretrizes do aplicativo.                                              | RF       |       sim           |
+| GL010  | Garantir conformidade com a Portaria nº 127/2024 e legislações complementares (ex.: Lei nº 3.831/2006).                       | RNF      |    sim              |
+| GL011  | Manter sistema disponível 24/7 para autorizações de urgência/emergência.                                                      | RNF      |        sim          |
+| GL012  | Criptografar dados sensíveis (ex.: documentos) conforme LGPD.                                                                 | RNF      |        sim          |
+| GL013  | Processar autorizações prévias em até 10 dias úteis (conforme prazos do Capítulo VI).                                         | RNF      |         sim         |
+| GL014  | Comunicar-se com a folha de pagamento do GDF para descontos de mensalidades.                                                  | RNF      |        sim          |
+
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/redjsun">Yzabella Miranda</a></p>
 
@@ -101,4 +110,5 @@ INAS-DF. *Requisitos e Documentos Técnicos*. Brasília: Instituto de Atenção 
 
 | Versão | Data       | Descrição                                        | Autor(es)           | Revisor(es)         |
 |--------|------------|--------------------------------------------------|---------------------|---------------------|
-| 1.0    | 01/05/2025 | Criação do documento da elicitação com a técnica lossário                | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Yzabella Miranda](https://github.com/redjsun) | [Isaque Camargos](https://github.com/isaqzin)   |
+| 1.0    | 01/05/2025 | Criação do documento da elicitação com a técnica glossário                | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Yzabella Miranda](https://github.com/redjsun) | [Isaque Camargos](https://github.com/isaqzin)   |
+| 1.1    | 02/05/2025 | Atualização da tabela e adição da metodologia               | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Yzabella Miranda](https://github.com/redjsun) | [Isaque Camargos](https://github.com/isaqzin)   |
