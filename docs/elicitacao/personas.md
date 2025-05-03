@@ -93,8 +93,8 @@ Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; B
 
 | Versão | Data       | Descrição                                                  | Autor(es)                                   | Revisor(es) |
 |--------|------------|------------------------------------------------------------|---------------------------------------------|-------------|
-| 1.0    | 02/05/2025 | Criação do artefato de Personas com introdução, objetivo, metodologia e personas | [Lucas Alves](https://github.com/LucasAlves71) | ---         |
-| 1.1    | 02/05/2025 | Adição de imagens para as personas | [Lucas Alves](https://github.com/LucasAlves71) | --- |
-| 1.2    | 02/05/2025 | Atualizando as referências | [Lucas Alves](https://github.com/LucasAlves71) | --- |
-| 1.3    | 02/05/2025 | Adicionando nova persona, história de cada persona, atualizando dados de cada um | [Lucas Alves](https://github.com/LucasAlves71) | --- |
-| 1.4    | 03/05/2025 | Atualização do objetivo com foco em priorização e reformulação da definição de antiusuário | [Lucas Alves](https://github.com/LucasAlves71) | --- |
+| 1.0    | 02/05/2025 | Criação do artefato de Personas com introdução, objetivo, metodologia e personas | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin)     |
+| 1.1    | 02/05/2025 | Adição de imagens para as personas | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |
+| 1.2    | 02/05/2025 | Atualizando as referências | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |
+| 1.3    | 02/05/2025 | Adicionando nova persona, história de cada persona, atualizando dados de cada um | [Lucas Alves](https://github.com/LucasAlves71) |[Isaque Camargos](https://github.com/isaqzin) |
+| 1.4    | 03/05/2025 | Atualização do objetivo com foco em priorização e reformulação da definição de antiusuário | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |

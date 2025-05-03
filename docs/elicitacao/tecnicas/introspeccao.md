@@ -12,14 +12,31 @@ O processo de introspecção foi conduzido individualmente pelos participantes [
 
 <font size="3"><p style="text-align: center">Tabela 1: Participantes da técnica de elicitação introspecção.</p></font>
 
-<center>
 
-| Nome                                             | Data                   |  Hora |
-| ------------------------------------------------ | ------------------------ | -------------- |
-| [Othavio Bolzan](https://github.com/bolzanMGB)   |  23/04/2025|  09:10 |
-| [Lucas Alves](https://github.com/LucasAlves71) |  23/04/2025|   10:00 |
 
-</center>
+<div style="display: flex; justify-content: center;">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Data</th>
+        <th>Hora</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+        <td>23/04/2025</td>
+        <td>09:10</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+        <td>23/04/2025</td>
+        <td>10:00</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71) e [Othavio Bolzan](https://github.com/bolzanMGB).</p></font>
 
@@ -46,13 +63,12 @@ Considerando que o aplicativo é destinado a beneficiários de um plano de saúd
 
 ### Tabela 2: Requisitos Funcionais
 
-<center>
 
 | Tipo | Descrição | ID | Implementado |
 |------|-----------|----|--------------|
 | RF01 | O aplicativo permite agendar consultas médicas. | IS01 | Não |
 | RF02 | O aplicativo mostra e possibilita filtrar a lista de médicos, exames e especialidades disponíveis. | IS02 | Sim |
-| RF03 | O aplicativo permite consultar o resultado de exames laboratoriais. | IS03 | Sim |
+| RF03 | O aplicativo permite consultar o resultado de exames laboratoriais. | IS03 | Não |
 | RF04 | O aplicativo permite consultar o histórico de atendimentos. | IS04 | Sim |
 | RF05 | O aplicativo permite cancelar consultas. | IS05 | Não |
 | RF06 | O aplicativo exibe e filtra locais de atendimento próximos. | IS06 | Sim |
@@ -63,13 +79,11 @@ Considerando que o aplicativo é destinado a beneficiários de um plano de saúd
 | RF11 | O aplicativo permite consultar o histórico de demonstrativos de IR de anos anteriores. | IS11 | Sim |
 | RF12 | O aplicativo envia notificação quando o demonstrativo de IR estiver disponível. | IS12 | Não |
 
-</center>
 
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71) e [Othavio Bolzan](https://github.com/bolzanMGB).</p></font>
 
 ### Tabela 3: Requisitos Não-Funcionais
 
-<center>
 
 | Tipo | Descrição | ID | Implementado |
 |------|-----------|----|--------------|
@@ -82,7 +96,7 @@ Considerando que o aplicativo é destinado a beneficiários de um plano de saúd
 | RNF07 | Deve funcionar de forma offline para acesso à carteirinha e histórico de consultas. | IS19 | Não |
 | RNF08 | O aplicativo deve ser compatível com leitores de tela para garantir acessibilidade a pessoas com deficiencia visual. | IS20 | Não |
 
-</center>
+
 
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71) e [Othavio Bolzan](https://github.com/bolzanMGB).</p></font>
 
@@ -91,6 +105,7 @@ Considerando que o aplicativo é destinado a beneficiários de um plano de saúd
 ## Considerações Finais
 
 A técnica de introspecção revelou-se eficaz para identificar requisitos que refletem as necessidades reais dos usuários do aplicativo **GDF Saúde**. Os requisitos elicitados destacam tanto funcionalidades já implementadas quanto oportunidades de melhoria, como a inclusão de suporte offline e maior acessibilidade para pessoas com deficiência visual. Além disso, a análise evidenciou a importância de uma interface intuitiva e de funcionalidades financeiras acessíveis, que atendam às demandas específicas dos beneficiários. Esses insights reforçam o potencial do aplicativo em oferecer uma experiência mais completa e inclusiva, alinhada às expectativas dos usuários. A introspecção, portanto, contribuiu significativamente para a compreensão das necessidades do público-alvo e para o direcionamento de futuras melhorias no aplicativo.
+
 ---
 
 ## Vídeo de apresentação da Elicitação

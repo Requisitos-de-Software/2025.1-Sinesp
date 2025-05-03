@@ -31,4 +31,4 @@ Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; B
 
 | Versão | Data          | Descrição                          | Autor(es)     |  Revisor(es)  |
 | ------ | ------------- | ---------------------------------- | ------------- | ------------- |
-| `1.0`  |  02/05/2025 |  Construção do Perfil do Usuário, introdução e metodologia | [Isaque Camargos](https://github.com/isaqzin)  | --- |
+| `1.0`  |  02/05/2025 |  Construção do Perfil do Usuário, introdução e metodologia | [Isaque Camargos](https://github.com/isaqzin)  | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
