@@ -58,7 +58,7 @@ nav:
 
   - Elicitação:
     - Técnicas:
-        - Glossário: elicitacao/glossario.md
+        - Glossário: elicitacao/tecnicas/glossario.md
 
           
 extra_css:
