@@ -17,8 +17,8 @@ Documento baseado na lista de verificação feita para a entrega 1 do Grupo +1. 
 
 <center>
 
-| ID | Item                                                                                                  | Autor    | Revisor  | Status               | Referência                    |
-|----|-------------------------------------------------------------------------------------------------------|----------|----------|----------------------| ----------------------|
+| ID | Item| Autor    | Revisor  | Status               | 
+|----|----------|----------|----------|----------------------|
 | 1 | App selecionado para o projeto identificado e justificado                                            | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | <div><img src="..\assets\img\lista_parte1_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div>|
 | 2 | Cronograma detalhado com atividades, datas e responsáveis                                            | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | <div><img src="..\assets\img\lista_parte1_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
 | 3 | Planejamento de período de gravações das apresentações para cada etapa                                         | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | <div><img src="..\assets\img\lista_parte1_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
@@ -41,8 +41,8 @@ Documento baseado na lista de verificação feita para a entrega 1 do Grupo +1. 
 
 <center>
 
-| ID | Item                                                                                                  | Autor    | Revisor  | Status               | Referência                    |
-|----|-------------------------------------------------------------------------------------------------------|----------|----------|----------------------|----------------------|
+| ID | Item| Autor    | Revisor  | Status               | 
+|----|----------|----------|----------|----------------------|
 | 1 | Histórico de versão padronizado no repositório                                                       | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | <div><img src="..\assets\img\lista_parte2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
 | 2 | Referências e bibliografia incluídas nos artefatos                                                    | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox"> Inconforme | <div><img src="..\assets\img\lista_parte2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
 | 3 | Tabelas e imagens com legenda e fonte, e citadas no texto                                             | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | <div><img src="..\assets\img\lista_parte2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
@@ -62,8 +62,8 @@ Documento baseado na lista de verificação feita para a entrega 1 do Grupo +1. 
 
 <center>
 
-| ID | Item                                                                                                  | Autor    | Revisor  | Status               | Referência                    |
-|----|-------------------------------------------------------------------------------------------------------|----------|----------|----------------------|---------------------------------------|
+| ID | Item| Autor    | Revisor  | Status               | 
+|----|----------|----------|----------|----------------------|
 | 1 | Rich Picture com legenda explicando os símbolos                                                       | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | <div><img src="..\assets\img\lista_rich_picture.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf">Plano de Ensino</a></div> |
 | 2 | Rich Picture com os 5 componentes obrigatórios                                                         | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | <div><img src="..\assets\img\lista_rich_picture.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf">Plano de Ensino</a></div> |
 | 3 | Verificar se todos os atores relevantes do sistema estão representados por ilustrações, como por exemplo o usuário e os administradores                         | [Lucas Alves](https://github.com/LucasAlves71) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | <div><img src="..\assets\img\fonteChecklist.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf">Introducing Rich Pictures</a></div> |
@@ -78,63 +78,6 @@ Documento baseado na lista de verificação feita para a entrega 1 do Grupo +1. 
 </center>
 
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
-
-<div align="center">
-  <img src="..\assets\img\fonteChecklist.png" alt="Legenda Checklist" width="1000px">
-  
-  <h2>Legenda da imagem em português: Componentes do Rich Picture</h2>
-
-  <table border="1" cellpadding="8" cellspacing="0">
-    <thead>
-      <tr>
-        <th>Componente</th>
-        <th>Descrição</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>Atores</strong> (com rótulos descritivos)</td>
-        <td>
-          Atores são os usuários do sistema. Um ator pode representar um grupo de usuários (ex: um gerente e cinco atendentes ainda contam como dois atores distintos).<br>
-          Um ator pode realizar diversas operações.<br>
-          <strong>Representação gráfica:</strong> pessoas palitinho (stick figures).
-        </td>
-      </tr>
-      <tr>
-        <td><strong>Operações</strong> (também conhecidas como processos ou funções)</td>
-        <td>
-          Especificam o que o sistema faz. Cada operação é executada por um ator ou por outra operação.<br>
-          <strong>Representação gráfica:</strong> círculos ou ovais com rótulos descritivos dentro.
-        </td>
-      </tr>
-      <tr>
-        <td><strong>Armazenamento de dados</strong> (também conhecido como tabelas)</td>
-        <td>
-          Representam as tabelas do banco de dados ou arquivos do sistema. Devem mostrar o tipo de dados contido. Apenas operações podem ler ou gravar nesses dados.<br>
-          <strong>Representação gráfica:</strong> retângulos.
-        </td>
-      </tr>
-      <tr>
-        <td><strong>Setas</strong></td>
-        <td>
-          Mostram a direção do fluxo de dados/informações entre atores, operações e armazenamentos.<br>
-          Podem cruzar a fronteira do sistema.<br>
-          <strong>Representação gráfica:</strong> setas com uma ponta, com rótulos descritivos.
-        </td>
-      </tr>
-      <tr>
-        <td><strong>Fronteira do sistema</strong></td>
-        <td>
-          Define o que está sob sua responsabilidade. Tudo dentro da fronteira precisa ser tratado pelo sistema; o que está fora pode ser ignorado.<br>
-          <strong>Representação gráfica:</strong> linha circular irregular (sólida ou tracejada).<br>
-          <strong>Dica:</strong> normalmente é o último elemento a ser adicionado ao rich picture.
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <p style="margin-top: 10px;"><strong>Figura 1: Componentes do Rich Picture</strong><br><em>Fonte: Introducing Rich Pictures - Rich Picture Drawing Guidelines. 4 p. Disponível em: https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf. Acessado em: 09 de abril de 2025</em></p>
-</div>
 
 ---
 
@@ -157,3 +100,4 @@ Documento baseado na lista de verificação feita para a entrega 1 do Grupo +1. 
 | ------ | ---------- | -------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
 | `1.0`  | 20/04/2025 | Criação do documento | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |
 | `1.1`  | 23/04/2025 | Atualização nas tabelas | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |
+| `1.2`  | 03/05/2025 | Remoção das referencias | [Isaque Camargos](https://github.com/isaqzin) |  [Matheus de Alcântara](https://github.com/matheusdealcantara)|
