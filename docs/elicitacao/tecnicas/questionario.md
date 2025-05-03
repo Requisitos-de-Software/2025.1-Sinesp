@@ -51,10 +51,10 @@ As tabelas 1 e 2 listadas a seguir contém os requisitos que foram elicitados du
 | IS02 | Exibir extrato financeiro atualizado diariamente                                                          | RF   | Não          |
 | IS03 | Listar rede credenciada com filtro por região, especialidade e tipo de atendimento                        | RF   | Sim          |
 | IS04 | Mostrar histórico de consultas, exames e coparticipações                                                  | RF   | Sim          |
-| IS05 | Permitir visualização dos valores a serem cobrados no mês                                                | RF   | Não          |
-| IS06 | Habilitar notificações personalizadas por tipo (importantes, lembretes etc.)                             | RF   | Sim          |
-| IS07 | Adicionar consulta à rede odontológica                                                                    | RF   | Não          |
-| IS08 | Oferecer ferramenta de busca por especialidade em determinada localidade                                 | RF   | Não          |
+| IS05 | Permitir visualização dos valores a serem cobrados no mês                                                | RF   | Sim          |
+| IS06 | Habilitar notificações personalizadas por tipo (importantes, lembretes etc.)                             | RF   | Não         |
+| IS07 | Adicionar consulta à rede odontológica                                                                    | RF   | Sim          |
+| IS08 | Oferecer ferramenta de busca por especialidade em determinada localidade                                 | RF   | Sim          |
 | IS09 | Visualizar status de autorizações e solicitações médicas em tempo real                                   | RF   | Sim          |
 
 
@@ -71,7 +71,6 @@ As tabelas 1 e 2 listadas a seguir contém os requisitos que foram elicitados du
 | IS14  | O app deve ser compatível com leitores de tela (acessibilidade digital)                                  | RNF   | Não          |
 | IS15  | A segurança das informações do usuário deve seguir os padrões da LGPD                                    | RNF   | Sim          |
 | IS16  | O layout deve ser consistente com o portal oficial do plano                                              | RNF   | Não          |
-| IS17  | As notificações devem ser configuráveis pelo usuário (frequência, tipo)                                  | RNF   | Não          |
 
 
 
