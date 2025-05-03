@@ -94,16 +94,16 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
 
 | Tipo   | Descrição                                                                                             | ID      | Implementado |
 |--------|-------------------------------------------------------------------------------------------------------|---------|--------------|
-| RF01   | O sistema deve permitir ao usuário avaliar uma clínica após o atendimento.                            | GF01    |      Não        |
-| RF02   | O sistema deve notificar o usuário sobre retornos médicos pendentes.                                  | GF02    |      Não        |
-| RF03   | O sistema deve notificar o usuário sobre abertura de agenda e cancelamentos de horários de interesse. | GF03    |       Não       |
-| RF04   | O sistema deve exibir os exames solicitados e associar aos respectivos retornos médicos.              | GF04    |       Não       |
-| RF05   | O sistema deve divulgar informações sobre novas funcionalidades no aplicativo.                        | GF05    |       Não       |
-| RF06   | O sistema deve permitir que o usuário favorite horários de consulta desejados.                        | GF06    |       Não       |
-| RF07   | O sistema deve alertar o usuário caso algum horário favorito fique disponível por desistência.        | GF07    |       Não       |
-| RF08   | O sistema deve permitir ao usuário visualizar um histórico de consultas e exames realizados.          | GF08    |        Não      |
-| RF09   | O sistema deve oferecer um canal para o usuário enviar feedback sobre atendimentos.                   | GF09    |        Não      |
-| RF10   | O sistema deve exibir notificações sobre prazos importantes relacionados a consultas e exames.        | GF10    |       Não       |
+| RF   | O sistema deve permitir ao usuário avaliar uma clínica após o atendimento.                            | GF01    |         Não     |
+| RF   | O sistema deve notificar o usuário sobre retornos médicos pendentes.                                  | GF02    |       Não       |
+| RF   | O sistema deve notificar o usuário sobre abertura de agenda e cancelamentos de horários de interesse. | GF03    |       Não       |
+| RF   | O sistema deve exibir os exames solicitados e associar aos respectivos retornos médicos.              | GF04    |       Não       |
+| RF   | O sistema deve divulgar informações sobre novas funcionalidades no aplicativo.                        | GF05    |        Sem certeza ainda      |
+| RF   | O sistema deve permitir que o usuário favorite horários de consulta desejados.                        | GF06    |        Não      |
+| RF   | O sistema deve alertar o usuário caso algum horário favorito fique disponível por desistência.        | GF07    |     Não         |
+| RF   | O sistema deve permitir ao usuário visualizar um histórico de consultas e exames realizados.          | GF08    |       Sem certeza ainda       |
+| RF  | O sistema deve oferecer um canal para o usuário enviar feedback sobre atendimentos.                   | GF09    |     Não      |
+| RF  | O sistema deve exibir notificações sobre prazos importantes relacionados a consultas e exames.        | GF10    |        Não     |
 
 <p align="center">Autor: <b><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></b></p>
 
@@ -113,14 +113,14 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
 
 | Tipo    | Descrição                                                                                                               | ID      |
 |---------|-------------------------------------------------------------------------------------------------------------------------|---------|
-| RNF01   | O sistema deve exigir autenticação via GovBR para login.                                                                | GF11    |
-| RNF02   | O sistema deve incluir autenticação em dois fatores para acesso aos dados de saúde.                                     | GF12    |
-| RNF03   | O sistema deve ter uma interface organizada em categorias.                                                              | GF13    |
-| RNF04   | O sistema deve ser transparente quanto ao uso e segurança dos dados do usuário.                                         | GF14    |
-| RNF05   | O sistema deve garantir que informações críticas estejam acessíveis em até três cliques.                                | GF15    |
-| RNF06   | O sistema deve manter histórico de notificações acessível ao usuário por no mínimo 6 meses.                             | GF16    |
-| RNF07   | O sistema deve apresentar desempenho adequado, respondendo a interações em até 2 segundos.                              | GF17    |
-| RNF08   | O sistema deve ser compatível com diferentes versões do Android e iOS, a partir das versões mais utilizadas no mercado. | GF18    |
+| RNF   | O sistema deve exigir autenticação via GovBR para login.                                                                | GF11    |
+| RNF   | O sistema deve incluir autenticação em dois fatores para acesso aos dados de saúde.                                     | GF12    |
+| RNF   | O sistema deve ter uma interface organizada em categorias.                                                              | GF13 | 
+| RNF   | O sistema deve ser transparente quanto ao uso e segurança dos dados do usuário.                                         | GF14    |
+| RNF   | O sistema deve garantir que informações críticas estejam acessíveis em até três cliques.                                | GF15    |
+| RNF   | O sistema deve manter histórico de notificações acessível ao usuário por no mínimo 6 meses.                             | GF16    |
+| RNF   | O sistema deve apresentar desempenho adequado, respondendo a interações em até 2 segundos.                              | GF17    |
+| RNF   | O sistema deve ser compatível com diferentes versões do Android e iOS, a partir das versões mais utilizadas no mercado. | GF18    |
 
 <p align="center">Autor: <b><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></b></p>
 
@@ -141,49 +141,49 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
                 <td>Q1</td>
                 <td>O objetivo da reunião está claro para todos os participantes?</td>
                 <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../tecnicas/assets/img/grupo_focal_3.png"></td>
+                <td><img src="../assets/img/grupo_focal_3.png"></td>
             </tr>
             <tr>
                 <td>Q2</td>
                 <td>A reunião foi realizada com representantes dos usuários?</td>
                 <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../tecnicas/assets/img/grupo_focal_3.png"></td>
+                <td><img src="../assets/img/grupo_focal_3.png"></td>
             </tr>
             <tr>
                 <td>Q3</td>
                 <td>Foi definida uma pauta com os principais temas da discussão?</td>
                 <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../tecnicas/assets/img/grupo_focal_5.png"></td>
+                <td><img src="../assets/img/grupo_focal_5.png"></td>
             </tr>
             <tr>
                 <td>Q4</td>
                 <td>O facilitador conduziu a sessão de forma neutra e produtiva?</td>
                 <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../tecnicas/assets/img/grupo_focal_4.png"></td>
+                <td><img src="../assets/img/grupo_focal_4.png"></td>
             </tr>
             <tr>
                 <td>Q5</td>
                 <td>Os participantes foram incentivados a dar suas opiniões livremente?</td>
                 <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../tecnicas/assets/img/grupo_focal_3.png"></td>
+                <td><img src="../assets/img/grupo_focal_3.png"></td>
             </tr>
             <tr>
                 <td>Q6</td>
                 <td>A sessão foi gravada ou registrada por alguém para garantir que nada fosse perdido?</td>
                 <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../tecnicas/assets/img/grupo_focal_4.png"></td>
+                <td><img src="../assets/img/grupo_focal_4.png"></td>
             </tr>
             <tr>
                 <td>Q7</td>
                 <td>Foi preparado algum material de apoio, como protótipos ou exemplos, para facilitar a discussão?</td>
                 <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../tecnicas/assets/img/grupo_focal_5.png"></td>
+                <td><img src="../assets/img/grupo_focal_5.png"></td>
             </tr>
             <tr>
                 <td>Q8</td>
                 <td>Os resultados da reunião serão compartilhados com os envolvidos para revisão e complementação?</td>
                 <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../tecnicas/assets/img/grupo_focal_5.png"></td>
+                <td><img src="../assets/img/grupo_focal_5.png"></td>
             </tr>
         </tbody>
     </table>
@@ -191,12 +191,20 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
 
 <p align="center">Autor: <b><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></b></p>
 
+## Vídeo da elicitação
+
+<div align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nrQDSP9eyk4" title="Grupo Focal GDF-Saúde" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<p align="center">Vídeo 1: Gravação do grupo focal</p>
+
 ## Referência bibliográfica
 
 WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3rd Edition. Microsoft Press, 2013. Disponível em: <a href="https://olivroqueaprende.com/WDK/Software_Requirements_3rd_Edition.pdf" target="_blank">https://olivroqueaprende.com/WDK/Software_Requirements_3rd_Edition.pdf</a>. Acesso em: 01 de maio 2025.
 
-<img src="../tecnicas/assets/img/grupo_focal_1.png">
-<img src="../tecnicas/assets/img/grupo_focal_2.png">
+<img src="../assets/img/grupo_focal_1.png">
+<img src="../assets/img/grupo_focal_2.png">
 
 ## Histórico de versões
 
@@ -204,4 +212,5 @@ WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3rd Edition. Microsoft Press,
 | ------ | ------------- | ---------------------------------- | ------------- | ------------- |
 | `1.0`  |  01/05/2025 |  Criação inicial do documento com as tabelas dos requisitos elicitados e seus tipos. A participante <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a> realizou a reunião. | <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a>  | <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a> |
 | `1.1`  | 02/05/2025  | Criação da lista de verificação do artefato e atualização dos links para criar uma nova guia no navegador para melhor usabilidade | <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a> | <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a> |
-| `1.2`  | 02/05/2025  | AJuste de tabela, link de imagens e enumeração de requisios funcionais e não funcionais | <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a> | <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a> |
+| `1.2`  | 02/05/2025  | Ajuste de tabela, link de imagens e enumeração de requisios funcionais e não funcionais | <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a> | <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a> |
+| `1.3`  | 03/05/2025  | Adicionar vídeo da elicitação integrado ao documento | <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a> | <a href="https://github.com/bolzanMGB" target="_blank">Othabio Bolzan</a> |
