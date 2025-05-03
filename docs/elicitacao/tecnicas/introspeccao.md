@@ -68,7 +68,7 @@ Considerando que o aplicativo é destinado a beneficiários de um plano de saúd
 |------|-----------|----|--------------|
 | RF01 | O aplicativo permite agendar consultas médicas. | IS01 | Não |
 | RF02 | O aplicativo mostra e possibilita filtrar a lista de médicos, exames e especialidades disponíveis. | IS02 | Sim |
-| RF03 | O aplicativo permite consultar o resultado de exames laboratoriais. | IS03 | Sim |
+| RF03 | O aplicativo permite consultar o resultado de exames laboratoriais. | IS03 | Não |
 | RF04 | O aplicativo permite consultar o histórico de atendimentos. | IS04 | Sim |
 | RF05 | O aplicativo permite cancelar consultas. | IS05 | Não |
 | RF06 | O aplicativo exibe e filtra locais de atendimento próximos. | IS06 | Sim |
