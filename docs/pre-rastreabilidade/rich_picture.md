@@ -11,12 +11,12 @@ No escopo deste trabalho, o *Rich Picture* foi desenvolvido com base no aplicati
 A elaboração do *Rich Picture* foi realizada por meio da ferramenta **Figma**, que possibilitou a criação colaborativa do diagrama e da legenda correspondente. Logo abaixo, nota-se o **Rich Picture** do app **GDF Saúde**  na figura 1 e sua respectiva legenda na figura 2: 
 
 <p align="center">
-  <img src="../pre-rastreabilidade/assets/rich-picture/RP-GDF.png" alt="Rich Picture do GDF Saúde" width="600"/>
+  <img src="../assets/rich-picture/RP-GDF.png" alt="Rich Picture do GDF Saúde" width="600"/>
 </p>
 <p align="center"><strong>Figura 1: Rich Picture do GDF Saúde</strong><br><em>Fonte: Isaque Camargos.</em></p>
 
 <p align="center">
-  <img src="../pre-rastreabilidade/assets/legenda-richPicture/LEGENDA-RP-GDF.png" alt="Legenda do Rich Picture" width="400"/>
+  <img src="../assets/legenda-richPicture/LEGENDA-RP-GDF.png" alt="Legenda do Rich Picture" width="400"/>
 </p>
 <p align="center"><strong>Figura 2: Legenda do Rich Picture</strong><br><em>Fonte: Isaque Camargos.</em></p>
 
