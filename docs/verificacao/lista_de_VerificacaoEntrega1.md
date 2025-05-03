@@ -10,6 +10,8 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ## Lista de Verificação - Entregas do Projeto - (Tabela 1)
 
+<center>
+
 | ID | Item de Verificação | Autor | Referência |
 |----|--------------------|-------|------------|
 | 1 | O app selecionado para o projeto está identificado e justificado? - O projeto começa com a escolha de um app relevante, alinhado com a proposta da disciplina, e justificado em termos de utilidade e viabilidade.   | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | ![plano de ensino](../assets/img/lista_parte1_planoDeEnsino.png) <div><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
@@ -24,11 +26,15 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 | 10 | Os métodos de verificação e validação aplicados aos artefatos estão definidos (com autor e revisor)? - Definição clara dos critérios usados para validar os documentos e artefatos produzidos. | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\assets\img\lista_parte1_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
 | 11 | Existe gravação da apresentação de cada etapa, com nomes dos participantes? - Registro audiovisual das apresentações, com identificação dos participantes. | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\assets\img\lista_parte1_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
 | 12 | O site possui opção de contraste de cores? - Verificação de acessibilidade por meio de contraste adequado entre textos e plano de fundo. | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\assets\img\lista_parte1_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
-Autor: [Lucas Alves](https://github.com/LucasAlves71)
 
+</center>
+
+<font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 ---
 
 ## Lista de Verificação - Itens Técnicos e Documentais - (Tabela 2)
+
+<center>
 
 | ID | Item de Verificação | Autor | Referência |
 |----|--------------------|-------|------------|
@@ -40,11 +46,16 @@ Autor: [Lucas Alves](https://github.com/LucasAlves71)
 | 6 | As atas de reunião contêm data, horário, participantes e objetivos? - Documentos com registro formal das reuniões, contendo data, hora, participantes e objetivos. | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\assets\img\lista_parte2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
 | 7 | As gravações de reuniões foram salvas? - Arquivos de vídeo das reuniões, armazenados para consulta futura. | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\assets\img\lista_parte2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
 | 8 | As apresentações no YouTube estão configuradas como "não listado"? - Garantia de que os vídeos estão acessíveis apenas para quem tiver o link, respeitando a privacidade. | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\assets\img\lista_parte2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
-Autor: [Lucas Alves](https://github.com/LucasAlves71)
+
+</center>
+
+<font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 
 ---
 
 ## Lista de Verificação - Conteúdo da Disciplina (Rich Picture) - (Tabela 3)
+
+<center>
 
 | ID | Item de Verificação | Autor | Referência |
 |----|--------------------|-------|------------|
@@ -58,8 +69,10 @@ Autor: [Lucas Alves](https://github.com/LucasAlves71)
 | 8 | Existe um contorno (linha contínua ou tracejada) delimitando claramente o que está sob responsabilidade do sistema? - Linha (contínua ou tracejada) indicando claramente o que está dentro e fora do escopo do sistema. | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\assets\img\fonteChecklist.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf">Introducing Rich Pictures</a></div> |
 | 9 | Grupos de usuários similares são representados por um único ator, conforme apropriado? - Redução de redundâncias ao representar grupos semelhantes por um único ator. | [Othavio Bolzan](https://github.com/bolzanMGB) | <div><img src="..\assets\img\fonteChecklist.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf">Introducing Rich Pictures</a></div> |
 | 10 | Cada integrante elaborou ao menos 1 conteúdo com referência e imagem da fonte? - Garantia de que todos os membros contribuíram com pelo menos um conteúdo ilustrado e referenciado. | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\assets\img\lista_rich_picture.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf">Plano de Ensino</a></div> |
-Autor: [Lucas Alves](https://github.com/LucasAlves71)
 
+</center>
+
+<font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 ---
 
 <div align="center">
@@ -139,4 +152,8 @@ Para cada item da lista, o revisor deve:
 | `1.0`  | 20/04/2025 | Criação do documento | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |
 | `1.1`  | 21/04/2025 | Atualização do documento | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |
 | `1.2`  | 21/04/2025 | Atualização as imagens | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |
-| `1.3`  | 24/04/2025 | Correção das imagens das fontes | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Lucas Alves](https://github.com/LucasAlves71) |
+
+| `1.3`  | 23/04/2025 | Atualização nas tabelas | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |
+| `1.4`  | 24/04/2025 | Correção das imagens das fontes | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Lucas Alves](https://github.com/LucasAlves71) |
+
+
