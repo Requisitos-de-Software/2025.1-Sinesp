@@ -193,4 +193,4 @@ Outra técnica de priorização é baseada em dinheiro real, não fictício. Na 
 | `1.2`  | 01/05/2025 | Atualizando lista de perfil de usuário | [Lucas Alves](https://github.com/LucasAlves71) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 | `1.3`  | 01/05/2025 | Criação da Lista de Personas | [Kaleb Macedo](https://github.com/kalebmacedo) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 | `1.4`  | 01/05/2025 | Adição da Lista da técnica $100| [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
-| `1.5`  | 02/05/2025 | Correção de bug de fotos| [Isaque Camargos](https://github.com/isaqzin) |  |
+| `1.5`  | 02/05/2025 | Correção de bug de fotos| [Isaque Camargos](https://github.com/isaqzin) |[Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
