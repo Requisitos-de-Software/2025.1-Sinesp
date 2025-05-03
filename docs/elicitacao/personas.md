@@ -10,7 +10,7 @@ O objetivo deste artefato é representar diferentes perfis de usuários do siste
 
 ## Metodologia
 
-Para a elaboração das personas, o criador deste artefato [Lucas Alves](https://github.com/LucasAlves71) utilizou como base os dados obtidos através do [questionário](/elicitacao/tecnicas/questionario/) aplicado pelos alunos [Lucas Alves](https://github.com/LucasAlves71), [Othavio Bolzan](https://github.com/bolzanMGB) e [Kaleb Macedo](https://github.com/kalebmacedo) e também houve a utilização do artefato de perfil de usuário [perfil de usuário](docs/elicitacao/perfil.md/) . A partir desses dados, foram identificados padrões de comportamento, necessidades comuns e perfis de uso, os quais foram transformados em representações fictícias fundamentadas nas diretrizes do livro *Interação Humano-Computador e Experiência do Usuário*.
+Para a elaboração das personas, o criador deste artefato [Lucas Alves](https://github.com/LucasAlves71) utilizou como base os dados obtidos através do [questionário](/elicitacao/tecnicas/questionario/) aplicado pelos alunos [Lucas Alves](https://github.com/LucasAlves71), [Othavio Bolzan](https://github.com/bolzanMGB) e [Kaleb Macedo](https://github.com/kalebmacedo) e também houve a utilização do artefato de perfil de usuário [perfil de usuário](docs/elicitacao/perfil/), artefato esse feito por [Isaque Camargos](https://github.com/isaqzin). A partir desses dados, foram identificados padrões de comportamento, necessidades comuns e perfis de uso, os quais foram transformados em representações fictícias fundamentadas nas diretrizes do livro *Interação Humano-Computador e Experiência do Usuário*.
 
 ## Personas
 
@@ -64,3 +64,4 @@ Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; B
 |--------|------------|------------------------------------------------------------|---------------------------------------------|-------------|
 | 1.0    | 02/05/2025 | Criação do artefato de Personas com introdução, objetivo, metodologia e personas | [Lucas Alves](https://github.com/LucasAlves71) | ---         |
 | 1.1    | 02/05/2025 | Adição de imagens para as personas | [Lucas Alves](https://github.com/LucasAlves71) | --- |
+| 1.2    | 02/05/2025 | Atualizando as referências | [Lucas Alves](https://github.com/LucasAlves71) | --- |
