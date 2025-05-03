@@ -75,20 +75,20 @@ A partir da análise dos conceitos relacionados ao domínio do GDF Saúde, ident
 
 | **ID** | **Descrição**                                                                                                                 |**Tipo** | **Implementado** |
 | ------ | ----------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------- |
-| GL001  | Permitir cadastro de titulares, dependentes e optantes com validação de documentos (CPF, comprovante de residência).          | RF       |       não           |
-| GL002  | Verificar se procedimentos estão na TABGDFSAÚDE e atendem às DUT antes da autorização.                                        | RF       |          não        |
-| GL003  | Bloquear procedimentos sujeitos a carência (ex.: parto após 300 dias) até cumprimento do prazo.                               | RF       |        não          |
-| GL004  | Aplicar percentuais de coparticipação conforme tipo de atendimento (ex.: 30% para consultas).                                 | RF       |       sim           |
-| GL005  | Exigir solicitação médica e análise técnica do INAS para procedimentos eletivos por meio do aplicativo.                       | RF       |        não          |
-| GL006  | Permitir agendamento e pagamento automático para prestadores da Rede de Atendimento.                                          | RF       |        não          |
-| GL007  | Rejeitar automaticamente solicitações de procedimentos listados em Exclusões de acordo com o CID. (ex.: cirurgias estéticas). | RF       |        sim          |
-| GL008  | Validar o vínculo ativo/inativo do servidor com o GDF para elegibilidade.                                                     | RF       |         sim         |
-| GL009  | Validar a elegibilidade do dependente de acordo com as diretrizes do aplicativo.                                              | RF       |       sim           |
-| GL010  | Garantir conformidade com a Portaria nº 127/2024 e legislações complementares (ex.: Lei nº 3.831/2006).                       | RNF      |    sim              |
-| GL011  | Manter sistema disponível 24/7 para autorizações de urgência/emergência.                                                      | RNF      |        sim          |
-| GL012  | Criptografar dados sensíveis (ex.: documentos) conforme LGPD.                                                                 | RNF      |        sim          |
-| GL013  | Processar autorizações prévias em até 10 dias úteis (conforme prazos do Capítulo VI).                                         | RNF      |         sim         |
-| GL014  | Comunicar-se com a folha de pagamento do GDF para descontos de mensalidades.                                                  | RNF      |        sim          |
+| <a id="GL01"></a>GL001  | Permitir cadastro de titulares, dependentes e optantes com validação de documentos (CPF, comprovante de residência).          | RF       |       não           |
+| <a id="GL02"></a>GL02  | Verificar se procedimentos estão na TABGDFSAÚDE e atendem às DUT antes da autorização.                                        | RF       |          não        |
+| <a id="GL03"></a>GL03  | Bloquear procedimentos sujeitos a carência (ex.: parto após 300 dias) até cumprimento do prazo.                               | RF       |        não          |
+| <a id="GL04"></a>GL04  | Aplicar percentuais de coparticipação conforme tipo de atendimento (ex.: 30% para consultas).                                 | RF       |       sim           |
+| <a id="GL05"></a>GL05  | Exigir solicitação médica e análise técnica do INAS para procedimentos eletivos por meio do aplicativo.                       | RF       |        não          |
+| <a id="GL06"></a>GL06  | Permitir agendamento e pagamento automático para prestadores da Rede de Atendimento.                                          | RF       |        não          |
+| <a id="GL07"></a>GL07  | Rejeitar automaticamente solicitações de procedimentos listados em Exclusões de acordo com o CID. (ex.: cirurgias estéticas). | RF       |        sim          |
+| <a id="GL008"></a>GL08  | Validar o vínculo ativo/inativo do servidor com o GDF para elegibilidade.                                                     | RF       |         sim         |
+| <a id="GL09"></a>GL09  | Validar a elegibilidade do dependente de acordo com as diretrizes do aplicativo.                                              | RF       |       sim           |
+| <a id="GL10"></a>GL10  | Garantir conformidade com a Portaria nº 127/2024 e legislações complementares (ex.: Lei nº 3.831/2006).                       | RNF      |    sim              |
+| <a id="GL11"></a>GL11  | Manter sistema disponível 24/7 para autorizações de urgência/emergência.                                                      | RNF      |        sim          |
+| <a id="GL12"></a>GL12  | Criptografar dados sensíveis (ex.: documentos) conforme LGPD.                                                                 | RNF      |        sim          |
+| <a id="GL13"></a>GL13  | Processar autorizações prévias em até 10 dias úteis (conforme prazos do Capítulo VI).                                         | RNF      |         sim         |
+| <a id="GL14"></a>GL14  | Comunicar-se com a folha de pagamento do GDF para descontos de mensalidades.                                                  | RNF      |        sim          |
 
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/redjsun">Yzabella Miranda</a></p>

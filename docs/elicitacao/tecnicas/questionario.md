@@ -47,15 +47,15 @@ As tabelas 1 e 2 listadas a seguir contém os requisitos que foram elicitados du
 
 | ID   | Descrição                                                                                                  | Tipo | Implementado |
 |------|------------------------------------------------------------------------------------------------------------|------|--------------|
-| IS01 | Permitir acesso rápido e estável à carteirinha digital                                                    | RF   | Sim          |
-| IS02 | Exibir extrato financeiro atualizado diariamente                                                          | RF   | Não          |
-| IS03 | Listar rede credenciada com filtro por região, especialidade e tipo de atendimento                        | RF   | Sim          |
-| IS04 | Mostrar histórico de consultas, exames e coparticipações                                                  | RF   | Sim          |
-| IS05 | Permitir visualização dos valores a serem cobrados no mês                                                | RF   | Sim          |
-| IS06 | Habilitar notificações personalizadas por tipo (importantes, lembretes etc.)                             | RF   | Não         |
-| IS07 | Adicionar consulta à rede odontológica                                                                    | RF   | Sim          |
-| IS08 | Oferecer ferramenta de busca por especialidade em determinada localidade                                 | RF   | Sim          |
-| IS09 | Visualizar status de autorizações e solicitações médicas em tempo real                                   | RF   | Sim          |
+| QT01 | Permitir acesso rápido e estável à carteirinha digital                                                    | RF   | Sim          |
+| QT02 | Exibir extrato financeiro atualizado diariamente                                                          | RF   | Não          |
+| QT03 | Listar rede credenciada com filtro por região, especialidade e tipo de atendimento                        | RF   | Sim          |
+| QT04 | Mostrar histórico de consultas, exames e coparticipações                                                  | RF   | Sim          |
+| QT05 | Permitir visualização dos valores a serem cobrados no mês                                                | RF   | Sim          |
+| QT06 | Habilitar notificações personalizadas por tipo (importantes, lembretes etc.)                             | RF   | Não         |
+| QT07 | Adicionar consulta à rede odontológica                                                                    | RF   | Sim          |
+| QT08 | Oferecer ferramenta de busca por especialidade em determinada localidade                                 | RF   | Sim          |
+| QT09 | Visualizar status de autorizações e solicitações médicas em tempo real                                   | RF   | Sim          |
 
 
 ---
@@ -64,13 +64,13 @@ As tabelas 1 e 2 listadas a seguir contém os requisitos que foram elicitados du
 
 | ID    | Descrição                                                                                                 | Tipo  | Implementado |
 |-------|-----------------------------------------------------------------------------------------------------------|-------|--------------|
-| IS10  | O aplicativo deve apresentar **alta disponibilidade** (mínimo de 99% uptime)                             | RNF   | Não          |
-| IS11  | A interface deve ser **intuitiva, acessível e responsiva** em smartphones Android e iOS                 | RNF   | Sim          |
-| IS12  | O tempo de resposta das ações não deve ultrapassar 2 segundos                                            | RNF   | Não          |
-| IS13  | As informações exibidas devem ser **claras, completas e atualizadas em tempo real**                     | RNF   | Sim          |
-| IS14  | O app deve ser compatível com leitores de tela (acessibilidade digital)                                  | RNF   | Não          |
-| IS15  | A segurança das informações do usuário deve seguir os padrões da LGPD                                    | RNF   | Sim          |
-| IS16  | O layout deve ser consistente com o portal oficial do plano                                              | RNF   | Não          |
+| QT10  | O aplicativo deve apresentar **alta disponibilidade** (mínimo de 99% uptime)                             | RNF   | Não          |
+| QT11  | A interface deve ser **intuitiva, acessível e responsiva** em smartphones Android e iOS                 | RNF   | Sim          |
+| QT12  | O tempo de resposta das ações não deve ultrapassar 2 segundos                                            | RNF   | Não          |
+| QT13  | As informações exibidas devem ser **claras, completas e atualizadas em tempo real**                     | RNF   | Sim          |
+| QT14  | O app deve ser compatível com leitores de tela (acessibilidade digital)                                  | RNF   | Não          |
+| QT15  | A segurança das informações do usuário deve seguir os padrões da LGPD                                    | RNF   | Sim          |
+| QT16  | O layout deve ser consistente com o portal oficial do plano                                              | RNF   | Não          |
 
 
 

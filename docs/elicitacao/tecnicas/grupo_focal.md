@@ -94,7 +94,7 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
 
 | Tipo   | Descrição                                                                                             | ID      | Implementado |
 |--------|-------------------------------------------------------------------------------------------------------|---------|--------------|
-| RF   | O sistema deve permitir ao usuário avaliar uma clínica após o atendimento.                            | GF01    |         Não     |
+| RF   | O sistema deve permitir ao usuário avaliar uma clínica após o atendimento.                            | <a id="GL01"></a>GF01  |         Não     |
 | RF   | O sistema deve notificar o usuário sobre retornos médicos pendentes.                                  | GF02    |       Não       |
 | RF   | O sistema deve notificar o usuário sobre abertura de agenda e cancelamentos de horários de interesse. | GF03    |       Não       |
 | RF   | O sistema deve exibir os exames solicitados e associar aos respectivos retornos médicos.              | GF04    |       Não       |

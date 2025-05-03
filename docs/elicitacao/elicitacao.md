@@ -18,61 +18,47 @@ Legenda das Tabelas:
 - ISx: Requisito da Introspecção número x;
 - GFx: Requisito do Grupo de Foco número x;
 
-# Requisitos Funcionais e Não Funcionais
+## OUTRA
+### Tabela de Requisitos Funcionais (RF)
 
-## Requisitos Funcionais (RF)
+| **ID Consolidado** | **Descrição**                                                                                                      | **Técnicas**                  |
+|--------------------|--------------------------------------------------------------------------------------------------------------------|-------------------------------|
+| RF01               | Permitir ao usuário pesquisar e filtrar clínicas e profissionais credenciados por especialidade, região administrativa, tipo de atendimento e proximidade. | EN01, EN02, IS02, IS06, QT03, QT08 |
+| RF02               | Disponibilizar sistema de avaliação de clínicas com notas e comentários.                                           | EN03, GF01                    |
+| RF03               | Exibir carteirinha digital mesmo sem conexão (modo offline) e permitir acesso rápido e estável.                    | EN04, IS09, QT01              |
+| RF04               | Enviar notificações configuráveis sobre vencimento de fatura, retornos médicos pendentes, abertura de agenda, cancelamentos de horários, horários favoritos disponíveis, prazos importantes, confirmações ou alterações de agendamento e disponibilidade de demonstrativos de IR. | EN05, EN06, GF02, GF03, GF07, GF10, IS07, IS12, QT06 |
+| RF05               | Permitir agendamento, cancelamento de consultas e exames diretamente pelo aplicativo, com pagamento automático para prestadores da Rede de Atendimento. | EN07, GL06, IS01, IS05       |
+| RF06               | Exibir valor específico de consulta em cada clínica, aplicar percentuais de coparticipação, gerar e baixar demonstrativos de despesas médicas para imposto de renda, consultar histórico de demonstrativos de IR e mostrar extrato financeiro atualizado diariamente. | EN08, GL04, IS10, IS11, QT02, QT05 |
+| RF07               | Permitir cadastro de titulares, dependentes e optantes com validação de documentos e elegibilidade.                | GL01, GL08, GL09           |
+| RF08               | Verificar se procedimentos estão na TABGDFSAÚDE, atendem às DUT, estão sujeitos a carência ou são excluídos, exigindo solicitação médica e análise técnica para autorizações prévias. | GL02, GL03, GL05, GL07, QT09 |
+| RF09               | Permitir ao usuário visualizar histórico de consultas, exames realizados, resultados de exames laboratoriais e coparticipações. | GF04, GF08, IS03, IS04, QT04  |
+| RF10               | Permitir que o usuário favorite horários de consulta desejados.                                                    | GF06                          |
+| RF11               | Oferecer um canal para o usuário enviar feedback sobre atendimentos.                                               | GF09                          |
+| RF12               | Divulgar informações sobre novas funcionalidades no aplicativo.                                                    | GF05                          |
+| RF13               | Adicionar consulta à rede odontológica.                                                                            | QT07                          |
+| RF14               | Apresentar novas clínicas e clínicas próximas de acordo com a localização do usuário.                              | EN09                          |
+| RF15               | Permitir baixar comprovantes de agendamento.                                                                       | IS08                          |
 
-| ID   | IDs Originais      | Descrição                                                                 | Implementado |
-|------|--------------------|---------------------------------------------------------------------------|--------------|
-| RF01 | EN01, IS08         | Permitir pesquisa/filtro de clínicas e profissionais por especialidade/região. | Sim          |
-| RF02 | EN02               | Oferecer filtros de rede credenciada por região administrativa e especialidade. | Sim          |
-| RF03 | EN03, GF01         | Sistema de avaliação de clínicas com notas/comentários e feedback.        | Não          |
-| RF04 | EN04, IS19         | Exibir carteirinha digital e histórico de consultas em modo offline.      | Não          |
-| RF05 | EN05, GF05, IS06   | Configuração de notificações (app/SMS/e-mail) e divulgação de novidades.  | Não          |
-| RF06 | EN06, IS12         | Alertas de vencimento de fatura e notificações de demonstrativos de IR.   | Não          |
-| RF07 | EN07, IS01         | Agendamento de consultas/exames diretamente pelo aplicativo.              | Não          |
-| RF08 | EN08               | Exibir valores específicos de consulta por clínica credenciada.           | Não          |
-| RF09 | EN09, IS06         | Apresentar clínicas próximas/novas baseadas na localização do usuário.    | Não          |
-| RF10 | GL001              | Cadastro de titulares/dependentes com validação de documentos.            | Não          |
-| RF11 | GL002              | Verificar conformidade de procedimentos com TABGDFSAÚDE/DUT.              | Não          |
-| RF12 | GL003              | Bloquear procedimentos sujeitos a carência (ex.: parto após 300 dias).    | Não          |
-| RF13 | GL004              | Aplicar percentuais de coparticipação conforme tipo de atendimento.       | Sim          |
-| RF14 | GL005              | Exigir solicitação médica e análise técnica para procedimentos eletivos. | Não          |
-| RF15 | GL006              | Agendamento e pagamento automático para prestadores da Rede.              | Não          |
-| RF16 | GL007              | Rejeitar automaticamente procedimentos em lista de exclusões (ex.: cirurgias estéticas). | Sim |
-| RF17 | GL008, GL009       | Validar vínculo do servidor com GDF e elegibilidade de dependentes.       | Sim          |
-| RF18 | GF02, GF03, GF07   | Notificar retornos médicos, cancelamentos e disponibilidade de horários.  | Não          |
-| RF19 | GF04               | Associar exames solicitados a retornos médicos.                           | Não          |
-| RF20 | GF06               | Favoritar horários de consulta desejados.                                 | Não          |
-| RF21 | GF08, IS04         | Visualizar histórico de consultas/exames/atendimentos.                    | Sim          |
-| RF22 | GF09               | Canal para envio de feedback sobre atendimentos.                          | Não          |
-| RF23 | GF10               | Notificações sobre prazos importantes de consultas/exames.                | Não          |
-| RF24 | IS03               | Consulta de resultados de exames laboratoriais.                           | Não          |
-| RF25 | IS05               | Cancelamento de consultas pelo aplicativo.                                | Não          |
-| RF26 | IS07               | Notificações de confirmação/alteração de agendamento.                     | Não          |
-| RF27 | IS09               | Acesso à carteirinha digital do plano.                                    | Sim          |
-| RF28 | IS10               | Geração/download de demonstrativos de despesas médicas para IR.           | Sim          |
-| RF29 | IS11               | Consulta de histórico de demonstrativos de IR de anos anteriores.         | Sim          |
+### Tabela de Requisitos Não Funcionais (RNF)
 
-## Requisitos Não Funcionais (RNF)
-
-| ID    | IDs Originais             | Descrição                                                                 | Implementado |
-|-------|---------------------------|---------------------------------------------------------------------------|--------------|
-| RNF01 | EN10, GF13, IS11, IS16    | Interface intuitiva com categorias claras e alinhada ao portal oficial.   | Sim          |
-| RNF02 | EN11, IS14, GF17          | Carregamento rápido com tempo de resposta ≤2 segundos.                    | Sim          |
-| RNF03 | EN12, GL012, IS15, IS18   | Segurança de dados (criptografia/LGPD) e transparência no uso.            | Sim          |
-| RNF04 | GL010, GL011              | Conformidade legal (Portaria nº 127/2024) e disponibilidade 24/7.         | Sim          |
-| RNF05 | GL013                     | Processamento de autorizações prévias em ≤10 dias úteis.                  | Sim          |
-| RNF06 | GL014                     | Integração com folha de pagamento do GDF para descontos.                  | Sim          |
-| RNF07 | GF11, GF12                | Autenticação via GovBR e dois fatores para dados sensíveis.               | Não          |
-| RNF08 | GF15                      | Acesso a informações críticas em até três cliques.                        | Não          |
-| RNF09 | GF16                      | Histórico de notificações acessível por ≥6 meses.                         | Não          |
-| RNF10 | GF18, IS17                | Compatibilidade com versões recentes de Android/iOS.                      | Sim          |
-| RNF11 | IS13                      | Interface adaptada para idosos/usuários com baixa familiaridade tecnológica. | Não      |
-| RNF12 | IS19, IS07                | Funcionamento offline para carteirinha e histórico de consultas.          | Não          |
-| RNF13 | IS20, IS14                | Compatibilidade com leitores de tela para deficientes visuais.            | Não          |
-| RNF14 | IS10                      | Alta disponibilidade (≥99% uptime).                                       | Não          |
-| RNF15 | IS12                      | Tempo de resposta das ações ≤2 segundos.                                  | Não          |
+| **ID Consolidado** | **Descrição**                                                                                                      | **Técnicas**                  |
+|--------------------|--------------------------------------------------------------------------------------------------------------------|-------------------------------|
+| RNF01              | A interface deve ser intuitiva, clara, adaptada para idosos e pessoas com baixa familiaridade tecnológica, organizada em categorias e responsiva em smartphones Android e iOS. | EN10, GF13, IS13, QT11        |
+| RNF02              | Garantir carregamento rápido e fluído de todas as telas, com tempo de resposta das ações não ultrapassando 2 segundos. | EN11, GF17, IS14, QT12        |
+| RNF03              | Assegurar segurança no acesso e armazenamento de dados pessoais, criptografar dados sensíveis conforme LGPD, incluir autenticação em dois fatores e ser transparente quanto ao uso e segurança dos dados. | EN12, GL12, GF12, GF14, IS18, QT15 |
+| RNF04              | Manter o sistema disponível 24/7 para autorizações de urgência/emergência e apresentar alta disponibilidade (mínimo de 99% uptime). | GL11, QT10                   |
+| RNF05              | O sistema deve ser compatível com diferentes versões do Android e iOS, a partir das versões mais utilizadas no mercado. | GF18, IS17, QT11              |
+| RNF06              | O aplicativo deve ser compatível com leitores de tela para garantir acessibilidade a pessoas com deficiência visual. | IS20, QT14                    |
+| RNF07              | Garantir conformidade com a Portaria nº 127/2024, legislações complementares e padrões da LGPD.                    | GL10, QT15                   |
+| RNF08              | Processar autorizações prévias em até 10 dias úteis.                                                              | GL13                         |
+| RNF09              | Comunicar-se com a folha de pagamento do GDF para descontos de mensalidades.                                       | GL14                         |
+| RNF10              | Garantir que informações críticas, como a carteirinha digital, estejam acessíveis em até três cliques ou com no máximo 2 cliques a partir da tela inicial. | GF15, IS16                    |
+| RNF11              | Manter histórico de notificações acessível ao usuário por no mínimo 6 meses.                                      | GF16                          |
+| RNF12              | O aplicativo deve oferecer suporte por chat ou telefone.                                                          | IS15                          |
+| RNF13              | Deve funcionar de forma offline para acesso à carteirinha e histórico de consultas.                               | IS19                          |
+| RNF14              | O layout deve ser consistente com o portal oficial do plano.                                                      | QT16                          |
+| RNF15              | O sistema deve exigir autenticação via GovBR para login.                                                          | GF11                          |
+|RNF16               | As informações exibidas devem ser claras, completas e atualizadas em tempo real |  QT13  |
 
 ## Histórico de Versões
 
