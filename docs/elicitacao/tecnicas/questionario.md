@@ -83,7 +83,7 @@ As tabelas 1 e 2 listadas a seguir contém os requisitos que foram elicitados du
 
 <p align="center"><strong>Figura 1 da Utilização</strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\inas.png" alt="10" width="500"/>
+  <img src="..\..\..\assets\img-questionario\inas.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -94,7 +94,7 @@ As tabelas 1 e 2 listadas a seguir contém os requisitos que foram elicitados du
 
 <p align="center"><strong>Figura 2 Utilização </strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\ja-utilizou.png" alt="10" width="500"/>
+  <img src="..\..\..\assets\img-questionario\ja-utilizou.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -110,7 +110,7 @@ As faixas etárias mais recorrentes entre os respondentes são:
 
 <p align="center"><strong>Figura 1: Faixa Etária</strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\01.png" alt="01" width="500"/>
+  <img src="..\..\..\assets\img-questionario\01.png" alt="01" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -123,7 +123,7 @@ As faixas etárias mais recorrentes entre os respondentes são:
 
 <p align="center"><strong>Figura 2: Gênero</strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\02.png" alt="02" width="500"/>
+  <img src="..\..\..\assets\img-questionario\02.png" alt="02" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -140,7 +140,7 @@ As regiões mais citadas incluem:
 
 <p align="center"><strong>Figura 3: Região Administrativa</strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\03.png" alt="03" width="500"/>
+  <img src="..\..\..\assets\img-questionario\03.png" alt="03" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -152,7 +152,7 @@ As regiões mais citadas incluem:
 
 <p align="center"><strong>Figura 4: Escolaridade</strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\04.png" alt="04" width="500"/>
+  <img src="..\..\..\assets\img-questionario\04.png" alt="04" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -164,7 +164,7 @@ As regiões mais citadas incluem:
 
 <p align="center"><strong>Figura 5: Ocupação</strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\05.png" alt="05" width="500"/>
+  <img src="..\..\..\assets\img-questionario\05.png" alt="05" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -176,7 +176,7 @@ As regiões mais citadas incluem:
 
 <p align="center"><strong>Figura 6: Outro Plano</strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\06.png" alt="06" width="500"/>
+  <img src="..\..\..\assets\img-questionario\06.png" alt="06" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -188,7 +188,7 @@ As regiões mais citadas incluem:
 
 <p align="center"><strong>Figura 7: Titular ou Dependente</strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\07.png" alt="07" width="500"/>
+  <img src="..\..\..\assets\img-questionario\07.png" alt="07" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -201,7 +201,7 @@ As regiões mais citadas incluem:
 
 <p align="center"><strong>Figura 8: Dependentes</strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\08.png" alt="08" width="500"/>
+  <img src="..\..\..\assets\img-questionario\08.png" alt="08" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -217,7 +217,7 @@ As regiões mais citadas incluem:
 
 <p align="center"><strong>Figura 9: Frequência de Uso</strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\09.png" alt="09" width="500"/>
+  <img src="..\..\..\assets\img-questionario\09.png" alt="09" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -233,7 +233,7 @@ As principais funcionalidades acessadas foram:
 
 <p align="center"><strong>Figura 10: Finalidades Mais Comuns</strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\10.png" alt="10" width="500"/>
+  <img src="..\..\..\assets\img-questionario\10.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -269,7 +269,7 @@ As principais respostas foram:
 
 <p align="center"><strong>Figura 11: Erros e Travamentos </strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\12.png" alt="11" width="500"/>
+  <img src="..\..\..\assets\img-questionario\12.png" alt="11" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -282,7 +282,7 @@ As principais respostas foram:
 
 <p align="center"><strong>Figura 12: Escala de Facilidade</strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\13.png" alt="12" width="500"/>
+  <img src="..\..\..\assets\img-questionario\13.png" alt="12" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -298,7 +298,7 @@ Aos que afirmaram sim a esta pergunta, as mais frequêntes são:
 
 <p align="center"><strong>Figura 13: Problemas Identificados</strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\14.png" alt="13" width="500"/>
+  <img src="..\..\..\assets\img-questionario\14.png" alt="13" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -314,7 +314,7 @@ Aos que afirmaram sim a esta pergunta, as mais frequêntes são:
 
 <p align="center"><strong>Figura 14: Expectativa</strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\15.png" alt="10" width="500"/>
+  <img src="..\..\..\assets\img-questionario\15.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -326,7 +326,7 @@ Aos que afirmaram sim a esta pergunta, as mais frequêntes são:
 
 <p align="center"><strong>Figura 15: Finalidades Mais Comuns</strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\16.png" alt="10" width="500"/>
+  <img src="..\..\..\assets\img-questionario\16.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -356,7 +356,7 @@ As respostas foram:
 
 <p align="center"><strong>Figura 16: Segurança</strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\18.png" alt="10" width="500"/>
+  <img src="..\..\..\assets\img-questionario\18.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -368,7 +368,7 @@ As respostas foram:
 
 <p align="center"><strong>Figura 17: Frquência de Notificação</strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\19.png" alt="10" width="500"/>
+  <img src="..\..\..\assets\img-questionario\19.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -385,7 +385,7 @@ As respostas foram:
 
 <p align="center"><strong>Figura 18: Familiaridade</strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\20.png" alt="10" width="500"/>
+  <img src="..\..\..\assets\img-questionario\20.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -398,7 +398,7 @@ As respostas foram:
 
 <p align="center"><strong>Figura 20: Dispositivo de Costume</strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\21.png" alt="10" width="500"/>
+  <img src="..\..\..\assets\img-questionario\21.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -487,7 +487,7 @@ As respostas foram:
 
 <p align="center"><strong>Figura 21: Nunca Utilizou, motivos</strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\Porque-nunca-utilizou.png" alt="10" width="500"/>
+  <img src="..\..\..\assets\img-questionario\Porque-nunca-utilizou.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -528,7 +528,7 @@ Os dados evidenciam que o aplicativo GDF-Saúde é conhecido e utilizado por boa
 
 <p align="center"><strong>Figura 22: LGPD</strong> </p>
 <p align="center">
-  <img src="\assets\img-questionario\lgpd.png" alt="10" width="500"/>
+  <img src="..\..\..\assets\img-questionario\lgpd.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
@@ -546,3 +546,4 @@ Os dados evidenciam que o aplicativo GDF-Saúde é conhecido e utilizado por boa
 | 1.3 | 02/05/2025 | Adição de mais informação ao documento | [Kaleb Macedo](https://github.com/kalebmacedo)    | [Isaque Camargos](https://github.com/isaqzin) |
 | 1.4 | 03/05/2025 | Adição de mais informações e correção de tabelas e imagens | [Kaleb Macedo](https://github.com/kalebmacedo) | [Isaque Camargos](https://github.com/isaqzin) |
 | 1.5 | 03/05/2025 | Correção de imagens | [Kaleb Macedo](https://github.com/kalebmacedo) | [Isaque Camargos](https://github.com/isaqzin) |
+| 1.6 | 03/05/2025 | Correção de imagens 2 (socorro) | [Isaque Camargos](https://github.com/isaqzin) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
