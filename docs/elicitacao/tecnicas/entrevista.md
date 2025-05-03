@@ -28,12 +28,16 @@ A elicitação de requisitos foi realizada individualmente pelos analistas [Ana 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
 ### Gravações  
+Os Termos que nos permitem utilizar da imagem dos entrevistados estão disponíveis [aqui.](../assets/termosentrevista.pdf)
+
 A seguir as gravações das entrevistas:
+
+
 
 - **Gravação 1** (entrevista de Ana Luiza Soares com Gabriel Celestino): 
 
 
-<iframe width="560" height="315" src="https://youtu.be/C75mfZji4R4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C75mfZji4R4?si=UPs4nc1OZQUm6h2f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 - **Gravação 2** (entrevista de Isaque Camargos com Marla Soares): 
@@ -49,57 +53,57 @@ As respostas a seguir foram transcritas por [Ana Luiza Soares](https://github.co
 
 1. Qual é o seu nome completo?
 
-   **Marla:** Marla dos Santos Soares;
+    **Marla:** Marla dos Santos Soares;
 
-   **Gabriel:** Gabriel Celestino de Almeida.
+    **Gabriel:** Gabriel Celestino de Almeida.
 
 2. Quantos anos você tem?
 
-   **Marla:** 48 anos;
+    **Marla:** 48 anos;
 
-   **Gabriel:** 19 anos.
+    **Gabriel:** 19 anos.
 
 3. Em qual região administrativa você mora?
 
-   **Marla:** Ceilândia, Distrito Federal;
+    **Marla:** Ceilândia, Distrito Federal;
 
-   **Gabriel:**  Ceilândia, Distrito Federal.
+    **Gabriel:**  Ceilândia, Distrito Federal.
 
 4. Com que frequência você abre o GDF-Saúde?
 
-   **Marla:** Uma ou duas vezes por mês;
+    **Marla:** Uma ou duas vezes por mês;
 
-   **Gabriel:** Poucas vezes, apenas quando precisa.
+    **Gabriel:** Poucas vezes, apenas quando precisa.
 
-5. Você acessa o app por celular, tablet ou computador?
+05. Você acessa o app por celular, tablet ou computador?
 
-   **Marla:** Pelo celular;
+    **Marla:** Pelo celular;
 
-   **Gabriel:** Celular.
+    **Gabriel:** Celular.
 
-6. Qual é a sua função ou área de atuação no serviço público?
+06. Qual é a sua função ou área de atuação no serviço público?
 
-   **Marla:** Técnica de enfermagem, servidora da área de saúde;
+    **Marla:** Técnica de enfermagem, servidora da área de saúde;
 
-   **Gabriel:** Como é dependente não lembrou qual é a área de atuação do titular do plano, mas ele é estudante. 
+    **Gabriel:** Como é dependente não lembrou qual é a área de atuação do titular do plano, mas ele é estudante. 
 
-7. Quais funções do aplicativo você usa com mais frequência?
+07. Quais funções do aplicativo você usa com mais frequência?
 
-   **Marla:** Busca de clínicas por especialidade médica;
+    **Marla:** Busca de clínicas por especialidade médica;
 
-   **Gabriel:** Utilizar a carteirinha, ver histórico de aprovação de exames e consultas.
+    **Gabriel:** Utilizar a carteirinha, ver histórico de aprovação de exames e consultas.
 
-8. Você já buscou redes credenciadas no app? Como foi essa experiência?
+08. Você já buscou redes credenciadas no app? Como foi essa experiência?
 
-   **Marla:** sim, foi boa, mas sente falta de sistema de avaliação das clínicas para pessoas que não tem conhecimento da área da saúde;
+    **Marla:** sim, foi boa, mas sente falta de sistema de avaliação das clínicas para pessoas que não tem conhecimento da área da saúde;
 
-   **Gabriel:** Foi tranquilo.
+    **Gabriel:** Foi tranquilo.
 
-9. Você compartilha o app com algum dependente? Como faz isso hoje?
+09. Você compartilha o app com algum dependente? Como faz isso hoje?
 
-   **Marla:** Tem uma dependente, mas a dependente utiliza pelo próprio celular;
+    **Marla:** Tem uma dependente, mas a dependente utiliza pelo próprio celular;
 
-   **Gabriel:** Ele é o dependente.
+    **Gabriel:** Ele é o dependente.
 
 10. Que tarefas de saúde você ainda faz de forma manual, sem usar o app?
 
@@ -287,4 +291,5 @@ VAZQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira. *Engenharia de requisitos:
 |--------|------|-----------|-----------|-------------|
 | 1.0 | 23/04/2025 | Introdução e requisitos iniciais | [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 | 1.1 | 01/05/2025 | Respostas de umas das entrevistas e alguns dos requisitos elicitados | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) |
-| 1.1 | 01/05/2025 | Atualização das respostas das entrevistas, adição dos requisitos elicitados e ajustes na entrodução, metodologia e gravação | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Isaque Camargos](https://github.com/isaqzin) | [Yzabella Miranda](https://github.com/redjsun) |
+| 1.2 | 01/05/2025 | Atualização das respostas das entrevistas, adição dos requisitos elicitados e ajustes na entrodução, metodologia e gravação | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Isaque Camargos](https://github.com/isaqzin) | [Yzabella Miranda](https://github.com/redjsun) |
+| 1.3| 03/05/2025 | Correção de bug na contagem das perguntas e adição dos termos de consentimento | [Isaque Camargos](https://github.com/isaqzin) |[Yzabella Miranda](https://github.com/redjsun) |
