@@ -94,16 +94,16 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
 
 | Tipo   | Descrição                                                                                             | ID      | Implementado |
 |--------|-------------------------------------------------------------------------------------------------------|---------|--------------|
-| RF   | O sistema deve permitir ao usuário avaliar uma clínica após o atendimento.                            | GF01    |         Não     |
-| RF   | O sistema deve notificar o usuário sobre retornos médicos pendentes.                                  | GF02    |       Não       |
-| RF   | O sistema deve notificar o usuário sobre abertura de agenda e cancelamentos de horários de interesse. | GF03    |       Não       |
-| RF   | O sistema deve exibir os exames solicitados e associar aos respectivos retornos médicos.              | GF04    |       Não       |
-| RF   | O sistema deve divulgar informações sobre novas funcionalidades no aplicativo.                        | GF05    |        Sem certeza ainda      |
-| RF   | O sistema deve permitir que o usuário favorite horários de consulta desejados.                        | GF06    |        Não      |
-| RF   | O sistema deve alertar o usuário caso algum horário favorito fique disponível por desistência.        | GF07    |     Não         |
-| RF   | O sistema deve permitir ao usuário visualizar um histórico de consultas e exames realizados.          | GF08    |       Sem certeza ainda       |
-| RF  | O sistema deve oferecer um canal para o usuário enviar feedback sobre atendimentos.                   | GF09    |     Não      |
-| RF  | O sistema deve exibir notificações sobre prazos importantes relacionados a consultas e exames.        | GF10    |        Não     |
+| [RF02](../../elicitacao/elicitacao.md#RF02)   | O sistema deve permitir ao usuário avaliar uma clínica após o atendimento.                            | <a id="GF01"></a>GF01  |         Não     |
+| [RF04](../../elicitacao/elicitacao.md#RF04)   | O sistema deve notificar o usuário sobre retornos médicos pendentes.                                  | <a id="GF02"></a>GF02    |       Não       |
+| [RF04](../../elicitacao/elicitacao.md#RF04)   | O sistema deve notificar o usuário sobre abertura de agenda e cancelamentos de horários de interesse. | <a id="GF03"></a>GF03    |       Não       |
+| [RF09](../../elicitacao/elicitacao.md#RF09)   | O sistema deve exibir os exames solicitados e associar aos respectivos retornos médicos.              | <a id="GF04"></a>GF04    |       Não       |
+| [RF12](../../elicitacao/elicitacao.md#RF12)   | O sistema deve divulgar informações sobre novas funcionalidades no aplicativo.                        | <a id="GF05"></a>GF05    |        Sem certeza ainda      |
+| [RF10](../../elicitacao/elicitacao.md#RF10)   | O sistema deve permitir que o usuário favorite horários de consulta desejados.                        | <a id="GF06"></a>GF06    |        Não      |
+| [RF04](../../elicitacao/elicitacao.md#RF04)   | O sistema deve alertar o usuário caso algum horário favorito fique disponível por desistência.        | <a id="GF07"></a>GF07    |     Não         |
+| [RF09](../../elicitacao/elicitacao.md#RF09)   | O sistema deve permitir ao usuário visualizar um histórico de consultas e exames realizados.          | <a id="GF08"></a>GF08    |       Sem certeza ainda       |
+| [RF11](../../elicitacao/elicitacao.md#RF1)  | O sistema deve oferecer um canal para o usuário enviar feedback sobre atendimentos.                   | <a id="GF09"></a>GF09    |     Não      |
+| [RF04](../../elicitacao/elicitacao.md#RF04)  | O sistema deve exibir notificações sobre prazos importantes relacionados a consultas e exames.        | <a id="GF02"></a>GF10    |        Não     |
 
 <p align="center">Autor: <b><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></b></p>
 
@@ -113,14 +113,14 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
 
 | Tipo    | Descrição                                                                                                               | ID      |
 |---------|-------------------------------------------------------------------------------------------------------------------------|---------|
-| RNF   | O sistema deve exigir autenticação via GovBR para login.                                                                | GF11    |
-| RNF   | O sistema deve incluir autenticação em dois fatores para acesso aos dados de saúde.                                     | GF12    |
-| RNF   | O sistema deve ter uma interface organizada em categorias.                                                              | GF13 | 
-| RNF   | O sistema deve ser transparente quanto ao uso e segurança dos dados do usuário.                                         | GF14    |
-| RNF   | O sistema deve garantir que informações críticas estejam acessíveis em até três cliques.                                | GF15    |
-| RNF   | O sistema deve manter histórico de notificações acessível ao usuário por no mínimo 6 meses.                             | GF16    |
-| RNF   | O sistema deve apresentar desempenho adequado, respondendo a interações em até 2 segundos.                              | GF17    |
-| RNF   | O sistema deve ser compatível com diferentes versões do Android e iOS, a partir das versões mais utilizadas no mercado. | GF18    |
+| [RNF15](../../elicitacao/elicitacao.md#RNF15)   | O sistema deve exigir autenticação via GovBR para login.                                                                | <a id="GF11"></a>GF11    |
+| [RNF03](../../elicitacao/elicitacao.md#RNF03)   | O sistema deve incluir autenticação em dois fatores para acesso aos dados de saúde.                                     | <a id="GF12"></a>GF12    |
+| [RNF01](../../elicitacao/elicitacao.md#RNF01)   | O sistema deve ter uma interface organizada em categorias.                                                              | <a id="GF13"></a>GF13 | 
+| [RNF03](../../elicitacao/elicitacao.md#RNF03)   | O sistema deve ser transparente quanto ao uso e segurança dos dados do usuário.                                         | <a id="GF14"></a>GF14    |
+| [RNF10](../../elicitacao/elicitacao.md#RNF10)   | O sistema deve garantir que informações críticas estejam acessíveis em até três cliques.                                | <a id="GF15"></a>GF15    |
+| [RNF11](../../elicitacao/elicitacao.md#RNF11)   | O sistema deve manter histórico de notificações acessível ao usuário por no mínimo 6 meses.                             | <a id="GF16"></a>GF16    |
+| [RNF02](../../elicitacao/elicitacao.md#RNF02)   | O sistema deve apresentar desempenho adequado, respondendo a interações em até 2 segundos.                              | <a id="GF17"></a>GF17    |
+| [RNF05](../../elicitacao/elicitacao.md#RNF05)   | O sistema deve ser compatível com diferentes versões do Android e iOS, a partir das versões mais utilizadas no mercado. | <a id="GF18"></a>GF18    |
 
 <p align="center">Autor: <b><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></b></p>
 

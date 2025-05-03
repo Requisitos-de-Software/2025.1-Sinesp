@@ -47,15 +47,15 @@ As tabelas 1 e 2 listadas a seguir contém os requisitos que foram elicitados du
 
 | ID   | Descrição                                                                                                  | Tipo | Implementado |
 |------|------------------------------------------------------------------------------------------------------------|------|--------------|
-| IS01 | Permitir acesso rápido e estável à carteirinha digital                                                    | RF   | Sim          |
-| IS02 | Exibir extrato financeiro atualizado diariamente                                                          | RF   | Não          |
-| IS03 | Listar rede credenciada com filtro por região, especialidade e tipo de atendimento                        | RF   | Sim          |
-| IS04 | Mostrar histórico de consultas, exames e coparticipações                                                  | RF   | Sim          |
-| IS05 | Permitir visualização dos valores a serem cobrados no mês                                                | RF   | Sim          |
-| IS06 | Habilitar notificações personalizadas por tipo (importantes, lembretes etc.)                             | RF   | Não         |
-| IS07 | Adicionar consulta à rede odontológica                                                                    | RF   | Sim          |
-| IS08 | Oferecer ferramenta de busca por especialidade em determinada localidade                                 | RF   | Sim          |
-| IS09 | Visualizar status de autorizações e solicitações médicas em tempo real                                   | RF   | Sim          |
+| <a id="QT01"></a>QT01 | Permitir acesso rápido e estável à carteirinha digital                                                    | [RF03](../../elicitacao/elicitacao.md#RF03)   | Sim          |
+| <a id="QT02"></a>QT02 | Exibir extrato financeiro atualizado diariamente                                                          | [RF06](../../elicitacao/elicitacao.md#RF06)   | Não          |
+| <a id="QT03"></a>QT03 | Listar rede credenciada com filtro por região, especialidade e tipo de atendimento                        | [RF01](../../elicitacao/elicitacao.md#RF01)   | Sim          |
+| <a id="QT04"></a>QT04 | Mostrar histórico de consultas, exames e coparticipações                                                  | [RF09](../../elicitacao/elicitacao.md#RF09)   | Sim          |
+| <a id="QT05"></a>QT05 | Permitir visualização dos valores a serem cobrados no mês                                                | [RF06](../../elicitacao/elicitacao.md#RF06)   | Sim          |
+| <a id="QT06"></a>QT06 | Habilitar notificações personalizadas por tipo (importantes, lembretes etc.)                             | [RF04](../../elicitacao/elicitacao.md#RF04)   | Não         |
+| <a id="QT07"></a>QT07 | Adicionar consulta à rede odontológica                                                                    | [RF13](../../elicitacao/elicitacao.md#RF13)   | Sim          |
+| <a id="QT08"></a>QT08 | Oferecer ferramenta de busca por especialidade em determinada localidade                                 | [RF01](../../elicitacao/elicitacao.md#RF01)   | Sim          |
+| <a id="QT09"></a>QT09 | Visualizar status de autorizações e solicitações médicas em tempo real                                   | [RF08](../../elicitacao/elicitacao.md#RF08)   | Sim          |
 
 
 ---
@@ -64,13 +64,13 @@ As tabelas 1 e 2 listadas a seguir contém os requisitos que foram elicitados du
 
 | ID    | Descrição                                                                                                 | Tipo  | Implementado |
 |-------|-----------------------------------------------------------------------------------------------------------|-------|--------------|
-| IS10  | O aplicativo deve apresentar **alta disponibilidade** (mínimo de 99% uptime)                             | RNF   | Não          |
-| IS11  | A interface deve ser **intuitiva, acessível e responsiva** em smartphones Android e iOS                 | RNF   | Sim          |
-| IS12  | O tempo de resposta das ações não deve ultrapassar 2 segundos                                            | RNF   | Não          |
-| IS13  | As informações exibidas devem ser **claras, completas e atualizadas em tempo real**                     | RNF   | Sim          |
-| IS14  | O app deve ser compatível com leitores de tela (acessibilidade digital)                                  | RNF   | Não          |
-| IS15  | A segurança das informações do usuário deve seguir os padrões da LGPD                                    | RNF   | Sim          |
-| IS16  | O layout deve ser consistente com o portal oficial do plano                                              | RNF   | Não          |
+| <a id="QT10"></a>QT10  | O aplicativo deve apresentar **alta disponibilidade** (mínimo de 99% uptime)                             | [RNF04](../../elicitacao/elicitacao.md#RNF04)   | Não          |
+| <a id="QT11"></a>QT11  | A interface deve ser **intuitiva, acessível e responsiva** em smartphones Android e iOS                 | [RNF05](../../elicitacao/elicitacao.md#RNF05)   | Sim          |
+| <a id="QT12"></a>QT12  | O tempo de resposta das ações não deve ultrapassar 2 segundos                                            | [RNF02](../../elicitacao/elicitacao.md#RNF02)   | Não          |
+| <a id="QT13"></a>QT13  | As informações exibidas devem ser **claras, completas e atualizadas em tempo real**                     | [RNF16](../../elicitacao/elicitacao.md#RNF16)   | Sim          |
+| <a id="QT14"></a>QT14  | O app deve ser compatível com leitores de tela (acessibilidade digital)                                  | [RNF06](../../elicitacao/elicitacao.md#RNF06)   | Não          |
+| <a id="QT15"></a>QT15  | A segurança das informações do usuário deve seguir os padrões da LGPD                                    | [RNF03](../../elicitacao/elicitacao.md#RNF03)   | Sim          |
+| <a id="QT16"></a>QT16  | O layout deve ser consistente com o portal oficial do plano                                              | [RNF14](../../elicitacao/elicitacao.md#RNF14)   | Não          |
 
 
 

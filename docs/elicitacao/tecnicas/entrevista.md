@@ -262,18 +262,18 @@ A partir das entrevistas foram elicitados os seguintes requisitos na tabela 2, m
 
 | **ID**  | **Descrição**                                                                 | **Tipo** | **Implementado** |
 | ------- | ----------------------------------------------------------------------------- | -------- | ---------------- |
-| EN01    | Permitir ao usuário pesquisar clínicas e profissionais credenciados por especialidade. | RF       | sim  |
-| EN02    | Oferecer filtros de rede credenciada por região administrativa e especialidade.       | RF       |     sim             |
-| EN03    | Disponibilizar sistema de avaliação de clínicas com notas e comentários.              | RF       |        não          |
-| EN04    | Exibir carteirinha digital mesmo sem conexão (modo offline).                         | RF       |           não       |
-| EN05    | Permitir configuração de recebimento de notificações via app, SMS ou e-mail.         | RF       |         não         |
-| EN06    | Enviar alertas ao usuário antes do vencimento da fatura.                             | RF       |         não         |
-| EN07    | Permitir agendamento de consultas e exames diretamente pelo aplicativo.              | RF       |          não        |
-| EN08    | Exibir valor específico de consulta em cada clínica credenciada.                     | RF       |         não         |
-| EN09    | Apresentar novas clínicas e clínicas próximas de acordo com a localização do usuário. | RF       |        não          |
-| EN10    | Interface intuitiva com filtros e menus claramente identificados.                    | RNF      |          sim        |
-| EN11    | Garantir carregamento rápido e fluído de todas as telas.                             | RNF      |          sim        |
-| EN12    | Assegurar segurança no acesso e armazenamento de dados pessoais.                     | RNF      |          sim        |
+| <a id="EN01"></a>EN01    | Permitir ao usuário pesquisar clínicas e profissionais credenciados por especialidade. | [RF01](../../elicitacao/elicitacao.md#RF01)       | sim  |
+| <a id="EN02"></a>EN02   | Oferecer filtros de rede credenciada por região administrativa e especialidade.       | [RF01](../../elicitacao/elicitacao.md#RF01)       |     sim             |
+| <a id="EN03"></a>EN03    | Disponibilizar sistema de avaliação de clínicas com notas e comentários.              | [RF02](../../elicitacao/elicitacao.md#RF02)       |        não          |
+| <a id="EN04"></a>EN04    | Exibir carteirinha digital mesmo sem conexão (modo offline).                         | [RF03](../../elicitacao/elicitacao.md#RF03)       |           não       |
+| <a id="EN05"></a>EN05     | Permitir configuração de recebimento de notificações via app, SMS ou e-mail.         | [RF04](../../elicitacao/elicitacao.md#RF04)       |         não         |
+| <a id="EN06"></a>EN06   | Enviar alertas ao usuário antes do vencimento da fatura.                             | [RF04](../../elicitacao/elicitacao.md#RF04)       |         não         |
+| <a id="EN07"></a>EN07    | Permitir agendamento de consultas e exames diretamente pelo aplicativo.              | [RF05](../../elicitacao/elicitacao.md#RF05)       |          não        |
+| <a id="EN08"></a>EN08    | Exibir valor específico de consulta em cada clínica credenciada.                     | [RF05](../../elicitacao/elicitacao.md#RF05)       |         não         |
+| <a id="EN09"></a>EN09     | Apresentar novas clínicas e clínicas próximas de acordo com a localização do usuário. | [RF14](../../elicitacao/elicitacao.md#RF14)       |        não          |
+| <a id="EN10"></a>EN10     | Interface intuitiva com filtros e menus claramente identificados.                    | [RNF01](../../elicitacao/elicitacao.md#RNF01)      |          sim        |
+| <a id="EN11"></a>EN11    | Garantir carregamento rápido e fluído de todas as telas.                             | [RNF02](../../elicitacao/elicitacao.md#RNF02)      |          sim        |
+| <a id="EN12"></a>EN12    | Assegurar segurança no acesso e armazenamento de dados pessoais.                     | [RNF03](../../elicitacao/elicitacao.md#RNF03)      |          sim        |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 

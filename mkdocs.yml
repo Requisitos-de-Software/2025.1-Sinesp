@@ -39,7 +39,8 @@ nav:
       - Aplicativos Avaliados: planejamento/aplicativos-avaliados.md
   - Pré-rastreabilidade:
       - Rich Picture: pre-rastreabilidade/rich_picture.md
-  - Elicitação:
+  - Elicitação: 
+      - Requisios Elicitados: elicitacao/elicitacao.md  
       - Técnicas:
           - Introspecção: elicitacao/tecnicas/introspeccao.md
           - Entrevista: elicitacao/tecnicas/entrevista.md
