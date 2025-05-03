@@ -44,6 +44,7 @@ nav:
           - Introspecção: elicitacao/tecnicas/introspeccao.md
           - Entrevista: elicitacao/tecnicas/entrevista.md
           - Grupo Focal: elicitacao/tecnicas/grupo_focal.md
+
   - Verificação:
       - Grupo:
           - Entrega 1: verificacao/lista_de_VerificacaoEntrega1.md
@@ -55,6 +56,11 @@ nav:
           - Entrega 1: inspecao/lista_de_inspecaoEntrega1.md
       - Grupo +1:
           - Entrega 1: inspecao/lista_de_inspecaoEntrega1Grupo+1.md
+
+  - Elicitação:
+    - Técnicas:
+        - Glossário: elicitacao/tecnicas/glossario.md
+
           
 extra_css:
   - stylesheets/extra.css
