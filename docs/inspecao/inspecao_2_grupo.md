@@ -14,7 +14,7 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 ---
 ## Lista de Inspeção - Baseada no plano de ensino - (Tabela 1)
 
-<center>
+
 
 | ID | Item| Autor    | Revisor  | Status               | 
 |----|----------|----------|----------|----------------------|
@@ -29,7 +29,7 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 | 9  | A gravação e o(s) registro(s) da atividade de priorização dos requisitos? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox"> Conforme |
 | 10  | Cada integrante da equipe elaborou pelo menos um item do conteúdo da disciplina com referência bibliográfica da fonte e foto do texto referência? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox"> Conforme |
 
-</center>
+
 
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 
@@ -37,7 +37,7 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 
 ## Lista de Inspeção de Itens Técnicos e Documentais - (tabela 2)
 
-<center>
+
 
 | ID | Item| Autor    | Revisor  | Status               | 
 |----|----------|----------|----------|----------------------|
@@ -51,7 +51,7 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 | 8 | Gravações de reuniões salvas                                                                          | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" > Conforme | 
 | 9 | Apresentações no YouTube como "não listado"                                                           | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" > Conforme | 
 
-</center>
+
 
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 
@@ -60,7 +60,7 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 
 ## Lista de Verificação - Perfil de Usuário - (Tabela 3)
 
-<center>
+
 
 | ID | Item| Autor    | Revisor  | Status               | 
 |----|----------|----------|----------|----------------------|
@@ -72,7 +72,7 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 | 6 | O perfil é tratado como um artefato interativo, passível de revisão e refinamento ao longo do projeto? | [Othavio Bolzan](https://github.com/bolzanMGB) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox"> Conforme |
 | 7  | Os dados dos usuários foram adequadamente coletados? | [Yzabella Miranda](https://github.com/redjsun) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox"> Conforme |
 
-</center>
+
 
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 
@@ -80,7 +80,7 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 
 ## Lista de Verificação - Entrevista - (Tabela 4)
 
-<center>
+
 
 | ID | Item| Autor    | Revisor  | Status               | 
 |----|----------|----------|----------|----------------------|
@@ -95,7 +95,7 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 | 9 | O entrevistador fez um período de aquecimento ?   | [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox"> Conforme |
 | 10  | O entrevistador concluiu a reunião formalmente ? | [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox"> Conforme |
 
-</center>
+
 
 <font size="3"><p style="text-align: center">Fonte: [Isaque Camargos](https://github.com/isaqzin).</p></font>
 
@@ -104,7 +104,7 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 ## Lista de Verificação - Personas - (Tabela 5)
 
 Interaction Design: Beyond Human-Computer Interaction
-<center> 
+
 
 | ID | Item| Autor    | Revisor  | Status               | 
 |----|----------|----------|----------|----------------------|
@@ -119,7 +119,7 @@ Interaction Design: Beyond Human-Computer Interaction
 | 9  | Tem uma imagem ou representação visual que a torne memorável?                                               |[Lucas Alves](https://github.com/LucasAlves71)| [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox"> Conforme |
 | 10  | A persona é derivada de dados reais coletados com usuários ou stakeholders reais? Possíveis usuários típicos?| [Kaleb Macedo](https://github.com/kalebmacedo)     | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox"> Conforme |
 
-</center>
+
 
 <font size="3"><p style="text-align: center">Fonte: [Kaleb Macedo](https://github.com/kalebmacedo).</p></font>
 
@@ -127,7 +127,7 @@ Interaction Design: Beyond Human-Computer Interaction
 
 ## Lista de Verificação - $100 - (Tabela 6)
 
-<center>
+
 
 | ID | Item| Autor    | Revisor  | Status               | 
 |----|----------|----------|----------|----------------------|
@@ -141,7 +141,7 @@ Interaction Design: Beyond Human-Computer Interaction
 | 8  | Cada participante realizou sua própria alocação de forma independente ?  | [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox"> Conforme |
 
 
-</center>
+
 
 <font size="3"><p style="text-align: center">Fonte: [Isaque Camargos](https://github.com/isaqzin).</p></font>
 

@@ -10,7 +10,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ## Lista de Verificação - Entregas do Projeto - (Tabela 1)
 
-<center>
+
 
 | ID | Item de Verificação | Autor | Referência |
 |----|--------------------|-------|------------|
@@ -27,14 +27,14 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 | 11 | Existe gravação da apresentação de cada etapa, com nomes dos participantes? - Registro audiovisual das apresentações, com identificação dos participantes. | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\assets\img\lista_parte1_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
 | 12 | O site possui opção de contraste de cores? - Verificação de acessibilidade por meio de contraste adequado entre textos e plano de fundo. | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\assets\img\lista_parte1_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
 
-</center>
+
 
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 ---
 
 ## Lista de Verificação - Itens Técnicos e Documentais - (Tabela 2)
 
-<center>
+
 
 | ID | Item de Verificação | Autor | Referência |
 |----|--------------------|-------|------------|
@@ -47,7 +47,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 | 7 | As gravações de reuniões foram salvas? - Arquivos de vídeo das reuniões, armazenados para consulta futura. | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\assets\img\lista_parte2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
 | 8 | As apresentações no YouTube estão configuradas como "não listado"? - Garantia de que os vídeos estão acessíveis apenas para quem tiver o link, respeitando a privacidade. | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\assets\img\lista_parte2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
 
-</center>
+
 
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 
@@ -55,7 +55,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ## Lista de Verificação - Conteúdo da Disciplina (Rich Picture) - (Tabela 3)
 
-<center>
+
 
 | ID | Item de Verificação | Autor | Referência |
 |----|--------------------|-------|------------|
@@ -70,7 +70,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 | 9 | Grupos de usuários similares são representados por um único ator, conforme apropriado? - Redução de redundâncias ao representar grupos semelhantes por um único ator. | [Othavio Bolzan](https://github.com/bolzanMGB) | <div><img src="..\assets\img\fonteChecklist.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf">Introducing Rich Pictures</a></div> |
 | 10 | Cada integrante elaborou ao menos 1 conteúdo com referência e imagem da fonte? - Garantia de que todos os membros contribuíram com pelo menos um conteúdo ilustrado e referenciado. | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\assets\img\lista_rich_picture.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf">Plano de Ensino</a></div> |
 
-</center>
+
 
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 ---

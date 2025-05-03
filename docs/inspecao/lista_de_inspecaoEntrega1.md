@@ -15,7 +15,7 @@ Documento baseado na lista de verificação feita para a entrega 1. Esta lista d
 
 ## Lista de Inspeção – Entregas do Projeto - (tabela 1)
 
-<center>
+ 
 
 | ID | Item| Autor    | Revisor  | Status               | 
 |----|----------|----------|----------|----------------------|
@@ -32,14 +32,14 @@ Documento baseado na lista de verificação feita para a entrega 1. Esta lista d
 | 11 | Gravação da apresentação de cada etapa, com nomes dos participantes                                  | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | 
 | 12 | Possui opção de constraste de cores                                             | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | 
 
-</center>
+   
 
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 ---
 
 ## Lista de Inspeção de Itens Técnicos e Documentais - (tabela 2)
 
-<center>
+ 
 
 | ID | Item| Autor    | Revisor  | Status               | 
 |----|----------|----------|----------|----------------------|
@@ -52,7 +52,7 @@ Documento baseado na lista de verificação feita para a entrega 1. Esta lista d
 | 7 | Gravações de reuniões salvas                                                                          | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | 
 | 8 | Apresentações no YouTube como "não listado"                                                           | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | 
 
-</center>
+
 
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 
@@ -60,7 +60,7 @@ Documento baseado na lista de verificação feita para a entrega 1. Esta lista d
 
 ## Lista de Inspeção de Conteúdo da Disciplina - (tabela 3)
 
-<center>
+
 
 | ID | Item| Autor    | Revisor  | Status               | 
 |----|----------|----------|----------|----------------------|
@@ -75,7 +75,7 @@ Documento baseado na lista de verificação feita para a entrega 1. Esta lista d
 | 9 | Checar se grupos de usuários similares são representados por um único ator, conforme apropriado                         | [Othavio Bolzan](https://github.com/bolzanMGB) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme | 
 | 10 | Cada integrante elaborou ao menos 1 conteúdo com referência e imagem da fonte                         | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" checked> Conforme |
 
-</center>
+
 
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 
