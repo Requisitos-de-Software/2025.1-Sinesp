@@ -154,5 +154,5 @@ Para cada item da lista, o revisor deve:
 | `1.2`  | 21/04/2025 | Atualização as imagens | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |
 | `1.3`  | 23/04/2025 | Atualização nas tabelas | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |
 | `1.4`  | 24/04/2025 | Correção das imagens das fontes | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Lucas Alves](https://github.com/LucasAlves71) |
-| `1.5`  | 03/05/2025 | Correção das imagens das fontes | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Lucas Alves](https://github.com/isaqzin) |
+| `1.5`  | 03/05/2025 | Correção das imagens das fontes | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Isaque Camargos](https://github.com/isaqzin) |
 
