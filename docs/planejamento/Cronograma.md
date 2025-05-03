@@ -245,8 +245,6 @@ Cronograma - Tik Tok. Disponível em: <https://requisitos-de-software.github.io/
 
 Cronograma Realizado - Lichess. Disponível em: <https://requisitos-de-software.github.io/2022.2-Lichess/planejamento/cronograma_realizado/#ponto-de-controle-7>. Acesso em: 18 abr. 2025.
 
-DEEPSEEK. DeepSeek. Disponível em: <https://chat.deepseek.com/>. Acesso em: 18 abr. 2025.
-
 KERZNER, Harold. Project Management: A Systems Approach to Planning, Scheduling, and Controlling. 12. ed. Hoboken: John Wiley & Sons, 2017.
 
 MICROSOFT. Excel. Disponível em: <https://excel.cloud.microsoft/>. Acesso em: 18 abr. 2025.
