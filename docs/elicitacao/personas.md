@@ -6,7 +6,7 @@ As personas são representações fictícias de usuários reais criadas com base
 
 ## Objetivo
 
-O objetivo deste artefato é representar diferentes perfis de usuários do sistema por meio de personas, de forma a guiar o desenvolvimento de soluções mais aderentes às suas expectativas, necessidades e limitações. Essas personas servirão como referência para decisões de design centradas no usuário e para embasar futuras etapas da engenharia de requisitos, como definição de histórias de usuário, jornada do usuário e testes de usabilidade.
+O objetivo deste artefato é representar diferentes perfis de usuários do sistema por meio de personas, de forma a guiar o desenvolvimento de soluções mais aderentes às suas expectativas, necessidades e limitações. Essas personas servirão como referência para decisões de design centradas no usuário e para embasar futuras etapas da engenharia de requisitos, como definição de histórias de usuário, jornada do usuário, testes de usabilidade e, especialmente, para a priorização dos requisitos com base nas necessidades e expectativas identificadas.
 
 ## Metodologia
 
@@ -23,7 +23,7 @@ Maria Lúcia é professora de História em uma escola pública de Brasília. Aos
   <p><i>Figura 1: Representação da persona Maria Lúcia</i></p>
 </div>
 
-- **Nome:** Maria Lúcia da Silva
+- **Nome:** Maria Lúcia da Silva  
 - **Idade:** 54 anos  
 - **Gênero:** Feminino  
 - **Ocupação:** Professora da rede pública de ensino  
@@ -37,9 +37,9 @@ Maria Lúcia é professora de História em uma escola pública de Brasília. Aos
 
 ---
 
-### Persona 2 – Antiusuário: João Pedro 
+### Persona 2 – Antiusuário: João Pedro
 
-João Pedro é técnico administrativo em uma escola e vive uma rotina bastante estruturada. Ele só costuma usar o sistema do plano de saúde quando realmente precisa, geralmente para verificar algum reembolso ou acessar a carteirinha digital antes de uma consulta. Como não é muito familiarizado com tecnologia, prefere que tudo seja direto e sem complicações. Uma vez, teve dificuldade em encontrar um botão de download e acabou pedindo ajuda ao filho. Para ele, quanto mais simples for o processo, melhor. Não quer perder tempo com termos que não entende ou formulários extensos. A experiência ideal seria acessar o site, clicar duas vezes e já resolver o que precisa.
+João Pedro é técnico administrativo em uma escola e vive uma rotina bastante estruturada. Ele **não utiliza o sistema do plano de saúde** porque prefere resolver essas questões pessoalmente ou com ajuda de terceiros. Representa um perfil que, apesar de fazer parte do público-alvo em potencial, **não é usuário do sistema** por falta de familiaridade, interesse ou confiança em soluções digitais. Sua resistência ao uso de tecnologia e preferências por métodos tradicionais fazem com que ele não se beneficie das funcionalidades oferecidas, o que o torna relevante para entender barreiras à adoção.
 
 <div style="text-align: center">
   <img src="../assets/img/personas/Persona_Joao.jpg" alt="Foto de João Pedro" width="200px"/>
@@ -52,11 +52,13 @@ João Pedro é técnico administrativo em uma escola e vive uma rotina bastante 
 - **Ocupação:** Técnico administrativo em uma escola pública  
 - **Nível de instrução:** Ensino médio completo  
 - **Experiência com tecnologia:** Básica  
-- **Motivações:** Utilizar o sistema apenas quando necessário, de forma rápida e eficiente  
-- **Frustrações:** Dificuldade de navegação, termos técnicos incompreensíveis, campos obrigatórios demais  
-- **Objetivos:** Análise da rede credenciada e acessar a carteirinha digital  
-- **Frequência de uso do sistema:** Esporádica (3 a 4 vezes por ano)  
-- **Dispositivo utilizado:** Smartphone
+- **Motivações:** Resolver questões de saúde por meios tradicionais, com assistência de terceiros  
+- **Frustrações:** Interfaces pouco intuitivas, excesso de termos técnicos, dificuldade de encontrar informações  
+- **Objetivos:** Preferência por atendimento presencial ou auxílio familiar  
+- **Frequência de uso do sistema:** Não utiliza  
+- **Dispositivo utilizado:** Nenhum para este sistema específico  
+
+---
 
 ### Persona 3 – Usuário Secundário: Paulo Henrique
 
@@ -81,7 +83,7 @@ Paulo Henrique trabalha na área administrativa da Secretaria de Saúde e é res
 
 ---
 
-
+> **Nota:** O termo *antiusuário* refere-se a perfis que não utilizam o sistema, seja por desinteresse, dificuldades com tecnologia ou por preferirem alternativas presenciais. Apesar de não fazerem parte dos usuários ativos, sua existência é relevante para compreender resistências à adoção da solução.
 
 ## Referências
 
@@ -95,3 +97,4 @@ Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; B
 | 1.1    | 02/05/2025 | Adição de imagens para as personas | [Lucas Alves](https://github.com/LucasAlves71) | --- |
 | 1.2    | 02/05/2025 | Atualizando as referências | [Lucas Alves](https://github.com/LucasAlves71) | --- |
 | 1.3    | 02/05/2025 | Adicionando nova persona, história de cada persona, atualizando dados de cada um | [Lucas Alves](https://github.com/LucasAlves71) | --- |
+| 1.4    | 03/05/2025 | Atualização do objetivo com foco em priorização e reformulação da definição de antiusuário | [Lucas Alves](https://github.com/LucasAlves71) | --- |
