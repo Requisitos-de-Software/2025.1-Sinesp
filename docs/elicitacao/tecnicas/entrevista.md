@@ -275,9 +275,9 @@ A partir das entrevistas foram elicitados os seguintes requisitos na tabela 2, m
 
 
 
-## Bibliografia
+## Referência
 
-- VAZQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira. Engenharia de requisitos: software orientado ao negócio. Rio de Janeiro: Brasport, 2016. Disponível em: https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20negócio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf. Acesso em: 23 abr. 2025.
+VAZQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira. *Engenharia de requisitos: software orientado ao negócio*. Rio de Janeiro: Brasport, 2016. Disponível em: https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20negócio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf. Acesso em: 23 abr. 2025.
 
 ---
 
@@ -287,4 +287,4 @@ A partir das entrevistas foram elicitados os seguintes requisitos na tabela 2, m
 |--------|------|-----------|-----------|-------------|
 | 1.0 | 23/04/2025 | Introdução e requisitos iniciais | [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 | 1.1 | 01/05/2025 | Respostas de umas das entrevistas e alguns dos requisitos elicitados | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) |
-| 1.1 | 01/05/2025 | Atualização das respostas das entrevistas, adição dos requisitos elicitados e ajustes na entrodução, metodologia e gravação | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Isaque Camargos](https://github.com/isaqzin) | [Yzabella Miranda](https://github.com/isaqzin) |
+| 1.1 | 01/05/2025 | Atualização das respostas das entrevistas, adição dos requisitos elicitados e ajustes na entrodução, metodologia e gravação | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Isaque Camargos](https://github.com/isaqzin) | [Yzabella Miranda](https://github.com/redjsun) |
