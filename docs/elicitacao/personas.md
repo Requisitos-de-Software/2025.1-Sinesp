@@ -66,6 +66,7 @@ Paulo Henrique trabalha na área administrativa da Secretaria de Saúde e é res
 
 <div style="text-align: center">
   <img src="..\..\assets\img\personas\Persona_Paulo.jpg" alt="Foto de Paulo Henrique" width="200px"/>
+  <img src="..\..\assets\img\personas\Persona_Paulo.jpg" alt="Foto de Paulo Henrique" width="200px"/>
   <p><i>Figura 3: Representação da persona Paulo Henrique</i></p>
 </div>
 
