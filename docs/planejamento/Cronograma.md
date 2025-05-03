@@ -8,7 +8,7 @@ O cronograma é uma ferramenta fundamental na gestão de projetos, pois permite 
 ## Metodologia
 
 
-O cronograma planejado foi baseado principalmente nas datas oficiais do [plano de ensino do professor](assets/arquivos_pdf/plano-de-ensino-requisitos.pdf) (disponível em *link*).Destacam-se: 
+O cronograma planejado foi baseado principalmente nas datas oficiais do [plano de ensino do professor](assets/arquivos_pdf/plano-de-ensino-requisitos.pdf) (disponível em *link*). Destacam-se: 
 
 **Ordenação das entregas**:  
 
