@@ -46,6 +46,10 @@ nav:
           - Grupo Focal: elicitacao/tecnicas/grupo_focal.md
           - Questionário: elicitacao/tecnicas/questionario.md
           - Glossário: elicitacao/tecnicas/glossario.md
+      - Perfil de Usuário: elicitacao/perfil.md
+      - Personas: elicitacao/personas.md
+       
+
   - Verificação:
       - Grupo:
           - Entrega 1: verificacao/lista_de_VerificacaoEntrega1.md
