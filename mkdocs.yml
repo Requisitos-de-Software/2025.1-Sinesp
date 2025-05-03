@@ -45,6 +45,7 @@ nav:
           - Introspecção: elicitacao/tecnicas/introspeccao.md
           - Grupo Focal: elicitacao/tecnicas/grupo_focal.md
       - Perfil de Usuário: elicitacao/perfil.md
+      - Personas: elicitacao/personas.md
   - Verificação:
       - Grupo:
           - Entrega 1: verificacao/lista_de_VerificacaoEntrega1.md
