@@ -19,7 +19,7 @@ Para a elaboração das personas, o criador deste artefato [Lucas Alves](https:/
 Maria Lúcia é professora de História em uma escola pública de Brasília. Aos 54 anos, divide seu tempo entre o trabalho, os cuidados com a casa e os netos. Nos últimos anos, passou a usar mais o celular para resolver questões do dia a dia, como pagar contas e acompanhar sua saúde. Apesar de se virar bem com aplicativos mais simples, ela se sente frustrada com sistemas mal organizados e com linguagem técnica demais. Quando precisa acessar os exames do marido ou agendar uma nova consulta pelo plano de saúde, ela prefere fazer tudo pelo smartphone, mas já se irritou algumas vezes com a demora no carregamento ou por não encontrar as informações facilmente. Seu desejo é simples: conseguir resolver o que precisa sem perder tempo — afinal, a rotina já é corrida o suficiente.
 
 <div style="text-align: center">
-  <img src="..\..\assets\img\personas\Persona_Paulo.jpg" alt="Foto de Maria Lúcia" width="200px"/>
+  <img src="..\..\assets\img\personas\Persona_Maria.jpg" alt="Foto de Maria Lúcia" width="200px"/>
   <p><i>Figura 1: Representação da persona Maria Lúcia</i></p>
 </div>
 
@@ -42,7 +42,7 @@ Maria Lúcia é professora de História em uma escola pública de Brasília. Aos
 João Pedro é técnico administrativo em uma escola e vive uma rotina bastante estruturada. Ele **não utiliza o sistema do plano de saúde** porque prefere resolver essas questões pessoalmente ou com ajuda de terceiros. Representa um perfil que, apesar de fazer parte do público-alvo em potencial, **não é usuário do sistema** por falta de familiaridade, interesse ou confiança em soluções digitais. Sua resistência ao uso de tecnologia e preferências por métodos tradicionais fazem com que ele não se beneficie das funcionalidades oferecidas, o que o torna relevante para entender barreiras à adoção.
 
 <div style="text-align: center">
-  <img src="..\..\assets\img\personas\Persona_Paulo.jpg" alt="Foto de João Pedro" width="200px"/>
+  <img src="..\..\assets\img\personas\Persona_Joao.jpg" alt="Foto de João Pedro" width="200px"/>
   <p><i>Figura 2: Representação da persona João Pedro</i></p>
 </div>
 
