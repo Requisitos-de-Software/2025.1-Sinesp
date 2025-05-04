@@ -54,7 +54,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ---
 
-## Lista de Verificação - Perfil de Usuário - (Tabela 3)
+## Lista de Verificação - Perfil de Usuário
 
 
 <p align="center">Tabela 3 – Lista de Verificação do Peril de Usuário</p>
@@ -239,3 +239,4 @@ WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Pre
 | `1.4`  | 01/05/2025 | Adição da Lista da técnica $100| [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 | `1.5`  | 02/05/2025 | Correção de bug de fotos| [Isaque Camargos](https://github.com/isaqzin) |[Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
 | `1.6`  | 03/05/2025 | Adição da lista de verificação do Glossário e adição dos títulos nas tabelas | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Yzabella Miranda](https://github.com/redjsun)  |
+| `1.7`  | 03/05/2025 | Adição da lista de verificação do First Thing First | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Yzabella Miranda](https://github.com/redjsun)  |
