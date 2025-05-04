@@ -272,6 +272,35 @@ Outra técnica de priorização é baseada em dinheiro real, não fictício. Na 
     
 ---
 
+### Tradução das imagens da Tabela 7
+
+Essa tradução foi feita com auxilio do Chat GPT.
+
+<p align="center" > <font>Figura 3: Imagem 1 de fonte da tabela 7</font> </p>
+<div><img src="../assets/img/grupo_focal_5.png" alt="Referência do item" width="100%"></div>
+<font size="3"><p style="text-align: center">Fonte: <a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></p></font>
+
+Tradução:
+Tire boas notas
+Atribua a alguém que não está participando ativamente da discussão a função de escriba, responsável por tomar notas precisas. As notas da sessão devem conter uma lista de participantes, convidados que não compareceram, decisões tomadas, ações a serem realizadas e quem é responsável por cada uma, questões pendentes e os pontos principais das discussões. Infelizmente, analistas de negócios (BAs) às vezes conduzem sessões de elicitação sem um escriba dedicado e precisam assumir esse papel. Se você estiver nessa situação, esteja preparado para escrever em taquigrafia, digitar rapidamente ou usar um dispositivo de gravação (se os participantes concordarem). Canetas de áudio podem traduzir notas manuscritas para formato eletrônico e vinculá-las ao áudio gravado da discussão. Você também pode usar quadros brancos e papéis nas paredes e fotografá-los.
+
+Prepare perguntas com antecedência para eliminar parte do pensamento improvisado necessário para manter a conversa fluindo. Crie uma notação abreviada para capturar uma pergunta que surgir enquanto alguém está falando, para que você possa voltar a ela rapidamente quando tiver uma oportunidade. Não tente capturar diagramas em softwares complicados de diagramação; apenas fotografe diagramas esboçados ou desenhe rapidamente à mão.
+
+<p align="center" > <font>Figura 4: Imagem 2 de fonte da tabela 7</font> </p>
+<div><img src="../assets/img/grupo_focal_1.png" alt="Referência do item" width="100%"></div>
+<font size="3"><p style="text-align: center">Fonte: <a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></p></font>
+<p align="center" > <font>Figura 5: Imagem 3 de fonte da tabela 7</font> </p>
+<div><img src="../assets/img/grupo_focal_2.png" alt="Referência do item" width="100%"></div>
+<font size="3"><p style="text-align: center">Fonte: <a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></p></font>
+
+Tradução:
+Grupos focais
+Um grupo focal é um grupo representativo de usuários que se reúne em uma atividade facilitada de elicitação para gerar contribuições e ideias sobre os requisitos funcionais e de qualidade de um produto. As sessões de grupos focais devem ser interativas, permitindo que todos os usuários tenham a chance de expressar suas opiniões. Grupos focais são úteis para explorar atitudes, impressões, preferências e necessidades dos usuários (IIBA 2009). Eles são particularmente valiosos se você estiver desenvolvendo produtos comerciais e não tiver acesso direto a usuários finais dentro de sua empresa.
+
+Frequentemente, você terá uma base de usuários grande e diversificada para selecionar, então escolha os membros do grupo focal com cuidado. Inclua usuários que tenham usado versões anteriores ou produtos semelhantes ao que você está implementando. Escolha um grupo de usuários do mesmo tipo (e realize vários grupos focais para diferentes classes de usuários) ou selecione um grupo que represente todo o espectro de classes de usuários, garantindo que todos estejam igualmente representados.
+
+Os grupos focais devem ser facilitados. Você precisará mantê-los no tópico, mas sem influenciar as opiniões expressas. Pode ser útil gravar a sessão para que você possa voltar e ouvir atentamente os comentários. Não espere análises quantitativas de grupos focais, mas sim muito feedback subjetivo que pode ser avaliado e priorizado à medida que os requisitos são desenvolvidos. Sessões de elicitação com grupos focais se beneficiam de muitas das mesmas dicas descritas anteriormente para workshops. Participantes de grupos focais normalmente não têm autoridade de tomada de decisão para os requisitos.
+
 ## Como utilizar esta lista de verificação
 
 - Para cada item da lista, o revisor deve:
