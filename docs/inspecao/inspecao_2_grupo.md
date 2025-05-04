@@ -128,7 +128,7 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 
 ---
 
-## Lista de Inspecção - $100 - (Tabela 6)
+## Lista de Inspecção - $100 
 
 <p align="center">Tabela 6 – Lista de Inspeção do $100</p>
 
