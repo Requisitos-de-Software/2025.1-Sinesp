@@ -69,3 +69,4 @@ Autor: [Matheus de Alcântara](https://github.com/matheusdealcantara)
 | 1.0.1 | 10/04/2025 | Adição de novas ferramentas e correção das imagens | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Kaleb de Souza](https://github.com/kalebmacedo) |
 | 1.0.2 | 12/04/2025 | Adição de novas ferramentas e correção das imagens | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Kaleb de Souza](https://github.com/kalebmacedo) |
 | 1.0.3 | 17/04/2025 | Adição de novas ferramentas com suas imagens | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Kaleb de Souza](https://github.com/kalebmacedo) |
+| 1.0.4 | 03/05/2025 | Remoção da ferramenta monday e correção nas datas | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Kaleb de Souza](https://github.com/kalebmacedo) |
