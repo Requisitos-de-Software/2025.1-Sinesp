@@ -66,4 +66,4 @@ VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: soft
 
 | Versão | Data       | Descrição                                            | Autor(es)                                                                                                  | Revisor(es)                                   |
 |--------|------------|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| 1.0    | 01/05/2025 | Criação do documento de priorização                  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC), [Yzabella Miranda](https://github.com/redjsun) e [Matheus de Alcântara](https://github.com/matheusdealcantara)        | [Isaque Camargos](https://github.com/isaqzin) |
+| 1.0    | 03/05/2025 | Criação do documento de priorização                  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC), [Yzabella Miranda](https://github.com/redjsun) e [Matheus de Alcântara](https://github.com/matheusdealcantara)        | [Isaque Camargos](https://github.com/isaqzin) |
