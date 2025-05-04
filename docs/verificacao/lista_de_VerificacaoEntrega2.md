@@ -8,9 +8,10 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 - Facilitar o processo de revisão pelos integrantes do grupo;
 - Assegurar que todos os itens exigidos estejam completos e corretos.
 
-## Lista de Verificação - Baseada no plano de ensino - (Tabela 1)
+## Lista de Verificação - Baseada no plano de ensino 
 
 
+<p align="center">Tabela 1 – Lista de Verificação 1</p>
 
 | ID | Item de Verificação | Autor | Referência |
 |----|----------------------|-------|------------|
@@ -31,9 +32,10 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ---
 
-## Lista de Verificação - Itens Técnicos e Documentais - (Tabela 2)
+## Lista de Verificação - Itens Técnicos e Documentais 
 
 
+<p align="center">Tabela 2 – Lista de Verificação de itens Técnicos e Documentais</p>
 
 | ID | Item de Verificação | Autor | Referência |
 |----|--------------------|-------|------------|
@@ -55,6 +57,8 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 ## Lista de Verificação - Perfil de Usuário - (Tabela 3)
 
 
+<p align="center">Tabela 3 – Lista de Verificação do Peril de Usuário</p>
+
 
 | ID | Item de Verificação | Autor | Referência |
 |----|----------------------|-------|------------|
@@ -72,9 +76,33 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ---
 
-## Lista de Verificação - Entrevista - (Tabela 4)
+
+## Lista de Verificação - Personas 
+
+<p align="center">Tabela 4 – Lista de Verificação de Personas</p>
 
 
+| ID  | Item de Verificação                                                                                          | Autor     | Referência                                                                                                                       |
+|-----|--------------------------------------------------------------------------------------------------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------|
+| 1  | A persona tem uma história que o contextualiza com sua realidade, no caso a sua identidade?                 | [Kaleb Macedo](https://github.com/kalebmacedo)     | <br><img src="..\..\assets\lventrega2\1-imagem-ISAQUE.png" alt="Foto Kaleb" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                                                                                                                  |
+| 2  | A persona está definida como usuário primário, secundário, outro stakeholder ou anti-usuário, quem não vai utilizar o sistema, logo não deve influenciar?               | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)       | <br><img src="..\..\assets\lventrega2\ANA-FOTO-PERSONAS.png" alt="Foto Ana" width="200"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                        |
+| 3  | A persona foi definida com base nos objetivos do domínio de atividade do usuário?                           | [Yzabella Miranda](https://github.com/redjsun)  | <br><img src="..\..\assets\lventrega2\ANA-FOTO-PERSONAS.png" alt="Foto Yza" width="200"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>              |
+| 4  | Aponta frustrações ou problemas enfrentados com sistemas anteriores?                                        | [Matheus de Alcântara](https://github.com/matheusdealcantara)   | <br><img src="..\..\assets\lventrega2\1-matheus.png" alt="Foto Matheus" width="150"/><br><a href="https://mrce.in/ebooks/Interaction%20Design%206th%20Ed.pdf">Livro Interaction Design: Beyond Human-Computer Interaction</a></div>                                                 |
+| 5  | As habilidades da persona identificada não se limitam ao nosso produto em específico?                       | [Isaque Camargos](https://github.com/isaqzin)    | <br><img src="..\..\assets\lventrega2\1-imagem-ISAQUE.png" alt="Foto Isaque" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                          |
+| 6  | A persona possui expectativas sobre como o sistema ou produto deve funcionar?                               | [Lucas Alves](https://github.com/LucasAlves71)     | <br><img src="..\..\assets\lventrega2\1-imagem-ISAQUE.png" alt="Foto Lucas" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                          |
+| 7  | Os requisitos da persona estão detalhados?                                                                   | [Othavio Araujo Bolzan](https://github.com/bolzanMGB)   | <br><img src="..\..\assets\lventrega2\1-imagem-ISAQUE.png" alt="Foto Othavio" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                          |
+| 8  | Há ao menos uma persona por papel de usuário?                                                                | [Isaque Camargos](https://github.com/isaqzin)    | Barbosa, S. D. J. et al., <br><img src="..\..\assets\lventrega2\1-imagem-ISAQUE.png" alt="Foto Isaque" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                          |
+| 9  | Tem uma imagem ou representação visual que a torne memorável?                                               | [Lucas Alves](https://github.com/LucasAlves71)     | <br><img src="..\..\assets\lventrega2\1-imagem-ISAQUE.png" alt="Foto Lucas" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                          |
+| 10  | A persona é derivada de dados reais coletados com usuários ou stakeholders reais? Possíveis usuários típicos?| [Kaleb Macedo](https://github.com/kalebmacedo)     | <br><img src="..\..\assets\lventrega2\1-imagem-ISAQUE.png" alt="Foto Kaleb" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                         |
+
+
+
+<font size="3"><p style="text-align: center">Fonte: [Kaleb Macedo](https://github.com/kalebmacedo).</p></font>
+
+
+## Lista de Verificação - Entrevista 
+
+<p align="center">Tabela 5 – Lista de Verificação de Entrevista</p>
 
 | ID | Item de Verificação | Autor | Referência |
 |----|----------------------|-------|------------|
@@ -95,32 +123,29 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ---
 
-## Lista de Verificação - Personas - (Tabela 5)
-Interaction Design: Beyond Human-Computer Interaction
+## Lista de Verificação – Técnica: Glossário
+
+<p align="center">Tabela 6 – Lista de Verificação do Peril de Usuário</p>
+
+| ID | Descrição da verificação                                                                                                                                      | Participante                                                                                     | Evidência                                                                                                                                                                                                                                   |
+|----|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1  | Verificar se a elaboração do glossário foi iniciada já nas atividades de elicitação, durante a análise do domínio do problema e das necessidades de negócio.  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft1.jpeg" width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
+| 2  | Verificar se foram identificados termos únicos para o domínio, que não aparecem em outros contextos do projeto.                                              | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft2.jpeg" width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
+| 3  | Verificar se foram capturados termos que têm mais de uma definição, evitando ambiguidades.                                                                    | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft3.jpeg" width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
+| 4  | Verificar se foram incluídos termos com definição local distinta do senso comum, garantindo clareza para todos os envolvidos.                                 | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft4.jpeg"  width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
+| 5  | Verificar se foram listados termos com potencial de causar dificuldades de entendimento, sustentando a pesquisa junto às partes interessadas.                | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft5.jpeg" <br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
+| 6  | Verificar se foram considerados termos técnicos do negócio (jargões, processos internos etc.).                                                                | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft1.jpeg" alt="ver-glossario-ft6" width="100px"><br>VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.</div> |
+| 7  | Verificar se foram incluídas abreviações e siglas relevantes ao escopo, com suas respectivas explicações.                                                     | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft7.jpeg"  width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
+| 8  | Verificar se foram mapeados termos que são sinônimos ou antônimos, usando remissivas simples e cruzadas para facilitar a consulta.                            | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft8.jpeg" width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
 
-| ID  | Item de Verificação                                                                                          | Autor     | Referência                                                                                                                       |
-|-----|--------------------------------------------------------------------------------------------------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------|
-| 1  | A persona tem uma história que o contextualiza com sua realidade, no caso a sua identidade?                 | [Kaleb Macedo](https://github.com/kalebmacedo)     | <br><img src="..\..\assets\lventrega2\1-imagem-ISAQUE.png" alt="Foto Kaleb" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                                                                                                                  |
-| 2  | A persona está definida como usuário primário, secundário, outro stakeholder ou anti-usuário, quem não vai utilizar o sistema, logo não deve influenciar?               | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)       | <br><img src="..\..\assets\lventrega2\ANA-FOTO-PERSONAS.png" alt="Foto Ana" width="200"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                        |
-| 3  | A persona foi definida com base nos objetivos do domínio de atividade do usuário?                           | [Yzabella Miranda](https://github.com/redjsun)  | <br><img src="..\..\assets\lventrega2\ANA-FOTO-PERSONAS.png" alt="Foto Yza" width="200"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>              |
-| 4  | Aponta frustrações ou problemas enfrentados com sistemas anteriores?                                        | [Matheus de Alcântara](https://github.com/matheusdealcantara)   | <br><img src="..\..\assets\lventrega2\1-matheus.png" alt="Foto Matheus" width="150"/><br><a href="https://mrce.in/ebooks/Interaction%20Design%206th%20Ed.pdf">Livro Interaction Design: Beyond Human-Computer Interaction</a></div>                                                 |
-| 5  | As habilidades da persona identificada não se limitam ao nosso produto em específico?                       | [Isaque Camargos](https://github.com/isaqzin)    | <br><img src="..\..\assets\lventrega2\1-imagem-ISAQUE.png" alt="Foto Isaque" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                          |
-| 6  | A persona possui expectativas sobre como o sistema ou produto deve funcionar?                               | [Lucas Alves](https://github.com/LucasAlves71)     | <br><img src="..\..\assets\lventrega2\1-imagem-ISAQUE.png" alt="Foto Lucas" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                          |
-| 7  | Os requisitos da persona estão detalhados?                                                                   | [Othavio Araujo Bolzan](https://github.com/bolzanMGB)   | <br><img src="..\..\assets\lventrega2\1-imagem-ISAQUE.png" alt="Foto Othavio" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                          |
-| 8  | Há ao menos uma persona por papel de usuário?                                                                | [Isaque Camargos](https://github.com/isaqzin)    | Barbosa, S. D. J. et al., <br><img src="..\..\assets\lventrega2\1-imagem-ISAQUE.png" alt="Foto Isaque" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                          |
-| 9  | Tem uma imagem ou representação visual que a torne memorável?                                               | [Lucas Alves](https://github.com/LucasAlves71)     | <br><img src="..\..\assets\lventrega2\1-imagem-ISAQUE.png" alt="Foto Lucas" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                          |
-| 10  | A persona é derivada de dados reais coletados com usuários ou stakeholders reais? Possíveis usuários típicos?| [Kaleb Macedo](https://github.com/kalebmacedo)     | <br><img src="..\..\assets\lventrega2\1-imagem-ISAQUE.png" alt="Foto Kaleb" width="150"/><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div>                         |
 
 
+## Lista de Verificação - $100 
 
-<font size="3"><p style="text-align: center">Fonte: [Kaleb Macedo](https://github.com/kalebmacedo).</p></font>
-
----
-
-## Lista de Verificação - $100 - (Tabela 6)
-
-
+<p align="center">Tabela 7 – Lista de Verificação 100 Dólares</p>
 
 | ID | Item de Verificação | Autor | Referência |
 |----|----------------------|-------|------------|
@@ -178,11 +203,14 @@ Outra técnica de priorização é baseada em dinheiro real, não fictício. Na 
 
 ## Referências
 
-- SALES, André Barros de. [Plano de Ensino – Requisitos de Software: REE012025 – Turma 03](https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf). Brasília: Universidade de Brasília, Faculdade UnB Gama, 2025. 7 p. Acessado em: 23 de abril de 2025
+Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. Pg 144 - 148  .Disponível em: [Interação Humano-Computador e Experiência do usuário](https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html).Acesso em: 30 de abril de 2024 
 
-- Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. Pg 144 - 148  .Disponível em: [Interação Humano-Computador e Experiência do usuário](https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html).Acesso em: 30 de abril de 2024 
+SALES, André Barros de. [Plano de Ensino – Requisitos de Software: REE012025 – Turma 03](https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf). Brasília: Universidade de Brasília, Faculdade UnB Gama, 2025. 7 p. Acessado em: 23 de abril de 2025
 
-- WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Press, 2013. ISBN 978-0-7356-7966-5. p. 321 - 322 Disponível em: [Software Requirements](https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf)  .Acesso em: 01 de maio de 2025
+VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013. Disponível em: <https://aprender3.unb.br/pluginfile.php/3096085/mod_resource/content/4/Elicitacao%20de%20Req%202.pdf>. Acesso em: 3 maio 2025.
+
+
+WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Press, 2013. ISBN 978-0-7356-7966-5. p. 321 - 322 Disponível em: [Software Requirements](https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf)  .Acesso em: 01 de maio de 2025
 
 ## Histórico de Versões
 
@@ -194,3 +222,4 @@ Outra técnica de priorização é baseada em dinheiro real, não fictício. Na 
 | `1.3`  | 01/05/2025 | Criação da Lista de Personas | [Kaleb Macedo](https://github.com/kalebmacedo) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 | `1.4`  | 01/05/2025 | Adição da Lista da técnica $100| [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 | `1.5`  | 02/05/2025 | Correção de bug de fotos| [Isaque Camargos](https://github.com/isaqzin) |[Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
+| `1.6`  | 03/05/2025 | Adição da lista de verificação do Glossário e adição dos títulos nas tabelas | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Yzabella Miranda](https://github.com/redjsun)  |
