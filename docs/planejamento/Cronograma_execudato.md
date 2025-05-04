@@ -68,10 +68,10 @@ As tabelas foram elaboradas inicialmente no **Microsoft Excel** e convertidas pa
 | Elicitação de requisitos: Questionário | Lucas Alves, Othavio Bolzan, Kaleb Macedo | Yzabella Miranda | 19/04 - 02/05 | 03/05 |
 | Elicitação de requisitos: Entrevista | Ana Luiza Soares, Isaque Camargos | Yzabella Miranda | 19/04 - 02/05 | 03/05 |
 | Elicitação de requisitos: Glossário | Ana Luiza Soares, Yzabella Miranda | Isaque Camargos | 19/04 - 02/05 | 02/05 |
-| Criação da lista de verificação | Kaleb Macedo, Lucas Alves | Ana Luiza Soares | 19/04 - 02/05 | 05/05|
-| Gravação da inspeção do grupo | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves | Matheus de Alcântara | 04/05 - 04/05 | 05/05 |
-| Gravação da Apresentação | Isaque Camargos | Ana Luiza Soares | 04/05 - 04/05 | 05/05|
-| Envio da entrega | Yzabella Miranda | Kaleb Macedo | 04/05 - 04/05 | 05/05 |
+| Criação da lista de verificação | Kaleb Macedo, Lucas Alves | Ana Luiza Soares | 19/04 - 02/05 | 04/05 |
+| Gravação da inspeção do grupo | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves | Matheus de Alcântara | 04/05 - 04/05 | 04/05 |
+| Gravação da Apresentação | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves | Ana Luiza Soares | 04/05 - 04/05 | 04/05|
+| Envio da entrega | Yzabella Miranda | Kaleb Macedo | 04/05 - 04/05 | 04/05 |
 | Gravação da Inspeção Grupo + 1 | Ana Luiza Soares | Othavio Bolzan | 05/05 - 05/05 |  |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
@@ -219,3 +219,4 @@ SALES, André Barros de. Plano de ensino da disciplina Requisitos de Software �
 |--------|------------|------------------------------|------------------|---------------------|
 | 1.0    | 12/04/2025 | Criação do Cronograma Executado | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Isaque Camargos](https://github.com/isaqzin) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
 | 2.0    | 01/05/2025 | Atualização para corresponder ao detalhamento do cronograma e a nova data da entrega 2 | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Isaque Camargos](https://github.com/isaqzin) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
+| 2.1    | 01/05/2025 | Atualização das datas da entregas feitas durante a entrega 2 | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Isaque Camargos](https://github.com/isaqzin) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
