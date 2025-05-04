@@ -184,6 +184,43 @@ Interaction Design: Beyond Human-Computer Interaction
 
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 
+
+## Lista de Verificação –  Glossário (Tabela 9)
+
+
+| ID | Item                                                                                                                                            | Autor                                               | Revisor                                       | Status                           |
+| -- | ----------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | --------------------------------------------- | -------------------------------- |
+| 1  | A elaboração do glossário foi iniciada já nas atividades de elicitação, durante a análise do domínio do problema e das necessidades de negócio? | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) | <input type="checkbox"> Conforme |
+| 2  | Foram identificados termos únicos para o domínio, que não aparecem em outros contextos do projeto?                                              | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) | <input type="checkbox"> Conforme |
+| 3  | Foram capturados termos que têm mais de uma definição, evitando ambiguidades?                                                                   | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) | <input type="checkbox"> Conforme |
+| 4  | Foram incluídos termos com definição local distinta do senso comum, garantindo clareza para todos os envolvidos?                                | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) | <input type="checkbox"> Conforme |
+| 5  | Foram listados termos com potencial de causar dificuldades de entendimento, sustentando a pesquisa junto às partes interessadas?                | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) | <input type="checkbox"> Conforme |
+| 6  | Foram considerados termos técnicos do negócio (jargões, processos internos etc.)?                                                               | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) | <input type="checkbox"> Conforme |
+| 7  | Foram incluídas abreviações e siglas relevantes ao escopo, com suas respectivas explicações?                                                    | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) | <input type="checkbox"> Conforme |
+| 8  | Foram mapeados termos que são sinônimos ou antônimos, usando remissivas simples e cruzadas para facilitar a consulta?                           | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) | <input type="checkbox"> Conforme |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+
+---
+
+## Lista de Verificação –  First Things First (Tabela 10)
+
+<p align="center">Tabela 11 – Lista de Verificação First Things First</p>
+
+| ID | Item                                                                                                                     | Autor                                               | Revisor                                       | Status                                   |
+| -- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------- | --------------------------------------------- | ---------------------------------------- |
+| 1  | Verificar se todos os requisitos foram listados em uma planilha, considerando dependências lógicas entre eles.           | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) | <input type="checkbox" checked> Conforme |
+| 2  | Confirmar se o benefício relativo de cada requisito foi avaliado em escala numérica (1 a 9) com participação do cliente. | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) | <input type="checkbox" checked> Conforme |
+| 3  | Assegurar que a penalidade relativa (impacto de não implementar o requisito) foi definida em escala numérica (1 a 9).    | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) | <input type="checkbox" checked> Conforme |
+| 4  | A coluna valor total é a soma de (peso do benefício × valor do benefício) + (peso da penalidade × valor da penalidade).  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) | <input type="checkbox" checked> Conforme |
+| 5  | Verificar se o custo relativo da implementação está entre 1 e 9.                                                         | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) | <input type="checkbox" checked> Conforme |
+| 6  | Desenvolvedores consideraram complexidade, interface, reutilização, testes e documentação ao estimar custo.              | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) | <input type="checkbox" checked> Conforme |
+| 7  | Prioridade calculada conforme fórmula: Valor % / (Custo % × Peso + Risco % × Peso).                                      | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) | <input type="checkbox" checked> Conforme |
+| 8  | Verificar se a lista final de requisitos foi ordenada em ordem decrescente de prioridade.                                | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) | <input type="checkbox" checked> Conforme |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
 ---
 
 ## Referências
@@ -195,3 +232,4 @@ Interaction Design: Beyond Human-Computer Interaction
 | `1.0`  |  03/05/2025 |  Colocando as tabelas de 1 a 6 no arquivo | [Isaque Camargos](https://github.com/isaqzin)  | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
 | `1.1`  |  04/05/2025 |  Colocando a tabela de 7 (grupo focal) no documento | [Matheus de Alcântara](https://github.com/matheusdealcantara)  | [Isaque Camargos](https://github.com/isaqzin) |
 | `1.2`  |  04/05/2025 |  Adicionando a tabela 8 (introspecção) no documento | [Lucas Alves](https://github.com/LucasAlves71)  | [Kaleb de Souza](https://github.com/kalebmacedo) |
+| `1.3`  |  04/05/2025 |  Adicionando as tabelas 9 e 10, verificações para Glossário e First Thing First | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Matheus de Alcântara](https://github.com/matheusdealcantara)  |
