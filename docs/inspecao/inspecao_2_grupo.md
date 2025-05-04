@@ -12,8 +12,9 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 - Documentação do processo: Registrar formalmente o processo de verificação, servindo como evidência do trabalho de qualidade realizado.
 
 ---
-## Lista de Inspeção - Baseada no plano de ensino - (Tabela 1)
+## Lista de Inspeção - Baseada no plano de ensino 
 
+<p align="center"> Tabela 1 - Lista de Inspeção Baseada no Plano de Ensino </p>
 
 
 | ID | Item| Autor    | Revisor  | Status               | 
@@ -35,9 +36,9 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 
 ---
 
-## Lista de Inspeção de Itens Técnicos e Documentais - (tabela 2)
+## Lista de Inspeção de Itens Técnicos e Documentais 
 
-
+<p align="center">Tabela 2 – Lista de Inspeção de Itens Técnicos e Documentais </p>
 
 | ID | Item| Autor    | Revisor  | Status               | 
 |----|----------|----------|----------|----------------------|
@@ -58,9 +59,9 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 ---
 
 
-## Lista de Verificação - Perfil de Usuário - (Tabela 3)
+## Lista de Inspecção - Perfil de Usuário 
 
-
+<p align="center">Tabela 3 – Lista de Inspeção do Persil de Usuário </p>
 
 | ID | Item| Autor    | Revisor  | Status               | 
 |----|----------|----------|----------|----------------------|
@@ -78,8 +79,9 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 
 ---
 
-## Lista de Verificação - Entrevista - (Tabela 4)
+## Lista de Inspecção - Entrevista 
 
+<p align="center">Tabela 4 – Lista de Inspeção da Entrevista </p>
 
 
 | ID | Item| Autor    | Revisor  | Status               | 
@@ -102,11 +104,9 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 ---
 
 
----
+## Lista de Inspecção - Personas 
 
-## Lista de Verificação - Personas - (Tabela 5)
-
-Interaction Design: Beyond Human-Computer Interaction
+<p align="center">Tabela 5 – Lista de Inspeção  de Personas</p>
 
 
 | ID | Item| Autor    | Revisor  | Status               | 
@@ -128,8 +128,9 @@ Interaction Design: Beyond Human-Computer Interaction
 
 ---
 
-## Lista de Verificação - $100 - (Tabela 6)
+## Lista de Inspecção - $100 
 
+<p align="center">Tabela 6 – Lista de Inspeção do $100</p>
 
 
 | ID | Item| Autor    | Revisor  | Status               | 
@@ -150,7 +151,9 @@ Interaction Design: Beyond Human-Computer Interaction
 
 ---
 
-## Lista de Verificação - Grupo Focal - (Tabela 7)
+## Lista de Inspecção - Grupo Focal
+
+<p align="center">Tabela 7 – Lista de Inspeção Grupo Focal</p>
 
 | ID | Item| Autor    | Revisor  | Status               | 
 |----|----------|----------|----------|----------------------|
@@ -167,7 +170,9 @@ Interaction Design: Beyond Human-Computer Interaction
 
 ---
 
-## Lista de Verificação - Introspecção - (Tabela 8)
+## Lista de Inspecção - Introspecção
+
+<p align="center">Tabela 8 – Lista de Inspeção da Introspecção </p>
 
 | ID | Item| Autor    | Revisor  | Status               | 
 |----|----------|----------|----------|----------------------|
@@ -185,8 +190,10 @@ Interaction Design: Beyond Human-Computer Interaction
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 
 
-## Lista de Verificação –  Glossário (Tabela 9)
+## Lista de Inspecção –  Glossário
 
+
+<p align="center">Tabela 9 – Lista de Inspeção do Glossário</p>
 
 | ID | Item                                                                                                                                            | Autor                                               | Revisor                                       | Status                           |
 | -- | ----------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | --------------------------------------------- | -------------------------------- |
@@ -204,9 +211,9 @@ Interaction Design: Beyond Human-Computer Interaction
 
 ---
 
-## Lista de Verificação –  First Things First (Tabela 10)
+## Lista de Inspecção –  First Things First
 
-<p align="center">Tabela 11 – Lista de Verificação First Things First</p>
+<p align="center">Tabela 10 – Lista de Inspeção do First Thing First</p>
 
 | ID | Item                                                                                                                     | Autor                                               | Revisor                                       | Status                                   |
 | -- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------- | --------------------------------------------- | ---------------------------------------- |
@@ -221,7 +228,15 @@ Interaction Design: Beyond Human-Computer Interaction
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
-## Lista de Verificação - MOSCOW - (Tabela 11)
+
+---
+
+
+## Lista de Inspecção - MOSCOW 
+
+
+<p align="center">Tabela 11 – Lista de Inspeção Do MoSCoW</p>
+
 
 | ID | Item| Autor    | Revisor  | Status               | 
 |----|----------|----------|----------|----------------------|
@@ -238,7 +253,10 @@ Interaction Design: Beyond Human-Computer Interaction
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 
 ---
-## Lista de Verificação – Three Level Scale - Tabela (12)
+
+## Lista de Inspecção – Three Level Scale
+
+<p align="center">Tabela 12 – Lista de Inspeção do Three Level Scale</p>
 
 
 | ID | Item| Autor    | Revisor  | Status               | 
@@ -253,6 +271,7 @@ Interaction Design: Beyond Human-Computer Interaction
 | 8  |    O número de altas está elevado?      | [Yzabella Miranda](https://github.com/redjsun)      |     [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB)       |<input type="checkbox"> Conforme|
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/redjsun">Yzabella Miranda</a></p>
+
 ---
 
 ## Referências
