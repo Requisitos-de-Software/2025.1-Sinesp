@@ -306,6 +306,23 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
 
+## Lista de Verificação – Técnica: Three Level Scale
+
+<p align="center">Tabela 11 – Lista de Verificação Three Level Scale </p>
+
+| ID | Descrição da verificação                                                                                                                                             | Participante                                             | Evidência                                                                                                                                                                                      |
+|----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1  | Verificar se todos os requisitos foram listados em três categorias.                                                       | [Yzabella Miranda](https://github.com/redjsun)      | <div><img src="..\..\assets\lventrega2\three-scale-01.png" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div>                              |
+| 2  | Confirmar se a prioridade foi extabelecida por uma tabela de importância x urgência                                           | [Yzabella Miranda](https://github.com/redjsun)      | <div><img src="..\..\assets\lventrega2\three-scale-02.png" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div>  |
+| 3  | Verificar se existe uma priorização pra cada requisito.                              | [Yzabella Miranda](https://github.com/redjsun)      | <div><img src="..\..\assets\lventrega2\three-scale-03.png" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div>                  |
+| 4  | Confirmar se as partes interessadas concordaram na prioritização da escala de importância x urgência                      | [Yzabella Miranda](https://github.com/redjsun)      | <div><img src="..\..\assets\lventrega2\three-scale-04.png" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div>            |
+| 5  | As prioridades altas são importantes e urgentes?   | [Yzabella Miranda](https://github.com/redjsun)      | <div><img src="..\..\assets\lventrega2\three-scale-05.png" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div>                                 |
+| 6  | As prioridades médias são importante, mas não são urgentes?  | [Yzabella Miranda](https://github.com/redjsun)      | <div><img src="..\..\assets\lventrega2\three-scale-06.png" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div>                                |
+| 7  |    As prioridades baixas não são importantes e urgentes?           | [Yzabella Miranda](https://github.com/redjsun)      | <div><img src="..\..\assets\lventrega2\three-scale-07.png" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div>                                |
+| 8  |    O número de altas está elevado?      | [Yzabella Miranda](https://github.com/redjsun)      | <div><img src="..\..\assets\lventrega2\three-scale-08.png" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div>                                 |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/redjsun">Yzabella Miranda</a></p>
+
 ### Tradução das imagens da Tabela 9
 
 Essa tradução foi feita com auxilio do Chat GPT.
@@ -400,4 +417,6 @@ WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Pre
 | `1.8`  | 04/05/2025 | Adição da lista de verificação do Questionário | [Kaleb Macedo](https://github.com/kalebmacedo) | [Yzabella Miranda](https://github.com/redjsun)  |
 | `1.9`  | 04/05/2025 | Adição da lista de verificação do Grupo Focal | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
 | `2.0`  | 04/05/2025 | Adicionando a tabela de verificação introspecção | [Lucas Alves](https://github.com/LucasAlves71) | [Kaleb Macedo](https://github.com/kalebmacedo) |
-| `2.1`  | 04/05/2025 | Adição da tabela de verificação do Moscow | [Kaleb Macedo](https://github.com/kalebmacedo) | [Lucas Alves](https://github.com/LucasAlves71) |
+| `2.1`  | 04/05/2025 | Adicionando a tabela de verificação da técnica de Three Level Scale | [Yzabella Miranda](https://github.com/redjsun) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
+| `2.2`  | 04/05/2025 | Adição da tabela de verificação do Moscow | [Kaleb Macedo](https://github.com/kalebmacedo) | [Lucas Alves](https://github.com/LucasAlves71) |
+
