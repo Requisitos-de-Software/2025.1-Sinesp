@@ -123,9 +123,31 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ---
 
+## Lista de Verificação - Introspecção
+
+<p align="center">Tabela 6 – Lista de Verificação de Introspecção</p>
+
+| ID | Item de Verificação | Autor | Referência |
+|----|----------------------|-------|------------|
+| 1  | A Especificação do Perfil do usuário possui informação de: idade, experiência, atitudes e tarefas primárias. | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega2\slideMilene_1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">Slide Professora Milene</a></div> |
+| 2  | Um cronograma (data e horário) e local para realização da elicitação dos requisitos com o cliente e/ou persona do projeto? | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega2\slideMilene_1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">Slide Professora Milene</a></div> |
+| 3  | No mínimo três técnicas de elicitação foram utilizadas? | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega2\slideMilene_1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">Slide Professora Milene</a></div> |
+| 4  | A participação do cliente e/ou persona na elicitação de requisitos? | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega2\slideMilene_1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">Slide Professora Milene</a></div> |
+| 5  | A gravação e o(s) registro(s) da elicitação dos requisitos (pré-rastreabilidade)? | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega2\slideMilene_1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">Slide Professora Milene</a></div> |
+| 6  | Um cronograma (data e horário) e local para realização da priorização dos requisitos com o cliente e/ou persona do projeto? | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega2\slideMilene_1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">Slide Professora Milene</a></div> |
+| 7  | No mínimo duas técnicas de priorização foram utilizadas? | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega2\slideMilene_1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">Slide Professora Milene</a></div> |
+| 8  | A participação do cliente e/ou persona no processo de priorização? | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega2\slideMilene_1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">Slide Professora Milene</a></div> |
+| 9  | A gravação e o(s) registro(s) da atividade de priorização dos requisitos? | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega2\slideMilene_1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">Slide Professora Milene</a></div> |
+| 10  | Cada integrante da equipe elaborou pelo menos um item do conteúdo da disciplina com referência bibliográfica da fonte e foto do texto referência? | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega2\slideMilene_1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">Slide Professora Milene</a></div> |
+
+
+
+
+<font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
+
 ## Lista de Verificação – Técnica: Glossário
 
-<p align="center">Tabela 6 – Lista de Verificação do Peril de Usuário</p>
+<p align="center">Tabela 7 – Lista de Verificação do Peril de Usuário</p>
 
 | ID | Descrição da verificação                                                                                                                                      | Participante                                                                                     | Evidência                                                                                                                                                                                                                                   |
 |----|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -145,7 +167,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ## Lista de Verificação - $100 
 
-<p align="center">Tabela 7 – Lista de Verificação 100 Dólares</p>
+<p align="center">Tabela 8 – Lista de Verificação 100 Dólares</p>
 
 | ID | Item de Verificação | Autor | Referência |
 |----|----------------------|-------|------------|
@@ -162,7 +184,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ## Lista de Verificação – Técnica: First Things First
 
-<p align="center">Tabela 8 – Lista de Verificação First Thing First </p>
+<p align="center">Tabela 9 – Lista de Verificação First Thing First </p>
 
 | ID | Descrição da verificação                                                                                                                                             | Participante                                             | Evidência                                                                                                                                                                                      |
 |----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -178,11 +200,11 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
 
-### Tradução das imagens da Tabela 6
+### Tradução das imagens da Tabela 8
 
 Essa tradução foi feita com auxilio do Chat GPT.
 
-<p align="center" > <font>Figura 1: Imagem 1 de fonte da tabela 5</font> </p>
+<p align="center" > <font>Figura 1: Imagem 1 de fonte da tabela 8</font> </p>
 <div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100%"></div>
 <font size="3"><p style="text-align: center">Fonte: <a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></p></font>
 
@@ -195,7 +217,7 @@ Se um requisito for três vezes mais importante para um stakeholder do que outro
 
 Uma abordagem é permitir que diferentes participantes do processo de priorização realizem suas próprias alocações de dólares e, em seguida, somar o total de dólares atribuídos a cada requisito para ver quais aparecem coletivamente como os de maior prioridade. 
 
-<p align="center" > <font>Figura 2: Imagem 2 de fonte da tabela 5</font> </p>
+<p align="center" > <font>Figura 2: Imagem 2 de fonte da tabela 8</font> </p>
 <div><img src="..\..\assets\lventrega2\img2_100dol.png" alt="Referência do item" width="100%"></div>
 <font size="3"><p style="text-align: center">Fonte: <a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></p></font>
 
@@ -240,3 +262,4 @@ WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Pre
 | `1.5`  | 02/05/2025 | Correção de bug de fotos| [Isaque Camargos](https://github.com/isaqzin) |[Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
 | `1.6`  | 03/05/2025 | Adição da lista de verificação do Glossário e adição dos títulos nas tabelas | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Yzabella Miranda](https://github.com/redjsun)  |
 | `1.7`  | 03/05/2025 | Adição da lista de verificação do First Thing First | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Yzabella Miranda](https://github.com/redjsun)  |
+| `1.8`  | 04/05/2025 | Adicionando a tabela de verificação introspecção | [Lucas Alves](https://github.com/LucasAlves71) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
