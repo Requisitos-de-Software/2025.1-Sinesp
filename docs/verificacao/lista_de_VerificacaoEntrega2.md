@@ -141,13 +141,35 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 | 10  | Cada integrante da equipe elaborou pelo menos um item do conteúdo da disciplina com referência bibliográfica da fonte e foto do texto referência? | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega2\slideMilene_1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">Slide Professora Milene</a></div> |
 
 
+## Lista de Verificação - Questionário 
 
+<p align="center">Tabela 7 – Lista de Verificação do Questionário</p>
+
+
+| ID  | Item de Verificação                                                                                          | Autor     | Referência                                                                                                                       |
+|-----|--------------------------------------------------------------------------------------------------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------|
+| 1  | 	As funcionalidades mais utilizadas ou apontadas como importantes pelos usuários foram efetivamente mapeadas como requisitos funcionais?                | [Kaleb Macedo](https://github.com/kalebmacedo)     | <br><img src="..\..\assets\lventrega2\print-questionario-livro.png" alt="Foto Kaleb" width="150"/><br><a href="https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20neg%C3%B3cio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf">Livro Engenharia de Requisitos</a></div>                                                                                                                  |
+| 2  | As dificuldades técnicas citadas pelos usuários (ex: lentidão, instabilidade, falta de clareza) foram traduzidas em requisitos não funcionais claros?               | [Kaleb Macedo](https://github.com/kalebmacedo)       | <br><img src="..\..\assets\lventrega2\print-questionario-livro.png" alt="Foto Kaleb" width="150"/><br><a href="https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20neg%C3%B3cio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf">Livro Engenharia de Requisitos</a></div>                         |
+| 3  | As sugestões textuais espontâneas (como melhorias desejadas e novos recursos) foram analisadas para originar requisitos adicionais ou melhorias?                           | [Kaleb Macedo](https://github.com/kalebmacedo)  | <br><img src="..\..\assets\lventrega2\print-questionario-livro.png" alt="Foto Kaleb" width="150"/><br><a href="https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20neg%C3%B3cio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf">Livro Engenharia de Requisitos</a></div>               |
+| 4  | 	Existe uma classificação explícita e correta entre requisitos funcionais (RF) e não funcionais (RNF)?                                       | [Kaleb Macedo](https://github.com/kalebmacedo)   | <br><img src="..\..\assets\lventrega2\print-questionario-livro.png" alt="Foto Kaleb" width="150"/><br><a href="https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20neg%C3%B3cio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf">Livro Engenharia de Requisitos</a></div>                                                  |
+| 5  | Requisitos relacionados à acessibilidade e usabilidade contemplam todos os públicos (ex: idosos, leitores de tela, navegação por smartphone)?                       | [Kaleb Macedo](https://github.com/kalebmacedo)    | <br><img src="..\..\assets\lventrega2\print-questionario-livro.png" alt="Foto Kaleb" width="150"/><br><a href="https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20neg%C3%B3cio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf">Livro Engenharia de Requisitos</a></div>                           |
+| 6  | Os requisitos estão justificados por evidências quantitativas ou qualitativas oriundas da pesquisa?                               | [Kaleb Macedo](https://github.com/kalebmacedo)    | <br><img src="..\..\assets\lventrega2\print-questionario-livro.png" alt="Foto Kaleb" width="150"/><br><a href="https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20neg%C3%B3cio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf">Livro Engenharia de Requisitos</a></div>                           |
+| 7  | 	Os principais problemas citados pelos usuários (ex: ausência de extrato diário, busca ineficiente) foram abordados em requisitos específicos?                                                                   | [Kaleb Macedo](https://github.com/kalebmacedo)   | <br><img src="..\..\assets\lventrega2\print-questionario-livro.png" alt="Foto Kaleb" width="150"/><br><a href="https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20neg%C3%B3cio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf">Livro Engenharia de Requisitos</a></div>                           |
+| 8  | Há sinalização clara de quais requisitos ainda não foram implementados, com potencial para priorização futura?                                                               | [Kaleb Macedo](https://github.com/kalebmacedo)    |  <br><img src="..\..\assets\lventrega2\print-questionario-livro.png" alt="Foto Kaleb" width="150"/><br><a href="https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20neg%C3%B3cio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf">Livro Engenharia de Requisitos</a></div>                          |
+| 9  | A experiência do usuário real (UX) foi utilizada para sugerir mudanças de interface, navegação ou hierarquia de informações?                                              | [Kaleb Macedo](https://github.com/kalebmacedo)     | <br><img src="..\..\assets\lventrega2\print-questionario-livro.png" alt="Foto Kaleb" width="150"/><br><a href="https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20neg%C3%B3cio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf">Livro Engenharia de Requisitos</a></div>                           |
+| 10  | O relatório oferece recomendações objetivas de evolução com base nos dados coletados, indo além da descrição dos problemas?| [Kaleb Macedo](https://github.com/kalebmacedo)     | <br><img src="..\..\assets\lventrega2\print-questionario-livro.png" alt="Foto Kaleb" width="150"/><br><a href="https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20neg%C3%B3cio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf">Livro Engenharia de Requisitos</a></div>                          |
+
+
+
+<font size="3"><p style="text-align: center">Fonte: [Kaleb Macedo](https://github.com/kalebmacedo).</p></font>
+
+---
 
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 
 ## Lista de Verificação – Técnica: Glossário
 
-<p align="center">Tabela 7 – Lista de Verificação do Peril de Usuário</p>
+<p align="center">Tabela 8 – Lista de Verificação do Peril de Usuário</p>
 
 | ID | Descrição da verificação                                                                                                                                      | Participante                                                                                     | Evidência                                                                                                                                                                                                                                   |
 |----|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -231,7 +253,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ## Lista de Verificação - $100 
 
-<p align="center">Tabela 8 – Lista de Verificação 100 Dólares</p>
+<p align="center">Tabela 9 – Lista de Verificação 100 Dólares</p>
 
 | ID | Item de Verificação | Autor | Referência |
 |----|----------------------|-------|------------|
@@ -248,7 +270,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ## Lista de Verificação – Técnica: First Things First
 
-<p align="center">Tabela 9 – Lista de Verificação First Thing First </p>
+<p align="center">Tabela 10 – Lista de Verificação First Thing First </p>
 
 | ID | Descrição da verificação                                                                                                                                             | Participante                                             | Evidência                                                                                                                                                                                      |
 |----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -264,11 +286,11 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
 
-### Tradução das imagens da Tabela 8
+### Tradução das imagens da Tabela 9
 
 Essa tradução foi feita com auxilio do Chat GPT.
 
-<p align="center" > <font>Figura 1: Imagem 1 de fonte da tabela 8</font> </p>
+<p align="center" > <font>Figura 1: Imagem 1 de fonte da tabela 9</font> </p>
 <div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100%"></div>
 <font size="3"><p style="text-align: center">Fonte: <a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></p></font>
 
@@ -281,7 +303,7 @@ Se um requisito for três vezes mais importante para um stakeholder do que outro
 
 Uma abordagem é permitir que diferentes participantes do processo de priorização realizem suas próprias alocações de dólares e, em seguida, somar o total de dólares atribuídos a cada requisito para ver quais aparecem coletivamente como os de maior prioridade. 
 
-<p align="center" > <font>Figura 2: Imagem 2 de fonte da tabela 8</font> </p>
+<p align="center" > <font>Figura 2: Imagem 2 de fonte da tabela 9</font> </p>
 <div><img src="..\..\assets\lventrega2\img2_100dol.png" alt="Referência do item" width="100%"></div>
 <font size="3"><p style="text-align: center">Fonte: <a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></p></font>
 
@@ -355,5 +377,6 @@ WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Pre
 | `1.5`  | 02/05/2025 | Correção de bug de fotos| [Isaque Camargos](https://github.com/isaqzin) |[Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
 | `1.6`  | 03/05/2025 | Adição da lista de verificação do Glossário e adição dos títulos nas tabelas | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Yzabella Miranda](https://github.com/redjsun)  |
 | `1.7`  | 03/05/2025 | Adição da lista de verificação do First Thing First | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Yzabella Miranda](https://github.com/redjsun)  |
-| `1.8`  | 04/05/2025 | Adição da lista de verificação do Grupo Focal | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
-| `1.9`  | 04/05/2025 | Adicionando a tabela de verificação introspecção | [Lucas Alves](https://github.com/LucasAlves71) | [Kaleb Macedo](https://github.com/kalebmacedo |
+| `1.8`  | 04/05/2025 | Adição da lista de verificação do Questionário | [Kaleb Macedo](https://github.com/kalebmacedo) | [Yzabella Miranda](https://github.com/redjsun)  |
+| `1.9`  | 04/05/2025 | Adição da lista de verificação do Grupo Focal | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
+| `2.0`  | 04/05/2025 | Adicionando a tabela de verificação introspecção | [Lucas Alves](https://github.com/LucasAlves71) | [Kaleb Macedo](https://github.com/kalebmacedo |
