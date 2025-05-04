@@ -206,6 +206,8 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ## Lista de Verificação – Técnica: Grupo Focal
 
+<p align="center">Tabela 10 – Lista de Verificação do Grupo Focal</p>
+
 <div align="center">
     <table>
         <thead>
@@ -273,7 +275,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ## Lista de Verificação - $100 
 
-<p align="center">Tabela 10 – Lista de Verificação 100 Dólares</p>
+<p align="center">Tabela 11 – Lista de Verificação 100 Dólares</p>
 
 | ID | Item de Verificação | Autor | Referência |
 |----|----------------------|-------|------------|
@@ -290,7 +292,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ## Lista de Verificação – Técnica: First Things First
 
-<p align="center">Tabela 11 – Lista de Verificação First Thing First </p>
+<p align="center">Tabela 12 – Lista de Verificação First Thing First </p>
 
 | ID | Descrição da verificação                                                                                                                                             | Participante                                             | Evidência                                                                                                                                                                                      |
 |----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -308,7 +310,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ## Lista de Verificação – Técnica: Three Level Scale
 
-<p align="center">Tabela 11 – Lista de Verificação Three Level Scale </p>
+<p align="center">Tabela 13 – Lista de Verificação Three Level Scale </p>
 
 | ID | Descrição da verificação                                                                                                                                             | Participante                                             | Evidência                                                                                                                                                                                      |
 |----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -323,7 +325,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/redjsun">Yzabella Miranda</a></p>
 
-### Tradução das imagens da Tabela 9
+## Tradução das imagens da Tabela 11
 
 Essa tradução foi feita com auxilio do Chat GPT.
 
@@ -353,7 +355,7 @@ Outra técnica de priorização é baseada em dinheiro real, não fictício. Na 
     
 ---
 
-### Tradução das imagens da Tabela 7
+### Tradução das imagens da Tabela 10
 
 Essa tradução foi feita com auxilio do Chat GPT.
 
@@ -374,7 +376,7 @@ Prepare perguntas com antecedência para eliminar parte do pensamento improvisad
 <div><img src="../assets/img/grupo_focal_2.png" alt="Referência do item" width="100%"></div>
 <font size="3"><p style="text-align: center">Fonte: <a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></p></font>
 
-Tradução:
+**Tradução:**
 Grupos focais
 Um grupo focal é um grupo representativo de usuários que se reúne em uma atividade facilitada de elicitação para gerar contribuições e ideias sobre os requisitos funcionais e de qualidade de um produto. As sessões de grupos focais devem ser interativas, permitindo que todos os usuários tenham a chance de expressar suas opiniões. Grupos focais são úteis para explorar atitudes, impressões, preferências e necessidades dos usuários (IIBA 2009). Eles são particularmente valiosos se você estiver desenvolvendo produtos comerciais e não tiver acesso direto a usuários finais dentro de sua empresa.
 
@@ -385,6 +387,7 @@ Os grupos focais devem ser facilitados. Você precisará mantê-los no tópico, 
 ## Como utilizar esta lista de verificação
 
 - Para cada item da lista, o revisor deve:
+
     -  Verificar se o artefato atende ao critério especificado
     -  Marcar como "Conforme" ou "Não conforme"
     -  Para itens não conformes, adicionar comentários específicos sobre o que precisa ser corrigido
