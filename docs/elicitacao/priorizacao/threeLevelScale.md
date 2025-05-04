@@ -66,7 +66,11 @@ Os resultados da verificação do artefato foram obtidos com base na lista de ve
 ## Gravação da Inspeção
 A inspeção e o preenchimento da lista foram gravados e podem ser vistos no Vídeo 1.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=S1TjgL_gzeQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="display: flex; justify-content: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/S1TjgL_gzeQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<font size="3"><p style="text-align: center">Vídeo 1: Gravação da inspeção do artefato Three Level Scale.</p></font>
 
 
 ---

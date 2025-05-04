@@ -58,11 +58,19 @@ Com isso, na tabela 1 está a priorização dos requisitos de **First Thing Firs
 ## Gravação da Lista
 A inspeção e o preenchimento da lista foram gravados e podem ser vistos na Gravação 1 e Gravação 2.
 
-- **Gravação 1** (gravação First Thing First (1)): 
-<iframe width="560" height="315" src="https://youtu.be/9B5d9yufqCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+## Gravação da Lista
 
-- **Gravação 1** (gravação First Thing First (2))
-<iframe width="560" height="315" src="https://youtu.be/F8ny5ZZLdxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+A inspeção e o preenchimento da lista foram gravados e podem ser vistos na Gravação 1 e Gravação 2.
+
+<div align="center">
+    <p><strong>Gravação 1</strong> (gravação First Thing First (1))</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9B5d9yufqCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div align="center">
+    <p><strong>Gravação 2</strong> (gravação First Thing First (2))</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/F8ny5ZZLdxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Referências
 

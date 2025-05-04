@@ -40,8 +40,6 @@ nav:
   - Pré-rastreabilidade:
       - Rich Picture: pre-rastreabilidade/rich_picture.md
   - Elicitação: 
-      - Priorização:
-          - Three Level Scale: elicitacao/priorizacao/threeLevelScale.md  
       - Requisios Elicitados: elicitacao/elicitacao.md  
       - Priorização: 
           - $100: elicitacao/priorizacao/dolares100.md
