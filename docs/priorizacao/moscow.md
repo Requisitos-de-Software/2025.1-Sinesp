@@ -1,8 +1,7 @@
-# Técnica de Priorização: MoSCoW
+## Técnica de Priorização: MoSCoW
 
-## Introdução
-
-A técnica MoSCoW é uma abordagem amplamente reconhecida para a priorização de requisitos em projetos de software, especialmente em ambientes ágeis. Desenvolvida por Dai Clegg em 1994 para o método de Desenvolvimento Rápido de Aplicações (RAD), ela foi posteriormente incorporada ao Dynamic Systems Development Method (DSDM) .
+### Introdução
+A técnica MoSCoW é uma abordagem amplamente reconhecida para a priorização de requisitos em projetos de software, especialmente em ambientes ágeis. Desenvolvida por Dai Clegg em 1994 para o método de Desenvolvimento Rápido de Aplicações (RAD), ela foi posteriormente incorporada ao Dynamic Systems Development Method (DSDM).
 
 O acrônimo MoSCoW representa quatro categorias de prioridade:
 
@@ -15,21 +14,18 @@ A técnica MoSCoW facilita a comunicação entre stakeholders, ajuda a gerenciar
 
 ---
 
-## Objetivos
-
-- **Priorizar Requisitos**: Identificar e classificar os requisitos com base em sua importância e urgência.
-- **Alinhar Expectativas**: Assegurar que todos os stakeholders tenham uma compreensão comum das prioridades do projeto.
-- **Gerenciar Recursos**: Otimizar o uso de tempo e recursos, focando nos requisitos mais críticos.
-- **Facilitar Planejamento**: Auxiliar na definição do escopo mínimo viável para entregas incrementais.
+### Objetivo
+O principal objetivo da priorização MoSCoW neste projeto é garantir que os requisitos identificados atendam às reais necessidades dos usuários e que os esforços da equipe sejam direcionados para funcionalidades que tragam maior valor ao sistema. A técnica foi utilizada para organizar os requisitos de acordo com sua criticidade, considerando aspectos como impacto na experiência do usuário, frequência de uso e complexidade de implementação. Dessa forma, buscamos entregar um produto mais útil, eficiente e centrado no usuário final, com entregas incrementais bem planejadas.
 
 ---
 
-## Metodologia de Aplicação
+### Metodologia de Aplicação
 
-1. **Levantamento de Requisitos**: Coleta de todos os requisitos identificados durante a fase de elicitação.
-2. **Classificação**: Cada requisito é avaliado e classificado em uma das quatro categorias do MoSCoW, com base em sua importância para os objetivos do projeto.
-3. **Validação com Stakeholders**: As classificações são revisadas e validadas com os stakeholders para garantir consenso.
-4. **Revisões Periódicas**: As prioridades podem ser reavaliadas ao longo do projeto para refletir mudanças nas necessidades ou no contexto.
+A classificação dos requisitos com a técnica MoSCoW foi realizada a partir de um processo que envolveu tanto o levantamento com personas quanto a validação com um usuário real. Inicialmente, as personas Maria Lúcia (usuária final) e Paulo Henrique (usuário secundário e administrativo) foram analisadas com base em seus perfis, motivações e frustrações. A partir disso, os requisitos foram classificados nas categorias "Must", "Should", "Could" e "Won't" considerando a frequência de uso, criticidade funcional, contexto de uso (mobile ou desktop) e impacto direto na rotina dos usuários.
+
+Após essa etapa, a classificação foi validada por meio de um processo de simulação com um usuário real, que permitiu identificar possíveis desconexões entre o que foi priorizado e o que, de fato, se mostra mais relevante no uso cotidiano do sistema. Esse processo de validação foi essencial para ajustar decisões e alinhar o produto com as expectativas reais do público-alvo.
+
+Além disso, a priorização será revista periodicamente ao longo do projeto, considerando novas demandas, ajustes técnicos ou feedbacks recebidos.
 
 ---
 
@@ -124,9 +120,24 @@ Requisitos que não serão implementados nesta fase do projeto.
 
 ---
 
+## Gravações
+
+### Gravação do Moscow
+
+<iframe width="560" height="315" src="https://youtube.com/embed/fHvGVsz4aE0" frameborder="0" allowfullscreen></iframe>
+
+### Gravação da Validação por um usuário real
+
+
+
+---
+
 ## Histórico de Versão
 
 | Versão | Data       | Descrição                                      | Autor(es)                                   | Revisor(es) |
 |--------|------------|------------------------------------------------|---------------------------------------------|-------------|
 | 1.0    | 02/05/2025 | Criação do documento com introdução, objetivos, metodologia e estrutura de priorização | [Lucas Alves](https://github.com/LucasAlves71) e [Kaleb Macedo](https://github.com/kalebmacedo) | [Isaque Camargos](https://github.com/isaqzin) |
 | 1.1    | 04/05/2025 | Adição dos requisitos e suas classificações | [Lucas Alves](https://github.com/LucasAlves71) e [Kaleb Macedo](https://github.com/kalebmacedo) | [Isaque Camargos](https://github.com/isaqzin) |
+| 1.2    | 04/05/2025 | Adição da gravação do Moscow | [Kaleb Macedo](https://github.com/kalebmacedo) e[Lucas Alves](https://github.com/LucasAlves71)  | [Isaque Camargos](https://github.com/isaqzin) |
+| 1.3    | 04/05/2025 | Mínima alteração na documentação do Moscow | [Kaleb Macedo](https://github.com/kalebmacedo) e[Lucas Alves](https://github.com/LucasAlves71)  | [Lucas Alves](https://github.com/LucasAlves71) |
+| 1.4    | 04/05/2025 | Adição da gravação do usuário real | [Kaleb Macedo](https://github.com/kalebmacedo)  | [Lucas Alves](https://github.com/LucasAlves71) |
