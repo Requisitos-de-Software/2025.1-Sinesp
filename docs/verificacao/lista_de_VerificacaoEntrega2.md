@@ -140,8 +140,72 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
+# Lista de Verificação – Técnica: Grupo Focal
 
+<div align="center">
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Item de verificação</th>
+                <th>Autor</th>
+                <th>Referência</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Q1</td>
+                <td>O objetivo da reunião está claro para todos os participantes?</td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
+                <td><img src="../assets/img/grupo_focal_3.png"></td>
+            </tr>
+            <tr>
+                <td>Q2</td>
+                <td>A reunião foi realizada com representantes dos usuários?</td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
+                <td><img src="../assets/img/grupo_focal_3.png"></td>
+            </tr>
+            <tr>
+                <td>Q3</td>
+                <td>Foi definida uma pauta com os principais temas da discussão?</td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
+                <td><img src="../assets/img/grupo_focal_5.png"></td>
+            </tr>
+            <tr>
+                <td>Q4</td>
+                <td>O facilitador conduziu a sessão de forma neutra e produtiva?</td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
+                <td><img src="../assets/img/grupo_focal_4.png"></td>
+            </tr>
+            <tr>
+                <td>Q5</td>
+                <td>Os participantes foram incentivados a dar suas opiniões livremente?</td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
+                <td><img src="../assets/img/grupo_focal_3.png"></td>
+            </tr>
+            <tr>
+                <td>Q6</td>
+                <td>A sessão foi gravada ou registrada por alguém para garantir que nada fosse perdido?</td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
+                <td><img src="../assets/img/grupo_focal_4.png"></td>
+            </tr>
+            <tr>
+                <td>Q7</td>
+                <td>Foi preparado algum material de apoio, como protótipos ou exemplos, para facilitar a discussão?</td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
+                <td><img src="../assets/img/grupo_focal_5.png"></td>
+            </tr>
+            <tr>
+                <td>Q8</td>
+                <td>Os resultados da reunião serão compartilhados com os envolvidos para revisão e complementação?</td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
+                <td><img src="../assets/img/grupo_focal_5.png"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
+<p align="center">Autor: <b><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></b></p>
 
 ## Lista de Verificação - $100 
 
@@ -240,3 +304,4 @@ WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Pre
 | `1.5`  | 02/05/2025 | Correção de bug de fotos| [Isaque Camargos](https://github.com/isaqzin) |[Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
 | `1.6`  | 03/05/2025 | Adição da lista de verificação do Glossário e adição dos títulos nas tabelas | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Yzabella Miranda](https://github.com/redjsun)  |
 | `1.7`  | 03/05/2025 | Adição da lista de verificação do First Thing First | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Yzabella Miranda](https://github.com/redjsun)  |
+| `1.8`  | 04/05/2025 | Adição da lista de verificação do Grupo Focal | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
