@@ -40,7 +40,8 @@ nav:
   - Pré-rastreabilidade:
       - Rich Picture: pre-rastreabilidade/rich_picture.md
   - Elicitação: 
-      - Requisios Elicitados: elicitacao/elicitacao.md  
+      - Priorização:
+          - Three Level Scale: elicitacao/priorizacao/threeLevelScale.md  
       - Técnicas:
           - Introspecção: elicitacao/tecnicas/introspeccao.md
           - Entrevista: elicitacao/tecnicas/entrevista.md
