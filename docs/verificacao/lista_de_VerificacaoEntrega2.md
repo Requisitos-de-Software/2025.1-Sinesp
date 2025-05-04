@@ -54,7 +54,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ---
 
-## Lista de Verificação - Perfil de Usuário - (Tabela 3)
+## Lista de Verificação - Perfil de Usuário
 
 
 <p align="center">Tabela 3 – Lista de Verificação do Peril de Usuário</p>
@@ -158,10 +158,25 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 | 7  | Se o dinheiro acabou, todo o resto foi dado com valor 0 ?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div> |
 | 8  | Cada participante realizou sua própria alocação de forma independente ?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div> |
 
-
-
-
 <font size="3"><p style="text-align: center">Fonte: [Isaque Camargos](https://github.com/isaqzin).</p></font>
+
+## Lista de Verificação – Técnica: First Things First
+
+<p align="center">Tabela 8 – Lista de Verificação First Thing First </p>
+
+| ID | Descrição da verificação                                                                                                                                             | Participante                                             | Evidência                                                                                                                                                                                      |
+|----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1  | Verificar se todos os requisitos foram listados em uma planilha, considerando dependências lógicas entre eles.                                                        | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-1.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 37, 2023)</div>                                |
+| 2  | Confirmar se o benefício relativo de cada requisito foi avaliado em escala numérica (1 a 9) com participação do cliente.                                            | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-2.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 38, 2023)</div>                                |
+| 3  | Assegurar que a penalidade relativa (impacto de não implementar o requisito) foi definida em escala numérica (1 a 9).                                                 | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-3.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 38, 2023)</div>                                |
+| 4  | A coluna valor total é a soma de (peso do benefício × valor do benefício) + (peso da penalidade × valor da penalidade).                                              | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-4.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 38, 2023)</div>                                |
+| 5  | Verificar se o custo relativo da implementação está entre 1 e 9.                                                                                                      | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-5.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 38, 2023)</div>                                |
+| 6  | Os desenvolvedores levaram em consideração os custos com base em fatores como complexidade de implementação, interface necessária, potencial de reutilização e níveis de testes e documentação. | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-6.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 39, 2023)</div>                                |
+| 7  | Assegurar que a priorização seguiu a fórmula: Valor % / (Custo % × Peso + Risco % × Peso).                                                                             | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-7.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 38, 2023)</div>                                |
+| 8  | Verificar se a lista final de requisitos foi ordenada em ordem decrescente de prioridade calculada.                                                                  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-8.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 39, 2023)</div>                                |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
 
 ### Tradução das imagens da Tabela 6
 
@@ -205,10 +220,11 @@ Outra técnica de priorização é baseada em dinheiro real, não fictício. Na 
 
 Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. Pg 144 - 148  .Disponível em: [Interação Humano-Computador e Experiência do usuário](https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html).Acesso em: 30 de abril de 2024 
 
+SERRANO, Milene; SERRANO, Maurício. *Requisitos – Aula 07*. Disponível em: https://aprender3.unb.br/pluginfile.php/3096092/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf. Acesso em: 3 maio 2025.
+
 SALES, André Barros de. [Plano de Ensino – Requisitos de Software: REE012025 – Turma 03](https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf). Brasília: Universidade de Brasília, Faculdade UnB Gama, 2025. 7 p. Acessado em: 23 de abril de 2025
 
 VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013. Disponível em: <https://aprender3.unb.br/pluginfile.php/3096085/mod_resource/content/4/Elicitacao%20de%20Req%202.pdf>. Acesso em: 3 maio 2025.
-
 
 WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Press, 2013. ISBN 978-0-7356-7966-5. p. 321 - 322 Disponível em: [Software Requirements](https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf)  .Acesso em: 01 de maio de 2025
 
@@ -223,3 +239,4 @@ WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Pre
 | `1.4`  | 01/05/2025 | Adição da Lista da técnica $100| [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 | `1.5`  | 02/05/2025 | Correção de bug de fotos| [Isaque Camargos](https://github.com/isaqzin) |[Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
 | `1.6`  | 03/05/2025 | Adição da lista de verificação do Glossário e adição dos títulos nas tabelas | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Yzabella Miranda](https://github.com/redjsun)  |
+| `1.7`  | 03/05/2025 | Adição da lista de verificação do First Thing First | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Yzabella Miranda](https://github.com/redjsun)  |
