@@ -123,90 +123,23 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ---
 
-## Lista de Verificação – Técnica: Glossário
+## Lista de Verificação - Introspecção
 
-<p align="center">Tabela 6 – Lista de Verificação do Peril de Usuário</p>
-
-| ID | Descrição da verificação                                                                                                                                      | Participante                                                                                     | Evidência                                                                                                                                                                                                                                   |
-|----|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1  | Verificar se a elaboração do glossário foi iniciada já nas atividades de elicitação, durante a análise do domínio do problema e das necessidades de negócio.  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft1.jpeg" width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
-| 2  | Verificar se foram identificados termos únicos para o domínio, que não aparecem em outros contextos do projeto.                                              | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft2.jpeg" width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
-| 3  | Verificar se foram capturados termos que têm mais de uma definição, evitando ambiguidades.                                                                    | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft3.jpeg" width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
-| 4  | Verificar se foram incluídos termos com definição local distinta do senso comum, garantindo clareza para todos os envolvidos.                                 | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft4.jpeg"  width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
-| 5  | Verificar se foram listados termos com potencial de causar dificuldades de entendimento, sustentando a pesquisa junto às partes interessadas.                | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft5.jpeg" <br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
-| 6  | Verificar se foram considerados termos técnicos do negócio (jargões, processos internos etc.).                                                                | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft1.jpeg" alt="ver-glossario-ft6" width="100px"><br>VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.</div> |
-| 7  | Verificar se foram incluídas abreviações e siglas relevantes ao escopo, com suas respectivas explicações.                                                     | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft7.jpeg"  width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
-| 8  | Verificar se foram mapeados termos que são sinônimos ou antônimos, usando remissivas simples e cruzadas para facilitar a consulta.                            | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft8.jpeg" width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
-
-
-
-
-## Lista de Verificação - $100 
-
-<p align="center">Tabela 7 – Lista de Verificação 100 Dólares</p>
+<p align="center">Tabela 6 – Lista de Verificação de Introspecção</p>
 
 | ID | Item de Verificação | Autor | Referência |
 |----|----------------------|-------|------------|
-| 1  | A equipe de priorização recebeu exatamente 100 dólares imaginários para distribuir?  | [Isaque Camargos](https://github.com/isaqzin) |<div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div> |
-| 2  | Nenhum requisito recebeu mais do que 100 dólares ?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div>|
-| 3  | A soma de todos os valores deu exatamente 100 dólares ? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div>|
-| 4  | Foi feito a média dos valores que cada requisito recebeu ?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div> |
-| 5  | A parte interessada foi instruída para evitar manipulações nos valores ?  |[Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img2_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div> |
-| 6 | A distribuição de dinheiro foi feita com base no desejo das partes interessadas ? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img2_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div> |
-| 7  | Se o dinheiro acabou, todo o resto foi dado com valor 0 ?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div> |
-| 8  | Cada participante realizou sua própria alocação de forma independente ?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div> |
+| 1  | A Especificação do Perfil do usuário possui informação de: idade, experiência, atitudes e tarefas primárias. | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega2\slideMilene_1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">Slide Professora Milene</a></div> |
+| 2  | Um cronograma (data e horário) e local para realização da elicitação dos requisitos com o cliente e/ou persona do projeto? | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega2\slideMilene_1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">Slide Professora Milene</a></div> |
+| 3  | No mínimo três técnicas de elicitação foram utilizadas? | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega2\slideMilene_1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">Slide Professora Milene</a></div> |
+| 4  | A participação do cliente e/ou persona na elicitação de requisitos? | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega2\slideMilene_1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">Slide Professora Milene</a></div> |
+| 5  | A gravação e o(s) registro(s) da elicitação dos requisitos (pré-rastreabilidade)? | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega2\slideMilene_1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">Slide Professora Milene</a></div> |
+| 6  | Um cronograma (data e horário) e local para realização da priorização dos requisitos com o cliente e/ou persona do projeto? | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega2\slideMilene_1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">Slide Professora Milene</a></div> |
+| 7  | No mínimo duas técnicas de priorização foram utilizadas? | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega2\slideMilene_1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">Slide Professora Milene</a></div> |
+| 8  | A participação do cliente e/ou persona no processo de priorização? | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega2\slideMilene_1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">Slide Professora Milene</a></div> |
+| 9  | A gravação e o(s) registro(s) da atividade de priorização dos requisitos? | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega2\slideMilene_1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">Slide Professora Milene</a></div> |
+| 10  | Cada integrante da equipe elaborou pelo menos um item do conteúdo da disciplina com referência bibliográfica da fonte e foto do texto referência? | [Lucas Alves](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega2\slideMilene_1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf">Slide Professora Milene</a></div> |
 
-<font size="3"><p style="text-align: center">Fonte: [Isaque Camargos](https://github.com/isaqzin).</p></font>
-
-## Lista de Verificação – Técnica: First Things First
-
-<p align="center">Tabela 8 – Lista de Verificação First Thing First </p>
-
-| ID | Descrição da verificação                                                                                                                                             | Participante                                             | Evidência                                                                                                                                                                                      |
-|----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1  | Verificar se todos os requisitos foram listados em uma planilha, considerando dependências lógicas entre eles.                                                        | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-1.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 37, 2023)</div>                                |
-| 2  | Confirmar se o benefício relativo de cada requisito foi avaliado em escala numérica (1 a 9) com participação do cliente.                                            | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-2.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 38, 2023)</div>                                |
-| 3  | Assegurar que a penalidade relativa (impacto de não implementar o requisito) foi definida em escala numérica (1 a 9).                                                 | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-3.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 38, 2023)</div>                                |
-| 4  | A coluna valor total é a soma de (peso do benefício × valor do benefício) + (peso da penalidade × valor da penalidade).                                              | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-4.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 38, 2023)</div>                                |
-| 5  | Verificar se o custo relativo da implementação está entre 1 e 9.                                                                                                      | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-5.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 38, 2023)</div>                                |
-| 6  | Os desenvolvedores levaram em consideração os custos com base em fatores como complexidade de implementação, interface necessária, potencial de reutilização e níveis de testes e documentação. | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-6.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 39, 2023)</div>                                |
-| 7  | Assegurar que a priorização seguiu a fórmula: Valor % / (Custo % × Peso + Risco % × Peso).                                                                             | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-7.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 38, 2023)</div>                                |
-| 8  | Verificar se a lista final de requisitos foi ordenada em ordem decrescente de prioridade calculada.                                                                  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-8.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 39, 2023)</div>                                |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
-
-
-### Tradução das imagens da Tabela 6
-
-Essa tradução foi feita com auxilio do Chat GPT.
-
-<p align="center" > <font>Figura 1: Imagem 1 de fonte da tabela 5</font> </p>
-<div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100%"></div>
-<font size="3"><p style="text-align: center">Fonte: <a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></p></font>
-
-Tradução:
-A priorização diz respeito à alocação cuidadosa de recursos limitados para alcançar o benefício máximo a partir do investimento que uma organização faz em um projeto. Uma maneira de tornar a priorização mais tangível é representá-la em termos de um recurso real: dinheiro. Neste caso, é apenas dinheiro fictício, mas ainda assim é dinheiro.
-
-Dê à equipe de priorização 100 dólares imaginários para trabalhar. Os membros da equipe alocam esses dólares para "comprar" itens que gostariam que fossem implementados a partir do conjunto completo de requisitos candidatos. Eles atribuem mais dólares aos requisitos de maior prioridade.
-
-Se um requisito for três vezes mais importante para um stakeholder do que outro requisito, ela poderia, por exemplo, atribuir nove dólares ao primeiro requisito e três dólares ao segundo. Mas 100 dólares é tudo o que os priorizadores têm — quando o dinheiro acabar, nada mais poderá ser implementado, pelo menos na versão do projeto em que estão focando no momento.
-
-Uma abordagem é permitir que diferentes participantes do processo de priorização realizem suas próprias alocações de dólares e, em seguida, somar o total de dólares atribuídos a cada requisito para ver quais aparecem coletivamente como os de maior prioridade. 
-
-<p align="center" > <font>Figura 2: Imagem 2 de fonte da tabela 5</font> </p>
-<div><img src="..\..\assets\lventrega2\img2_100dol.png" alt="Referência do item" width="100%"></div>
-<font size="3"><p style="text-align: center">Fonte: <a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></p></font>
-
-Tradução:
-A abordagem dos cem dólares não é uma má forma de fazer um grupo pensar em termos de alocação de recursos com base na prioridade. No entanto, Davis (2005) aponta várias maneiras pelas quais os participantes podem "manipular" o processo para distorcer os resultados. Por exemplo, se você realmente, REALMENTE quiser um requisito específico, pode atribuir todos os seus 100 dólares a ele para tentar colocá-lo no topo da lista.
-
-Na prática, no entanto, você nunca aceitaria um sistema que implementasse apenas aquele único requisito. Nem esse esquema leva em consideração a quantidade de esforço necessária para implementar cada um dos requisitos. Se você puder obter três requisitos, cada um avaliado em $10 pelo mesmo esforço que um único avaliado em $15, é mais vantajoso ficar com os três. O esquema baseia-se apenas no valor percebido de certos requisitos por um grupo específico de stakeholders, o que é uma limitação comum de muitas técnicas de priorização.
-
-Outra técnica de priorização é baseada em dinheiro real, não fictício. Na técnica “objective chain” de Joy Beatty e Anthony Chen (2012), você atribui um valor em dólares estimado que representa o quanto cada funcionalidade proposta contribui para os objetivos de negócios do projeto. Assim, é possível comparar o valor relativo das funcionalidades entre si e selecionar quais implementar primeiro.
-    
----
 
 ## Lista de Verificação - Questionário 
 
@@ -231,6 +164,186 @@ Outra técnica de priorização é baseada em dinheiro real, não fictício. Na 
 <font size="3"><p style="text-align: center">Fonte: [Kaleb Macedo](https://github.com/kalebmacedo).</p></font>
 
 ---
+
+<font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
+
+## Lista de Verificação – Técnica: Glossário
+
+<p align="center">Tabela 8 – Lista de Verificação do Peril de Usuário</p>
+
+| ID | Descrição da verificação                                                                                                                                      | Participante                                                                                     | Evidência                                                                                                                                                                                                                                   |
+|----|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1  | Verificar se a elaboração do glossário foi iniciada já nas atividades de elicitação, durante a análise do domínio do problema e das necessidades de negócio.  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft1.jpeg" width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
+| 2  | Verificar se foram identificados termos únicos para o domínio, que não aparecem em outros contextos do projeto.                                              | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft2.jpeg" width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
+| 3  | Verificar se foram capturados termos que têm mais de uma definição, evitando ambiguidades.                                                                    | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft3.jpeg" width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
+| 4  | Verificar se foram incluídos termos com definição local distinta do senso comum, garantindo clareza para todos os envolvidos.                                 | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft4.jpeg"  width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
+| 5  | Verificar se foram listados termos com potencial de causar dificuldades de entendimento, sustentando a pesquisa junto às partes interessadas.                | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft5.jpeg" width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
+| 6  | Verificar se foram considerados termos técnicos do negócio (jargões, processos internos etc.).                                                                | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft1.jpeg" alt="ver-glossario-ft6" width="100px"><br>VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.</div> |
+| 7  | Verificar se foram incluídas abreviações e siglas relevantes ao escopo, com suas respectivas explicações.                                                     | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft7.jpeg"  width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
+| 8  | Verificar se foram mapeados termos que são sinônimos ou antônimos, usando remissivas simples e cruzadas para facilitar a consulta.                            | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft8.jpeg" width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+## Lista de Verificação – Técnica: Grupo Focal
+
+<div align="center">
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Item de verificação</th>
+                <th>Autor</th>
+                <th>Referência</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Q1</td>
+                <td>O objetivo da reunião está claro para todos os participantes?</td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
+                <td><img src="../assets/img/grupo_focal_3.png"></td>
+            </tr>
+            <tr>
+                <td>Q2</td>
+                <td>A reunião foi realizada com representantes dos usuários?</td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
+                <td><img src="../assets/img/grupo_focal_3.png"></td>
+            </tr>
+            <tr>
+                <td>Q3</td>
+                <td>Foi definida uma pauta com os principais temas da discussão?</td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
+                <td><img src="../assets/img/grupo_focal_5.png"></td>
+            </tr>
+            <tr>
+                <td>Q4</td>
+                <td>O facilitador conduziu a sessão de forma neutra e produtiva?</td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
+                <td><img src="../assets/img/grupo_focal_4.png"></td>
+            </tr>
+            <tr>
+                <td>Q5</td>
+                <td>Os participantes foram incentivados a dar suas opiniões livremente?</td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
+                <td><img src="../assets/img/grupo_focal_3.png"></td>
+            </tr>
+            <tr>
+                <td>Q6</td>
+                <td>A sessão foi gravada ou registrada por alguém para garantir que nada fosse perdido?</td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
+                <td><img src="../assets/img/grupo_focal_4.png"></td>
+            </tr>
+            <tr>
+                <td>Q7</td>
+                <td>Foi preparado algum material de apoio, como protótipos ou exemplos, para facilitar a discussão?</td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
+                <td><img src="../assets/img/grupo_focal_5.png"></td>
+            </tr>
+            <tr>
+                <td>Q8</td>
+                <td>Os resultados da reunião serão compartilhados com os envolvidos para revisão e complementação?</td>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
+                <td><img src="../assets/img/grupo_focal_5.png"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<p align="center">Autor: <b><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></b></p>
+
+## Lista de Verificação - $100 
+
+<p align="center">Tabela 9 – Lista de Verificação 100 Dólares</p>
+
+| ID | Item de Verificação | Autor | Referência |
+|----|----------------------|-------|------------|
+| 1  | A equipe de priorização recebeu exatamente 100 dólares imaginários para distribuir?  | [Isaque Camargos](https://github.com/isaqzin) |<div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div> |
+| 2  | Nenhum requisito recebeu mais do que 100 dólares ?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div>|
+| 3  | A soma de todos os valores deu exatamente 100 dólares ? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div>|
+| 4  | Foi feito a média dos valores que cada requisito recebeu ?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div> |
+| 5  | A parte interessada foi instruída para evitar manipulações nos valores ?  |[Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img2_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div> |
+| 6 | A distribuição de dinheiro foi feita com base no desejo das partes interessadas ? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img2_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div> |
+| 7  | Se o dinheiro acabou, todo o resto foi dado com valor 0 ?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div> |
+| 8  | Cada participante realizou sua própria alocação de forma independente ?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></div> |
+
+<font size="3"><p style="text-align: center">Fonte: [Isaque Camargos](https://github.com/isaqzin).</p></font>
+
+## Lista de Verificação – Técnica: First Things First
+
+<p align="center">Tabela 10 – Lista de Verificação First Thing First </p>
+
+| ID | Descrição da verificação                                                                                                                                             | Participante                                             | Evidência                                                                                                                                                                                      |
+|----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1  | Verificar se todos os requisitos foram listados em uma planilha, considerando dependências lógicas entre eles.                                                        | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-1.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 37, 2023)</div>                                |
+| 2  | Confirmar se o benefício relativo de cada requisito foi avaliado em escala numérica (1 a 9) com participação do cliente.                                            | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-fisrt-2.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 38, 2023)</div>                                |
+| 3  | Assegurar que a penalidade relativa (impacto de não implementar o requisito) foi definida em escala numérica (1 a 9).                                                 | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-3.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 38, 2023)</div>                                |
+| 4  | A coluna valor total é a soma de (peso do benefício × valor do benefício) + (peso da penalidade × valor da penalidade).                                              | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-4.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 38, 2023)</div>                                |
+| 5  | Verificar se o custo relativo da implementação está entre 1 e 9.                                                                                                      | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-5.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 38, 2023)</div>                                |
+| 6  | Os desenvolvedores levaram em consideração os custos com base em fatores como complexidade de implementação, interface necessária, potencial de reutilização e níveis de testes e documentação. | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-6.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 39, 2023)</div>                                |
+| 7  | Assegurar que a priorização seguiu a fórmula: Valor % / (Custo % × Peso + Risco % × Peso).                                                                             | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-7.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 38, 2023)</div>                                |
+| 8  | Verificar se a lista final de requisitos foi ordenada em ordem decrescente de prioridade calculada.                                                                  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-8.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 39, 2023)</div>                                |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+
+### Tradução das imagens da Tabela 9
+
+Essa tradução foi feita com auxilio do Chat GPT.
+
+<p align="center" > <font>Figura 1: Imagem 1 de fonte da tabela 9</font> </p>
+<div><img src="..\..\assets\lventrega2\img1_100dol.png" alt="Referência do item" width="100%"></div>
+<font size="3"><p style="text-align: center">Fonte: <a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></p></font>
+
+Tradução:
+A priorização diz respeito à alocação cuidadosa de recursos limitados para alcançar o benefício máximo a partir do investimento que uma organização faz em um projeto. Uma maneira de tornar a priorização mais tangível é representá-la em termos de um recurso real: dinheiro. Neste caso, é apenas dinheiro fictício, mas ainda assim é dinheiro.
+
+Dê à equipe de priorização 100 dólares imaginários para trabalhar. Os membros da equipe alocam esses dólares para "comprar" itens que gostariam que fossem implementados a partir do conjunto completo de requisitos candidatos. Eles atribuem mais dólares aos requisitos de maior prioridade.
+
+Se um requisito for três vezes mais importante para um stakeholder do que outro requisito, ela poderia, por exemplo, atribuir nove dólares ao primeiro requisito e três dólares ao segundo. Mas 100 dólares é tudo o que os priorizadores têm — quando o dinheiro acabar, nada mais poderá ser implementado, pelo menos na versão do projeto em que estão focando no momento.
+
+Uma abordagem é permitir que diferentes participantes do processo de priorização realizem suas próprias alocações de dólares e, em seguida, somar o total de dólares atribuídos a cada requisito para ver quais aparecem coletivamente como os de maior prioridade. 
+
+<p align="center" > <font>Figura 2: Imagem 2 de fonte da tabela 9</font> </p>
+<div><img src="..\..\assets\lventrega2\img2_100dol.png" alt="Referência do item" width="100%"></div>
+<font size="3"><p style="text-align: center">Fonte: <a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></p></font>
+
+Tradução:
+A abordagem dos cem dólares não é uma má forma de fazer um grupo pensar em termos de alocação de recursos com base na prioridade. No entanto, Davis (2005) aponta várias maneiras pelas quais os participantes podem "manipular" o processo para distorcer os resultados. Por exemplo, se você realmente, REALMENTE quiser um requisito específico, pode atribuir todos os seus 100 dólares a ele para tentar colocá-lo no topo da lista.
+
+Na prática, no entanto, você nunca aceitaria um sistema que implementasse apenas aquele único requisito. Nem esse esquema leva em consideração a quantidade de esforço necessária para implementar cada um dos requisitos. Se você puder obter três requisitos, cada um avaliado em $10 pelo mesmo esforço que um único avaliado em $15, é mais vantajoso ficar com os três. O esquema baseia-se apenas no valor percebido de certos requisitos por um grupo específico de stakeholders, o que é uma limitação comum de muitas técnicas de priorização.
+
+Outra técnica de priorização é baseada em dinheiro real, não fictício. Na técnica “objective chain” de Joy Beatty e Anthony Chen (2012), você atribui um valor em dólares estimado que representa o quanto cada funcionalidade proposta contribui para os objetivos de negócios do projeto. Assim, é possível comparar o valor relativo das funcionalidades entre si e selecionar quais implementar primeiro.
+    
+---
+
+### Tradução das imagens da Tabela 7
+
+Essa tradução foi feita com auxilio do Chat GPT.
+
+<p align="center" > <font>Figura 3: Imagem 1 de fonte da tabela 7</font> </p>
+<div><img src="../assets/img/grupo_focal_5.png" alt="Referência do item" width="100%"></div>
+<font size="3"><p style="text-align: center">Fonte: <a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></p></font>
+
+Tradução:
+Tire boas notas
+Atribua a alguém que não está participando ativamente da discussão a função de escriba, responsável por tomar notas precisas. As notas da sessão devem conter uma lista de participantes, convidados que não compareceram, decisões tomadas, ações a serem realizadas e quem é responsável por cada uma, questões pendentes e os pontos principais das discussões. Infelizmente, analistas de negócios (BAs) às vezes conduzem sessões de elicitação sem um escriba dedicado e precisam assumir esse papel. Se você estiver nessa situação, esteja preparado para escrever em taquigrafia, digitar rapidamente ou usar um dispositivo de gravação (se os participantes concordarem). Canetas de áudio podem traduzir notas manuscritas para formato eletrônico e vinculá-las ao áudio gravado da discussão. Você também pode usar quadros brancos e papéis nas paredes e fotografá-los.
+
+Prepare perguntas com antecedência para eliminar parte do pensamento improvisado necessário para manter a conversa fluindo. Crie uma notação abreviada para capturar uma pergunta que surgir enquanto alguém está falando, para que você possa voltar a ela rapidamente quando tiver uma oportunidade. Não tente capturar diagramas em softwares complicados de diagramação; apenas fotografe diagramas esboçados ou desenhe rapidamente à mão.
+
+<p align="center" > <font>Figura 4: Imagem 2 de fonte da tabela 7</font> </p>
+<div><img src="../assets/img/grupo_focal_1.png" alt="Referência do item" width="100%"></div>
+<font size="3"><p style="text-align: center">Fonte: <a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></p></font>
+<p align="center" > <font>Figura 5: Imagem 3 de fonte da tabela 7</font> </p>
+<div><img src="../assets/img/grupo_focal_2.png" alt="Referência do item" width="100%"></div>
+<font size="3"><p style="text-align: center">Fonte: <a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></p></font>
+
+Tradução:
+Grupos focais
+Um grupo focal é um grupo representativo de usuários que se reúne em uma atividade facilitada de elicitação para gerar contribuições e ideias sobre os requisitos funcionais e de qualidade de um produto. As sessões de grupos focais devem ser interativas, permitindo que todos os usuários tenham a chance de expressar suas opiniões. Grupos focais são úteis para explorar atitudes, impressões, preferências e necessidades dos usuários (IIBA 2009). Eles são particularmente valiosos se você estiver desenvolvendo produtos comerciais e não tiver acesso direto a usuários finais dentro de sua empresa.
+
+Frequentemente, você terá uma base de usuários grande e diversificada para selecionar, então escolha os membros do grupo focal com cuidado. Inclua usuários que tenham usado versões anteriores ou produtos semelhantes ao que você está implementando. Escolha um grupo de usuários do mesmo tipo (e realize vários grupos focais para diferentes classes de usuários) ou selecione um grupo que represente todo o espectro de classes de usuários, garantindo que todos estejam igualmente representados.
+
+Os grupos focais devem ser facilitados. Você precisará mantê-los no tópico, mas sem influenciar as opiniões expressas. Pode ser útil gravar a sessão para que você possa voltar e ouvir atentamente os comentários. Não espere análises quantitativas de grupos focais, mas sim muito feedback subjetivo que pode ser avaliado e priorizado à medida que os requisitos são desenvolvidos. Sessões de elicitação com grupos focais se beneficiam de muitas das mesmas dicas descritas anteriormente para workshops. Participantes de grupos focais normalmente não têm autoridade de tomada de decisão para os requisitos.
 
 ## Como utilizar esta lista de verificação
 
@@ -265,3 +378,5 @@ WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Pre
 | `1.6`  | 03/05/2025 | Adição da lista de verificação do Glossário e adição dos títulos nas tabelas | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Yzabella Miranda](https://github.com/redjsun)  |
 | `1.7`  | 03/05/2025 | Adição da lista de verificação do First Thing First | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Yzabella Miranda](https://github.com/redjsun)  |
 | `1.8`  | 04/05/2025 | Adição da lista de verificação do Questionário | [Kaleb Macedo](https://github.com/kalebmacedo) | [Yzabella Miranda](https://github.com/redjsun)  |
+| `1.9`  | 04/05/2025 | Adição da lista de verificação do Grupo Focal | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
+| `2.0`  | 04/05/2025 | Adicionando a tabela de verificação introspecção | [Lucas Alves](https://github.com/LucasAlves71) | [Kaleb Macedo](https://github.com/kalebmacedo |
