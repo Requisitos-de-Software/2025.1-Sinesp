@@ -187,7 +187,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ---
 
-## Lista de Verificação – Técnica: Glossário
+## Lista de Verificação –  Glossário
 
 <p align="center">Tabela 9 – Lista de Verificação do Peril de Usuário</p>
 
