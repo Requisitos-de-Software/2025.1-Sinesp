@@ -101,6 +101,9 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 
 ---
 
+
+---
+
 ## Lista de Verificação - Personas - (Tabela 5)
 
 Interaction Design: Beyond Human-Computer Interaction
@@ -147,7 +150,22 @@ Interaction Design: Beyond Human-Computer Interaction
 
 ---
 
+## Lista de Verificação - Grupo Focal - (Tabela 7)
 
+| ID | Item| Autor    | Revisor  | Status               | 
+|----|----------|----------|----------|----------------------|
+| 1  | O objetivo da reunião está claro para todos os participantes? | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox"> Conforme |
+| 2  | A reunião foi realizada com representantes dos usuários? | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox"> Conforme |
+| 3  | Foi definida uma pauta com os principais temas da discussão? | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox"> Conforme |
+| 4  | O facilitador conduziu a sessão de forma neutra e produtiva? | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox"> Conforme |
+| 5  | Os participantes foram incentivados a dar suas opiniões livremente? | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox"> Conforme |
+| 6  | A sessão foi gravada ou registrada por alguém para garantir que nada fosse perdido? | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox"> Conforme |
+| 7  | Foi preparado algum material de apoio, como protótipos ou exemplos, para facilitar a discussão? | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox"> Conforme |
+| 8  | Os resultados da reunião serão compartilhados com os envolvidos para revisão e complementação? | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox"> Conforme |
+
+<font size="3"><p style="text-align: center">Fonte: [Matheus de Alcântara](https://github.com/matheusdealcantara).</p></font>
+
+---
 
 ## Referências
 - Utilizando a lista de verificação da entrega 2 presente neste projeto.
@@ -156,3 +174,4 @@ Interaction Design: Beyond Human-Computer Interaction
 | Versão | Data          | Descrição                          | Autor(es)     |  Revisor(es)  |
 | ------ | ------------- | ---------------------------------- | ------------- | ------------- |
 | `1.0`  |  03/05/2025 |  Colocando as tabelas de 1 a 6 no arquivo | [Isaque Camargos](https://github.com/isaqzin)  | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
+| `1.1`  |  04/05/2025 |  Colocando a tabela de 7 (grupo focal) no documento | [Matheus de Alcântara](https://github.com/matheusdealcantara)  | [Isaque Camargos](https://github.com/isaqzin) |
