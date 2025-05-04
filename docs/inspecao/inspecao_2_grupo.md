@@ -185,6 +185,22 @@ Interaction Design: Beyond Human-Computer Interaction
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 
 ---
+## Lista de Verificação – Three Level Scale - Tabela (11)
+
+
+| ID | Item| Autor    | Revisor  | Status               | 
+|----|----------|----------|----------|----------------------|
+| 1  | Verificar se todos os requisitos foram listados em três categorias.                                                       | [Yzabella Miranda](https://github.com/redjsun)      |[Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB)  |<input type="checkbox"> Conforme|
+| 2  | Confirmar se a prioridade foi extabelecida por uma tabela de importância x urgência                                           | [Yzabella Miranda](https://github.com/redjsun)      |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB)|<input type="checkbox"> Conforme|
+| 3  | Verificar se existe uma priorização pra cada requisito.                              | [Yzabella Miranda](https://github.com/redjsun)      |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB)   |<input type="checkbox"> Conforme|
+| 4  | Confirmar se as partes interessadas concordaram na prioritização da escala de importância x urgência                      | [Yzabella Miranda](https://github.com/redjsun)      |        [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB)       |<input type="checkbox"> Conforme|
+| 5  | As prioridades altas são importantes e urgentes?   | [Yzabella Miranda](https://github.com/redjsun)      |       [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB)   |<input type="checkbox"> Conforme|
+| 6  | As prioridades médias são importante, mas não são urgentes?  | [Yzabella Miranda](https://github.com/redjsun)      |    [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB)  |<input type="checkbox"> Conforme|
+| 7  |    As prioridades baixas não são importantes e urgentes?           | [Yzabella Miranda](https://github.com/redjsun)      |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) |<input type="checkbox"> Conforme|
+| 8  |    O número de altas está elevado?      | [Yzabella Miranda](https://github.com/redjsun)      |     [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB)       |<input type="checkbox"> Conforme|
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/redjsun">Yzabella Miranda</a></p>
+---
 
 ## Referências
 - Utilizando a lista de verificação da entrega 2 presente neste projeto.
@@ -195,3 +211,4 @@ Interaction Design: Beyond Human-Computer Interaction
 | `1.0`  |  03/05/2025 |  Colocando as tabelas de 1 a 6 no arquivo | [Isaque Camargos](https://github.com/isaqzin)  | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
 | `1.1`  |  04/05/2025 |  Colocando a tabela de 7 (grupo focal) no documento | [Matheus de Alcântara](https://github.com/matheusdealcantara)  | [Isaque Camargos](https://github.com/isaqzin) |
 | `1.2`  |  04/05/2025 |  Adicionando a tabela 8 (introspecção) no documento | [Lucas Alves](https://github.com/LucasAlves71)  | [Kaleb de Souza](https://github.com/kalebmacedo) |
+| `1.3`  |  04/05/2025 |  Adicionando a tabela 11 (three level scale) no documento |  [Yzabella Miranda](https://github.com/redjsun)  | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
