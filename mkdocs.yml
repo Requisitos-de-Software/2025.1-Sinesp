@@ -45,6 +45,7 @@ nav:
           - $100: elicitacao/priorizacao/dolares100.md
           - First Thing First: elicitacao/priorizacao/first_thing_first.md
           
+          - Moscow: elicitacao/priorizacao/moscow.md
       - Técnicas:
           - Introspecção: elicitacao/tecnicas/introspeccao.md
           - Entrevista: elicitacao/tecnicas/entrevista.md
