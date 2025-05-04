@@ -43,6 +43,7 @@ nav:
       - Requisios Elicitados: elicitacao/elicitacao.md  
       - Priorização: 
           - $100: elicitacao/priorizacao/dolares100.md
+          - Moscow: elicitacao/priorizacao/moscow.md
       - Técnicas:
           - Introspecção: elicitacao/tecnicas/introspeccao.md
           - Entrevista: elicitacao/tecnicas/entrevista.md
