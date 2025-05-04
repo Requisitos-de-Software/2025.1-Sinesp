@@ -211,3 +211,4 @@ Interaction Design: Beyond Human-Computer Interaction
 | `1.0`  |  03/05/2025 |  Colocando as tabelas de 1 a 6 no arquivo | [Isaque Camargos](https://github.com/isaqzin)  | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
 | `1.1`  |  04/05/2025 |  Colocando a tabela de 7 (grupo focal) no documento | [Matheus de Alcântara](https://github.com/matheusdealcantara)  | [Isaque Camargos](https://github.com/isaqzin) |
 | `1.2`  |  04/05/2025 |  Adicionando a tabela 8 (introspecção) no documento | [Lucas Alves](https://github.com/LucasAlves71)  | [Kaleb de Souza](https://github.com/kalebmacedo) |
+| `1.3`  |  04/05/2025 |  Adicionando a tabela 11 (three level scale) no documento |  [Yzabella Miranda](https://github.com/redjsun)  | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
