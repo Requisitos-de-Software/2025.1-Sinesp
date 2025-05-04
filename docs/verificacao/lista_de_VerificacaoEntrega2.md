@@ -165,11 +165,31 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ---
 
-<font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
+## Lista de Verificação - Moscow 
+
+<p align="center">Tabela 8 – Lista de Verificação do Questionário</p>
+
+
+| ID  | Item de Verificação                                                                                          | Autor     | Referência                                                                                                                       |
+|-----|--------------------------------------------------------------------------------------------------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------|
+| 1  | 	As personas foram devidamente consideradas na priorização (motivações, frustrações, objetivos, dispositivo de acesso)?                     | [Kaleb Macedo](https://github.com/kalebmacedo)     | <br><img src="..\..\assets\lventrega2\moscow-milene.png" alt="Foto Kaleb" width="150"/><br><a href="https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20neg%C3%B3cio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf">Livro Engenharia de Requisitos</a></div>                                                                                                                  |
+| 2  | Cada requisito funcional foi classificado com base na sua importância para a persona primária e secundária?               | [Kaleb Macedo](https://github.com/kalebmacedo)       | <br><img src="..\..\assets\lventrega2\moscow-milene.png" alt="Foto Kaleb" width="150"/><br><a href="https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20neg%C3%B3cio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf">Livro Engenharia de Requisitos</a></div>                         |
+| 3  | A priorização levou em conta os critérios de frequência de uso e criticidade da funcionalidade?                           | [Kaleb Macedo](https://github.com/kalebmacedo)  | <br><img src="..\..\assets\lventrega2\moscow-milene.png" alt="Foto Kaleb" width="150"/><br><a href="https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20neg%C3%B3cio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf">Livro Engenharia de Requisitos</a></div>               |
+| 4  | 	Requisitos do tipo **Must** foram claramente identificados e estão implementados ou planejados com prioridade máxima?                                        | [Kaleb Macedo](https://github.com/kalebmacedo)   | <br><img src="..\..\assets\lventrega2\moscow-milene.png" alt="Foto Kaleb" width="150"/><br><a href="https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20neg%C3%B3cio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf">Livro Engenharia de Requisitos</a></div>                                                  |
+| 5  | Requisitos do tipo **Should** e **Could** foram registrados com justificativas para priorização em fases futuras?                       | [Kaleb Macedo](https://github.com/kalebmacedo)    | <br><img src="..\..\assets\lventrega2\moscow-milene.png" alt="Foto Kaleb" width="150"/><br><a href="https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20neg%C3%B3cio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf">Livro Engenharia de Requisitos</a></div>                           |
+| 6  | Os requisitos **Won’t** foram definidos com clareza, indicando que não serão tratados nesta versão do sistema?                               | [Kaleb Macedo](https://github.com/kalebmacedo)    | <br><img src="..\..\assets\lventrega2\moscow-milene.png" alt="Foto Kaleb" width="150"/><br><a href="https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20neg%C3%B3cio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf">Livro Engenharia de Requisitos</a></div>                           |
+| 7  | 	A tabela final de MoSCoW está organizada de forma legível, por tipo de requisito (Funcional / Não Funcional) e por persona?                                                                   | [Kaleb Macedo](https://github.com/kalebmacedo)   | <br><img src="..\..\assets\lventrega2\moscow-milene.png" alt="Foto Kaleb" width="150"/><br><a href="https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20neg%C3%B3cio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf">Livro Engenharia de Requisitos</a></div>                           |
+| 8  | Há documentação ou registro da participação dos stakeholders ou personas no processo de priorização?                                                               | [Kaleb Macedo](https://github.com/kalebmacedo)    |  <br><img src="..\..\assets\lventrega2\moscow-milene.png" alt="Foto Kaleb" width="150"/><br><a href="https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20neg%C3%B3cio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf">Livro Engenharia de Requisitos</a></div>                          |
+| 9  | A lista de requisitos priorizados será utilizada como base para o planejamento incremental de entregas e releases?                                               | [Kaleb Macedo](https://github.com/kalebmacedo)     | <br><img src="..\..\assets\lventrega2\moscow-milene.png" alt="Foto Kaleb" width="150"/><br><a href="https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20neg%C3%B3cio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf">Livro Engenharia de Requisitos</a></div>                           |
+
+
+<font size="3"><p style="text-align: center">Fonte: [Kaleb Macedo](https://github.com/kalebmacedo).</p></font>
+
+---
 
 ## Lista de Verificação – Técnica: Glossário
 
-<p align="center">Tabela 8 – Lista de Verificação do Peril de Usuário</p>
+<p align="center">Tabela 9 – Lista de Verificação do Peril de Usuário</p>
 
 | ID | Descrição da verificação                                                                                                                                      | Participante                                                                                     | Evidência                                                                                                                                                                                                                                   |
 |----|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -253,7 +273,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ## Lista de Verificação - $100 
 
-<p align="center">Tabela 9 – Lista de Verificação 100 Dólares</p>
+<p align="center">Tabela 10 – Lista de Verificação 100 Dólares</p>
 
 | ID | Item de Verificação | Autor | Referência |
 |----|----------------------|-------|------------|
@@ -270,7 +290,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 ## Lista de Verificação – Técnica: First Things First
 
-<p align="center">Tabela 10 – Lista de Verificação First Thing First </p>
+<p align="center">Tabela 11 – Lista de Verificação First Thing First </p>
 
 | ID | Descrição da verificação                                                                                                                                             | Participante                                             | Evidência                                                                                                                                                                                      |
 |----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -398,3 +418,5 @@ WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Pre
 | `1.9`  | 04/05/2025 | Adição da lista de verificação do Grupo Focal | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
 | `2.0`  | 04/05/2025 | Adicionando a tabela de verificação introspecção | [Lucas Alves](https://github.com/LucasAlves71) | [Kaleb Macedo](https://github.com/kalebmacedo) |
 | `2.1`  | 04/05/2025 | Adicionando a tabela de verificação da técnica de Three Level Scale | [Yzabella Miranda](https://github.com/redjsun) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
+| `2.2`  | 04/05/2025 | Adição da tabela de verificação do Moscow | [Kaleb Macedo](https://github.com/kalebmacedo) | [Lucas Alves](https://github.com/LucasAlves71) |
+
