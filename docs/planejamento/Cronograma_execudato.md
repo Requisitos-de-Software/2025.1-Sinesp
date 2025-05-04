@@ -58,20 +58,21 @@ As tabelas foram elaboradas inicialmente no **Microsoft Excel** e convertidas pa
 
 | Título | Autor(es) | Revisor(es) | Data de Entrega Planejada | Data de Entrega Executada |
 |--------|-----------|-------------|----------------------------|----------------------------|
-| Correções no projeto conforme apontado na apresentação anterior | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves | Matheus de Alcântara | 22/04 - 18/04 | - |
-| Criação de personas e perfis de usuário | Isaque Camargos, Yzabella Miranda, Matheus de Alcântara | Lucas Alves | 19/04 - 02/05 | - |
-| Priorização dos requisitos: "First Thing First" e "Quality Function Deployment" | Ana Luiza Soares, Othavio Bolzan, Matheus de Alcântara, Yzabella Miranda | Isaque Camargos | 19/04 - 02/05 | - |
-| Priorização dos requisitos: "MoSCoW" e "100 Dólares" | Isaque Camargos, Kaleb Macedo, Lucas Alves | Othavio Bolzan | 19/04 - 02/05 | - |
-| Elicitação de requisitos: Introspecção | Othavio Bolzan, Lucas Alves | Kaleb Macedo | 19/04 - 02/05 | - |
-| Elicitação de requisitos: Grupo Focal | Matheus de Alcântara, Yzabella Miranda | Othavio Bolzan | 19/04 - 02/05 | - |
-| Elicitação de requisitos: Questionário | Lucas Alves, Othavio Bolzan, Kaleb Macedo | Yzabella Miranda | 19/04 - 02/05 | - |
-| Elicitação de requisitos: Entrevista | Ana Luiza Soares, Isaque Camargos | Yzabella Miranda | 19/04 - 02/05 | - |
-| Elicitação de requisitos: Glossário | Ana Luiza Soares, Yzabella Miranda | Isaque Camargos | 19/04 - 02/05 | - |
-| Criação da lista de verificação | Kaleb Macedo, Lucas Alves | Ana Luiza Soares | 19/04 - 02/05 | - |
-| Gravação da inspeção do grupo | Isaque Camargos, Ana Luiza Soares | Matheus de Alcântara | 04/05 - 04/05 | - |
-| Gravação da Apresentação | Isaque Camargos | Ana Luiza Soares | 04/05 - 04/05 | - |
-| Envio da entrega | Yzabella Miranda | Kaleb Macedo | 04/05 - 04/05 | - |
-| Gravação da Inspeção Grupo + 1 | Ana Luiza Soares | Othavio Bolzan | 05/05 - 05/05 | - |
+| Correções no projeto conforme apontado na apresentação anterior | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves | Matheus de Alcântara | 22/04 - 18/04 | 21/04 |
+| Criação de personas | Lucas Alves | Isaque Camargos | 19/04 - 02/05 | 03/05  |
+| Criação de  perfis de usuário | Isaque Camargos | Matheus de Alcântara | 19/04 - 02/05 | 02/05 |
+| Priorização dos requisitos: "First Thing First" e "Three level scale" | Ana Luiza Soares, Othavio Bolzan, Matheus de Alcântara, Yzabella Miranda | Isaque Camargos e Kaleb Macedo | 19/04 - 02/05 | 04/05 |
+| Priorização dos requisitos: "MoSCoW" e "100 Dólares" | Isaque Camargos, Kaleb Macedo, Lucas Alves | Othavio Bolzan| 19/04 - 02/05 | 04/05 |
+| Elicitação de requisitos: Introspecção | Othavio Bolzan, Lucas Alves | Kaleb Macedo | 19/04 - 02/05 | 23/03 |
+| Elicitação de requisitos: Grupo Focal | Matheus de Alcântara, Yzabella Miranda | Othavio Bolzan | 19/04 - 02/05 | 03/05 |
+| Elicitação de requisitos: Questionário | Lucas Alves, Othavio Bolzan, Kaleb Macedo | Yzabella Miranda | 19/04 - 02/05 | 03/05 |
+| Elicitação de requisitos: Entrevista | Ana Luiza Soares, Isaque Camargos | Yzabella Miranda | 19/04 - 02/05 | 03/05 |
+| Elicitação de requisitos: Glossário | Ana Luiza Soares, Yzabella Miranda | Isaque Camargos | 19/04 - 02/05 | 02/05 |
+| Criação da lista de verificação | Kaleb Macedo, Lucas Alves | Ana Luiza Soares | 19/04 - 02/05 | 05/05|
+| Gravação da inspeção do grupo | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves | Matheus de Alcântara | 04/05 - 04/05 | 05/05 |
+| Gravação da Apresentação | Isaque Camargos | Ana Luiza Soares | 04/05 - 04/05 | 05/05|
+| Envio da entrega | Yzabella Miranda | Kaleb Macedo | 04/05 - 04/05 | 05/05 |
+| Gravação da Inspeção Grupo + 1 | Ana Luiza Soares | Othavio Bolzan | 05/05 - 05/05 |  |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 

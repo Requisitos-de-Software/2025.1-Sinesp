@@ -87,8 +87,9 @@ Em **18 de abril de 2025**, o documento passou por atualização para maior deta
 | Título | Autor(es) | Revisor | Data de início | Data do fim | Data para revisão |
 |---|---|---|---|---|---|
 | Correções no projeto conforme apontado na apresentação anterior | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves | Matheus de Alcântara | 22/04/2025 | 18/04/2025 | 18/04/2025 - 19/04/2025 |
-| Criação de personas e perfis de usuário | Isaque Camargos, Yzabella Miranda, Matheus de Alcântara | Lucas Alves | 19/04/2025 | 02/05/2025 | 02/05/2025 - 03/05/2025 |
-| Priorização dos requisitos: "First Thing First" e "Quality Function Deployment" | Ana Luiza Soares, Othavio Bolzan, Matheus de Alcântara, Yzabella Miranda | Isaque Camargos | 19/04/2025 | 02/05/2025 | 02/05/2025 - 03/05/2025 |
+| Criação de personas  | Lucas Alves| Isaque Camargos | 19/04/2025 | 02/05/2025 | 02/05/2025 - 03/05/2025 |
+| Criação de perfis de usuário | Isaque Camargos | Matheus de Alcântara | 19/04/2025 | 02/05/2025 | 02/05/2025 - 03/05/2025 |
+| Priorização dos requisitos: "First Thing First" e "Three level scale" | Ana Luiza Soares, Othavio Bolzan, Matheus de Alcântara, Yzabella Miranda | Isaque Camargos | 19/04/2025 | 02/05/2025 | 02/05/2025 - 03/05/2025 |
 | Priorização dos requisitos: "MoSCoW" e "100 Dólares" | Isaque Camargos, Kaleb Macedo, Lucas Alves | Othavio Bolzan | 19/04/2025 | 02/05/2025 | 02/05/2025 - 03/05/2025 |
 | Elicitação de requisitos: Introspecção | Othavio Bolzan, Lucas Alves | Kaleb Macedo | 19/04/2025 | 02/05/2025 | 02/05/2025 - 03/05/2025 |
 | Elicitação de requisitos: Grupo Focal | Matheus de Alcântara, Yzabella Miranda | Othavio Bolzan | 19/04/2025 | 02/05/2025 | 02/05/2025 - 03/05/2025 |

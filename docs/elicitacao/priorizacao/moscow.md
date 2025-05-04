@@ -139,5 +139,5 @@ Requisitos que não serão implementados nesta fase do projeto.
 | 1.0    | 02/05/2025 | Criação do documento com introdução, objetivos, metodologia e estrutura de priorização | [Lucas Alves](https://github.com/LucasAlves71) e [Kaleb Macedo](https://github.com/kalebmacedo) | [Isaque Camargos](https://github.com/isaqzin) |
 | 1.1    | 04/05/2025 | Adição dos requisitos e suas classificações | [Lucas Alves](https://github.com/LucasAlves71) e [Kaleb Macedo](https://github.com/kalebmacedo) | [Isaque Camargos](https://github.com/isaqzin) |
 | 1.2    | 04/05/2025 | Adição da gravação do Moscow | [Kaleb Macedo](https://github.com/kalebmacedo) e[Lucas Alves](https://github.com/LucasAlves71)  | [Isaque Camargos](https://github.com/isaqzin) |
-| 1.3    | 04/05/2025 | Mínima alteração na documentação do Moscow | [Kaleb Macedo](https://github.com/kalebmacedo) e[Lucas Alves](https://github.com/LucasAlves71)  | [Lucas Alves](https://github.com/LucasAlves71) |
-| 1.4    | 04/05/2025 | Adição da gravação do usuário real | [Kaleb Macedo](https://github.com/kalebmacedo)  | [Lucas Alves](https://github.com/LucasAlves71) |
+| 1.3    | 04/05/2025 | Mínima alteração na documentação do Moscow | [Kaleb Macedo](https://github.com/kalebmacedo) e[Lucas Alves](https://github.com/LucasAlves71)  | [Othavio Bolzan](https://github.com/bolzanMGB) |
+| 1.4    | 04/05/2025 | Adição da gravação do usuário real | [Kaleb Macedo](https://github.com/kalebmacedo)  | [Othavio Bolzan](https://github.com/bolzanMGB) |
