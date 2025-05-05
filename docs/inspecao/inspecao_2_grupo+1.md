@@ -298,7 +298,7 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 
 Segue abaixo a gravação da inspeção da entrega 2, realizada no dia **05 de maio de 2025**:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AGsMhUT-jzQ?si=OvbhM_aWgdWegJ4V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2PlhRQCcmRY?si=NYR0tk4aFjkJfNbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Referências
@@ -309,3 +309,4 @@ Segue abaixo a gravação da inspeção da entrega 2, realizada no dia **05 de m
 | ------ | ------------- | ---------------------------------- | ------------- | ------------- |
 | `1.0`  |  05/05/2025 |  Criação do arquivo | [Lucas Alves](https://github.com/LucasAlves71)  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) |
 | `1.1`  |  05/05/2025 |  Preenchendo a lista de inspeção | [Lucas Alves](https://github.com/LucasAlves71)  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) |
+| `1.2`  |  05/05/2025 |  Adicionando o vídeo | [Isaque Camargos](https://github.com/isaqzin)  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Lucas Alves](https://github.com/LucasAlves71) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) |

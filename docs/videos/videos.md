@@ -37,6 +37,10 @@ Os vídeos estão armazenados como **não listados no YouTube** e podem ser disp
 ### Entrega 01  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JjRFmRJNH2E" frameborder="0" allowfullscreen></iframe>
 
+### Entrega 02 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2PlhRQCcmRY?si=NYR0tk4aFjkJfNbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ## Histórico de Versões
 
