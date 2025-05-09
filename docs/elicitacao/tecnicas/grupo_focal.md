@@ -1,23 +1,83 @@
-# Técnica de Elicitação: Grupo Focal
+# Técnica de Elicitação: Grupo Focalo
 
 ## Introdução
 
-O grupo focal é uma técnica de elicitação de requisitos que consiste em uma discussão estruturada com um grupo de usuários ou stakeholders, mediada por um facilitador, com o objetivo de explorar percepções, opiniões e sugestões em relação a um sistema ou produto.
+O Grupo Focal é uma técnica de elicitação de requisitos que consiste em uma discussão estruturada com um grupo de usuários ou stakeholders, mediada por um facilitador, com o objetivo de explorar percepções, opiniões e sugestões em relação a um sistema ou produto. ()
+
+
+## Tabela dos integrantes do grupo
+
+A Tabela 1 contêm todos os integrantes da equipe que participaram da técnica de elicitação Grupo Focal e o que cada integrante desenvolveu durante essa etapa.
+
+<p align="center">Tabela 1: Integrantes do grupo</p>
+
+<div align="center">
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Grupo Focal</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Matheus de Alcântara</td>
+                <td>Desenvolvimento do documento da elicitação, com os requisitos elicitados e a gravação da reunião</td>
+            </tr>
+            <tr>
+                <td>Yzabella Miranda Pimenta</td>
+                <td>Desenvolvimento do roteiro da reunião e gravação com os usuários reais</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
+
+
+## Usuários reais envolvidos
+
+A Tabela 2 contêm as informações dos usuários participantes do Grupo Focal, com o nome, informações sobre a gravação realizada, o link para a autorização da gravação e sua postagem no Youtube de forma não listada.
+
+<p align="center">Tabela 2: Usuários reais</p>
+
+<div align="center">
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Data</th>
+                <th>Hora</th>
+                <th>Duração da etapa</th>
+                <th>Autorização da gravação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Marcos Goulart</td>
+                <td>01/05/2025</td>
+                <td>21:05:00</td>
+                <td>6m 44s</td>
+                <td><a href="../assets/termosGrupoFocal.pdf" target="_blank">Termo de consentimento</a></td>
+            </tr>
+            <tr>
+                <td>Victor Schmidt</td>
+                <td>01/05/2025</td>
+                <td>21:05:00</td>
+                <td>6m 44s</td>
+                <td><a href="../assets/termosGrupoFocal.pdf" target="_blank">Termo de consentimento</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
 
 ## Metodologia
 
-A técnica do grupo focal envolve reunir de forma presencial ou remota um grupo de participantes representativos do público-alvo. Um moderador conduz a conversa com base em perguntas previamente preparadas, promovendo o debate entre os integrantes. Os dados coletados nessa interação ajudam a identificar necessidades, problemas e ideias valiosas para a definição de requisitos do sistema. Foi realizada pela integrante <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a> com os usuários Victor Schmidt e Marcos Goulart, a Tabela 1 apresenta os dados dos participantes da reunião. 
+A técnica do grupo focal envolve reunir de forma presencial ou remota um grupo de participantes representativos do público-alvo. Um moderador conduz a conversa com base em perguntas previamente preparadas, promovendo o debate entre os integrantes. Os dados coletados nessa interação ajudam a identificar necessidades, problemas e ideias valiosas para a definição de requisitos do sistema (WIEGERS, Karl;
 
-## Dados da Reunião
-
-<p align="center">Tabela 1: Participantes</p>
-
-| Participantes     | Idade | Frequência de Uso do App | Perfil de Uso                       |
-|-------------------|-------|---------------------------|-------------------------------------|
-| Marcos Goulart            | 20    | A cada 2 a 3 meses        | Usa para exames e consultas         |
-| Victor Schmidt            | 20    | 1x por semana             | Novo usuário, ainda explorando      |
-
-<p align="center">Autor: <b><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></b></p>
+ BEATTY, Joy. Software Requirements. 3rd Edition. Microsoft Press, 2013.). Foi realizada pela integrante <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a> com os usuários Victor Schmidt e Marcos Goulart, a Tabela 1 apresenta os dados dos participantes da reunião. 
 
 ## Discussão em Seções
 
@@ -137,14 +197,12 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
 
 WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3rd Edition. Microsoft Press, 2013. Disponível em: <a href="https://olivroqueaprende.com/WDK/Software_Requirements_3rd_Edition.pdf" target="_blank">https://olivroqueaprende.com/WDK/Software_Requirements_3rd_Edition.pdf</a>. Acesso em: 01 de maio 2025.
 
-<img src="../assets/img/grupo_focal_1.png">
-<img src="../assets/img/grupo_focal_2.png">
-
 ## Histórico de versões
 
 | Versão | Data          | Descrição                          | Autor(es)     |  Revisor(es)  |
 | ------ | ------------- | ---------------------------------- | ------------- | ------------- |
 | `1.0`  |  01/05/2025 |  Criação inicial do documento com as tabelas dos requisitos elicitados e seus tipos. A participante <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a> realizou a reunião. | <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a>  | <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a> |
 | `1.1`  | 02/05/2025  | Criação da lista de verificação do artefato e atualização dos links para criar uma nova guia no navegador para melhor usabilidade | <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a> | <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a> |
-| `1.2`  | 02/05/2025  | Ajuste de tabela, link de imagens e enumeração de requisios funcionais e não funcionais | <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a> | <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a> |
+| `1.2`  | 02/05/2025  | Ajuste de tabela, link de imagens e enumeração de requisitos funcionais e não funcionais | <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a> | <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a> |
 | `1.3`  | 03/05/2025  | Adicionar vídeo da elicitação integrado ao documento | <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a> | <a href="https://github.com/bolzanMGB" target="_blank">Othabio Bolzan</a> |
+| `1.4`  | 09/05/2025  | Refatorações após correções sugeridas: Tabela com os integrantes do grupo quer participaram, informações adicionais na tabela dos usuários, metodologia mais detalhada e com referência, também adicionado o link com a autorização de gravação. | <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a> | <a href="https://github.com/bolzanMGB" target="_blank">Yzabella Miranda</a> |
