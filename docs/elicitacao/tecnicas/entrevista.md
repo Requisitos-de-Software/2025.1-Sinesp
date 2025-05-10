@@ -2,15 +2,14 @@
 
 ## Introdução
 
-De acordo com Vazquez e Simões (Engenharia de Requisitos), **entrevista** é uma forma de diálogo estruturado em que o entrevistador busca respostas para questões previamente planejadas, visando obter informações relevantes em um ambiente de confiança e escuta ativa.  
-Como parte do processo de entendimento do sistema **GDF-Saúde**, foram realizadas duas entrevistas com usuários do aplicativo, com o objetivo de coletar suas expectativas, necessidades e desafios no uso de soluções de saúde digital.
+De acordo com Vazquez e Simões (2016), a **entrevista** é um diálogo estruturado em que o entrevistador busca respostas para questões previamente planejadas, visando obter informações relevantes em um ambiente de confiança e escuta ativa.  
+Como parte do entendimento do sistema **GDF-Saúde**, foram realizadas duas entrevistas com usuários do aplicativo, com o objetivo de coletar expectativas, necessidades e desafios no uso de soluções de saúde digital.
 
 ## Integrantes do Grupo
 
-Na tabela 1 contêm todos os integrantes da equipe que participaram do desenvolvimento da elicitção por meio da entrevista e o que cada um desenvolveu durante o projeto.
+Na Tabela 1 estão todos os integrantes da equipe que participaram desta etapa de **entrevista** e as atividades desenvolvidas por cada um.
 
-<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
-
+<p align="center">Tabela 1 – Integrantes do grupo envolvidos</p>
 <div align="center">
     <table>
         <thead>
@@ -21,27 +20,27 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram do desenvolv
         </thead>
         <tbody>
             <tr>
-                <td>Ana Luiza Soares</td>
-                <td>Ajudou no desenvolvimento das perguntas, criou o documento da autorização da gravação, realizou uma entrevista com usuário real, transcreveu as respostas da entrevista para o mkdocs, colocou os vídeos no youtube de forma não listada e ajudou na elicitação de requisitos</td>
+                <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+                <td>
+                    Ajudou no desenvolvimento das perguntas; criou o documento de autorização da gravação; realizou entrevista; transcreveu respostas; publicou vídeos no YouTube (não listados); auxiliou na elicitação de requisitos.
+                </td>
             </tr>
             <tr>
-                <td>Isaque Camargos</td>
-                <td>Ajudou no desenvolvimento das perguntas, realizou uma entrevista com um usuário real, ajudou na elicitação de requisitos e estruturou a documentação final da entrevista</td>
+                <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+                <td>
+                    Auxiliou no desenvolvimento das perguntas; realizou entrevista; apoiou a elicitação de requisitos; estruturou a documentação final da entrevista.
+                </td>
             </tr>
         </tbody>
     </table>
 </div>
-
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
-
 
 ## Usuários Reais Envolvidos
 
-Na tabela 2 contêm as informações dos usuários participantes desta etapa de < nome da etapa >, ela contêm o nome e informações sobre a gravação que foi feita, incluindo o link para a autorização da gravação e sua postagem no Youtube de forma não listada. 
+Na Tabela 2 estão os dados dos usuários participantes desta etapa de **entrevista**, incluindo link para autorização de gravação.
 
-<p align="center">Tabela 2 - Usuários envolvidos</p>
-
-
+<p align="center">Tabela 2 – Usuários envolvidos</p>
 <div align="center">
     <table>
         <thead>
@@ -50,308 +49,271 @@ Na tabela 2 contêm as informações dos usuários participantes desta etapa de 
                 <th>Data</th>
                 <th>Hora</th>
                 <th>Local</th>
-                <th>Duração da etapa</th>
-                <th>Autorização da gravação</th>
+                <th>Duração</th>
+                <th>Link de autorização</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Gabriel Celestino</td>
-                <td>30/04/2025</td>
-                <td>13:10</td>
-                <td>Faculdade de Ciência e Tecnologia em Engenharia (FCTE)</td>
-                <td>7:46</td>
-                <td>-</td>
+                <tr>
+                    <td>Gabriel Celestino</td>
+                    <td>30/04/2025</td>
+                    <td>13:10</td>
+                    <td>Faculdade de Ciências e Tecnologias em Engenharia – FCTE/UnB</td>
+                    <td>7:46</td>
+                    <td>termos de autorização disponíveis <a href="../assets/termosentrevista.pdf">aqui</a></td>
+                </tr>
+            </tr>
+            <tr>
+                <td>Marla dos Santos Soares</td>
+                <td>01/05/2025</td>
+                <td>15:20</td>
+                <td>Residência da entrevistada</td>
+                <td>13:03</td>
+                <td> termos de autorização disponíveis <a href="../assets/termosentrevista.pdf">aqui</a></td>
             </tr>
         </tbody>
     </table>
 </div>
-
+<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
 ## Metodologia
 
-A elicitação de requisitos foi realizada individualmente pelos analistas [Ana Luiza](https://github.com/Ana-Luiza-SC) e [Isaque Camargos](https://github.com/isaqzin), seguindo roteiro baseado na técnica **5W + 2H**:
+A elicitação de requisitos foi conduzida pelos analistas [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Isaque Camargos](https://github.com/isaqzin) em quatro fases: preparação, execução da entrevista, análise e documentação.
 
-- **Roteiro flexível**: as perguntas puderam ser reordenadas conforme o diálogo.  
-- **Transcrição e reformulação**: as respostas foram transcritas e reformuladas para facilitar a extração de requisitos, mantendo-se 100 % de acordo com a metodologia.  
-- **Cronograma**: cada analista conduziu sua própria sessão conforme o cronograma original, que está na tabela 1.
-- **Requisitos**: os requisitos extraídos estão apresentados na tabela 2.
+1. **Preparação**  
 
-### Cronograma
+   - **Definição do roteiro**: com base na técnica **5W + 2H**, elaboramos um conjunto de 32 perguntas abertas e fechadas, cobrindo aspectos de contexto de uso, funcionalidades essenciais, limitações e expectativas dos usuários.  
+   - **Validação interna**: o roteiro foi revisado pelos integrantes responsáveis, garantindo clareza, objetividade e adequação ao público-alvo.  
+   - **Consentimento informado**: foi elaborado um termo de autorização de gravação, enviado aos participantes com antecedência, garantindo conformidade ética e autorização para uso de imagem e áudio.
+
+2. **Execução das Entrevistas**  
+
+   - **Ambiente**: realizadas presencialmente em locais escolhidos pelos usuários (campus da UnB e residência) para maior conforto e segurança.  
+   - **Registro audiovisual**: cada sessão foi gravada em vídeo e áudio. Os arquivos foram enviados ao canal de um dos integrantes e publicado de forma não listada no Youtube.  
+   - **Roteiro flexível**: embora o conjunto de perguntas tenha sido pré-estabelecido, a ordem pôde ser adaptada conforme o fluxo da conversa, permitindo exploração de respostas relevantes que surgissem espontaneamente.  
+   - **Escuta ativa**: durante a entrevista, os analistas adotaram postura de escuta ativa, incentivando o participante a detalhar experiências e expor dor e ganhos percebidos.
+
+3. **Transcrição e Tratamento**  
+
+    - **Transcrição resumida**: os vídeos foram parcialmente transcritos e resumidos, de forma a manter apenas os trechos essenciais e garantir que qualquer leitor compreenda facilmente as respostas.  
+
+4. **Extração e Organização dos Requisitos**  
+
+   - **Classificação inicial**: cada trecho relevante foi enquadrado como Requisito Funcional (RF) ou Requisito Não Funcional (RNF) e recebeu um código ENxx para rastreabilidade.  
+   - **Revisão de consistência**: os requisitos elicitados foram comparados entre as duas entrevistas para verificar se tinha duplicidade.
+
+5. **Documentação Final**  
+
+   - Todos os artefatos (roteiro, transcrições, vídeos, tabela de requisitos) foram consolidados em um repositório GitHub e publicados via GitHub Pages.  
+   - A metodologia, incluindo termo de consentimento e roteiro, está disponível para auditoria e replicação em futuras fases do projeto.
 
 
-<p align="center">Tabela 1: Participantes da técnica de elicitação entrevista</p>
+## Resultados
 
-| Entrevistador                          | Entrevistado|Data                   |  Hora | Local |Duração|
-| ---------------------------------------|------------ |------------------------ | ------ |-------|----------|
-| [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)   |  Gabriel celestino| 30/04/2025 |  13:10 | Faculdade de Ciência e Tecnologia em Engenharia (FCTE)| 7:46 |
-| [Isaque Camargos](https://github.com/isaqzin) | Marla Soares | 01/05/2025 |   15:20 | Casa da Entrevistada | 13:03 |
+### Roteiro de Entrevista
 
-<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
-
-### Gravações  
-Os Termos que nos permitem utilizar da imagem dos entrevistados estão disponíveis [aqui.](../assets/termosentrevista.pdf)
-
-A seguir as gravações das entrevistas:
+O roteiro foi elaborado em conjunto por [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Isaque Camargos](https://github.com/isaqzin), fundamentado no livro *Engenharia de requisitos: software orientado ao negócio* (Vazquez & Simões, 2016) e nas questões apresentadas em Your Career Support (Robby, 2022). O documento completo do roteiro está disponível em PDF [aqui](../assets/pergunta_entrevista.pdf).
 
 
+### Gravações
+
+As gravações das entrevistas estão contidas a seguir:
 
 - **Gravação 1** (entrevista de Ana Luiza Soares com Gabriel Celestino): 
 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C75mfZji4R4?si=UPs4nc1OZQUm6h2f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 - **Gravação 2** (entrevista de Isaque Camargos com Marla Soares): 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qHrcIc0aUDg?si=U8IbKgYtdvzBKuxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
+### Perguntas e Respostas Executadas
 
-## Perguntas e respostas executadas:
+As perguntas e respostas realizadas aos participantes estão logo abaixo:
 
-As respostas a seguir foram transcritas por [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) a partir da análise das gravações das entrevistas realizadas com os participantes. Segue as perguntas e respostas:
+<details>
+  <summary>Perguntas 1–10</summary>
 
+1. **Qual é o seu nome completo?**  
+   **Marla:** Marla dos Santos Soares  
+   **Gabriel:** Gabriel Celestino de Almeida  
 
-1. Qual é o seu nome completo?
+2. **Quantos anos você tem?**  
+   **Marla:** 48 anos  
+   **Gabriel:** 19 anos  
 
-    **Marla:** Marla dos Santos Soares;
+3. **Em qual região administrativa você mora?**  
+   **Marla:** Ceilândia, Distrito Federal  
+   **Gabriel:** Ceilândia, Distrito Federal  
 
-    **Gabriel:** Gabriel Celestino de Almeida.
+4. **Com que frequência você abre o GDF-Saúde?**  
+   **Marla:** Uma ou duas vezes por mês  
+   **Gabriel:** Poucas vezes, apenas quando precisa  
 
-2. Quantos anos você tem?
+5. **Você acessa o app por celular, tablet ou computador?**  
+   **Marla:** Pelo celular  
+   **Gabriel:** Celular  
 
-    **Marla:** 48 anos;
+6. **Qual é a sua função ou área de atuação no serviço público?**  
+   **Marla:** Técnica de enfermagem  
+   **Gabriel:** Estudante (dependente)  
 
-    **Gabriel:** 19 anos.
+7. **Quais funções do aplicativo você usa com mais frequência?**  
+   **Marla:** Busca de clínicas por especialidade médica  
+   **Gabriel:** Carteirinha, histórico de exames e consultas  
 
-3. Em qual região administrativa você mora?
+8. **Você já buscou redes credenciadas no app? Como foi essa experiência?**  
+   **Marla:** Boa, mas sente falta de avaliação de clínicas  
+   **Gabriel:** Tranquila  
 
-    **Marla:** Ceilândia, Distrito Federal;
+9. **Você compartilha o app com algum dependente? Como?**  
+   **Marla:** Sim; dependente usa por conta própria  
+   **Gabriel:** Ele é o dependente  
 
-    **Gabriel:**  Ceilândia, Distrito Federal.
+10. **Que tarefas de saúde você ainda faz de forma manual?**  
+    **Marla:** Quase tudo pelo app  
+    **Gabriel:** Entrar em contato direto com clínicas  
+</details>
 
-4. Com que frequência você abre o GDF-Saúde?
+<details>
+  <summary>Perguntas 11–20</summary>
 
-    **Marla:** Uma ou duas vezes por mês;
+11. **Já teve dificuldade para achar algo específico no app?**  
+    **Marla:** Não  
+    **Gabriel:** Não  
 
-    **Gabriel:** Poucas vezes, apenas quando precisa.
+12. **Como prefere receber notícias sobre o plano (app, e-mail, SMS)?**  
+    **Marla:** SMS  
+    **Gabriel:** E-mail e app  
 
-05. Você acessa o app por celular, tablet ou computador?
+13. **Como checa o status de um pedido de exame?**  
+    **Marla:** Clínica autoriza imediatamente, não checa  
+    **Gabriel:** Processo claro e rápido  
 
-    **Marla:** Pelo celular;
-
-    **Gabriel:** Celular.
-
-06. Qual é a sua função ou área de atuação no serviço público?
-
-    **Marla:** Técnica de enfermagem, servidora da área de saúde;
-
-    **Gabriel:** Como é dependente não lembrou qual é a área de atuação do titular do plano, mas ele é estudante. 
-
-07. Quais funções do aplicativo você usa com mais frequência?
-
-    **Marla:** Busca de clínicas por especialidade médica;
-
-    **Gabriel:** Utilizar a carteirinha, ver histórico de aprovação de exames e consultas.
-
-08. Você já buscou redes credenciadas no app? Como foi essa experiência?
-
-    **Marla:** sim, foi boa, mas sente falta de sistema de avaliação das clínicas para pessoas que não tem conhecimento da área da saúde;
-
-    **Gabriel:** Foi tranquilo.
-
-09. Você compartilha o app com algum dependente? Como faz isso hoje?
-
-    **Marla:** Tem uma dependente, mas a dependente utiliza pelo próprio celular;
-
-    **Gabriel:** Ele é o dependente.
-
-10. Que tarefas de saúde você ainda faz de forma manual, sem usar o app?
-
-    **Marla:** Faz quase tudo pelo aplicativo;
-
-    **Gabriel:** Entrar em contato com o hospital/clínicas.
-
-11. Já teve dificuldade para achar algo específico no app?
-
-    **Marla:** Não;
-
-    **Gabriel:** Não.
-
-
-12. Como prefere receber notícias sobre o plano (app, e-mail, SMS)?
-
-    **Marla:** Gostaria de receber por SMS;
-
-    **Gabriel:** Email e aplicativo.
-
-13. Como você checa o status de um pedido de exame? É simples e rápido?
-
-    **Marla:** Não utiliza pois quando faz o pedido na clínica eles já autorizam imediatamente, então não olha o histórico;
-
-    **Gabriel:** Acha o processo claro e rápido.
-
-14. Já reparou alguma informação de histórico desatualizada ou errada?
-
-    **Marla:** Não percebeu erro no histórico relacionado ao aplicativo;
-
-    **Gabriel:** Não.
-
-15. Quando pesquisa redes, como faz a filtragem por especialidade
-
-    **Marla:** Não teve dificuldade;
-
-    **Gabriel:** Não utilizou essa funcionalidade.
-
-16. Em que situações você usa a carteirinha digital?
-
-    **Marla:** Nunca abriu a carteirinha online, utiliza somente a física e nem sabia que havia carteirinha digital;
-
-    **Gabriel:** Quando foi fazer o exame.
-
-17. Já teve problema de conexão ao exibir a carteirinha?
-
-    **Marla:** Não, pois não utiliza a carteirinha digital;
-
-    **Gabriel:** Nunca teve problema.
-
-18. O extrato de cobrança é fácil de entender?
-
-    **Marla:** É fácil de entender, pois como utiliza pouco o plano de saúde, nunca teve gastos excessivos ou quantitativos o suficinete para ter dificuldades;
-
-    **Gabriel:** Achou fácil de entender.
-
-
-19. Você gostaria de receber alertas antes do vencimento da fatura?
-
-    **Marla:** Gostaria;
-
-    **Gabriel:** Acha que seria útil.
-
-
-20. Costuma olhar a aba de benefícios? Que dados seriam úteis ali?
-
-    **Marla:** Não costuma olhar, mas gostaria de receber informações sobre clínicas novas, clínicas próximas a residencias, especialmente sobre especialidades mais específicas que ficam masi centradas em regiões como Plano Piloto;
-
-    **Gabriel:** Ele não utiliza essa aba, mas acha que seria util saber o que pode fazer e aonde.
-
-
-21. As notícias do plano são relevantes? Como torná-las mais úteis?
-
-    **Marla:** São relevantes sim, para acompanhar principalmente os descontos;
-
-    **Gabriel:** É util para saber o que ele pode fazer ou não, quais são as mudanças, mas essa parte quase nunca foi usada.
-
-22. Qual parte do app você acha mais confusa ou lenta?
-
-    **Marla:** Acha que os valores dos descontos não são claros, pela diferença da taxa de cooparticpação entre as clínicas, gostaria que tivesse especificado um valor específico da consulta em cada clínica;
-
-    **Gabriel:** Não soube descrever, achou o aplictivo bom no geral.
-
-23. Como avalia a velocidade de carregamento das telas?
-
-    **Marla:** Acha uma velocidade boa;
-
-    **Gabriel:** Achou rápido.
-
-24. Você se sente seguro ao acessar dados pessoais no app?
-
-    **Marla:** Sim;
-
-    **Gabriel:** Sim.
-
-25. Já houve falhas técnicas que impediram o uso crítico do app?
-
-    **Marla:** Nunca teve problema;
-
-    **Gabriel:** Nunca passou por uma situação dessa.
-
-26. Gostaria de agendar consultas pelo app, integrando com redes credenciadas?
-
-    **Marla:** Gostaria de ter, pois ajudaria a gerenciar sua agenda, pois hoje em dia faz o agendamento de consultas via telefone;
-
-    **Gabriel:** Gostaria dessa funcionalidade, acha que o aplicativo seria bem mais utilizado.
-
-27. Seria útil conectar o app ao ConectaSUS ou outros sistemas?
-
-    **Marla:** Acha que não seria util, pois como são consultas particulares, porém acha que no futuro eles estariam conectado, mas não algo previsto pro presente;
-
-    **Gabriel:** Essa pergunta não foi realizada a ele pois durante o "aquecimento" para a entrevista foi perguntado se ele tinha conhecimento do ConectaSUS e ele não sabia o que era.
-
-28. Se só pudéssemos melhorar uma função, qual seria prioridade?
-
-    **Marla:** Acha que tem mais opiniões em relação a nível de plano do que a nível de aplicativo;
-
-    **Gabriel:** Gostaria de integralizar o aplicativo GDF-Saúde com as redes credenciadas.
-
-29. Que novos recursos são essenciais nos próximos seis meses?
-
-    **Marla:** Separar as redes credenciadas por regiões administrativas e por avaliação;
-
-    **Gabriel:** Mostrar aonde você pode fazer a consultas e integralização.
-
-30. Como você definiria que o app está “funcionando bem”?
-
-    **Marla:** Acha que atualmente ele está funcionando bem, não tem nada a relatar;
-
-    **Gabriel:** Se ele consegue ter acesso a carteirinha, histórico e extrato
-
-31. Que tipo de feedback você gostaria de enviar aos desenvolvedores?
-
-    **Marla:** Não teve nenhuma reclamação a declarar;
-
-    **Gabriel:** Não foi perguntado pois já foi respondido na pergunta 28.
-
-32. Mais algum comentário ou sugestão final?
-
-    **Marla:** Não;
-
-    **Gabriel:** Não tem.
-
-
-## Requisitos Elicitados
-
-A partir das entrevistas foram elicitados os seguintes requisitos na tabela 2, mas antes de analisar a tabela, observe que:
-
-- **EN0x**: identificador de cada requisito elicitado pela entrevista  
-- **RF**: Requisito Funcional  
-- **RNF**: Requisito Não Funcional  
-- **Implementado**: campo em branco para posterior preenchimento  
-
-
-<p align="center">Tabela 2 – Requisitos Elicitados</p>
-
-| **ID**  | **Descrição**                                                                 | **Tipo** | **Implementado** |
-| ------- | ----------------------------------------------------------------------------- | -------- | ---------------- |
-| <a id="EN01"></a>EN01    | Permitir ao usuário pesquisar clínicas e profissionais credenciados por especialidade. | [RF01](../../elicitacao/elicitacao.md#RF01)       | sim  |
-| <a id="EN02"></a>EN02   | Oferecer filtros de rede credenciada por região administrativa e especialidade.       | [RF01](../../elicitacao/elicitacao.md#RF01)       |     sim             |
-| <a id="EN03"></a>EN03    | Disponibilizar sistema de avaliação de clínicas com notas e comentários.              | [RF02](../../elicitacao/elicitacao.md#RF02)       |        não          |
-| <a id="EN04"></a>EN04    | Exibir carteirinha digital mesmo sem conexão (modo offline).                         | [RF03](../../elicitacao/elicitacao.md#RF03)       |           não       |
-| <a id="EN05"></a>EN05     | Permitir configuração de recebimento de notificações via app, SMS ou e-mail.         | [RF04](../../elicitacao/elicitacao.md#RF04)       |         não         |
-| <a id="EN06"></a>EN06   | Enviar alertas ao usuário antes do vencimento da fatura.                             | [RF04](../../elicitacao/elicitacao.md#RF04)       |         não         |
-| <a id="EN07"></a>EN07    | Permitir agendamento de consultas e exames diretamente pelo aplicativo.              | [RF05](../../elicitacao/elicitacao.md#RF05)       |          não        |
-| <a id="EN08"></a>EN08    | Exibir valor específico de consulta em cada clínica credenciada.                     | [RF05](../../elicitacao/elicitacao.md#RF05)       |         não         |
-| <a id="EN09"></a>EN09     | Apresentar novas clínicas e clínicas próximas de acordo com a localização do usuário. | [RF14](../../elicitacao/elicitacao.md#RF14)       |        não          |
-| <a id="EN10"></a>EN10     | Interface intuitiva com filtros e menus claramente identificados.                    | [RNF01](../../elicitacao/elicitacao.md#RNF01)      |          sim        |
-| <a id="EN11"></a>EN11    | Garantir carregamento rápido e fluído de todas as telas.                             | [RNF02](../../elicitacao/elicitacao.md#RNF02)      |          sim        |
-| <a id="EN12"></a>EN12    | Assegurar segurança no acesso e armazenamento de dados pessoais.                     | [RNF03](../../elicitacao/elicitacao.md#RNF03)      |          sim        |
+14. **Já reparou histórico desatualizado ou errôneo?**  
+    **Marla:** Não  
+    **Gabriel:** Não  
+
+15. **Quando pesquisa redes, como filtra por especialidade?**  
+    **Marla:** Sem dificuldade  
+    **Gabriel:** Não utilizou  
+
+16. **Em que situações usa a carteirinha digital?**  
+    **Marla:** Nunca usou  
+    **Gabriel:** Ao fazer exames  
+
+17. **Já teve problema de conexão ao exibir a carteirinha?**  
+    **Marla:** Não  
+    **Gabriel:** Não  
+
+18. **O extrato de cobrança é fácil de entender?**  
+    **Marla:** Sim  
+    **Gabriel:** Sim  
+
+19. **Gostaria de receber alertas antes do vencimento da fatura?**  
+    **Marla:** Gostaria  
+    **Gabriel:** Útil  
+
+20. **Costuma olhar aba de benefícios? Que dados seriam úteis?**  
+    **Marla:** Sim; deseja info sobre clínicas novas/próximas  
+    **Gabriel:** Informação de onde e como usar  
+</details>
+
+<details>
+  <summary>Perguntas 21–30</summary>
+
+21. **As notícias do plano são relevantes?**  
+    **Marla:** Sim; descontos importantes  
+    **Gabriel:** Útil para atualizações  
+
+22. **Qual parte do app é mais confusa ou lenta?**  
+    **Marla:** Diferença de taxas de coparticipação  
+    **Gabriel:** Geralmente bom  
+
+23. **Como avalia a velocidade de carregamento?**  
+    **Marla:** Rápida  
+    **Gabriel:** Rápida  
+
+24. **Você se sente seguro com seus dados no app?**  
+    **Marla:** Sim  
+    **Gabriel:** Sim  
+
+25. **Já houve falhas técnicas críticas?**  
+    **Marla:** Não  
+    **Gabriel:** Não  
+
+26. **Gostaria de agendar consultas pelo app?**  
+    **Marla:** Sim; facilitaria  
+    **Gabriel:** Sim  
+
+27. **Útil conectar ao ConectaSUS?**  
+    **Marla:** Não no presente  
+    **Gabriel:** Não abordado  
+
+28. **Se só melhorássemos uma função, qual?**  
+    **Marla:** Opiniões a nível de plano  
+    **Gabriel:** Integração com redes credenciadas  
+
+29. **Que recursos são essenciais nos próximos 6 meses?**  
+    **Marla:** Filtrar por RA e avaliações  
+    **Gabriel:** Mostrar onde consultar  
+
+30. **Como definir “app funcionando bem”?**  
+    **Marla:** Acha que já está funcionando  
+    **Gabriel:** Acesso a carteirinha e histórico  
+</details>
+
+<details>
+  <summary>Perguntas 31–32</summary>
+
+31. **Que feedback você enviaria aos desenvolvedores?**  
+    **Marla:** Nenhum  
+    **Gabriel:** Já respondido na 28  
+
+32. **Mais algum comentário ou sugestão final?**  
+    **Marla:** Não  
+    **Gabriel:** Não  
+</details>
+
+### Requisitos Elicitados
+
+A Tabela 3 apresenta os requisitos extraídos, com identificadores, tipo e status de implementação.
+
+<p align="center">Tabela 3 – Requisitos Elicitados</p>
+
+| **ID**                        | **Descrição**                                                                 | **Tipo** | **Implementado** |
+|-------------------------------|-------------------------------------------------------------------------------|----------|------------------|
+| EN01                          | Permitir ao usuário pesquisar clínicas e profissionais credenciados por especialidade. | RF01     | sim              |
+| EN02                          | Oferecer filtros por região administrativa e especialidade.                   | RF01     | sim              |
+| EN03                          | Disponibilizar sistema de avaliação de clínicas com notas e comentários.      | RF02     | não              |
+| EN04                          | Exibir carteirinha digital mesmo sem conexão (offline).                      | RF03     | não              |
+| EN05                          | Permitir configurar notificações via app, SMS ou e-mail.                     | RF04     | não              |
+| EN06                          | Enviar alertas antes do vencimento da fatura.                                 | RF04     | não              |
+| EN07                          | Permitir agendamento de consultas e exames pelo aplicativo.                   | RF05     | não              |
+| EN08                          | Exibir valor específico de consulta em cada clínica credenciada.              | RF05     | não              |
+| EN09                          | Apresentar novas clínicas e próximas de acordo com a localização do usuário.  | RF14     | não              |
+| EN10                          | Interface intuitiva com filtros e menus claros.                              | RNF01    | sim              |
+| EN11                          | Garantir carregamento rápido e fluido das telas.                              | RNF02    | sim              |
+| EN12                          | Assegurar segurança no acesso e armazenamento de dados pessoais.              | RNF03    | sim              |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
 
+## Referência Bibliográficas
 
-## Referência
+Vazquez, Carlos Eduardo; Simões, Guilherme Siqueira. *Engenharia de requisitos: software orientado ao negócio*. Rio de Janeiro, 2016. Disponível em: <https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20negócio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf>. Acesso em: 23 abr. 2025.
 
-VAZQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira. *Engenharia de requisitos: software orientado ao negócio*. Rio de Janeiro: Brasport, 2016. Disponível em: https://www.kufunda.net/publicdocs/Engenharia%20de%20Requisitos%20software%20orientado%20ao%20negócio%20(Carlos%20Eduardo%20Vazquez%20etc.).pdf. Acesso em: 23 abr. 2025.
+Robby. *Elicitation Interview Questions*. Your Career Support. 24 out. 2022. Disponível em: <https://yourcareersupport.com/elicitation-interview-questions/>. Acesso em: 10 maio 2025.
 
----
 
 ## Histórico de Versões
 
-| Versão | Data | Descrição | Autor(es) | Revisor(es) |
-|--------|------|-----------|-----------|-------------|
-| 1.0 | 23/04/2025 | Introdução e requisitos iniciais | [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
-| 1.1 | 01/05/2025 | Respostas de umas das entrevistas e alguns dos requisitos elicitados | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) |
-| 1.2 | 01/05/2025 | Atualização das respostas das entrevistas, adição dos requisitos elicitados e ajustes na entrodução, metodologia e gravação | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Isaque Camargos](https://github.com/isaqzin) | [Yzabella Miranda](https://github.com/redjsun) |
-| 1.3| 03/05/2025 | Correção de bug na contagem das perguntas e adição dos termos de consentimento | [Isaque Camargos](https://github.com/isaqzin) |[Yzabella Miranda](https://github.com/redjsun) |
+| Versão | Data       | Descrição                                                     | Autor(es)                                | Revisor(es)                             |
+|--------|------------|---------------------------------------------------------------|------------------------------------------|-----------------------------------------|
+| ``1.0``  | 23/04/2025 | Introdução e requisitos iniciais                    |          [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+| ``1.1``  | 01/05/2025 | Adição de respostas e requisitos elicitados                   | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) |
+| ``1.2``  | 01/05/2025 | Atualização das entrevistas, requisitos e metodologia         | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Isaque Camargos](https://github.com/isaqzin) | [Yzabella Miranda](https://github.com/redjsun) |
+| ``1.3``  | 03/05/2025 | Correção de contagem de perguntas e inclusão de termo consentimento | [Isaque Camargos](https://github.com/isaqzin) |[Yzabella Miranda](https://github.com/redjsun) |
+| ``1.4``  | 10/05/2025 | Modificação da docuemntação para estar de acordo com as outras técnicas | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) |
