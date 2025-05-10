@@ -31,7 +31,7 @@ nav:
       - videos: videos/videos.md
   - Apresentação:
       - entrega 1: apresentacao/apresentcao1.md
-
+      - entrega 2: apresentacao/apresentacao2.md
   - Planejamento:
       - Heatmap: planejamento/heatmap.md
       - Responsabilidades da equipe: planejamento/Definição_de_Equipe_e_Responsabilidades.md
@@ -69,6 +69,7 @@ nav:
           - Entrega 2: verificacao/lista_de_VerificacaoEntrega2.md
       - Grupo +1:
           - Entrega 1: verificacao/lista_de_VerificacaoEntrega1.md
+          - Entrega 2: verificacao/lista_de_VerificacaoEntrega2.md
 
   - Inspeção:
       - Grupo:
@@ -76,6 +77,8 @@ nav:
           - Entrega 2: inspecao/inspecao_2_grupo.md
       - Grupo +1:
           - Entrega 1: inspecao/lista_de_inspecaoEntrega1Grupo+1.md
+          - Entrega 2: inspecao/inspecao_2_grupo+1.md
+          
           
 extra_css:
   - stylesheets/extra.css
