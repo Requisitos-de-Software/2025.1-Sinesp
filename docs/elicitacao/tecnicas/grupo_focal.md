@@ -2,10 +2,10 @@
 
 ## Introdução
 
-O Grupo Focal é uma técnica de elicitação de requisitos que consiste em uma discussão estruturada com um grupo de usuários ou stakeholders, mediada por um facilitador, com o objetivo de explorar percepções, opiniões e sugestões em relação a um sistema ou produto. ()
+O Grupo Focal é uma técnica de elicitação de requisitos que consiste em uma discussão estruturada com um grupo de usuários ou stakeholders, mediada por um facilitador, com o objetivo de explorar percepções, opiniões e sugestões em relação a um sistema ou produto. (WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3rd Edition. Microsoft Press, 2013, p. 124)
 
 
-## Tabela dos integrantes do grupo
+## Integrantes do grupo
 
 A Tabela 1 contêm todos os integrantes da equipe que participaram da técnica de elicitação Grupo Focal e o que cada integrante desenvolveu durante essa etapa.
 
@@ -75,9 +75,17 @@ A Tabela 2 contêm as informações dos usuários participantes do Grupo Focal, 
 
 ## Metodologia
 
-A técnica do grupo focal envolve reunir de forma presencial ou remota um grupo de participantes representativos do público-alvo. Um moderador conduz a conversa com base em perguntas previamente preparadas, promovendo o debate entre os integrantes. Os dados coletados nessa interação ajudam a identificar necessidades, problemas e ideias valiosas para a definição de requisitos do sistema (WIEGERS, Karl;
+A técnica do grupo focal envolve reunir de forma presencial ou remota um grupo de participantes representativos do público-alvo. Um moderador conduz a conversa com base em perguntas previamente preparadas, promovendo o debate entre os integrantes. Os dados coletados nessa interação ajudam a identificar necessidades, problemas e ideias valiosas para a definição de requisitos do sistema, essa reunião deverá ser gravada para possíveis consultas aos comentários dos usuários. A análise a partir do Grupo Focal não é quantitativa e sim um retorno mais subjetivo sobre os requisitos, normalmente os participantes desta técnica não possuem autoridade de tomadas de decisão nos requisitos. (WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3rd Edition. Microsoft Press, 2013). Foi realizada pela integrante <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a> com os usuários Victor Schmidt e Marcos Goulart, a Tabela 1 apresenta os dados dos participantes da reunião. 
 
- BEATTY, Joy. Software Requirements. 3rd Edition. Microsoft Press, 2013.). Foi realizada pela integrante <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a> com os usuários Victor Schmidt e Marcos Goulart, a Tabela 1 apresenta os dados dos participantes da reunião. 
+## Gravação do Grupo Focal
+
+Para realizar esta elicitação, foi realizada uma reunião entre os usuários Marcos Goulart e Victor Schmidt com a integrante Yzabella Miranda, como o auxílio de uma câmera e o roteiro previamente produzido para conduzir a reunião de maneira neutra. Abaixo, é possível assistir no Vídeo 1 a gravação que foi feita para esta técnica, que foi postado no youtube de maneira não listada. 
+
+<div align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nrQDSP9eyk4" title="Grupo Focal GDF-Saúde" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<p align="center">Vídeo 1: Gravação do grupo focal</p>
 
 ## Discussão em Seções
 
@@ -185,13 +193,6 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
 <p align="center">Autor: <b><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></b></p>
 
 
-## Vídeo da elicitação
-
-<div align="center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/nrQDSP9eyk4" title="Grupo Focal GDF-Saúde" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<p align="center">Vídeo 1: Gravação do grupo focal</p>
 
 ## Referência bibliográfica
 
