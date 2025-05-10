@@ -20,15 +20,18 @@ theme:
 
 nav:
   - Home: index.md
+
   - Atas:
       - 28/03/2025: atas/ata_28_03.md
       - 04/04/2025: atas/ata_04_04.md
       - 11/04/2025: atas/ata_11_04.md
       - 21/04/2025: atas/ata_21_04.md
+
   - Videos:
       - videos: videos/videos.md
   - Apresentação:
       - entrega 1: apresentacao/apresentcao1.md
+
   - Planejamento:
       - Heatmap: planejamento/heatmap.md
       - Responsabilidades da equipe: planejamento/Definição_de_Equipe_e_Responsabilidades.md
@@ -37,21 +40,25 @@ nav:
       - Cronograma executado: planejamento/Cronograma_execudato.md
       - Aplicativo: planejamento/aplicativo.md
       - Aplicativos Avaliados: planejamento/aplicativos-avaliados.md
+
   - Pré-rastreabilidade:
       - Rich Picture: pre-rastreabilidade/rich_picture.md
+
   - Elicitação: 
       - Requisios Elicitados: elicitacao/elicitacao.md  
-      - Priorização: 
+      - Técnicas de Priorização: 
           - $100: elicitacao/priorizacao/dolares100.md
           - First Thing First: elicitacao/priorizacao/first_thing_first.md
           - Moscow: elicitacao/priorizacao/moscow.md
           - Three Level First: elicitacao/priorizacao/threeLevelScale.md
-      - Técnicas:
+
+      - Técnicas de Elicitação:
           - Introspecção: elicitacao/tecnicas/introspeccao.md
           - Entrevista: elicitacao/tecnicas/entrevista.md
           - Grupo Focal: elicitacao/tecnicas/grupo_focal.md
           - Questionário: elicitacao/tecnicas/questionario.md
           - Glossário: elicitacao/tecnicas/glossario.md
+          
       - Perfil de Usuário: elicitacao/perfil.md
       - Personas: elicitacao/personas.md
        

@@ -5,6 +5,68 @@
 De acordo com Vazquez e Simões (Engenharia de Requisitos), **entrevista** é uma forma de diálogo estruturado em que o entrevistador busca respostas para questões previamente planejadas, visando obter informações relevantes em um ambiente de confiança e escuta ativa.  
 Como parte do processo de entendimento do sistema **GDF-Saúde**, foram realizadas duas entrevistas com usuários do aplicativo, com o objetivo de coletar suas expectativas, necessidades e desafios no uso de soluções de saúde digital.
 
+## Integrantes do Grupo
+
+Na tabela 1 contêm todos os integrantes da equipe que participaram do desenvolvimento da elicitção por meio da entrevista e o que cada um desenvolveu durante o projeto.
+
+<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+
+<div align="center">
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Quais etapas participou</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Luiza Soares</td>
+                <td>Ajudou no desenvolvimento das perguntas, criou o documento da autorização da gravação, realizou uma entrevista com usuário real, transcreveu as respostas da entrevista para o mkdocs, colocou os vídeos no youtube de forma não listada e ajudou na elicitação de requisitos</td>
+            </tr>
+            <tr>
+                <td>Isaque Camargos</td>
+                <td>Ajudou no desenvolvimento das perguntas, realizou uma entrevista com um usuário real, ajudou na elicitação de requisitos e estruturou a documentação final da entrevista</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+
+## Usuários Reais Envolvidos
+
+Na tabela 2 contêm as informações dos usuários participantes desta etapa de < nome da etapa >, ela contêm o nome e informações sobre a gravação que foi feita, incluindo o link para a autorização da gravação e sua postagem no Youtube de forma não listada. 
+
+<p align="center">Tabela 2 - Usuários envolvidos</p>
+
+
+<div align="center">
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Data</th>
+                <th>Hora</th>
+                <th>Local</th>
+                <th>Duração da etapa</th>
+                <th>Autorização da gravação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gabriel Celestino</td>
+                <td>30/04/2025</td>
+                <td>13:10</td>
+                <td>Faculdade de Ciência e Tecnologia em Engenharia (FCTE)</td>
+                <td>7:46</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
 
 ## Metodologia
 
