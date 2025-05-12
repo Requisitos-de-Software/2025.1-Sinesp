@@ -4,7 +4,37 @@
 
 A elaboração de um glossário atua tanto como ferramenta de gestão quanto como documento orientador, consolidando a linguagem técnica essencial para a compreensão de processos e regras específicas de um domínio. No contexto do aplicativo escolhido, [GDF Saúde](https://requisitos-de-software.github.io/2025.1-GDF-Saude/planejamento/aplicativo/), plano de saúde suplementar para servidores públicos do Distrito Federal, essa sistematização é fundamental devido à complexidade de termos que exigem precisão para evitar falhas na comunicação entre beneficiários, gestores e prestadores.
 
-<br>
+
+## Integrantes do Grupo
+
+Na tabela 1 contêm todos os integrantes da equipe que participaram desta etapa de elaboração do glossário, ambas as integrantes realizaram todas as etapas de forma conjunta e colaborativa.
+
+<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+<div align="center">
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Quais etapas participou</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+                <td> Análise documental e extração inicial de termos, redação das definições técnicas, estruturação da tabela de glossário, revisão final do artefato</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+                <td> Análise documental e extração inicial de termos, redação das definições técnicas, estruturação da tabela de glossário, revisão final do artefato</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+## Usuários Reais Envolvidos
+
+*Não foram realizadas entrevistas com usuários reais para esta etapa de elaboração do glossário.*
 
 ## Metodologia
 
@@ -18,29 +48,54 @@ De acordo com Vazquez (2016), para identificar os termos candidatos ao glossári
 * Abreviações e siglas;
 * Sinônimos e antônimos.
 
-A aplicação desses critérios permite selecionar termos relevantes e garantir que o glossário seja claro, útil e coerente com o contexto específico do sistema.
+A aplicação desses critérios permite selecionar termos relevantes e garantir que o glossário seja claro, útil e coerente com o contexto específico do sistema. Com isso, a elaboração deste glossário seguiu um processo estruturado em 5 etapas principais, adaptado de Vazquez (2016):
+
+### 1. Identificação de Fontes Primárias:
+
+   - Análise detalhada da [Portaria nº 127/2024](https://inas.df.gov.br/wp-content/uploads/2024/12/Portaria-no127-de-13-de-dezembro-de-2024-Regulamento-GDF-Saude-baixa.pdf)
+   - Revisão do [Catálogo de Normas do INAS-DF](https://www.inas.df.gov.br/normas-e-regulamentacoes/)
+   - Consulta à [Documentação Técnica de Requisitos](https://www.inas.df.gov.br/requisitos-e-documentos/)
+
+### 2. Extração de Termos Candidatos:
+
+   - Seleção de termos técnicos recorrentes nos documentos
+   - Identificação de siglas e acrônimos específicos do domínio
+   - Destaque para conceitos com múltiplas interpretações
+
+### 3. Validação e Refinamento:
+
+   - Discussão em grupo para consolidação das definições
+   - Verificação cruzada com requisitos já elicitados
+   - Eliminação de termos redundantes ou muito genéricos
+
+### 4. Organização e Classificação:
+
+   - Estruturação em tabela para fácil consulta
+   - Associação direta com requisitos funcionais
+   - Padronização da linguagem técnica
+
+### 5. Revisão Final:
+
+   - Verificação de consistência interna
+   - Adequação ao formato padrão de documentação
+   - Validação com as normas do GDF Saúde
+
+*Observação: Não foram realizadas gravações ou entrevistas com usuários reais durante este processo, optando-se pela análise documental como fonte primária.*
 
 
-<br>
-
-## Glossário
-
-Para a realização desse glossário, foi utilizado as seguintes as fontes primárias:  
-
-1. [Portaria nº 127/2024](https://inas.df.gov.br/wp-content/uploads/2024/12/Portaria-no127-de-13-de-dezembro-de-2024-Regulamento-GDF-Saude-baixa.pdf) que regulamenta os processos do GDF Saúde  
-2. [Catálogo de Normas do INAS-DF](https://www.inas.df.gov.br/normas-e-regulamentacoes/)  
-3. [Documentação Técnica de Requisitos](https://www.inas.df.gov.br/requisitos-e-documentos/) 
+## Resultados
 
 
-Na Tabela 1, os termos críticos do GDF Saúde foram organizados e detalhados, com ênfase em sua aplicação prática e impacto operacional. Essa abordagem visa assegurar alinhamento entre todas as partes envolvidas, desde a solicitação de autorizações prévias até a interpretação de portarias regulatórias, garantindo transparência e eficácia na gestão do plano.
+### Consolidação Terminológica do Domínio
 
-<br>
+A análise sistemática dos documentos oficiais do GDF Saúde permitiu identificar 16 termos técnicos fundamentais para o entendimento do sistema. A Tabela 2 apresenta este glossário estruturado, que serve como base para:
 
-### Termos do Glossário
+- Unificação da linguagem entre desenvolvedores, gestores e usuários
+- Eliminação de ambiguidades na interpretação de processos
+- Referência técnica para a implementação de requisitos
 
-<br>
 
-<p align="center">Tabela 1 – Termos do Glossário</p>
+<p align="center">Tabela 2 – Glossário de Termos Técnicos do GDF Saúde</p>
 
 | **Termo**               | **Definição**                                                                                                                                                     |  
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
@@ -64,14 +119,17 @@ Na Tabela 1, os termos críticos do GDF Saúde foram organizados e detalhados, c
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/redjsun">Yzabella Miranda</a></p>
 
-<br>
 
 ### Requisitos elicitados
-A partir da análise dos conceitos relacionados ao domínio do GDF Saúde, identificaram-se requisitos críticos para o funcionamento do sistema, descritos na Tabela 2. Cada requisito foi associado a um termo do glossário (indicado pela sigla GLO seguida de um número) e classificado como Requisito Funcional (RF) ou Requisito Não Funcional (RNF), conforme sua natureza operacional ou técnica.
 
-<br>
+A análise sistemática dos termos do glossário permitiu identificar 14 requisitos críticos para o sistema GDF Saúde, conforme apresentado na Tabela 3. Este mapeamento segue três princípios fundamentais:
 
-<p align="center">Tabela 1 – Requisitos Elicitados</p> 
+1. **Associação terminológica**: Cada requisito (identificado pela sigla GL seguida de número) deriva diretamente de um ou mais termos técnicos do glossário
+2. **Classificação precisa**: Divisão clara entre Requisitos Funcionais (RF) e Não-Funcionais (RNF) conforme IEEE 830
+3. **Rastreabilidade**: Links diretos para a especificação completa de cada requisito
+
+
+<p align="center">Tabela 3 – Requisitos Elicitados</p> 
 
 | **ID** | **Descrição**                                                                                                                 |**Tipo** | **Implementado** |
 | ------ | ----------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------- |
@@ -95,7 +153,7 @@ A partir da análise dos conceitos relacionados ao domínio do GDF Saúde, ident
 
 
 
-## Referências
+## Referência Bibliográficas
 
 VAZQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Brasport, 2016.​
 
@@ -110,5 +168,6 @@ INAS-DF. *Requisitos e Documentos Técnicos*. Brasília: Instituto de Atenção 
 
 | Versão | Data       | Descrição                                        | Autor(es)           | Revisor(es)         |
 |--------|------------|--------------------------------------------------|---------------------|---------------------|
-| 1.0    | 01/05/2025 | Criação do documento da elicitação com a técnica glossário                | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Yzabella Miranda](https://github.com/redjsun) | [Isaque Camargos](https://github.com/isaqzin)   |
-| 1.1    | 02/05/2025 | Atualização da tabela e adição da metodologia               | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Yzabella Miranda](https://github.com/redjsun) | [Isaque Camargos](https://github.com/isaqzin)   |
+| ``1.0``    | 01/05/2025 | Criação do documento da elicitação com a técnica glossário                | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Yzabella Miranda](https://github.com/redjsun) | [Isaque Camargos](https://github.com/isaqzin)   |
+| ``1.1``   | 02/05/2025 | Atualização da tabela e adição da metodologia               | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Yzabella Miranda](https://github.com/redjsun) | [Isaque Camargos](https://github.com/isaqzin)   |
+| ``1.2``    | 12/05/2025 | Modificação da documentação para estar de acordo com as outras técnicas     |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) |
