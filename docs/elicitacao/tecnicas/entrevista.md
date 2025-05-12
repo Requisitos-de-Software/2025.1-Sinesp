@@ -316,5 +316,5 @@ Robby. *Elicitation Interview Questions*. Your Career Support. 24 out. 2022. Dis
 | ``1.1``  | 01/05/2025 | Adição de respostas e requisitos elicitados                   | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) |
 | ``1.2``  | 01/05/2025 | Atualização das entrevistas, requisitos e metodologia         | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Isaque Camargos](https://github.com/isaqzin) | [Yzabella Miranda](https://github.com/redjsun) |
 | ``1.3``  | 03/05/2025 | Correção de contagem de perguntas e inclusão de termo consentimento | [Isaque Camargos](https://github.com/isaqzin) |[Yzabella Miranda](https://github.com/redjsun) |
-| ``1.4``  | 10/05/2025 | Modificação da docuemntação para estar de acordo com as outras técnicas | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) |
+| ``1.4``  | 10/05/2025 | Modificação da documentação para estar de acordo com as outras técnicas | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) |
 | ``1.5``  | 12/05/2025 | Ajuste na formatação para renderização correta | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) |
