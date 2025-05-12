@@ -1,4 +1,4 @@
-# Técnica de Elicitação: Grupo Focalo
+# Técnica de Elicitação: Grupo Focal
 
 ## Introdução
 
