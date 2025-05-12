@@ -27,6 +27,15 @@ Para este estudo foi utilizada uma **técnica de coleta quantitativa**, estrutur
 - **Público-Alvo e Amostragem**:  
   O questionário foi direcionado a usuários e não usuários do aplicativo GDF-Saúde, beneficiários do plano oferecido pelo **Instituto de Assistência à Saúde dos Servidores do GDF (INAS)**.
 
+- **Local de Aplicação**:
+  O questionário foi aplicado em grupos de whatsapp de servidores do GDF e de beneficiários do plano de saúde **Instituto de Assistência à Saúde dos Servidores do GDF (INAS)**, portanto possibilitando o recebimento de informações provinientes do público-alvo do questionário.
+
+- **Forma de Aplicação**:
+  O questionário foi disponibilizado em formato digital e autopreenchível, permitindo que os participantes acessassem e respondessem às perguntas de forma remota, utilizando seus próprios dispositivos (smartphones, computadores ou tablets). Não houve intervenção dos pesquisadores durante o preenchimento, garantindo maior espontaneidade nas respostas e respeitando o tempo e disponibilidade dos respondentes.
+
+- **Data da coleta**:
+  A coleta de dados foi realizada no período de 22 de abril de 2025 a 24 de abril de 2025, totalizando três dias consecutivos de aplicação do questionário. Esse intervalo foi considerado adequado para alcançar um número representativo de respondentes dentro do público-alvo, garantindo variedade de perfis e assegurando a relevância das respostas para a análise dos requisitos do sistema em estudo.
+
 - **Divulgação e Coleta**:  
   A aplicação do questionário foi realizada, por meio dos seguintes canais:
   - Grupos de WhatsApp com servidores públicos usuários do INAS
@@ -493,10 +502,62 @@ As respostas foram:
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
 </p>
 
+
+## 9. Perguntas opcionais de nosso questionário
+- As seguintes perguntas abertas eram opcionais para os usuários que estavam respondendo o formulário
+- As respostas destas perguntas também foram consideradas na elaboração deste artefato
+
+<p align="center"><strong>Figura 22: pergunta aberta (número 11)</strong> </p>
+<p align="center">
+  <img src="..\..\..\assets\img-questionario\perguntaAbertaUsodoApp.png" alt="10" width="500"/>
+</p>
+<p style="text-align: center; font-size: 16px;">
+  Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
+</p>
+
+<p align="center"><strong>Figura 23: pergunta opcional</strong> </p>
+<p align="center">
+  <img src="..\..\..\assets\img-questionario\perguntaAbertaExperiencia.png" alt="10" width="500"/>
+</p>
+<p style="text-align: center; font-size: 16px;">
+  Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
+</p>
+
+<p align="center"><strong>Figura 24: pergunta aberta (número 17)</strong> </p>
+<p align="center">
+  <img src="..\..\..\assets\img-questionario\perguntaAbertaExpectativa.png" alt="10" width="500"/>
+</p>
+<p style="text-align: center; font-size: 16px;">
+  Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
+</p>
+
+<p align="center"><strong>Figura 25: pergunta de comentários finais (primeira pergunta)</strong> </p>
+<p align="center">
+  <img src="..\..\..\assets\img-questionario\comentario1.png" alt="10" width="500"/>
+</p>
+<p style="text-align: center; font-size: 16px;">
+  Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
+</p>
+
+<p align="center"><strong>Figura 26: pergunta de comentários finais (segunda pergunta)</strong> </p>
+<p align="center">
+  <img src="..\..\..\assets\img-questionario\comentario2.png" alt="10" width="500"/>
+</p>
+<p style="text-align: center; font-size: 16px;">
+  Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
+</p>
+
+<p align="center"><strong>Figura 27: pergunta de comentários finais (terceira pergunta)</strong> </p>
+<p align="center">
+  <img src="..\..\..\assets\img-questionario\comentario3.png" alt="10" width="500"/>
+</p>
+<p style="text-align: center; font-size: 16px;">
+  Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
+</p>
 ---
 
 ## Conclusão
-Os dados evidenciam que o aplicativo GDF-Saúde é conhecido e utilizado por boa parte dos beneficiários entrevistados, mas apresenta sérios desafios operacionais. A experiência do usuário é prejudicada por instabilidades, falta de clareza e não atendimento das funcionalidades esperadas. O engajamento ainda é baixo, refletindo na baixa frequência de uso.
+Os dados evidenciam que o aplicativo GDF-Saúde é conhecido e utilizado por boa parte dos beneficiários entrevistados, mas apresenta sérios desafios operacionais. A experiência do usuário é prejudicada por instabilidades, falta de clareza e não atendimento das funcionalidades esperadas. O engajamento ainda é baixo, refletindo na baixa frequência de uso. Segue o link do formulário para possível análise: <a href="https://forms.gle/CiBAi7rtAKX1Vev58">Forms aqui!</a>
 
 ---
 
@@ -526,13 +587,19 @@ Os dados evidenciam que o aplicativo GDF-Saúde é conhecido e utilizado por boa
 
 **Fonte dos dados**: Questionário de Perfil de Usuário - GDF Saúde, aplicado entre 22 e 24 de abril de 2025, via formulário online. Todas as respostas são anônimas e respeitam a LGPD (Lei 13.709/2018).
 
-<p align="center"><strong>Figura 22: LGPD</strong> </p>
+<p align="center"><strong>Figura 28: LGPD</strong> </p>
 <p align="center">
   <img src="..\..\..\assets\img-questionario\lgpd.png" alt="10" width="500"/>
 </p>
 <p style="text-align: center; font-size: 16px;">
   Fonte: <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>
 </p>
+
+## Bibliografia
+
+- SERRANO, Milene; SERRANO, Maurício. *Requisitos (Aula 07): Elicitação, Modelagem e Análise*. UnB Gama, Brasília, 2023. Disponível em: https://aprender3.unb.br/pluginfile.php/3096086/mod_resource/content/2/Requisitos%20-%20Aula%2007.pdf. Acesso em: 23/04/2025.
+
+- Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. Pg 144 - 148. Disponível em: https://aprender3.unb.br/pluginfile.php/3096073/mod_resource/content/2/ihc-ux-%20Personas.pdf. Acesso em: 23 de abril de 2025
 
 ---
 
@@ -547,3 +614,4 @@ Os dados evidenciam que o aplicativo GDF-Saúde é conhecido e utilizado por boa
 | 1.4 | 03/05/2025 | Adição de mais informações e correção de tabelas e imagens | [Kaleb Macedo](https://github.com/kalebmacedo) | [Isaque Camargos](https://github.com/isaqzin) |
 | 1.5 | 03/05/2025 | Correção de imagens | [Kaleb Macedo](https://github.com/kalebmacedo) | [Isaque Camargos](https://github.com/isaqzin) |
 | 1.6 | 03/05/2025 | Correção de imagens 2 (socorro) | [Isaque Camargos](https://github.com/isaqzin) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
+| 1.7 | 11/05/2025 | Adição de local, data e como, além das perguntas abertas | [Lucas Alves](https://github.com/LucasAlves71) | [Kaleb Macedo](https://github.com/kalebmacedo) |
