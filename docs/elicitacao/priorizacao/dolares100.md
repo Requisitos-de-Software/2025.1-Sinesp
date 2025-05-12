@@ -4,28 +4,64 @@
 
 De acordo com WIEGERS e BEATTY, a técnica dos $100 Dólares é uma abordagem de priorização que ajuda equipes a decidir quais requisitos devem ser implementados primeiro em um projeto. Cada participante recebe 100 dólares fictícios para distribuir entre os requisitos, conforme sua importância percebida. Quanto mais dinheiro um requisito recebe, maior é sua prioridade. A técnica torna a alocação de recursos mais tangível e incentiva decisões conscientes.
 
+## Integrantes do Grupo
+    
+
+Na tabela 1 contêm todos os integrantes da equipe que participaram da etapa de priorização $100 e o que a pessoa desenvolveu durante o projeto.
+
+<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+<div align="center">
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Quais etapas participou</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+                <td>Realizou a coleta da priorização presencialmente, postou o vídeo no youtube como não listado e redigiu todo o documento.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
+
+
+## Usuários Reais Envolvidos
+
+Na Tabela 2 estão os dados dos usuários participantes desta etapa de priorização $100, incluindo link para autorização de gravação.
+
+
+<p align="center">Tabela 2: Usuários reais envolvidos</p>
+
+| Nome |Data|  Hora | Local |Duração| Link de autorização|
+| ---------------------------------------|------------ |------------------------ | ------ |-------|----------|
+| Gabriel celestino | 01/05/2025 |  13:00 | Casa do usuário | 9:51 |termos de autorização disponíveis [aqui.](../assets/termos100dol.pdf)|
+| Jonathan Celestino | 01/05/2025 |   13:00 | Casa do usuário | 9:51 |termos de autorização disponíveis [aqui.](../assets/termos100dol.pdf)|
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
+
+
 ## Metodologia
 
 Na metodologia adotada, o integrante [Isaque Camargos](https://github.com/isaqzin) realizou uma consulta direta com dois usuários do sistema para aplicar a técnica de priorização $100 Dólares. Cada usuário receberá uma planilha em Excel contendo a lista de requisitos do sistema e deverá distribuir um total de 100 dólares fictícios entre eles, conforme a importância atribuída a cada item. A distribuição deverá seguir as regras da técnica, em que valores mais altos indicam maior prioridade. Após o preenchimento, os dados serão consolidados para identificar os requisitos com maior valor percebido pelos usuários, auxiliando na definição das prioridades do projeto.
 
+### Gravação
 
-## Cronograma
+A gravação da priorização $100 está contida a seguir:
 
+- **Gravação 1** (Priorização de Isaque Camargos com Gabriel Celestino e Jonathan Celestino):
 
-<p align="center">Tabela 1: Participantes da técnica de priorização $100</p>
-
-| Integrante do grupo                          | Priorizador|Data                   |  Hora | Local |Duração|
-| ---------------------------------------|------------ |------------------------ | ------ |-------|----------|
-| [Isaque Camargos](https://github.com/isaqzin)  |  Gabriel celestino| 01/05/2025 |  13:00 | Casa do priorizador | 9:51 |
-| [Isaque Camargos](https://github.com/isaqzin) | Jonathan Celestino | 01/05/2025 |   13:00 | Casa do priorizador | 9:51 |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c1k4L0pTGic?si=wclZVxmeC8G6li9G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Tabela dos requisitos priorizados
 
 <p align="center">Tabela 2: Tabela dos requisitos priorizados</p>
 
-| **Tipo** | **Descrição**                                                                                                      | **Técnicas**                  | **Implementado** |**Gabriel**|**Jonathan**|**Final**|
+| **Tipo** | **Descrição**                                                                                                      | **Técnicas**                  | **Implementado** |**Gabriel**|**Jonathan**|**Média final**|
 |----------|--------------------------------------------------------------------------------------------------------------------|-------------------------------|------------------|-------|-----|----|
 | <a id="RF01"></a>RF01     | Permitir ao usuário pesquisar e filtrar clínicas e profissionais credenciados por especialidade, região administrativa, tipo de atendimento e proximidade. | [EN01](../../elicitacao/tecnicas/entrevista.md#EN01), [EN02](../../elicitacao/tecnicas/entrevista.md#EN02), [IS02](../../elicitacao/tecnicas/introspeccao.md#IS02), [IS06](../../elicitacao/tecnicas/introspeccao.md#IS06), [QT03](../../elicitacao/tecnicas/questionario.md#QT03), [QT08](../../elicitacao/tecnicas/questionario.md#QT08) | Sim              |3|2|2.5|
 | <a id="RF02"></a>RF02     | Disponibilizar sistema de avaliação de clínicas com notas e comentários.                                           | [EN03](../../elicitacao/tecnicas/entrevista.md#EN03), [GF01](../../elicitacao/tecnicas/grupo_focal.md#GF01)                    | Não              |0|0|0|
@@ -69,15 +105,11 @@ Os requisitos listados a seguir foram os 10 mais bem avaliados no processo de pr
 
 Já entre os menos bem avaliados temos o RF02 que foi o requisito com menor valor atribuído, seguido por RF12, RNF01, RNF03, RNF05, RNF07, RNF14, RNF15, RNF04, RNF11, RNF12 e, por fim, RNF16. Esses dados refletem a percepção dos usuários sobre o que é mais ou menos importante para o sistem.
 
-## Vídeos da priorização
 
-Os Termos que nos permitem utilizar da imagem dos Usuários estão disponíveis [aqui.](../assets/termos100dol.pdf)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c1k4L0pTGic?si=wclZVxmeC8G6li9G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+## Referência Bibliográficas
 
-## Referências
-
-WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Press, 2013. ISBN 978-0-7356-7966-5. p. 321 - 322 Disponível em: [Software Requirements](https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf)  .Acesso em: 03 de maio de 2025
+WIEGERS, Karl; BEATTY, Joy. **Software Requirements**. 3. ed. Redmond. Microsoft Press, 2013. ISBN 978-0-7356-7966-5. p. 321 - 322 Disponível em: [Software Requirements](https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf)  .Acesso em: 03 de maio de 2025
 
 ## Histórico de Versões
 
@@ -85,3 +117,4 @@ WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Pre
 | ------ | ---------- | -------------------- | ----------------------------------------------- | ------------------------------------------- |
 | `1.0`  | 03/05/2025 | Criação da Introdução, metodologia, cronograma e tabela dos requisitos elicitados| [Isaque Camargos](https://github.com/isaqzin) | [Othavio Bolzan](https://github.com/bolzanMGB) |
 | `1.1`  | 04/05/2025 | Adição do vídeo e dos resultados usuários reais| [Isaque Camargos](https://github.com/isaqzin) | [Othavio Bolzan](https://github.com/bolzanMGB) |
+| `1.2`  | 11/05/2025 | Padronização do arquivo| [Isaque Camargos](https://github.com/isaqzin) | [Othavio Bolzan](https://github.com/bolzanMGB) |
