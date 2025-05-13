@@ -111,7 +111,7 @@ Essa abordagem visa manter o foco constante nos usuários finais, garantindo que
 
 ---
 
-## Referências
+## Referências bibliograficas
 
 Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. Pg 144 - 148. Disponível em: https://aprender3.unb.br/pluginfile.php/3096073/mod_resource/content/2/ihc-ux-%20Personas.pdf. Acesso em: 30 de abril de 2024
 
