@@ -123,7 +123,7 @@ A reunião evidenciou que, apesar de útil em determinadas situações, o aplica
 - Exibir atualizações de funcionalidades.
 
 ## Requisitos Elicitados
-As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados durante a realização desta técnica de elicitação de requisitos.
+As tabelas 4 e 5 listadas a seguir contém os requisitos que foram elicitados durante a realização desta técnica de elicitação de requisitos, identificadas de acordo com a tabela 3.
 
 ## Legendas
 
