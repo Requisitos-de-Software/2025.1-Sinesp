@@ -84,11 +84,34 @@ Paulo Henrique trabalha na área administrativa da Secretaria de Saúde e é res
 - **Frequência de uso do sistema:** Semanal  
 - **Dispositivo utilizado:** Desktop no trabalho e smartphone pessoal  
 
----
-
 > **Nota:** O termo *antiusuário* refere-se a perfis que não utilizam o sistema, seja por desinteresse, dificuldades com tecnologia ou por preferirem alternativas presenciais. Apesar de não fazerem parte dos usuários ativos, sua existência é relevante para compreender resistências à adoção da solução.
 
-## Referências
+---
+
+## Utilização das Personas no Processo de Priorização
+
+As personas elaboradas neste artefato serão utilizadas como ferramenta de apoio ao processo de priorização dos requisitos do sistema. Elas representam diferentes perfis de usuários com base em dados reais, o que contribui para a tomada de decisões mais alinhada às reais necessidades e expectativas do público-alvo.
+
+### Como serão utilizadas
+
+As personas serão utilizadas como critério complementar na priorização dos requisitos, auxiliando na validação das decisões tomadas. A equipe utilizará as características, motivações e frustrações de cada persona como base para avaliar quais funcionalidades oferecem maior valor percebido ao usuário. Dessa forma, será possível balancear a opinião direta dos usuários reais com a representação empática fornecida pelas personas.
+
+### Por que serão utilizadas
+
+A utilização das personas visa fortalecer a confiabilidade da elicitação e priorização dos requisitos. Elas funcionam como um meio adicional de validação das decisões, permitindo uma análise mais empática e centrada no usuário. Assim, buscamos garantir que os requisitos priorizados estejam de fato alinhados às dores, objetivos e comportamentos dos diferentes perfis de usuários do sistema.
+
+### Quando serão utilizadas
+
+As personas serão empregadas principalmente durante as seguintes etapas do projeto:
+- **Durante a priorização de requisitos**: para embasar a escolha dos requisitos mais relevantes, levando em conta as necessidades das personas.
+- **Na validação de funcionalidades**: para verificar se os requisitos priorizados atendem os perfis de usuários representados.
+- **Em revisões iterativas do escopo**: sempre que houver dúvidas sobre a relevância de determinado requisito, as personas serão consultadas como referência.
+
+Essa abordagem visa manter o foco constante nos usuários finais, garantindo que as decisões tomadas durante o desenvolvimento estejam fundamentadas em dados reais e em uma compreensão empática dos usuários.
+
+---
+
+## Referências bibliograficas
 
 Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. Pg 144 - 148. Disponível em: https://aprender3.unb.br/pluginfile.php/3096073/mod_resource/content/2/ihc-ux-%20Personas.pdf. Acesso em: 30 de abril de 2024
 
@@ -101,3 +124,4 @@ Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; B
 | 1.2    | 02/05/2025 | Atualizando as referências | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |
 | 1.3    | 02/05/2025 | Adicionando nova persona, história de cada persona, atualizando dados de cada um | [Lucas Alves](https://github.com/LucasAlves71) |[Isaque Camargos](https://github.com/isaqzin) |
 | 1.4    | 03/05/2025 | Atualização do objetivo com foco em priorização e reformulação da definição de antiusuário | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |
+| 1.5    | 11/05/2025 | Adição da utilização das personas no processo de priorização | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |
