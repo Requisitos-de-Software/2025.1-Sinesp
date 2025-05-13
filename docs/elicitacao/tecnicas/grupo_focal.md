@@ -127,7 +127,7 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
 
 ## Legendas
 
-<p align="center">Tabela 1.1: Legenda dos identificadores</p>
+<p align="center">Tabela 3: Legenda dos identificadores</p>
 
 <div align="center">
     <table>
@@ -158,7 +158,7 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
 
 ## Requisitos Funcionais
 
-<p align="center">Tabela 2: Requisitos funcionais</p>
+<p align="center">Tabela 4: Requisitos funcionais</p>
 
 | Tipo   | Descrição                                                                                             | ID      | Implementado |
 |--------|-------------------------------------------------------------------------------------------------------|---------|--------------|
@@ -177,7 +177,7 @@ As tabelas 2 e 3 listadas a seguir contém os requisitos que foram elicitados du
 
 ## Requisitos Não Funcionais
 
-<p align="center">Tabela 3: Requisitos não funcionais</p>
+<p align="center">Tabela 5: Requisitos não funcionais</p>
 
 | Tipo    | Descrição                                                                                                               | ID      |
 |---------|-------------------------------------------------------------------------------------------------------------------------|---------|
