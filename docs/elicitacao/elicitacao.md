@@ -17,6 +17,7 @@ Legenda das Tabelas:
 - QTx: Requisito Questionário número x;
 - ISx: Requisito da Introspecção número x;
 - GFx: Requisito do Grupo de Foco número x;
+- BSx: Requisto do Brainstorm número x;
 
 ### Funcionais
 
@@ -26,7 +27,7 @@ Legenda das Tabelas:
 |----------|--------------------------------------------------------------------------------------------------------------------|-------------------------------|------------------|
 | <a id="RF01"></a>RF01     | Permitir ao usuário pesquisar e filtrar clínicas e profissionais credenciados por especialidade, região administrativa, tipo de atendimento e proximidade. | [EN01](../elicitacao/tecnicas/entrevista.md#EN01), [EN02](../elicitacao/tecnicas/entrevista.md#EN02), [IS02](../elicitacao/tecnicas/introspeccao.md#IS02), [IS06](../elicitacao/tecnicas/introspeccao.md#IS06), [QT03](../elicitacao/tecnicas/questionario.md#QT03), [QT08](../elicitacao/tecnicas/questionario.md#QT08) | Sim              |
 | <a id="RF02"></a>RF02     | Disponibilizar sistema de avaliação de clínicas com notas e comentários.                                           | [EN03](../elicitacao/tecnicas/entrevista.md#EN03), [GF01](../elicitacao/tecnicas/grupo_focal.md#GF01)                    | Não              |
-| <a id="RF03"></a>RF03     | Exibir carteirinha digital mesmo sem conexão (modo offline) e permitir acesso rápido e estável.                    | [EN04](../elicitacao/tecnicas/entrevista.md#EN04), [IS09](../elicitacao/tecnicas/introspeccao.md#IS09), [QT01](../elicitacao/tecnicas/questionario.md#QT01)              | Não              |
+| <a id="RF03"></a>RF03     | Exibir carteirinha digital mesmo sem conexão (modo offline) e permitir acesso rápido e estável.                    | [EN04](../elicitacao/tecnicas/entrevista.md#EN04), [IS09](../elicitacao/tecnicas/introspeccao.md#IS09), [QT01](../elicitacao/tecnicas/questionario.md#QT01)              | Sim            |
 | RF04     | Enviar notificações configuráveis via app, SMS ou e-mail sobre ven e-mail sobre vencimento de fatura, retornos médicos pendentes, abertura de agenda, cancelamentos de horários, horários favoritos disponíveis, prazos importantes, confirmações ou alterações de agendamento e disponibilidade de demonstrativos de IR. | [EN05](../elicitacao/tecnicas/entrevista.md#EN05), [EN06](../elicitacao/tecnicas/entrevista.md#EN06), [GF02](../elicitacao/tecnicas/grupo_focal.md#GF02), [GF03](../elicitacao/tecnicas/grupo_focal.md#GF03), [GF07](../elicitacao/tecnicas/grupo_focal.md#GF07), [GF10](../elicitacao/tecnicas/grupo_focal.md#GF10), [IS07](../elicitacao/tecnicas/introspeccao.md#IS07), [IS12](../elicitacao/tecnicas/introspeccao.md#IS12), [QT06](../elicitacao/tecnicas/questionario.md#QT06) | Não              |
 | <a id="RF05"></a>RF05     | Permitir agendamento e cancelamento de consultas e exames diretamente pelo aplicativo, com pagamento automático para prestadores da Rede de Atendimento. | [EN07](../elicitacao/tecnicas/entrevista.md#EN07), [GL01](../elicitacao/tecnicas/glossario.md#GL01), [IS01](../elicitacao/tecnicas/introspeccao.md#IS01), [IS05](../elicitacao/tecnicas/introspeccao.md#IS05), [GL06](../elicitacao/tecnicas/glossario.md#GL06)       | Não              |
 | <a id="RF06"></a>RF06     | Exibir valor específico de consulta em cada clínica, aplicar percentuais de coparticipação, gerar e baixar demonstrativos de despesas médicas para imposto de renda, consultar histórico de demonstrativos de IR e mostrar extrato financeiro atualizado diariamente. | [EN08](../elicitacao/tecnicas/entrevista.md#EN08), [GL04](../elicitacao/tecnicas/glossario.md#GL04), [IS10](../elicitacao/tecnicas/introspeccao.md#IS10), [IS11](../elicitacao/tecnicas/introspeccao.md#IS11), [QT02](../elicitacao/tecnicas/questionario.md#QT02), [QT05](../elicitacao/tecnicas/questionario.md#QT05) | Sim              |
@@ -42,9 +43,35 @@ Legenda das Tabelas:
 
 <font size="3"><p style="text-align: center">Fonte: [Matheus de Alcântara](https://github.com/matheusdealcantara) e [Yzabella Miranda](https://github.com/redjsun).</p></font>
 
+### Adição de Novos Requisitos Funcionais 
+
+Para nos adequarmos as exigências da matéria de ter 2 ou mais requisitos funcionais para cada integrante desenvolver as próximas etapas, houve a necessidade de adicionar 6 novos requisitos funcionais.
+
+Para tal fato, o integrante do grupo [Isaque Camargos](https://github.com/isaqzin) teve uma breve conversa com o Professor André no dia 15 de maio de 2025 sobre como proceder e a instrução foi realizar um brainstorm com os integrantes do grupo para adicionar estes novos requisitos e validar posteriormente com os usuários. O professor também indicou a não necessidade de gravação do processo, apenas indicar um cronograma e quais membros se envolveram 
+
+#### Cronograma
+
+Para tal brainstorm a presença dos integrantes [Ana Luiza Soares](https://github.com/Ana-Luiza-SC), [Isaque Camargos](https://github.com/isaqzin), [Kaleb de Souza](https://github.com/kalebmacedo), [Lucas Alves](https://github.com/LucasAlves71), [Matheus de Alcântara](https://github.com/matheusdealcantara), [Othavio Bolzan](https://github.com/bolzanMGB) e [Yzabella Miranda](https://github.com/redjsun) foram constatadas. O Brainstorm ocorreu no dia 15 de maio de 2025 as 12:30.
+
+#### Tabela dos Novos funcionais 
+
+<p align="center">Tabela 2: Novos Requisitos Funcionais</p>
+
+| **Tipo** | **Descrição**                                                                                                      | **Técnicas**                  | **Implementado** |
+|----------|--------------------------------------------------------------------------------------------------------------------|-------------------------------|------------------|
+| RF16     | Disponibilizar calendário personalizado com visualização de consultas agendadas, prazos de carência e vencimentos.| BS01   | Não | 
+| RF17     | Exibir painel com metas de saúde personalizadas (ex: exames periódicos, consultas anuais) com gamificação para incentivar acompanhamento.| BS02   | Não | 
+| RF18    |Permitir denúncias de condutas inadequadas por parte de profissionais da rede credenciada. | BS03   | Não | 
+| RF19    | Permitir login por biometria facial ou digital.| BS04   | Não | 
+| RF20    | Solicitação de reembolso de uma cobrança indevida de coparticipação.  | BS05   | Não | 
+| RF21    | Chatbot para direcionar a especialidade médica necessária| BS06   | Não | 
+
+
+<font size="3"><p style="text-align: center">Fonte: [Ana Luiza Soares](https://github.com/Ana-Luiza-SC), [Isaque Camargos](https://github.com/isaqzin), [Kaleb de Souza](https://github.com/kalebmacedo), [Lucas Alves](https://github.com/LucasAlves71), [Matheus de Alcântara](https://github.com/matheusdealcantara), [Othavio Bolzan](https://github.com/bolzanMGB) e [Yzabella Miranda](https://github.com/redjsun).</p></font>
+
 ### Não funcionais
 
-<p align="center">Tabela 2: Requisitos Não Funcionais</p>
+<p align="center">Tabela 3: Requisitos Não Funcionais</p>
 
 | **Tipo** | **Descrição**                                                                                                      | **Técnicas**                  | **Implementado** |
 |----------|--------------------------------------------------------------------------------------------------------------------|-------------------------------|------------------|
@@ -73,3 +100,4 @@ Legenda das Tabelas:
 |--------|------------|--------------------------------------------------|---------------------|---------------------|
 | 1.0    | 10/04/2025 | Criação da Documentação inicial contendo: A introdução, requisitos e as tabelas dos requisitos funcionais e os não funcionais          | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC), [Othavio Bolzan](https://github.com/bolzanMGB) e [Yzabella Miranda](https://github.com/redjsun)| [Isaque Camargos](https://github.com/isaqzin) |
 | 1.1    | 03/05/2025 | Atualização da tabela com a separação correta de ID e seus respectivos agrupamentos de descrição em comum          | [Yzabella Miranda](https://github.com/redjsun) e [Matheus de Alcântara](https://github.com/matheusdealcantara)| [Isaque Camargos](https://github.com/isaqzin) |
+| 1.2   | 15/05/2025 | Adição de todo o tópico Adição de novos requisitos funcionais | [Isaque Camargos](https://github.com/isaqzin) | [Yzabella Miranda](https://github.com/redjsun)  |
