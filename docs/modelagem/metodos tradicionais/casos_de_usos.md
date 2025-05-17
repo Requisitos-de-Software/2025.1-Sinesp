@@ -70,13 +70,147 @@ colocar foto e breve descrição (rastreavel) dos requisitos que foram trabalhad
 ### COLOCAR A FOTO DO SEU DIAGRAMA DE CASOS DE USO, somente no repositorio mesmo, EM ORDEM DE QUE VAI COLOCAR OS UC's 
  
 ## ANA
+## Descrição casos de uso 
+
+### UC01 – Filtrar redes credenciadas
+
+<p align="center">Tabela 2 - Caso de Uso 1 </p>
+
+| Campo              | Descrição                                                                                                                                       |
+|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| UC01                 |Filtrar redes credenciadas                                                                                                               |
+| Descrição          | Permitir ao usuário buscar clínicas/profissionais do INAS buscando pelo nome ou por meio de filtros como especialidade, região, tipo de atendimento e proximidade. |
+| Ator               | Usuário do aplicativo GDF Saúde                                                                                                                 |
+| Pré-condições      | 1. Conexão com internet. <br>2. Usuário é beneficiário do Plano INAS <br>3. Usuário realizou o cadastro no GDF Saúde                           |
+| Ação               | Usuário aplica os filtros que ele deseja e/ou busca pelo nome da rede credenciada.                                                             |
+| Fluxo principal    | - Usuário abre o aplicativo <br>- Usuário abre a aba de redes credenciadas <br>- Usuário seleciona filtros ou busca por uma rede credenciada <br>- Sistema exibe lista de redes credenciadas correspondentes. |
+| Fluxo alternativo  | - Usuário abre o aplicativo <br>- Usuário abre a aba de redes credenciadas <br>- Usuário não filtra e nem busca pela rede credenciada <br>- São listadas aleatoriamente todas as redes credenciadas |
+| Fluxo de exceção   | - Usuário abre o aplicativo <br>- Usuário abre a aba de redes credenciadas <br>- Usuário seleciona filtros ou busca por uma rede credenciada <br>- Não aparece nenhuma rede credenciada correspondente |
+| Pós-condições      | Lista de redes filtradas é exibida com dados (endereço, telefone, horário).                                                                    |
+| Rastreabilidade    | [RF01]()                                                                                                                                       |
+| Data de criação    | 17/05/2025                                                                                                                                     |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+---
+
+### UC02 – Acessar avaliações das redes credenciadas
+
+<p align="center">Tabela 3 - Caso de Uso 2 </p>
+
+| Campo              | Descrição                                                                                                                                       |
+|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| UC02                 |Acessar avaliações das redes credenciadas                                                                                                |
+| Descrição          | Permitir ao usuário visualizar e dar notas e comentários sobre as redes credenciadas.                                                          |
+| Ator               | Usuário do aplicativo GDF Saúde                                                                                                                 |
+| Pré-condições      | 1. Conexão com internet. <br>2. Usuário é beneficiário do Plano INAS <br>3. Usuário realizou o cadastro no GDF Saúde                           |
+| Ação               | Usuário acessa a seção "Avaliações" da rede desejada.                                                                                           |
+| Fluxo principal    | - Usuário abre o aplicativo <br>- Usuário abre a aba de "Avaliações" <br>- Usuário seleciona filtros ou busca por uma rede credenciada <br>- Sistema exibe as avaliações disponíveis referentes à rede credenciada <br>- O usuário pode avaliar o atendimento |
+| Fluxo alternativo  | - Usuário abre o aplicativo <br>- Usuário abre a aba de "Avaliações" <br>- Não filtra e nem busca pela rede credenciada <br>- Sistema exibe as avaliações disponíveis referentes à rede credenciada <br>- O usuário pode avaliar o atendimento |
+| Fluxo de exceção   | - Usuário abre o aplicativo <br>- Usuário abre a aba de "Avaliações" <br>- Usuário seleciona filtros ou busca por uma rede credenciada <br>- Não aparece nenhuma rede credenciada correspondente |
+| Pós-condições      | Avaliações são exibidas ou opção de registrar nova avaliação.                                                                                  |
+| Rastreabilidade    | [RF02]()                                                                                                                                       |
+| Data de criação    | 17/05/2025                                                                                                                                     |
+
+<p align="center">Fonte: Autoria de <a src="https://github.com/Ana-Luiza-SC" targe="_blank">Ana Luiza Soares</a></p>
+
+---
+
+### UC03 – Iniciar conversa com chatbot de triagem
+
+<p align="center">Tabela 4 - Caso de Uso 3 </p>
+
+| Campo              | Descrição                                                                                                                                       |
+|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| UC03                 |Iniciar conversa com chatbot de triagem                                                                                                  |
+| Descrição          | Permitir ao usuário interagir com chatbot para identificar especialidade médica adequada                                                       |
+| Ator               | Usuário do aplicativo GDF Saúde                                                                                                                 |
+| Pré-condições      | 1. Conexão com internet. <br>2. Usuário é beneficiário do Plano INAS                                                                            |
+| Ação               | Usuário inicia conversa e descreve sintomas                                                                                                     |
+| Fluxo principal    | - Usuário abre o aplicativo <br>- Usuário seleciona a opção "Chatbot de Saúde" <br>- Sistema exibe tela inicial do chatbot <br>- Usuário descreve sintomas <br>- Chatbot analisa e sugere especialidade médica <br>- Sistema pede confirmação ao usuário posteriormente para análise de desempenho |
+| Fluxo alternativo  | - Usuário abre o aplicativo <br>- Usuário seleciona a opção "Chatbot de Saúde" <br>- Sistema exibe tela inicial do chatbot <br>- Usuário tem dúvidas ou fornece informações vagas <br>- Chatbot recomenda buscar hospital para melhor triagem |
+| Fluxo de exceção   | - Usuário abre o aplicativo <br>- Usuário seleciona a opção "Chatbot de Saúde" <br>- Inicia a conversa <br>- Chatbot redireciona para especialidade médica incorreta |
+| Pós-condições      | Especialidade médica identificada corretamente e confirmado o desempenho do chatbot posteriormente                                              |
+| Rastreabilidade    | [RF21]()                                                                                                                                       |
+| Data de criação    | 17/05/2025                                                                                                                                     |
+
+<p align="center">Fonte: Autoria de <a src="https://github.com/Ana-Luiza-SC" targe="_blank">Ana Luiza Soares</a></p>
+
+---
+
+### UC04 – Acessar sistema com facilidade
+
+<p align="center">Tabela 5 - Caso de Uso 4 </p>
+
+| Campo              | Descrição                                                                                                                                       |
+|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| UC04                 | Acessar sistema com facilidade                                                                                                           |
+| Descrição          | Garantir interface intuitiva e acessível para todos os usuários                                                                                 |
+| Ator               | Usuário do aplicativo GDF Saúde                                                                                                                 |
+| Pré-condições      | 1. Conexão com internet <br>2. Usuário é beneficiário do Plano INAS <br>3. Aplicativo instalado no dispositivo                                  |
+| Ação               | Usuário abre o aplicativo e navega pelas funcionalidades com facilidade                                                                         |
+| Fluxo principal    | - Usuário abre o aplicativo <br>- Sistema carrega tela inicial em até 2 segundos <br>- Menu principal com ícones intuitivos é exibido <br>- Usuário navega entre as opções sem dificuldades |
+| Fluxo alternativo  | - Usuário abre o aplicativo <br>- Tem dificuldade com alguma funcionalidade <br>- Sistema oferece opção "Ajuda" <br>- Usuário acessa tutorial integrado |
+| Fluxo de exceção   | - Usuário abre o aplicativo <br>- Não consegue acessar as funcionalidades <br>- Não consegue acessar os tutoriais <br>- Não fica satisfeito com o aplicativo |
+| Pós-condições      | Acesso às funcionalidades realizado com sucesso OU tutorial consultado para solução de dúvidas suficiente                                       |
+| Rastreabilidade    | [RNF01]()                                                                                                                                      |
+| Data de criação    | 17/05/2025                                                                                                                                     |
+
+<p align="center">Fonte: Autoria de <a src="https://github.com/Ana-Luiza-SC" targe="_blank">Ana Luiza Soares</a></p>
+
+---
+
+### UC05 – Garantir desempenho do sistema
+
+<p align="center">Tabela 6 - Caso de Uso 5 </p>
+
+| Campo              | Descrição                                                                                                                                       |
+|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| UC05                 | Garantir desempenho do sistema                                                                                                           |
+| Descrição          | Assegurar que todas as funcionalidades respondam em até 2 segundos                                                                             |
+| Ator               | Usuário do aplicativo GDF Saúde                                                                                                                 |
+| Pré-condições      | 1. Conexão estável com internet <br>2. Usuário é beneficiário do Plano INAS <br>3. Aplicativo atualizado                                       |
+| Ação               | Usuário interage com as funcionalidades do aplicativo                                                                                           |
+| Fluxo principal    | - Usuário seleciona qualquer funcionalidade <br>- Sistema processa a requisição <br>- Resposta é exibida em até 2 segundos                      |
+| Fluxo alternativo  | - Usuário seleciona funcionalidade <br>- Tempo excede 2 segundos <br>- Sistema exibe ícone de carregamento <br>- Completa ação em até 5 segundos |
+| Fluxo de exceção   | - Usuário seleciona funcionalidade <br>- Sistema não responde após 5 segundos <br>- Exibe mensagem "Problema de conexão"                        |
+| Pós-condições      | Funcionalidade acessada dentro do tempo esperado                                                                                                |
+| Rastreabilidade    | [RNF02]()                                                                                                                                      |
+| Data de criação    | 17/05/2025                                                                                                                                     |
+
+<p align="center">Fonte: Autoria de <a src="https://github.com/Ana-Luiza-SC" targe="_blank">Ana Luiza Soares</a></p>
+
+---
+
+### UC06 – Garantir segurança no uso do sistema
+
+<p align="center">Tabela 7 - Caso de Uso 6 </p>
+
+| Campo              | Descrição                                                                                                                                       |
+|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| UC06                 | Garantir segurança no uso do sistema                                                                                                     |
+| Descrição          | Assegurar acesso seguro às funcionalidades com proteção de dados e conformidade LGPD                                                           |
+| Ator               | Usuário do aplicativo GDF Saúde                                                                                                                 |
+| Pré-condições      | 1. Conexão segura (HTTPS) <br>2. Usuário cadastrado no INAS <br>3. Dispositivo compatível                                                       |
+| Ação               | Usuário realiza autenticação para acessar o sistema                                                                                             |
+| Fluxo principal    | - Usuário insere credenciais <br>- Sistema solicita segundo fator de autenticação <br>- Validação bem-sucedida <br>- Acesso concedido com criptografia de dados |
+| Fluxo alternativo  | - Usuário falha na autenticação <br>- Sistema oferece: "Recuperar acesso" ou "Tentar novamente" <br>- Redireciona para fluxo de recuperação    |
+| Fluxo de exceção   | - Múltiplas tentativas falhas <br>- Sistema bloqueia acesso temporariamente <br>- Notifica ANPD em caso de violação de dados <br>- Envia alerta para o usuário |
+| Pós-condições      | Acesso seguro concedido                                                                                                                         |
+| Rastreabilidade    | [RNF03]()                                                                                                                                      |
+| Data de criação    | 17/05/2025                                                                                                                                     |
+
+<p align="center">Fonte: Autoria de <a src="https://github.com/Ana-Luiza-SC" targe="_blank">Ana Luiza Soares</a></p>
+
+---
 
 ## ISAQUE
-### UC01 – Fazer login
+### UC07 – Fazer login
+<p align="center">Tabela 8 - Caso de Uso 7 </p>
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
-|UC01            |  Fazer login                                                        |
+|UC07            |  Fazer login                                                        |
 | Descrição          | Permitir que o usuário acesse o app com e-mail/CPF e senha.               |
 | Ator               | Usuário cadastrado                                                        |
 | Pré-condições      | App instalado e com conexão à internet.                                   |
@@ -88,13 +222,15 @@ colocar foto e breve descrição (rastreavel) dos requisitos que foram trabalhad
 | Rastreabilidade    |                                                                           |
 | Data de criação    | 15/05/2025                                                                |
 
+<p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
 ---
 
-### UC02 – Login por biometria
+### UC08 – Login por biometria
+<p align="center">Tabela 9 - Caso de Uso 8 </p>
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
-| UC02                 |  Login por biometria                                                |
+| UC08                 |  Login por biometria                                                |
 | Descrição          | Permitir login via impressão digital ou reconhecimento facial.            |
 | Ator               | Usuário cadastrado                                                        |
 | Pré-condições      | Dispositivo com sensor biométrico, usuário já logado ao menos uma vez.    |
@@ -108,11 +244,13 @@ colocar foto e breve descrição (rastreavel) dos requisitos que foram trabalhad
 
 ---
 
-### UC03 – Baixar carteirinha
+### UC09 – Baixar carteirinha
+
+<p align="center">Tabela 10 - Caso de Uso 9 </p>
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
-| UC03                 | Baixar carteirinha                                                 |
+| UC09                 | Baixar carteirinha                                                 |
 | Descrição          | Permitir download da carteirinha digital para uso offline.                |
 | Ator               | Usuário autenticado                                                       |
 | Pré-condições      | Conexão com internet e usuário logado.                                    |
@@ -124,13 +262,16 @@ colocar foto e breve descrição (rastreavel) dos requisitos que foram trabalhad
 | Rastreabilidade    |                                                                           |
 | Data de criação    | 15/05/2025                                                                |
 
+<p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
+
 ---
 
-### UC04 – Configurar notificações
+### UC10 – Configurar notificações
+<p align="center">Tabela 11 - Caso de Uso 10 </p>
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
-| UC04 –                 |  Configurar notificações                                            |
+| UC10                 |  Configurar notificações                                            |
 | Descrição          | Permitir ao usuário selecionar tipos e canais de notificações.            |
 | Ator               | Usuário autenticado                                                       |
 | Pré-condições      | Login realizado com sucesso.                                              |
@@ -141,6 +282,8 @@ colocar foto e breve descrição (rastreavel) dos requisitos que foram trabalhad
 | Pós-condições      | Preferências de notificação atualizadas.                                  |
 | Rastreabilidade    |                                                                           |
 | Data de criação    | 15/05/2025                                                                |
+
+<p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
 
 ---
 
@@ -160,6 +303,8 @@ colocar foto e breve descrição (rastreavel) dos requisitos que foram trabalhad
 | Rastreabilidade    |                                                                           |
 | Data de criação    | 15/05/2025                                                                |
 
+<p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
+
 ---
 
 ### UC06 – Solicitar autorização de urgência/emergência
@@ -177,6 +322,8 @@ colocar foto e breve descrição (rastreavel) dos requisitos que foram trabalhad
 | Pós-condições      | Autorização registrada, atendimento liberado.                             |
 | Rastreabilidade    |                                                                           |
 | Data de criação    | 15/05/2025                                                                |
+
+<p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
 
 ---
 
