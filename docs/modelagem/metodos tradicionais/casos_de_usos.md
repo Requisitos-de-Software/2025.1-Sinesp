@@ -76,10 +76,8 @@ Com foco nos diagramas de caso de uso, a Tabela 1 apresenta os principais elemen
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Yzabella Miranda</a></p>
 
 ### Diagramas de caso de uso
-As figuras x a y representam as especializações dos casos de uso.
+As figuras 1 a 8 representam as especializações dos casos de uso.
 
-
-### ANA
 <p align="center">Figura 1 - Caso de uso UC01 a UC03 </p>
 <p align="center">
   <img src="../assets/casos-uso/casos-uso-ana-rf.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
@@ -94,7 +92,6 @@ As figuras x a y representam as especializações dos casos de uso.
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
-### ISAQUE
 <p align="center">Figura 3 - Caso de uso UC07 a UC12 </p>
 <p align="center">
   <img src="../assets/casos-uso//casos-uso-isaque.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
@@ -103,7 +100,6 @@ As figuras x a y representam as especializações dos casos de uso.
 <p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
 
 
-### KALEB
 <p align="center">Figura 4 - Caso de uso UC13 a UC20 </p>
 <p align="center">
   <img src="../assets/casos-uso/casos-uso-kaleb.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
@@ -111,7 +107,7 @@ As figuras x a y representam as especializações dos casos de uso.
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo" target="_blank">Kaleb Macedo</a></p>
 
-### LUCAS
+
 <p align="center">Figura 5 - Caso de uso UC21 a UC26 </p>
 <p align="center">
   <img src="../assets/casos-uso/casos-uso-lucas.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
@@ -120,7 +116,6 @@ As figuras x a y representam as especializações dos casos de uso.
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71" target="_blank">Lucas Alves</a></p>
 
 
-### MATHEUS
 <p align="center">Figura 6 - Caso de uso UC27 a UC31 </p>
 <p align="center">
   <img src="../assets/casos-uso/casos-uso-matheus.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
@@ -128,18 +123,14 @@ As figuras x a y representam as especializações dos casos de uso.
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara" target="_blank" >Matheus de Alcântara</a></p>
 
-
-### OTHAVIO
-<p align="center">Figura 7 - Caso de uso UCxx a UCyy </p>
+<p align="center">Figura 7 - Caso de uso UC32 a UC34 </p>
 <p align="center">
   <img src="../assets/casos-uso/casos-uso-othavio.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71" target="_blank">Lucas Alves</a></p>
 
-
-### YZA
-<p align="center">Figura 8 - Caso de uso UCxx a UCyy </p>
+<p align="center">Figura 8 - Caso de uso UC35 a UC38 </p>
 <p align="center">
   <img src="../assets/casos-uso/casos-uso-yza.png" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
@@ -152,7 +143,7 @@ As figuras x a y representam as especializações dos casos de uso.
 
 ### UC01 – Filtrar redes credenciadas
 
-<p align="center">Tabela 2 - Caso de Uso 1 </p>
+<p align="center">Tabela 3 - Caso de Uso 1 </p>
 
 | Campo              | Descrição                                                                                                                                       |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -165,7 +156,7 @@ As figuras x a y representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Usuário abre o aplicativo <br>- Usuário abre a aba de redes credenciadas <br>- Usuário não filtra e nem busca pela rede credenciada <br>- São listadas aleatoriamente todas as redes credenciadas |
 | Fluxo de exceção   | - Usuário abre o aplicativo <br>- Usuário abre a aba de redes credenciadas <br>- Usuário seleciona filtros ou busca por uma rede credenciada <br>- Não aparece nenhuma rede credenciada correspondente |
 | Pós-condições      | Lista de redes filtradas é exibida com dados (endereço, telefone, horário).                                                                    |
-| Rastreabilidade    | [RF01]()                                                                                                                                       |
+| Rastreabilidade    | [RF01](../../elicitacao/elicitacao.md#RNF01)                                                                                                                                      |
 | Data de criação    | 17/05/2025                                                                                                                                     |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
@@ -174,7 +165,7 @@ As figuras x a y representam as especializações dos casos de uso.
 
 ### UC02 – Acessar avaliações das redes credenciadas
 
-<p align="center">Tabela 3 - Caso de Uso 2 </p>
+<p align="center">Tabela 4 - Caso de Uso 2 </p>
 
 | Campo              | Descrição                                                                                                                                       |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -187,7 +178,7 @@ As figuras x a y representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Usuário abre o aplicativo <br>- Usuário abre a aba de "Avaliações" <br>- Não filtra e nem busca pela rede credenciada <br>- Sistema exibe as avaliações disponíveis referentes à rede credenciada <br>- O usuário pode avaliar o atendimento |
 | Fluxo de exceção   | - Usuário abre o aplicativo <br>- Usuário abre a aba de "Avaliações" <br>- Usuário seleciona filtros ou busca por uma rede credenciada <br>- Não aparece nenhuma rede credenciada correspondente |
 | Pós-condições      | Avaliações são exibidas ou opção de registrar nova avaliação.                                                                                  |
-| Rastreabilidade    | [RF02]()                                                                                                                                       |
+| Rastreabilidade    | [RF02](../../elicitacao/elicitacao.md#RF02)()                                                                                                                                       |
 | Data de criação    | 17/05/2025                                                                                                                                     |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/Ana-Luiza-SC" targe="_blank">Ana Luiza Soares</a></p>
@@ -196,7 +187,7 @@ As figuras x a y representam as especializações dos casos de uso.
 
 ### UC03 – Iniciar conversa com chatbot de triagem
 
-<p align="center">Tabela 4 - Caso de Uso 3 </p>
+<p align="center">Tabela 5 - Caso de Uso 3 </p>
 
 | Campo              | Descrição                                                                                                                                       |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -209,7 +200,7 @@ As figuras x a y representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Usuário abre o aplicativo <br>- Usuário seleciona a opção "Chatbot de Saúde" <br>- Sistema exibe tela inicial do chatbot <br>- Usuário tem dúvidas ou fornece informações vagas <br>- Chatbot recomenda buscar hospital para melhor triagem |
 | Fluxo de exceção   | - Usuário abre o aplicativo <br>- Usuário seleciona a opção "Chatbot de Saúde" <br>- Inicia a conversa <br>- Chatbot redireciona para especialidade médica incorreta |
 | Pós-condições      | Especialidade médica identificada corretamente e confirmado o desempenho do chatbot posteriormente                                              |
-| Rastreabilidade    | [RF21]()                                                                                                                                       |
+| Rastreabilidade    | RF21()                                                                                                                                       |
 | Data de criação    | 17/05/2025                                                                                                                                     |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/Ana-Luiza-SC" targe="_blank">Ana Luiza Soares</a></p>
@@ -218,7 +209,7 @@ As figuras x a y representam as especializações dos casos de uso.
 
 ### UC04 – Acessar sistema com facilidade
 
-<p align="center">Tabela 5 - Caso de Uso 4 </p>
+<p align="center">Tabela 6 - Caso de Uso 4 </p>
 
 | Campo              | Descrição                                                                                                                                       |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -231,7 +222,7 @@ As figuras x a y representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Usuário abre o aplicativo <br>- Tem dificuldade com alguma funcionalidade <br>- Sistema oferece opção "Ajuda" <br>- Usuário acessa tutorial integrado |
 | Fluxo de exceção   | - Usuário abre o aplicativo <br>- Não consegue acessar as funcionalidades <br>- Não consegue acessar os tutoriais <br>- Não fica satisfeito com o aplicativo |
 | Pós-condições      | Acesso às funcionalidades realizado com sucesso OU tutorial consultado para solução de dúvidas suficiente                                       |
-| Rastreabilidade    | [RNF01]()                                                                                                                                      |
+| Rastreabilidade    | [RNF01](../../elicitacao/elicitacao.md#RNF03)                                                                                                                                      |
 | Data de criação    | 17/05/2025                                                                                                                                     |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/Ana-Luiza-SC" targe="_blank">Ana Luiza Soares</a></p>
@@ -240,7 +231,7 @@ As figuras x a y representam as especializações dos casos de uso.
 
 ### UC05 – Garantir desempenho do sistema
 
-<p align="center">Tabela 6 - Caso de Uso 5 </p>
+<p align="center">Tabela 7 - Caso de Uso 5 </p>
 
 | Campo              | Descrição                                                                                                                                       |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -253,7 +244,7 @@ As figuras x a y representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Usuário seleciona funcionalidade <br>- Tempo excede 2 segundos <br>- Sistema exibe ícone de carregamento <br>- Completa ação em até 5 segundos |
 | Fluxo de exceção   | - Usuário seleciona funcionalidade <br>- Sistema não responde após 5 segundos <br>- Exibe mensagem "Problema de conexão"                        |
 | Pós-condições      | Funcionalidade acessada dentro do tempo esperado                                                                                                |
-| Rastreabilidade    | [RNF02]()                                                                                                                                      |
+| Rastreabilidade    | [RNF02](../../elicitacao/elicitacao.md#RNF02)                                                                                                                                      |
 | Data de criação    | 17/05/2025                                                                                                                                     |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/Ana-Luiza-SC" targe="_blank">Ana Luiza Soares</a></p>
@@ -262,7 +253,7 @@ As figuras x a y representam as especializações dos casos de uso.
 
 ### UC06 – Garantir segurança no uso do sistema
 
-<p align="center">Tabela 7 - Caso de Uso 6 </p>
+<p align="center">Tabela 8 - Caso de Uso 6 </p>
 
 | Campo              | Descrição                                                                                                                                       |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -275,7 +266,7 @@ As figuras x a y representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Usuário falha na autenticação <br>- Sistema oferece: "Recuperar acesso" ou "Tentar novamente" <br>- Redireciona para fluxo de recuperação    |
 | Fluxo de exceção   | - Múltiplas tentativas falhas <br>- Sistema bloqueia acesso temporariamente <br>- Notifica ANPD em caso de violação de dados <br>- Envia alerta para o usuário |
 | Pós-condições      | Acesso seguro concedido                                                                                                                         |
-| Rastreabilidade    | [RNF03]()                                                                                                                                      |
+| Rastreabilidade    | [RNF03](../../elicitacao/elicitacao.md#RNF03)                                                                                                                                    |
 | Data de criação    | 17/05/2025                                                                                                                                     |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/Ana-Luiza-SC" targe="_blank">Ana Luiza Soares</a></p>
@@ -284,7 +275,7 @@ As figuras x a y representam as especializações dos casos de uso.
 
 ## ISAQUE
 ### UC07 – Fazer login
-<p align="center">Tabela 8 - Caso de Uso 7 </p>
+<p align="center">Tabela 9 - Caso de Uso 7 </p>
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
@@ -304,7 +295,7 @@ As figuras x a y representam as especializações dos casos de uso.
 ---
 
 ### UC08 – Login por biometria
-<p align="center">Tabela 9 - Caso de Uso 8 </p>
+<p align="center">Tabela 10 - Caso de Uso 8 </p>
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
@@ -324,7 +315,7 @@ As figuras x a y representam as especializações dos casos de uso.
 
 ### UC09 – Baixar carteirinha
 
-<p align="center">Tabela 10 - Caso de Uso 9 </p>
+<p align="center">Tabela 11 - Caso de Uso 9 </p>
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
@@ -345,7 +336,7 @@ As figuras x a y representam as especializações dos casos de uso.
 ---
 
 ### UC10 – Configurar notificações
-<p align="center">Tabela 11 - Caso de Uso 10 </p>
+<p align="center">Tabela 12 - Caso de Uso 10 </p>
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
@@ -366,10 +357,11 @@ As figuras x a y representam as especializações dos casos de uso.
 ---
 
 ### UC11 – Enviar notificações
+<p align="center">Tabela 13 - Caso de Uso 11 </p>
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
-| UC05                 |  Enviar notificações                                                |
+| UC11                 |  Enviar notificações                                                |
 | Descrição          | Enviar notificações com base nas preferências do usuário.                 |
 | Ator               | Serviços de notificação                                 |
 | Pré-condições      | Configurações de notificação existentes e evento ativador.                |
@@ -386,10 +378,11 @@ As figuras x a y representam as especializações dos casos de uso.
 ---
 
 ### UC12 – Solicitar autorização de urgência/emergência
+<p align="center">Tabela 14 - Caso de Uso 12 </p>
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
-| UC06                 |  Solicitar autorização de urgência/emergência                      |
+| UC12                 |  Solicitar autorização de urgência/emergência                      |
 | Descrição          | Permitir que profissionais de saúde solicitem autorização em tempo real. |
 | Ator               | Profissional de saúde e INAS                                   |
 | Pré-condições      | Sistema disponível e login realizado.                                     |
@@ -409,10 +402,11 @@ As figuras x a y representam as especializações dos casos de uso.
 
 ## KALEB
 ### UC13 – Agendar consulta ou exame
+<p align="center">Tabela 15 - Caso de Uso 13 </p>
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| UC                | UC01 - Agendar consulta ou exame                                                                   |
+| UC13                | - Agendar consulta ou exame                                                                   |
 | Descrição         | Permitir que o titular agende uma consulta ou exame com prestadores credenciados via aplicativo, com pagamento automático integrado. |
 | Ator              | Titular do plano de saúde                                                                           |
 | Pré-condições     | 1. Titular autenticado no aplicativo <br> 2. Estar com plano de saúde ativo <br> 3. Ter conexão com internet |
@@ -429,13 +423,13 @@ As figuras x a y representam as especializações dos casos de uso.
 
 ---
 
-<p align="center">Tabela x - Caso de Uso y </p>
-
 ### UC14 – Cancelar consulta ou exame
+
+<p align="center">Tabela 16 - Caso de Uso 14 </p>
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| UC                | UC02 - Cancelar consulta ou exame                                                                  |
+| UC14                | Cancelar consulta ou exame                                                                  |
 | Descrição         | Permitir que o titular cancele um agendamento de consulta ou exame feito anteriormente pelo aplicativo. |
 | Ator              | Titular do plano de saúde                                                                           |
 | Pré-condições     | 1. Titular autenticado no aplicativo <br> 2. Existir um agendamento ativo para consulta ou exame <br> 3. Conexão com internet |
@@ -452,13 +446,13 @@ As figuras x a y representam as especializações dos casos de uso.
 
 ---
 
-<p align="center">Tabela x - Caso de Uso y </p>
-
 ### UC15 – Visualizar valor da consulta
+
+<p align="center">Tabela 17 - Caso de Uso 15 </p>
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| UC                | UC03 - Visualizar valor da consulta                                                                |
+| UC15                | Visualizar valor da consulta                                                                |
 | Descrição         | Permitir que o titular visualize o valor exato de uma consulta em uma clínica específica, considerando a aplicação automática de coparticipação. |
 | Ator              | Titular do plano de saúde                                                                           |
 | Pré-condições     | 1. Estar autenticado no aplicativo <br> 2. Ter plano de saúde ativo <br> 3. Conexão com internet     |
@@ -473,17 +467,15 @@ As figuras x a y representam as especializações dos casos de uso.
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo
 
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
-
 ---
-
-<p align="center">Tabela x - Caso de Uso y </p>
 
 ### UC16 – Gerar demonstrativo de IR
 
-| Campo             | Descrição                                                                                          |
+<p align="center">Tabela 18 - Caso de Uso 16 </p>
+
+| Campo             | Descrição             |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| UC                | UC04 - Gerar demonstrativo de IR                                                                   |
+| UC16                | Gerar demonstrativo de IR                                                                   |
 | Descrição         | Permitir que o titular gere um demonstrativo com os dados de despesas médicas para fins de declaração do Imposto de Renda. |
 | Ator              | Titular do plano de saúde                                                                           |
 | Pré-condições     | 1. Titular autenticado <br> 2. Existência de despesas médicas registradas no sistema <br> 3. Conexão ativa com internet |
@@ -500,9 +492,9 @@ As figuras x a y representam as especializações dos casos de uso.
 
 ---
 
-<p align="center">Tabela x - Caso de Uso y </p>
-
 ### UC17 – Visualizar histórico de IR
+
+<p align="center">Tabela 19 - Caso de Uso 17 </p>
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
@@ -523,9 +515,8 @@ As figuras x a y representam as especializações dos casos de uso.
 
 ---
 
-<p align="center">Tabela x - Caso de Uso y </p>
-
 ### UC18 – Visualizar painel de metas
+<p align="center">Tabela 20 - Caso de Uso 18 </p>
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
@@ -546,9 +537,8 @@ As figuras x a y representam as especializações dos casos de uso.
 
 ---
 
-<p align="center">Tabela x - Caso de Uso y </p>
-
 ### UC19 – Solicitar autorização
+<p align="center">Tabela 21 - Caso de Uso 19 </p>
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
@@ -569,9 +559,8 @@ As figuras x a y representam as especializações dos casos de uso.
 
 ---
 
-<p align="center">Tabela x - Caso de Uso y </p>
-
 ### UC20 – Verificar conformidade com LGPD
+<p align="center">Tabela 22 - Caso de Uso 20 </p>
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
@@ -586,9 +575,10 @@ As figuras x a y representam as especializações dos casos de uso.
 | Pós-condições     | O sistema garante que as operações executadas seguem as exigências legais e mantém rastreamento das ações realizadas |
 | Rastreabilidade   | RNF07                                                                                              |
 | Data de criação   | 17/05/2025                                                                                          |
-
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
 
 ## LUCAS
+<p align="center">Tabela 23 - Caso de Uso 21 </p>
 
 ###  UC21 – Cadastrar titulares, dependentes e optantes
 | Campo | Descrição |
@@ -610,11 +600,9 @@ As figuras x a y representam as especializações dos casos de uso.
 
 ---
 
-<p  align="center">Tabela x - Caso de Uso y </p>
-
 
 ###  UC22 – Verificar procedimentos para autorização
-
+<p align="center">Tabela 24 - Caso de Uso 22 </p>
   
 
 | Campo | Descrição |
@@ -636,18 +624,11 @@ As figuras x a y representam as especializações dos casos de uso.
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
-  
-
 ---
 
-  
-
-<p  align="center">Tabela x - Caso de Uso y </p>
-
-  
 
 ###  UC23 – Visualizar calendário personalizado
-
+<p align="center">Tabela 25 - Caso de Uso 23 </p>
   
 
 | Campo | Descrição |
@@ -664,24 +645,13 @@ As figuras x a y representam as especializações dos casos de uso.
 | Rastreabilidade | RF16 |
 | Data de criação | 17/05/2025 |
 
-  
-  
-  
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
-  
-
----
-
-  
-
-<p  align="center">Tabela x - Caso de Uso y </p>
-
-  
+--- 
 
 ###  UC24 – Registrar denúncia contra profissional
-
+<p align="center">Tabela 26 - Caso de Uso 24 </p>
   
 
 | Campo | Descrição |
@@ -698,24 +668,12 @@ As figuras x a y representam as especializações dos casos de uso.
 | Rastreabilidade | RF18 |
 | Data de criação | 17/05/2025 |
 
-  
-  
-  
-
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71">Lucas Alves</a></p>
-
-  
 
 ---
 
-  
-
-<p  align="center">Tabela x - Caso de Uso y </p>
-
-  
-
 ###  UC25 – Comunicar com folha de pagamento do GDF
-
+<p align="center">Tabela 27 - Caso de Uso 25 </p>
   
 
 | Campo | Descrição |
@@ -732,29 +690,17 @@ As figuras x a y representam as especializações dos casos de uso.
 | Rastreabilidade | RNF09 |
 | Data de criação | 17/05/2025 |
 
-  
-  
-  
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
-  
-
 ---
 
-  
-
-<p  align="center">Tabela x - Caso de Uso y </p>
-
-  
-
 ###  UC26 – Acesso rápido à carteirinha digital
-
-  
+<p align="center">Tabela 28 - Caso de Uso 26 </p>
 
 | Campo | Descrição |
 |  -----------------  |  -------------------------------------------------------------------------------------------------------------------  |
-| UC | UC07 - Acesso rápido à carteirinha digital |
+| UC26 | Acesso rápido à carteirinha digital |
 | Descrição | Garantir que a carteirinha digital esteja acessível em até três cliques ou no máximo dois a partir da tela inicial. |
 | Ator | Titular |
 | Pré-condições | 1. Aplicativo instalado <br> 2. Titular autenticado |
@@ -766,23 +712,19 @@ As figuras x a y representam as especializações dos casos de uso.
 | Rastreabilidade | RNF10 |
 | Data de criação | 17/05/2025 |
 
-  
-  
-  
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71">Lucas Alves</a></p>
-
-  
 
 ---
 
 ## MATHEUS
 
 ### UC27 - Visualizar Histórico de Guias
+<p align="center">Tabela 29 - Caso de Uso 27 </p>
 
 | Campo | Descrição |
 |-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| UCXX | Visualizar histórico de guias |
+| UC27 | Visualizar histórico de guias |
 | Descrição | O caso de uso possibilita ao usuário visualizar seu histórico de guias, incluindo consultas médicas, exames realizados, resultados de exames laboratoriais e coparticipações, de forma organizada e acessível no GDF Saúde. |
 | Ator | Usuário cadastrado no plano de saúde GDF Saúde. |
 | Pré-condições | O GDF Saúde deve conter registros de saúde do usuário. |
@@ -792,85 +734,99 @@ As figuras x a y representam as especializações dos casos de uso.
 | Fluxo de Exceção | FE1. Erro Técnico: No passo 1, caso ocorra um erro técnico, o sistema exibe "Erro ao carregar histórico" e oferece opções de tentar novamente ou contatar o suporte. Finaliza fluxo. |
 | Pós-condições | O usuário visualizou seu histórico de saúde. |
 | Rastreabilidade | |
-| Data de Criação | 15/05 |
-
-<p  align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
-
-### UC28 - Favoritar Horários de Consulta
-
-| Campo                | Descrição                                                                                                                                                                                                                                                                                                                                                           |
-|----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| UCXX                 | Favoritar Horários de Consulta                                                                                                                                                                                                                                                                                                                                      |
-| Descrição            | Permite ao usuário marcar horários preferidos para agendamentos futuros no GDF Saúde, facilitando agendamentos com rapidez e conveniência.                                                                                                                                                                                                                          |
-| Ator                 | Usuário cadastrado no plano de saúde GDF Saúde.                                                                                                                                                                                                                                                                                                                     |
-| Pré-condições        | O GDF Saúde deve exibir horários disponíveis para consulta.                                                                                                                                                                                                                                                                                                         |
-| Ação                 | O usuário acessa a seção de agendamento, seleciona horários para favoritar e confirma a ação.                                                                                                                                                                                                                                |
-| Fluxo Básico         | 1. O sistema exibe horários disponíveis.<br>2. O usuário seleciona horários para favoritar.<br>3. O usuário confirma a ação.<br>4. O sistema salva os horários na lista de favoritos.<br>5. Finaliza caso de uso.                                                                                                            |
-| Fluxo Alternativo    | FA1. Horário Indisponível:<br>- Se um horário selecionado estiver indisponível, o sistema notifica "Horário não disponível" e remove-o da seleção.<br>- O sistema retoma ao passo 2 do fluxo básico.                                                                                                                         |
-| Fluxo de Exceção     | FE1. Erro Técnico:<br>- Se ocorrer erro ao salvar, o sistema exibe "Erro ao salvar horário" e oferece opção de tentar novamente.<br>- Finaliza fluxo.                                                                                                                                |
-| Pós-condições        | Os horários favoritados estão salvos no perfil do usuário.                                                                                                                                                                                                                                                                                                          |
-| Rastreabilidade      |                                                                                                                                                                                                                                                                                                                                                                      |
-| Data de Criação      | 15/05                                                                                                                                                                                                                                                                                                                                                               |
-<p  align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
-
-### UC29 - Solicitação de reembolso de cobrança indevida
-
-| Campo                | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| UCXX                 | Solicitação de Reembolso de Cobrança Indevida                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Descrição            | Permite ao usuário solicitar reembolso de valores cobrados indevidamente no GDF Saúde, fornecendo justificativa e documentos para análise, garantindo um processo transparente e eficiente.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Ator                 | Usuário cadastrado no plano de saúde GDF Saúde.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Pré-condições        | 1. O usuário deve ter uma cobrança registrada no GDF Saúde.<br>2. A solicitação deve ser feita dentro de 30 dias da cobrança indevida.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Ação                 | O usuário acessa a seção de reembolso, seleciona a cobrança indevida, preenche justificativa, anexa documentos e envia a solicitação para análise.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Fluxo Básico         | 1. O sistema exibe uma lista de cobranças recentes.<br>2. O usuário seleciona a cobrança indevida.<br>3. O sistema apresenta formulário para justificativa e anexos.<br>4. O usuário preenche justificativa e anexa documentos.<br>5. O sistema valida e envia a solicitação.<br>6. O sistema notifica o usuário.<br>7. Finaliza caso de uso.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| Fluxo Alternativo    | FA1. Documentação Incompleta:<br>- No passo 4, se a documentação estiver incompleta, o sistema solicita os arquivos faltantes.<br>- O usuário anexa os documentos adicionais.<br>- O sistema retoma ao passo 5.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Fluxo de Exceção     | FE1. Erro Técnico:<br>- No passo 5, caso ocorra erro técnico, o sistema exibe "Erro ao enviar solicitação" e oferece opção de tentar novamente.<br>- Finaliza fluxo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Pós-condições        | A solicitação de reembolso foi registrada e enviada para análise.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Rastreabilidade      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Data de Criação      | 15/05                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-
-<p  align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
-
-### UC30 - Acessar histórico de notificações
-
-| Campo             | Descrição                                                                                           |
-|-------------------|-----------------------------------------------------------------------------------------------------|
-| UCXX     | Acessar Histórico de Notificações                                                           |
-| Descrição         | Permite ao usuário visualizar notificações recebidas nos últimos 6 meses no GDF Saúde.              |
-| Ator              | Usuário cadastrado no plano de saúde GDF Saúde.                                                     |
-| Pré-condições     | O GDF Saúde deve ter notificações armazenadas por pelo menos 6 meses.                               |
-| Ação              | Usuário acessa a seção "Notificações" para visualizar o histórico.                                  |
-| Fluxo Básico      | 1. Sistema exibe lista de notificações dos últimos 6 meses.<br>2. Usuário pode filtrar ou buscar notificações.<br>3. Finaliza caso de uso. |
-| Fluxo Alternativo | FA1. Se não houver notificações, o sistema exibe "Nenhuma notificação disponível" e finaliza fluxo. |
-| Fluxo de Exceção  | FE1. Em caso de erro técnico, o sistema exibe "Erro ao carregar notificações" e oferece tentar novamente. |
-| Pós-condições     | O usuário acessou o histórico de notificações.                                                      |
-| Rastreabilidade   |                                                                                                     |
-| Data de Criação   | 15/05                                                                                               |
-
-<p  align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
-
-### UC31 - Receber Suporte via chat ou telefone
-
-| Campo             | UCXX                                                                                                                                                                                                                  |
-|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Identificação     | Receber suporte via chat ou telefone                                                                                                                                                                                                                       |
-| Descrição         | O caso de uso possibilita ao usuário receber suporte por chat ou telefone para resolver dúvidas ou problemas, com tempos de resposta definidos.                                                                             |
-| Ator              | Usuário cadastrado no plano de saúde GDF Saúde, Agente de Suporte                                                                                                                   |
-| Pré-condições     | O GDF Saúde deve ter canais de suporte (chat ou telefone) ativos.                                                                                                                   |
-| Ação              | O usuário acessa a seção "Suporte" no GDF Saúde e escolhe entre chat ou telefone para receber assistência.                                                                          |
-| Fluxo Básico      | 1. O sistema exibe opções de chat ou telefone.<br>2. O usuário seleciona chat ou telefone.<br>3. Para chat: O sistema abre uma janela e o usuário envia uma mensagem.<br>4. Para telefone: O usuário liga para o número fornecido.<br>5. O agente de suporte responde e auxilia o usuário.<br>6. Finaliza caso de uso. |
-| Fluxo Alternativo | FA1. Tempo de Espera Excedido: No passo 4, se o tempo de resposta exceder 5 minutos (chat) ou 2 toques (telefone), o sistema notifica "Aguarde, estamos atendendo" e retoma ao passo 4.                                    |
-| Fluxo de Exceção  | FE1. Canal Indisponível: No passo 2, caso o canal esteja indisponível, o sistema exibe "Suporte temporariamente indisponível" e sugere tentar mais tarde. Finaliza fluxo.                                                  |
-| Pós-condições     | O usuário recebeu assistência ou foi informado sobre a solução.                                                                                                                     |
-| Rastreabilidade   |                                                                                                                                                                                     |
-| Data de Criação   | 15/05                                                                                                                                                                               |
+| Data de Criação | 15/05/2025 |
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
 
 ---
 
+### UC28 - Favoritar Horários de Consulta
+<p align="center">Tabela 30 - Caso de Uso 28 </p>
+
+| Campo           | Descrição                                                                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| UC28            | Favoritar Horários de Consulta                                                                                                                                                                                                                                                                                                                                      |
+| Descrição       | Permite ao usuário marcar horários preferidos para agendamentos futuros no GDF Saúde, facilitando agendamentos com rapidez e conveniência.                                                                                                                                                                                                                          |
+| Ator            | Usuário cadastrado no plano de saúde GDF Saúde.                                                                                                                                                                                                                                                                                                                     |
+| Pré-condições   | O GDF Saúde deve exibir horários disponíveis para consulta.                                                                                                                                                                                                                                                                                                         |
+| Ação            | O usuário acessa a seção de agendamento, seleciona horários para favoritar e confirma a ação.                                                                                                                                                                                                                                |
+| Fluxo Básico    | 1. O sistema exibe horários disponíveis.<br>2. O usuário seleciona horários para favoritar.<br>3. O usuário confirma a ação.<br>4. O sistema salva os horários na lista de favoritos.<br>5. Finaliza caso de uso.                                                                                                            |
+| Fluxo Alternativo| FA1. Horário Indisponível:<br>- Se um horário selecionado estiver indisponível, o sistema notifica "Horário não disponível" e remove-o da seleção.<br>- O sistema retoma ao passo 2 do fluxo básico.                                                                                                                         |
+| Fluxo de Exceção| FE1. Erro Técnico:<br>- Se ocorrer erro ao salvar, o sistema exibe "Erro ao salvar horário" e oferece opção de tentar novamente.<br>- Finaliza fluxo.                                                                                                                                |
+| Pós-condições   | Os horários favoritados estão salvos no perfil do usuário.                                                                                                                                                                                                                                                |
+| Rastreabilidade |                                                                                                                                                   |
+| Data de Criação | 15/05/2025                                                                                                                                                                                                          
+
+<p align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
+
+---
+
+### UC29 - Solicitação de Reembolso de Cobrança Indevida
+<p align="center">Tabela 31 - Caso de Uso 29 </p>
+
+| Campo           | Descrição                                                                                                                                                                                                                                            |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| UC29            | Solicitação de Reembolso de Cobrança Indevida                                                                                                                                                          |
+| Descrição       | Permite ao usuário solicitar reembolso de valores cobrados indevidamente no GDF Saúde, fornecendo justificativa e documentos para análise, garantindo um processo transparente e eficiente.                                                                                                                                                                                                                                          |
+| Ator            | Usuário cadastrado no plano de saúde GDF Saúde.                                                                                                                                                                                                                                                            |
+| Pré-condições   | 1. O usuário deve ter uma cobrança registrada no GDF Saúde.<br>2. A solicitação deve ser feita dentro de 30 dias da cobrança indevida.                                                                                                                                                     |
+| Ação            | O usuário acessa a seção de reembolso, seleciona a cobrança indevida, preenche justificativa, anexa documentos e envia a solicitação para análise.                                                                                                                                                                                                                             |
+| Fluxo Básico    | 1. O sistema exibe uma lista de cobranças recentes.<br>2. O usuário seleciona a cobrança indevida.<br>3. O sistema apresenta formulário para justificativa e anexos.<br>4. O usuário preenche justificativa e anexa documentos.<br>5. O sistema valida e envia a solicitação.<br>6. O sistema notifica o usuário.<br>7. Finaliza caso de uso.                                                                                                    |
+| Fluxo Alternativo| FA1. Documentação Incompleta:<br>- No passo 4, se a documentação estiver incompleta, o sistema solicita os arquivos faltantes.<br>- O usuário anexa os documentos adicionais.<br>- O sistema retoma ao passo 5.                                                                                                                                          |
+| Fluxo de Exceção| FE1. Erro Técnico:<br>- No passo 5, caso ocorra erro técnico, o sistema exibe "Erro ao enviar solicitação" e oferece opção de tentar novamente.<br>- Finaliza fluxo.                                                                                                                                             |
+| Pós-condições   | A solicitação de reembolso foi registrada e enviada para análise.                                                                                                                     |
+| Rastreabilidade |                                                                           |
+| Data de Criação | 15/05/2025                                                                                                                                             |
+
+<p align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
+
+---
+
+### UC30 - Acessar Histórico de Notificações
+<p align="center">Tabela 32 - Caso de Uso 30 </p>
+
+| Campo           | Descrição                                                                                           |
+|-----------------|-----------------------------------------------------------------------------------------------------|
+| UC30            | Acessar Histórico de Notificações                                                                   |
+| Descrição       | Permite ao usuário visualizar notificações recebidas nos últimos 6 meses no GDF Saúde.              |
+| Ator            | Usuário cadastrado no plano de saúde GDF Saúde.                                                     |
+| Pré-condições   | O GDF Saúde deve ter notificações armazenadas por pelo menos 6 meses.                               |
+| Ação            | Usuário acessa a seção "Notificações" para visualizar o histórico.                                  |
+| Fluxo Básico    | 1. Sistema exibe lista de notificações dos últimos 6 meses.<br>2. Usuário pode filtrar ou buscar notificações.<br>3. Finaliza caso de uso. |
+| Fluxo Alternativo| FA1. Se não houver notificações, o sistema exibe "Nenhuma notificação disponível" e finaliza fluxo. |
+| Fluxo de Exceção| FE1. Em caso de erro técnico, o sistema exibe "Erro ao carregar notificações" e oferece tentar novamente. |
+| Pós-condições   | O usuário acessou o histórico de notificações.                                                      |
+| Rastreabilidade |                                                                                                     |
+| Data de Criação | 15/05/2025                                                                                               |
+
+<p align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
+
+---
+
+### UC31 - Receber Suporte via Chat ou Telefone
+<p align="center">Tabela 33 - Caso de Uso 31 </p>
+
+| Campo           | Descrição                                                                                                                                                                                                                  |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| UC31            | Receber suporte via chat ou telefone                                                                                                                                                |
+| Descrição       | O caso de uso possibilita ao usuário receber suporte por chat ou telefone para resolver dúvidas ou problemas, com tempos de resposta definidos.                                      |
+| Ator            | Usuário cadastrado no plano de saúde GDF Saúde, Agente de Suporte                                                                            |
+| Pré-condições   | O GDF Saúde deve ter canais de suporte (chat ou telefone) ativos.                                                                            |
+| Ação            | O usuário acessa a seção "Suporte" no GDF Saúde e escolhe entre chat ou telefone para receber assistência.                                   |
+| Fluxo Básico    | 1. O sistema exibe opções de chat ou telefone.<br>2. O usuário seleciona chat ou telefone.<br>3. Para chat: O sistema abre uma janela e o usuário envia uma mensagem.<br>4. Para telefone: O usuário liga para o número fornecido.<br>5. O agente de suporte responde e auxilia o usuário.<br>6. Finaliza caso de uso. |
+| Fluxo Alternativo| FA1. Tempo de Espera Excedido: No passo 4, se o tempo de resposta exceder 5 minutos (chat) ou 2 toques (telefone), o sistema notifica "Aguarde, estamos atendendo" e retoma ao passo 4.                                    |
+| Fluxo de Exceção| FE1. Canal Indisponível: No passo 2, caso o canal esteja indisponível, o sistema exibe "Suporte temporariamente indisponível" e sugere tentar mais tarde. Finaliza fluxo.                                                  |
+| Pós-condições   | O usuário recebeu assistência ou foi informado sobre a solução.                                                                             |
+| Rastreabilidade |  [??](../../elicitacao/elicitacao.md#RNF03)                                                                                                                                                                                |
+| Data de Criação | 15/05/2025                                                                                                                                                                               |
+
+<p align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
+
+---
+
 ## OTHAVIO
 ## UC32 – Enviar Feedback de Atendimento
+<p align="center">Tabela 34 - Caso de Uso 32 </p>
 
 | Campo | Descrição | 
 |-----------------------|-------------------------------------------------------------------------------| 
@@ -883,12 +839,13 @@ As figuras x a y representam as especializações dos casos de uso.
 | Fluxo alternativo |- Consulta ainda não realizada: sistema bloqueia envio <br> - Avaliação incompleta: sistema solicita preenchimento obrigatório|
 | Fluxo de exceção | - Falha de rede durante envio <br> - Erro de autenticação do usuário|
 | Pós-condições | Feedback registrado e vinculado à consulta avaliada  |
-| Rastreabilidade | RF11 |
+| Rastreabilidade | [RF11](../../elicitacao/elicitacao.md#RF11) |
 | Data de criação | 17/05/2025 | 
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
 
 ## UC33 – Acessar Informações sobre Novas Funcionalidades
+<p align="center">Tabela 35 - Caso de Uso 33 </p>
 
 | Campo | Descrição | 
 |-----------------------|-------------------------------------------------------------------------------| 
@@ -898,28 +855,29 @@ As figuras x a y representam as especializações dos casos de uso.
 | Pré-condições | 1. Aplicativo iniciado <br> 2. Conexão com a internet ativ|
 | Ação | Sistema adiciona informações sobre novas funcionalidades; usuário acessa e visualiza essas informações. |
 | Fluxo principal |- Sistema publica nova funcionalidade <br> - Usuário acessa área de novidades <br> - Visualiza detalhes da funcionalidade. |
-| Fluxo alternativo |- Usuário não acessa a área de novidades <br> - Nenhuma ação ocorre.|
-| Fluxo de exceção | - Falha na atualização de dados pelo sistema <br> - Problemas de conexão no acesso do usuário.|
+| Fluxo alternativo |- Usuário não acessa a área de novidades <br> - Nenhuma ação ocorre.| 
+| Fluxo de exceção | - Falha na atualização de dados pelo sistema <br> - Problemas de conexão no acesso do usuário.| 
 | Pós-condições | Usuário visualiza informações atualizadas sobre novas funcionalidades. |
-| Rastreabilidade | RF12 |
+| Rastreabilidade | [RF12](../../elicitacao/elicitacao.md#RF12) |
 | Data de criação | 17/05/2025 | 
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
 ## UC34 – Acessar Aplicativo em Modo Offline
+<p align="center">Tabela 36 - Caso de Uso 34 </p>
 
 | Campo | Descrição | 
 |-----------------------|-------------------------------------------------------------------------------| 
 | UC34 |Acessar Aplicativo em Modo Offline.    |
 | Descrição | Permitir que o usuário acesse o aplicativo e utilize funcionalidades básicas como carteirinha e histórico de consultas sem conexão com a internet. |
 | Ator | - Usuário do plano de saúde. |
-| Pré-condições | 1. Aplicativo instalado <br> 2. Dados sincronizados previamente <br> 3. Sem conexão com internet.|
+| Pré-condições | 1. Aplicativo instalado <br> 2. Dados sincronizados previamente <br> 3. Sem conexão com internet.| 
 | Ação | Usuário inicia o aplicativo sem conexão; sistema carrega funcionalidades offline permitidas. |
 | Fluxo principal |- Usuário abre aplicativo <br> - Sistema detecta ausência de internet <br> - Ativa modo offline <br> - Usuário acessa carteirinha e histórico de consultas |
 | Fluxo alternativo |- Caso dados offline não estejam atualizados, sistema exibe aviso de possível desatualização. |
-| Fluxo de exceção | - Dados offline corrompidos ou indisponíveis|
-| Pós-condições | Usuário acessa funcionalidades básicas com dados disponíveis em modo offline|
-| Rastreabilidade | RNF13 |
+| Fluxo de exceção | - Dados offline corrompidos ou indisponíveis| 
+| Pós-condições | Usuário acessa funcionalidades básicas com dados disponíveis em modo offline| 
+| Rastreabilidade | [RNF13](../../elicitacao/elicitacao.md#RNF13) |
 | Data de criação | 17/05/2025 | 
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
@@ -928,6 +886,7 @@ As figuras x a y representam as especializações dos casos de uso.
 
 ## YZA
 ## UC35 – Fazer login via GovBR
+<p align="center">Tabela 37 - Caso de Uso 35 </p>
 
 | Campo | Descrição | 
 |-----------------------|-------------------------------------------------------------------------------| 
@@ -940,12 +899,13 @@ As figuras x a y representam as especializações dos casos de uso.
 | Fluxo alternativo | Credenciais inválidas: sistema exibe mensagem de erro e sugere recuperação de senha. |
 | Fluxo de exceção | Falha na conexão com GovBR: sistema informa indisponibilidade temporária. |
 | Pós-condições | Usuário autenticado e com acesso às funcionalidades do app. |
-| Rastreabilidade | RNF15 |
+| Rastreabilidade | [RNF15](../../elicitacao/elicitacao.md#RNF15) |
 | Data de criação | 17/05/2025 | 
 ---
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
 ## UC36 – Consultar rede odontológica
+<p align="center">Tabela 38 - Caso de Uso 36 </p>
 
 | Campo | Descrição |
 |-----------------------|-------------------------------------------------------------------------------|
@@ -958,16 +918,17 @@ As figuras x a y representam as especializações dos casos de uso.
 | Fluxo alternativo | Nenhum resultado: sistema sugere ampliar critérios de busca. |
 | Fluxo de exceção | Falha na conexão: sistema notifica "Tente novamente mais tarde". |
 | Pós-condições | Usuário visualiza clínicas odontológicas compatíveis. |
-| Rastreabilidade | RF13 |
+| Rastreabilidade | [RF13](../../elicitacao/elicitacao.md#RF13) |
 | Data de criação | 17/05/2025 | 
 ---
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
 ## UC37 – Buscar clínicas próximas
+<p align="center">Tabela 39 - Caso de Uso 37 </p>
 
 | Campo | Descrição |
 |-----------------------|-------------------------------------------------------------------------------| 
-| UCxx| Buscar clínicas próximas |
+| UC37| Buscar clínicas próximas |
 | Descrição | Apresentar clínicas próximas com base na localização do usuário. |
 | Ator | Usuário autenticado |
 | Pré-condições | Usuário logado e permissão para uso de geolocalização. |
@@ -976,16 +937,17 @@ As figuras x a y representam as especializações dos casos de uso.
 | Fluxo alternativo | Localização automática falha: usuário insere endereço manualmente. |
 | Fluxo de exceção | Geolocalização desativada: sistema solicita ativação ou entrada manual. |
 | Pós-condições | Usuário visualiza clínicas próximas ou resultados conforme endereço. |
-| Rastreabilidade | RF14 |
+| Rastreabilidade | [RF14](../../elicitacao/elicitacao.md#RF14) |
 | Data de criação | 17/05/2025 | 
 ---
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
-## UC38 – Baixar comprovante de agendamento**
+## UC38 – Baixar comprovante de agendamento
+<p align="center">Tabela 40 - Caso de Uso 38 </p>
 
 | Campo | Descrição |
 |-----------------------|-------------------------------------------------------------------------------|
-| UCxx | Baixar comprovante de agendamento |
+| UC38 | Baixar comprovante de agendamento |
 | Descrição | Permitir ao usuário baixar comprovantes de agendamentos realizados. |
 | Ator | Usuário autenticado com agendamento ativo. |
 | Pré-condições | Usuário logado e agendamento confirmado. |
@@ -994,14 +956,12 @@ As figuras x a y representam as especializações dos casos de uso.
 | Fluxo alternativo | Comprovante expirado: sistema notifica "Agendamento não encontrado". |
 | Fluxo de exceção | Falha no servidor: sistema exibe mensagem de erro. |
 | Pós-condições | Comprovante é salvo no dispositivo do usuário. |
-| Rastreabilidade | RF15 |
+| Rastreabilidade | [RF15](../../elicitacao/elicitacao.md#RF15) |
 | Data de criação | 17/05/2025 |
 
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
 ---
-
-
 
 ## Referência
 
