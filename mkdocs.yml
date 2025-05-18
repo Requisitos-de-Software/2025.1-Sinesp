@@ -81,6 +81,7 @@ nav:
       - Modelagem:
           - Metodologias tradicionais: inspecao/modelagem_tradicional.md
             - casos_de_uso: inspecao/casos_de_uso.md
+            - Especificação Suplementar: inspecao/especificacao-suplementar
 
           
           
