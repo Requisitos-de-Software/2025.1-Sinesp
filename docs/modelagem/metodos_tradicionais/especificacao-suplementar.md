@@ -18,9 +18,6 @@ Este documento está estruturado com base no modelo **FURPS+**, que categoriza o
     
 -   **Supportability (Manutenibilidade)**: Facilidade de manutenção, escalabilidade, adaptabilidade, internacionalização, extensibilidade.
   
-Este documento está em conformidade com a aula dos professores Maurício e Milene Serrano, de fonte:  
-https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013 
-
 ---
 
 ## Integrantes
@@ -40,31 +37,31 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram desta etapa 
         <tbody>
             <tr>
                 <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
-                <td>Criação do documento de E.S., seleção dos  base no FURPS, adição dos RNF07 e RNF08</td>
+                <td>Criação do documento de E.S., seleção dos  base no FURPS, adição dos <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF07">RNF07</a> e <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF08">RNF08</a></td>
             </tr>
             <tr>
                 <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
-                <td>Classificação dos requisitos não funcionais: RNF01, RNF02 e RNF03.</td>
+                <td>Classificação dos requisitos não funcionais: <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF01">RNF01</a>, <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF02">RNF02</a> e <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF03">RNF03</a>.</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
-                <td>Classificação dos requisitos não funcionais: RNF04, RNF06.</td>
+                <td>Classificação dos requisitos não funcionais: <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF04">RNF04</a>, <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF06">RNF06</a>.</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
-                <td>Classificação dos requisitos não funcionais: RNF013, RNF14.</td>
+                <td>Classificação dos requisitos não funcionais: <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF13">RNF13</a>, <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF14">RNF14</a>.</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
-                <td>Classificação dos requisitos não funcionais: RNF09, RNF10.</td>
+                <td>Classificação dos requisitos não funcionais: <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF09">RNF09</a>, <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF10">RNF10</a>.</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
-                <td>Classificação dos requisitos não funcionais: RNF11, RNF12.</td>
+                <td>Classificação dos requisitos não funcionais: <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF11">RNF11</a>, <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF12">RNF12</a>.</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
-                <td>Classificação dos requisitos não funcionais: RNF15, RNF16.</td>
+                <td>Classificação dos requisitos não funcionais:<a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF15">RNF15</a>, <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF16">RNF16</a>.</td>
             </tr>
         </tbody>
     </table>
@@ -89,9 +86,8 @@ As funcionalidades foram elicitadas e podem ser encontradas em Elicitação de r
 
 Este tópico lista os requisitos que garantem que a interação do usuário com o sistema seja intuitiva, acessível e eficiente.
 
-<p align="center">Tabela 2 Requisitos de Usabilidade
+<p align="center">Tabela 2 Requisitos de Usabilidade</p>
 
-<table>
 <table>
   <thead>
     <tr>
@@ -100,23 +96,25 @@ Este tópico lista os requisitos que garantem que a interação do usuário com 
     </tr>
   </thead>
   <tbody>
-    <tr><td>RNF01</td><td>A interface deve ser intuitiva, clara e adaptada para idosos/pessoas com baixa familiaridade tecnológica.</td></tr>
-    <tr><td>RNF06</td><td>O aplicativo deve ser compatível com leitores de tela para garantir acessibilidade a pessoas com deficiência visual.</td></tr>
-    <tr><td>RNF10</td><td>As informações críticas para o usuário, como a carteirinha digital, devem estar acessíveis em até 3 cliques, sendo recomendado no máximo 2 cliques a partir da tela inicial do aplicativo.</td></tr>
-    <tr><td>RNF12</td><td>O aplicativo deve oferecer suporte por chat ou telefone.</td></tr>
-    <tr><td>RNF14</td><td>O layout deve ser consistente com o portal oficial do plano.</td></tr>
-    <tr><td>RNF16</td><td>O sistema deve ser acessível em Português.</td></tr>
+    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF01">RNF01</a></td><td>A interface deve ser intuitiva, clara e adaptada para idosos/pessoas com baixa familiaridade tecnológica.</td></tr>
+    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF06">RNF06</a></td><td>O aplicativo deve ser compatível com leitores de tela para garantir acessibilidade a pessoas com deficiência visual.</td></tr>
+    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF10">RNF10</a></td><td>As informações críticas para o usuário, como a carteirinha digital, devem estar acessíveis em até 3 cliques, sendo recomendado no máximo 2 cliques a partir da tela inicial do aplicativo.</td></tr>
+    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF12">RNF12</a></td><td>O aplicativo deve oferecer suporte por chat ou telefone.</td></tr>
+    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF14">RNF14</a></td><td>O layout deve ser consistente com o portal oficial do plano.</td></tr>
+    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF16">RNF16</a></td><td>O sistema deve ser acessível em Português.</td></tr>
   </tbody>
 </table>
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>, <a href="https://github.com/isaqzin">Isaque Camargos</a>,  <a href="https://github.com/bolzanMGB">Othavio Bolzan</a>, <a href="https://github.com/redjsun">Yzabella Miranda</a> <a ref="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
 
 
+
 ### 3. Confiabilidade
+
 
 Esta seção trata da estabilidade e segurança dadas pelo sistema, bem como sua capacidade de operar corretamente mesmo em situações inesperadas.
 
-<p align="center"> Tabela 3 Requisitos de Confiabilidade
+<p align="center"> Tabela 3 Requisitos de Confiabilidade</p>
 
 <table>
   <thead>
@@ -126,12 +124,12 @@ Esta seção trata da estabilidade e segurança dadas pelo sistema, bem como sua
     </tr>
   </thead>
   <tbody>
-    <tr><td>RNF03</td><td>Assegurar segurança no acesso e armazenamento de dados pessoais, criptografar dados sensíveis conforme LGPD, incluir autenticação em dois fatores e ser transparente quanto ao uso e segurança dos dados.</td></tr>
-   <tr><td>RNF04</td><td>Manter o sistema disponível 24/7 para autorizações de urgência/emergência e apresentar alta disponibilidade (mínimo de 99% uptime).</td></tr>
-    <tr><td>RNF07</td><td>Garantir conformidade com a Portaria nº 127/2024, legislações complementares e padrões da LGPD.</td></tr>
-    <tr><td>RNF09</td><td>O sistema deve garantir comunicação segura e periódica com a folha de pagamento do GDF para processar descontos de mensalidades dos titulares, com mecanismos de verificação para garantir a integridade e consistência dos valores deco.</td></tr>
-    <tr><td>RNF13</td><td>Funciona offline para carteirinha e histórico.</td</tr>
-    <tr><td>RNF15</td><td>Autenticação via GovBR.</td></tr>
+    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF03">RNF03</a></td><td>Assegurar segurança no acesso e armazenamento de dados pessoais, criptografar dados sensíveis conforme LGPD, incluir autenticação em dois fatores e ser transparente quanto ao uso e segurança dos dados.</td></tr>
+   <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF04">RNF04</a></td><td>Manter o sistema disponível 24/7 para autorizações de urgência/emergência e apresentar alta disponibilidade (mínimo de 99% uptime).</td></tr>
+    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF07">RNF07</a></td><td>Garantir conformidade com a Portaria nº 127/2024, legislações complementares e padrões da LGPD.</td></tr>
+    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF09">RNF09</a></td><td>O sistema deve garantir comunicação segura e periódica com a folha de pagamento do GDF para processar descontos de mensalidades dos titulares, com mecanismos de verificação para garantir a integridade e consistência dos valores deco.</td></tr>
+    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF13">RNF13</a></td><td>Funciona offline para carteirinha e histórico.</td</tr>
+    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF15">RNF15</a></td><td>Autenticação via GovBR.</td></tr>
   </tbody>
 </table>
 
@@ -152,7 +150,7 @@ Esta seção descreve os requisitos relacionados istema de oferecer manutenção
     </tr>
   </thead>
   <tbody>
-    <tr><td>RNF05</td><td>O sistema deve ser compatível com diferentes versões do Android e iOS, a partir das versões mais utilizadas no mercado.</td></tr>
+    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF05">RNF05</a></td><td>O sistema deve ser compatível com diferentes versões do Android e iOS, a partir das versões mais utilizadas no mercado.</td></tr>
   </tbody>
 </table>
 
@@ -162,7 +160,7 @@ Esta seção descreve os requisitos relacionados istema de oferecer manutenção
 
 Esta seção descreve os requisitos relacionados ao desempenho do sistema, incluindo tempos de resposta, escalabilidade e eficiência sob carga.
 
-<p align= "center"> Tabela 5 - Requisitos de Performance
+<p align= "center"> Tabela 5 - Requisitos de Performance</p>
 
 <table>
   <thead>
@@ -172,8 +170,8 @@ Esta seção descreve os requisitos relacionados ao desempenho do sistema, inclu
     </tr>
   </thead>
   <tbody>
-    <tr><td>RNF02</td><td>Todas as funcionalidades devem responder em ≤2 segundos.</td></tr>
-    <tr><td>RNF08</td><td>Processar autorizações prévias em até 10 dias úteis.</td></tr>
+    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF02">RNF02</a></td><td>Todas as funcionalidades devem responder em ≤2 segundos.</td></tr>
+    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF08">RNF08</a></td><td>Processar autorizações prévias em até 10 dias úteis.</td></tr>
   </tbody>
 </table>
 
@@ -182,7 +180,9 @@ Esta seção descreve os requisitos relacionados ao desempenho do sistema, inclu
 
 ## Referências Bibliográficas
 
-SERRANO, Milene; SERRANO, Maurício. *Requisitos - Aula 13*, disponível em: https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a..pdf, s.d, slides 28-30
+SERRANO, Milene; SERRANO, Maurício. **Requisitos - Aula 13**, disponível em:[slide](https://aprender3.unb.br/pluginfile.php/3096118/mod_resource/content/1/Requisitos%20-%20Aula%20013a.pdf), s.d, slides 28-30
+
+BRASIL. Ministério da Ciência, Tecnologia e Inovações. **Especificação Suplementar**. pag 4-5. Disponível em: [especificação suplementar](https://pdp.mctic.gov.br/MCTI-PDP/guidances/examples/Especificacao%20Suplementar_4C68A4F4.html). Acesso em: 17 maio 2025.
 
 
 
