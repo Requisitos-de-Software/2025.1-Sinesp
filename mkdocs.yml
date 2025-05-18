@@ -75,6 +75,7 @@ nav:
       - Grupo:
           - Entrega 1: verificacao/lista_de_VerificacaoEntrega1.md
           - Entrega 2: verificacao/lista_de_VerificacaoEntrega2.md
+          - Entrega 3: verificacao/lista_de_verificacaoEntrega3.md
       - Grupo +1:
           - Entrega 1: verificacao/lista_de_VerificacaoEntrega1.md
           - Entrega 2: verificacao/lista_de_VerificacaoEntrega2.md
@@ -83,10 +84,10 @@ nav:
       - Grupo:
           - Entrega 1: inspecao/lista_de_inspecaoEntrega1.md
           - Entrega 2: inspecao/inspecao_2_grupo.md
+          - Entrega 3: inspecao/inspecao_3_grupo.md
       - Grupo +1:
           - Entrega 1: inspecao/lista_de_inspecaoEntrega1Grupo+1.md
           - Entrega 2: inspecao/inspecao_2_grupo+1.md
-      
-           
+
 extra_css:
   - stylesheets/extra.css
