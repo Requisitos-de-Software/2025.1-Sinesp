@@ -85,4 +85,4 @@ Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; B
 
 | Versão | Data       | Descrição                                 | Autor(es)                         | Revisor(es)          |
 |--------|------------|-------------------------------------------|-----------------------------------|----------------------|
-| `1.0`  | 18/05/2025 | Validação inicial dos casos de uso        | Ana Luiza Soares                  | Isaque Camargos      |
+| `1.0`  | 18/05/2025 | Validação dos casos de uso        | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                   |  [Isaque Camargos](https://github.com/isaqzin)                 |
