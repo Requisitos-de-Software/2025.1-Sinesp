@@ -80,10 +80,9 @@ nav:
           - Entrega 2: inspecao/inspecao_2_grupo+1.md
       - Modelagem:
           - Metodologias tradicionais: inspecao/modelagem_tradicional.md
-            - casos_de_uso: inspecao/casos_de_uso.md
-            - Especificação Suplementar: inspecao/especificacao-suplementar
-
-          
-          
+            - Casos de uso: modelagem/metodos_tradicionais/casos_de_uso.md
+            - Cenários: modelagem/metodos_tradicionais/cenarios.md
+            - Especificação Suplementar: inspecao/especificacao-suplementar.md
+            
 extra_css:
   - stylesheets/extra.css
