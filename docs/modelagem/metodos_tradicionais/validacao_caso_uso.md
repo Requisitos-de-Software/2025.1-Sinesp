@@ -51,7 +51,7 @@ Na Tabela 2 contêm as informações do usuário participante:
                 <td>17:30</td>
                 <td>18:04</td>
                 <td>Casa da entrevistada</td>
-                <td>Link para termo de consentimento</td>
+                <td><a href="/modelagem/assets/termo_validacao.pdf" target="_blank">Ver Termo de Validação (PDF)</a></td>
             </tr>
         </tbody>
     </table>
