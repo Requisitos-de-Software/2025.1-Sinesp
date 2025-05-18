@@ -1,8 +1,10 @@
 # Diagrama e Especificação de Casos de Uso
 
-## introdução 
+## Introdução 
 
-jhasdbakjcnakjadncaakjcnaackjnakjcnakchaca
+Um caso de uso é uma representação detalhada de como os usuários do aplicativo GDF Saúde interagem com o sistema em situações específicas, como acessar a carteirinha, enviar feedback ou visualizar novas funcionalidades. Ele descreve passo a passo como essas interações ocorrem, desde a ação do usuário até a resposta do sistema.
+
+Seu principal objetivo é apoiar o desenvolvimento do aplicativo, oferecendo uma visão clara e prática dos requisitos funcionais. Os casos de uso ajudam a definir o comportamento esperado do sistema diante de ações comuns dos usuários, contribuindo para garantir que as funcionalidades atendam às necessidades reais dos beneficiários do plano de saúde.
 
 ## Integrantes do Grupo
 
@@ -21,7 +23,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
 	<tbody>
 				<tr>
 					<td><a  href="https://github.com/Ana-Luiza-SC"">Ana Luiza Soares</a></td>
-					<td>Criou o diagrama referentes aos requisitos: RFXX,RFXX, RFXX e RNFXX . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC0x, UC0x, UC0x,  UC0x, UC0x e UC0x. </td>	
+					<td>Criou o diagrama referentes aos requisitos: RF01,RF02, RF21, RNF01, RNF02, RNF03 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC01, UC02, UC03,  UC04, UC05 e UC06. </td>	
 				</tr>
 				<tr>
 					<td><a  href="https://github.com/isaqzin">Isaque Camargos</a></td>
@@ -41,11 +43,11 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
 				</tr>
 				<tr>
 					<td><a  href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
-					<td>Criou o diagrama referentes aos requisitos: RFXX,RFXX, RFXX e RNFXX . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC0x, UC0x, UC0x,  UC0x, UC0x e UC0x. </td>	
+					<td>Criou o diagrama referentes aos requisitos: RF11,RF12, RNF13 e RNF14 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC031, UC32, UC33,  UC034. </td>	
 				</tr>
 				<tr>
 					<td><a  href="https://github.com/redjsun">Yzabella Miranda</a></td>
-					<td>Criou o diagrama referentes aos requisitos: RF13,RF14, RF15 e RNF015 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC0x, UC0x, UC0x,  UC0x, UC0x e UC0x. </td>	
+					<td>Criou o diagrama referentes aos requisitos: RNF15,RF13, RF14 e RF15 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC35, UC36, UC37 e UC38. </td>	
 				</tr>
 		</tbody>
 	</table>
@@ -54,7 +56,12 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Isaque Camargos</a> e <a  href="https://github.com/isaqzin">Yzabella Miranda</a></p>
 
 ## Metodologia 
-vou fazer já já (yza)
+
+Para mapear e compreender melhor o funcionamento do aplicativo GDF Saúde, utilizamos o diagrama de caso de uso — uma ferramenta da Engenharia de Requisitos que representa visualmente como os usuários interagem com o sistema. Esse diagrama descreve, por meio de "atores" (como beneficiários do plano) e "casos de uso" (como acessar a carteirinha ou enviar feedback), as funcionalidades oferecidas e os comportamentos esperados do sistema.
+
+No desenvolvimento do diagrama, empregamos dois relacionamentos fundamentais: o include e o extend. O relacionamento include é usado quando uma funcionalidade sempre faz parte de outra, como, por exemplo, o caso “Acessar Aplicativo” incluir automaticamente os casos “Consultar histórico de consultas” e “Acessar carteirinha”. Já o relacionamento extend representa funcionalidades opcionais ou condicionais, que se aplicam em determinados contextos — como o caso “Modo Offline”, que estende o acesso ao histórico e à carteirinha somente quando não há conexão com a internet.
+
+Com foco nos diagramas de caso de uso, a Tabela 1 apresenta os principais elementos que compõem o modelo, oferecendo uma visão clara e organizada da estrutura de interações entre os atores e o sistema.
 
 ## Elementos de caso de uso
 <p  align="center">Tabela 2: legenda dos diagramas de caso de uso</p>
@@ -310,7 +317,7 @@ As figuras x a y representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Biometria não reconhecida: sistema oferece login por senha.             |
 | Fluxo de exceção   | - Sensor indisponível: app informa erro e redireciona para login comum.   |
 | Pós-condições      | Usuário autenticado via biometria ou direcionado para login manual.       |
-| Rastreabilidade    |                                                                           |
+| Rastreabilidade    | RF19          |
 | Data de criação    | 15/05/2025                                                                |
 
 ---
@@ -330,7 +337,7 @@ As figuras x a y representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Caso já tenha sido baixada, o sistema permite rebaixar.                 |
 | Fluxo de exceção   | - Falta de conexão ou falha no armazenamento: erro informado ao usuário.  |
 | Pós-condições      | Carteirinha disponível localmente mesmo sem internet.                     |
-| Rastreabilidade    |                                                                           |
+| Rastreabilidade    |   RF03                |
 | Data de criação    | 15/05/2025                                                                |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
@@ -351,7 +358,7 @@ As figuras x a y representam as especializações dos casos de uso.
 | Fluxo alternativo  | —                                                                         |
 | Fluxo de exceção   | - sistema exibe erro ao tentar salvar.                      |
 | Pós-condições      | Preferências de notificação atualizadas.                                  |
-| Rastreabilidade    |                                                                           |
+| Rastreabilidade    |RF04                    |
 | Data de criação    | 15/05/2025                                                                |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
@@ -371,7 +378,7 @@ As figuras x a y representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Falha de envio: sistema realiza tentativa posterior.                    |
 | Fluxo de exceção   | - Falha permanente: log de erro registrado, equipe notificada.            |
 | Pós-condições      | Notificação enviada ou tentativa registrada para análise.                 |
-| Rastreabilidade    |                                                                           |
+| Rastreabilidade    |    RF04                                                                       |
 | Data de criação    | 15/05/2025                                                                |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
@@ -391,7 +398,7 @@ As figuras x a y representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Dados incompletos: sistema solicita complementação.                     |
 | Fluxo de exceção   | - Sistema fora do ar: notifica falha e orienta alternativa.               |
 | Pós-condições      | Autorização registrada, atendimento liberado.                             |
-| Rastreabilidade    |                                                                           |
+| Rastreabilidade    |RF04                                                                           |
 | Data de criação    | 15/05/2025                                                                |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
@@ -860,14 +867,71 @@ As figuras x a y representam as especializações dos casos de uso.
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
 
-## OTHAVIO
+---
 
-## YZA
-## UCxx – Fazer login via GovBR
+## OTHAVIO
+## UC32 – Enviar Feedback de Atendimento
 
 | Campo | Descrição | 
 |-----------------------|-------------------------------------------------------------------------------| 
-| Uxx | Fazer login via GovBR |
+| UC32 | Enviar Feedback de Atendimento     |
+| Descrição | Permitir que o usuário acesse o app mediante autenticação GovBR. |
+| Ator | - Usuário cadastrado no GovBR|
+| Pré-condições | 1. Usuário autenticado <br> 2. Consulta já realizada <br> 3. Conexão com a internet ativa|
+| Ação | Usuário acessa o canal de feedback, seleciona uma consulta anterior e preenche o formulário com a avaliação. |
+| Fluxo principal |- Usuário acessa a área de feedback <br> - Seleciona uma consulta <br> - Preenche formulário de avaliação <br> - Envia feedback |
+| Fluxo alternativo |- Consulta ainda não realizada: sistema bloqueia envio <br> - Avaliação incompleta: sistema solicita preenchimento obrigatório|
+| Fluxo de exceção | - Falha de rede durante envio <br> - Erro de autenticação do usuário|
+| Pós-condições | Feedback registrado e vinculado à consulta avaliada  |
+| Rastreabilidade | RF11 |
+| Data de criação | 17/05/2025 | 
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+
+## UC33 – Acessar Informações sobre Novas Funcionalidades
+
+| Campo | Descrição | 
+|-----------------------|-------------------------------------------------------------------------------| 
+| UC33 |Acessar Informações sobre Novas Funcionalidades    |
+| Descrição | Permitir que o usuário acesse informações divulgadas pelo sistema sobre novas funcionalidades do aplicativo. |
+| Ator | - Usuário do plano de saúde. -Sistema do GDF Saúde  |
+| Pré-condições | 1. Aplicativo iniciado <br> 2. Conexão com a internet ativ|
+| Ação | Sistema adiciona informações sobre novas funcionalidades; usuário acessa e visualiza essas informações. |
+| Fluxo principal |- Sistema publica nova funcionalidade <br> - Usuário acessa área de novidades <br> - Visualiza detalhes da funcionalidade. |
+| Fluxo alternativo |- Usuário não acessa a área de novidades <br> - Nenhuma ação ocorre.|
+| Fluxo de exceção | - Falha na atualização de dados pelo sistema <br> - Problemas de conexão no acesso do usuário.|
+| Pós-condições | Usuário visualiza informações atualizadas sobre novas funcionalidades. |
+| Rastreabilidade | RF12 |
+| Data de criação | 17/05/2025 | 
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+## UC34 – Acessar Aplicativo em Modo Offline
+
+| Campo | Descrição | 
+|-----------------------|-------------------------------------------------------------------------------| 
+| UC34 |Acessar Aplicativo em Modo Offline.    |
+| Descrição | Permitir que o usuário acesse o aplicativo e utilize funcionalidades básicas como carteirinha e histórico de consultas sem conexão com a internet. |
+| Ator | - Usuário do plano de saúde. |
+| Pré-condições | 1. Aplicativo instalado <br> 2. Dados sincronizados previamente <br> 3. Sem conexão com internet.|
+| Ação | Usuário inicia o aplicativo sem conexão; sistema carrega funcionalidades offline permitidas. |
+| Fluxo principal |- Usuário abre aplicativo <br> - Sistema detecta ausência de internet <br> - Ativa modo offline <br> - Usuário acessa carteirinha e histórico de consultas |
+| Fluxo alternativo |- Caso dados offline não estejam atualizados, sistema exibe aviso de possível desatualização. |
+| Fluxo de exceção | - Dados offline corrompidos ou indisponíveis|
+| Pós-condições | Usuário acessa funcionalidades básicas com dados disponíveis em modo offline|
+| Rastreabilidade | RNF13 |
+| Data de criação | 17/05/2025 | 
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+---
+
+## YZA
+## UC35 – Fazer login via GovBR
+
+| Campo | Descrição | 
+|-----------------------|-------------------------------------------------------------------------------| 
+| UC35 | Fazer login via GovBR |
 | Descrição | Permitir que o usuário acesse o app mediante autenticação GovBR. |
 | Ator | Usuário cadastrado no GovBR |
 | Pré-condições | App instalado, conexão à internet e conta GovBR ativa. |
@@ -881,11 +945,11 @@ As figuras x a y representam as especializações dos casos de uso.
 ---
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
-## UCxx – Consultar rede odontológica
+## UC36 – Consultar rede odontológica
 
 | Campo | Descrição |
 |-----------------------|-------------------------------------------------------------------------------|
-| UCxx | Consultar rede odontológica |
+| UC36 | Consultar rede odontológica |
 | Descrição | Permitir ao usuário buscar clínicas odontológicas cadastradas. |
 | Ator | Usuário autenticado |
 | Pré-condições | Usuário estar logado via GovBR. |
@@ -899,7 +963,7 @@ As figuras x a y representam as especializações dos casos de uso.
 ---
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
-## UCxx – Buscar clínicas próximas
+## UC37 – Buscar clínicas próximas
 
 | Campo | Descrição |
 |-----------------------|-------------------------------------------------------------------------------| 
@@ -917,7 +981,7 @@ As figuras x a y representam as especializações dos casos de uso.
 ---
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
-## UCxx – Baixar comprovante de agendamento**
+## UC38 – Baixar comprovante de agendamento**
 
 | Campo | Descrição |
 |-----------------------|-------------------------------------------------------------------------------|
