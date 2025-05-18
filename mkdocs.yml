@@ -86,6 +86,7 @@ nav:
             - Cenários: modelagem/metodos_tradicionais/cenarios.md
             - Especificação Suplementar: inspecao/especificacao-suplementar.md
             - Léxicos: modelagem/metodos_tradicionais/lexicos.md
+            - Validação dos Casos de Uso: modelagem/metodos_tradicionais/validacao_caso_uso.md
            
 extra_css:
   - stylesheets/extra.css
