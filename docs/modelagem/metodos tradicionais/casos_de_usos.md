@@ -27,23 +27,23 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
 				</tr>
 				<tr>
 					<td><a  href="https://github.com/isaqzin">Isaque Camargos</a></td>
-					<td>Criou o diagrama referentes aos requisitos: RF03,RF04, RF19, RNF04,  RNF05 e  RNF06 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC01, UC02, UC03,  UC04, UC05 e UC06. Além disso, criou o documento inicial. </td>	
+					<td>Criou o diagrama referentes aos requisitos: RF03,RF04, RF19, RNF04,  RNF05 e  RNF06 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC07, UC08, UC09,  UC10, UC11 e UC12. Além disso, criou o documento inicial. </td>	
 				</tr>
 				<tr>
 					<td><a  href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
-					<td>Criou o diagrama referentes aos requisitos: RFXX,RFXX, RFXX e RNFXX . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC0x, UC0x, UC0x,  UC0x, UC0x e UC0x. </td>	
+					<td>Criou o diagrama referentes aos requisitos: RF05, RF06, RF17 RNF07 e RNF08 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC13, UC14, UC15,  UC16, UC17, UC18, UC19 e UC20. </td>	
 				</tr>
 				<tr>
 					<td><a  href="https://github.com/LucasAlves71">Lucas Alves</a></td>
-					<td>Criou o diagrama referentes aos requisitos: RFXX,RFXX, RFXX e RNFXX . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC0x, UC0x, UC0x,  UC0x, UC0x e UC0x. </td>	
+					<td>Criou o diagrama referentes aos requisitos: RF07,RF08, RNF09, RNF10 e RF18 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC21, UC22, UC23,  UC24, UC25 e UC26. </td>	
 				</tr>
 				<tr>
 					<td><a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
-					<td>Criou o diagrama referentes aos requisitos: RFXX,RFXX, RFXX e RNFXX . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC0x, UC0x, UC0x,  UC0x, UC0x e UC0x. </td>	
+					<td>Criou o diagrama referentes aos requisitos: RF09, RF10, RF20 RNF11 e RNF12. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC27, UC28, UC29,  UC30 e UC31. </td>	
 				</tr>
 				<tr>
 					<td><a  href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
-					<td>Criou o diagrama referentes aos requisitos: RF11,RF12, RNF13 e RNF14 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC031, UC32, UC33,  UC034. </td>	
+					<td>Criou o diagrama referentes aos requisitos: RF11,RF12, RNF13 e RNF14 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC32, UC33 e UC034. </td>	
 				</tr>
 				<tr>
 					<td><a  href="https://github.com/redjsun">Yzabella Miranda</a></td>
@@ -68,10 +68,10 @@ Com foco nos diagramas de caso de uso, a Tabela 1 apresenta os principais elemen
 
 |Nome|         Função         |    Elemento    |
 |----|------------------------|----------------|
-|Ator|Representam os diversos tipos de usuários externos que interagem com o sistema. | foto |
-|Elipse (Caso de Uso) | É utilizada para representar os casos de uso em um diagrama, destacando funcionalidades ou ações específicas que o sistema realiza em resposta às interações dos atores. | (foto da elipse) |
-|Retângulo (Sistema)| É utilizado para representar o sistema ou o componente em análise, agrupando os casos de uso e os atores associados a ele. | (foto do retângulo) |
-| Flecha (Relações) | As setas são utilizadas para ilustrar as relações ou interações entre os atores e os casos de uso no diagrama. | (foto dos três tipos de flecha) |
+|Ator|Representam os diversos tipos de usuários externos que interagem com o sistema. | <div><img src="..\..\assets\casos-uso\casos-uso-ator.png" alt="Referência do item" width="100px"><br></div> |
+|Elipse (Caso de Uso) | É utilizada para representar os casos de uso em um diagrama, destacando funcionalidades ou ações específicas que o sistema realiza em resposta às interações dos atores. | <div><img src="..\..\assets\casos-uso\casos-uso-elipse.png" alt="Referência do item" width="100px"><br></div> |
+|Retângulo (Sistema)| É utilizado para representar o sistema ou o componente em análise, agrupando os casos de uso e os atores associados a ele. | <div><img src="..\..\assets\casos-uso\casos-uso-retangulo.png" alt="Referência do item" width="100px"><br></div> |
+| Flecha (Relações) | As setas são utilizadas para ilustrar as relações ou interações entre os atores e os casos de uso no diagrama. | <div><img src="..\..\assets\casos-uso\casos-uso-relacionamento.png" alt="Referência do item" width="100px"><br></div> |
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Yzabella Miranda</a></p>
 
@@ -178,7 +178,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Usuário abre o aplicativo <br>- Usuário abre a aba de "Avaliações" <br>- Não filtra e nem busca pela rede credenciada <br>- Sistema exibe as avaliações disponíveis referentes à rede credenciada <br>- O usuário pode avaliar o atendimento |
 | Fluxo de exceção   | - Usuário abre o aplicativo <br>- Usuário abre a aba de "Avaliações" <br>- Usuário seleciona filtros ou busca por uma rede credenciada <br>- Não aparece nenhuma rede credenciada correspondente |
 | Pós-condições      | Avaliações são exibidas ou opção de registrar nova avaliação.                                                                                  |
-| Rastreabilidade    | [RF02](../../elicitacao/elicitacao.md#RF02)()                                                                                                                                       |
+| Rastreabilidade    | [RF02](../../elicitacao/elicitacao.md#RF02)                                                                                                                                       |
 | Data de criação    | 17/05/2025                                                                                                                                     |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/Ana-Luiza-SC" targe="_blank">Ana Luiza Soares</a></p>
@@ -200,7 +200,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Usuário abre o aplicativo <br>- Usuário seleciona a opção "Chatbot de Saúde" <br>- Sistema exibe tela inicial do chatbot <br>- Usuário tem dúvidas ou fornece informações vagas <br>- Chatbot recomenda buscar hospital para melhor triagem |
 | Fluxo de exceção   | - Usuário abre o aplicativo <br>- Usuário seleciona a opção "Chatbot de Saúde" <br>- Inicia a conversa <br>- Chatbot redireciona para especialidade médica incorreta |
 | Pós-condições      | Especialidade médica identificada corretamente e confirmado o desempenho do chatbot posteriormente                                              |
-| Rastreabilidade    | RF21()                                                                                                                                       |
+| Rastreabilidade    | RF21                                                                                                                                       |
 | Data de criação    | 17/05/2025                                                                                                                                     |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/Ana-Luiza-SC" targe="_blank">Ana Luiza Soares</a></p>
@@ -328,7 +328,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Caso já tenha sido baixada, o sistema permite rebaixar.                 |
 | Fluxo de exceção   | - Falta de conexão ou falha no armazenamento: erro informado ao usuário.  |
 | Pós-condições      | Carteirinha disponível localmente mesmo sem internet.                     |
-| Rastreabilidade    |   RF03                |
+| Rastreabilidade    |  [RF03](../../elicitacao/elicitacao.md#RF03)               |
 | Data de criação    | 15/05/2025                                                                |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
@@ -349,7 +349,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo  | —                                                                         |
 | Fluxo de exceção   | - sistema exibe erro ao tentar salvar.                      |
 | Pós-condições      | Preferências de notificação atualizadas.                                  |
-| Rastreabilidade    |RF04                    |
+| Rastreabilidade    |[RF04](../../elicitacao/elicitacao.md#RF04)                    |
 | Data de criação    | 15/05/2025                                                                |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
@@ -370,7 +370,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Falha de envio: sistema realiza tentativa posterior.                    |
 | Fluxo de exceção   | - Falha permanente: log de erro registrado, equipe notificada.            |
 | Pós-condições      | Notificação enviada ou tentativa registrada para análise.                 |
-| Rastreabilidade    |    RF04                                                                       |
+| Rastreabilidade    |    [RF04](../../elicitacao/elicitacao.md#RF04)                                                                       |
 | Data de criação    | 15/05/2025                                                                |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
@@ -391,7 +391,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Dados incompletos: sistema solicita complementação.                     |
 | Fluxo de exceção   | - Sistema fora do ar: notifica falha e orienta alternativa.               |
 | Pós-condições      | Autorização registrada, atendimento liberado.                             |
-| Rastreabilidade    |RF04                                                                           |
+| Rastreabilidade    | [RNF04](../../elicitacao/elicitacao.md#RNF04)                                                                           |
 | Data de criação    | 15/05/2025                                                                |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
@@ -406,7 +406,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| UC13                | - Agendar consulta ou exame                                                                   |
+| UC13                | Agendar consulta ou exame                                                                   |
 | Descrição         | Permitir que o titular agende uma consulta ou exame com prestadores credenciados via aplicativo, com pagamento automático integrado. |
 | Ator              | Titular do plano de saúde                                                                           |
 | Pré-condições     | 1. Titular autenticado no aplicativo <br> 2. Estar com plano de saúde ativo <br> 3. Ter conexão com internet |
@@ -415,7 +415,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Usuário cancela o agendamento antes da confirmação <br> - Sistema não realiza pagamento |
 | Fluxo de exceção  | - Prestador indisponível para o horário escolhido <br> - Falha no pagamento automático <br> - Exibe mensagem de erro ao usuário |
 | Pós-condições     | Agendamento é confirmado e exibido ao usuário; valor debitado automaticamente do saldo ou coparticipação processada |
-| Rastreabilidade   | RF05                                                                                               |
+| Rastreabilidade   | [RF05](../../elicitacao/elicitacao.md#RF05)                                                                                              |
 | Data de criação   | 17/05/2025                                                                                          |
 
 
@@ -438,7 +438,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Usuário visualiza detalhes mas não confirma o cancelamento <br> - Nenhuma alteração é feita |
 | Fluxo de exceção  | - Tentativa de cancelar um agendamento já expirado <br> - Falha de conexão com o servidor <br> - Exibe mensagem de erro ao usuário |
 | Pós-condições     | O atendimento é removido da agenda e o usuário visualiza a confirmação de cancelamento              |
-| Rastreabilidade   | RF05                                                                                               |
+| Rastreabilidade   | RF05 [RF05](../../elicitacao/elicitacao.md#RF05)                                                                                               |
 | Data de criação   | 17/05/2025                                                                                          |
 
 
@@ -461,7 +461,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Usuário apenas visualiza a lista de clínicas sem selecionar nenhuma <br> - Sistema exibe faixa de preço genérica |
 | Fluxo de exceção  | - Clínica não possui valor cadastrado <br> - Falha ao aplicar a coparticipação <br> - Sistema exibe mensagem de erro |
 | Pós-condições     | O usuário compreende o valor final que será cobrado no agendamento da consulta                     |
-| Rastreabilidade   | RF06                                                                                               |
+| Rastreabilidade   | [RF06](../../elicitacao/elicitacao.md#RF06)                                                                                             |
 | Data de criação   | 17/05/2025                                                                                          |
 
 
@@ -484,7 +484,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Usuário seleciona o período, mas não finaliza a geração <br> - Nenhum arquivo é criado            |
 | Fluxo de exceção  | - Nenhuma despesa registrada no período <br> - Falha ao gerar o documento <br> - Sistema exibe mensagem de erro |
 | Pós-condições     | O demonstrativo é gerado e pode ser baixado pelo usuário em seguida                                |
-| Rastreabilidade   | RF06                                                                                               |
+| Rastreabilidade   | RF06 [RF06](../../elicitacao/elicitacao.md#RF06)                                                                                              |
 | Data de criação   | 17/05/2025                                                                                          |
 
 
@@ -492,13 +492,13 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 ---
 
-### UC17 – Visualizar histórico de IR
+### UC17 – Visualizar histórico de IR	
 
 <p align="center">Tabela 19 - Caso de Uso 17 </p>
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| UC                | UC05 - Visualizar histórico de IR                                                                   |
+| UC17                | Visualizar histórico de IR                                                                   |
 | Descrição         | Permitir que o titular consulte todos os demonstrativos de despesas médicas já gerados para declaração do Imposto de Renda. |
 | Ator              | Titular do plano de saúde                                                                           |
 | Pré-condições     | 1. Titular autenticado <br> 2. Existência de demonstrativos anteriores <br> 3. Conexão com internet |
@@ -507,7 +507,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Nenhum demonstrativo é selecionado <br> - Tela permanece apenas com listagem                     |
 | Fluxo de exceção  | - Nenhum histórico encontrado <br> - Erro ao carregar dados <br> - Sistema exibe alerta ao usuário |
 | Pós-condições     | O demonstrativo consultado é exibido com detalhes ao usuário                                       |
-| Rastreabilidade   | RF06                                                                                               |
+| Rastreabilidade   | [RF06](../../elicitacao/elicitacao.md#RF06)                                                                                              |
 | Data de criação   | 17/05/2025                                                                                          |
 
 
@@ -520,7 +520,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| UC                | UC06 - Visualizar painel de metas                                                                  |
+| UC18                | Visualizar painel de metas                                                                  |
 | Descrição         | Permitir que o titular ou dependente acesse um painel com metas de saúde personalizadas, como exames periódicos ou consultas anuais. |
 | Ator              | Titular do plano de saúde, Dependente                                                              |
 | Pré-condições     | 1. Usuário autenticado <br> 2. Perfil de saúde configurado <br> 3. Metas cadastradas no sistema    |
@@ -529,7 +529,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Usuário acessa a seção, mas não possui metas registradas <br> - Sistema exibe mensagem de ausência de metas |
 | Fluxo de exceção  | - Falha ao carregar dados de metas <br> - Sistema exibe mensagem de erro ao usuário                |
 | Pós-condições     | O usuário pode acompanhar suas metas de saúde e é incentivado a cumpri-las                         |
-| Rastreabilidade   | RF17                                                                                               |
+| Rastreabilidade   | [RF17](../../elicitacao/elicitacao.md#RF17)                                                                                              |
 | Data de criação   | 17/05/2025                                                                                          |
 
 
@@ -542,7 +542,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| UC                | UC07 - Solicitar autorização                                                                       |
+| UC19                | Solicitar autorização                                                                       |
 | Descrição         | Permitir que o titular ou dependente solicite uma autorização prévia para a realização de procedimentos que exigem aprovação do plano. |
 | Ator              | Titular do plano de saúde, Dependente                                                              |
 | Pré-condições     | 1. Usuário autenticado <br> 2. Procedimento exige autorização <br> 3. Documentação necessária anexada |
@@ -551,7 +551,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Usuário acessa a seção, mas não finaliza o envio <br> - Solicitação não é registrada             |
 | Fluxo de exceção  | - Documento obrigatório não anexado <br> - Falha no envio dos dados <br> - Sistema exibe mensagem de erro |
 | Pós-condições     | A solicitação é registrada no sistema e encaminhada para análise, respeitando o prazo máximo de 10 dias úteis |
-| Rastreabilidade   | RNF08                                                                                              |
+| Rastreabilidade   | [RNF08](../../elicitacao/elicitacao.md#RNF08)                                                                                             |
 | Data de criação   | 17/05/2025                                                                                          |
 
 
@@ -564,7 +564,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| UC                | UC08 - Verificar conformidade com LGPD                                                             |
+| UC20                | Verificar conformidade com LGPD                                                             |
 | Descrição         | Garantir que o sistema esteja em conformidade com a Portaria nº 127/2024, legislações complementares e os princípios da LGPD durante o uso das funcionalidades que tratam dados pessoais. |
 | Ator              | Sistema                                                                                             |
 | Pré-condições     | 1. Ação do usuário envolve tratamento de dados pessoais <br> 2. Consentimento válido registrado    |
@@ -573,7 +573,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Consentimento expirado ou ausente <br> - Sistema bloqueia operação e solicita aceite atualizado |
 | Fluxo de exceção  | - Violação detectada na política de privacidade <br> - Sistema registra ocorrência e nega a operação |
 | Pós-condições     | O sistema garante que as operações executadas seguem as exigências legais e mantém rastreamento das ações realizadas |
-| Rastreabilidade   | RNF07                                                                                              |
+| Rastreabilidade   | [RNF07](../../elicitacao/elicitacao.md#RNF07)                                                                                               |
 | Data de criação   | 17/05/2025                                                                                          |
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
 
@@ -583,7 +583,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 ###  UC21 – Cadastrar titulares, dependentes e optantes
 | Campo | Descrição |
 |  -----------------  |  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  |
-| UC | UC02 - Cadastrar titulares, dependentes e optantes |
+| UC21 | Cadastrar titulares, dependentes e optantes |
 | Descrição | Permitir o cadastro de titulares, dependentes e optantes no sistema com validação de documentos e elegibilidade. |
 | Ator | Atendente do plano de saúde / Titular |
 | Pré-condições | 1. Usuário autenticado (se for o titular) <br> 2. Documentação digitalizada |
@@ -592,7 +592,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Sistema identifica documentos inválidos <br> - Informa o usuário e solicita novo envio |
 | Fluxo de exceção | - Falha no upload de documentos <br> - Erro no processo de validação |
 | Pós-condições | Cadastro realizado e pessoa adicionada à base de dados com status elegível ou pendente |
-| Rastreabilidade | RF07 |
+| Rastreabilidade | [RF07](../../elicitacao/elicitacao.md#RF07) |
 | Data de criação | 17/05/2025 |
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71">Lucas Alves</a></p>
@@ -607,7 +607,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo | Descrição |
 |  -----------------  |  -----------------------------------------------------------------------------------------------------------------------------------------------------------  |
-| UC | UC02 - Verificar procedimentos para autorização |
+| UC22 | Verificar procedimentos para autorização |
 | Descrição | Verificar se procedimentos estão na TABGDFSAÚDE, se atendem às DUT, carência ou exclusões, exigindo solicitação médica e análise técnica. |
 | Ator | Titular / Profissional de saúde / Analista técnico |
 | Pré-condições | 1. Procedimento solicitado <br> 2. Dados médicos anexados |
@@ -616,7 +616,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Procedimento está coberto e não exige análise <br> - Autorização é liberada automaticamente |
 | Fluxo de exceção | - Solicitação incompleta ou sem documentação médica <br> - Exibe erro e solicita correção |
 | Pós-condições | Procedimento autorizado ou negado com justificativa técnica |
-| Rastreabilidade | RF08 |
+| Rastreabilidade | [RF08](../../elicitacao/elicitacao.md#RF08) |
 | Data de criação | 17/05/2025 |
 
   
@@ -633,7 +633,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo | Descrição |
 |  -----------------  |  ---------------------------------------------------------------------------------------------------------------------------------  |
-| UC | UC03 - Visualizar calendário personalizado |
+| UC23 | Visualizar calendário personalizado |
 | Descrição | Disponibilizar ao titular um calendário com consultas agendadas, prazos de carência e vencimentos. |
 | Ator | Titular |
 | Pré-condições | 1. Titular autenticado <br> 2. Ter eventos vinculados ao seu plano |
@@ -642,7 +642,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Não há consultas ou prazos registrados <br> - Sistema informa ausência de eventos |
 | Fluxo de exceção | - Falha na recuperação de dados <br> - Exibe mensagem de erro |
 | Pós-condições | Titular visualiza suas obrigações e compromissos relacionados ao plano |
-| Rastreabilidade | RF16 |
+| Rastreabilidade | [RF16](../../elicitacao/elicitacao.md#RF16) |
 | Data de criação | 17/05/2025 |
 
 
@@ -656,7 +656,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo | Descrição |
 |  -----------------  |  ------------------------------------------------------------------------------------------------------------------------------  |
-| UC | UC04 - Registrar denúncia contra profissional |
+| UC24 | Registrar denúncia contra profissional |
 | Descrição | Permitir que o titular registre denúncias sobre condutas inadequadas de profissionais da rede credenciada. |
 | Ator | Titular |
 | Pré-condições | 1. Titular autenticado <br> 2. Consulta ou atendimento realizado com profissional credenciado |
@@ -665,7 +665,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Usuário salva denúncia como rascunho para enviar depois |
 | Fluxo de exceção | - Falha no envio da denúncia <br> - Sistema exibe erro e sugere reenvio |
 | Pós-condições | Denúncia registrada e encaminhada para análise pelo setor responsável |
-| Rastreabilidade | RF18 |
+| Rastreabilidade | [RF18](../../elicitacao/elicitacao.md#RF18) |
 | Data de criação | 17/05/2025 |
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71">Lucas Alves</a></p>
@@ -678,7 +678,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo | Descrição |
 |  -----------------  |  ---------------------------------------------------------------------------------------------------------------------------------------------  |
-| UC | UC05 - Comunicar com folha de pagamento do GDF |
+| UC25 |Comunicar com folha de pagamento do GDF |
 | Descrição | Permitir comunicação automatizada entre o sistema e a folha de pagamento do GDF para descontos de mensalidades. |
 | Ator | Sistema |
 | Pré-condições | 1. Titular com vínculo ativo ao GDF <br> 2. Plano de saúde com mensalidade ativa |
@@ -687,7 +687,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Sistema reprograma envio se falha temporária na comunicação |
 | Fluxo de exceção | - Falha na integração com sistema do GDF <br> - Notifica equipe técnica |
 | Pós-condições | Mensalidade é descontada automaticamente na folha |
-| Rastreabilidade | RNF09 |
+| Rastreabilidade | [RNF09](../../elicitacao/elicitacao.md#RNF09) |
 | Data de criação | 17/05/2025 |
 
 
@@ -709,7 +709,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Carteirinha disponível via atalho na tela inicial |
 | Fluxo de exceção | - Falha no carregamento da carteirinha <br> - Exibe erro e instruções |
 | Pós-condições | Titular acessa rapidamente seus dados de identificação do plano |
-| Rastreabilidade | RNF10 |
+| Rastreabilidade | [RNF10](../../elicitacao/elicitacao.md#RNF10) |
 | Data de criação | 17/05/2025 |
 
 
@@ -733,7 +733,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo Alternativo | FA1. Sem Histórico Disponível: No passo 1, se não houver histórico, o sistema exibe "Nenhum histórico disponível". Finaliza fluxo. |
 | Fluxo de Exceção | FE1. Erro Técnico: No passo 1, caso ocorra um erro técnico, o sistema exibe "Erro ao carregar histórico" e oferece opções de tentar novamente ou contatar o suporte. Finaliza fluxo. |
 | Pós-condições | O usuário visualizou seu histórico de saúde. |
-| Rastreabilidade | |
+| Rastreabilidade | [RF09](../../elicitacao/elicitacao.md#RF09) |
 | Data de Criação | 15/05/2025 |
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
@@ -754,7 +754,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo Alternativo| FA1. Horário Indisponível:<br>- Se um horário selecionado estiver indisponível, o sistema notifica "Horário não disponível" e remove-o da seleção.<br>- O sistema retoma ao passo 2 do fluxo básico.                                                                                                                         |
 | Fluxo de Exceção| FE1. Erro Técnico:<br>- Se ocorrer erro ao salvar, o sistema exibe "Erro ao salvar horário" e oferece opção de tentar novamente.<br>- Finaliza fluxo.                                                                                                                                |
 | Pós-condições   | Os horários favoritados estão salvos no perfil do usuário.                                                                                                                                                                                                                                                |
-| Rastreabilidade |                                                                                                                                                   |
+| Rastreabilidade | [RF10](../../elicitacao/elicitacao.md#RF10)                                                                                                                                                  |
 | Data de Criação | 15/05/2025                                                                                                                                                                                                          
 
 <p align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
@@ -775,7 +775,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo Alternativo| FA1. Documentação Incompleta:<br>- No passo 4, se a documentação estiver incompleta, o sistema solicita os arquivos faltantes.<br>- O usuário anexa os documentos adicionais.<br>- O sistema retoma ao passo 5.                                                                                                                                          |
 | Fluxo de Exceção| FE1. Erro Técnico:<br>- No passo 5, caso ocorra erro técnico, o sistema exibe "Erro ao enviar solicitação" e oferece opção de tentar novamente.<br>- Finaliza fluxo.                                                                                                                                             |
 | Pós-condições   | A solicitação de reembolso foi registrada e enviada para análise.                                                                                                                     |
-| Rastreabilidade |                                                                           |
+| Rastreabilidade |   RF20                                                                        |
 | Data de Criação | 15/05/2025                                                                                                                                             |
 
 <p align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
@@ -796,7 +796,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo Alternativo| FA1. Se não houver notificações, o sistema exibe "Nenhuma notificação disponível" e finaliza fluxo. |
 | Fluxo de Exceção| FE1. Em caso de erro técnico, o sistema exibe "Erro ao carregar notificações" e oferece tentar novamente. |
 | Pós-condições   | O usuário acessou o histórico de notificações.                                                      |
-| Rastreabilidade |                                                                                                     |
+| Rastreabilidade |       [RNF11](../../elicitacao/elicitacao.md#RNF11)                                                                                              |
 | Data de Criação | 15/05/2025                                                                                               |
 
 <p align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
@@ -817,7 +817,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo Alternativo| FA1. Tempo de Espera Excedido: No passo 4, se o tempo de resposta exceder 5 minutos (chat) ou 2 toques (telefone), o sistema notifica "Aguarde, estamos atendendo" e retoma ao passo 4.                                    |
 | Fluxo de Exceção| FE1. Canal Indisponível: No passo 2, caso o canal esteja indisponível, o sistema exibe "Suporte temporariamente indisponível" e sugere tentar mais tarde. Finaliza fluxo.                                                  |
 | Pós-condições   | O usuário recebeu assistência ou foi informado sobre a solução.                                                                             |
-| Rastreabilidade |  [??](../../elicitacao/elicitacao.md#RNF03)                                                                                                                                                                                |
+| Rastreabilidade | [RNF12](../../elicitacao/elicitacao.md#RNF11)                                                                                                                                                                                |
 | Data de Criação | 15/05/2025                                                                                                                                                                               |
 
 <p align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
@@ -971,11 +971,11 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Versão | Data       | Descrição            | Autor(es)                                       | Revisor(es)                                 |
 | ------ | ---------- | -------------------- | ----------------------------------------------- | ------------------------------------------- |
-| `1.0` | 15/05/2025  | Criação do documento | [Yzabella Miranda](https://github.com/redjsun) | [Isaque Camargos](https://github.com/isaqzin) |
-| `1.1` | 15/05/2025  | Adição dos casos de usos referentes aos requisitos funcionais x, y e z e dos requisitos não funcionais x, y e z | [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
-|`1.2`  | 15/05/2025  | Adição dos casos de usos referentes aos requisitos funcionais x, y e z e dos requisitos não funcionais x, y e z | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Lucas Alves](https://github.com/LucasAlves71) |
+| `1.0` | 15/05/2025  | Criação do documento | [Yzabella Miranda](https://github.com/redjsun) e [Isaque Camargos](https://github.com/isaqzin)| [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+| `1.1` | 15/05/2025  | Adição dos casos de usos referentes aos requisitos funcionais 3, 4 e 19 e dos requisitos não funcionais 4, 5 e 6 | [Isaque Camargos](https://github.com/isaqzin) | [Lucas Alves](https://github.com/LucasAlves71) |
+|`1.2`  | 15/05/2025  | Adição dos casos de usos referentes aos requisitos funcionais 9, 10 e 20 e dos requisitos não funcionais 11 e 12 | [Matheus de Alcântara](https://github.com/matheusdealcantara) |[Isaque Camargos](https://github.com/isaqzin) |
 |`1.3`  | 17/05/2025  | Adição dos casos de usos referentes aos requisitos funcionais 1, 2 e 21 e dos requisitos não funcionais 1, 2 e 3 | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Kaleb Macedo](https://github.com/kalebmacedo) |
-|`1.4`  | 17/05/2025  | Adição dos casos de usos referentes aos requisitos funcionais x, y e z e dos requisitos não funcionais x, y e z | [Kaleb Macedo](https://github.com/kalebmacedo) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
-|`1.5`  | 17/05/2025  | Adição dos casos de usos referentes aos requisitos funcionais x, y e z e dos requisitos não funcionais x, y e z | [Lucas Alves](https://github.com/LucasAlves71) | [Yzabella Miranda](https://github.com/redjsun) |
-|`1.6`  | 17/05/2025  | Adição dos casos de usos referentes aos requisitos funcionais x, y e z e dos requisitos não funcionais x, y e z | [Othavio Bolzan](https://github.com/bolzanMGB) | [Kaleb Macedo](https://github.com/kalebmacedo) |
+|`1.4`  | 17/05/2025  | Adição dos casos de usos referentes aos requisitos funcionais 5, 6 e 17 e dos requisitos não funcionais 7 e 8 | [Kaleb Macedo](https://github.com/kalebmacedo) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
+|`1.5`  | 17/05/2025  | Adição dos casos de usos referentes aos requisitos funcionais 7, 8 e 18 e dos requisitos não funcionais 9 e 10 | [Lucas Alves](https://github.com/LucasAlves71) | [Yzabella Miranda](https://github.com/redjsun) |
+|`1.6`  | 17/05/2025  | Adição dos casos de usos referentes aos requisitos funcionais 11 e 12 e dos requisitos não funcionais 13 e 14 | [Othavio Bolzan](https://github.com/bolzanMGB) | [Kaleb Macedo](https://github.com/kalebmacedo) |
 |`1.7`  | 17/05/2025  | Adição dos casos de usos referentes aos requisitos funcionais 13, 14 e 15 e dos requisitos não funcionais 15 | [Yzabella Miranda](https://github.com/redjsun) |[Othavio Bolzan](https://github.com/bolzanMGB) |
