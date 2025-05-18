@@ -22,7 +22,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
 			</thead>
 		<tbody>
 					<tr>
-						<td><a  href="https://github.com/Ana-Luiza-SC"">Ana Luiza Soares</a></td>
+						<td><a  href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
 						<td>Criou o diagrama referentes aos requisitos: RF01,RF02, RF21, RNF01, RNF02, RNF03 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC01, UC02, UC03,  UC04, UC05 e UC06. </td>	
 					</tr>
 					<tr>
@@ -131,7 +131,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
   <img src="..\..\assets\casos-uso\casos-uso-othavio.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
 
-<p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71" target="_blank">Lucas Alves</a></p>
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a></p>
 
 <p align="center">Figura 8 - Caso de uso UC35 a UC38 </p>
 <p align="center">
