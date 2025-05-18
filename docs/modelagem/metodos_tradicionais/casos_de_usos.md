@@ -22,7 +22,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
 			</thead>
 		<tbody>
 					<tr>
-						<td><a  href="https://github.com/Ana-Luiza-SC"">Ana Luiza Soares</a></td>
+						<td><a  href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
 						<td>Criou o diagrama referentes aos requisitos: RF01,RF02, RF21, RNF01, RNF02, RNF03 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC01, UC02, UC03,  UC04, UC05 e UC06. </td>	
 					</tr>
 					<tr>
@@ -131,7 +131,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
   <img src="..\..\assets\casos-uso\casos-uso-othavio.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
 
-<p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71" target="_blank">Lucas Alves</a></p>
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a></p>
 
 <p align="center">Figura 8 - Caso de uso UC35 a UC38 </p>
 <p align="center">
@@ -201,7 +201,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Usuário abre o aplicativo <br>- Usuário seleciona a opção "Chatbot de Saúde" <br>- Sistema exibe tela inicial do chatbot <br>- Usuário tem dúvidas ou fornece informações vagas <br>- Chatbot recomenda buscar hospital para melhor triagem |
 | Fluxo de exceção   | - Usuário abre o aplicativo <br>- Usuário seleciona a opção "Chatbot de Saúde" <br>- Inicia a conversa <br>- Chatbot redireciona para especialidade médica incorreta |
 | Pós-condições      | Especialidade médica identificada corretamente e confirmado o desempenho do chatbot posteriormente                                              |
-| Rastreabilidade    | RF21                                                                                                                                       |
+| Rastreabilidade    | [RF21](../../elicitacao/elicitacao.md#RF21)                                                                                                                                        |
 | Data de criação    | 17/05/2025                                                                                                                                     |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/Ana-Luiza-SC" targe="_blank">Ana Luiza Soares</a></p>
@@ -223,7 +223,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Usuário abre o aplicativo <br>- Tem dificuldade com alguma funcionalidade <br>- Sistema oferece opção "Ajuda" <br>- Usuário acessa tutorial integrado |
 | Fluxo de exceção   | - Usuário abre o aplicativo <br>- Não consegue acessar as funcionalidades <br>- Não consegue acessar os tutoriais <br>- Não fica satisfeito com o aplicativo |
 | Pós-condições      | Acesso às funcionalidades realizado com sucesso OU tutorial consultado para solução de dúvidas suficiente                                       |
-| Rastreabilidade    | [RNF01](../../elicitacao/elicitacao.md#RNF03)                                                                                                                                      |
+| Rastreabilidade    | [RNF01](../../elicitacao/elicitacao.md#RNF01)                                                                                                                                      |
 | Data de criação    | 17/05/2025                                                                                                                                     |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/Ana-Luiza-SC" targe="_blank">Ana Luiza Soares</a></p>
@@ -287,7 +287,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Credenciais inválidas: sistema exibe mensagem de erro.                  |
 | Fluxo de exceção   | - Ausência de conexão: sistema informa que não é possível conectar.       |
 | Pós-condições      | Usuário autenticado e apto a usar o aplicativo.                           |
-| Rastreabilidade    |                                                                           |
+| Rastreabilidade    |   [RF19](../../elicitacao/elicitacao.md#RF19)                                                                         |
 | Data de criação    | 15/05/2025                                                                |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
@@ -307,8 +307,8 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Biometria não reconhecida: sistema oferece login por senha.             |
 | Fluxo de exceção   | - Sensor indisponível: app informa erro e redireciona para login comum.   |
 | Pós-condições      | Usuário autenticado via biometria ou direcionado para login manual.       |
-| Rastreabilidade    | RF19          |
-| Data de criação    | 15/05/2025                                                                |
+| Rastreabilidade    | [RF19](../../elicitacao/elicitacao.md#RF19)          |
+| Data de criação    | 15/05/2025                 |
 
 ---
 
@@ -478,7 +478,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Usuário seleciona o período, mas não finaliza a geração <br> - Nenhum arquivo é criado            |
 | Fluxo de exceção  | - Nenhuma despesa registrada no período <br> - Falha ao gerar o documento <br> - Sistema exibe mensagem de erro |
 | Pós-condições     | O demonstrativo é gerado e pode ser baixado pelo usuário em seguida                                |
-| Rastreabilidade   | RF06 [RF06](../../elicitacao/elicitacao.md#RF06)                                                                                              |
+| Rastreabilidade   |  [RF06](../../elicitacao/elicitacao.md#RF06)                                                                                              |
 | Data de criação   | 17/05/2025                                                                                          |
 
 
@@ -766,7 +766,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo Alternativo| FA1. Documentação Incompleta:<br>- No passo 4, se a documentação estiver incompleta, o sistema solicita os arquivos faltantes.<br>- O usuário anexa os documentos adicionais.<br>- O sistema retoma ao passo 5.                                                                                                                                          |
 | Fluxo de Exceção| FE1. Erro Técnico:<br>- No passo 5, caso ocorra erro técnico, o sistema exibe "Erro ao enviar solicitação" e oferece opção de tentar novamente.<br>- Finaliza fluxo.                                                                                                                                             |
 | Pós-condições   | A solicitação de reembolso foi registrada e enviada para análise.                                                                                                                     |
-| Rastreabilidade |   RF20                                                                        |
+| Rastreabilidade |   [RF20](../../elicitacao/elicitacao.md#RF20)                                                                        |
 | Data de Criação | 15/05/2025                                                                                                                                             |
 
 <p align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
@@ -808,7 +808,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo Alternativo| FA1. Tempo de Espera Excedido: No passo 4, se o tempo de resposta exceder 5 minutos (chat) ou 2 toques (telefone), o sistema notifica "Aguarde, estamos atendendo" e retoma ao passo 4.                                    |
 | Fluxo de Exceção| FE1. Canal Indisponível: No passo 2, caso o canal esteja indisponível, o sistema exibe "Suporte temporariamente indisponível" e sugere tentar mais tarde. Finaliza fluxo.                                                  |
 | Pós-condições   | O usuário recebeu assistência ou foi informado sobre a solução.                                                                             |
-| Rastreabilidade | [RNF12](../../elicitacao/elicitacao.md#RNF11)                                                                                                                                                                                |
+| Rastreabilidade | [RNF12](../../elicitacao/elicitacao.md#RNF12)                                                                                                                                                                                |
 | Data de Criação | 15/05/2025                                                                                                                                                                               |
 
 <p align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>

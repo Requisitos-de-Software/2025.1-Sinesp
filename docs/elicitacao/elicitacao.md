@@ -59,12 +59,12 @@ Para tal brainstorm a presença dos integrantes [Ana Luiza Soares](https://githu
 
 | **Tipo** | **Descrição**                                                                                                      | **Técnicas**                  | **Implementado** |
 |----------|--------------------------------------------------------------------------------------------------------------------|-------------------------------|------------------|
-| RF16     | Disponibilizar calendário personalizado com visualização de consultas agendadas, prazos de carência e vencimentos.| BS01   | Não | 
-| RF17     | Exibir painel com metas de saúde personalizadas (ex: exames periódicos, consultas anuais) com gamificação para incentivar acompanhamento.| BS02   | Não | 
-| RF18    |Permitir denúncias de condutas inadequadas por parte de profissionais da rede credenciada. | BS03   | Não | 
-| RF19    | Permitir login por biometria facial ou digital.| BS04   | Não | 
-| RF20    | Solicitação de reembolso de uma cobrança indevida de coparticipação.  | BS05   | Não | 
-| RF21    | Chatbot para direcionar a especialidade médica necessária| BS06   | Não | 
+|  <a id="RF16"></a>RF16     | Disponibilizar calendário personalizado com visualização de consultas agendadas, prazos de carência e vencimentos.| BS01   | Não | 
+| <a id="RF17"></a>RF17    | Exibir painel com metas de saúde personalizadas (ex: exames periódicos, consultas anuais) com gamificação para incentivar acompanhamento.| BS02   | Não | 
+| <a id="RF18"></a>RF18    |Permitir denúncias de condutas inadequadas por parte de profissionais da rede credenciada. | BS03   | Não | 
+| <a id="RF19"></a>RF19    | Permitir login por biometria facial ou digital.| BS04   | Não | 
+| <a id="RF20"></a>RF20    | Solicitação de reembolso de uma cobrança indevida de coparticipação.  | BS05   | Não | 
+| <a id="RF21"></a>RF21    | Chatbot para direcionar a especialidade médica necessária| BS06   | Não | 
 
 
 <font size="3"><p style="text-align: center">Fonte: [Ana Luiza Soares](https://github.com/Ana-Luiza-SC), [Isaque Camargos](https://github.com/isaqzin), [Kaleb de Souza](https://github.com/kalebmacedo), [Lucas Alves](https://github.com/LucasAlves71), [Matheus de Alcântara](https://github.com/matheusdealcantara), [Othavio Bolzan](https://github.com/bolzanMGB) e [Yzabella Miranda](https://github.com/redjsun).</p></font>
