@@ -20,18 +20,6 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
         </thead>
         <tbody>
             <tr>
-<<<<<<< HEAD
-                <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
-                <td>Criou os cenários: CN03, CN04, CN19, RNF04, RNF05 e RNF06. Além disso, criou o documento inicial no aplicativo Stack.io.</td>	
-            </tr>
-            <tr>
-                <td><a href="https://github.com/isaqzin">Ana Luiza Soares</a></td>
-                <td>Criou os cenários referentes aos requisitos: RF01, RF02, RF21, RNF01, RNF02 e RNF03. Formatou a documentação unindo todos os cenários do integrante do grupo de forma colaborativa com o Matheus de Alcântara.</td>	
-            </tr>
-            <tr>
-                <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
-                <td>Criou os cenários referentes aos requisitos: RF05, RF06 e RF20. Além disso, corrigiu a formatação inicial do documento no Stack.io.</td>	
-=======
                 <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
                 <td>Criou os cenários: 1, 2, 21, 22, 23 e 24. Além disso, consolidou o documento final ao pegar os cenários separados, que se encontravam na plataforma <a href="https://stackedit.io/app#">StackEdit</a> e organizar no documento final para o Github Pages</td>
             </tr>
@@ -58,19 +46,11 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
             <tr>
                 <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
                 <td>Ajustou a tabela 1 e criou os cenários: 13, 14, 15, 35 e 36.</td>
->>>>>>> 52befd37b606628e485821c56f3dd88e1460ac89
             </tr>
         </tbody>
     </table>
 </div>
 
-<<<<<<< HEAD
-<p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Isaque Camargos</a> e <a  href="https://github.com/isaqzin">Yzabella Miranda</a></p>
-
-### Metodologia
-
-Realizou-se o desenvolvimento dos cenários a partir da identificação dos requisitos, definindo objetivos e contexto. Foram mapeados atores e recursos, e os cenários são criados com: título e metas, contexto, exceções e restrições, e episódios detalhando ações principais e alternativas, a documentação foi padronizada utilizando tabelas no seguinte formato apresentado na Tabela 2 abaixo.
-=======
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Isaque Camargos</a>, <a  href="https://github.com/isaqzin">Yzabella Miranda</a> e <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
 ## Metodologia
@@ -80,7 +60,6 @@ Inicialmente, para evitar conflitos de formatação, uma vez que todos do grupo 
 
 A metodologia adotada foi baseada nos conceitos apresentados nos slides Requisitos – Aula 10, de Milene Serrano e Maurício Serrano (2025), onde realizou-se o desenvolvimento dos cenários a partir da identificação dos requisitos, definindo objetivos e contexto. Foram mapeados atores e recursos, e os cenários são criados com: título e metas, contexto, exceções e restrições, e episódios detalhando ações principais e alternativas. A documentação foi padronizada utilizando tabelas no seguinte formato apresentado na Tabela 2 abaixo.
 
->>>>>>> 52befd37b606628e485821c56f3dd88e1460ac89
 
 <p  align="center">Tabela 2: padrão de cenários</p>
 
@@ -99,13 +78,6 @@ A metodologia adotada foi baseada nos conceitos apresentados nos slides Requisit
 <p  align="center">Fonte: Autoria de <a  src="https://github.com/matheusdealcantara"  targe="_blank">Matheus de Alcântara</a>
 </p>
 
-<<<<<<< HEAD
-### Cenário 1: Pesquisa e Filtro de Clínicas
- 
-**Requisito Associado:** [RF01]()  
-
-<p align="center">Tabela x - Cenário y </p>
-=======
 ---
 
 ## Cenários
@@ -117,7 +89,6 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 **Requisito Associado:** [RF01](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF01)  
 
 <p align="center">Tabela 3 - Cenário 1 </p>
->>>>>>> 52befd37b606628e485821c56f3dd88e1460ac89
 
 | Elemento        | Descrição                                                                                                                                                                                                                                                  |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -135,15 +106,9 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 ---
 
 ### Cenário 2: Avaliação de Clínicas  
-<<<<<<< HEAD
-**Requisito Associado:** [RF02]()  
-
-<p align="center">Tabela x - Cenário y </p>
-=======
 **Requisito Associado:** [RF02](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF02)  
 
 <p align="center">Tabela 4 - Cenário 2 </p>
->>>>>>> 52befd37b606628e485821c56f3dd88e1460ac89
 
 | Elemento        | Descrição                                                                                                                                                                                                |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -160,13 +125,6 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-<<<<<<< HEAD
-### Cenário 3: Chatbot para Direcionamento Médico
-  
-**Requisito Associado:** [RF21]()  
-
-<p align="center">Tabela x - Cenário y </p>
-=======
 ### Cenário 3: Acesso à carteirinha digital sem conexão à internet  
 **Requisito Associado:** [RF03](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF03)  
 
@@ -530,7 +488,6 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 **Requisito Associado:** [RF21](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF21)  
 
 <p align="center">Tabela 23 - Cenário 21 </p>
->>>>>>> 52befd37b606628e485821c56f3dd88e1460ac89
 
 | Elemento        | Descrição                                                                                                                                                                                                                                 |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -547,19 +504,11 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-<<<<<<< HEAD
-### Cenário 4: Interface Intuitiva e Acessível  
-
-**Requisito Associado:** [RNF01]()  
-
-<p align="center">Tabela x - Cenário y </p>
-=======
 ### Cenário 22: Interface Intuitiva e Acessível  
 
 **Requisito Associado:** [RNF01](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF01)  
 
 <p align="center">Tabela 24 - Cenário 22 </p>
->>>>>>> 52befd37b606628e485821c56f3dd88e1460ac89
 
 | Elemento        | Descrição                                                                                                                                                                                                                                                                                                                                        |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -576,22 +525,12 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-<<<<<<< HEAD
----
-
-### Cenário 5: Carregamento Rápido e Fluido das Telas
-
-**Requisito Associado:** [RNF02]()  
-
-<p align="center">Tabela x - Cenário y </p>
-=======
 
 ### Cenário 23: Carregamento Rápido e Fluido das Telas
 
 **Requisito Associado:** [RNF02](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF02)  
 
 <p align="center">Tabela 25 - Cenário 23 </p>
->>>>>>> 52befd37b606628e485821c56f3dd88e1460ac89
 
 | Elemento        | Descrição                                                                                                                                                                                                                                                               |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -610,19 +549,11 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 ---
 
 
-<<<<<<< HEAD
-### Cenário 6: Segurança e Transparência no Uso de Dados  
-
-**Requisito Associado:** [RNF03]()  
-
-<p align="center">Tabela x - Cenário y </p>
-=======
 ### Cenário 24: Segurança e Transparência no Uso de Dados  
 
 **Requisito Associado:** [RNF03](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF03)  
 
 <p align="center">Tabela 26 - Cenário 24 </p>
->>>>>>> 52befd37b606628e485821c56f3dd88e1460ac89
 
 | Elemento        | Descrição                                                                                                                                                                                                                                         |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -638,8 +569,6 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
 ---
-<<<<<<< HEAD
-=======
 
 ### Cenário 25: Disponibilidade 24/7 para autorizações de urgência/emergência  
 
@@ -924,4 +853,3 @@ SERRANO, Milene; SERRANO, Maurício. *Requisitos - Aula 10*. Disponível em: htt
 | `1.8`  | 17/05/2025| Adição dos cenários 7, 8, 16, 18, 29 e 30                                                                     | [Lucas Alves](https://github.com/LucasAlves71)                                                      | [Yzabella Miranda](https://github.com/redjsun)                                                  |
 | `1.9`  | 16/05/2025 | Adição dos cenários 9, 10, 20, 31 e 32                                                                        | [Matheus de Alcântara](https://github.com/matheusdealcantara)                                      | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                                   |
 | `2.0`  | 17/05/2025 | Consolidação final do documento: organização e união de todos os cenários entregues pelos integrantes         | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                                 | [Yzabella Miranda](https://github.com/redjsun) e [Matheus de Alcântara](https://github.com/matheusdealcantara)                                                  |
->>>>>>> 52befd37b606628e485821c56f3dd88e1460ac89
