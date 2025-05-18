@@ -56,21 +56,92 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
 ## Metodologia 
 vou fazer já já (yza)
 
+## Elementos de caso de uso
+<p  align="center">Tabela 2: legenda dos diagramas de caso de uso</p>
 
-## Diagramas de Casos de Uso 
+|Nome|         Função         |    Elemento    |
+|----|------------------------|----------------|
+|Ator|Representam os diversos tipos de usuários externos que interagem com o sistema. | foto |
+|Elipse (Caso de Uso) | É utilizada para representar os casos de uso em um diagrama, destacando funcionalidades ou ações específicas que o sistema realiza em resposta às interações dos atores. | (foto da elipse) |
+|Retângulo (Sistema)| É utilizado para representar o sistema ou o componente em análise, agrupando os casos de uso e os atores associados a ele. | (foto do retângulo) |
+| Flecha (Relações) | As setas são utilizadas para ilustrar as relações ou interações entre os atores e os casos de uso no diagrama. | (foto dos três tipos de flecha) |
 
-Colocar legenda para os casos de uso 
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Yzabella Miranda</a></p>
 
-analisar grupos antigos para ver se tem algo faltando
+### Diagramas de caso de uso
+As figuras x a y representam as especializações dos casos de uso.
 
-### Diagrama Casos de Uso Isaque 
 
-colocar foto e breve descrição (rastreavel) dos requisitos que foram trabalhados aqui
+### ANA
+<p align="center">Figura 1 - Caso de uso UC01 a UC03 </p>
+<p align="center">
+  <img src="../assets/casos-uso/casos-uso-ana-rf.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
+</p>
 
-### COLOCAR A FOTO DO SEU DIAGRAMA DE CASOS DE USO, somente no repositorio mesmo, EM ORDEM DE QUE VAI COLOCAR OS UC's 
- 
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC" target="_blank">Ana Luiza Soares</a></p>
+
+<p align="center">Figura 2 - Caso de uso UC04 a UC06 </p>
+<p align="center">
+  <img src="../assets/casos-uso/casos-uso-ana-rnf.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
+</p>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+### ISAQUE
+<p align="center">Figura 3 - Caso de uso UC07 a UC12 </p>
+<p align="center">
+  <img src="../assets/casos-uso//casos-uso-isaque.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
+</p>
+
+<p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
+
+
+### KALEB
+<p align="center">Figura 4 - Caso de uso UC13 a UC20 </p>
+<p align="center">
+  <img src="../assets/casos-uso/casos-uso-kaleb.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
+</p>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo" target="_blank">Kaleb Macedo</a></p>
+
+### LUCAS
+<p align="center">Figura 5 - Caso de uso UC21 a UC26 </p>
+<p align="center">
+  <img src="../assets/casos-uso/casos-uso-lucas.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
+</p>
+
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71" target="_blank">Lucas Alves</a></p>
+
+
+### MATHEUS
+<p align="center">Figura 6 - Caso de uso UC27 a UC31 </p>
+<p align="center">
+  <img src="../assets/casos-uso/casos-uso-matheus.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
+</p>
+
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara" target="_blank" >Matheus de Alcântara</a></p>
+
+
+### OTHAVIO
+<p align="center">Figura 7 - Caso de uso UCxx a UCyy </p>
+<p align="center">
+  <img src="../assets/casos-uso/casos-uso-othavio.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
+</p>
+
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71" target="_blank">Lucas Alves</a></p>
+
+
+### YZA
+<p align="center">Figura 8 - Caso de uso UCxx a UCyy </p>
+<p align="center">
+  <img src="../assets/casos-uso/casos-uso-yza.png" alt="Heatmap de disponibilidade da equipe" width="600">
+</p>
+
+<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
+
+## Especialização dos casos de uso 
+
 ## ANA
-## Descrição casos de uso 
 
 ### UC01 – Filtrar redes credenciadas
 
@@ -527,21 +598,13 @@ colocar foto e breve descrição (rastreavel) dos requisitos que foram trabalhad
 | Rastreabilidade | RF07 |
 | Data de criação | 17/05/2025 |
 
-  
-  
-  
-
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
-  
 
 ---
 
-  
-
 <p  align="center">Tabela x - Caso de Uso y </p>
 
-  
 
 ###  UC22 – Verificar procedimentos para autorização
 
@@ -708,7 +771,7 @@ colocar foto e breve descrição (rastreavel) dos requisitos que foram trabalhad
 
 ## MATHEUS
 
-## UC27 - Visualizar Histórico de Guias
+### UC27 - Visualizar Histórico de Guias
 
 | Campo | Descrição |
 |-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -724,7 +787,9 @@ colocar foto e breve descrição (rastreavel) dos requisitos que foram trabalhad
 | Rastreabilidade | |
 | Data de Criação | 15/05 |
 
-## UC28 - Favoritar Horários de Consulta
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
+
+### UC28 - Favoritar Horários de Consulta
 
 | Campo                | Descrição                                                                                                                                                                                                                                                                                                                                                           |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -739,8 +804,9 @@ colocar foto e breve descrição (rastreavel) dos requisitos que foram trabalhad
 | Pós-condições        | Os horários favoritados estão salvos no perfil do usuário.                                                                                                                                                                                                                                                                                                          |
 | Rastreabilidade      |                                                                                                                                                                                                                                                                                                                                                                      |
 | Data de Criação      | 15/05                                                                                                                                                                                                                                                                                                                                                               |
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
 
-## UC29 - Solicitação de reembolso de cobrança indevida
+### UC29 - Solicitação de reembolso de cobrança indevida
 
 | Campo                | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -756,7 +822,9 @@ colocar foto e breve descrição (rastreavel) dos requisitos que foram trabalhad
 | Rastreabilidade      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | Data de Criação      | 15/05                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
-## UC30 - Acessar histórico de notificações
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
+
+### UC30 - Acessar histórico de notificações
 
 | Campo             | Descrição                                                                                           |
 |-------------------|-----------------------------------------------------------------------------------------------------|
@@ -772,7 +840,9 @@ colocar foto e breve descrição (rastreavel) dos requisitos que foram trabalhad
 | Rastreabilidade   |                                                                                                     |
 | Data de Criação   | 15/05                                                                                               |
 
-## UC31 - Receber Suporte via chat ou telefone
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
+
+### UC31 - Receber Suporte via chat ou telefone
 
 | Campo             | UCXX                                                                                                                                                                                                                  |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -788,6 +858,8 @@ colocar foto e breve descrição (rastreavel) dos requisitos que foram trabalhad
 | Rastreabilidade   |                                                                                                                                                                                     |
 | Data de Criação   | 15/05                                                                                                                                                                               |
 
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
+
 ## OTHAVIO
 
 ## YZA
@@ -795,7 +867,7 @@ colocar foto e breve descrição (rastreavel) dos requisitos que foram trabalhad
 
 | Campo | Descrição | 
 |-----------------------|-------------------------------------------------------------------------------| 
-| UC01 | Fazer login via GovBR |
+| Uxx | Fazer login via GovBR |
 | Descrição | Permitir que o usuário acesse o app mediante autenticação GovBR. |
 | Ator | Usuário cadastrado no GovBR |
 | Pré-condições | App instalado, conexão à internet e conta GovBR ativa. |
@@ -813,7 +885,7 @@ colocar foto e breve descrição (rastreavel) dos requisitos que foram trabalhad
 
 | Campo | Descrição |
 |-----------------------|-------------------------------------------------------------------------------|
-| UC02 | Consultar rede odontológica |
+| UCxx | Consultar rede odontológica |
 | Descrição | Permitir ao usuário buscar clínicas odontológicas cadastradas. |
 | Ator | Usuário autenticado |
 | Pré-condições | Usuário estar logado via GovBR. |
@@ -831,7 +903,7 @@ colocar foto e breve descrição (rastreavel) dos requisitos que foram trabalhad
 
 | Campo | Descrição |
 |-----------------------|-------------------------------------------------------------------------------| 
-| UC03| Buscar clínicas próximas |
+| UCxx| Buscar clínicas próximas |
 | Descrição | Apresentar clínicas próximas com base na localização do usuário. |
 | Ator | Usuário autenticado |
 | Pré-condições | Usuário logado e permissão para uso de geolocalização. |
@@ -849,7 +921,7 @@ colocar foto e breve descrição (rastreavel) dos requisitos que foram trabalhad
 
 | Campo | Descrição |
 |-----------------------|-------------------------------------------------------------------------------|
-| UC04 | Baixar comprovante de agendamento |
+| UCxx | Baixar comprovante de agendamento |
 | Descrição | Permitir ao usuário baixar comprovantes de agendamentos realizados. |
 | Ator | Usuário autenticado com agendamento ativo. |
 | Pré-condições | Usuário logado e agendamento confirmado. |
@@ -860,10 +932,16 @@ colocar foto e breve descrição (rastreavel) dos requisitos que foram trabalhad
 | Pós-condições | Comprovante é salvo no dispositivo do usuário. |
 | Rastreabilidade | RF15 |
 | Data de criação | 17/05/2025 |
----
 
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
+---
+
+
+
+## Referência
+
+---
 
 ## Histórico de Versões
 
