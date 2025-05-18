@@ -21,11 +21,11 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
         <tbody>
             <tr>
                 <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
-                <td>Criou os cenários: 1, 2, 21, 22, 23 e 24. Além disso, consolidou o documento final ao pegar os cenários separados e organizar no documento final</td>
+                <td>Criou os cenários: 1, 2, 21, 22, 23 e 24. Além disso, consolidou o documento final ao pegar os cenários separados, que se encontravam na plataforma <a href="https://stackedit.io/app#">StackEdit</a> e organizar no documento final para o Github Pages</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
-                <td>Criou os cenários: 3, 4, 19, 25, 25 e 26.</td>
+                <td> Inicou o documento criando a introdução e criou os cenários: 3, 4, 19, 25, 25 e 26.</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
@@ -37,7 +37,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
             </tr>
             <tr>
                 <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
-                <td>Criou os cenários: 9, 10, 20, 31 e 32.</td>
+                <td>Desenvolveu a metodologia e criou os cenários: 9, 10, 20, 31 e 32.</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
@@ -45,7 +45,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
             </tr>
             <tr>
                 <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
-                <td>Criou os cenários: 13, 14, 15, 35 e 36.</td>
+                <td>Ajustou a tabela 1 e criou os cenários: 13, 14, 15, 35 e 36.</td>
             </tr>
         </tbody>
     </table>
@@ -55,7 +55,11 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
 
 ## Metodologia
 
-Realizou-se o desenvolvimento dos cenários a partir da identificação dos requisitos, definindo objetivos e contexto. Foram mapeados atores e recursos, e os cenários são criados com: título e metas, contexto, exceções e restrições, e episódios detalhando ações principais e alternativas, a documentação foi padronizada utilizando tabelas no seguinte formato apresentado na Tabela 2 abaixo.
+
+Inicialmente, para evitar conflitos de formatação, uma vez que todos do grupo estão envolvidos no desenvolvimento deste artefato, e garantir uma documentação limpa e padronizada, utilizou-se o editor online [StackEdit](https://stackedit.io/app#) na construção e organização do conteúdo.
+
+A metodologia adotada foi baseada nos conceitos apresentados nos slides Requisitos – Aula 10, de Milene Serrano e Maurício Serrano (2025), onde realizou-se o desenvolvimento dos cenários a partir da identificação dos requisitos, definindo objetivos e contexto. Foram mapeados atores e recursos, e os cenários são criados com: título e metas, contexto, exceções e restrições, e episódios detalhando ações principais e alternativas. A documentação foi padronizada utilizando tabelas no seguinte formato apresentado na Tabela 2 abaixo.
+
 
 <p  align="center">Tabela 2: padrão de cenários</p>
 
@@ -73,6 +77,12 @@ Realizou-se o desenvolvimento dos cenários a partir da identificação dos requ
 
 <p  align="center">Fonte: Autoria de <a  src="https://github.com/matheusdealcantara"  targe="_blank">Matheus de Alcântara</a>
 </p>
+
+---
+
+## Cenários
+
+Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais estão descritos nas Tabelas 3 a 39. Cada cenário apresenta uma situação prática de uso do sistema, contemplando seus elementos principais, como metas, contexto, atores, recursos envolvidos, exceções e episódios. A seguir, são apresentados os cenários de forma detalhada:
 
 ### Cenário 1: Pesquisa e Filtro de Clínicas
  
@@ -824,17 +834,22 @@ Este cenário está relacionado com o requisito não funcional **implementado** 
 ---
 
 
+## Referência Bibliográfica
+
+SERRANO, Milene; SERRANO, Maurício. *Requisitos - Aula 10*. Disponível em: https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf. Acesso em: 17 maio 2025.
+
 ## Histórico de Versões
 
 | Versão | Data       | Descrição                                                                                                     | Autor(es)                                                                                           | Revisor(es)                                                                                      |
 |--------|------------|---------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| `1.0`  | 16/05/2025 | Criação do esboço do documento                                                                                         | [Isaque Camargos](https://github.com/isaqzin)                                                       | [Yzabella Miranda](https://github.com/redjsun)                                                  |
-| `1.1`  | 16/05/2025 | Correção de bug na tabela 1                                                                                   | [Yzabella Miranda](https://github.com/redjsun)                                                      | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                             |
-| `1.2`  | 16/05/2025 | Adição dos cenários 1, 2 e 21, além dos cenários 22, 23 e 24                                                  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                                 | [Yzabella Miranda](https://github.com/redjsun)                                                  |
-| `1.3`  | 16/05/2025 | Adição dos cenários 3, 4, 19, 25 e 26                                                             | [Isaque Camargos](https://github.com/isaqzin)                                                       | [Yzabella Miranda](https://github.com/redjsun)                                                  |
-| `1.4`  | 17/05/2025 | Adição dos cenários 13, 14, 15, 35 e 36                                                                       | [Yzabella Miranda](https://github.com/redjsun)                                                      |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
-| `1.5`  | 17/05/2025 | Adição dos cenários 11, 12, 33 e 34                                                                           | [Othavio Bolzan](https://github.com/bolzanMGB)                                                      | [Yzabella Miranda](https://github.com/redjsun)                                                  |
-| `1.6`  | 17/05/2025 | Adição dos cenários 5, 6, 17, 27 e 28                                                                         | [Kaleb Macedo](https://github.com/kalebmacedo)                                                      | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                             |
-| `1.7`  | 17/05/2025| Adição dos cenários 7, 8, 16, 18, 29 e 30                                                                     | [Lucas Alves](https://github.com/LucasAlves71)                                                      | [Yzabella Miranda](https://github.com/redjsun)                                                  |
-| `1.8`  | 16/05/2025 | Adição dos cenários 9, 10, 20, 31 e 32                                                                        | [Matheus de Alcântara](https://github.com/matheusdealcantara)                                      | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                                   |
-| `1.9`  | 17/05/2025 | Consolidação final do documento: organização e união de todos os cenários entregues pelos integrantes         | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                                 | [Yzabella Miranda](https://github.com/redjsun) e [Matheus de Alcântara](https://github.com/matheusdealcantara)                                                  |
+| `1.0`  | 16/05/2025 | Criação do esboço do documento, com a introdução                                                                                         | [Isaque Camargos](https://github.com/isaqzin)                                                       | [Yzabella Miranda](https://github.com/redjsun)                                                  |
+| `1.1`  | 16/05/2025 | Criou a metodologia e a tabela referência utilizada por todos os integrantes posteriormente                                                                      | [Matheus de Alcântara](https://github.com/matheusdealcantara)                                      | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                                   |
+| `1.2`  | 16/05/2025 | Correção de bug na tabela 1                                                                                   | [Yzabella Miranda](https://github.com/redjsun)                                                      | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                             |
+| `1.3`  | 16/05/2025 | Adição dos cenários 1, 2 e 21, 22, 23 e 24                                                  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                                 | [Yzabella Miranda](https://github.com/redjsun)                                                  |
+| `1.4`  | 16/05/2025 | Adição dos cenários 3, 4, 19, 25 e 26                                                             | [Isaque Camargos](https://github.com/isaqzin)                                                       | [Yzabella Miranda](https://github.com/redjsun)                                                  |
+| `1.5`  | 17/05/2025 | Adição dos cenários 13, 14, 15, 35 e 36                                                                       | [Yzabella Miranda](https://github.com/redjsun)                                                      |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+| `1.6`  | 17/05/2025 | Adição dos cenários 11, 12, 33 e 34                                                                           | [Othavio Bolzan](https://github.com/bolzanMGB)                                                      | [Yzabella Miranda](https://github.com/redjsun)                                                  |
+| `1.7`  | 17/05/2025 | Adição dos cenários 5, 6, 17, 27 e 28                                                                         | [Kaleb Macedo](https://github.com/kalebmacedo)                                                      | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                             |
+| `1.8`  | 17/05/2025| Adição dos cenários 7, 8, 16, 18, 29 e 30                                                                     | [Lucas Alves](https://github.com/LucasAlves71)                                                      | [Yzabella Miranda](https://github.com/redjsun)                                                  |
+| `1.9`  | 16/05/2025 | Adição dos cenários 9, 10, 20, 31 e 32                                                                        | [Matheus de Alcântara](https://github.com/matheusdealcantara)                                      | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                                   |
+| `2.0`  | 17/05/2025 | Consolidação final do documento: organização e união de todos os cenários entregues pelos integrantes         | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                                 | [Yzabella Miranda](https://github.com/redjsun) e [Matheus de Alcântara](https://github.com/matheusdealcantara)                                                  |
