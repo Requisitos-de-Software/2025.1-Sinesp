@@ -78,9 +78,11 @@ nav:
       - Grupo +1:
           - Entrega 1: inspecao/lista_de_inspecaoEntrega1Grupo+1.md
           - Entrega 2: inspecao/inspecao_2_grupo+1.md
-      - Modelagem:
-          - Metodologias tradicionais: inspecao/modelagem_tradicional.md
-            - casos_de_uso: inspecao/casos_de_uso.md
+    
+  - Modelagem:
+      - Metodologias tradicionais: 
+          - Casos de uso: modelagem/metodos_tradicionais/casos_de_uso.md
+          - Cenários: modelagem/metodos_tradicionais/cenarios.md
 
           
           
