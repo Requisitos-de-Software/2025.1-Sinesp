@@ -964,6 +964,9 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 ---
 
 ## Referência
+- DevMedia. **O que é UML e Diagramas de Caso de Uso: Introdução Prática à UML**. 2012. Disponível em: https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408. Acessado em 25 mai. de 2025
+- Lucid Software Português. **Tutorial de Caso de Uso UML**. Youtube, 25 abr. 2019. Disponível em: https://youtu.be/ab6eDdwS3rA?si=rWAOOakqyrtqkKng. Accesso em 25 mai. 2025.
+
 
 ---
 
