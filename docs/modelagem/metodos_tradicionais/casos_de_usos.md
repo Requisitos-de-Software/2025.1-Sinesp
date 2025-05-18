@@ -56,7 +56,9 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Isaque Camargos</a> e <a  href="https://github.com/isaqzin">Yzabella Miranda</a></p>
 
+
 ## Metodologia 
+
 
 Para mapear e compreender melhor o funcionamento do aplicativo GDF Saúde, utilizamos o diagrama de caso de uso — uma ferramenta da Engenharia de Requisitos que representa visualmente como os usuários interagem com o sistema. Esse diagrama descreve, por meio de "atores" (como beneficiários do plano) e "casos de uso" (como acessar a carteirinha ou enviar feedback), as funcionalidades oferecidas e os comportamentos esperados do sistema.
 
@@ -459,7 +461,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Data de criação   | 17/05/2025                                                                                          |
 
 
-<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
 
 ---
 
@@ -952,9 +954,12 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 ---
 
-## Referência
-- DevMedia. **O que é UML e Diagramas de Caso de Uso: Introdução Prática à UML**. 2012. Disponível em: https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408. Acessado em 25 mai. de 2025
-- Lucid Software Português. **Tutorial de Caso de Uso UML**. Youtube, 25 abr. 2019. Disponível em: https://youtu.be/ab6eDdwS3rA?si=rWAOOakqyrtqkKng. Accesso em 25 mai. 2025.
+## Referência Bibliográfica
+
+DevMedia. *O que é UML e Diagramas de Caso de Uso: Introdução Prática à UML*. 2012. Disponível em: https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408. Acessado em 25 mai. de 2025
+
+
+Lucid Software Português. *Tutorial de Caso de Uso UML*. Youtube, 25 abr. 2019. Disponível em: https://youtu.be/ab6eDdwS3rA?si=rWAOOakqyrtqkKng. Accesso em 25 mai. 2025.
 
 
 ---
