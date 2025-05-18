@@ -75,7 +75,7 @@ Com foco nos diagramas de caso de uso, a Tabela 1 apresenta os principais elemen
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Yzabella Miranda</a></p>
 
-### Diagramas de caso de uso
+## Diagramas de caso de uso
 As figuras 1 a 8 representam as especializações dos casos de uso.
 
 <p align="center">Figura 1 - Caso de uso UC01 a UC03 </p>
@@ -138,8 +138,6 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
 ## Especialização dos casos de uso 
-
-## ANA
 
 ### UC01 – Filtrar redes credenciadas
 
@@ -272,8 +270,6 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 <p align="center">Fonte: Autoria de <a src="https://github.com/Ana-Luiza-SC" targe="_blank">Ana Luiza Soares</a></p>
 
 ---
-
-## ISAQUE
 ### UC07 – Fazer login
 <p align="center">Tabela 9 - Caso de Uso 7 </p>
 
@@ -398,9 +394,6 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 ---
 
-
-
-## KALEB
 ### UC13 – Agendar consulta ou exame
 <p align="center">Tabela 15 - Caso de Uso 13 </p>
 
@@ -417,8 +410,6 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Pós-condições     | Agendamento é confirmado e exibido ao usuário; valor debitado automaticamente do saldo ou coparticipação processada |
 | Rastreabilidade   | [RF05](../../elicitacao/elicitacao.md#RF05)                                                                                              |
 | Data de criação   | 17/05/2025                                                                                          |
-
-
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
 
 ---
@@ -577,7 +568,6 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Data de criação   | 17/05/2025                                                                                          |
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
 
-## LUCAS
 <p align="center">Tabela 23 - Caso de Uso 21 </p>
 
 ###  UC21 – Cadastrar titulares, dependentes e optantes
@@ -717,8 +707,6 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 ---
 
-## MATHEUS
-
 ### UC27 - Visualizar Histórico de Guias
 <p align="center">Tabela 29 - Caso de Uso 27 </p>
 
@@ -824,8 +812,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 ---
 
-## OTHAVIO
-## UC32 – Enviar Feedback de Atendimento
+### UC32 – Enviar Feedback de Atendimento
 <p align="center">Tabela 34 - Caso de Uso 32 </p>
 
 | Campo | Descrição | 
@@ -844,7 +831,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
 
-## UC33 – Acessar Informações sobre Novas Funcionalidades
+### UC33 – Acessar Informações sobre Novas Funcionalidades
 <p align="center">Tabela 35 - Caso de Uso 33 </p>
 
 | Campo | Descrição | 
@@ -863,7 +850,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
-## UC34 – Acessar Aplicativo em Modo Offline
+### UC34 – Acessar Aplicativo em Modo Offline
 <p align="center">Tabela 36 - Caso de Uso 34 </p>
 
 | Campo | Descrição | 
@@ -884,8 +871,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 ---
 
-## YZA
-## UC35 – Fazer login via GovBR
+### UC35 – Fazer login via GovBR
 <p align="center">Tabela 37 - Caso de Uso 35 </p>
 
 | Campo | Descrição | 
@@ -904,7 +890,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 ---
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
-## UC36 – Consultar rede odontológica
+### UC36 – Consultar rede odontológica
 <p align="center">Tabela 38 - Caso de Uso 36 </p>
 
 | Campo | Descrição |
@@ -923,7 +909,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 ---
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
-## UC37 – Buscar clínicas próximas
+### UC37 – Buscar clínicas próximas
 <p align="center">Tabela 39 - Caso de Uso 37 </p>
 
 | Campo | Descrição |
@@ -942,7 +928,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 ---
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
-## UC38 – Baixar comprovante de agendamento
+### UC38 – Baixar comprovante de agendamento
 <p align="center">Tabela 40 - Caso de Uso 38 </p>
 
 | Campo | Descrição |
