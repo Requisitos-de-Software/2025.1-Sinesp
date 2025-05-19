@@ -191,7 +191,10 @@ BRASIL. Ministério da Ciência, Tecnologia e Inovações. **Especificação Sup
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |--------|------|-----------|-----------|-------------|
 | 1.0 | 16/05/2025 | Criação detalhada do documento e escolha dos requeisitos | [Kaleb Macedo](https://github.com/kalebmacedo)  |[Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
-| 1.1 | 17/05/2025 | (ela adicionou antes de mim) | [Yzabella](https://github.com/redjsun)  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+| 1.1 | 17/05/2025 | Adição das especificações relacionadas aos RNF15, RNF15 | [Yzabella](https://github.com/redjsun)  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 | 1.2 | 17/05/2025 | Adição das especificações relacionadas aos RNF01, RNF02 e RNF03 | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  | [Kaleb Macedo](https://github.com/kalebmacedo)|
 | 1.3 | 18/05/2025 | Adição das especificações relacionadas aos RNF10, RNF09 | [Lucas Alves](https://github.com/)  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)|
 | 1.4 | 18/05/2025 | Adição detalhada do documento e escolha dos requisitos |  [Kaleb Macedo](https://github.com/kalebmacedo) |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+| 1.5 | 18/05/2025 | Adição das especificações relacionadas aos RNF04, RNF06 | [Isaque Camargos](https://github.com/isaqzin)  | [Lucas Alves](https://github.com/)|
+| 1.6 | 18/05/2025 | Adição das especificações relacionadas aos RNF11, RNF12 | [Matheus de Alcântara](https://github.com/matheusdealcantara)  | [Lucas Alves](https://github.com/)|
+| 1.7 | 18/05/2025 | Adição das especificações relacionadas aos RNF13, RNF14 | [Othavio Bolzan](https://github.com/bolzanMG)  | [Lucas Alves](https://github.com/)|
