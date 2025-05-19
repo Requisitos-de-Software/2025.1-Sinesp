@@ -28,6 +28,7 @@ O Professor e seus monitores avaliam nosso grupo e nos enviam um arquivo pdf, se
 - Entrega 6
 
 
+## Histórico de Versões
 
 | Versão | Data          | Descrição                          | Autor(es)     |  Revisor(es)  |
 | ------ | ------------- | ---------------------------------- | ------------- | ------------- |

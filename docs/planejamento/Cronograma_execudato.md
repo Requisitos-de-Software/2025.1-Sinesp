@@ -82,20 +82,20 @@ As tabelas foram elaboradas inicialmente no **Microsoft Excel** e convertidas pa
 
 <br>
 
-<p align="center">Tabela 4 – Entrega 3 Executada</p>
+| Título                                                          | Autor(es)                                                                                                            | Revisor(es)          | Data de Entrega Planejada | Data de Entrega Executada |
+| --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------- | ------------------------- | ------------------------- |
+| Correções no projeto conforme apontado na apresentação anterior | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves                  | Kaleb Macedo         | 29/04 - 01/05             | 18/05/2025                |
+| Modelagem de Requisitos: Cenários                               | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves, Isaque Camargos | Othavio Bolzan       | 02/05 - 09/05             | 18/05/2025                |
+| Modelagem de Requisitos: Léxico                                 | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves, Isaque Camargos | Yzabella Miranda     | 02/05 - 09/05             | 18/05/2025                |
+| Modelagem de Requisitos: Casos de Uso                           | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves, Isaque Camargos | Isaque Camargos      | 02/05 - 09/05             | 18/05/2025                |
+| Modelagem de Requisitos: Especificação Suplementar              | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves, Isaque Camargos | Ana Luiza Soares     | 02/05 - 09/05             | 18/05/2025                |
+| Validação do Diagrama de Casos de Uso                           | Ana Luiza Soares                                                                                                     | Isaque Camargos      | 02/05 - 09/05             | 18/05/2025                |
+| Criação da lista de verificação                                 | Isaque Camargos, Othavio Bolzan                                                                                      | Yzabella Miranda     | 02/05 - 09/05             | 18/05/2025                |
+| Gravação da inspeção do grupo                                   | Isaque Camargos, Ana Luiza Soares                                                                                    | Matheus de Alcântara | 11/05 - 11/05             | 18/05/2025                |
+| Gravação da Apresentação                                        | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves, Isaque Camargos | Ana Luiza Soares            | 11/05 - 11/05             | 18/05/2025                |
+| Envio da entrega                                                | Othavio Bolzan                                                                                                       | Isaque Camargos      | 13/05 - 13/05             | 18/05/2025                |
+| Gravação da Inspeção Grupo + 1                                  | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves, Isaque Camargos |           Kaleb Macedo         | 14/05 - 14/05             |  -              |
 
-| Título | Autor(es) | Revisor(es) | Data de Entrega Planejada | Data de Entrega Executada |
-|--------|-----------|-------------|----------------------------|----------------------------|
-| Correções no projeto conforme apontado na apresentação anterior | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves | Kaleb Macedo | 29/04 - 01/05 | - |
-| Modelagem de Requisitos: Cenários | Ana Luiza Soares, Matheus de Alcântara | Othavio Bolzan | 02/05 - 09/05 | - |
-| Modelagem de Requisitos: Léxico | Lucas Alves, Matheus de Alcântara | Yzabella Miranda | 02/05 - 09/05 | - |
-| Modelagem de Requisitos: Casos de Uso | Othavio Bolzan, Yzabella Miranda | Isaque Camargos | 02/05 - 09/05 | - |
-| Modelagem de Requisitos: Especificação Suplementar | Kaleb Macedo, Lucas Alves | Ana Luiza Soares | 02/05 - 09/05 | - |
-| Criação da lista de verificação | Isaque Camargos, Matheus de Alcântara | Yzabella Miranda | 02/05 - 09/05 | - |
-| Gravação da inspeção do grupo | Isaque Camargos, Ana Luiza Soares | Matheus de Alcântara | 11/05 - 11/05 | - |
-| Gravação da Apresentação | Kaleb Macedo | Othavio Bolzan | 11/05 - 11/05 | - |
-| Envio da entrega | Othavio Bolzan | Isaque Camargos | 13/05 - 13/05 | - |
-| Gravação da Inspeção Grupo + 1 | Yzabella Miranda | Kaleb Macedo | 14/05 - 14/05 | - |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
