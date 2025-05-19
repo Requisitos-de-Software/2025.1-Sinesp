@@ -1,4 +1,4 @@
-# Lista de Inspeção da Entrega 3
+# Lista de Inspeção da Entrega 3 - Grupo + 1
 
 Documento baseado na lista de verificação feita para a entrega 3. Esta lista de inspeção visa avaliar, por meio de perguntas objetivas, a completude e a qualidade dos itens exigidos para a Entrega 3. As tabelas são focadas em fazer a inspeção, que foram são registradas conforme os responsáveis por criação e revisão, e seguem sendo atualizadas conforme os feedbacks da equipe e do professor.
 
@@ -136,7 +136,7 @@ Documento baseado na lista de verificação feita para a entrega 3. Esta lista d
 <font size="3"><p style="text-align: center">Fonte: [Othavio Bolzan](https://github.com/bolzanMGB) </p></font>
 ---
 
-## Gravação da Inspeção Grupo - Entrega 3
+## Gravação da Inspeção Grupo + 1 - Entrega 3
 
 Segue abaixo a gravação da inspeção da entrega 3, realizada no **dia 19 de maio de 2025**:
 
