@@ -51,7 +51,7 @@ Na Tabela 2 contêm as informações do usuário participante:
                 <td>17:30</td>
                 <td>18:04</td>
                 <td>Casa da entrevistada</td>
-                <td><a href="/modelagem/assets/termo_validacao.pdf" target="_blank">Ver Termo de Validação (PDF)</a></td>
+                <td><a href="https://unbbr-my.sharepoint.com/:b:/g/personal/231011088_aluno_unb_br/Eah0RSHhyZFIiwpWrqBuPmoBX1k0fxe4JahAmLkzITsIDw?e=iEHuTW" target="_blank">Ver Termo de Validação (PDF)</a></td>
             </tr>
         </tbody>
     </table>
@@ -69,7 +69,8 @@ Para a validação dos casos de uso utilizou‑se:
 2. **Gravação da Sessão**  
    - Registro em vídeo não listado no YouTube:
 
-<iframe width="560" height="315" src="https://youtu.be/xSrur9kLz8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xSrur9kLz8I?si=eVRAROHEkXwxz7z_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Resultado
 
