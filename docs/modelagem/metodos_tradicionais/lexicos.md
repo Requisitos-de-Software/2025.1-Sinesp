@@ -77,7 +77,7 @@ O termo "Notificações" refere-se às mensagens ou alertas enviados ao usuário
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Notificações | Objeto | Alertas | - Mensagens enviadas ao [Beneficiário](./lexicos.md/#usuario) sobre eventos específicos.<br> - Se relaciona com [histórico](./lexicos.md/#historico) e [armazenar](./lexicos.md/#armazenar)  | - O [Beneficiário](./lexicos.md/#usuario) escolhe receber notificações sobre ações necessárias ou informações relevantes. | [RF04](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF04), [RNF11](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF11) |
+| Notificações | Objeto | Alertas | - Mensagens enviadas ao [Beneficiário](./lexicos.md/#usuario) sobre eventos específicos.<br> - Se relaciona com [histórico](./lexicos.md/#historico) e [armazenar](./lexicos.md/#Armazenar)  | - O [Beneficiário](./lexicos.md/#usuario) escolhe receber notificações sobre ações necessárias ou informações relevantes. | [RF04](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF04), [RNF11](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF11) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a> e <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
 
@@ -93,7 +93,7 @@ O léxico "Histórico" foi identificado nos requisitos [RF09](https://requisitos
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Histórico | Objeto | - | - Registro de eventos passados relacionados à saúde do usuário, incluindo [consultas](./lexicos.md/#consulta), [exames](./lexicos.md/#exame) realizados, resultados de [exame](./lexicos.md/#exame)s e [coparticipações](./lexicos.md/#coparticipacao).<br> - Registro de notificações sobre informações relacionadas ao [Beneficiário](./lexicos.md/#usuario). | - O [Beneficiário](./lexicos.md/#usuario) visualiza seu histório de guias.<br> - O [usuário](./cenarios.md/#usuario) visualiza seu histórico de notificações. | [RF09](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF09), [RNF11](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF11), [RNF13](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF13) |
+| Histórico | Objeto | - | - Registro de eventos passados relacionados à saúde do usuário, incluindo [consultas](./lexicos.md/#consulta), [exames](./lexicos.md/#exame) realizados, resultados de [exame](./lexicos.md/#exame)s e [coparticipações](./lexicos.md/#coparticipacao).<br> - Registro de notificações sobre informações relacionadas ao [Beneficiário](./lexicos.md/#usuario). | - O [Beneficiário](./lexicos.md/#usuario) visualiza seu histório de guias.<br> - O [Beneficiário](./cenarios.md/#usuario) visualiza seu histórico de notificações. | [RF09](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF09), [RNF11](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF11), [RNF13](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF13) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
@@ -690,7 +690,7 @@ O termo "Favoritar" refere-se à ação de marcar horários de consulta preferid
 
 **Requisitos relacionados:** [RF10](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF10)
 
-O termo "Horários Preferidos" refere-se aos períodos de tempo salvos pelo [usuário](./lexicos.md/#usuário) como preferenciais para consultas.
+O termo "Horários Preferidos" refere-se aos períodos de tempo salvos pelo [Beneficiário](./lexicos.md/#usuario) como preferenciais para consultas.
 
 <p align="center">Tabela 41: Léxico - Horário está favoritado</p>
 
