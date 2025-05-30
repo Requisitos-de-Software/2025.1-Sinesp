@@ -48,7 +48,8 @@ nav:
       - Rich Picture: pre-rastreabilidade/rich_picture.md
 
   - Elicitação: 
-      - Requisios Elicitados: elicitacao/elicitacao.md  
+      - Requisios Elicitados Refinados: elicitacao/requisitos_finais.md
+      - Requisios Elicitados: elicitacao/elicitacao.md   
       - Técnicas de Priorização: 
           - $100: elicitacao/priorizacao/dolares100.md
           - First Thing First: elicitacao/priorizacao/first_thing_first.md
