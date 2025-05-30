@@ -58,7 +58,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
 
 Inicialmente, para evitar conflitos de formatação, uma vez que todos do grupo estão envolvidos no desenvolvimento deste artefato, e garantir uma documentação limpa e padronizada, utilizou-se o editor online [StackEdit](https://stackedit.io/app#) na construção e organização do conteúdo.
 
-A metodologia adotada foi baseada nos conceitos apresentados nos slides Requisitos – Aula 10, de Milene Serrano e Maurício Serrano (2025), onde realizou-se o desenvolvimento dos cenários a partir da identificação dos requisitos, definindo objetivos e contexto. Foram mapeados atores e recursos, e os cenários são criados com: título e metas, contexto, exceções e restrições, e episódios detalhando ações principais e alternativas. A documentação foi padronizada utilizando tabelas no seguinte formato apresentado na Tabela 2 abaixo.
+A metodologia adotada foi baseada nos conceitos apresentados nos slides Requisitos – Aula 10, de Milene Serrano e Maurício Serrano (2025), o PDF dos slides pode ser acessado [clicando aqui](../../assets/Requisitos-Aula-10.pdf), onde realizou-se o desenvolvimento dos cenários a partir da identificação dos requisitos, definindo objetivos e contexto. Foram mapeados atores e recursos, e os cenários são criados com: título e metas, contexto, exceções e restrições, e episódios detalhando ações principais e alternativas. A documentação foi padronizada utilizando tabelas no seguinte formato apresentado na Tabela 2 abaixo.
 
 
 <p  align="center">Tabela 2: padrão de cenários</p>
@@ -834,9 +834,12 @@ Este cenário está relacionado com o requisito não funcional **implementado** 
 ---
 
 
+
 ## Referência Bibliográfica
 
 SERRANO, Milene; SERRANO, Maurício. *Requisitos - Aula 10*. Disponível em: https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf. Acesso em: 17 maio 2025.
+
+> Observação: O PDF dos slides utilizados como referência pode ser acessado [clicando aqui](../../assets/Requisitos-Aula-10.pdf)
 
 ## Histórico de Versões
 
