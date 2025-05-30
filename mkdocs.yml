@@ -71,7 +71,9 @@ nav:
           - Validação dos Casos de Uso: modelagem/metodos_tradicionais/validacao_caso_uso.md
           - Cenários: modelagem/metodos_tradicionais/cenarios.md
           - Especificação Suplementar: modelagem/metodos_tradicionais/especificacao-suplementar.md
-          - Léxicos: modelagem/metodos_tradicionais/lexicos.md   
+          - Léxicos: modelagem/metodos_tradicionais/lexicos.md  
+      - Metodologias ágeis: 
+          - Histórias de Usuário: modelagem/metodos_ageis/historias_todos.md
 
   - Verificação:
       - Grupo:
