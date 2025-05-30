@@ -21,13 +21,17 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram no refinamen
         <tbody>
             <tr>
                 <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
-                <td>Refinou os requisitos RF01 RF02, RF21, RNF01, RNF02 e RNF03.</td>
+                <td>Refinou os requisitos RF01, RF02, RF21, RNF01, RNF02 e RNF03.</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+                <td>Refinou os requisitos RF05, RF06.</td>
             </tr>
         </tbody>
     </table>
 </div>
 
-<p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Isaque Camargos</a>, <a  href="https://github.com/isaqzin">Yzabella Miranda</a> e <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Isaque Camargos</a>, <a  href="https://github.com/isaqzin">Yzabella Miranda</a>, <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
 
 ## Metodologia
 
@@ -61,9 +65,17 @@ Na tabela 2 encontra-se todos os requisitos funcionais que foram ou não corriji
 | <a id="RF02.2"></a>RF02.2 | O usuário poderá deixar e/ou ler comentários sobre atendimentos em clínicas ou com profissionais específicos.                                     | [EN03](../elicitacao/tecnicas/entrevista.md#EN03), [GF01](../elicitacao/tecnicas/grupo_focal.md#GF01)                                                                     | Não              |
 | <a id="RF02.3"></a>RF02.3 | O sistema classificará comentários como “relevantes” ou “não relevantes” automaticamente com base em palavras-chave e upvotes de outros usuários. | [EN03](../elicitacao/tecnicas/entrevista.md#EN03), [GF01](../elicitacao/tecnicas/grupo_focal.md#GF01)                                                                     | Não              |
 | <a id="RF02.4"></a>RF02.4 | O sistema ordenará clínicas por nota média de atendimento, do maior para o menor.                                                               | [EN03](../elicitacao/tecnicas/entrevista.md#EN03), [GF01](../elicitacao/tecnicas/grupo_focal.md#GF01)                                                                     | Não              |
+| <a id="RF05.1"></a>RF05.1 | Permitir agendamento de consultas e exames diretamente pelo aplicativo, com pagamento automático para prestadores da Rede de Atendimento.        | [EN07](../elicitacao/tecnicas/entrevista.md#EN07), [GL01](../elicitacao/tecnicas/glossario.md#GL01), [IS01](../elicitacao/tecnicas/introspeccao.md#IS01), [IS05](../elicitacao/tecnicas/introspeccao.md#IS05), [GL06](../elicitacao/tecnicas/glossario.md#GL06) | Não              |
+| <a id="RF05.2"></a>RF05.2 | Permitir cancelamento de consultas e exames diretamente pelo aplicativo, com pagamento automático para prestadores da Rede de Atendimento.      |[EN07](../elicitacao/tecnicas/entrevista.md#EN07), [GL01](../elicitacao/tecnicas/glossario.md#GL01), [IS01](../elicitacao/tecnicas/introspeccao.md#IS01), [IS05](../elicitacao/tecnicas/introspeccao.md#IS05), [GL06](../elicitacao/tecnicas/glossario.md#GL06)  | Não              |
+| <a id="RF05.3"></a>RF05.3 | Permitir cancelamento de consultas e exames diretamente pelo aplicativo, com pagamento automático para prestadores da Rede de Atendimento.      | [EN07](../elicitacao/tecnicas/entrevista.md#EN07), [GL01](../elicitacao/tecnicas/glossario.md#GL01), [IS01](../elicitacao/tecnicas/introspeccao.md#IS01), [IS05](../elicitacao/tecnicas/introspeccao.md#IS05), [GL06](../elicitacao/tecnicas/glossario.md#GL06) | Não              |
+| <a id="RF06.1"></a>RF06.1 | Exibir valor específico de consulta em cada clínica.                                                                                              | [EN08](../elicitacao/tecnicas/entrevista.md#EN08), [GL04](../elicitacao/tecnicas/glossario.md#GL04), [IS10](../elicitacao/tecnicas/introspeccao.md#IS10), [IS11](../elicitacao/tecnicas/introspeccao.md#IS11), [QT02](../elicitacao/tecnicas/questionario.md#QT02), [QT05](../elicitacao/tecnicas/questionario.md#QT05) | Sim              |
+| <a id="RF06.2"></a>RF06.2 | O sistema deve calcular e exibir o valor da coparticipação do beneficiário para cada consulta e procedimento médico realizado que esteja sujeito a este regime. | [EN08](../elicitacao/tecnicas/entrevista.md#EN08), [GL04](../elicitacao/tecnicas/glossario.md#GL04), [IS10](../elicitacao/tecnicas/introspeccao.md#IS10), [IS11](../elicitacao/tecnicas/introspeccao.md#IS11), [QT02](../elicitacao/tecnicas/questionario.md#QT02), [QT05](../elicitacao/tecnicas/questionario.md#QT05) | Sim              |
+| <a id="RF06.3"></a>RF06.3 | Gerar e baixar demonstrativos de despesas médicas para imposto de renda.                                                                         | [EN08](../elicitacao/tecnicas/entrevista.md#EN08), [GL04](../elicitacao/tecnicas/glossario.md#GL04), [IS10](../elicitacao/tecnicas/introspeccao.md#IS10), [IS11](../elicitacao/tecnicas/introspeccao.md#IS11), [QT02](../elicitacao/tecnicas/questionario.md#QT02), [QT05](../elicitacao/tecnicas/questionario.md#QT05) | Sim              |
+| <a id="RF06.4"></a>RF06.4 | Consultar histórico de demonstrativos de IR.                                                                                                     | [EN08](../elicitacao/tecnicas/entrevista.md#EN08), [GL04](../elicitacao/tecnicas/glossario.md#GL04), [IS10](../elicitacao/tecnicas/introspeccao.md#IS10), [IS11](../elicitacao/tecnicas/introspeccao.md#IS11), [QT02](../elicitacao/tecnicas/questionario.md#QT02), [QT05](../elicitacao/tecnicas/questionario.md#QT05) | Sim              |
+| <a id="RF06.5"></a>RF06.5 | Mostrar extrato financeiro atualizado diariamente.                                                                                                 | [EN08](../elicitacao/tecnicas/entrevista.md#EN08), [GL04](../elicitacao/tecnicas/glossario.md#GL04), [IS10](../elicitacao/tecnicas/introspeccao.md#IS10), [IS11](../elicitacao/tecnicas/introspeccao.md#IS11), [QT02](../elicitacao/tecnicas/questionario.md#QT02), [QT05](../elicitacao/tecnicas/questionario.md#QT05) | Sim              |
 | <a id="RF21.1"></a>RF21.1 | Chatbot conversacional que direciona o usuário à especialidade médica adequada, com precisão de pelo menos 80 % nas recomendações.               | [BS06](../elicitacao/tecnicas/brainstorm.md#BS06)                                                                                                                      | Não              |
 
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
 
 
 ## Requisitos Não Funcionais Refinados
@@ -72,13 +84,14 @@ Na tabela 3 encontra-se todos os requisitos não funcionais que foram ou não co
 
 <p align="center">Tabela 3: Requisitos Não Funcionais</p>
 
+
 | **Tipo**       | **Descrição**                                                                                                                        | **Técnicas**                                                                                                                                                                         | **Implementado** |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
-
 | <a id="RNF01.1"></a>RNF01.1 | A interface deve ser responsiva para dispositivos Android 5.0 ou superiores e iOS 13.0 ou superiores.                       | [EN10](../elicitacao/tecnicas/entrevista.md#EN10), [GF13](../elicitacao/tecnicas/grupo_focal.md#GF13), [IS13](../elicitacao/tecnicas/introspeccao.md#IS13), [QT11](../elicitacao/tecnicas/questionario.md#QT11) | Não              |
 | <a id="RNF02.1"></a>RNF02.1 | 95 % das ações devem ter tempo de resposta ≤ 2 segundos, medido em ambiente com até 100 usuários simultâneos.                        | [EN11](../elicitacao/tecnicas/entrevista.md#EN11), [GF17](../elicitacao/tecnicas/grupo_focal.md#GF17), [IS14](../elicitacao/tecnicas/introspeccao.md#IS14), [QT12](../elicitacao/tecnicas/questionario.md#QT12) | Não              |
-| <a id="RNF03.1"></a>RNF03.1 | Todos os dados sensíveis em repouso devem ser criptografados com com ao menos um recurso de criptografia.                                                             | [EN12](../elicitacao/tecnicas/entrevista.md#EN12), [GL12](../elicitacao/tecnicas/glossario.md#GL12), [GF12](../elicitacao/tecnicas/grupo_focal.md#GF12), [GF14](../elicitacao/tecnicas/grupo_focal.md#GF14), [IS18](../elicitacao/tecnicas/introspeccao.md#IS18), [QT15](../elicitacao/tecnicas/questionario.md#QT15) | Sim              |
+| <a id="RNF03.1"></a>RNF03.1 | Todos os dados sensíveis em repouso devem ser criptografados com ao menos um recurso de criptografia.                                                             | [EN12](../elicitacao/tecnicas/entrevista.md#EN12), [GL12](../elicitacao/tecnicas/glossario.md#GL12), [GF12](../elicitacao/tecnicas/grupo_focal.md#GF12), [GF14](../elicitacao/tecnicas/grupo_focal.md#GF14), [IS18](../elicitacao/tecnicas/introspeccao.md#IS18), [QT15](../elicitacao/tecnicas/questionario.md#QT15) | Sim              |
 | <a id="RNF03.2"></a>RNF03.2 | Autenticação de dois fatores deve estar disponível via SMS ou app de autenticação externa.                                            | [EN12](../elicitacao/tecnicas/entrevista.md#EN12), [GL12](../elicitacao/tecnicas/glossario.md#GL12), [GF12](../elicitacao/tecnicas/grupo_focal.md#GF12), [GF14](../elicitacao/tecnicas/grupo_focal.md#GF14), [IS18](../elicitacao/tecnicas/introspeccao.md#IS18), [QT15](../elicitacao/tecnicas/questionario.md#QT15) | Não              |
+
 
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
@@ -97,5 +110,4 @@ O refinamento dos requisitos funcionais e não funcionais foi fundamental para e
 | 1.1    | 03/05/2025 | Atualização da tabela com a separação correta de ID e seus respectivos agrupamentos de descrição em comum                        | [Yzabella Miranda](https://github.com/redjsun) e [Matheus de Alcântara](https://github.com/matheusdealcantara)                                        | [Isaque Camargos](https://github.com/isaqzin)     |
 | 1.2    | 15/05/2025 | Adição de todo o tópico Adição de novos requisitos funcionais                                                      | [Isaque Camargos](https://github.com/isaqzin)                                                                                                        | [Yzabella Miranda](https://github.com/redjsun)   |
 | 2.0    | 29/05/2025 | Corrigindo os requisitos funcionais e não funcionais de forma que eles fiquem testáveis, quantificáveis e indivisíveis dos requisitos: RF01 RF02, RF21, RNF01, RNF02 e RNF03        | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                                                                                   | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
-
-
+| 2.1    | 30/05/2025 | Corrigindo os requisitos funcionais de forma que eles fiquem testáveis, quantificáveis e indivisíveis dos requisitos: RF05 e RF06        | [Kaleb Macedo](https://github.com/kalebmacedo)                                                                                                   | [Lucas Alves](https://github.com/LucasAlves71) |
