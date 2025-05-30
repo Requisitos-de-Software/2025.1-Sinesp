@@ -227,6 +227,20 @@
 ---
 
 | Campo                   | Descrição   |
+| ----------------------- | -------- |
+| **ID** | US01  |
+| **Título** | Agendar Consultas e Exames pelo Aplicativo  |
+| **História** | Como um usuário do plano de saúde,<br>Eu quero agendar consultas e exames diretamente pelo aplicativo,<br>Para que eu possa gerenciar minha saúde de forma conveniente e eficiente.                      |
+| **Critérios de Aceitação** | <br>- Dado que o usuário está logado no aplicativo,<br>- Quando ele seleciona a opção de agendamento e escolhe uma especialidade/exame, prestador e horário,<br>- Então o sistema deve confirmar o agendamento e exibir os detalhes. |
+| **Rastreabilidade** |     [RNF05](../../elicitacao/elicitacao.md#RNF05)  |
+| **Épico Relacionado** | |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
+
+---
+
+| Campo                   | Descrição   |
 | ----------------------- | ----------|
 | **ID** | US02   |
 | **Título** | Realizar Pagamento Automático a Prestadores      |
