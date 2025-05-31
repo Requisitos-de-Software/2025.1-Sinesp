@@ -31,6 +31,10 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram no refinamen
                 <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
                 <td>Refinou os requisitos RF03, RF04, RNF04, RNF05 e RNF06</td>
             </tr>
+            <tr>
+                <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+                <td>Refinou o requisito RF09</td>
+            </tr>
         </tbody>
     </table>
 </div>
