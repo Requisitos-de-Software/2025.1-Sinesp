@@ -178,7 +178,7 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
 
   <!-- Tema: Histórico Pessoal -->
   <tr>
-    <td rowspan="5">Histórico Pessoal</td>
+    <td rowspan="8">Histórico Pessoal</td>
     <td rowspan="3"><a id="EP04"></a>EP04 – Histórico de Consultas e Exames</td>
     <td><a href="../historias_todos#anchor_US07">US07</a>: Visualizar Histórico de Consultas Realizadas</td>
     <td><a href="../../../elicitacao/requisitos_finais#anchor_RF09">RF09</a></td>
@@ -204,17 +204,70 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
     <td><a href="../historias_todos#anchor_US12">US12</a>: Solicitar Reembolso de Cobrança Indevida de Coparticipação</td>
     <td><a href="../../../elicitacao/requisitos_finais#anchor_RF20">RF20</a></td>
     <td>Média</td>
-  </tr>  
+  </tr>
+  <!-- Novo Épico no Tema Histórico Pessoal -->
+  <tr>
+    <td rowspan="3"><a id="EP07"></a>EP07 – Notificações Financeiras e Documentais</td>
+    <td><a href="../historias_todos/#US07">US07</a>: Receber Notificações sobre Vencimento de Fatura</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF04.1">RF04.1</a></td>
+    <td><strong>a fazer</strong></td>
+  </tr>
+  <tr>
+    <td><a href="../historias_todos#anchor_US12">US12</a>: Receber Notificações sobre Prazos de Consultas e Exames</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF04.6">RF04.6</a></td>
+    <td>a fazer</td>
+  </tr>
+  <tr>
+    <td><a href="../historias_todos#anchor_US15">US15</a>: Visualizar Prescrições Médicas Digitais</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF24">RF24</a></td>
+    <td><strong>Alta</strong></td>
+  </tr>
+  
   <!-- Tema: Agendamentos e Preferências -->
   <tr>
-    <td>Agendamentos e Preferências</td>
+    <td rowspan="7">Agendamentos e Preferências</td>
     <td><a id="EP06"></a>EP06 – Preferências de Agendamento</td>
     <td><a href="../historias_todos#anchor_US11">US11</a>: Favoritar Horários de Consulta Desejados</td>
     <td><a href="../../../elicitacao/requisitos_finais#anchor_RF10">RF10</a></td>
     <td>Baixa</td>
   </tr>
+  <!-- Novo Épico no Tema Agendamentos e Preferências -->
+  <tr>
+    <td rowspan="6"><a id="EP08"></a>ISAQUE VAI MEXER, NÃO TOQUE EM NADAAAAAAAAAAAAA DAQUI PRA BAIXO</td>
+    <td><a href="../historias_todos#anchor_US16">US16</a>: Agendar Consultas Online</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF25">RF25</a></td>
+    <td><strong>Alta</strong></td>
+  </tr>
+  <tr>
+    <td><a href="../historias_todos#anchor_US17">US17</a>: Receber Lembretes de Consultas Agendadas</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF26">RF26</a></td>
+    <td><strong>Alta</strong></td>
+  </tr>
+  <tr>
+    <td><a href="../historias_todos#anchor_US18">US18</a>: Cancelar ou Remarcar Consultas</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF27">RF27</a></td>
+    <td><strong>Alta</strong></td>
+  </tr>
+  <tr>
+    <td><a href="../historias_todos#anchor_US19">US19</a>: Visualizar Disponibilidade de Profissionais</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF28">RF28</a></td>
+    <td>Média</td>
+  </tr>
+  <tr>
+    <td><a href="../historias_todos#anchor_US20">US20</a>: Agendar Exames Laboratoriais</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF29">RF29</a></td>
+    <td>Média</td>
+  </tr>
+  <tr>
+    <td><a href="../historias_todos#anchor_US21">US21</a>: Compartilhar Disponibilidade com Profissionais</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF30">RF30</a></td>
+    <td>Baixa</td>
+  </tr>
 </tbody>
 </table>
+
+
+
 
 _Autor: [Ana Luiza Soares](https://github.com/Ana-Luiza-SC), 2025_
 
