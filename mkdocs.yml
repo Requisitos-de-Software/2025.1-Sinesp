@@ -75,6 +75,7 @@ nav:
       - Metodologias ágeis: 
           - Histórias de Usuário: modelagem/metodos_ageis/historias_todos.md
           - Backlog do Produto: modelagem/metodos_ageis/backlog.md
+          - NFR framework: modelagem/metodos_ageis/nfr.md 
 
   - Verificação:
       - Grupo:
