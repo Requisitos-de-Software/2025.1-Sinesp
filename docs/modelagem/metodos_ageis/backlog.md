@@ -144,16 +144,16 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
     <td><a href="../historias_todos#anchor_US01">US01</a>: Pesquisar Redes Credenciadas com Filtros</td>
     <td><a href="../../../elicitacao/requisitos_finais#anchor_RF01.1">RF01.1</a></td>
     <td><strong>Alta</strong></td>
-  </tr>
-  <tr>
-    <td><a href="../historias_todos#anchor_US02">US02</a>: Pesquisar Profissionais de Saúde com Filtros</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF01.2">RF01.2</a></td>
-    <td><strong>Alta</strong></td>
-  </tr>
-  <tr>
-    <td><a href="../historias_todos#anchor_US03">US03</a>: Combinar Múltiplos Filtros de Pesquisa</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF01.3">RF01.3</a></td>
-    <td><strong>Alta</strong></td>
+    <tr>
+      <td><a href="../historias_todos#anchor_US02">US02</a>: Pesquisar Profissionais de Saúde com Filtros</td>
+      <td><a href="../../../elicitacao/requisitos_finais#anchor_RF01.2">RF01.2</a></td>
+      <td><strong>Alta</strong></td>
+    </tr>
+    <tr>
+      <td><a href="../historias_todos#anchor_US03">US03</a>: Combinar Múltiplos Filtros de Pesquisa</td>
+      <td><a href="../../../elicitacao/requisitos_finais#anchor_RF01.3">RF01.3</a></td>
+      <td><strong>Alta</strong></td>
+    </tr>
   </tr>
   <tr>
     <td><a id="EP02"></a>EP02 – Direcionamento por Chatbot</td>
@@ -204,8 +204,7 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
     <td><a href="../historias_todos#anchor_US12">US12</a>: Solicitar Reembolso de Cobrança Indevida de Coparticipação</td>
     <td><a href="../../../elicitacao/requisitos_finais#anchor_RF20">RF20</a></td>
     <td>Média</td>
-  </tr>
-
+  </tr>  
   <!-- Tema: Agendamentos e Preferências -->
   <tr>
     <td>Agendamentos e Preferências</td>
@@ -243,12 +242,14 @@ Funcionalidades que permitem ao usuário avaliar atendimentos e compartilhar opi
 Funcionalidades voltadas ao acesso a registros pessoais de uso do plano de saúde.
 
 - [EP04 – Histórico de Consultas e Exames](#ep04-historico-de-consultas-e-exames)  
-- [EP05 – Histórico Financeiro](#ep05-historico-financeiro)  
+- [EP05 – Histórico Financeiro](#ep05-historico-financeiro) 
+- [EP07 – Notificações Financeiras e Documentais](#ep07-notificacoes-financeiras-e-documentais) 
 
 #### **TM04. Agendamentos e Preferências**  
 Funcionalidades para facilitar a marcação de consultas e preferências de agendamento.
 
-- [EP06 – Preferências de Agendamento](#ep06-preferencias-de-agendamento)  
+- [EP06 – Preferências de Agendamento](#ep06-preferencias-de-agendamento) 
+- [EP08 – Notificações de Agendamentos](#ep08-notificacoes-de-agendamentos) 
 
 ---
 
@@ -302,6 +303,31 @@ Para reduzir o nível de abstração presente nos temas e detalhar melhor as fun
 **Histórias Relacionadas**:  
 
   - [US11](../historias_todos#anchor_US11): Favoritar Horários de Consulta Desejados  
+
+#### <a id="ep07-notificacoes-financeiras-e-documentais"></a>EP07 – Notificações Financeiras e Documentais  
+
+**Descrição**: Usuário recebe notificações importantes relacionadas ao aspecto financeiro e documental do seu plano de saúde, como vencimento de faturas e disponibilização de documentos fiscais  
+
+**Histórias Relacionadas**:  
+
+  - [US07](../historias_todos/#US07): Receber Notificações sobre Vencimento de Fatura
+  - [US12](../historias_todos/#US12): Receber Notificações sobre Prazos de Consultas e Exames
+  - [US15](../historias_todos/#US15): Receber Notificações sobre Disponibilidade de Demonstrativos de IR
+
+
+
+#### <a id="ep08-notificacoes-de-agendamentos"></a>EP08 – Notificações de Agendamentos
+
+**Descrição**: O usuário recebe notificações sobre eventos relacionados a seus agendamentos, como aberturas de agenda, confirmações, cancelamentos, alterações e retornos médicos, garantindo que ele se mantenha informado e organizado.  
+
+**Histórias Relacionadas**: 
+
+  - [US08](../historias_todos/#US08): Receber Notificações sobre Retornos Médicos Pendentes
+  - [US09](../historias_todos/#US09): Receber Notificações sobre Abertura de Agenda
+  - [US10](../historias_todos/#US10): Receber Notificações sobre Cancelamentos de Horários
+  - [US11](../historias_todos/#US11): Receber Notificações sobre Disponibilidade de Horários Favoritos
+  - [US13](../historias_todos/#US13): Receber Notificações sobre Confirmações de Agendamentos
+  - [US14](../historias_todos/#US14): Receber Notificações sobre Alterações de Agendamento
 
 
 

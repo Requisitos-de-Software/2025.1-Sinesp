@@ -1,6 +1,6 @@
 | Campo                   | Descrição   |
 | ----------------------- | ------------------- |
-| **ID**                  | US01     |
+| **ID**                  | <a id="US01">US01     |
 | **Título**              | Pesquisar Redes Credenciadas com Filtros          |
 | **História**            | Como um usuário do plano de saúde,<br>Eu quero pesquisar redes credenciadas utilizando filtros de busca,<br>Para que eu encontre rapidamente as redes que atendam aos meus critérios.                     |
 | **Critérios de Aceitação** | <br>- Dado que o usuário acessa a pesquisa de redes,<br>- Quando ele seleciona filtros como localização ou tipo de serviço,<br>- Então o sistema deve retornar redes que correspondam a todos os filtros aplicados. |
@@ -13,7 +13,7 @@
 
 | Campo                   | Descrição   |
 | ----------------------- | ------------------- |
-| **ID**                  | US02     |
+| **ID**                  | <a id="US02">US02     |
 | **Título**              | Pesquisar Profissionais de Saúde com Filtros  |
 | **História**            | Como um usuário do plano de saúde,<br>Eu quero pesquisar profissionais de saúde (médicos, psicólogos etc.) utilizando filtros,<br>Para que eu encontre o profissional adequado às minhas necessidades.           |
 | **Critérios de Aceitação** | <br>- Dado que o usuário está na busca de profissionais,<br>- Quando ele filtra por especialidade médica,<br>- Então o sistema deve listar apenas profissionais dessa especialidade. |
@@ -26,7 +26,7 @@
 
 | Campo                   | Descrição   |
 | ----------------------- | ------------------- |
-| **ID**                  | US03    |
+| **ID**                  | <a id="US03">US03    |
 | **Título**              | Combinar Múltiplos Filtros de Pesquisa    |
 | **História**            | Como um usuário do plano de saúde,<br>Eu quero combinar diferentes filtros de pesquisa,<br>Para que eu obtenha resultados mais precisos e relevantes.                                                   |
 | **Critérios de Aceitação** | <br>- Dado que o usuário aplica múltiplos filtros (ex: região + especialidade),<br>- Quando ele executa a pesquisa,<br>- Então o sistema deve retornar resultados que satisfaçam todas as condições simultaneamente. |
@@ -38,7 +38,7 @@
 
 | Campo                   | Descrição   |
 | ----------------------- | ------------------- |
-| **ID**                  | US04      |
+| **ID**                  | <a id="US04">US04      |
 | **Título**              | Avaliar Atendimentos com Escala Likert   |
 | **História**            | Como um usuário do plano de saúde,<br>Eu quero avaliar atendimentos usando uma escala de 0 a 5,<br>Para que eu possa expressar minha satisfação com o serviço recebido.                                 |
 | **Critérios de Aceitação** | br>- Dado que o usuário finalizou um atendimento,<br>- Quando ele seleciona uma nota entre 0 e 5,<br>- Então o sistema deve registrar a avaliação e exibir confirmação. |
@@ -50,7 +50,7 @@
 
 | Campo                   | Descrição   |
 | ----------------------- | ------------------- |
-| **ID**                  | US05     |
+| **ID**                  | <a id="US05">US05     |
 | **Título**              | Gerenciar Comentários sobre Atendimentos     |
 | **História**            | Como um usuário do plano de saúde,<br>Eu quero deixar e ler comentários sobre clínicas/profissionais,<br>Para que eu possa compartilhar experiências e ajudar outros usuários.                           |
 | **Critérios de Aceitação** | <br>- Dado que o usuário acessa um perfil de profissional,<br>- Quando ele escreve e envia um comentário,<br>- Então o sistema deve publicá-lo com carimbo de data/hora. |
@@ -62,7 +62,7 @@
 
 | Campo                   | Descrição   |
 | ----------------------- | ------------------- |
-| **ID**                  | US06  |
+| **ID**                  | <a id="US06">US06  |
 | **Título**              | Receber Recomendações de Especialidade via Chatbot |
 | **História**            | Como um usuário do plano de saúde,<br>Eu quero ser direcionado à especialidade médica correta por um chatbot,<br>Para que eu identifique rapidamente o profissional adequado ao meu sintoma.                      |
 | **Critérios de Aceitação** | <br>- Dado que o usuário inicia o chatbot,<br>- Quando ele descreve seus sintomas,<br>- Então o sistema deve recomendar uma especialidade médica com pelo menos 80% de precisão. |
@@ -79,7 +79,7 @@
 
 | Campo                      | Descrição |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**                     | US08 |
+| **ID**                     | <a id="US07">US07 |
 | **Título**                 | Receber Notificações sobre Vencimento de Fatura |
 | **História**               | Como um usuário do plano de saúde,<br>Eu quero receber notificações configuráveis sobre o vencimento da fatura via app, SMS ou e-mail,<br>Para que eu possa me organizar financeiramente e evitar atrasos nos pagamentos. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha ativado notificações para vencimento de fatura,<br>- Quando estiver próximo da data de vencimento,<br>- Então o sistema deve enviar uma notificação no(s) canal(is) selecionado(s) pelo usuário: app, SMS e/ou e-mail. |
@@ -96,7 +96,7 @@
 
 | Campo                      | Descrição |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**                     | US09 |
+| **ID**                     | <a id="US08">US08 |
 | **Título**                 | Receber Notificações sobre Retornos Médicos Pendentes |
 | **História**               | Como um usuário do plano de saúde,<br>Eu quero receber notificações configuráveis sobre retornos médicos pendentes via app, SMS ou e-mail,<br>Para que eu não me esqueça de agendar ou comparecer aos retornos recomendados pelos profissionais de saúde. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha um retorno médico pendente e tenha ativado as notificações correspondentes,<br>- Quando a data recomendada estiver se aproximando,<br>- Então o sistema deve enviar uma notificação no(s) canal(is) escolhido(s) pelo usuário. |
@@ -113,7 +113,7 @@
 
 | Campo                      | Descrição |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**                     | US10 |
+| **ID**                     | <a id="US09">US09 |
 | **Título**                 | Receber Notificações sobre Abertura de Agenda |
 | **História**               | Como um usuário do plano de saúde,<br>Eu quero ser notificado quando novas agendas de profissionais forem abertas,<br>Para que eu possa marcar consultas rapidamente, garantindo horários que sejam convenientes para mim. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha ativado notificações sobre abertura de agenda,<br>- Quando uma nova agenda for aberta,<br>- Então o sistema deve enviar uma notificação no(s) canal(is) escolhido(s) pelo usuário: app, SMS e/ou e-mail. |
@@ -130,7 +130,7 @@
 
 | Campo                      | Descrição |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**                     | US11 |
+| **ID**                     | <a id="US10">US10 |
 | **Título**                 | Receber Notificações sobre Cancelamentos de Horários |
 | **História**               | Como um usuário do plano de saúde,<br>Eu quero ser notificado sobre cancelamentos de horários agendados via app, SMS ou e-mail,<br>Para que eu possa reorganizar meus compromissos e, se necessário, agendar um novo horário. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha um horário agendado e que tenha ativado notificações de cancelamento,<br>- Quando o profissional ou o sistema cancelar o horário,<br>- Então o usuário deve receber uma notificação pelo(s) canal(is) configurado(s). |
@@ -147,7 +147,7 @@
 
 | Campo                      | Descrição |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**                     | US12 |
+| **ID**                     | <a id="US11"></a>US11 |
 | **Título**                 | Receber Notificações sobre Disponibilidade de Horários Favoritos |
 | **História**               | Como um usuário do plano de saúde,<br>Eu quero receber notificações quando horários que marquei como favoritos ficarem disponíveis,<br>Para que eu possa rapidamente agendar esses horários conforme minha preferência. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha marcado horários como favoritos e ativado as notificações correspondentes,<br>- Quando um desses horários for liberado,<br>- Então o sistema deve notificar o usuário pelo(s) canal(is) de comunicação configurado(s). |
@@ -164,7 +164,7 @@
 
 | Campo                      | Descrição |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**                     | US13 |
+| **ID**                     | <a id="US12">US12 |
 | **Título**                 | Receber Notificações sobre Prazos Importantes de Consultas e Exames |
 | **História**               | Como um usuário do plano de saúde,<br>Eu quero receber notificações sobre prazos importantes relacionados às minhas consultas e exames,<br>Para que eu possa me preparar adequadamente e não perder nenhuma data relevante para minha saúde. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha consultas ou exames agendados e tenha ativado notificações de prazos,<br>- Quando o prazo relevante estiver se aproximando,<br>- Então o sistema deve enviar uma notificação pelo(s) canal(is) escolhido(s). |
@@ -181,7 +181,7 @@
 
 | Campo                      | Descrição |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**                     | US14 |
+| **ID**                     | <a id="US13">US13 |
 | **Título**                 | Receber Notificações sobre Confirmações de Agendamentos |
 | **História**               | Como um usuário do plano de saúde,<br>Eu quero ser notificado quando uma consulta ou exame for confirmado,<br>Para que eu tenha certeza do meu agendamento e possa me planejar com antecedência. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha um agendamento pendente e tenha ativado as notificações de confirmação,<br>- Quando o agendamento for confirmado,<br>- Então o sistema deve enviar uma notificação pelo(s) canal(is) configurado(s) pelo usuário. |
@@ -198,7 +198,7 @@
 
 | Campo                      | Descrição |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**                     | US15 |
+| **ID**                     | <a id="US14">US14 |
 | **Título**                 | Receber Notificações sobre Alterações de Agendamento |
 | **História**               | Como um usuário do plano de saúde,<br>Eu quero ser notificado sobre quaisquer alterações em meus agendamentos,<br>Para que eu possa ajustar minha agenda pessoal e evitar confusões ou faltas. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha um agendamento e tenha ativado notificações sobre alterações,<br>- Quando houver uma mudança no horário ou local do agendamento,<br>- Então o sistema deve notificar o usuário pelo(s) canal(is) de comunicação selecionado(s). |
@@ -215,7 +215,7 @@
 
 | Campo                      | Descrição |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**                     | US16 |
+| **ID**                     | <a id="US15">US15 |
 | **Título**                 | Receber Notificações sobre Disponibilidade de Demonstrativos de IR |
 | **História**               | Como um usuário do plano de saúde,<br>Eu quero ser notificado quando meu demonstrativo de Imposto de Renda estiver disponível,<br>Para que eu possa acessá-lo rapidamente e utilizá-lo na minha declaração anual. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha ativado notificações sobre disponibilidade de demonstrativos de IR,<br>- Quando o documento for gerado e disponibilizado,<br>- Então o sistema deve notificar o usuário pelo(s) canal(is) configurado(s): app, SMS e/ou e-mail. |
