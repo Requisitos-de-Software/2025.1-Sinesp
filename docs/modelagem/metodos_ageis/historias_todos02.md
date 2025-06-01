@@ -121,7 +121,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | ----------------------- | ------------------- |
 | **ID** | <a id="US01">US01     |
 | **Título** | Pesquisar Redes Credenciadas com Filtros          |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero pesquisar redes credenciadas utilizando filtros de busca,<br>Para que eu encontre rapidamente as redes que atendam aos meus critérios.                     |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero pesquisar redes credenciadas utilizando filtros de busca,<br>Para que eu encontre rapidamente as redes que atendam aos meus critérios.                     |
 | **Critérios de Aceitação** | <br>- Dado que o usuário acessa a pesquisa de redes,<br>- Quando ele seleciona filtros como localização ou tipo de serviço,<br>- Então o sistema deve retornar redes que correspondam a todos os filtros aplicados. |
 | **Rastreabilidade** |  |
 
@@ -135,7 +135,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | ----------------------- | ------------------- |
 | **ID** | <a id="US02">US02     |
 | **Título** | Pesquisar Profissionais de Saúde com Filtros  |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero pesquisar profissionais de saúde (médicos, psicólogos etc.) utilizando filtros,<br>Para que eu encontre o profissional adequado às minhas necessidades.           |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero pesquisar profissionais de saúde (médicos, psicólogos etc.) utilizando filtros,<br>Para que eu encontre o profissional adequado às minhas necessidades.           |
 | **Critérios de Aceitação** | <br>- Dado que o usuário está na busca de profissionais,<br>- Quando ele filtra por especialidade médica,<br>- Então o sistema deve listar apenas profissionais dessa especialidade. |
 | **Rastreabilidade** |   |
 
@@ -149,7 +149,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | ----------------------- | ------------------- |
 | **ID** | <a id="US03">US03    |
 | **Título** | Combinar Múltiplos Filtros de Pesquisa    |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero combinar diferentes filtros de pesquisa,<br>Para que eu obtenha resultados mais precisos e relevantes.                                                   |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero combinar diferentes filtros de pesquisa,<br>Para que eu obtenha resultados mais precisos e relevantes.                                                   |
 | **Critérios de Aceitação** | <br>- Dado que o usuário aplica múltiplos filtros (ex: região + especialidade),<br>- Quando ele executa a pesquisa,<br>- Então o sistema deve retornar resultados que satisfaçam todas as condições simultaneamente. |
 | **Rastreabilidade** |   |
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
@@ -162,7 +162,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | ----------------------- | ------------------- |
 | **ID** | <a id="US04">US04      |
 | **Título** | Avaliar Atendimentos com Escala Likert   |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero avaliar atendimentos usando uma escala de 0 a 5,<br>Para que eu possa expressar minha satisfação com o serviço recebido.                                 |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero avaliar atendimentos usando uma escala de 0 a 5,<br>Para que eu possa expressar minha satisfação com o serviço recebido.                                 |
 | **Critérios de Aceitação** | br>- Dado que o usuário finalizou um atendimento,<br>- Quando ele seleciona uma nota entre 0 e 5,<br>- Então o sistema deve registrar a avaliação e exibir confirmação. |
 | **Rastreabilidade** |   |
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
@@ -175,7 +175,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | ----------------------- | ------------------- |
 | **ID** | <a id="US05">US05     |
 | **Título** | Gerenciar Comentários sobre Atendimentos     |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero deixar e ler comentários sobre clínicas/profissionais,<br>Para que eu possa compartilhar experiências e ajudar outros usuários.                           |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero deixar e ler comentários sobre clínicas/profissionais,<br>Para que eu possa compartilhar experiências e ajudar outros usuários.                           |
 | **Critérios de Aceitação** | <br>- Dado que o usuário acessa um perfil de profissional,<br>- Quando ele escreve e envia um comentário,<br>- Então o sistema deve publicá-lo com carimbo de data/hora. |
 | **Rastreabilidade** |   |
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
@@ -188,7 +188,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | ----------------------- | ------------------- |
 | **ID** | <a id="US06">US06  |
 | **Título** | Receber Recomendações de Especialidade via Chatbot |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero ser direcionado à especialidade médica correta por um chatbot,<br>Para que eu identifique rapidamente o profissional adequado ao meu sintoma.                      |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero ser direcionado à especialidade médica correta por um chatbot,<br>Para que eu identifique rapidamente o profissional adequado ao meu sintoma.                      |
 | **Critérios de Aceitação** | <br>- Dado que o usuário inicia o chatbot,<br>- Quando ele descreve seus sintomas,<br>- Então o sistema deve recomendar uma especialidade médica com pelo menos 80% de precisão. |
 | **Rastreabilidade** |  |
 
@@ -204,7 +204,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **ID** | <a id="US07">US07 |
 | **Título** | Receber Notificações sobre Vencimento de Fatura |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero receber notificações configuráveis sobre o vencimento da fatura via app, SMS ou e-mail,<br>Para que eu possa me organizar financeiramente e evitar atrasos nos pagamentos. |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero receber notificações configuráveis sobre o vencimento da fatura via app, SMS ou e-mail,<br>Para que eu possa me organizar financeiramente e evitar atrasos nos pagamentos. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha ativado notificações para vencimento de fatura,<br>- Quando estiver próximo da data de vencimento,<br>- Então o sistema deve enviar uma notificação no(s) canal(is) selecionado(s) pelo usuário: app, SMS e/ou e-mail. |
 | **Rastreabilidade** | RF04.1 |
 
@@ -220,7 +220,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **ID** | <a id="US08">US08 |
 | **Título** | Receber Notificações sobre Retornos Médicos Pendentes |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero receber notificações configuráveis sobre retornos médicos pendentes via app, SMS ou e-mail,<br>Para que eu não me esqueça de agendar ou comparecer aos retornos recomendados pelos profissionais de saúde. |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero receber notificações configuráveis sobre retornos médicos pendentes via app, SMS ou e-mail,<br>Para que eu não me esqueça de agendar ou comparecer aos retornos recomendados pelos profissionais de saúde. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha um retorno médico pendente e tenha ativado as notificações correspondentes,<br>- Quando a data recomendada estiver se aproximando,<br>- Então o sistema deve enviar uma notificação no(s) canal(is) escolhido(s) pelo usuário. |
 | **Rastreabilidade** | RF04.2 |
 
@@ -236,7 +236,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **ID** | <a id="US09">US09 |
 | **Título** | Receber Notificações sobre Abertura de Agenda |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero ser notificado quando novas agendas de profissionais forem abertas,<br>Para que eu possa marcar consultas rapidamente, garantindo horários que sejam convenientes para mim. |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero ser notificado quando novas agendas de profissionais forem abertas,<br>Para que eu possa marcar consultas rapidamente, garantindo horários que sejam convenientes para mim. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha ativado notificações sobre abertura de agenda,<br>- Quando uma nova agenda for aberta,<br>- Então o sistema deve enviar uma notificação no(s) canal(is) escolhido(s) pelo usuário: app, SMS e/ou e-mail. |
 | **Rastreabilidade** | RF04.3 |
 
@@ -252,7 +252,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **ID** | <a id="US10">US10 |
 | **Título** | Receber Notificações sobre Cancelamentos de Horários |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero ser notificado sobre cancelamentos de horários agendados via app, SMS ou e-mail,<br>Para que eu possa reorganizar meus compromissos e, se necessário, agendar um novo horário. |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero ser notificado sobre cancelamentos de horários agendados via app, SMS ou e-mail,<br>Para que eu possa reorganizar meus compromissos e, se necessário, agendar um novo horário. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha um horário agendado e que tenha ativado notificações de cancelamento,<br>- Quando o profissional ou o sistema cancelar o horário,<br>- Então o usuário deve receber uma notificação pelo(s) canal(is) configurado(s). |
 | **Rastreabilidade** | RF04.4 |
 
@@ -268,7 +268,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **ID** | <a id="US11"></a>US11 |
 | **Título** | Receber Notificações sobre Disponibilidade de Horários Favoritos |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero receber notificações quando horários que marquei como favoritos ficarem disponíveis,<br>Para que eu possa rapidamente agendar esses horários conforme minha preferência. |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero receber notificações quando horários que marquei como favoritos ficarem disponíveis,<br>Para que eu possa rapidamente agendar esses horários conforme minha preferência. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha marcado horários como favoritos e ativado as notificações correspondentes,<br>- Quando um desses horários for liberado,<br>- Então o sistema deve notificar o usuário pelo(s) canal(is) de comunicação configurado(s). |
 | **Rastreabilidade** | RF04.5 |
 
@@ -284,7 +284,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **ID** | <a id="US12">US12 |
 | **Título** | Receber Notificações sobre Prazos Importantes de Consultas e Exames |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero receber notificações sobre prazos importantes relacionados às minhas consultas e exames,<br>Para que eu possa me preparar adequadamente e não perder nenhuma data relevante para minha saúde. |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero receber notificações sobre prazos importantes relacionados às minhas consultas e exames,<br>Para que eu possa me preparar adequadamente e não perder nenhuma data relevante para minha saúde. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha consultas ou exames agendados e tenha ativado notificações de prazos,<br>- Quando o prazo relevante estiver se aproximando,<br>- Então o sistema deve enviar uma notificação pelo(s) canal(is) escolhido(s). |
 | **Rastreabilidade** | RF04.6 |
 
@@ -300,7 +300,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **ID** | <a id="US13">US13 |
 | **Título** | Receber Notificações sobre Confirmações de Agendamentos |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero ser notificado quando uma consulta ou exame for confirmado,<br>Para que eu tenha certeza do meu agendamento e possa me planejar com antecedência. |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero ser notificado quando uma consulta ou exame for confirmado,<br>Para que eu tenha certeza do meu agendamento e possa me planejar com antecedência. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha um agendamento pendente e tenha ativado as notificações de confirmação,<br>- Quando o agendamento for confirmado,<br>- Então o sistema deve enviar uma notificação pelo(s) canal(is) configurado(s) pelo usuário. |
 | **Rastreabilidade** | RF04.7 |
 
@@ -316,7 +316,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **ID** | <a id="US14">US14 |
 | **Título** | Receber Notificações sobre Alterações de Agendamento |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero ser notificado sobre quaisquer alterações em meus agendamentos,<br>Para que eu possa ajustar minha agenda pessoal e evitar confusões ou faltas. |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero ser notificado sobre quaisquer alterações em meus agendamentos,<br>Para que eu possa ajustar minha agenda pessoal e evitar confusões ou faltas. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha um agendamento e tenha ativado notificações sobre alterações,<br>- Quando houver uma mudança no horário ou local do agendamento,<br>- Então o sistema deve notificar o usuário pelo(s) canal(is) de comunicação selecionado(s). |
 | **Rastreabilidade** | RF04.8 |
 
@@ -332,7 +332,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **ID** | <a id="US15">US15 |
 | **Título** | Receber Notificações sobre Disponibilidade de Demonstrativos de IR |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero ser notificado quando meu demonstrativo de Imposto de Renda estiver disponível,<br>Para que eu possa acessá-lo rapidamente e utilizá-lo na minha declaração anual. |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero ser notificado quando meu demonstrativo de Imposto de Renda estiver disponível,<br>Para que eu possa acessá-lo rapidamente e utilizá-lo na minha declaração anual. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha ativado notificações sobre disponibilidade de demonstrativos de IR,<br>- Quando o documento for gerado e disponibilizado,<br>- Então o sistema deve notificar o usuário pelo(s) canal(is) configurado(s): app, SMS e/ou e-mail. |
 | **Rastreabilidade** | RF04.9 |
 
@@ -346,7 +346,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | ----------------------- | -------- |
 | **ID** | US16 |
 | **Título** | Agendar Consultas e Exames pelo Aplicativo  |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero agendar consultas e exames diretamente pelo aplicativo,<br>Para que eu possa gerenciar minha saúde de forma conveniente e eficiente.                      |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero agendar consultas e exames diretamente pelo aplicativo,<br>Para que eu possa gerenciar minha saúde de forma conveniente e eficiente.                      |
 | **Critérios de Aceitação** | <br>- Dado que o usuário está logado no aplicativo,<br>- Quando ele seleciona a opção de agendamento e escolhe uma especialidade/exame, prestador e horário,<br>- Então o sistema deve confirmar o agendamento e exibir os detalhes. |
 | **Rastreabilidade** |     [RNF05](../../elicitacao/elicitacao.md#RNF05)  |
 
@@ -360,7 +360,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | ----------------------- | ----------|
 | **ID** | US17 |
 | **Título** | Realizar Pagamento Automático a Prestadores      |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero que o pagamento seja realizado automaticamente para os prestadores da Rede de Atendimento,<br>Para que eu não precise me preocupar com transações manuais após a consulta ou exame. |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero que o pagamento seja realizado automaticamente para os prestadores da Rede de Atendimento,<br>Para que eu não precise me preocupar com transações manuais após a consulta ou exame. |
 | **Critérios de Aceitação** | <br>- Dado que o usuário realiza uma consulta ou exame com um prestador da Rede de Atendimento e possui um método de pagamento configurado,<br>- Quando o atendimento é concluído,<br>- Então o sistema deve processar o pagamento automaticamente ao prestador. |
 | **Rastreabilidade** |     [RF05.2](../../elicitacao/elicitacao.md#RF05.2)     |
 
@@ -374,7 +374,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | ----------------------- | ----------|
 | **ID** | US18 |
 | **Título** | Cancelar Consultas e Exames pelo Aplicativo     |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero cancelar consultas e exames diretamente pelo aplicativo,<br>Para que eu possa gerenciar meus compromissos de forma flexível e evitar custos desnecessários. |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero cancelar consultas e exames diretamente pelo aplicativo,<br>Para que eu possa gerenciar meus compromissos de forma flexível e evitar custos desnecessários. |
 | **Critérios de Aceitação** | <br>- Dado que o usuário possui um agendamento de consulta ou exame ativo no aplicativo,<br>- Quando ele seleciona a opção de cancelamento e confirma a ação,<br>- Então o sistema deve cancelar o agendamento e, se aplicável, processar qualquer ajuste financeiro automático com o prestador. |
 | **Rastreabilidade** |     [RF05.3](../../elicitacao/elicitacao.md#RF05.3)  |
 
@@ -388,7 +388,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | ----------------------- | ----------|
 | **ID** | US19 |
 | **Título** | Exibir Valor da Consulta por Clínica  |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero ver o valor específico da consulta para cada clínica,<br>Para que eu possa tomar decisões informadas sobre onde realizar meu atendimento.           |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero ver o valor específico da consulta para cada clínica,<br>Para que eu possa tomar decisões informadas sobre onde realizar meu atendimento.           |
 | **Critérios de Aceitação** | <br>- Dado que o usuário está pesquisando por clínicas ou prestadores de saúde,<br>- Quando ele visualiza os detalhes de uma clínica ou prestador,<br>- Então o sistema deve exibir o valor da consulta associado a essa clínica ou prestador. |
 | **Rastreabilidade** |     [RF06.1](../../elicitacao/elicitacao.md#RF06.1)  |
 
@@ -402,7 +402,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | ----------------------- | ----------|
 | **ID** | US20     |
 | **Título** | Visualizar Valor da Coparticipação    |
-| **História** | Como um beneficiário do plano de saúde,<br>Eu quero que o sistema calcule e exiba o valor da minha coparticipação para cada consulta ou procedimento,<br>Para que eu tenha clareza sobre meus custos e possa planejar minhas despesas. |
+| **História** | Como um beneficiário do GDF Saúde,<br>Eu quero que o sistema calcule e exiba o valor da minha coparticipação para cada consulta ou procedimento,<br>Para que eu tenha clareza sobre meus custos e possa planejar minhas despesas. |
 | **Critérios de Aceitação** | <br>- Dado que o usuário realiza uma consulta ou procedimento sujeito a coparticipação,<br>- Quando o sistema processa o registro desse atendimento,<br>- Então o valor da coparticipação deve ser calculado e exibido no extrato ou detalhe do atendimento do usuário. |
 | **Rastreabilidade** |     [RF06.2](../../elicitacao/elicitacao.md#RF06.2)    |
 
@@ -416,7 +416,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | ----------------------- | ----------|
 | **ID** | US21  |
 | **Título** | Gerar e Baixar Demonstrativo para Imposto de Renda     |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero gerar e baixar um demonstrativo de minhas despesas médicas,<br>Para que eu possa utilizar no meu imposto de renda de forma prática e organizada.       |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero gerar e baixar um demonstrativo de minhas despesas médicas,<br>Para que eu possa utilizar no meu imposto de renda de forma prática e organizada.       |
 | **Critérios de Aceitação** | <br>- Dado que o usuário acessa a seção de demonstrativos no aplicativo,<br>- Quando ele seleciona o período desejado e a opção de gerar/baixar,<br>- Então o sistema deve gerar um arquivo (ex: PDF) com o demonstrativo de despesas médicas, permitindo o download. |
 | **Rastreabilidade** |     [RF06.3](../../elicitacao/elicitacao.md#RF06.3)   |
 
@@ -430,7 +430,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **ID** | US22                                                                                                                                                                                                      |
 | **Título** | Cadastro de Titular                                                                                                                                                                                       |
-| **História** | Como um usuário responsável pelo atendimento,<br>Eu quero cadastrar titulares no sistema,<br>Para que eles possam acessar os serviços oferecidos pelo plano de saúde.                                     |
+| **História** | Como um usuário responsável pelo atendimento,<br>Eu quero cadastrar titulares no sistema,<br>Para que eles possam acessar os serviços oferecidos pelo GDF Saúde.                                     |
 | **Critérios de Aceitação** | - Dado que estou na tela de cadastro de titular,<br>- Quando preencho os dados obrigatórios e submeto o formulário,<br>- Então o sistema deve salvar o cadastro e gerar uma confirmação de registro.     |
 | **Rastreabilidade** |                                                                                                                                                                                                     |
 <p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
@@ -508,7 +508,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **ID** | US28   |
 | **Título** | Permitir Denúncias de Condutas Inadequadas  |
-| **História** | Como um beneficiário do plano de saúde,<br>Eu quero denunciar condutas inadequadas de profissionais credenciados,<br>Para que a operadora possa tomar as devidas providências.                              |
+| **História** | Como um beneficiário do GDF Saúde,<br>Eu quero denunciar condutas inadequadas de profissionais credenciados,<br>Para que a operadora possa tomar as devidas providências.                              |
 | **Critérios de Aceitação** | - Dado que estou insatisfeito com o atendimento de um profissional,<br>- Quando acesso o canal de denúncias e preencho as informações,<br>- Então o sistema deve registrar e encaminhar para análise.     |
 | **Rastreabilidade** | |
 <p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
@@ -521,7 +521,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | -------------------------- | ------------------------ |
 | **ID** | US29 |
 | **Título** | Visualizar Histórico de Consultas Realizadas |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero visualizar meu histórico de consultas realizadas,<br>Para que eu possa me lembrar das datas e dos profissionais que visitei para meu próprio controle e para agendar retornos.  |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero visualizar meu histórico de consultas realizadas,<br>Para que eu possa me lembrar das datas e dos profissionais que visitei para meu próprio controle e para agendar retornos.  |
 | **Critérios de Aceitação** | **Cenário 01: Visualizar a lista de consultas**<br>- Dado que o usuário está logado em sua conta,<br>- Quando ele acessa a seção de "Histórico de Consultas",<br>- Então o sistema deve exibir uma lista de todas as suas consultas passadas, ordenadas da mais recente para a mais antiga.<br>- E cada item da lista deve mostrar a data, o nome do profissional e a especialidade da consulta. |
 | **Rastreabilidade** | |
 
@@ -535,7 +535,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | -------------------------- | ------------------------ |
 | **ID** | US30 |
 | **Título** | Visualizar Histórico de Exames Realizados |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero ver um histórico de todos os exames que já realizei,<br>Para que eu possa manter um registro dos exames diagnósticos que fiz e quando foram realizados, especialmente para acompanhamento médico de longo prazo.    |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero ver um histórico de todos os exames que já realizei,<br>Para que eu possa manter um registro dos exames diagnósticos que fiz e quando foram realizados, especialmente para acompanhamento médico de longo prazo.    |
 | **Critérios de Aceitação** | **Cenário 01: Visualizar a lista de exames**<br>- Dado que o usuário está logado em sua conta,<br>- Quando ele acessa a seção de "Histórico de Exames",<br>- Então o sistema deve exibir uma lista com todos os seus exames realizados.<br>- E cada item da lista deve detalhar o nome do exame e a data em que foi realizado. |
 | **Rastreabilidade** | |
 
@@ -549,7 +549,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | -------------------------- | ------------------------ |
 | **ID** | US31 |
 | **Título** | Visualizar Resultados de Exames Laboratoriais |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero poder visualizar os resultados dos meus exames laboratoriais diretamente no sistema,<br>Para que eu possa entender minha condição de saúde atual e compartilhar os resultados facilmente com meus médicos.  |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero poder visualizar os resultados dos meus exames laboratoriais diretamente no sistema,<br>Para que eu possa entender minha condição de saúde atual e compartilhar os resultados facilmente com meus médicos.  |
 | **Critérios de Aceitação** | **Cenário 01: Acessar um resultado de exame**<br>- Dado que o usuário está no "Histórico de Exames",<br>- Quando ele localiza um exame laboratorial que possui um resultado disponível,<br>- Então deve haver um botão ou link claramente identificado como "Ver Resultado" ou similar.<br>- E ao clicar, o sistema deve exibir o resultado, seja em uma nova página ou permitindo o download de um arquivo (ex: PDF). |
 | **Rastreabilidade** | |
 
@@ -563,7 +563,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | -------------------------- | ------------------------ |
 | **ID** | US32 |
 | **Título** | Visualizar Histórico de Coparticipações |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero acessar meu histórico detalhado de cobranças de coparticipação,<br>Para que eu possa controlar meus gastos com o plano de saúde e verificar se todas as cobranças estão corretas.    |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero acessar meu histórico detalhado de cobranças de coparticipação,<br>Para que eu possa controlar meus gastos com o GDF Saúde e verificar se todas as cobranças estão corretas.    |
 | **Critérios de Aceitação** | - Dado que o usuário está logado em sua conta,<br>- Quando ele acessa a seção "Histórico de Coparticipações" ou "Financeiro",<br>- Então o sistema deve exibir uma lista de todas as suas cobranças de coparticipação.<br>- E cada item na lista deve especificar o serviço ao qual a cobrança se refere, a data e o valor cobrado. |
 | **Rastreabilidade** | |
 
@@ -591,7 +591,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | -------------------------- | ------------------------ |
 | **ID** | US34     |
 | **Título** | Solicitar Reembolso de Cobrança Indevida de Coparticipação |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero iniciar uma solicitação de reembolso para uma cobrança de coparticipação que considero incorreta,<br>Para que eu possa corrigir o erro financeiro e reaver o valor que foi pago indevidamente.  |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero iniciar uma solicitação de reembolso para uma cobrança de coparticipação que considero incorreta,<br>Para que eu possa corrigir o erro financeiro e reaver o valor que foi pago indevidamente.  |
 | **Critérios de Aceitação** | - Dado que o usuário está visualizando seu histórico de coparticipações,<br>- Quando ele identifica uma cobrança indevida e clica na opção "Contestar" ou "Solicitar Reembolso",<br>- Então o sistema deve abrir um formulário para a solicitação.<br>- E o formulário deve permitir que o usuário escreva uma justificativa e anexe documentos, se necessário.<br>- E após o envio, o sistema deve exibir uma mensagem de confirmação com um número de protocolo para acompanhamento. |
 | **Rastreabilidade** |           |
 
@@ -689,7 +689,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | :---- | :-------- |
 | **ID** | US41 |
 | **Título** | Acessar Carteirinha Digital no Modo Offline |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero poder acessar minha carteirinha digital mesmo quando estiver sem conexão à internet,<br>Para que eu consiga utilizá-la rapidamente em locais sem rede ou com instabilidade. |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero poder acessar minha carteirinha digital mesmo quando estiver sem conexão à internet,<br>Para que eu consiga utilizá-la rapidamente em locais sem rede ou com instabilidade. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha feito login previamente e baixado sua carteirinha digital ao menos uma vez,<br>- Quando ele estiver sem conexão com a internet ou sem acesso ao aplicativo e precisar abrir a carteirinha,<br>- Então ele pode abrir na sua galeria de fotos do celular/tablet e acessar a carteirinha previamente baixada. |
 | **Rastreabilidade** | RF03 |
 
@@ -701,7 +701,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | :---- | :-------- |
 | **ID** | US42 |
 | **Título** | Adicionar Consulta à Rede Odontológica |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero poder pesquisar por dentistas e clínicas odontológicas na rede credenciada,<br>Para que eu encontre facilmente um atendimento odontológico quando precisar. |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero poder pesquisar por dentistas e clínicas odontológicas na rede credenciada,<br>Para que eu encontre facilmente um atendimento odontológico quando precisar. |
 | **Critérios de Aceitação** | - Dado que o usuário esteja logado no aplicativo,<br>- Quando ele acessar a seção de busca por profissionais/especialidades,<br>- Então ele deve ter a opção de filtrar ou pesquisar por "Odontologia" ou "Dentista",<br>- E o sistema deve exibir uma lista de profissionais e clínicas odontológicas credenciadas, com informações como nome, endereço e contato. |
 | **Rastreabilidade** | RF13 |
 
@@ -713,7 +713,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | :---- | :-------- |
 | **ID** | US43 |
 | **Título** | Visualizar Novas Clínicas Próximas por Localização |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero que o aplicativo me apresente novas clínicas próximas com base na minha localização atual,<br>Para que eu possa descobrir e acessar serviços de saúde mais convenientes e recém-adicionados à rede. |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero que o aplicativo me apresente novas clínicas próximas com base na minha localização atual,<br>Para que eu possa descobrir e acessar serviços de saúde mais convenientes e recém-adicionados à rede. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha permitido o acesso à sua localização no aplicativo,<br>- Quando ele estiver navegando na seção de busca por clínicas ou na tela inicial,<br>- Então o sistema deve identificar e destacar novas clínicas credenciadas que estejam próximas da sua localização,<br>- E deve fornecer detalhes como nome, especialidades, endereço e distância. |
 | **Rastreabilidade** | RF14.1 |
 
@@ -725,7 +725,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | :---- | :-------- |
 | **ID** | US44 |
 | **Título** | Visualizar Clínicas Próximas por Localização |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero que o aplicativo me apresente clínicas próximas com base na minha localização atual,<br>Para que eu possa encontrar facilmente locais de atendimento de saúde convenientes. |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero que o aplicativo me apresente clínicas próximas com base na minha localização atual,<br>Para que eu possa encontrar facilmente locais de atendimento de saúde convenientes. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha permitido o acesso à sua localização no aplicativo,<br>- Quando ele estiver navegando na seção de busca por clínicas ou na tela inicial,<br>- Então o sistema deve identificar clínicas credenciadas que estejam próximas da sua localização,<br>- E deve fornecer detalhes como nome, especialidades, endereço e distância. |
 | **Rastreabilidade** | RF14.2 |
 
@@ -737,7 +737,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | :---- | :-------- |
 | **ID** | US45 |
 | **Título** | Baixar Comprovantes de Agendamento |
-| **História** | Como um usuário do plano de saúde,<br>Eu quero poder baixar os comprovantes dos meus agendamentos (consultas, exames),<br>Para que eu tenha um registro oficial e possa apresentá-lo se for necessário (na clínica ou para controle pessoal). |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero poder baixar os comprovantes dos meus agendamentos (consultas, exames),<br>Para que eu tenha um registro oficial e possa apresentá-lo se for necessário (na clínica ou para controle pessoal). |
 | **Critérios de Aceitação** | - Dado que o usuário tenha um agendamento confirmado no aplicativo,<br>- Quando ele visualizar os detalhes de um agendamento específico,<br>- Então deve existir um botão ou opção clara para "Baixar Comprovante",<br>- E o aplicativo deve gerar e salvar o comprovante em um formato comum (ex: PDF) no dispositivo do usuário. |
 | **Rastreabilidade** | RF15 |
 
@@ -749,7 +749,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | :---- | :-------- |
 | **ID** | US46 |
 | **Título** | Fazer Login por Biometria (Facial ou Digital) |
-| **História** | Como um usuário do aplicativo do plano de saúde,<br>Eu quero poder fazer login usando minha biometria facial ou digital,<br>Para que eu acesse minha conta de forma mais rápida, segura e conveniente, sem precisar digitar minha senha toda vez. |
+| **História** | Como um usuário do aplicativo do GDF Saúde,<br>Eu quero poder fazer login usando minha biometria facial ou digital,<br>Para que eu acesse minha conta de forma mais rápida, segura e conveniente, sem precisar digitar minha senha toda vez. |
 | **Critérios de Aceitação** | - Dado que o dispositivo do usuário suporte biometria (facial ou digital) e a opção esteja ativada nas configurações do aplicativo,<br>- Quando o usuário abrir o aplicativo e for para a tela de login,<br>- Então ele deve ter a opção de usar a biometria cadastrada no dispositivo,<br>- E o aplicativo deve autenticá-lo e permitir o acesso à sua conta se a biometria for reconhecida com sucesso. |
 | **Rastreabilidade** | RF19 |
 
