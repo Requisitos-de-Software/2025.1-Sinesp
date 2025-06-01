@@ -124,7 +124,7 @@ SALES, André Barros de. [Plano de Ensino – Requisitos de Software: REE012025 
 
 ATLASSIAN. *What is an epic?* 2023. Disponível em: https://www.atlassian.com/agile/project-management/epics. Acesso em: 30 maio 2025. 
 
-SBOK® GUIDE. *Scrum Body of Knowledge (SBOK® Guide)*. 4. ed. [S. l.]: Scrum Study, 2024. Disponível em: <https://www.scrumstudy.com/sbok>. Acesso em: 31 maio 2025.
+SBOK® GUIDE. *Scrum Body of Knowledge (SBOK® Guide)*. 4. ed. [S. l.]: Scrum Study, 2024. Disponível em: <https://www.scrumstudy.com/sbokguide/download-free-buy-sbok>. Acesso em: 31 maio 2025.
 
 SILVA, Reinaldo Antônio da. *NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados*. 2019. Dissertação (Mestrado em Ciência da Computação) – Programa de Pós-Graduação em Ciência da Computação, Universidade Federal de Pernambuco, Recife. Disponível em: <https://aprender3.unb.br/pluginfile.php/3096155/mod_resource/content/2/DISSERTAÇÃO%20Reinaldo%20Antônio%20da%20Silva.pdf>. Acesso em: 31 maio 2025.
 
