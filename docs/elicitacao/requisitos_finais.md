@@ -36,6 +36,10 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram no refinamen
                 <td>Refinou o requisito RF09</td>
             </tr>
             <tr>
+                <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+                <td>Refinou os requisitos RF11, RF12.1, RF12.2, RF12.3, RF12.4, RF12.5, RF12.6, RF13, RF14</td>
+            </tr>
+            <tr>
                 <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
                 <td>Refinou os requisitos RF03, RF13, RF14, RF15, RF19, RNF15 e RNF16.</td>
             </tr>
@@ -43,7 +47,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram no refinamen
     </table>
 </div>
 
-<p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Isaque Camargos</a>, <a  href="https://github.com/isaqzin">Yzabella Miranda</a>, <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Isaque Camargos</a>, <a  href="https://github.com/isaqzin">Yzabella Miranda</a>, <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a>, <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
 ## Metodologia
 
@@ -100,6 +104,13 @@ Na tabela 2 encontra-se todos os requisitos funcionais que foram ou não corriji
 | <a id="RF09.4"></a>RF09.4 | Permitir ao usuário visualizar o histórico de suas coparticipações.                                                                                             | [GF04](../elicitacao/tecnicas/grupo_focal.md#GF04), [GF08](../elicitacao/tecnicas/grupo_focal.md#GF08), [IS03](../elicitacao/tecnicas/introspeccao.md#IS03), [IS04](../elicitacao/tecnicas/introspeccao.md#IS04), [QT04](../elicitacao/tecnicas/questionario.md#QT04)                                                   | Não              |
 | <a id="RF10"></a>RF10     | Permitir que o usuário favorite horários de consulta desejados.                                                                                                 | [GF06](../elicitacao/tecnicas/grupo_focal.md#GF06)                                                                                                                                                                                                                                                                      | Não              |
 | <a id="RF13"></a>RF13     | Adicionar consulta à rede odontológica.                                                                            | [QT07](../elicitacao/tecnicas/questionario.md#QT07)                          | Sim              | 
+| <a id="RF11"></a>RF11 | Oferecer um canal para o usuário enviar feedback sobre atendimentos.|[GF09](../elicitacao/tecnicas/grupo_focal.md#GF09)    | Não              |
+| <a id="RF12.1"></a>RF12.1 | Apesentar uma seção no menu principal chamada "Novidades".                                         |[GF05](../elicitacao/tecnicas/grupo_focal.md#GF05)      | Não
+| <a id="RF12.2"></a>RF12.2 | Exibir uma lista com título, descrição e data de lançamento das novas funcionalidades.                                                      | [GF05](../elicitacao/tecnicas/grupo_focal.md#GF05)      | Não             |
+| <a id="RF12.3"></a>RF12.3 | Destacar funcionalidades novas com um marcador de "Novo" por um período configurável (ex: 7 dias).                                                   |  [GF05](../elicitacao/tecnicas/grupo_focal.md#GF05)      | Não              |
+| <a id="RF12.4"></a>RF12.4 |Exibir pop-ups informativos com as principais novidades após a atualização do aplicativo.                                                      | [GF05](../elicitacao/tecnicas/grupo_focal.md#GF05)      | Não             |
+| <a id="12.5"></a>RF12.5 | Permitir que o usuário toque em uma funcionalidade da lista de novidades para ver uma descrição detalhada.                                                                       | [GF05](../elicitacao/tecnicas/grupo_focal.md#GF05)      | Não              |
+| <a id="RF12.6"></a>RF12.6 |Permitir que o usuário ordene as novidades por "mais recente" e "mais antigo" no topo da lista.                         | [GF05](../elicitacao/tecnicas/grupo_focal.md#GF05)      | Não                                   | 
 | <a id="RF14.1"></a>RF14.1     | Apresentar novas clínicas próximas de acordo com a localização do usuário.                              | [EN09](../elicitacao/tecnicas/entrevista.md#EN09)                          | Não              |
 | <a id="RF14.2"></a>RF14.2     | Apresentarclí nicas próximas de acordo com a localização do usuário.                              | [EN09](../elicitacao/tecnicas/entrevista.md#EN09)                          | Não              | 
 | <a id="RF15"></a>RF15     | Permitir baixar comprovantes de agendamento.                                                                       | [IS08](../elicitacao/tecnicas/introspeccao.md#IS08)                          | Não              |
@@ -107,7 +118,7 @@ Na tabela 2 encontra-se todos os requisitos funcionais que foram ou não corriji
 | <a id="RF20"></a>RF20     | Permitir solicitação de reembolso de uma cobrança indevida de coparticipação.                                                                                   | BS05                                                                                                                                                                                                                                                                                                                    | Não              |
 | <a id="RF21.1"></a>RF21.1 | Chatbot conversacional que direciona o usuário à especialidade médica adequada, com precisão de pelo menos 80 % nas recomendações.                              | [BS06](../elicitacao/tecnicas/brainstorm.md#BS06)                                                                                                                                                                                                                                                                       | Não              |
 
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a>, <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
 ## Requisitos Não Funcionais Refinados
 
@@ -126,10 +137,12 @@ Na tabela 3 encontra-se todos os requisitos não funcionais que foram ou não co
 | <a id="RNF06"></a>RNF06     | O aplicativo deve ser compatível com leitores de tela para garantir acessibilidade a pessoas com deficiência visual.                | [IS20](../elicitacao/tecnicas/introspeccao.md#IS20), [QT14](../elicitacao/tecnicas/questionario.md#QT14)                                                                                                                                                                                                              | Não              |
 | <a id="RNF11"></a>RNF11     | Manter histórico de notificações acessível ao usuário por no mínimo 6 meses.                                                        | [GF16](../elicitacao/tecnicas/grupo_focal.md#GF16)                                                                                                                                                                                                                                                                    | Não              |
 | <a id="RNF12"></a>RNF12     | O aplicativo deve oferecer suporte por chat ou telefone.                                                                            | [IS15](../elicitacao/tecnicas/introspeccao.md#IS15)                                                                                                                                                                                                                                                                   | Sim              |
+| <a id="RNF13"></a>RNF13    | Deve funcionar de forma offline para acesso à carteirinha e histórico de consultas.                               | [IS19](../elicitacao/tecnicas/introspeccao.md#IS19)                          | Não              |
+| <a id="RNF14"></a>RNF14    | O layout deve ser consistente com o portal oficial do plano.                                                      | [QT16](../elicitacao/tecnicas/questionario.md#QT16)                          | Não              |
 | <a id="RNF15"></a>RNF15    | O sistema deve exigir autenticação via GovBR para login.                                                          | [GF11](../elicitacao/tecnicas/grupo_focal.md#GF11)                          | Não              |
 | <a id="RNF16"></a>RNF16    | As informações exibidas devem ser claras, completas e atualizadas em tempo real.                                  | [QT13](../elicitacao/tecnicas/questionario.md#QT13)                          | Sim |
 
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
 ## Conclusão
 
@@ -145,3 +158,4 @@ O refinamento dos requisitos funcionais e não funcionais foi fundamental para e
 | 2.0    | 29/05/2025 | Corrigindo os requisitos funcionais e não funcionais de forma que eles fiquem testáveis, quantificáveis e indivisíveis dos requisitos: RF01 RF02, RF21, RNF01, RNF02 e RNF03 | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                                                                                  | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
 | 2.1    | 30/05/2025 | Corrigindo os requisitos funcionais de forma que eles fiquem testáveis, quantificáveis e indivisíveis dos requisitos: RF05 e RF06                                            | [Kaleb Macedo](https://github.com/kalebmacedo)                                                                                                       | [Lucas Alves](https://github.com/LucasAlves71)                |
 | 2.1    | 30/05/2025 | Corrigindo os requisitos funcionais de forma que eles fiquem testáveis, quantificáveis e indivisíveis dos requisitos: Refinou os RF03, RF04, RNF04, RNF05 e RNF06            | [Isaque Camarogs](https://github.com/isaqzin)                                                                                                        | [Lucas Alves](https://github.com/LucasAlves71)                |
+| 2.2    | 01/06/2025 | Adicionando os meus requisitos funcionais e não funcionais (RF11, RF12.1 RF12.2, RF12.3, RF12.4, RF12.5, RF12.6, RNF13 e RNF14)         | [Othavio Bolzan](https://github.com/bolzanMGB)                                                                                                        | [Kaleb Macedo](https://github.com/kalebmacedo)                |
