@@ -104,7 +104,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 ## Lista de Verificação - Backlog
 
 
-<p align="center">Tabela 2 – Lista de Verificação de Backlog </p>
+<p align="center">Tabela 5 – Lista de Verificação de Backlog </p>
 
 | ID | Item de Verificação  | Autor | Referência |
 |----|----------------------|-------|------------|
@@ -113,6 +113,8 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 |  3 | O backlog lista funcionalidades desejadas no projeto? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega4\backlog2.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096144/mod_resource/content/1/Requisitos%20-%20Aula%2015a.pdf">slides</a></div> |
 |  4 | Um usuário real priorizou o backlog? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega4\backlog2.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096144/mod_resource/content/1/Requisitos%20-%20Aula%2015a.pdf">slides</a></div> |
 |  5 | Os itens estão especificados baseados em histórias de usuários?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega4\backlog3.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096144/mod_resource/content/1/Requisitos%20-%20Aula%2015a.pdf">slides</a></div> |
+
+<p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
 
 ---
 
