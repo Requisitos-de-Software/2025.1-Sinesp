@@ -152,7 +152,7 @@ As tabelas a seguir detalham os requisitos não-funcionais elicitados para o pro
 | **Conflitos:** Nenhum |
 | **História:** 2025 |
 
-Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
+Fonte: [Kaleb Macedo](https://github.com/kalebmacedo) e [Lucas Alves](https://github.com/)
 
 </center>
 
@@ -171,7 +171,7 @@ Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
 | **Conflitos:** Pode conflitar com segurança em operações críticas |
 | **História:** 2025 |
 
-Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
+Fonte: [Kaleb Macedo](https://github.com/kalebmacedo) e [Lucas Alves](https://github.com/)
 
 </center>
 
@@ -190,7 +190,7 @@ Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
 | **Conflitos:** Pode impactar desempenho |
 | **História:** 2025 |
 
-Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
+Fonte: [Kaleb Macedo](https://github.com/kalebmacedo) e [Lucas Alves](https://github.com/)
 
 </center>
 
@@ -209,7 +209,7 @@ Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
 | **Conflitos:** Nenhum |
 | **História:** 2025 |
 
-Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
+Fonte: [Kaleb Macedo](https://github.com/kalebmacedo) e [Lucas Alves](https://github.com/)
 
 </center>
 
@@ -228,7 +228,7 @@ Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
 | **Conflitos:** Nenhum |
 | **História:** 2025 |
 
-Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
+Fonte: [Kaleb Macedo](https://github.com/kalebmacedo) e [Lucas Alves](https://github.com/)
 
 </center>
 
@@ -244,7 +244,7 @@ A tabela a seguir lista os requisitos não-funcionais utilizados para a criaçã
 | RNF08 | Desempenho     | Processar autorizações prévias em até 10 dias úteis.                     | [Kaleb Macedo](https://github.com/kalebmacedo) e [Lucas Alves](https://github.com/)    | 100% das autorizações processadas no prazo. | Não           |
 | RNF15 | Acessibilidade | Compatibilidade com leitores de tela para pessoas com deficiência visual. | [Kaleb Macedo](https://github.com/kalebmacedo) e [Lucas Alves](https://github.com/)        | Testes com leitores de tela aprovados. | Não           |
 
-Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
+Fonte: [Kaleb Macedo](https://github.com/kalebmacedo) e [Lucas Alves](https://github.com/)
 
 ### Gráfico de Interdependência de Softgoals (SIG)
 
@@ -291,5 +291,7 @@ CHUNG, L.; NIXON, B. A.; YU, E.; MYLOPOULOS, J. Non-functional requirements in s
 |--------|------------|-------------------------------------------|-----------------------------------|----------------------|
 | `1.0`  | 01/06/2025 | Estruturação do documento inicial, adicionando introdução, metodologia, as explicações sobre o sig, decomposição, contribuição, procedimento de avaliação e refenrencias.      | [Lucas Alves](https://github.com/)  | [Kaleb Macedo](https://github.com/kalebmacedo) |
 | `1.1`  | 01/06/2025 | Arrumando questões de imagem, fonte e prioridade.      | [Lucas Alves](https://github.com/)  | [Kaleb Macedo](https://github.com/kalebmacedo) |
+| `1.2`  | 01/06/2025 | Fonte nas tabelas.      | [Lucas Alves](https://github.com/)  | [Kaleb Macedo](https://github.com/kalebmacedo) |
+
 
 
