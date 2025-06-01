@@ -171,7 +171,7 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
 
 #### Tabela 1 - Product Backlog Elaborado
 
-<table>
+<>
 <thead>
   <tr>
     <th>Tema</th>
@@ -181,7 +181,7 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
     <th>Priorização</th>
   </tr>
 </thead>
-<tbody>
+<>
   <tr>
     <td rowspan="4">Busca</td>
     <td rowspan="3"><a href="#EP01">EP01</a> – Pesquisa de Rede e Profissionais</td>
@@ -307,12 +307,12 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
     <td rowspan="2">Agendamentos e Gestão de Atendimentos</td>
     <td rowspan="2"><a href="#EP09">EP09</a> – Agendamento e Cancelamento de Consultas</td>
     <td><a href="../historias_todos#anchor_US16">US16</a>: Agendar Consultas e Exames</td>
-    <td>-</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF05.1">RF05.1</a></td>
     <td><strong>Alta</strong></td>
   </tr>
   <tr>
     <td><a href="../historias_todos#anchor_US18">US18</a>: Cancelar Consultas e Exames</td>
-    <td>-</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF05.2">RF05.2</a></td>
     <td><strong>Alta</strong></td>
   </tr>
 
@@ -320,24 +320,24 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
     <td rowspan="4">Gestão Financeira do Beneficiário</td>
     <td rowspan="3"><a href="#EP10">EP10</a> – Pagamentos e Controle de Custos</td>
     <td><a href="../historias_todos#anchor_US17">US17</a>: Pagamento Automático a Prestadores</td>
-    <td>-</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF05.3">RF05.3</a></td>
     <td><strong>Alta</strong></td>
   </tr>
   <tr>
     <td><a href="../historias_todos#anchor_US19">US19</a>: Exibir Valor da Consulta</td>
-    <td>-</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF06.1">RF06.1</a></td>
     <td><strong>Alta</strong></td>
   </tr>
   <tr>
     <td><a href="../historias_todos#anchor_US20">US20</a>: Valor da Coparticipação</td>
-    <td>-</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF06.2">RF06.2</a></td>
     <td><strong>Alta</strong></td>
   </tr>
 
   <tr>
     <td><a href="#EP11">EP11</a> – Demonstrativos Financeiros</td>
     <td><a href="../historias_todos#anchor_US21">US21</a>: Gerar e Baixar Demonstrativo</td>
-    <td>-</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF06.3">RF06.3</a></td>
     <td><strong>Alta</strong></td>
   </tr>
 
@@ -345,27 +345,27 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
     <td rowspan="5">Cadastro e Gestão de Beneficiários</td>
     <td rowspan="5"><a href="#EP12">EP12</a> – Cadastro de Beneficiários</td>
     <td><a href="../historias_todos#anchor_US22">US22</a>: Cadastro de Titular</td>
-    <td>-</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF07.1">RF07.1</a></td>
     <td><strong>Alta</strong></td>
   </tr>
   <tr>
     <td><a href="../historias_todos#anchor_US23">US23</a>: Cadastro de Dependente</td>
-    <td>-</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF07.2">RF07.2</a></td>
     <td><strong>Alta</strong></td>
   </tr>
   <tr>
     <td><a href="../historias_todos#anchor_US24">US24</a>: Cadastro de Optante</td>
-    <td>-</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF07.3">RF07.3</a></td>
     <td><strong>Alta</strong></td>
   </tr>
   <tr>
     <td><a href="../historias_todos#anchor_US25">US25</a>: Validação de Documentos</td>
-    <td>-</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF07.4">RF07.4</a></td>
     <td><strong>Alta</strong></td>
   </tr>
   <tr>
     <td><a href="../historias_todos#anchor_US26">US26</a>: Verificação de Elegibilidade</td>
-    <td>-</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF07.5">RF07.5</a></td>
     <td><strong>Alta</strong></td>
   </tr>
 
@@ -373,7 +373,7 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
     <td>Autorizações e Conformidade</td>
     <td><a href="#EP13">EP13</a> – Regras de Procedimentos e Autorizações</td>
     <td><a href="../historias_todos#anchor_US27">US27</a>: Verificar Procedimentos</td>
-    <td>-</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF08.1">RF08.1</a></td>
     <td><strong>Alta</strong></td>
   </tr>
 
@@ -381,7 +381,7 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
     <td>Qualidade e Feedback</td>
     <td><a href="#EP14">EP14</a> – Canal de Denúncias</td>
     <td><a href="../historias_todos#anchor_US28">US28</a>: Permitir Denúncias</td>
-    <td>-</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF18.1">RF18.1</a></td>
     <td><strong>Alta</strong></td>
   </tr>
 
@@ -698,5 +698,5 @@ SBOK® GUIDE. ***Scrum Body of Knowledge (SBOK® Guide)***. 4. ed. [S. l.]: Scru
 | `1.3`  | 31/05/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP09">EP09</a> e <a  href="#EP11">EP11</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US16">US16</a> a <a href="../historias_todos/#US21">US21     | [Kaleb Macedo](https://github.com/kalebmacedo)   |  [Lucas Alves](https://github.com/LucasAlves71)              |
 | `1.4`  | 31/05/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP12">EP12</a> e <a  href="#EP14">EP14</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US22">US22</a> a <a href="../historias_todos/#US28">US28     | [Lucas Alves](https://github.com/LucasAlves71)     |      [Kaleb Macedo](https://github.com/kalebmacedo)        |
 | `1.5`  | 01/06/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP15">EP15</a> A <a  href="#EP19">EP19</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US35">US35</a> a <a href="../historias_todos/#US46">US46     |[Othavio Bolzan](https://github.com/bolzanMGB)        | [Yzabella Miranda Pimenta](https://github.com/bolzanMGB)    |   
-
+| `1.6`  | 01/06/2025 | Adição da rastreabilidade     |[Lucas Alves](https://github.com/LucasAlves71)     |      [Kaleb Macedo](https://github.com/kalebmacedo)        |
 
