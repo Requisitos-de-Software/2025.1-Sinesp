@@ -83,14 +83,3 @@
 
 ---
 
-# US07 – Deve funcionar de forma offline para acesso à carteirinha e histórico de consultas
-| Campo                   | Descrição                                                                                                                                                                                                 |
-| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ID | US07 |
-| Título | Acesso offline à carteirinha e histórico de consultas |
-| História | Como um usuário do aplicativo,<br>Eu quero acessar minha carteirinha e histórico de consultas mesmo sem internet,<br>Para que eu possa utilizá-los em situações onde não tenho conexão disponível. |
-| Critérios de Aceitação | <br>- Dado que o usuário esteja sem conexão com a internet,<br>- Quando ele acessar a carteirinha ou o histórico de consultas,<br>- Então o sistema deve exibir as informações salvas localmente. |
-| Rastreabilidade | RNF13 |
-| Épico Relacionado |   |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB"> Othavio Araujo Bolzan</a></p>

@@ -47,10 +47,18 @@ Nesta etapa de **Validação dos Casos de Uso**, toda a condução, gravação e
                 <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
                 <td>Criou os epicos <a href="#EP12">EP12</a> e <a  href="#EP14">EP14</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US22">US22</a> a <a href="../historias_todos/#US28">US28</a> </td>
             </tr>
+            <tr>
+                <td><a href="https://github.com/bolzanMGB">Othavio Araujo Bolzan</a></td>
+                <td>Criou os epicos <a href="#EP15">EP15</a> ao <a  href="#EP17">EP17</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US35">US35</a> a <a href="../historias_todos/#US40">US40</a> </td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/redjsun">Yzabella Miranda Pimenta</a></td>
+                <td>Criou os epicos <a href="#EP18">EP18</a> e <a  href="#EP19">EP19</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US41">US41</a> a <a href="../historias_todos/#US46">US46</a> </td>
+            </tr>
         </tbody>
     </table>
 </div>
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a>, <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>, <a href="https://github.com/bolzanMGB">Othavio Araujo Bolzan</a> e <a href="https://github.com/redjsun">Yzabella Miranda Pimenta</a></p>
 
 ## Usuários Reais Envolvidos
 
@@ -86,10 +94,18 @@ Na Tabela 2 contêm as informações do usuário participante:
                 <td>Presencial</td>
                 <td><a href="https://youtu.be/zOI12dxuxWE">Link para a gravação</a></td>
             </tr>
+            <tr>
+                <td>Victor Schmidt</td>
+                <td>31/05/2025</td>
+                <td>16:00</td>
+                <td>15 minutos</td>
+                <td>Presencial</td>
+                <td><a href="https://youtu.be/H87ynwXVso0">Link para a gravação</a></td>
+            </tr>
         </tbody>
     </table>
 </div>
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a>, <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> <a href="https://github.com/kalebmacedo">Othavio Bolzan</a> e <a href="https://github.com/redjsun">Yzabella Miranda</a></p>
 
 
 ## Metodologia  
@@ -138,6 +154,13 @@ Esse processo garantiu uma priorização mais realista e alinhada às necessidad
 2. Gravação da priorização e validação do épicos:
 
 <iframe width="560" height="315" src="https://youtu.be/zOI12dxuxWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Gravações dos Integrantes Othavio Araujo Bolzan e Yzabella Miranda Pimenta
+
+1. Gravação da priorização e validação do épicos: 
+
+<iframe width="560" height="315" src="https://youtu.be/H87ynwXVso0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ## Backlog
 
@@ -361,10 +384,88 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
     <td>-</td>
     <td><strong>Alta</strong></td>
   </tr>
+
+  <tr>
+    <td rowspan="6">Engajamento e Comunicação com o Usuário</td>
+    <td rowspan="6"><a href="#EP15">EP15</a> – Notificações e Gestão de Novidades no Aplicativo</td>
+    <td><a href="../historias_todos#anchor_US35">US35</a>: Apresentar seção "Novidades" no menu principal</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF12.1">RF12.1</a></td>
+    <td><strong>Baixo</strong></td>
+  </tr>
+  <tr>
+    <td><a href="../historias_todos#anchor_US36">US36</a>: Exibir lista de funcionalidades com título, descrição e data </td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF12.2">RF12.2</a></td>
+    <td><strong>Baixo</strong></td>
+  </tr>
+  <tr>
+    <td><a href="../historias_todos#anchor_US37">US37</a>: Marcar funcionalidades novas com "Novo"</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF12.3">RF12.3</a></td>
+    <td><strong>Baixo</strong></td>
+  </tr>
+  <tr>
+    <td><a href="../historias_todos#anchor_US38">US38</a>: Notificar o usuário sobre novas funcionalidades</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF12.4">RF12.4</a></td>
+    <td><strong>Baixo</strong></td>
+  </tr>
+  <tr>
+    <td><a href="../historias_todos#anchor_US39">US39</a>: Ver detalhes de funcionalidades novas</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF12.5">RF12.5</a></td>
+    <td><strong>Médio</strong></td>
+  </tr>
+  <tr>
+    <td><a href="../historias_todos#anchor_US40">US40</a>: Ordenar novidades por data</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF12.6">RF12.6</a></td>
+    <td><strong>Baixa</strong></td>
+  </tr>
+
+  <tr>
+    <td>Acessibilidade e Conectividade</td>
+    <td><a href="#EP16">EP16</a> – Acesso e Funcionalidades Essenciais Offline</td>
+    <td><a href="../historias_todos#anchor_US41">US41</a>: Permitir Denúncias</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF03">RF03</a></td>
+    <td><strong>Alta</strong></td>
+  </tr>
+
+   <tr>
+    <td rowspan="3"> Inteligência na Jornada do Usuário</td>
+    <td rowspan="3"><a href="#EP17">EP17</a> – Adicionar Consulta à Rede Odontológica</td>
+    <td><a href="../historias_todos#anchor_US42">US42</a>: Apresentar seção "Novidades" no menu principal</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF13">RF13</a></td>
+    <td><strong>Alta</strong></td>
+  </tr>
+  <tr>
+    <td><a href="../historias_todos#anchor_US43">US43</a>: Visualizar Novas Clínicas Próximas por Localização </td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF14.1">RF14.1</a></td>
+    <td><strong>Médio</strong></td>
+  </tr>
+  <tr>
+    <td><a href="../historias_todos#anchor_US43">US44</a>: Visualizar Clínicas Próximas por Localização </td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF14.2">RF14.2</a></td>
+    <td><strong>Médio</strong></td>
+  </tr>
+
+  <tr>
+    <td>Autonomia e Gestão de Serviços</td>
+    <td><a href="#EP18">EP18</a> – Gerenciamento de Agendamentos e Comprovantes</td>
+    <td><a href="../historias_todos#anchor_US45">US45</a>: Baixar Comprovantes de Agendamento</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF015">RF15</a></td>
+    <td><strong>Alta</strong></td>
+  </tr>
+
+  <tr>
+    <td>Experiência de Acesso Simplificada e Segura</td>
+    <td><a href="#EP19">EP19</a> – Acesso Rápido e Seguro ao Aplicativo</td>
+    <td><a href="../historias_todos#anchor_US46">US46</a>:  Fazer Login por Biometria (Facial ou Digital)</td>
+    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF19">RF19</a></td>
+    <td><strong>Alta</strong></td>
+  </tr>
+
+
+
 </tbody>
 </table>
 
-_Autor: [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Kaleb Macedo](https://github.com/kalebmacedo), 2025_
+_Autor: [Ana Luiza Soares](https://github.com/Ana-Luiza-SC), [Kaleb Macedo](https://github.com/kalebmacedo) e [Othavio Bolzan](https://github.com/bolzanMGB), 2025_
 
 ---
 
@@ -423,6 +524,30 @@ Funcionalidades que validam autorizações com base nas regras do plano.
 Funcionalidade de denúncia de condutas inadequadas.
 
 - [EP14 – Canal de Denúncias](#EP14)
+
+#### **TM10. Engajamento e Comunicação com o Usuário**  
+Funcionalidades que abrangem a exibição de novidades, notificações e destaques no aplicativo, mantendo o usuário informado sobre atualizações e novas funcionalidades.
+
+- [EP15 – Notificações e Gestão de Novidades no Aplicativo](#EP15)
+
+#### **TM11. Acessibilidade e Conectividade**  
+Funcionalidades que garantem o acesso a recursos essenciais mesmo sem conexão com a internet, como a carteirinha digital.
+
+- [EP16 – Acesso e Funcionalidades Essenciais Offline](#EP16)
+
+#### **TM12.  Inteligência na Jornada do Usuário**  
+Funcionalidades que otimizam a busca por prestadores de serviço, clínicas e profissionais da rede credenciada, com base em localização e especialidades.
+
+- [EP17 – Busca Inteligente por Prestadores de Serviço](#EP17)
+
+#### **TM13. Autonomia e Gestão de Serviços**  
+Funcionalidades que permitem ao usuário gerenciar seus agendamentos e acessar comprovantes de forma prática e autônoma.
+
+- [EP18 – Gerenciamento de Agendamentos e Comprovantes](#EP18)
+
+#### **TM14. Experiência de Acesso Simplificada e Segura**  
+Funcionalidades que aprimoram o processo de login, oferecendo métodos rápidos e seguros de autenticação, como biometria facial ou digital.
+- [EP19 – Acesso Rápido e Seguro ao Aplicativo](#EP19)
 
 
 ### Épicos  
@@ -518,6 +643,39 @@ Para reduzir o nível de abstração presente nos temas e detalhar melhor as fun
 **Histórias Relacionadas**:  
 - US28: Permitir Denúncias
 
+#### EP15 – Notificações e Gestão de Novidades no Aplicativo
+**Descrição**: Funcionalidades relacionadas a como o aplicativo informa os usuários sobre novas features e como eles podem interagir com essas novidades.
+**Histórias Relacionadas**:  
+- US35 – Apresentar seção "Novidades" no menu principal
+- US36 – Exibir lista de funcionalidades com título, descrição e data
+- US37 – Marcar funcionalidades novas com "Novo"
+- US38 – Notificar o usuário sobre novas funcionalidades 
+- US39 – Ver detalhes de funcionalidades novas 
+- US40 – Ordenar novidades por data 
+
+#### EP16 – Acesso e Funcionalidades Essenciais Offline  
+**Descrição**: Acesso a informações críticas do plano de saúde mesmo sem conexão com a internet.
+**Histórias Relacionadas**:  
+- US41 – Acessar Carteirinha Digital no Modo Offline 
+
+#### EP17 – Busca Inteligente por Prestadores de Serviço 
+**Descrição**: Aprimorar a capacidade do usuário de encontrar profissionais de saúde e clínicas na rede credenciada.
+**Histórias Relacionadas**:  
+- US42 – Adicionar Consulta à Rede Odontológica 
+- US43 – Visualizar Novas Clínicas Próximas por Localização 
+- US44 – Visualizar Clínicas Próximas por Localização 
+
+#### EP18 – Gerenciamento de Agendamentos e Comprovantes  
+**Descrição**: Permitir ao usuário controlar seus agendamentos e comprovantes
+**Histórias Relacionadas**:  
+- US45 – Baixar Comprovantes de Agendamento 
+
+#### EP19 – Acesso Rápido e Seguro ao Aplicativo   
+**Descrição**: Aprimorar a experiência de login do usuário, tornando-a mais rápida e segura.
+**Histórias Relacionadas**:  
+- US46 – Fazer Login por Biometria (Facial ou Digital)
+
+
 
 
 ## Referências Bibliográficas  
@@ -539,6 +697,6 @@ SBOK® GUIDE. ***Scrum Body of Knowledge (SBOK® Guide)***. 4. ed. [S. l.]: Scru
 | `1.2`  | 31/05/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP07">EP07</a> e <a  href="#EP08 ">EP08</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US07">US07</a> a <a href="../historias_todos/#US15">US15     | [Isaque Camargos](https://github.com/isaqzin)   |  [Matheus de Alcântara](https://github.com/matheusdealcantara)              |
 | `1.3`  | 31/05/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP09">EP09</a> e <a  href="#EP11">EP11</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US16">US16</a> a <a href="../historias_todos/#US21">US21     | [Kaleb Macedo](https://github.com/kalebmacedo)   |  [Lucas Alves](https://github.com/LucasAlves71)              |
 | `1.4`  | 31/05/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP12">EP12</a> e <a  href="#EP14">EP14</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US22">US22</a> a <a href="../historias_todos/#US28">US28     | [Lucas Alves](https://github.com/LucasAlves71)     |      [Kaleb Macedo](https://github.com/kalebmacedo)        |
-
+| `1.5`  | 01/06/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP15">EP15</a> A <a  href="#EP19">EP19</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US35">US35</a> a <a href="../historias_todos/#US46">US46     |[Othavio Bolzan](https://github.com/bolzanMGB)        | [Yzabella Miranda Pimenta](https://github.com/bolzanMGB)    |   
 
 

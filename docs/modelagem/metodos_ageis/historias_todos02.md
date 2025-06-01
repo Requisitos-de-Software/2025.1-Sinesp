@@ -85,11 +85,19 @@ A tabela 2 apresenta a informação do usuário real que participou da etapa de 
                 <td>15 minutos</td>
                 <td><a href="https://youtu.be/HxSsiHoWWrE">Link para a gravação</a></td>
             </tr>
+            <tr>
+                <td>Victor Schmidt</td>
+                <td>31/05/2025</td>
+                <td>16:00</td>
+                <td>Presencial</td>
+                <td>12 minutos</td>
+                <td><a href="https://youtu.be/HxSsiHoWWrE">Link para a gravação</a></td>
+            </tr>
         </tbody>
     </table>
 </div>
 
-<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>, <a href="https://github.com/kalebmacedo">Othavio Bolzan</a> e <a href="https://github.com/redjsun">Yzabella Miranda</a></p>
 
 ---
 
@@ -104,6 +112,11 @@ Para realizar a elicitação das histórias de usuários, foram agendadas reuni�
 - **Gravação 1** : Entrevista com o usuário real.
 
 <iframe width="560" height="315" src="https://youtube.com/embed/HxSsiHoWWrE" title="Gravação da Entrevista" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- **Gravação 2** : Entrevista com o usuário real.
+
+<iframe width="560" height="315" src="https://youtu.be/VybNqLFKy7o" title="Gravação da Entrevista" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ---
 
@@ -693,6 +706,8 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Critérios de Aceitação** | - Dado que o usuário tenha feito login previamente e baixado sua carteirinha digital ao menos uma vez,<br>- Quando ele estiver sem conexão com a internet ou sem acesso ao aplicativo e precisar abrir a carteirinha,<br>- Então ele pode abrir na sua galeria de fotos do celular/tablet e acessar a carteirinha previamente baixada. |
 | **Rastreabilidade** | RF03 |
 
+<p align="center">Fonte: Autoria de <a href="https://github.com/redjsun"> Yzabella Miranda</a></p>
+
 ---
 
 ## US42 - Adicionar Consulta à Rede Odontológica
@@ -704,6 +719,8 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **História** | Como um usuário do GDF Saúde,<br>Eu quero poder pesquisar por dentistas e clínicas odontológicas na rede credenciada,<br>Para que eu encontre facilmente um atendimento odontológico quando precisar. |
 | **Critérios de Aceitação** | - Dado que o usuário esteja logado no aplicativo,<br>- Quando ele acessar a seção de busca por profissionais/especialidades,<br>- Então ele deve ter a opção de filtrar ou pesquisar por "Odontologia" ou "Dentista",<br>- E o sistema deve exibir uma lista de profissionais e clínicas odontológicas credenciadas, com informações como nome, endereço e contato. |
 | **Rastreabilidade** | RF13 |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/redjsun"> Yzabella Miranda</a></p>
 
 ---
 
@@ -717,6 +734,8 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Critérios de Aceitação** | - Dado que o usuário tenha permitido o acesso à sua localização no aplicativo,<br>- Quando ele estiver navegando na seção de busca por clínicas ou na tela inicial,<br>- Então o sistema deve identificar e destacar novas clínicas credenciadas que estejam próximas da sua localização,<br>- E deve fornecer detalhes como nome, especialidades, endereço e distância. |
 | **Rastreabilidade** | RF14.1 |
 
+<p align="center">Fonte: Autoria de <a href="https://github.com/redjsun"> Yzabella Miranda</a></p>
+
 ---
 
 ## US44 - Visualizar Clínicas Próximas por Localização
@@ -728,6 +747,8 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **História** | Como um usuário do GDF Saúde,<br>Eu quero que o aplicativo me apresente clínicas próximas com base na minha localização atual,<br>Para que eu possa encontrar facilmente locais de atendimento de saúde convenientes. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha permitido o acesso à sua localização no aplicativo,<br>- Quando ele estiver navegando na seção de busca por clínicas ou na tela inicial,<br>- Então o sistema deve identificar clínicas credenciadas que estejam próximas da sua localização,<br>- E deve fornecer detalhes como nome, especialidades, endereço e distância. |
 | **Rastreabilidade** | RF14.2 |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/redjsun"> Yzabella Miranda</a></p>
 
 ---
 
@@ -741,6 +762,8 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Critérios de Aceitação** | - Dado que o usuário tenha um agendamento confirmado no aplicativo,<br>- Quando ele visualizar os detalhes de um agendamento específico,<br>- Então deve existir um botão ou opção clara para "Baixar Comprovante",<br>- E o aplicativo deve gerar e salvar o comprovante em um formato comum (ex: PDF) no dispositivo do usuário. |
 | **Rastreabilidade** | RF15 |
 
+<p align="center">Fonte: Autoria de <a href="https://github.com/redjsun"> Yzabella Miranda</a></p>
+
 ---
 
 ## US46 - Fazer Login por Biometria (Facial ou Digital)
@@ -752,6 +775,8 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **História** | Como um usuário do aplicativo do GDF Saúde,<br>Eu quero poder fazer login usando minha biometria facial ou digital,<br>Para que eu acesse minha conta de forma mais rápida, segura e conveniente, sem precisar digitar minha senha toda vez. |
 | **Critérios de Aceitação** | - Dado que o dispositivo do usuário suporte biometria (facial ou digital) e a opção esteja ativada nas configurações do aplicativo,<br>- Quando o usuário abrir o aplicativo e for para a tela de login,<br>- Então ele deve ter a opção de usar a biometria cadastrada no dispositivo,<br>- E o aplicativo deve autenticá-lo e permitir o acesso à sua conta se a biometria for reconhecida com sucesso. |
 | **Rastreabilidade** | RF19 |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/redjsun"> Yzabella Miranda</a></p>
 
 ---
 
