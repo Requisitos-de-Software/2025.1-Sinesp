@@ -1,17 +1,17 @@
 # Backlog do Produto
 
 ## Introdução
-  
-Este trabalho adotou uma abordagem colaborativa para **priorização do Sprint Backlog** e validação do *Product Backlog*, considerando as restrições do projeto:  
 
-1. **Ausência de um Product Owner (PO) formal**, conforme veto do professor durante a apresentação da primeira etapa;  
-2. **Limitação do usuário real em definir épicos/temas** autonomamente.  
+Este trabalho adotou uma abordagem colaborativa para **priorização do Sprint Backlog** e validação do _Product Backlog_, considerando as restrições do projeto:
 
-Para contornar esses desafios, a metodologia baseou-se no princípio scrum de que *"a priorização estratégica deve envolver stakeholders relevantes"* (SBOK® GUIDE, 2024, cap. 4.3.2), organizando-se em três etapas:  
+1. **Ausência de um Product Owner (PO) formal**, conforme veto do professor durante a apresentação da primeira etapa;
+2. **Limitação do usuário real em definir épicos/temas** autonomamente.
 
-- Divisão das histórias de usuário entre **8 duplas**;  
-- Criação e validação descentralizada do *Product Backlog* por cada dupla;  
-- Consolidação final por meio de uma renuião presencial(**2 integrantes do grupo + 1 usuário real**).  
+Para contornar esses desafios, a metodologia baseou-se no princípio scrum de que _"a priorização estratégica deve envolver stakeholders relevantes"_ (SBOK® GUIDE, 2024, cap. 4.3.2), organizando-se em três etapas:
+
+- Divisão das histórias de usuário entre **8 duplas**;
+- Criação e validação descentralizada do _Product Backlog_ por cada dupla;
+- Consolidação final por meio de uma renuião presencial(**2 integrantes do grupo + 1 usuário real**).
 
 ## Tabela dos Integrantes do Grupo
 
@@ -117,41 +117,38 @@ Na Tabela 2 contêm as informações do usuário participante:
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a>, <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> <a href="https://github.com/kalebmacedo">Othavio Bolzan</a> e <a href="https://github.com/redjsun">Yzabella Miranda</a></p>
 
+## Metodologia
 
-## Metodologia  
+### 1. Divisão e Validação por Duplas
 
-### 1. Divisão e Validação por Duplas  
+As 8 duplas foram responsáveis por:
 
-As 8 duplas foram responsáveis por:  
+- **Entrevistas com usuário real** para validação dos itens do backlog;
+- **Redação de especificações** (épicos, temas e histórias);
+- **Documentação de critérios de aceitação**, conforme diretrizes para _"definição coletiva de 'Pronto'"_ (SBOK® GUIDE, 2024, cap. 6.1.4).
 
-- **Entrevistas com usuário real** para validação dos itens do backlog;  
-- **Redação de especificações** (épicos, temas e histórias);  
-- **Documentação de critérios de aceitação**, conforme diretrizes para *"definição coletiva de 'Pronto'"* (SBOK® GUIDE, 2024, cap. 6.1.4).  
+> _Justificativa_: Essa estrutura supriu a ausência do PO, garantindo que _"o backlog refletisse necessidades reais através da colaboração direta"_ (SBOK® GUIDE, 2024, cap. 4.3.2).
 
-> *Justificativa*: Essa estrutura supriu a ausência do PO, garantindo que *"o backlog refletisse necessidades reais através da colaboração direta"* (SBOK® GUIDE, 2024, cap. 4.3.2).  
+### 4. Estrutura Hierárquica e Fluxo de Trabalho
 
+Adotamos a modelagem **Histórias → Épicos → Temas** conforme o caso prático do Banco da Família (SBOK® GUIDE, 2024, cap. 6.1.4) e a estrutura ágil da Atlassian (ATLASSIAN, 2023):
 
-### 4. Estrutura Hierárquica e Fluxo de Trabalho  
-Adotamos a modelagem **Histórias → Épicos → Temas** conforme o caso prático do Banco da Família (SBOK® GUIDE, 2024, cap. 6.1.4) e a estrutura ágil da Atlassian (ATLASSIAN, 2023):  
+- **Histórias de usuário**: Unidades primárias validadas com usuário real (ex: `Registrar escola`) (SBOK® GUIDE, 2024, cap. 6.1.4);
+- **Épicos**: Agrupamentos estratégicos de histórias com valor independente (ex: `Financiamento Estudantil`), priorizados no Sprint Backlog (SBOK® GUIDE, 2024, cap. 6.1.4; ATLASSIAN, 2023);
+- **Temas**: Categorias transversais que consolidam épicos afins (ex: `Conformidade`) (ATLASSIAN, 2023);
+- **Rastreabilidade**: Cada épico vinculado a IDs de histórias específicas (ex: Épico E01 → Histórias H12, H15), garantindo transparência nas dependências (SBOK® GUIDE, 2024, cap. 6.1.4).
 
-- **Histórias de usuário**: Unidades primárias validadas com usuário real (ex: `Registrar escola`) (SBOK® GUIDE, 2024, cap. 6.1.4);  
-- **Épicos**: Agrupamentos estratégicos de histórias com valor independente (ex: `Financiamento Estudantil`), priorizados no Sprint Backlog (SBOK® GUIDE, 2024, cap. 6.1.4; ATLASSIAN, 2023);  
-- **Temas**: Categorias transversais que consolidam épicos afins (ex: `Conformidade`) (ATLASSIAN, 2023);  
-- **Rastreabilidade**: Cada épico vinculado a IDs de histórias específicas (ex: Épico E01 → Histórias H12, H15), garantindo transparência nas dependências (SBOK® GUIDE, 2024, cap. 6.1.4).  
-
-> *Justificativa*: Este fluxo inverso (histórias → épicos) é respaldado pelo estudo do Banco da Família, onde “as histórias são quebradas a partir das funcionalidades (features), que compõem os épicos” (SBOK® GUIDE, 2024, cap. 6.1.4). A priorização no nível de épicos, não de histórias, segue o princípio da Atlassian: *"Epics são corpos de trabalho de alto nível que permitem focar em objetivos estratégicos, enquanto histórias são detalhadas apenas antes da execução"* (ATLASSIAN, 2023).  
-
+> _Justificativa_: Este fluxo inverso (histórias → épicos) é respaldado pelo estudo do Banco da Família, onde “as histórias são quebradas a partir das funcionalidades (features), que compõem os épicos” (SBOK® GUIDE, 2024, cap. 6.1.4). A priorização no nível de épicos, não de histórias, segue o princípio da Atlassian: _"Epics são corpos de trabalho de alto nível que permitem focar em objetivos estratégicos, enquanto histórias são detalhadas apenas antes da execução"_ (ATLASSIAN, 2023).
 
 ### 3. Priorização do Sprint Backlog
 
 A **priorização dos épicos** foi realizada em conjunto por um comitê tripartite formado por **dois integrantes do grupo e um usuário real**.Cada épico foi classificado com um dos três níveis de prioridade:
 
-* **Alta prioridade**: funcionalidades essenciais, de uso frequente ou diretamente ligadas à proposta de valor central do sistema;
-* **Média prioridade**: funcionalidades importantes, mas que podem ser entregues em sprints futuros sem comprometer o MVP;
-* **Baixa prioridade**: funcionalidades complementares ou de menor impacto imediato para o usuário.
+- **Alta prioridade**: funcionalidades essenciais, de uso frequente ou diretamente ligadas à proposta de valor central do sistema;
+- **Média prioridade**: funcionalidades importantes, mas que podem ser entregues em sprints futuros sem comprometer o MVP;
+- **Baixa prioridade**: funcionalidades complementares ou de menor impacto imediato para o usuário.
 
 Esse processo garantiu uma priorização mais realista e alinhada às necessidades reais do público-alvo, mesmo na ausência de um Product Owner formal.
-
 
 ## Gravações
 
@@ -161,17 +158,15 @@ Esse processo garantiu uma priorização mais realista e alinhada às necessidad
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/I-QTUYZ8zV4?si=HpUkGSDfRhqnG6Dh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-
 ### Gravações dos Integrantes Othavio Araujo Bolzan e Yzabella Miranda Pimenta
 
-1. Gravação da priorização e validação do épicos: 
+1. Gravação da priorização e validação do épicos:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H87ynwXVso0?si=ni5SNvltAIa4bMKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Gravações dos Integrantes Ana Luiza Soares e Isaque Camargos
 
-1. Gravação da priorização e validação do épicos: 
+1. Gravação da priorização e validação do épicos:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UHXRdexWlT8?si=EHsJUQJL6nFke5lE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -179,11 +174,9 @@ Esse processo garantiu uma priorização mais realista e alinhada às necessidad
 
 ### Backlog do Produto
 
-A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos relacionados e priorização.  
-
+A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos relacionados e priorização.
 
 #### Tabela do Product Backlog
-
 
 <p align="center">Tabela 3 - Product Backlog Elaborado</p>
 
@@ -261,7 +254,7 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
   <tr>
     <td><a href="../historias_todos02#US34">US34</a>: Solicitar Reembolso de Cobrança Indevida de Coparticipação</td>
     <td><a href="../../../elicitacao/requisitos_finais#RF20">RF20</a></td>
-    <td>Média</td>
+    <td>Baixa</td>
   </tr>
   <tr>
     <td rowspan="3"><a href="#EP07">EP07</a> – Notificações Financeiras e Documentais</td>
@@ -476,15 +469,10 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
     <td><strong>Alta</strong></td>
   </tr>
 
-
-
 </tbody>
 </table>
 
-
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a>, <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> <a href="https://github.com/kalebmacedo">Othavio Bolzan</a> e <a href="https://github.com/redjsun">Yzabella Miranda</a></p>
-
-
 
 ### Temas
 
@@ -492,20 +480,20 @@ Os temas representam grandes categorias de funcionalidades e objetivos do projet
 
 Cada tema aborda um aspecto essencial do produto, garantindo que todas as necessidades do público-alvo sejam contempladas e desenvolvidas de maneira alinhada aos objetivos do negócio.
 
-#### <a id="TM01">TM01.</a>  Busca
+#### <a id="TM01">TM01.</a> Busca
 
 Funcionalidades relacionadas à busca de serviços, profissionais e redes credenciadas.
 
 - <a href="#EP01">EP01</a> – Pesquisa de Rede e Profissionais
 - <a href="#EP02">EP02</a> – Direcionamento por Chatbot
 
-#### <a id="TM02">TM02.</a>  Avaliação e Feedback
+#### <a id="TM02">TM02.</a> Avaliação e Feedback
 
 Funcionalidades que permitem ao usuário avaliar atendimentos e compartilhar opiniões.
 
 - <a href="#EP03">EP03</a> – Avaliações de Atendimento
 
-#### <a id="TM03">TM03.</a>  Histórico Pessoal
+#### <a id="TM03">TM03.</a> Histórico Pessoal
 
 Funcionalidades voltadas ao acesso a registros pessoais de uso do plano de saúde.
 
@@ -513,69 +501,69 @@ Funcionalidades voltadas ao acesso a registros pessoais de uso do plano de saúd
 - <a href="#EP05">EP05</a> – Histórico Financeiro
 - <a href="#EP07">EP07</a> – Notificações Financeiras e Documentais
 
-#### <a id="TM04">TM04.</a>  Agendamentos e Preferências
+#### <a id="TM04">TM04.</a> Agendamentos e Preferências
 
 Funcionalidades para facilitar a marcação de consultas e preferências de agendamento.
 
 - <a href="#EP06">EP06</a> – Preferências de Agendamento
 - <a href="#EP08">EP08</a> – Notificações de Agendamentos
 
-#### <a id="TM05">TM05.</a>  Agendamentos e Gestão de Atendimentos
+#### <a id="TM05">TM05.</a> Agendamentos e Gestão de Atendimentos
 
 Funcionalidades que permitem o controle completo de agendamentos médicos e exames.
 
 - <a href="#EP09">EP09</a> – Agendamento e Cancelamento de Consultas
 
-#### <a id="TM06">TM06.</a>  Gestão Financeira do Beneficiário
+#### <a id="TM06">TM06.</a> Gestão Financeira do Beneficiário
 
 Funcionalidades de pagamentos automáticos e controle de valores de consulta e coparticipação.
 
 - <a href="#EP10">EP10</a> – Pagamentos e Controle de Custos
 - <a href="#EP11">EP11</a> – Demonstrativos Financeiros
 
-#### <a id="TM07">TM07.</a>  Cadastro e Gestão de Beneficiários
+#### <a id="TM07">TM07.</a> Cadastro e Gestão de Beneficiários
 
 Funcionalidades que abrangem o cadastro de titulares, dependentes e optantes.
 
 - <a href="#EP12">EP12</a> – Cadastro de Beneficiários
 
-#### <a id="TM08">TM08.</a>  Autorizações e Conformidade
+#### <a id="TM08">TM08.</a> Autorizações e Conformidade
 
 Funcionalidades que validam autorizações com base nas regras do plano.
 
 - <a href="#EP13">EP13</a> – Regras de Procedimentos e Autorizações
 
-#### <a id="TM09">TM09.</a>  Qualidade e Feedback
+#### <a id="TM09">TM09.</a> Qualidade e Feedback
 
 Funcionalidade de denúncia de condutas inadequadas.
 
 - <a href="#EP14">EP14</a> – Canal de Denúncias
 
-#### <a id="TM10">TM10.</a>  Engajamento e Comunicação com o Usuário
+#### <a id="TM10">TM10.</a> Engajamento e Comunicação com o Usuário
 
 Funcionalidades que abrangem a exibição de novidades, notificações e destaques no aplicativo, mantendo o usuário informado sobre atualizações e novas funcionalidades.
 
 - <a href="#EP15">EP15</a> – Notificações e Gestão de Novidades no Aplicativo
 
-#### <a id="TM11">TM11.</a>  Acessibilidade e Conectividade
+#### <a id="TM11">TM11.</a> Acessibilidade e Conectividade
 
 Funcionalidades que garantem o acesso a recursos essenciais mesmo sem conexão com a internet, como a carteirinha digital.
 
 - <a href="#EP16">EP16</a> – Acesso e Funcionalidades Essenciais Offline
 
-#### <a id="TM12">TM12.</a>  Inteligência na Jornada do Usuário
+#### <a id="TM12">TM12.</a> Inteligência na Jornada do Usuário
 
 Funcionalidades que otimizam a busca por prestadores de serviço, clínicas e profissionais da rede credenciada, com base em localização e especialidades.
 
 - <a href="#EP17">EP17</a> – Busca Inteligente por Prestadores de Serviço
 
-#### <a id="TM13">TM13.</a>  Autonomia e Gestão de Serviços
+#### <a id="TM13">TM13.</a> Autonomia e Gestão de Serviços
 
 Funcionalidades que permitem ao usuário gerenciar seus agendamentos e acessar comprovantes de forma prática e autônoma.
 
 - <a href="#EP18">EP18</a> – Gerenciamento de Agendamentos e Comprovantes
 
-#### <a id="TM14">TM14.</a>  Experiência de Acesso Simplificada e Segura
+#### <a id="TM14">TM14.</a> Experiência de Acesso Simplificada e Segura
 
 Funcionalidades que aprimoram o processo de login, oferecendo métodos rápidos e seguros de autenticação, como biometria facial ou digital.
 
@@ -587,7 +575,7 @@ Funcionalidades que aprimoram o processo de login, oferecendo métodos rápidos 
 
 Para reduzir o nível de abstração presente nos temas e detalhar melhor as funcionalidades, foram registrados os épicos. Cada épico descreve um objetivo geral que pode ser dividido em tarefas menores (histórias de usuário).
 
-#### <a id="EP01">EP01</a>  – Pesquisa de Rede e Profissionais
+#### <a id="EP01">EP01</a> – Pesquisa de Rede e Profissionais
 
 **Descrição**: Permitir busca de redes credenciadas e profissionais de saúde através de filtros avançados.
 **Histórias Relacionadas**:
@@ -680,7 +668,7 @@ Para reduzir o nível de abstração presente nos temas e detalhar melhor as fun
 
 - <a href="../historias_todos02#US21">US21</a>: Gerar e Baixar Demonstrativo
 
-#### <a id="EP12">EP12</a>  – Cadastro de Beneficiários
+#### <a id="EP12">EP12</a> – Cadastro de Beneficiários
 
 **Descrição**: Cadastro de titulares, dependentes e optantes com validação.
 **Histórias Relacionadas**:
@@ -747,29 +735,27 @@ Para reduzir o nível de abstração presente nos temas e detalhar melhor as fun
 
 - <a href="../historias_todos02#US46">US46</a>: Fazer Login por Biometria (Facial ou Digital)
 
-## Referências Bibliográficas  
+## Referências Bibliográficas
 
-ATLASSIAN. *What is an epic?* 2023. Disponível em: https://www.atlassian.com/agile/project-management/epics. Acesso em: 30 maio 2025.
+ATLASSIAN. _What is an epic?_ 2023. Disponível em: https://www.atlassian.com/agile/project-management/epics. Acesso em: 30 maio 2025.
 
-AZURE DEVOPS. *Organizando Backlogs com Temas e Épicos*. Microsoft Learn, 2025. Disponível em: https://learn.microsoft.com/pt-pt/azure/devops/boards/backlogs/define-features-epics. Acesso em: 31 maio 2025.  
+AZURE DEVOPS. _Organizando Backlogs com Temas e Épicos_. Microsoft Learn, 2025. Disponível em: https://learn.microsoft.com/pt-pt/azure/devops/boards/backlogs/define-features-epics. Acesso em: 31 maio 2025.
 
-SCRUM.ORG. *Involving Stakeholders in Sprint Activities*. Fórum Oficial, 2025. Disponível em: https://scrum.org/forum. Acesso em: 31 maio 2025.
+SCRUM.ORG. _Involving Stakeholders in Sprint Activities_. Fórum Oficial, 2025. Disponível em: https://scrum.org/forum. Acesso em: 31 maio 2025.
 
-SBOK® GUIDE. ***Scrum Body of Knowledge (SBOK® Guide)***. 4. ed. [S. l.]: Scrum Study, 2024. Disponível em: <https://www.scrumstudy.com/sbok>. Acesso em: 31 maio 2025. 
+SBOK® GUIDE. **_Scrum Body of Knowledge (SBOK® Guide)_**. 4. ed. [S. l.]: Scrum Study, 2024. Disponível em: <https://www.scrumstudy.com/sbok>. Acesso em: 31 maio 2025.
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição                                 | Autor(es)                         | Revisor(es)          |
-|--------|------------|-------------------------------------------|-----------------------------------|----------------------|
-| `1.0`  | 30/05/2025 | Dstruturação do documento inicial, adicionando introdução, metodologia e as referências.       | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                   |  [Isaque Camargos](https://github.com/isaqzin)                 |
-| `1.1`  | 31/05/2025 | Adição do backlog feito pelos integrantes: Matheus e Ana Luiza; incluindo os épicos, temas, links para as histórias de usuário e a gravação da priorização e entrevista com usuário real.       | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Matheus de Alcântara](https://github.com/matheusdealcantara)              |  [Isaque Camargos](https://github.com/isaqzin)                 |
-| `1.2`  | 31/05/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP07">EP07</a> e <a  href="#EP08 ">EP08</a> criando o backlog das histórias de usuário de <a href="../historias_todos02/#US07">US07</a> a <a href="../historias_todos02/#US15">US15     | [Isaque Camargos](https://github.com/isaqzin)   |  [Matheus de Alcântara](https://github.com/matheusdealcantara)              |
-| `1.3`  | 31/05/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP09">EP09</a> e <a  href="#EP11">EP11</a> criando o backlog das histórias de usuário de <a href="../historias_todos02/#US16">US16</a> a <a href="../historias_todos02/#US21">US21     | [Kaleb Macedo](https://github.com/kalebmacedo)   |  [Lucas Alves](https://github.com/LucasAlves71)              |
-| `1.4`  | 31/05/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP12">EP12</a> e <a  href="#EP14">EP14</a> criando o backlog das histórias de usuário de <a href="../historias_todos02/#US22">US22</a> a <a href="../historias_todos02/#US28">US28     | [Lucas Alves](https://github.com/LucasAlves71)     |      [Kaleb Macedo](https://github.com/kalebmacedo)        |
-| `1.5`  | 01/06/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP15">EP15</a> A <a  href="#EP19">EP19</a> criando o backlog das histórias de usuário de <a href="../historias_todos02/#US35">US35</a> a <a href="../historias_todos02/#US46">US46     |[Othavio Bolzan](https://github.com/bolzanMGB)        | [Yzabella Miranda Pimenta](https://github.com/redjsun)    |   
-| `1.6`  | 01/06/2025 | Adição da rastreabilidade     |[Lucas Alves](https://github.com/LucasAlves71)     |      [Kaleb Macedo](https://github.com/kalebmacedo)        |
-| `1.7`  | 01/06/2025 | Ajustando rastreabilidade os épicos e consertando tabela do backlog do produto     | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)         |  [Isaque Camargos](https://github.com/isaqzin)                 |
-| `1.8`  | 01/06/2025 | Adição da priorização e da validação    | [Isaque Camargos](https://github.com/isaqzin)   |  [Matheus de Alcântara](https://github.com/matheusdealcantara)              |
-| `1.9`  | 01/06/2025 | Ajustando rastreabilidade nas tabelas do backlog do produto     | [Yzabella Miranda Pimenta](https://github.com/redjsun)         |  [Isaque Camargos](https://github.com/isaqzin)                 |
-
-
+| Versão | Data       | Descrição                                                                                                                                                                                                                                                    | Autor(es)                                                                                                           | Revisor(es)                                                   |
+| ------ | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| `1.0`  | 30/05/2025 | Dstruturação do documento inicial, adicionando introdução, metodologia e as referências.                                                                                                                                                                     | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                                                 | [Isaque Camargos](https://github.com/isaqzin)                 |
+| `1.1`  | 31/05/2025 | Adição do backlog feito pelos integrantes: Matheus e Ana Luiza; incluindo os épicos, temas, links para as histórias de usuário e a gravação da priorização e entrevista com usuário real.                                                                    | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Isaque Camargos](https://github.com/isaqzin)                 |
+| `1.2`  | 31/05/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP07">EP07</a> e <a  href="#EP08 ">EP08</a> criando o backlog das histórias de usuário de <a href="../historias_todos02/#US07">US07</a> a <a href="../historias_todos02/#US15">US15 | [Isaque Camargos](https://github.com/isaqzin)                                                                       | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
+| `1.3`  | 31/05/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP09">EP09</a> e <a  href="#EP11">EP11</a> criando o backlog das histórias de usuário de <a href="../historias_todos02/#US16">US16</a> a <a href="../historias_todos02/#US21">US21  | [Kaleb Macedo](https://github.com/kalebmacedo)                                                                      | [Lucas Alves](https://github.com/LucasAlves71)                |
+| `1.4`  | 31/05/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP12">EP12</a> e <a  href="#EP14">EP14</a> criando o backlog das histórias de usuário de <a href="../historias_todos02/#US22">US22</a> a <a href="../historias_todos02/#US28">US28  | [Lucas Alves](https://github.com/LucasAlves71)                                                                      | [Kaleb Macedo](https://github.com/kalebmacedo)                |
+| `1.5`  | 01/06/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP15">EP15</a> A <a  href="#EP19">EP19</a> criando o backlog das histórias de usuário de <a href="../historias_todos02/#US35">US35</a> a <a href="../historias_todos02/#US46">US46  | [Othavio Bolzan](https://github.com/bolzanMGB)                                                                      | [Yzabella Miranda Pimenta](https://github.com/redjsun)        |
+| `1.6`  | 01/06/2025 | Adição da rastreabilidade                                                                                                                                                                                                                                    | [Lucas Alves](https://github.com/LucasAlves71)                                                                      | [Kaleb Macedo](https://github.com/kalebmacedo)                |
+| `1.7`  | 01/06/2025 | Ajustando rastreabilidade os épicos e consertando tabela do backlog do produto                                                                                                                                                                               | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                                                 | [Isaque Camargos](https://github.com/isaqzin)                 |
+| `1.8`  | 01/06/2025 | Adição da priorização e da validação                                                                                                                                                                                                                         | [Isaque Camargos](https://github.com/isaqzin)                                                                       | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
+| `1.9`  | 01/06/2025 | Ajustando rastreabilidade nas tabelas do backlog do produto                                                                                                                                                                                                  | [Yzabella Miranda Pimenta](https://github.com/redjsun)                                                              | [Isaque Camargos](https://github.com/isaqzin)                 |
