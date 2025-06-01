@@ -198,7 +198,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 
 ## US07 - Receber Notificações sobre Vencimento de Fatura
 
-<p align="center">Tabela X: História de usuário Receber Notificações sobre Vencimento de Fatura </p>
+
 
 | Campo                      | Descrição |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -214,7 +214,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 
 ## US08 - Receber Notificações sobre Retornos Médicos Pendentes
 
-<p align="center">Tabela X: História de usuário Receber Notificações sobre Retornos Médicos Pendentes </p>
+
 
 | Campo                      | Descrição |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -230,7 +230,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 
 ## US09 - Receber Notificações sobre Abertura de Agenda
 
-<p align="center">Tabela X: História de usuário Receber Notificações sobre Abertura de Agenda </p>
+
 
 | Campo                      | Descrição |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -246,7 +246,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 
 ## US10 - Receber Notificações sobre Cancelamentos de Horários
 
-<p align="center">Tabela X: História de usuário Receber Notificações sobre Cancelamentos de Horários </p>
+
 
 | Campo                      | Descrição |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -262,7 +262,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 
 ## US11 - Receber Notificações sobre Disponibilidade de Horários Favoritos
 
-<p align="center">Tabela X: História de usuário Receber Notificações sobre Disponibilidade de Horários Favoritos </p>
+
 
 | Campo                      | Descrição |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -278,7 +278,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 
 ## US12 - Receber Notificações sobre Prazos Importantes de Consultas e Exames
 
-<p align="center">Tabela X: Receber Notificações sobre Prazos Importantes de Consultas e Exames </p>
+
 
 | Campo                      | Descrição |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -294,7 +294,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 
 ## US13 - Receber Notificações sobre Confirmações de Agendamentos
 
-<p align="center">Tabela X: Receber Notificações sobre Confirmações de Agendamentos </p>
+
 
 | Campo                      | Descrição |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -310,7 +310,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 
 ## US14 - Receber Notificações sobre Alterações de Agendamento
 
-<p align="center">Tabela X: Receber Notificações sobre Alterações de Agendamento </p>
+
 
 | Campo                      | Descrição |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -326,7 +326,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 
 ## US15 - Receber Notificações sobre Disponibilidade de Demonstrativos de IR
 
-<p align="center">Tabela X: Receber Notificações sobre Disponibilidade de Demonstrativos de IR </p>
+
 
 | Campo                      | Descrição |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
