@@ -51,7 +51,7 @@ Na Tabela 2 contêm as informações do usuário participante:
                 <td>17:30</td>
                 <td>18:04</td>
                 <td>Casa da entrevistada</td>
-                <td><a href="https://unbbr-my.sharepoint.com/:b:/g/personal/231011088_aluno_unb_br/Eah0RSHhyZFIiwpWrqBuPmoBX1k0fxe4JahAmLkzITsIDw?e=iEHuTW" target="_blank">Ver Termo de Validação (PDF)</a></td>
+                <td><a href="../../assets/termo_validacao_caso_uso.pdf" target="_blank">Ver Termo de Validação (PDF)</a></td>
             </tr>
         </tbody>
     </table>

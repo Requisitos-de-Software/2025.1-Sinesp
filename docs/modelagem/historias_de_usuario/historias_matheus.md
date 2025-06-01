@@ -1,6 +1,12 @@
+<<<<<<< HEAD
+### Histórias de usuário: Visualizar Histórico de Consultas Realizadas
+
+<p>Tabela XX: História de usuário "Visualizar Histórico de Consultas Realizadas"</p>
+=======
 Aqui estão as tabelas de histórias de usuário no formato solicitado, com IDs no padrão US01, US02, etc., e campos de rastreabilidade e épicos em branco conforme orientado:
 
 ---
+>>>>>>> b38cdaaaa3f930bbcb98d968e2acce92b1125d46
 
 | Campo                      | Descrição                                                                                                                                                                                                                                                                                                                                                                                        |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -15,6 +21,13 @@ Aqui estão as tabelas de histórias de usuário no formato solicitado, com IDs 
 
 ---
 
+<<<<<<< HEAD
+### Histórias de usuário: Visualizar Histórico de Exames Realizados
+
+<p>Tabela XX: História de usuário "Visualizar Histórico de Exames Realizados"</p>
+
+=======
+>>>>>>> b38cdaaaa3f930bbcb98d968e2acce92b1125d46
 | Campo                      | Descrição                                                                                                                                                                                                                                                                                                                      |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **ID**                     | US02                                                                                                                                                                                                                                                                                                                           |
@@ -28,6 +41,13 @@ Aqui estão as tabelas de histórias de usuário no formato solicitado, com IDs 
 
 ---
 
+<<<<<<< HEAD
+### Histórias de usuário: Visualizar Resultados de Exames Laboratoriais
+
+<p>Tabela XX: História de usuário "Visualizar Resultados de Exames Laboratoriais"</p>
+
+=======
+>>>>>>> b38cdaaaa3f930bbcb98d968e2acce92b1125d46
 | Campo                      | Descrição                                                                                                                                                                                                                                                                                                                                                                                                              |
 | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **ID**                     | US03                                                                                                                                                                                                                                                                                                                                                                                                                   |
@@ -41,6 +61,13 @@ Aqui estão as tabelas de histórias de usuário no formato solicitado, com IDs 
 
 ---
 
+<<<<<<< HEAD
+### Histórias de usuário: Visualizar Histórico de Coparticipações
+
+<p>Tabela XX: História de usuário "Visualizar Histórico de Coparticipações"</p>
+
+=======
+>>>>>>> b38cdaaaa3f930bbcb98d968e2acce92b1125d46
 | Campo                      | Descrição                                                                                                                                                                                                                                                                                                                                                                                      |
 | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **ID**                     | US04                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -54,6 +81,13 @@ Aqui estão as tabelas de histórias de usuário no formato solicitado, com IDs 
 
 ---
 
+<<<<<<< HEAD
+### Histórias de usuário: Favoritar Horários de Consulta Desejados
+
+<p>Tabela XX: História de usuário "Favoritar Horários de Consulta Desejados"</p>
+
+=======
+>>>>>>> b38cdaaaa3f930bbcb98d968e2acce92b1125d46
 | Campo                      | Descrição                                                                                                                                                                                                                                                                                                                                                 |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **ID**                     | US05                                                                                                                                                                                                                                                                                                                                                      |
@@ -67,6 +101,13 @@ Aqui estão as tabelas de histórias de usuário no formato solicitado, com IDs 
 
 ---
 
+<<<<<<< HEAD
+### Histórias de usuário: Solicitar Reembolso de Cobrança Indevida de Coparticipação
+
+<p>Tabela XX: História de usuário "Solicitar Reembolso de Cobrança Indevida de Coparticipação"</p>
+
+=======
+>>>>>>> b38cdaaaa3f930bbcb98d968e2acce92b1125d46
 | Campo                      | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **ID**                     | US06                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
