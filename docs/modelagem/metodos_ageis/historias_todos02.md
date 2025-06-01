@@ -8,7 +8,7 @@ Este documento detalha o processo de levantamento e especificação das **Histó
 
 ## Integrantes do Grupo
     
-Na tabela 1, estão listados todos os integrantes da equipe que participaram da etapa de **Histórias de Usuários** e suas respectivas contribuições durante o processo.
+Na tabela 1, estão listados todos os integrantes da equipe que participaram da etapa de histórias de Usuários e suas respectivas contribuições durante o processo.
 
 <p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
 
@@ -60,7 +60,7 @@ Na tabela 1, estão listados todos os integrantes da equipe que participaram da 
 
 ## Usuários Reais Envolvidos
 
-A tabela 2 apresenta a informação do usuário real que participou da etapa de **Histórias de Usuários**. Nela, constam o nome do usuário e detalhes sobre a gravação da entrevista, incluindo o link para a autorização de gravação e a gravação da entrevista, postada no YouTube de forma não listada.
+A tabela 2 apresenta a informação do usuário real que participou da etapa de histórias de Usuários. Nela, constam o nome do usuário e detalhes sobre a gravação da entrevista, incluindo o link para a autorização de gravação e a gravação da entrevista, postada no YouTube de forma não listada.
 
 <p align="center">Tabela 2 - Usuários envolvidos</p>
 
@@ -103,11 +103,11 @@ A tabela 2 apresenta a informação do usuário real que participou da etapa de 
 
 ## Metodologia
 
-A metodologia utilizada para as Histórias de Usuários baseou-se em uma entrevista com uma usuária real do sistema. O grupo optou por essa abordagem para permitir uma compreensão aprofundada das necessidades e expectativas dos usuários, além de possibilitar a exploração de cenários de uso não previstos inicialmente.
+A metodologia utilizada para as histórias de Usuários baseou-se em uma entrevista com uma usuária real do sistema. O grupo optou por essa abordagem para permitir uma compreensão aprofundada das necessidades e expectativas dos usuários, além de possibilitar a exploração de cenários de uso não previstos inicialmente.
 
-### Gravação das Entrevistas de Elicitação
+### Gravação das Entrevistas 
 
-Para realizar a elicitação das histórias de usuários, foram agendadas reuniões individuais com os usuários participantes. Durante essas sessões, um integrante da equipe atuou como entrevistador, conduzindo as perguntas e incentivando o usuário a descrever suas tarefas e os problemas que enfrenta atualmente. Outro integrante foi responsável por registrar as informações e garantir a gravação da sessão. O objetivo principal foi capturar as funcionalidades desejadas na perspectiva do usuário.
+Para realizar as histórias de usuários, foram agendadas reuniões individuais com os usuários participantes. Durante essas sessões, um integrante da equipe atuou como entrevistador, conduzindo as perguntas e incentivando o usuário a descrever suas tarefas e os problemas que enfrenta atualmente. Outro integrante foi responsável por registrar as informações e garantir a gravação da sessão. O objetivo principal foi capturar as funcionalidades desejadas na perspectiva do usuário.
 
 - **Gravação 1** : Entrevista com o usuário real.
 
