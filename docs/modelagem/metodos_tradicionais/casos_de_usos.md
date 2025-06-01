@@ -12,47 +12,47 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
 
 <p  align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
 <div align="center">
-	<div>
-		<table>
-			<thead>
-					<tr>
-						<th>Nome</th>
-						<th>Quais etapas participou</th>
-					</tr>
-			</thead>
-		<tbody>
-					<tr>
-						<td><a  href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
-						<td>Criou o diagrama referentes aos requisitos: RF01,RF02, RF21, RNF01, RNF02, RNF03 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC01, UC02, UC03,  UC04, UC05 e UC06. </td>	
-					</tr>
-					<tr>
-						<td><a  href="https://github.com/isaqzin">Isaque Camargos</a></td>
-						<td>Criou o diagrama referentes aos requisitos: RF03,RF04, RF19, RNF04,  RNF05 e  RNF06 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC07, UC08, UC09,  UC10, UC11 e UC12. Além disso, criou o documento inicial. </td>	
-					</tr>
-					<tr>
-						<td><a  href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
-						<td>Criou o diagrama referentes aos requisitos: RF05, RF06, RF17 RNF07 e RNF08 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC13, UC14, UC15,  UC16, UC17, UC18, UC19 e UC20. </td>	
-					</tr>
-					<tr>
-						<td><a  href="https://github.com/LucasAlves71">Lucas Alves</a></td>
-						<td>Criou o diagrama referentes aos requisitos: RF07,RF08, RNF09, RNF10 e RF18 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC21, UC22, UC23,  UC24, UC25 e UC26. </td>	
-					</tr>
-					<tr>
-						<td><a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
-						<td>Criou o diagrama referentes aos requisitos: RF09, RF10, RF20 RNF11 e RNF12. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC27, UC28, UC29,  UC30 e UC31. </td>	
-					</tr>
-					<tr>
-						<td><a  href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
-						<td>Criou o diagrama referentes aos requisitos: RF11,RF12, RNF13 e RNF14 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC32, UC33 e UC034. </td>	
-					</tr>
-					<tr>
-						<td><a  href="https://github.com/redjsun">Yzabella Miranda</a></td>
-						<td>Criou o diagrama referentes aos requisitos: RNF15,RF13, RF14 e RF15 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC35, UC36, UC37 e UC38. </td>	
-					</tr>
-			</tbody>
-		</table>
-	</div>  
+<div>
+	<table>
+		<thead>
+				<tr>
+					<th>Nome</th>
+					<th>Quais etapas participou</th>
+				</tr>
+		</thead>
+	<tbody>
+				<tr>
+					<td><a  href="https://github.com/Ana-Luiza-SC"">Ana Luiza Soares</a></td>
+					<td>Criou o diagrama referentes aos requisitos: RF01,RF02, RF21, RNF01, RNF02, RNF03 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC01, UC02, UC03,  UC04, UC05 e UC06. </td>	
+				</tr>
+				<tr>
+					<td><a  href="https://github.com/isaqzin">Isaque Camargos</a></td>
+					<td>Criou o diagrama referentes aos requisitos: RF03,RF04, RF19, RNF04,  RNF05 e  RNF06 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC07, UC08, UC09,  UC10, UC11 e UC12. Além disso, criou o documento inicial. </td>	
+				</tr>
+				<tr>
+					<td><a  href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+					<td>Criou o diagrama referentes aos requisitos: RF05, RF06, RF17 RNF07 e RNF08 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC13, UC14, UC15,  UC16, UC17, UC18, UC19 e UC20. </td>	
+				</tr>
+				<tr>
+					<td><a  href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+					<td>Criou o diagrama referentes aos requisitos: RF07,RF08, RNF09, RNF10 e RF18 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC21, UC22, UC23,  UC24, UC25 e UC26. </td>	
+				</tr>
+				<tr>
+					<td><a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+					<td>Criou o diagrama referentes aos requisitos: RF09, RF10, RF20 RNF11 e RNF12. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC27, UC28, UC29,  UC30 e UC31. </td>	
+				</tr>
+				<tr>
+					<td><a  href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+					<td>Criou o diagrama referentes aos requisitos: RF11,RF12, RNF13 e RNF14 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC32, UC33 e UC034. </td>	
+				</tr>
+				<tr>
+					<td><a  href="https://github.com/redjsun">Yzabella Miranda</a></td>
+					<td>Criou o diagrama referentes aos requisitos: RNF15,RF13, RF14 e RF15 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC35, UC36, UC37 e UC38. </td>	
+				</tr>
+		</tbody>
+	</table>
 </div>
+<div> 
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Isaque Camargos</a> e <a  href="https://github.com/isaqzin">Yzabella Miranda</a></p>
 
@@ -67,14 +67,16 @@ No desenvolvimento do diagrama, empregamos dois relacionamentos fundamentais: o 
 Com foco nos diagramas de caso de uso, a Tabela 2 apresenta os principais elementos que compõem o modelo, oferecendo uma visão clara e organizada da estrutura de interações entre os atores e o sistema.
 
 ## Elementos de caso de uso
+
 <p  align="center">Tabela 2: legenda dos diagramas de caso de uso</p>
 
-|Nome|         Função         |    Elemento    |
-|----|------------------------|----------------|
-|Ator|Representam os diversos tipos de usuários externos que interagem com o sistema. | <div><img src="..\..\assets\casos-uso\casos-uso-ator.png" alt="Referência do item" width="100px"><br></div> |
-|Elipse (Caso de Uso) | É utilizada para representar os casos de uso em um diagrama, destacando funcionalidades ou ações específicas que o sistema realiza em resposta às interações dos atores. | <div><img src="..\..\assets\casos-uso\casos-uso-elipse.png" alt="Referência do item" width="100px"><br></div> |
+|Nome|         Função         |      Elemento      |
+|----|------------------------|--------------------|
+| Ator |Representam os diversos tipos de usuários externos que interagem com o sistema. | <div><img src="..\..\assets\casos-uso\casos-uso-ator.png" alt="Referência do item" width="100px"><br></div> |
+| Elipse (Caso de Uso) | É utilizada para representar os casos de uso em um diagrama, destacando funcionalidades ou ações específicas que o sistema realiza em resposta às interações dos atores. | <div><img src="..\..\assets\casos-uso\casos-uso-elipse.png" alt="Referência do item" width="100px"><br></div> |
 |Retângulo (Sistema)| É utilizado para representar o sistema ou o componente em análise, agrupando os casos de uso e os atores associados a ele. | <div><img src="..\..\assets\casos-uso\casos-uso-retangulo.png" alt="Referência do item" width="100px"><br></div> |
 | Flecha (Relações) | As setas são utilizadas para ilustrar as relações ou interações entre os atores e os casos de uso no diagrama. | <div><img src="..\..\assets\casos-uso\casos-uso-relacionamento.png" alt="Referência do item" width="100px"><br></div> |
+
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Yzabella Miranda</a></p>
 
