@@ -37,23 +37,23 @@ Nesta etapa de **Validação dos Casos de Uso**, toda a condução, gravação e
             </tr>
             <tr>
                 <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
-                <td>Criou os epicos <a href="#EP07">EP07</a> e <a  href="#EP08 ">EP08</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US07">US07</a> a <a href="../historias_todos/#US15">US15</a> </td>
+                <td>Criou os epicos <a href="#EP07">EP07</a> e <a  href="#EP08 ">EP08</a> criando o backlog das histórias de usuário de <a href="../historias_todos02/#US07">US07</a> a <a href="../historias_todos02/#US15">US15</a> </td>
             </tr>
             <tr>
                 <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
-                <td>Criou os epicos <a href="#EP09">EP09</a> e <a  href="#EP11">EP11</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US16">US16</a> a <a href="../historias_todos/#US21">US21</a> </td>
+                <td>Criou os epicos <a href="#EP09">EP09</a> e <a  href="#EP11">EP11</a> criando o backlog das histórias de usuário de <a href="../historias_todos02/#US16">US16</a> a <a href="../historias_todos02/#US21">US21</a> </td>
             </tr>
             <tr>
                 <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
-                <td>Criou os epicos <a href="#EP12">EP12</a> e <a  href="#EP14">EP14</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US22">US22</a> a <a href="../historias_todos/#US28">US28</a> </td>
+                <td>Criou os epicos <a href="#EP12">EP12</a> e <a  href="#EP14">EP14</a> criando o backlog das histórias de usuário de <a href="../historias_todos02/#US22">US22</a> a <a href="../historias_todos02/#US28">US28</a> </td>
             </tr>
             <tr>
                 <td><a href="https://github.com/bolzanMGB">Othavio Araujo Bolzan</a></td>
-                <td>Criou os epicos <a href="#EP15">EP15</a> ao <a  href="#EP17">EP17</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US35">US35</a> a <a href="../historias_todos/#US40">US40</a> </td>
+                <td>Criou os epicos <a href="#EP15">EP15</a> ao <a  href="#EP17">EP17</a> criando o backlog das histórias de usuário de <a href="../historias_todos02/#US35">US35</a> a <a href="../historias_todos02/#US40">US40</a> </td>
             </tr>
             <tr>
                 <td><a href="https://github.com/redjsun">Yzabella Miranda Pimenta</a></td>
-                <td>Criou os epicos <a href="#EP18">EP18</a> e <a  href="#EP19">EP19</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US41">US41</a> a <a href="../historias_todos/#US46">US46</a> </td>
+                <td>Criou os epicos <a href="#EP18">EP18</a> e <a  href="#EP19">EP19</a> criando o backlog das histórias de usuário de <a href="../historias_todos02/#US41">US41</a> a <a href="../historias_todos02/#US46">US46</a> </td>
             </tr>
         </tbody>
     </table>
@@ -65,6 +65,7 @@ Nesta etapa de **Validação dos Casos de Uso**, toda a condução, gravação e
 Na Tabela 2 contêm as informações do usuário participante:
 
 <p align="center">Tabela 2 - Usuário envolvido na validação</p>
+
 <div align="center">
     <table>
         <thead>
@@ -105,6 +106,7 @@ Na Tabela 2 contêm as informações do usuário participante:
         </tbody>
     </table>
 </div>
+
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a>, <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> <a href="https://github.com/kalebmacedo">Othavio Bolzan</a> e <a href="https://github.com/redjsun">Yzabella Miranda</a></p>
 
 
@@ -151,9 +153,7 @@ Esse processo garantiu uma priorização mais realista e alinhada às necessidad
 
 <iframe width="560" height="315" src="https://youtu.be/I-QTUYZ8zV4?si=zwQFq5WSMIsZh5jO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-2. Gravação da priorização e validação do épicos:
 
-<iframe width="560" height="315" src="https://youtu.be/zOI12dxuxWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Gravações dos Integrantes Othavio Araujo Bolzan e Yzabella Miranda Pimenta
 
@@ -169,9 +169,12 @@ Esse processo garantiu uma priorização mais realista e alinhada às necessidad
 A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos relacionados e priorização.  
 
 
-#### Tabela 1 - Product Backlog Elaborado
+#### Tabela do Product Backlog
 
-<>
+
+<p align="center">Tabela 3 - Product Backlog Elaborado</p>
+
+<table>
 <thead>
   <tr>
     <th>Tema</th>
@@ -181,282 +184,282 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
     <th>Priorização</th>
   </tr>
 </thead>
-<>
+<tbody>
   <tr>
-    <td rowspan="4">Busca</td>
+    <td rowspan="4"><a href="#TM01">TM01:</a> Busca</td>
     <td rowspan="3"><a href="#EP01">EP01</a> – Pesquisa de Rede e Profissionais</td>
-    <td><a href="../historias_todos#anchor_US01">US01</a>: Pesquisar Redes Credenciadas com Filtros</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF01.1">RF01.1</a></td>
+    <td><a href="../historias_todos02#US01">US01</a>: Pesquisar Redes Credenciadas com Filtros</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF01.1">RF01.1</a></td>
     <td><strong>Alta</strong></td>
     <tr>
-      <td><a href="../historias_todos#anchor_US02">US02</a>: Pesquisar Profissionais de Saúde com Filtros</td>
-      <td><a href="../../../elicitacao/requisitos_finais#anchor_RF01.2">RF01.2</a></td>
+      <td><a href="../historias_todos02#US02">US02</a>: Pesquisar Profissionais de Saúde com Filtros</td>
+      <td><a href="../../../elicitacao/requisitos_finais#RF01.2">RF01.2</a></td>
       <td><strong>Alta</strong></td>
     </tr>
     <tr>
-      <td><a href="../historias_todos#anchor_US03">US03</a>: Combinar Múltiplos Filtros de Pesquisa</td>
-      <td><a href="../../../elicitacao/requisitos_finais#anchor_RF01.3">RF01.3</a></td>
+      <td><a href="../historias_todos02#US03">US03</a>: Combinar Múltiplos Filtros de Pesquisa</td>
+      <td><a href="../../../elicitacao/requisitos_finais#RF01.3">RF01.3</a></td>
       <td><strong>Alta</strong></td>
     </tr>
   </tr>
   <tr>
     <td><a href="#EP02">EP02</a> – Direcionamento por Chatbot</td>
-    <td><a href="../historias_todos#anchor_US06">US06</a>: Receber Recomendações de Especialidade via Chatbot</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF21.1">RF21.1</a></td>
+    <td><a href="../historias_todos02#US06">US06</a>: Receber Recomendações de Especialidade via Chatbot</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF21.1">RF21.1</a></td>
     <td>Média</td>
   </tr>
 
   <tr>
-    <td rowspan="2">Avaliação e Feedback</td>
+    <td rowspan="2"><a href="#TM02">TM02:</a> Avaliação e Feedback</td>
     <td rowspan="2"><a href="#EP03">EP03</a> – Avaliações de Atendimento</td>
-    <td><a href="../historias_todos#anchor_US04">US04</a>: Avaliar Atendimentos com Escala Likert</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF02.1">RF02.1</a></td>
+    <td><a href="../historias_todos02#US04">US04</a>: Avaliar Atendimentos com Escala Likert</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF02.1">RF02.1</a></td>
     <td>Média</td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US05">US05</a>: Gerenciar Comentários sobre Atendimentos</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF02.2">RF02.2</a></td>
+    <td><a href="../historias_todos02#US05">US05</a>: Gerenciar Comentários sobre Atendimentos</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF02.2">RF02.2</a></td>
     <td>Média</td>
   </tr>
 
   <tr>
-    <td rowspan="8">Histórico Pessoal</td>
+    <td rowspan="8"><a href="#TM03">TM03:</a> Histórico Pessoal</td>
     <td rowspan="3"><a href="#EP04">EP04</a> – Histórico de Consultas e Exames</td>
-    <td><a href="../historias_todos#anchor_US07">US07</a>: Visualizar Histórico de Consultas Realizadas</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF09">RF09</a></td>
+    <td><a href="../historias_todos02#US29">US29</a>: Visualizar Histórico de Consultas Realizadas</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF09">RF09</a></td>
     <td><strong>Alta</strong></td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US08">US08</a>: Visualizar Histórico de Exames Realizados</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF09">RF09</a></td>
+    <td><a href="../historias_todos02#US30">US30</a>: Visualizar Histórico de Exames Realizados</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF09">RF09</a></td>
     <td><strong>Alta</strong></td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US09">US09</a>: Visualizar Resultados de Exames Laboratoriais</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF09">RF09</a></td>
+    <td><a href="../historias_todos02#US31">US31</a>: Visualizar Resultados de Exames Laboratoriais</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF09">RF09</a></td>
     <td><strong>Alta</strong></td>
   </tr>
   <tr>
     <td rowspan="2"><a href="#EP05">EP05</a> – Histórico Financeiro</td>
-    <td><a href="../historias_todos#anchor_US10">US10</a>: Visualizar Histórico de Coparticipações</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF09">RF09</a></td>
+    <td><a href="../historias_todos02#US32">US32</a>: Visualizar Histórico de Coparticipações</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF09">RF09</a></td>
     <td>Média</td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US12">US12</a>: Solicitar Reembolso de Cobrança Indevida de Coparticipação</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF20">RF20</a></td>
+    <td><a href="../historias_todos02#US34">US34</a>: Solicitar Reembolso de Cobrança Indevida de Coparticipação</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF20">RF20</a></td>
     <td>Média</td>
   </tr>
   <tr>
     <td rowspan="3"><a id="EP07">EP07</a> – Notificações Financeiras e Documentais</td>
-    <td><a href="../historias_todos/#US07">US07</a>: Receber Notificações sobre Vencimento de Fatura</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF04.1">RF04.1</a></td>
+    <td><a href="../historias_todos02/#US07">US07</a>: Receber Notificações sobre Vencimento de Fatura</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF04.1">RF04.1</a></td>
     <td><strong>a fazer</strong></td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US12">US12</a>: Receber Notificações sobre Prazos de Consultas e Exames</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF04.6">RF04.6</a></td>
+    <td><a href="../historias_todos02#US12">US12</a>: Receber Notificações sobre Prazos de Consultas e Exames</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF04.6">RF04.6</a></td>
     <td>a fazer</td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US15">US15</a>: Receber Notificações sobre Disponibilidade de Demonstrativos de IR</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF04.9">RF04.9</a></td>
+    <td><a href="../historias_todos02#US15">US15</a>: Receber Notificações sobre Disponibilidade de Demonstrativos de IR</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF04.9">RF04.9</a></td>
     <td><strong>sei lá</strong></td>
   </tr>
   
   <tr>
-    <td rowspan="7">Agendamentos e Preferências</td>
+    <td rowspan="7"><a href="#TM04">TM04:</a> Agendamentos e Preferências</td>
     <td><a href="#EP06">EP06 </a>– Preferências de Agendamento</td>
-    <td><a href="../historias_todos#anchor_US11">US11</a>: Favoritar Horários de Consulta Desejados</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF10">RF10</a></td>
+    <td><a href="../historias_todos02#US33">US33</a>: Favoritar Horários de Consulta Desejados</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF10">RF10</a></td>
     <td>Baixa</td>
   </tr>
   <tr>
     <td rowspan="6"><a href="#EP08">EP08</a> Notificações de Agendamentos</td>
-    <td><a href="../historias_todos#anchor_US16">US08</a>:  Receber Notificações sobre Retornos Médicos Pendentes</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF04.2">RF04.2</a></td>
+    <td><a href="../historias_todos02#US16">US08</a>:  Receber Notificações sobre Retornos Médicos Pendentes</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF04.2">RF04.2</a></td>
     <td><strong>sei la </strong></td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US09">US09</a>:Receber Notificações sobre Abertura de Agenda</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF04.3">RF04.3</a></td>
+    <td><a href="../historias_todos02#US09">US09</a>:Receber Notificações sobre Abertura de Agenda</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF04.3">RF04.3</a></td>
     <td><strong>seila</strong></td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US18">US10</a>: Receber Notificações sobre Cancelamentos de Horários</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF04.4">RF04.4</a></td>
+    <td><a href="../historias_todos02#US18">US10</a>: Receber Notificações sobre Cancelamentos de Horários</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF04.4">RF04.4</a></td>
     <td><strong>seila</strong></td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US19">US11</a>: Receber Notificações sobre Disponibilidade de Horários Favoritos</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF04.5">RF04.5</a></td>
+    <td><a href="../historias_todos02#US19">US11</a>: Receber Notificações sobre Disponibilidade de Horários Favoritos</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF04.5">RF04.5</a></td>
     <td>seilaa</td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US20">US13</a>: Receber Notificações sobre Confirmações de Agendamentos</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF04.7">RF04.7</a></td>
+    <td><a href="../historias_todos02#US20">US13</a>: Receber Notificações sobre Confirmações de Agendamentos</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF04.7">RF04.7</a></td>
     <td>seilaa</td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US21">US14</a>: Receber Notificações sobre Alterações de Agendamento</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF04.8">RF04.8</a></td>
+    <td><a href="../historias_todos02#US21">US14</a>: Receber Notificações sobre Alterações de Agendamento</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF04.8">RF04.8</a></td>
     <td>seilaa</td>
   </tr>
   
   <tr>
-    <td rowspan="2">Agendamentos e Gestão de Atendimentos</td>
+    <td rowspan="2"><a href="#TM05">TM05:</a> Agendamentos e Gestão de Atendimentos</td>
     <td rowspan="2"><a href="#EP09">EP09</a> – Agendamento e Cancelamento de Consultas</td>
-    <td><a href="../historias_todos#anchor_US16">US16</a>: Agendar Consultas e Exames</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF05.1">RF05.1</a></td>
+    <td><a href="../historias_todos02#US16">US16</a>: Agendar Consultas e Exames</td>
+    <td>-</td>
     <td><strong>Alta</strong></td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US18">US18</a>: Cancelar Consultas e Exames</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF05.2">RF05.2</a></td>
+    <td><a href="../historias_todos02#US18">US18</a>: Cancelar Consultas e Exames</td>
+    <td>-</td>
     <td><strong>Alta</strong></td>
   </tr>
 
   <tr>
-    <td rowspan="4">Gestão Financeira do Beneficiário</td>
+    <td rowspan="4"><a href="#TM06">TM06:</a> Gestão Financeira do Beneficiário</td>
     <td rowspan="3"><a href="#EP10">EP10</a> – Pagamentos e Controle de Custos</td>
-    <td><a href="../historias_todos#anchor_US17">US17</a>: Pagamento Automático a Prestadores</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF05.3">RF05.3</a></td>
+    <td><a href="../historias_todos02#US17">US17</a>: Pagamento Automático a Prestadores</td>
+    <td>-</td>
     <td><strong>Alta</strong></td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US19">US19</a>: Exibir Valor da Consulta</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF06.1">RF06.1</a></td>
+    <td><a href="../historias_todos02#US19">US19</a>: Exibir Valor da Consulta</td>
+    <td>-</td>
     <td><strong>Alta</strong></td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US20">US20</a>: Valor da Coparticipação</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF06.2">RF06.2</a></td>
+    <td><a href="../historias_todos02#US20">US20</a>: Valor da Coparticipação</td>
+    <td>-</td>
     <td><strong>Alta</strong></td>
   </tr>
 
   <tr>
     <td><a href="#EP11">EP11</a> – Demonstrativos Financeiros</td>
-    <td><a href="../historias_todos#anchor_US21">US21</a>: Gerar e Baixar Demonstrativo</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF06.3">RF06.3</a></td>
+    <td><a href="../historias_todos02#US21">US21</a>: Gerar e Baixar Demonstrativo</td>
+    <td>-</td>
     <td><strong>Alta</strong></td>
   </tr>
 
   <tr>
-    <td rowspan="5">Cadastro e Gestão de Beneficiários</td>
+    <td rowspan="5"><a href="#TM07">TM07:</a> Cadastro e Gestão de Beneficiários</td>
     <td rowspan="5"><a href="#EP12">EP12</a> – Cadastro de Beneficiários</td>
-    <td><a href="../historias_todos#anchor_US22">US22</a>: Cadastro de Titular</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF07.1">RF07.1</a></td>
+    <td><a href="../historias_todos02#US22">US22</a>: Cadastro de Titular</td>
+    <td>-</td>
     <td><strong>Alta</strong></td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US23">US23</a>: Cadastro de Dependente</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF07.2">RF07.2</a></td>
+    <td><a href="../historias_todos02#US23">US23</a>: Cadastro de Dependente</td>
+    <td>-</td>
     <td><strong>Alta</strong></td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US24">US24</a>: Cadastro de Optante</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF07.3">RF07.3</a></td>
+    <td><a href="../historias_todos02#US24">US24</a>: Cadastro de Optante</td>
+    <td>-</td>
     <td><strong>Alta</strong></td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US25">US25</a>: Validação de Documentos</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF07.4">RF07.4</a></td>
+    <td><a href="../historias_todos02#US25">US25</a>: Validação de Documentos</td>
+    <td>-</td>
     <td><strong>Alta</strong></td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US26">US26</a>: Verificação de Elegibilidade</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF07.5">RF07.5</a></td>
+    <td><a href="../historias_todos02#US26">US26</a>: Verificação de Elegibilidade</td>
+    <td>-</td>
     <td><strong>Alta</strong></td>
   </tr>
 
   <tr>
-    <td>Autorizações e Conformidade</td>
+    <td><a href="#TM08">TM08:</a> Autorizações e Conformidade</td>
     <td><a href="#EP13">EP13</a> – Regras de Procedimentos e Autorizações</td>
-    <td><a href="../historias_todos#anchor_US27">US27</a>: Verificar Procedimentos</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF08.1">RF08.1</a></td>
+    <td><a href="../historias_todos02#US27">US27</a>: Verificar Procedimentos</td>
+    <td>-</td>
     <td><strong>Alta</strong></td>
   </tr>
 
   <tr>
-    <td>Qualidade e Feedback</td>
+    <td><a href="#TM09">TM09:</a> Qualidade e Feedback</td>
     <td><a href="#EP14">EP14</a> – Canal de Denúncias</td>
-    <td><a href="../historias_todos#anchor_US28">US28</a>: Permitir Denúncias</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF18.1">RF18.1</a></td>
+    <td><a href="../historias_todos02#US28">US28</a>: Permitir Denúncias</td>
+    <td>-</td>
     <td><strong>Alta</strong></td>
   </tr>
 
   <tr>
-    <td rowspan="6">Engajamento e Comunicação com o Usuário</td>
+    <td rowspan="6"><a href="#TM10">TM10:</a> Engajamento e Comunicação com o Usuário</td>
     <td rowspan="6"><a href="#EP15">EP15</a> – Notificações e Gestão de Novidades no Aplicativo</td>
-    <td><a href="../historias_todos#anchor_US35">US35</a>: Apresentar seção "Novidades" no menu principal</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF12.1">RF12.1</a></td>
+    <td><a href="../historias_todos02#US35">US35</a>: Apresentar seção "Novidades" no menu principal</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF12.1">RF12.1</a></td>
     <td><strong>Baixo</strong></td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US36">US36</a>: Exibir lista de funcionalidades com título, descrição e data </td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF12.2">RF12.2</a></td>
+    <td><a href="../historias_todos02#US36">US36</a>: Exibir lista de funcionalidades com título, descrição e data </td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF12.2">RF12.2</a></td>
     <td><strong>Baixo</strong></td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US37">US37</a>: Marcar funcionalidades novas com "Novo"</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF12.3">RF12.3</a></td>
+    <td><a href="../historias_todos02#US37">US37</a>: Marcar funcionalidades novas com "Novo"</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF12.3">RF12.3</a></td>
     <td><strong>Baixo</strong></td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US38">US38</a>: Notificar o usuário sobre novas funcionalidades</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF12.4">RF12.4</a></td>
+    <td><a href="../historias_todos02#US38">US38</a>: Notificar o usuário sobre novas funcionalidades</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF12.4">RF12.4</a></td>
     <td><strong>Baixo</strong></td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US39">US39</a>: Ver detalhes de funcionalidades novas</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF12.5">RF12.5</a></td>
+    <td><a href="../historias_todos02#US39">US39</a>: Ver detalhes de funcionalidades novas</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF12.5">RF12.5</a></td>
     <td><strong>Médio</strong></td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US40">US40</a>: Ordenar novidades por data</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF12.6">RF12.6</a></td>
+    <td><a href="../historias_todos02#US40">US40</a>: Ordenar novidades por data</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF12.6">RF12.6</a></td>
     <td><strong>Baixa</strong></td>
   </tr>
 
   <tr>
-    <td>Acessibilidade e Conectividade</td>
+    <td><a href="#TM11">TM11:</a> Acessibilidade e Conectividade</td>
     <td><a href="#EP16">EP16</a> – Acesso e Funcionalidades Essenciais Offline</td>
-    <td><a href="../historias_todos#anchor_US41">US41</a>: Permitir Denúncias</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF03">RF03</a></td>
+    <td><a href="../historias_todos02#US41">US41</a>: Permitir Denúncias</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF03">RF03</a></td>
     <td><strong>Alta</strong></td>
   </tr>
 
    <tr>
-    <td rowspan="3"> Inteligência na Jornada do Usuário</td>
+    <td rowspan="3"><a href="#TM012">TM12:</a> Inteligência na Jornada do Usuário</td>
     <td rowspan="3"><a href="#EP17">EP17</a> – Adicionar Consulta à Rede Odontológica</td>
-    <td><a href="../historias_todos#anchor_US42">US42</a>: Apresentar seção "Novidades" no menu principal</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF13">RF13</a></td>
+    <td><a href="../historias_todos02#US42">US42</a>: Apresentar seção "Novidades" no menu principal</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF13">RF13</a></td>
     <td><strong>Alta</strong></td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US43">US43</a>: Visualizar Novas Clínicas Próximas por Localização </td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF14.1">RF14.1</a></td>
+    <td><a href="../historias_todos02#US43">US43</a>: Visualizar Novas Clínicas Próximas por Localização </td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF14.1">RF14.1</a></td>
     <td><strong>Médio</strong></td>
   </tr>
   <tr>
-    <td><a href="../historias_todos#anchor_US43">US44</a>: Visualizar Clínicas Próximas por Localização </td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF14.2">RF14.2</a></td>
+    <td><a href="../historias_todos02#US43">US44</a>: Visualizar Clínicas Próximas por Localização </td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF14.2">RF14.2</a></td>
     <td><strong>Médio</strong></td>
   </tr>
 
   <tr>
-    <td>Autonomia e Gestão de Serviços</td>
+    <td><a href="#TM13">TM13:</a> Autonomia e Gestão de Serviços</td>
     <td><a href="#EP18">EP18</a> – Gerenciamento de Agendamentos e Comprovantes</td>
-    <td><a href="../historias_todos#anchor_US45">US45</a>: Baixar Comprovantes de Agendamento</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF015">RF15</a></td>
+    <td><a href="../historias_todos02#US45">US45</a>: Baixar Comprovantes de Agendamento</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF015">RF15</a></td>
     <td><strong>Alta</strong></td>
   </tr>
 
   <tr>
-    <td>Experiência de Acesso Simplificada e Segura</td>
+    <td><a href="#TM14">TM14:</a> Experiência de Acesso Simplificada e Segura</td>
     <td><a href="#EP19">EP19</a> – Acesso Rápido e Seguro ao Aplicativo</td>
-    <td><a href="../historias_todos#anchor_US46">US46</a>:  Fazer Login por Biometria (Facial ou Digital)</td>
-    <td><a href="../../../elicitacao/requisitos_finais#anchor_RF19">RF19</a></td>
+    <td><a href="../historias_todos02#US46">US46</a>:  Fazer Login por Biometria (Facial ou Digital)</td>
+    <td><a href="../../../elicitacao/requisitos_finais#RF19">RF19</a></td>
     <td><strong>Alta</strong></td>
   </tr>
 
@@ -465,218 +468,271 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
 </tbody>
 </table>
 
-_Autor: [Ana Luiza Soares](https://github.com/Ana-Luiza-SC), [Kaleb Macedo](https://github.com/kalebmacedo) e [Othavio Bolzan](https://github.com/bolzanMGB), 2025_
 
----
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a>, <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> <a href="https://github.com/kalebmacedo">Othavio Bolzan</a> e <a href="https://github.com/redjsun">Yzabella Miranda</a></p>
 
-### Temas  
-Os temas representam grandes categorias de funcionalidades e objetivos do projeto, ajudando a organizar os épicos de forma estratégica.  
+
+
+### Temas
+
+Os temas representam grandes categorias de funcionalidades e objetivos do projeto, ajudando a organizar os épicos de forma estratégica.
 
 Cada tema aborda um aspecto essencial do produto, garantindo que todas as necessidades do público-alvo sejam contempladas e desenvolvidas de maneira alinhada aos objetivos do negócio.
 
-#### **TM01. Busca**  
+#### <a id="TM01">TM01.</a>  Busca
+
 Funcionalidades relacionadas à busca de serviços, profissionais e redes credenciadas.
 
-- [EP01 – Pesquisa de Rede e Profissionais](#EP01)  
-- [EP02 – Direcionamento por Chatbot](#EP02)  
+- <a href="#EP01">EP01</a> – Pesquisa de Rede e Profissionais
+- <a href="#EP02">EP02</a> – Direcionamento por Chatbot
 
-#### **TM02. Avaliação e Feedback**  
+#### <a id="TM02">TM02.</a>  Avaliação e Feedback
+
 Funcionalidades que permitem ao usuário avaliar atendimentos e compartilhar opiniões.
 
-- [EP03 – Avaliações de Atendimento](#EP03)  
+- <a href="#EP03">EP03</a> – Avaliações de Atendimento
 
-#### **TM03. Histórico Pessoal**  
+#### <a id="TM03">TM03.</a>  Histórico Pessoal
+
 Funcionalidades voltadas ao acesso a registros pessoais de uso do plano de saúde.
 
-- [EP04 – Histórico de Consultas e Exames](#EP04)  
-- [EP05 – Histórico Financeiro](#EP05) 
-- [EP07 – Notificações Financeiras e Documentais](#EP07) 
+- <a href="#EP04">EP04</a> – Histórico de Consultas e Exames
+- <a href="#EP05">EP05</a> – Histórico Financeiro
+- <a href="#EP07">EP07</a> – Notificações Financeiras e Documentais
 
-#### **TM04. Agendamentos e Preferências**  
+#### <a id="TM04">TM04.</a>  Agendamentos e Preferências
+
 Funcionalidades para facilitar a marcação de consultas e preferências de agendamento.
 
-- [EP06 – Preferências de Agendamento](#EP06) 
-- [EP08 – Notificações de Agendamentos](#EP08) 
+- <a href="#EP06">EP06</a> – Preferências de Agendamento
+- <a href="#EP08">EP08</a> – Notificações de Agendamentos
 
+#### <a id="TM05">TM05.</a>  Agendamentos e Gestão de Atendimentos
 
-#### **TM05. Agendamentos e Gestão de Atendimentos**  
 Funcionalidades que permitem o controle completo de agendamentos médicos e exames.
 
-- [EP09 – Agendamento e Cancelamento de Consultas](#EP09)
+- <a href="#EP09">EP09</a> – Agendamento e Cancelamento de Consultas
 
-#### **TM06. Gestão Financeira do Beneficiário**  
+#### <a id="TM06">TM06.</a>  Gestão Financeira do Beneficiário
+
 Funcionalidades de pagamentos automáticos e controle de valores de consulta e coparticipação.
 
-- [EP10 – Pagamentos e Controle de Custos](#EP10)
-- [EP11 – Demonstrativos Financeiros](#EP11)
+- <a href="#EP10">EP10</a> – Pagamentos e Controle de Custos
+- <a href="#EP11">EP11</a> – Demonstrativos Financeiros
 
-#### **TM07. Cadastro e Gestão de Beneficiários**  
+#### <a id="TM07">TM07.</a>  Cadastro e Gestão de Beneficiários
+
 Funcionalidades que abrangem o cadastro de titulares, dependentes e optantes.
 
-- [EP12 – Cadastro de Beneficiários](#EP12)
+- <a href="#EP12">EP12</a> – Cadastro de Beneficiários
 
-#### **TM08. Autorizações e Conformidade**  
+#### <a id="TM08">TM08.</a>  Autorizações e Conformidade
+
 Funcionalidades que validam autorizações com base nas regras do plano.
 
-- [EP13 – Regras de Procedimentos e Autorizações](#EP13)
+- <a href="#EP13">EP13</a> – Regras de Procedimentos e Autorizações
 
-#### **TM09. Qualidade e Feedback**  
+#### <a id="TM09">TM09.</a>  Qualidade e Feedback
+
 Funcionalidade de denúncia de condutas inadequadas.
 
-- [EP14 – Canal de Denúncias](#EP14)
+- <a href="#EP14">EP14</a> – Canal de Denúncias
 
-#### **TM10. Engajamento e Comunicação com o Usuário**  
+#### <a id="TM10">TM10.</a>  Engajamento e Comunicação com o Usuário
+
 Funcionalidades que abrangem a exibição de novidades, notificações e destaques no aplicativo, mantendo o usuário informado sobre atualizações e novas funcionalidades.
 
-- [EP15 – Notificações e Gestão de Novidades no Aplicativo](#EP15)
+- <a href="#EP15">EP15</a> – Notificações e Gestão de Novidades no Aplicativo
 
-#### **TM11. Acessibilidade e Conectividade**  
+#### <a id="TM11">TM11.</a>  Acessibilidade e Conectividade
+
 Funcionalidades que garantem o acesso a recursos essenciais mesmo sem conexão com a internet, como a carteirinha digital.
 
-- [EP16 – Acesso e Funcionalidades Essenciais Offline](#EP16)
+- <a href="#EP16">EP16</a> – Acesso e Funcionalidades Essenciais Offline
 
-#### **TM12.  Inteligência na Jornada do Usuário**  
+#### <a id="TM12">TM12.</a>  Inteligência na Jornada do Usuário
+
 Funcionalidades que otimizam a busca por prestadores de serviço, clínicas e profissionais da rede credenciada, com base em localização e especialidades.
 
-- [EP17 – Busca Inteligente por Prestadores de Serviço](#EP17)
+- <a href="#EP17">EP17</a> – Busca Inteligente por Prestadores de Serviço
 
-#### **TM13. Autonomia e Gestão de Serviços**  
+#### <a id="TM13">TM13.</a>  Autonomia e Gestão de Serviços
+
 Funcionalidades que permitem ao usuário gerenciar seus agendamentos e acessar comprovantes de forma prática e autônoma.
 
-- [EP18 – Gerenciamento de Agendamentos e Comprovantes](#EP18)
+- <a href="#EP18">EP18</a> – Gerenciamento de Agendamentos e Comprovantes
 
-#### **TM14. Experiência de Acesso Simplificada e Segura**  
+#### <a id="TM14">TM14.</a>  Experiência de Acesso Simplificada e Segura
+
 Funcionalidades que aprimoram o processo de login, oferecendo métodos rápidos e seguros de autenticação, como biometria facial ou digital.
-- [EP19 – Acesso Rápido e Seguro ao Aplicativo](#EP19)
 
+- <a href="#EP19">EP19</a> – Acesso Rápido e Seguro ao Aplicativo
 
-### Épicos  
-Para reduzir o nível de abstração presente nos temas e detalhar melhor as funcionalidades, foram registrados os épicos. Cada épico descreve um objetivo geral que pode ser dividido em tarefas menores (histórias de usuário).  
+---
 
-#### EP01 – Pesquisa de Rede e Profissionais  
-**Descrição**: Permitir busca de redes credenciadas e profissionais de saúde através de filtros avançados.  
-**Histórias Relacionadas**:  
-- US01: Pesquisar Redes Credenciadas com Filtros  
-- US02: Pesquisar Profissionais de Saúde com Filtros  
-- US03: Combinar Múltiplos Filtros de Pesquisa  
+### Épicos
 
-#### EP02 – Direcionamento por Chatbot  
-**Descrição**: Chatbot inteligente que direciona o usuário à especialidade médica adequada.  
-**Histórias Relacionadas**:  
-- US06: Receber Recomendações de Especialidade via Chatbot  
+Para reduzir o nível de abstração presente nos temas e detalhar melhor as funcionalidades, foram registrados os épicos. Cada épico descreve um objetivo geral que pode ser dividido em tarefas menores (histórias de usuário).
 
-#### EP03 – Avaliações de Atendimento  
-**Descrição**: Sistema completo para avaliação de atendimentos e gestão de feedback.  
-**Histórias Relacionadas**:  
-- US04: Avaliar Atendimentos com Escala Likert  
-- US05: Gerenciar Comentários sobre Atendimentos  
+#### <a id="EP01">EP01</a>  – Pesquisa de Rede e Profissionais
 
-#### EP04 – Histórico de Consultas e Exames  
-**Descrição**: Acesso unificado ao histórico de consultas, exames e resultados médicos.  
-**Histórias Relacionadas**:  
-- US07: Visualizar Histórico de Consultas Realizadas  
-- US08: Visualizar Histórico de Exames Realizados  
-- US09: Visualizar Resultados de Exames Laboratoriais  
+**Descrição**: Permitir busca de redes credenciadas e profissionais de saúde através de filtros avançados.
+**Histórias Relacionadas**:
 
-#### EP05 – Histórico Financeiro  
-**Descrição**: Gestão completa do histórico financeiro e solicitação de reembolsos.  
-**Histórias Relacionadas**:  
-- US10: Visualizar Histórico de Coparticipações  
-- US12: Solicitar Reembolso de Cobrança Indevida de Coparticipação  
+- <a href="../historias_todos02#US01">US01</a>: Pesquisar Redes Credenciadas com Filtros
+- <a href="../historias_todos02#US02">US02</a>: Pesquisar Profissionais de Saúde com Filtros
+- <a href="../historias_todos02#US03">US03</a>: Combinar Múltiplos Filtros de Pesquisa
 
-#### EP06 – Preferências de Agendamento  
-**Descrição**: Personalização de preferências para agilizar futuros agendamentos.  
-**Histórias Relacionadas**:  
-- US11: Favoritar Horários de Consulta Desejados  
+#### <a id="EP02">EP02</a> – Direcionamento por Chatbot
 
-#### EP07 – Notificações Financeiras e Documentais  
-**Descrição**: Notificações sobre vencimento de faturas e demonstrativos de IR.  
-**Histórias Relacionadas**:  
-- US07: Notificação sobre Vencimento de Fatura  
-- US12: Notificação sobre Prazos de Consultas e Exames  
-- US15: Notificação sobre Demonstrativos de IR  
+**Descrição**: Chatbot inteligente que direciona o usuário à especialidade médica adequada.
+**Histórias Relacionadas**:
 
-#### EP08 – Notificações de Agendamentos  
-**Descrição**: Notificações sobre agendamentos, retornos e alterações.  
-**Histórias Relacionadas**:  
-- US08: Retornos Médicos Pendentes  
-- US09: Abertura de Agenda  
-- US10: Cancelamentos de Horários  
-- US11: Disponibilidade de Horários Favoritos  
-- US13: Confirmações de Agendamentos  
-- US14: Alterações de Agendamento  
+- <a href="../historias_todos02#US06">US06</a>: Receber Recomendações de Especialidade via Chatbot
 
-#### EP09 – Agendamento e Cancelamento de Consultas  
-**Descrição**: Agendar, visualizar e cancelar consultas e exames pelo app.  
-**Histórias Relacionadas**:  
-- US16: Agendar Consultas e Exames  
-- US18: Cancelar Consultas e Exames  
+#### <a id="EP03">EP03</a> – Avaliações de Atendimento
 
-#### EP10 – Pagamentos e Controle de Custos  
-**Descrição**: Pagamento automático e exibição de valores de consulta/coparticipação.  
-**Histórias Relacionadas**:  
-- US17: Pagamento Automático a Prestadores  
-- US19: Exibir Valor da Consulta  
-- US20: Valor da Coparticipação  
+**Descrição**: Sistema completo para avaliação de atendimentos e gestão de feedback.
+**Histórias Relacionadas**:
 
-#### EP11 – Demonstrativos Financeiros  
-**Descrição**: Gerar e baixar demonstrativos para IR.  
-**Histórias Relacionadas**:  
-- US21: Gerar e Baixar Demonstrativo  
+- <a href="../historias_todos02#US04">US04</a>: Avaliar Atendimentos com Escala Likert
+- <a href="../historias_todos02#US05">US05</a>: Gerenciar Comentários sobre Atendimentos
 
-#### EP12 – Cadastro de Beneficiários  
-**Descrição**: Cadastro de titulares, dependentes e optantes com validação.  
-**Histórias Relacionadas**:  
-- US22: Cadastro de Titular  
-- US23: Cadastro de Dependente  
-- US24: Cadastro de Optante  
-- US25: Validação de Documentos  
-- US26: Verificação de Elegibilidade  
+#### <a id="EP04">EP04</a> – Histórico de Consultas e Exames
 
-#### EP13 – Regras de Procedimentos e Autorizações  
-**Descrição**: Verificação de conformidade de procedimentos com tabela e regras.  
-**Histórias Relacionadas**:  
-- US27: Verificar Procedimentos  
+**Descrição**: Acesso unificado ao histórico de consultas, exames e resultados médicos.
+**Histórias Relacionadas**:
 
-#### EP14 – Canal de Denúncias  
-**Descrição**: Denunciar condutas inadequadas de profissionais credenciados.  
-**Histórias Relacionadas**:  
-- US28: Permitir Denúncias
+- <a href="../historias_todos02#US29">US29</a>: Visualizar Histórico de Consultas Realizadas
+- <a href="../historias_todos02#US30">US30</a>: Visualizar Histórico de Exames Realizados
+- <a href="../historias_todos02#US31">US31</a>: Visualizar Resultados de Exames Laboratoriais
 
-#### EP15 – Notificações e Gestão de Novidades no Aplicativo
+#### <a id="EP05">EP05</a> – Histórico Financeiro
+
+**Descrição**: Gestão completa do histórico financeiro e solicitação de reembolsos.
+**Histórias Relacionadas**:
+
+- <a href="../historias_todos02#US32">US32</a>: Visualizar Histórico de Coparticipações
+- <a href="../historias_todos02#US34">US34</a>: Solicitar Reembolso de Cobrança Indevida de Coparticipação
+
+#### <a id="EP06">EP06</a> – Preferências de Agendamento
+
+**Descrição**: Personalização de preferências para agilizar futuros agendamentos.
+**Histórias Relacionadas**:
+
+- <a href="../historias_todos02#US33">US33</a>: Favoritar Horários de Consulta Desejados
+
+#### <a id="EP07">EP07</a> – Notificações Financeiras e Documentais
+
+**Descrição**: Notificações sobre vencimento de faturas e demonstrativos de IR.
+**Histórias Relacionadas**:
+
+- <a href="../historias_todos02#US07">US07</a>: Receber Notificações sobre Vencimento de Fatura
+- <a href="../historias_todos02#US12">US12</a>: Receber Notificações sobre Prazos de Consultas e Exames
+- <a href="../historias_todos02#US15">US15</a>: Receber Notificações sobre Disponibilidade de Demonstrativos de IR
+
+#### <a id="EP08">EP08</a> – Notificações de Agendamentos
+
+**Descrição**: Notificações sobre agendamentos, retornos e alterações.
+**Histórias Relacionadas**:
+
+- <a href="../historias_todos02#US08">US08</a>: Receber Notificações sobre Retornos Médicos Pendentes
+- <a href="../historias_todos02#US09">US09</a>: Receber Notificações sobre Abertura de Agenda
+- <a href="../historias_todos02#US10">US10</a>: Receber Notificações sobre Cancelamentos de Horários
+- <a href="../historias_todos02#US11">US11</a>: Receber Notificações sobre Disponibilidade de Horários Favoritos
+- <a href="../historias_todos02#US13">US13</a>: Receber Notificações sobre Confirmações de Agendamentos
+- <a href="../historias_todos02#US14">US14</a>: Receber Notificações sobre Alterações de Agendamento
+
+#### <a id="EP09">EP09</a> – Agendamento e Cancelamento de Consultas
+
+**Descrição**: Agendar, visualizar e cancelar consultas e exames pelo app.
+**Histórias Relacionadas**:
+
+- <a href="../historias_todos02#US16">US16</a>: Agendar Consultas e Exames
+- <a href="../historias_todos02#US18">US18</a>: Cancelar Consultas e Exames
+
+#### <a id="EP10">EP10</a> – Pagamentos e Controle de Custos
+
+**Descrição**: Pagamento automático e exibição de valores de consulta/coparticipação.
+**Histórias Relacionadas**:
+
+- <a href="../historias_todos02#US17">US17</a>: Pagamento Automático a Prestadores
+- <a href="../historias_todos02#US19">US19</a>: Exibir Valor da Consulta
+- <a href="../historias_todos02#US20">US20</a>: Valor da Coparticipação
+
+#### <a id="EP11">EP11</a> – Demonstrativos Financeiros
+
+**Descrição**: Gerar e baixar demonstrativos para IR.
+**Histórias Relacionadas**:
+
+- <a href="../historias_todos02#US21">US21</a>: Gerar e Baixar Demonstrativo
+
+#### <a id="EP12">EP12</a>  – Cadastro de Beneficiários
+
+**Descrição**: Cadastro de titulares, dependentes e optantes com validação.
+**Histórias Relacionadas**:
+
+- <a href="../historias_todos02#US22">US22</a>: Cadastro de Titular
+- <a href="../historias_todos02#US23">US23</a>: Cadastro de Dependente
+- <a href="../historias_todos02#US24">US24</a>: Cadastro de Optante
+- <a href="../historias_todos02#US25">US25</a>: Validação de Documentos
+- <a href="../historias_todos02#US26">US26</a>: Verificação de Elegibilidade
+
+#### <a id="EP13">EP13</a> – Regras de Procedimentos e Autorizações
+
+**Descrição**: Verificação de conformidade de procedimentos com tabela e regras.
+**Histórias Relacionadas**:
+
+- <a href="../historias_todos02#US27">US27</a>: Verificar Procedimentos
+
+#### <a id="EP14">EP14</a> – Canal de Denúncias
+
+**Descrição**: Denunciar condutas inadequadas de profissionais credenciados.
+**Histórias Relacionadas**:
+
+- <a href="../historias_todos02#US28">US28</a>: Permitir Denúncias
+
+#### <a id="EP15">EP15</a> – Notificações e Gestão de Novidades no Aplicativo
+
 **Descrição**: Funcionalidades relacionadas a como o aplicativo informa os usuários sobre novas features e como eles podem interagir com essas novidades.
-**Histórias Relacionadas**:  
-- US35 – Apresentar seção "Novidades" no menu principal
-- US36 – Exibir lista de funcionalidades com título, descrição e data
-- US37 – Marcar funcionalidades novas com "Novo"
-- US38 – Notificar o usuário sobre novas funcionalidades 
-- US39 – Ver detalhes de funcionalidades novas 
-- US40 – Ordenar novidades por data 
+**Histórias Relacionadas**:
 
-#### EP16 – Acesso e Funcionalidades Essenciais Offline  
+- <a href="../historias_todos02#US35">US35</a> – Apresentar seção "Novidades" no menu principal
+- <a href="../historias_todos02#US36">US36</a> – Exibir lista de funcionalidades com título, descrição e data
+- <a href="../historias_todos02#US37">US37</a> – Marcar funcionalidades novas com "Novo"
+- <a href="../historias_todos02#US38">US38</a> – Notificar o usuário sobre novas funcionalidades
+- <a href="../historias_todos02#US39">US39</a> – Ver detalhes de funcionalidades novas
+- <a href="../historias_todos02#US40">US40</a> – Ordenar novidades por data
+
+#### <a id="EP16">EP16</a> – Acesso e Funcionalidades Essenciais Offline
+
 **Descrição**: Acesso a informações críticas do plano de saúde mesmo sem conexão com a internet.
-**Histórias Relacionadas**:  
-- US41 – Acessar Carteirinha Digital no Modo Offline 
+**Histórias Relacionadas**:
 
-#### EP17 – Busca Inteligente por Prestadores de Serviço 
+- <a href="../historias_todos02#US41">US41</a>: Acessar Carteirinha Digital no Modo Offline
+
+#### <a id="EP17">EP17</a> – Busca Inteligente por Prestadores de Serviço
+
 **Descrição**: Aprimorar a capacidade do usuário de encontrar profissionais de saúde e clínicas na rede credenciada.
-**Histórias Relacionadas**:  
-- US42 – Adicionar Consulta à Rede Odontológica 
-- US43 – Visualizar Novas Clínicas Próximas por Localização 
-- US44 – Visualizar Clínicas Próximas por Localização 
+**Histórias Relacionadas**:
 
-#### EP18 – Gerenciamento de Agendamentos e Comprovantes  
-**Descrição**: Permitir ao usuário controlar seus agendamentos e comprovantes
-**Histórias Relacionadas**:  
-- US45 – Baixar Comprovantes de Agendamento 
+- <a href="../historias_todos02#US42">US42</a>: Adicionar Consulta à Rede Odontológica
+- <a href="../historias_todos02#US43">US43</a>: Visualizar Novas Clínicas Próximas por Localização
+- <a href="../historias_todos02#US44">US44</a>: Visualizar Clínicas Próximas por Localização
 
-#### EP19 – Acesso Rápido e Seguro ao Aplicativo   
+#### <a id="EP18">EP18</a> – Gerenciamento de Agendamentos e Comprovantes
+
+**Descrição**: Permitir ao usuário controlar seus agendamentos e comprovantes.
+**Histórias Relacionadas**:
+
+- <a href="../historias_todos02#US45">US45</a>: Baixar Comprovantes de Agendamento
+
+#### <a id="EP19">EP19</a> – Acesso Rápido e Seguro ao Aplicativo
+
 **Descrição**: Aprimorar a experiência de login do usuário, tornando-a mais rápida e segura.
-**Histórias Relacionadas**:  
-- US46 – Fazer Login por Biometria (Facial ou Digital)
+**Histórias Relacionadas**:
 
-
-
+- <a href="../historias_todos02#US46">US46</a>: Fazer Login por Biometria (Facial ou Digital)
 
 ## Referências Bibliográficas  
 
@@ -694,9 +750,11 @@ SBOK® GUIDE. ***Scrum Body of Knowledge (SBOK® Guide)***. 4. ed. [S. l.]: Scru
 |--------|------------|-------------------------------------------|-----------------------------------|----------------------|
 | `1.0`  | 30/05/2025 | Dstruturação do documento inicial, adicionando introdução, metodologia e as referências.       | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                   |  [Isaque Camargos](https://github.com/isaqzin)                 |
 | `1.1`  | 31/05/2025 | Adição do backlog feito pelos integrantes: Matheus e Ana Luiza; incluindo os épicos, temas, links para as histórias de usuário e a gravação da priorização e entrevista com usuário real.       | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Matheus de Alcântara](https://github.com/matheusdealcantara)              |  [Isaque Camargos](https://github.com/isaqzin)                 |
-| `1.2`  | 31/05/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP07">EP07</a> e <a  href="#EP08 ">EP08</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US07">US07</a> a <a href="../historias_todos/#US15">US15     | [Isaque Camargos](https://github.com/isaqzin)   |  [Matheus de Alcântara](https://github.com/matheusdealcantara)              |
-| `1.3`  | 31/05/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP09">EP09</a> e <a  href="#EP11">EP11</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US16">US16</a> a <a href="../historias_todos/#US21">US21     | [Kaleb Macedo](https://github.com/kalebmacedo)   |  [Lucas Alves](https://github.com/LucasAlves71)              |
-| `1.4`  | 31/05/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP12">EP12</a> e <a  href="#EP14">EP14</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US22">US22</a> a <a href="../historias_todos/#US28">US28     | [Lucas Alves](https://github.com/LucasAlves71)     |      [Kaleb Macedo](https://github.com/kalebmacedo)        |
-| `1.5`  | 01/06/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP15">EP15</a> A <a  href="#EP19">EP19</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US35">US35</a> a <a href="../historias_todos/#US46">US46     |[Othavio Bolzan](https://github.com/bolzanMGB)        | [Yzabella Miranda Pimenta](https://github.com/bolzanMGB)    |   
+| `1.2`  | 31/05/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP07">EP07</a> e <a  href="#EP08 ">EP08</a> criando o backlog das histórias de usuário de <a href="../historias_todos02/#US07">US07</a> a <a href="../historias_todos02/#US15">US15     | [Isaque Camargos](https://github.com/isaqzin)   |  [Matheus de Alcântara](https://github.com/matheusdealcantara)              |
+| `1.3`  | 31/05/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP09">EP09</a> e <a  href="#EP11">EP11</a> criando o backlog das histórias de usuário de <a href="../historias_todos02/#US16">US16</a> a <a href="../historias_todos02/#US21">US21     | [Kaleb Macedo](https://github.com/kalebmacedo)   |  [Lucas Alves](https://github.com/LucasAlves71)              |
+| `1.4`  | 31/05/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP12">EP12</a> e <a  href="#EP14">EP14</a> criando o backlog das histórias de usuário de <a href="../historias_todos02/#US22">US22</a> a <a href="../historias_todos02/#US28">US28     | [Lucas Alves](https://github.com/LucasAlves71)     |      [Kaleb Macedo](https://github.com/kalebmacedo)        |
+| `1.5`  | 01/06/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP15">EP15</a> A <a  href="#EP19">EP19</a> criando o backlog das histórias de usuário de <a href="../historias_todos02/#US35">US35</a> a <a href="../historias_todos02/#US46">US46     |[Othavio Bolzan](https://github.com/bolzanMGB)        | [Yzabella Miranda Pimenta](https://github.com/bolzanMGB)    |   
 | `1.6`  | 01/06/2025 | Adição da rastreabilidade     |[Lucas Alves](https://github.com/LucasAlves71)     |      [Kaleb Macedo](https://github.com/kalebmacedo)        |
+| `1.7`  | 01/06/2025 | Ajustando rastreabilidade os épicos e consertando tabela do backlog do produto     | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)         |  [Isaque Camargos](https://github.com/isaqzin)                 |
+
 
