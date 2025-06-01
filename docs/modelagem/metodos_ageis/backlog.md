@@ -39,10 +39,18 @@ Nesta etapa de **Validação dos Casos de Uso**, toda a condução, gravação e
                 <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
                 <td>Criou os epicos <a href="#EP07">EP07</a> e <a  href="#EP08 ">EP08</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US07">US07</a> a <a href="../historias_todos/#US15">US15</a> </td>
             </tr>
+            <tr>
+                <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+                <td>Criou os epicos <a href="#EP09">EP09</a> e <a  href="#EP11">EP11</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US16">US16</a> a <a href="../historias_todos/#US21">US21</a> </td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+                <td>Criou os epicos <a href="#EP12">EP12</a> e <a  href="#EP14">EP14</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US22">US22</a> a <a href="../historias_todos/#US28">US28</a> </td>
+            </tr>
         </tbody>
     </table>
 </div>
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
 
 ## Usuários Reais Envolvidos
 
@@ -70,10 +78,18 @@ Na Tabela 2 contêm as informações do usuário participante:
                 <td>Universidade de Brasílisia no campus Faculdade de Ciências e Tecnologia em Engenharia(FCTE) </td>
                 <td>Depois coloco</td>
             </tr>
+            <tr>
+                <td>Vanessa Lima</td>
+                <td>30/05/2025</td>
+                <td>16:00</td>
+                <td>15 minutos</td>
+                <td>Presencial</td>
+                <td><a href="https://youtu.be/zOI12dxuxWE">Link para a gravação</a></td>
+            </tr>
         </tbody>
     </table>
 </div>
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
 
 
 ## Metodologia  
@@ -119,14 +135,16 @@ Esse processo garantiu uma priorização mais realista e alinhada às necessidad
 
 <iframe width="560" height="315" src="https://youtu.be/I-QTUYZ8zV4?si=zwQFq5WSMIsZh5jO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+2. Gravação da priorização e validação do épicos:
+
+<iframe width="560" height="315" src="https://youtu.be/zOI12dxuxWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Backlog
 
 ### Backlog do Produto
 
 A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos relacionados e priorização.  
 
-
-<center>
 
 #### Tabela 1 - Product Backlog Elaborado
 
@@ -141,7 +159,6 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
   </tr>
 </thead>
 <tbody>
-  <!-- Tema: Busca e Navegação -->
   <tr>
     <td rowspan="4">Busca</td>
     <td rowspan="3"><a href="#EP01">EP01</a> – Pesquisa de Rede e Profissionais</td>
@@ -166,7 +183,6 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
     <td>Média</td>
   </tr>
 
-  <!-- Tema: Avaliação e Feedback -->
   <tr>
     <td rowspan="2">Avaliação e Feedback</td>
     <td rowspan="2"><a href="#EP03">EP03</a> – Avaliações de Atendimento</td>
@@ -180,7 +196,6 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
     <td>Média</td>
   </tr>
 
-  <!-- Tema: Histórico Pessoal -->
   <tr>
     <td rowspan="8">Histórico Pessoal</td>
     <td rowspan="3"><a href="#EP04">EP04</a> – Histórico de Consultas e Exames</td>
@@ -209,7 +224,6 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
     <td><a href="../../../elicitacao/requisitos_finais#anchor_RF20">RF20</a></td>
     <td>Média</td>
   </tr>
-  <!--  Tema Histórico Pessoal -->
   <tr>
     <td rowspan="3"><a id="EP07">EP07</a> – Notificações Financeiras e Documentais</td>
     <td><a href="../historias_todos/#US07">US07</a>: Receber Notificações sobre Vencimento de Fatura</td>
@@ -227,7 +241,6 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
     <td><strong>sei lá</strong></td>
   </tr>
   
-  <!-- Tema: Agendamentos e Preferências -->
   <tr>
     <td rowspan="7">Agendamentos e Preferências</td>
     <td><a href="#EP06">EP06 </a>– Preferências de Agendamento</td>
@@ -235,7 +248,6 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
     <td><a href="../../../elicitacao/requisitos_finais#anchor_RF10">RF10</a></td>
     <td>Baixa</td>
   </tr>
-  <!-- Tema Agendamentos e Preferências -->
   <tr>
     <td rowspan="6"><a href="#EP08">EP08</a> Notificações de Agendamentos</td>
     <td><a href="../historias_todos#anchor_US16">US08</a>:  Receber Notificações sobre Retornos Médicos Pendentes</td>
@@ -267,15 +279,92 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
     <td><a href="../../../elicitacao/requisitos_finais#anchor_RF04.8">RF04.8</a></td>
     <td>seilaa</td>
   </tr>
+  
+  <tr>
+    <td rowspan="2">Agendamentos e Gestão de Atendimentos</td>
+    <td rowspan="2"><a href="#EP09">EP09</a> – Agendamento e Cancelamento de Consultas</td>
+    <td><a href="../historias_todos#anchor_US16">US16</a>: Agendar Consultas e Exames</td>
+    <td>-</td>
+    <td><strong>Alta</strong></td>
+  </tr>
+  <tr>
+    <td><a href="../historias_todos#anchor_US18">US18</a>: Cancelar Consultas e Exames</td>
+    <td>-</td>
+    <td><strong>Alta</strong></td>
+  </tr>
+
+  <tr>
+    <td rowspan="4">Gestão Financeira do Beneficiário</td>
+    <td rowspan="3"><a href="#EP10">EP10</a> – Pagamentos e Controle de Custos</td>
+    <td><a href="../historias_todos#anchor_US17">US17</a>: Pagamento Automático a Prestadores</td>
+    <td>-</td>
+    <td><strong>Alta</strong></td>
+  </tr>
+  <tr>
+    <td><a href="../historias_todos#anchor_US19">US19</a>: Exibir Valor da Consulta</td>
+    <td>-</td>
+    <td><strong>Alta</strong></td>
+  </tr>
+  <tr>
+    <td><a href="../historias_todos#anchor_US20">US20</a>: Valor da Coparticipação</td>
+    <td>-</td>
+    <td><strong>Alta</strong></td>
+  </tr>
+
+  <tr>
+    <td><a href="#EP11">EP11</a> – Demonstrativos Financeiros</td>
+    <td><a href="../historias_todos#anchor_US21">US21</a>: Gerar e Baixar Demonstrativo</td>
+    <td>-</td>
+    <td><strong>Alta</strong></td>
+  </tr>
+
+  <tr>
+    <td rowspan="5">Cadastro e Gestão de Beneficiários</td>
+    <td rowspan="5"><a href="#EP12">EP12</a> – Cadastro de Beneficiários</td>
+    <td><a href="../historias_todos#anchor_US22">US22</a>: Cadastro de Titular</td>
+    <td>-</td>
+    <td><strong>Alta</strong></td>
+  </tr>
+  <tr>
+    <td><a href="../historias_todos#anchor_US23">US23</a>: Cadastro de Dependente</td>
+    <td>-</td>
+    <td><strong>Alta</strong></td>
+  </tr>
+  <tr>
+    <td><a href="../historias_todos#anchor_US24">US24</a>: Cadastro de Optante</td>
+    <td>-</td>
+    <td><strong>Alta</strong></td>
+  </tr>
+  <tr>
+    <td><a href="../historias_todos#anchor_US25">US25</a>: Validação de Documentos</td>
+    <td>-</td>
+    <td><strong>Alta</strong></td>
+  </tr>
+  <tr>
+    <td><a href="../historias_todos#anchor_US26">US26</a>: Verificação de Elegibilidade</td>
+    <td>-</td>
+    <td><strong>Alta</strong></td>
+  </tr>
+
+  <tr>
+    <td>Autorizações e Conformidade</td>
+    <td><a href="#EP13">EP13</a> – Regras de Procedimentos e Autorizações</td>
+    <td><a href="../historias_todos#anchor_US27">US27</a>: Verificar Procedimentos</td>
+    <td>-</td>
+    <td><strong>Alta</strong></td>
+  </tr>
+
+  <tr>
+    <td>Qualidade e Feedback</td>
+    <td><a href="#EP14">EP14</a> – Canal de Denúncias</td>
+    <td><a href="../historias_todos#anchor_US28">US28</a>: Permitir Denúncias</td>
+    <td>-</td>
+    <td><strong>Alta</strong></td>
+  </tr>
 </tbody>
 </table>
 
-
-
-
-_Autor: [Ana Luiza Soares](https://github.com/Ana-Luiza-SC), 2025_
-
-</center>
+_Autor: [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Kaleb Macedo](https://github.com/kalebmacedo), 2025_
 
 ---
 
@@ -308,83 +397,126 @@ Funcionalidades para facilitar a marcação de consultas e preferências de agen
 - [EP06 – Preferências de Agendamento](#EP06) 
 - [EP08 – Notificações de Agendamentos](#EP08) 
 
----
+
+#### **TM05. Agendamentos e Gestão de Atendimentos**  
+Funcionalidades que permitem o controle completo de agendamentos médicos e exames.
+
+- [EP09 – Agendamento e Cancelamento de Consultas](#EP09)
+
+#### **TM06. Gestão Financeira do Beneficiário**  
+Funcionalidades de pagamentos automáticos e controle de valores de consulta e coparticipação.
+
+- [EP10 – Pagamentos e Controle de Custos](#EP10)
+- [EP11 – Demonstrativos Financeiros](#EP11)
+
+#### **TM07. Cadastro e Gestão de Beneficiários**  
+Funcionalidades que abrangem o cadastro de titulares, dependentes e optantes.
+
+- [EP12 – Cadastro de Beneficiários](#EP12)
+
+#### **TM08. Autorizações e Conformidade**  
+Funcionalidades que validam autorizações com base nas regras do plano.
+
+- [EP13 – Regras de Procedimentos e Autorizações](#EP13)
+
+#### **TM09. Qualidade e Feedback**  
+Funcionalidade de denúncia de condutas inadequadas.
+
+- [EP14 – Canal de Denúncias](#EP14)
+
 
 ### Épicos  
 Para reduzir o nível de abstração presente nos temas e detalhar melhor as funcionalidades, foram registrados os épicos. Cada épico descreve um objetivo geral que pode ser dividido em tarefas menores (histórias de usuário).  
 
-#### <a id="EP01"></a>EP01 – Pesquisa de Rede e Profissionais  
-
+#### EP01 – Pesquisa de Rede e Profissionais  
 **Descrição**: Permitir busca de redes credenciadas e profissionais de saúde através de filtros avançados.  
 **Histórias Relacionadas**:  
+- US01: Pesquisar Redes Credenciadas com Filtros  
+- US02: Pesquisar Profissionais de Saúde com Filtros  
+- US03: Combinar Múltiplos Filtros de Pesquisa  
 
-  - [US01](../historias_todos#anchor_US01): Pesquisar Redes Credenciadas com Filtros  
-  - [US02](../historias_todos#anchor_US02): Pesquisar Profissionais de Saúde com Filtros  
-  - [US03](../historias_todos#anchor_US03): Combinar Múltiplos Filtros de Pesquisa  
-
-#### <a id="EP02"></a>EP02 – Direcionamento por Chatbot  
-
+#### EP02 – Direcionamento por Chatbot  
 **Descrição**: Chatbot inteligente que direciona o usuário à especialidade médica adequada.  
 **Histórias Relacionadas**:  
+- US06: Receber Recomendações de Especialidade via Chatbot  
 
-  - [US06](../historias_todos#anchor_US06): Receber Recomendações de Especialidade via Chatbot  
-
-#### <a id="EP03"></a>EP03 – Avaliações de Atendimento  
-
+#### EP03 – Avaliações de Atendimento  
 **Descrição**: Sistema completo para avaliação de atendimentos e gestão de feedback.  
 **Histórias Relacionadas**:  
+- US04: Avaliar Atendimentos com Escala Likert  
+- US05: Gerenciar Comentários sobre Atendimentos  
 
-  - [US04](../historias_todos#anchor_US04): Avaliar Atendimentos com Escala Likert  
-  - [US05](../historias_todos#anchor_US05): Gerenciar Comentários sobre Atendimentos  
-
-#### <a id="EP04"></a>EP04 – Histórico de Consultas e Exames  
-
+#### EP04 – Histórico de Consultas e Exames  
 **Descrição**: Acesso unificado ao histórico de consultas, exames e resultados médicos.  
 **Histórias Relacionadas**:  
+- US07: Visualizar Histórico de Consultas Realizadas  
+- US08: Visualizar Histórico de Exames Realizados  
+- US09: Visualizar Resultados de Exames Laboratoriais  
 
-  - [US07](../historias_todos#anchor_US07): Visualizar Histórico de Consultas Realizadas  
-  - [US08](../historias_todos#anchor_US08): Visualizar Histórico de Exames Realizados  
-  - [US09](../historias_todos#anchor_US09): Visualizar Resultados de Exames Laboratoriais  
-
-#### <a id="EP05"></a>EP05 – Histórico Financeiro  
-
+#### EP05 – Histórico Financeiro  
 **Descrição**: Gestão completa do histórico financeiro e solicitação de reembolsos.  
 **Histórias Relacionadas**:  
+- US10: Visualizar Histórico de Coparticipações  
+- US12: Solicitar Reembolso de Cobrança Indevida de Coparticipação  
 
-  - [US10](../historias_todos#anchor_US10): Visualizar Histórico de Coparticipações  
-  - [US12](../historias_todos#anchor_US12): Solicitar Reembolso de Cobrança Indevida de Coparticipação  
-
-#### <a id="EP06"></a>EP06 – Preferências de Agendamento  
-
+#### EP06 – Preferências de Agendamento  
 **Descrição**: Personalização de preferências para agilizar futuros agendamentos.  
 **Histórias Relacionadas**:  
+- US11: Favoritar Horários de Consulta Desejados  
 
-  - [US11](../historias_todos#anchor_US11): Favoritar Horários de Consulta Desejados  
-
-#### <a id="EP07"></a>EP07 – Notificações Financeiras e Documentais  
-
-**Descrição**: Usuário recebe notificações importantes relacionadas ao aspecto financeiro e documental do seu plano de saúde, como vencimento de faturas e disponibilização de documentos fiscais  
-
+#### EP07 – Notificações Financeiras e Documentais  
+**Descrição**: Notificações sobre vencimento de faturas e demonstrativos de IR.  
 **Histórias Relacionadas**:  
+- US07: Notificação sobre Vencimento de Fatura  
+- US12: Notificação sobre Prazos de Consultas e Exames  
+- US15: Notificação sobre Demonstrativos de IR  
 
-  - [US07](../historias_todos/#US07): Receber Notificações sobre Vencimento de Fatura
-  - [US12](../historias_todos/#US12): Receber Notificações sobre Prazos de Consultas e Exames
-  - [US15](../historias_todos/#US15): Receber Notificações sobre Disponibilidade de Demonstrativos de IR
+#### EP08 – Notificações de Agendamentos  
+**Descrição**: Notificações sobre agendamentos, retornos e alterações.  
+**Histórias Relacionadas**:  
+- US08: Retornos Médicos Pendentes  
+- US09: Abertura de Agenda  
+- US10: Cancelamentos de Horários  
+- US11: Disponibilidade de Horários Favoritos  
+- US13: Confirmações de Agendamentos  
+- US14: Alterações de Agendamento  
 
+#### EP09 – Agendamento e Cancelamento de Consultas  
+**Descrição**: Agendar, visualizar e cancelar consultas e exames pelo app.  
+**Histórias Relacionadas**:  
+- US16: Agendar Consultas e Exames  
+- US18: Cancelar Consultas e Exames  
 
+#### EP10 – Pagamentos e Controle de Custos  
+**Descrição**: Pagamento automático e exibição de valores de consulta/coparticipação.  
+**Histórias Relacionadas**:  
+- US17: Pagamento Automático a Prestadores  
+- US19: Exibir Valor da Consulta  
+- US20: Valor da Coparticipação  
 
-#### <a id="EP08"></a>EP08 – Notificações de Agendamentos
+#### EP11 – Demonstrativos Financeiros  
+**Descrição**: Gerar e baixar demonstrativos para IR.  
+**Histórias Relacionadas**:  
+- US21: Gerar e Baixar Demonstrativo  
 
-**Descrição**: O usuário recebe notificações sobre eventos relacionados a seus agendamentos, como aberturas de agenda, confirmações, cancelamentos, alterações e retornos médicos, garantindo que ele se mantenha informado e organizado.  
+#### EP12 – Cadastro de Beneficiários  
+**Descrição**: Cadastro de titulares, dependentes e optantes com validação.  
+**Histórias Relacionadas**:  
+- US22: Cadastro de Titular  
+- US23: Cadastro de Dependente  
+- US24: Cadastro de Optante  
+- US25: Validação de Documentos  
+- US26: Verificação de Elegibilidade  
 
-**Histórias Relacionadas**: 
+#### EP13 – Regras de Procedimentos e Autorizações  
+**Descrição**: Verificação de conformidade de procedimentos com tabela e regras.  
+**Histórias Relacionadas**:  
+- US27: Verificar Procedimentos  
 
-  - [US08](../historias_todos/#US08): Receber Notificações sobre Retornos Médicos Pendentes
-  - [US09](../historias_todos/#US09): Receber Notificações sobre Abertura de Agenda
-  - [US10](../historias_todos/#US10): Receber Notificações sobre Cancelamentos de Horários
-  - [US11](../historias_todos/#US11): Receber Notificações sobre Disponibilidade de Horários Favoritos
-  - [US13](../historias_todos/#US13): Receber Notificações sobre Confirmações de Agendamentos
-  - [US14](../historias_todos/#US14): Receber Notificações sobre Alterações de Agendamento
+#### EP14 – Canal de Denúncias  
+**Descrição**: Denunciar condutas inadequadas de profissionais credenciados.  
+**Histórias Relacionadas**:  
+- US28: Permitir Denúncias
 
 
 
@@ -405,3 +537,8 @@ SBOK® GUIDE. ***Scrum Body of Knowledge (SBOK® Guide)***. 4. ed. [S. l.]: Scru
 | `1.0`  | 30/05/2025 | Dstruturação do documento inicial, adicionando introdução, metodologia e as referências.       | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                   |  [Isaque Camargos](https://github.com/isaqzin)                 |
 | `1.1`  | 31/05/2025 | Adição do backlog feito pelos integrantes: Matheus e Ana Luiza; incluindo os épicos, temas, links para as histórias de usuário e a gravação da priorização e entrevista com usuário real.       | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Matheus de Alcântara](https://github.com/matheusdealcantara)              |  [Isaque Camargos](https://github.com/isaqzin)                 |
 | `1.2`  | 31/05/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP07">EP07</a> e <a  href="#EP08 ">EP08</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US07">US07</a> a <a href="../historias_todos/#US15">US15     | [Isaque Camargos](https://github.com/isaqzin)   |  [Matheus de Alcântara](https://github.com/matheusdealcantara)              |
+| `1.3`  | 31/05/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP09">EP09</a> e <a  href="#EP11">EP11</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US16">US16</a> a <a href="../historias_todos/#US21">US21     | [Kaleb Macedo](https://github.com/kalebmacedo)   |  [Lucas Alves](https://github.com/LucasAlves71)              |
+| `1.4`  | 31/05/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP12">EP12</a> e <a  href="#EP14">EP14</a> criando o backlog das histórias de usuário de <a href="../historias_todos/#US22">US22</a> a <a href="../historias_todos/#US28">US28     | [Lucas Alves](https://github.com/LucasAlves71)     |      [Kaleb Macedo](https://github.com/kalebmacedo)        |
+
+
+
