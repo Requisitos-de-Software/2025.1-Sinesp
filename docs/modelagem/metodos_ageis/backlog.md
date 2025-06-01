@@ -28,8 +28,8 @@ Nesta etapa de **Validação dos Casos de Uso**, toda a condução, gravação e
         </thead>
         <tbody>
             <tr>
-                <td>Ana Luiza Soares</td>
-                <td>Depois coloco, cansei</td>
+                <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+                <td>estruturação inicial do documento, com introdução e metodologia, participou da criação dos épicos <a  href="#EP01">EP01</a> a <a  href="#EP05">EP05</a>, além de participar de duas gravações de validação e priorização, uma como auxiliar outra como mediadora.</td>
             </tr>
             <tr>
                 <td>Matheus de Alcântara</td>
