@@ -294,4 +294,4 @@ CHUNG, L.; NIXON, B. A.; YU, E.; MYLOPOULOS, J. Non-functional requirements in s
 
  Autor(es)                         | Revisor(es)          |
 |--------|------------|-------------------------------------------|-----------------------------------|----------------------|
-| `1.0`  | 01/06/2025 | Dstruturação do documento inicial, adicionando introdução, metodologia, as explicações sobre o sig, decomposição, contribuição, procedimento de avaliação e refenrencias.      | [Kaleb Macedo](https://github.com/kalebmacedo)  | [Lucas Alves](https://github.com/) |
+| `1.0`  | 01/06/2025 | Dstruturação do documento inicial, adicionando introdução, metodologia, as explicações sobre o sig, decomposição, contribuição, procedimento de avaliação e refenrencias.      | [Lucas Alves](https://github.com/)  | [Kaleb Macedo](https://github.com/kalebmacedo) |
