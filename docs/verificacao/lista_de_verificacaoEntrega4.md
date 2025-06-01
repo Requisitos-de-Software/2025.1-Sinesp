@@ -1,6 +1,8 @@
 # Lista de Verificação da Entrega 4
 
-(em construção) - yza :)
+
+## Introdução
+Este documento apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 4, tantos para o grupo e o grupo +1.
 
 ## Objetivo
 - Fornecer critérios claros para verificação dos artefatos da Entrega 4;
@@ -26,6 +28,7 @@
 | 8  | A definição do RNF estão seguindo as fontes de evidência na literatura? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\..\assets\entrega4\plano-ensino-8.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3106711/mod_resource/content/58/Lista%20de%20Verifificação%20-%20Plano_de_Ensino%20RE%20012025%20Turma%2003%20v2.pdf">Plano de Ensino</a></div> |
 | 9  | Os softgoals representam as metas bem definidas? | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\..\assets\entrega4\plano-ensino-9.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3106711/mod_resource/content/58/Lista%20de%20Verifificação%20-%20Plano_de_Ensino%20RE%20012025%20Turma%2003%20v2.pdf">Plano de Ensino</a></div> |
 
+<p align="center">Fonte: Autoria de <a src="https://github.com/redjsun" targe="_blank">Yzabella Miranda</a></p>
 
 ---
 
@@ -43,7 +46,10 @@
 | 5 | O cronograma executado possui responsáveis e datas? - Planejamento real com datas e responsáveis, refletindo o que foi efetivamente feito. | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\..\assets\lventrega2\lista_parte2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
 | 6 | As atas de reunião contêm data, horário, participantes e objetivos? - Documentos com registro formal das reuniões, contendo data, hora, participantes e objetivos. | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\..\assets\lventrega2\lista_parte2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
 | 7 | As gravações de reuniões foram salvas? - Arquivos de vídeo das reuniões, armazenados para consulta futura. | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\..\assets\lventrega2\lista_parte2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
-| 8 | As apresentações no YouTube estão configuradas como "não listado"? - Garantia de que os vídeos estão acessíveis apenas para quem tiver o link, respeitando a privacidade. | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\..\assets\lventrega2\lista_parte2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |s
+| 8 | As apresentações no YouTube estão configuradas como "não listado"? - Garantia de que os vídeos estão acessíveis apenas para quem tiver o link, respeitando a privacidade. | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\..\assets\lventrega2\lista_parte2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf">Plano de Ensino</a></div> |
+
+<p align="center">Fonte: Autoria de <a src="https://github.com/redjsun" targe="_blank">Yzabella Miranda</a></p>
+
 ---
 
 ## Lista de Verificação - Histórias de usuários 
@@ -53,6 +59,15 @@
 
 | ID | Item de Verificação  | Autor | Referência |
 |----|----------------------|-------|------------|
+|  1 | As histórias de usuário são sentencias escritas em linguagem simples que descrevem o resultado desejado? | [Ana](link) | <div><img src="..\..\assets\entrega4\historia-usuario-1.png" alt="Referência do item" width="100px"><br><a href="https://www.atlassian.com/agile/project-management/user-stories">Atlassian</a></div> |
+|  2 | As histórias de usuário possuem um "como um" que representa o usuário? | [alguem](link) | <div><img src="..\..\assets\entrega4\historia-usuario-2.png" alt="Referência do item" width="100px"><br><a href="https://www.atlassian.com/agile/project-management/user-stories">Atlassian</a></div> |
+|  3 | As histórias de usuário possuem um "quero" para evidenciar a intenção do usuário? | [alguem](link) | <div><img src="..\..\assets\entrega4\historia-usuario-3.png" alt="Referência do item" width="100px"><br><a href="https://www.atlassian.com/agile/project-management/user-stories">Atlassian</a></div> |
+|  4 | As histórias de usuário possuem um "para que" (ou similar) para evidenciar o objetivo do usuário | [alguem](link) | <div><img src="..\..\assets\entrega4\historia-usuario-4.png" alt="Referência do item" width="100px"><br><a href="https://www.atlassian.com/agile/project-management/user-stories">Atlassian</a></div> |
+|  5 | As histórias de usuário possuem critério de aceitação são objetivos e claros? | [alguem](link) | <div><img src="..\..\assets\entrega4\historia-usuario-5.png" alt="Referência do item" width="100px"><br><a href="https://www.scrumstudy.com/sbok">SBOK GUIDE</a></div> |
+|  6 | As histórias de usuário seguem algum modelo ou padrão? | [Othavio](link) | <div><img src="..\..\assets\entrega4\historia-usuario-6.png" alt="Referência do item" width="100px"><br><a href="https://www.atlassian.com/agile/project-management/user-stories">Atlassian</a></div> |
+|  7 | As histórias de usuário estão consideradas prontas, ou seja, aprovadas pelo usuário? | [Yzabella Miranda](link) | <div><img src="..\..\assets\entrega4\historia-usuario-7.png" alt="Referência do item" width="100px"><br><a href="https://www.atlassian.com/agile/project-management/user-stories"> adaptado  de Atlassian</a></div> |
+
+<p align="center">Fonte: Autoria de <a src="https://github.com/redjsun" targe="_blank">Yzabella Miranda</a></p>
 
 ---
 
@@ -63,6 +78,19 @@
 
 | ID | Item de Verificação  | Autor | Referência |
 |----|----------------------|-------|------------|
+|  1 | Os requisitos não funcionais foram representados como softgoals no modelo? | [Yzabella Miranda](link) | <div><img src="..\..\assets\entrega4\nfr-1.png" alt="Referência do item" width="100px"><br><a href="https://www.cin.ufpe.br/~if716/arquivos20152/experimentoBruno/Aula2/Aula2-Parte2-NFR%20Framework.pdf"> requisitos não funcionais</a></div> |
+|  2 | A notação AND foi feita corretamente? | [Yzabella Miranda](link) | <div><img src="..\..\assets\entrega4\nfr-2.png" alt="Referência do item" width="100px"><br><a href="https://www.cin.ufpe.br/~if716/arquivos20152/experimentoBruno/Aula2/Aula2-Parte2-NFR%20Framework.pdf"> requisitos não funcionais</a></div> |
+|  3 | A notação OR foi feita corretamente? | [Yzabella Miranda](link) | <div><img src="..\..\assets\entrega4\nfr-3.png" alt="Referência do item" width="100px"><br><a href="https://www.cin.ufpe.br/~if716/arquivos20152/experimentoBruno/Aula2/Aula2-Parte2-NFR%20Framework.pdf"> requisitos não funcionais</a></div> |
+|  4 | A notação operacionalização foi feita corretamente? | [Yzabella Miranda](link) | <div><img src="..\..\assets\entrega4\nfr-4.png" alt="Referência do item" width="100px"><br><a href="https://www.cin.ufpe.br/~if716/arquivos20152/experimentoBruno/Aula2/Aula2-Parte2-NFR%20Framework.pdf"> requisitos não funcionais</a></div> |
+|  5 | Os softgoals foram divididos em tipos (NFR, Operacionalização ou Afirmação)? | [Yzabella Miranda](link) | <div><img src="..\..\assets\entrega4\nfr-5.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096155/mod_resource/content/2/DISSERTAÇÃO%20Reinaldo%20Antônio%20da%20Silva.pdf"> Dissertação Reinaldo Antônio</a></div> |
+|  6 | No softgoal NFR (nuvens claras), softgoals de operacionalização (nuvens com linhas grossas) e no softgoal de afirmação (nuvens com linhas tracejadas) seguem o padrão? | [Yzabella Miranda](link) | <div><img src="..\..\assets\entrega4\nfr-6.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096155/mod_resource/content/2/DISSERTAÇÃO%20Reinaldo%20Antônio%20da%20Silva.pdf"> Dissertação Reinaldo Antônio</a></div> |
+|  7 | Os softgoals NFR possuem um tipo e tópico(s)? | [Yzabella Miranda](link) | <div><img src="..\..\assets\entrega4\nfr-7.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096155/mod_resource/content/2/DISSERTAÇÃO%20Reinaldo%20Antônio%20da%20Silva.pdf"> Dissertação Reinaldo Antônio</a></div> |
+|  8 |  Os refinamentos (decomposição, operacionalização, afirmação) foram aplicados corretamente? | <div><img src="..\..\assets\entrega4\nfr-9.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096155/mod_resource/content/2/DISSERTAÇÃO%20Reinaldo%20Antônio%20da%20Silva.pdf"> Dissertação Reinaldo Antônio</a></div> |
+|  9 | Os softgoals foram fenidados, ou seja, decompostos? | [Yzabella Miranda](link) | <div><img src="..\..\assets\entrega4\nfr-8.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096155/mod_resource/content/2/DISSERTAÇÃO%20Reinaldo%20Antônio%20da%20Silva.pdf"> Dissertação Reinaldo Antônio</a></div> |
+|  10 | As operacionalizações refinaram os softgoal NFR em softgoal de operacionalização? | [Yzabella Miranda](link) | <div><img src="..\..\assets\entrega4\nfr-10.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096155/mod_resource/content/2/DISSERTAÇÃO%20Reinaldo%20Antônio%20da%20Silva.pdf"> Dissertação Reinaldo Antônio</a></div> |
+|  11 | As afirmações refinaram os softgoals de arfimação em outros softgoals de afirmação? | [Yzabella Miranda](link) | <div><img src="..\..\assets\entrega4\nfr-11.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096155/mod_resource/content/2/DISSERTAÇÃO%20Reinaldo%20Antônio%20da%20Silva.pdf"> Dissertação Reinaldo Antônio</a></div> |
+
+<p align="center">Fonte: Autoria de <a src="https://github.com/redjsun" targe="_blank">Yzabella Miranda</a></p>
 
 ---
 
@@ -78,9 +106,18 @@
 
 ## Referências Bibliográficas
 
+SALES, André Barros de. [Plano de Ensino – Requisitos de Software: REE012025 – Turma 03](https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf). Brasília: Universidade de Brasília, Faculdade UnB Gama, 2025. 7 p. Acessado em: 31 de maio de 2025
+
+ATLASSIAN. *What is an epic?* 2023. Disponível em: https://www.atlassian.com/agile/project-management/epics. Acesso em: 30 maio 2025. 
+
+SBOK® GUIDE. *Scrum Body of Knowledge (SBOK® Guide)*. 4. ed. [S. l.]: Scrum Study, 2024. Disponível em: <https://www.scrumstudy.com/sbok>. Acesso em: 31 maio 2025.
+
+SILVA, Reinaldo Antônio da. *NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados*. 2019. Dissertação (Mestrado em Ciência da Computação) – Programa de Pós-Graduação em Ciência da Computação, Universidade Federal de Pernambuco, Recife. Disponível em: <https://aprender3.unb.br/pluginfile.php/3096155/mod_resource/content/2/DISSERTAÇÃO%20Reinaldo%20Antônio%20da%20Silva.pdf>. Acesso em: 31 maio 2025.
+
 ## Histórico de Versões
 
 | Versão | Data       | Descrição            | Autor(es)                                       | Revisor(es)                                 |
 | ------ | ---------- | -------------------- | ----------------------------------------------- | ------------------------------------------- |
 | `1.0`  | 30/05/2025 | Criação do documento junto da estruturação das tabelas, com organização e divisão de como serão montadas e a ordem em que serão analisadas. | [Yzabella Miranda](https://github.com/redjsun) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
-| `1.1`  | 31/05/2025 | Criação das listas de verificação baseadas no plano de ensino e itens tecnicos e documentação | [Yzabella Miranda](https://github.com/redjsun) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+| `1.1`  | 31/05/2025 | Criação das listas de verificação baseadas no plano de ensino e itens tecnicos e documentação. | [Yzabella Miranda](https://github.com/redjsun) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+| `1.2`  | 31/05/2025 | Criação das listas de verificação história de usuário, NFR e backlog. | [Yzabella Miranda](https://github.com/redjsun) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
