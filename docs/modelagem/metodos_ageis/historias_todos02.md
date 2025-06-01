@@ -127,6 +127,10 @@ Para realizar a validação das histórias de usuários, foram agendadas reuniõ
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NzopLcEFwqo?si=8D6QwYGE-Xirf6Ng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+- **Gravação 4** : Validação com o usuário real.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7D7ufc_pISI?si=vRuG4ZsOUTdeJi7q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 ## Resultado
