@@ -103,6 +103,14 @@ Na Tabela 2 contêm as informações do usuário participante:
                 <td>Presencial</td>
                 <td><a href="https://youtu.be/H87ynwXVso0">Link para a gravação</a></td>
             </tr>
+            <tr>
+                <td>Rebeca Santos</td>
+                <td>01/06/2025</td>
+                <td>10:00</td>
+                <td>3 minutos</td>
+                <td>Presencial</td>
+                <td><a href="https://youtu.be/UHXRdexWlT8?si=nb0JwYjx70t1-nuS">Link para a gravação</a></td>
+            </tr>
         </tbody>
     </table>
 </div>
@@ -151,7 +159,7 @@ Esse processo garantiu uma priorização mais realista e alinhada às necessidad
 
 1. Gravação da priorização e validação do épicos:
 
-<iframe width="560" height="315" src="https://youtu.be/I-QTUYZ8zV4?si=zwQFq5WSMIsZh5jO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I-QTUYZ8zV4?si=dYeIUh_HZNBV9d1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
@@ -159,8 +167,13 @@ Esse processo garantiu uma priorização mais realista e alinhada às necessidad
 
 1. Gravação da priorização e validação do épicos: 
 
-<iframe width="560" height="315" src="https://youtu.be/H87ynwXVso0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H87ynwXVso0?si=ni5SNvltAIa4bMKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+### Gravações dos Integrantes Ana Luiza Soares e Isaque Camargos
+
+1. Gravação da priorização e validação do épicos: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UHXRdexWlT8?si=EHsJUQJL6nFke5lE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Backlog
 
@@ -254,17 +267,17 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
     <td rowspan="3"><a id="EP07">EP07</a> – Notificações Financeiras e Documentais</td>
     <td><a href="../historias_todos02/#US07">US07</a>: Receber Notificações sobre Vencimento de Fatura</td>
     <td><a href="../../../elicitacao/requisitos_finais#RF04.1">RF04.1</a></td>
-    <td><strong>a fazer</strong></td>
+    <td><strong>alta</strong></td>
   </tr>
   <tr>
     <td><a href="../historias_todos02#US12">US12</a>: Receber Notificações sobre Prazos de Consultas e Exames</td>
     <td><a href="../../../elicitacao/requisitos_finais#RF04.6">RF04.6</a></td>
-    <td>a fazer</td>
+    <td><strong>alta</strong></td>
   </tr>
   <tr>
     <td><a href="../historias_todos02#US15">US15</a>: Receber Notificações sobre Disponibilidade de Demonstrativos de IR</td>
     <td><a href="../../../elicitacao/requisitos_finais#RF04.9">RF04.9</a></td>
-    <td><strong>sei lá</strong></td>
+    <td>média</td>
   </tr>
   
   <tr>
@@ -278,32 +291,32 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
     <td rowspan="6"><a href="#EP08">EP08</a> Notificações de Agendamentos</td>
     <td><a href="../historias_todos02#US16">US08</a>:  Receber Notificações sobre Retornos Médicos Pendentes</td>
     <td><a href="../../../elicitacao/requisitos_finais#RF04.2">RF04.2</a></td>
-    <td><strong>sei la </strong></td>
+    <td><strong>alta</strong></td>
   </tr>
   <tr>
     <td><a href="../historias_todos02#US09">US09</a>:Receber Notificações sobre Abertura de Agenda</td>
     <td><a href="../../../elicitacao/requisitos_finais#RF04.3">RF04.3</a></td>
-    <td><strong>seila</strong></td>
+    <td>média</td>
   </tr>
   <tr>
     <td><a href="../historias_todos02#US18">US10</a>: Receber Notificações sobre Cancelamentos de Horários</td>
     <td><a href="../../../elicitacao/requisitos_finais#RF04.4">RF04.4</a></td>
-    <td><strong>seila</strong></td>
+    <td><strong>alta</strong></td>
   </tr>
   <tr>
     <td><a href="../historias_todos02#US19">US11</a>: Receber Notificações sobre Disponibilidade de Horários Favoritos</td>
     <td><a href="../../../elicitacao/requisitos_finais#RF04.5">RF04.5</a></td>
-    <td>seilaa</td>
+    <td>baixa</td>
   </tr>
   <tr>
     <td><a href="../historias_todos02#US20">US13</a>: Receber Notificações sobre Confirmações de Agendamentos</td>
     <td><a href="../../../elicitacao/requisitos_finais#RF04.7">RF04.7</a></td>
-    <td>seilaa</td>
+    <td><strong>alta</strong></td>
   </tr>
   <tr>
     <td><a href="../historias_todos02#US21">US14</a>: Receber Notificações sobre Alterações de Agendamento</td>
     <td><a href="../../../elicitacao/requisitos_finais#RF04.8">RF04.8</a></td>
-    <td>seilaa</td>
+    <td><strong>alta</strong></td>
   </tr>
   
   <tr>
@@ -756,5 +769,6 @@ SBOK® GUIDE. ***Scrum Body of Knowledge (SBOK® Guide)***. 4. ed. [S. l.]: Scru
 | `1.5`  | 01/06/2025 | Adição dos meu backlogs, sendo mais especifico Criou os epicos <a href="#EP15">EP15</a> A <a  href="#EP19">EP19</a> criando o backlog das histórias de usuário de <a href="../historias_todos02/#US35">US35</a> a <a href="../historias_todos02/#US46">US46     |[Othavio Bolzan](https://github.com/bolzanMGB)        | [Yzabella Miranda Pimenta](https://github.com/bolzanMGB)    |   
 | `1.6`  | 01/06/2025 | Adição da rastreabilidade     |[Lucas Alves](https://github.com/LucasAlves71)     |      [Kaleb Macedo](https://github.com/kalebmacedo)        |
 | `1.7`  | 01/06/2025 | Ajustando rastreabilidade os épicos e consertando tabela do backlog do produto     | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)         |  [Isaque Camargos](https://github.com/isaqzin)                 |
+| `1.8`  | 01/06/2025 | Adição da priorização e da validação    | [Isaque Camargos](https://github.com/isaqzin)   |  [Matheus de Alcântara](https://github.com/matheusdealcantara)              |
 
 

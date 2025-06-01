@@ -27,15 +27,15 @@ Na tabela 1, estão listados todos os integrantes da equipe que participaram da 
             </tr>
             <tr>
                 <td><a href="https://github.com/isaqzi">Isaque Camargos</a></td>
-                <td>Criou o documento das histórias de usuários e adicionou os requisitos RF04.1, RF04.2, RF04.3, RF04.4, RF04.5, RF04.6, RF04.7, RF04.8, RF04.9</td>
+                <td>Adicionou os requisitos RF04.1, RF04.2, RF04.3, RF04.4, RF04.5, RF04.6, RF04.7, RF04.8, RF04.9 criando as histórias de usuário de <a href="#US07">US07</a> a <a href="#US15">US15</a></td>
             </tr>
             <tr>
                 <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
-                <td>Criou o documento das histórias de usuários e adicionou os requisitos RF12.1, RF12.2, RF12.3, RF12.4, RF12.5, RF12.6</td>
+                <td>Adicionou os requisitos RF12.1, RF12.2, RF12.3, RF12.4, RF12.5, RF12.6</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
-                <td>Criou o documento das histórias de usuários e adicionou os requisitos RF03, RF13, RF14.1, RF14.2, RF15, RF19</td>
+                <td>Adicionou os requisitos RF03, RF13, RF14.1, RF14.2, RF15, RF19</td>
             </tr>
             <tr>
                 <td>Kaleb Macedo</td>
@@ -93,6 +93,14 @@ A tabela 2 apresenta a informação do usuário real que participou da etapa de 
                 <td>12 minutos</td>
                 <td><a href="https://youtu.be/HxSsiHoWWrE">Link para a gravação</a></td>
             </tr>
+            <tr>
+                <td>Rebeca Santos</td>
+                <td>01/06/2025</td>
+                <td>10:00</td>
+                <td>6 minutos</td>
+                <td>Presencial</td>
+                <td><a href="https://youtu.be/NzopLcEFwqo?si=YiSxvB_HlUUPp8wk">Link para a gravação</a></td>
+            </tr>
         </tbody>
     </table>
 </div>
@@ -103,20 +111,24 @@ A tabela 2 apresenta a informação do usuário real que participou da etapa de 
 
 ## Metodologia
 
-A metodologia utilizada para a construção das histórias de usuários teve como base a análise dos requisitos funcionais previamente levantados durante a etapa de elicitação. Cada requisito funcional foi interpretado sob a perspectiva do usuário final, permitindo a transformação desses requisitos em narrativas claras e objetivas que descrevem o que o sistema deve fazer e qual valor isso entrega ao usuário. Esse processo garantiu uma visão centrada no usuário, alinhada às boas práticas de desenvolvimento ágil.
+A metodologia utilizada para a construção das histórias de usuários teve como base a análise dos requisitos funcionais previamente levantados durante a etapa de elicitação. Cada requisito funcional foi interpretado sob a perspectiva do usuário final, permitindo a transformação desses requisitos em narrativas claras e objetivas que descrevem o que o sistema deve fazer e qual valor isso entrega ao usuário. Esse processo garantiu uma visão centrada no usuário, alinhada às boas práticas de desenvolvimento ágil. Após feito as histórias, cada integrante validou suas histórias em dupla com um usuário real. 
 
 
 ### Gravação das Entrevistas 
 
-Para realizar as histórias de usuários, foram agendadas reuniões individuais com os usuários participantes. Durante essas sessões, um integrante da equipe atuou como entrevistador, conduzindo as perguntas e incentivando o usuário a descrever suas tarefas e os problemas que enfrenta atualmente. Outro integrante foi responsável por registrar as informações e garantir a gravação da sessão. O objetivo principal foi capturar as funcionalidades desejadas na perspectiva do usuário.
+Para realizar a validação das histórias de usuários, foram agendadas reuniões individuais com os usuários participantes. Durante essas sessões, um integrante da equipe atuou como entrevistador, conduzindo a validação verificando se a forma de uso está correta e os critérios de aceitação também. Outro integrante foi responsável por registrar as informações e garantir a gravação da sessão.
 
-- **Gravação 1** : Entrevista com o usuário real.
+- **Gravação 1** : Validação com o usuário real.
 
 <iframe width="560" height="315" src="https://youtube.com/embed/HxSsiHoWWrE" title="Gravação da Entrevista" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-- **Gravação 2** : Entrevista com o usuário real.
+- **Gravação 2** : Validação com o usuário real.
 
-<iframe width="560" height="315" src="https://youtu.be/VybNqLFKy7o" title="Gravação da Entrevista" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VybNqLFKy7o?si=ydqkOo3AwznaBC9p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- **Gravação 3** : Validação com o usuário real.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NzopLcEFwqo?si=8D6QwYGE-Xirf6Ng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ---
@@ -227,7 +239,8 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Título** | Receber Notificações sobre Vencimento de Fatura |
 | **História** | Como um usuário do GDF Saúde,<br>Eu quero receber notificações configuráveis sobre o vencimento da fatura via app, SMS ou e-mail,<br>Para que eu possa me organizar financeiramente e evitar atrasos nos pagamentos. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha ativado notificações para vencimento de fatura,<br>- Quando estiver próximo da data de vencimento,<br>- Então o sistema deve enviar uma notificação no(s) canal(is) selecionado(s) pelo usuário: app, SMS e/ou e-mail. |
-| **Rastreabilidade** | RF04.1 |
+| **Rastreabilidade** | <a href="../../../elicitacao/requisitos_finais#RF04.1">RF04.1</a> |
+| **Épico Relacionado** | <a href="../backlog#EP07">EP07</a> |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -241,7 +254,8 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Título** | Receber Notificações sobre Retornos Médicos Pendentes |
 | **História** | Como um usuário do GDF Saúde,<br>Eu quero receber notificações configuráveis sobre retornos médicos pendentes via app, SMS ou e-mail,<br>Para que eu não me esqueça de agendar ou comparecer aos retornos recomendados pelos profissionais de saúde. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha um retorno médico pendente e tenha ativado as notificações correspondentes,<br>- Quando a data recomendada estiver se aproximando,<br>- Então o sistema deve enviar uma notificação no(s) canal(is) escolhido(s) pelo usuário. |
-| **Rastreabilidade** | RF04.2 |
+| **Rastreabilidade** | <a href="../../../elicitacao/requisitos_finais#RF04.2">RF04.2</a> |
+| **Épico Relacionado** | <a href="../backlog#EP08">EP08</a> |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -255,7 +269,8 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Título** | Receber Notificações sobre Abertura de Agenda |
 | **História** | Como um usuário do GDF Saúde,<br>Eu quero ser notificado quando novas agendas de profissionais forem abertas,<br>Para que eu possa marcar consultas rapidamente, garantindo horários que sejam convenientes para mim. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha ativado notificações sobre abertura de agenda,<br>- Quando uma nova agenda for aberta,<br>- Então o sistema deve enviar uma notificação no(s) canal(is) escolhido(s) pelo usuário: app, SMS e/ou e-mail. |
-| **Rastreabilidade** | RF04.3 |
+| **Rastreabilidade** | <a href="../../../elicitacao/requisitos_finais#RF04.3">RF04.3</a> |
+| **Épico Relacionado** | <a href="../backlog#EP08">EP08</a> |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -269,7 +284,8 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Título** | Receber Notificações sobre Cancelamentos de Horários |
 | **História** | Como um usuário do GDF Saúde,<br>Eu quero ser notificado sobre cancelamentos de horários agendados via app, SMS ou e-mail,<br>Para que eu possa reorganizar meus compromissos e, se necessário, agendar um novo horário. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha um horário agendado e que tenha ativado notificações de cancelamento,<br>- Quando o profissional ou o sistema cancelar o horário,<br>- Então o usuário deve receber uma notificação pelo(s) canal(is) configurado(s). |
-| **Rastreabilidade** | RF04.4 |
+| **Rastreabilidade** | <a href="../../../elicitacao/requisitos_finais#RF04.4">RF04.4</a> |
+| **Épico Relacionado** | <a href="../backlog#EP08">EP08</a> |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -283,7 +299,8 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Título** | Receber Notificações sobre Disponibilidade de Horários Favoritos |
 | **História** | Como um usuário do GDF Saúde,<br>Eu quero receber notificações quando horários que marquei como favoritos ficarem disponíveis,<br>Para que eu possa rapidamente agendar esses horários conforme minha preferência. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha marcado horários como favoritos e ativado as notificações correspondentes,<br>- Quando um desses horários for liberado,<br>- Então o sistema deve notificar o usuário pelo(s) canal(is) de comunicação configurado(s). |
-| **Rastreabilidade** | RF04.5 |
+| **Rastreabilidade** | <a href="../../../elicitacao/requisitos_finais#RF04.5">RF04.5</a> |
+| **Épico Relacionado** | <a href="../backlog#EP08">EP08</a> |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -297,7 +314,8 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Título** | Receber Notificações sobre Prazos Importantes de Consultas e Exames |
 | **História** | Como um usuário do GDF Saúde,<br>Eu quero receber notificações sobre prazos importantes relacionados às minhas consultas e exames,<br>Para que eu possa me preparar adequadamente e não perder nenhuma data relevante para minha saúde. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha consultas ou exames agendados e tenha ativado notificações de prazos,<br>- Quando o prazo relevante estiver se aproximando,<br>- Então o sistema deve enviar uma notificação pelo(s) canal(is) escolhido(s). |
-| **Rastreabilidade** | RF04.6 |
+| **Rastreabilidade** | <a href="../../../elicitacao/requisitos_finais#RF04.6">RF04.6</a> |
+| **Épico Relacionado** | <a href="../backlog#EP07">EP07</a> |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -311,7 +329,8 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Título** | Receber Notificações sobre Confirmações de Agendamentos |
 | **História** | Como um usuário do GDF Saúde,<br>Eu quero ser notificado quando uma consulta ou exame for confirmado,<br>Para que eu tenha certeza do meu agendamento e possa me planejar com antecedência. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha um agendamento pendente e tenha ativado as notificações de confirmação,<br>- Quando o agendamento for confirmado,<br>- Então o sistema deve enviar uma notificação pelo(s) canal(is) configurado(s) pelo usuário. |
-| **Rastreabilidade** | RF04.7 |
+| **Rastreabilidade** | <a href="../../../elicitacao/requisitos_finais#RF04.7">RF04.7</a> |
+| **Épico Relacionado** | <a href="../backlog#EP08">EP08</a> |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -325,7 +344,8 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Título** | Receber Notificações sobre Alterações de Agendamento |
 | **História** | Como um usuário do GDF Saúde,<br>Eu quero ser notificado sobre quaisquer alterações em meus agendamentos,<br>Para que eu possa ajustar minha agenda pessoal e evitar confusões ou faltas. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha um agendamento e tenha ativado notificações sobre alterações,<br>- Quando houver uma mudança no horário ou local do agendamento,<br>- Então o sistema deve notificar o usuário pelo(s) canal(is) de comunicação selecionado(s). |
-| **Rastreabilidade** | RF04.8 |
+| **Rastreabilidade** | <a href="../../../elicitacao/requisitos_finais#RF04.8">RF04.8</a> |
+| **Épico Relacionado** | <a href="../backlog#EP08">EP08</a> |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -339,7 +359,9 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Título** | Receber Notificações sobre Disponibilidade de Demonstrativos de IR |
 | **História** | Como um usuário do GDF Saúde,<br>Eu quero ser notificado quando meu demonstrativo de Imposto de Renda estiver disponível,<br>Para que eu possa acessá-lo rapidamente e utilizá-lo na minha declaração anual. |
 | **Critérios de Aceitação** | - Dado que o usuário tenha ativado notificações sobre disponibilidade de demonstrativos de IR,<br>- Quando o documento for gerado e disponibilizado,<br>- Então o sistema deve notificar o usuário pelo(s) canal(is) configurado(s): app, SMS e/ou e-mail. |
-| **Rastreabilidade** | RF04.9 |
+| **Rastreabilidade** | <a href="../../../elicitacao/requisitos_finais#RF04.9">RF04.9</a> |
+| **Épico Relacionado** | <a href="../backlog#EP07">EP07</a> |
+
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -786,6 +808,7 @@ SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 23, disponível em: https
 |--------|------|-----------|-----------|-------------|
 | `1.0` | 31/05/2025 | Criação  do documento de Histórias de Usuários | [Kaleb Macedo](https://github.com/kalebmacedo)  | [Lucas Alves](https://github.com/) |
 | `1.1` | 31/05/2025 | Adição dos RF05.1, RF05.2, RF05.3,RF06.1, RF06.2, RF06.3 | [Kaleb Macedo](https://github.com/kalebmacedo)  | [Lucas Alves](https://github.com/) |
-| `1.2` | 31/05/2025 | Adição dos RF04.1, RF04.2, RF04.3, RF04.4, RF04.5, RF04.6, RF04.7, RF04.8, RF04.9 | [Isaque Camargos](https://github.com/isaqzi)  | KAJSHD |
+| `1.2` | 31/05/2025 | Adição dos RF04.1, RF04.2, RF04.3, RF04.4, RF04.5, RF04.6, RF04.7, RF04.8, RF04.9 | [Isaque Camargos](https://github.com/isaqzi)  | [Lucas Alves](https://github.com/) |
 | `1.3` | 31/05/2025 | Adição dos RF12.1, RF12.2, RF12.3, RF12.4, RF12.5, RF12.6 | [Othavio Bolzan](https://github.com/bolzanMGB)  | [Yzabella Miranda](https://github.com/redjsun) |
 | `1.4` | 31/05/2025 | Adição dos RF03, RF13, RF14.1, RF14.2, RF15, RF19 | [Yzabella Miranda](https://github.com/redjsun)  | [Othavio Bolzan](https://github.com/bolzanMGB) |
+| `1.3` | 01/06/2025 | Adição da validação dos das histórias de usuário de US07 a US15, correção do texto de gravação| [Isaque Camargos](https://github.com/isaqzi)  | [Lucas Alves](https://github.com/) |
