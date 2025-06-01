@@ -85,7 +85,7 @@ Na Tabela 2 contêm as informações do usuário participante:
                 <td>9:55</td>
                 <td>5:55</td>
                 <td>Universidade de Brasílisia no campus Faculdade de Ciências e Tecnologia em Engenharia(FCTE) </td>
-                <td>Depois coloco</td>
+                <td><a href="../../assets/termo_consentimento_anamatheus.pdf" target="_blank">Ver Termo de Consentimento (PDF)</a></td>
             </tr>
             <tr>
                 <td>Vanessa Lima</td>
@@ -101,7 +101,7 @@ Na Tabela 2 contêm as informações do usuário participante:
                 <td>16:00</td>
                 <td>15 minutos</td>
                 <td>Presencial</td>
-                <td><a href="https://youtu.be/H87ynwXVso0">Link para a gravação</a></td>
+                <td><a href="../../assets/termo_consentimento_yzaothavio.pdf" target="_blank">Ver Termo de Consentimento (PDF)</a></td>
             </tr>
             <tr>
                 <td>Rebeca Santos</td>
@@ -159,7 +159,7 @@ Esse processo garantiu uma priorização mais realista e alinhada às necessidad
 
 1. Gravação da priorização e validação do épicos:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I-QTUYZ8zV4?si=dYeIUh_HZNBV9d1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I-QTUYZ8zV4?si=HpUkGSDfRhqnG6Dh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
@@ -264,7 +264,7 @@ A tabela a seguir resume os temas, épicos, histórias de usuário, requisitos r
     <td>Média</td>
   </tr>
   <tr>
-    <td rowspan="3"><a id="EP07">EP07</a> – Notificações Financeiras e Documentais</td>
+    <td rowspan="3"><a href="#EP07">EP07</a> – Notificações Financeiras e Documentais</td>
     <td><a href="../historias_todos02/#US07">US07</a>: Receber Notificações sobre Vencimento de Fatura</td>
     <td><a href="../../../elicitacao/requisitos_finais#RF04.1">RF04.1</a></td>
     <td><strong>alta</strong></td>
