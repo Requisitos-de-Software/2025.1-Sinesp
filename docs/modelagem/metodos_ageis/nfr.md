@@ -127,17 +127,160 @@ A análise dos softgoals começa pelo nível mais baixo da hierarquia do SIG, on
 
 ## Metodologia
 
-Para a criação do NRF selecionamos os requisitos não funcionais e os classificamos em temas, usabilidade e performance, montamos os cartões de espécificação e o gráfico de cada tema com a utilização da ferramente XXXXXXXXXXXXXXXX. 
+Para a criação do NFR Framework, selecionamos todos os requisitos não funcionais elicitados no projeto (ver [docs/elicitacao/elicitacao.md](docs/elicitacao/elicitacao.md)), classificando-os em temas como usabilidade, desempenho, segurança, acessibilidade e conformidade legal. Cada requisito foi detalhado em um cartão de especificação, contendo nome, descrição, fonte, critérios de aceitação e possíveis conflitos.
 
+A seguir, organizamos os requisitos em um Gráfico de Interdependência de Softgoals (SIG), representando visualmente as relações de contribuição (MAKE, HELP, HURT, BREAK, etc.) e refinamento entre os softgoals. Utilizamos ferramentas como draw.io para a construção do SIG.
 
+A avaliação dos softgoals foi realizada aplicando os rótulos do NFR Framework, propagando as decisões do nível mais baixo até o topo da hierarquia, conforme descrito no procedimento de avaliação.
 
+### Cartões de Especificação
 
+As tabelas a seguir detalham os requisitos não-funcionais elicitados para o projeto, com base nas fontes e critérios definidos.
 
+<center>
 
+**Tabela 1** - Cartão de Especificação 1
 
+| Nº Requisito: RNF01 | Classificação: Usabilidade |
+|---------------------|---------------------------|
+| **Descrição:** O sistema deve ser fácil de usar para todos os perfis de usuário. |
+| **Justificativa:** Facilitar o uso do sistema para todos os usuários, reduzindo a curva de aprendizado. |
+| **Origem do Requisito:** Brainstorm, Introspecção |
+| **Critério de Aceitação:** Usuários realizam tarefas básicas sem auxílio externo. |
+| **Dependências:** Nenhuma |
+| **Prioridade:** Alta |
+| **Conflitos:** Nenhum |
+| **História:** 2025 |
 
+Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
 
+</center>
 
+<center>
+
+**Tabela 2** - Cartão de Especificação 2
+
+| Nº Requisito: RNF02 | Classificação: Desempenho |
+|---------------------|--------------------------|
+| **Descrição:** Tempo de resposta das ações não deve ultrapassar 2 segundos. |
+| **Justificativa:** Garantir eficiência e boa experiência ao usuário. |
+| **Origem do Requisito:** Entrevista, MoSCoW |
+| **Critério de Aceitação:** 95% das ações respondem em até 2s. |
+| **Dependências:** Infraestrutura adequada |
+| **Prioridade:** Alta |
+| **Conflitos:** Pode conflitar com segurança em operações críticas |
+| **História:** 2025 |
+
+Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
+
+</center>
+
+<center>
+
+**Tabela 3** - Cartão de Especificação 3
+
+| Nº Requisito: RNF07 | Classificação: Conformidade |
+|---------------------|----------------------------|
+| **Descrição:** Garantir conformidade com a Portaria nº 127/2024 e LGPD. |
+| **Justificativa:** Atender às exigências legais e proteger dados dos usuários. |
+| **Origem do Requisito:** Documentação oficial |
+| **Critério de Aceitação:** Auditoria confirma aderência legal. |
+| **Dependências:** Implementação de políticas de privacidade |
+| **Prioridade:** Crítica |
+| **Conflitos:** Pode impactar desempenho |
+| **História:** 2025 |
+
+Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
+
+</center>
+
+<center>
+
+**Tabela 4** - Cartão de Especificação 4
+
+| Nº Requisito: RNF08 | Classificação: Desempenho |
+|---------------------|--------------------------|
+| **Descrição:** Processar autorizações prévias em até 10 dias úteis. |
+| **Justificativa:** Cumprir prazos regulatórios e garantir agilidade. |
+| **Origem do Requisito:** Three Level Scale |
+| **Critério de Aceitação:** 100% das autorizações processadas no prazo. |
+| **Dependências:** Processos internos otimizados |
+| **Prioridade:** Média |
+| **Conflitos:** Nenhum |
+| **História:** 2025 |
+
+Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
+
+</center>
+
+<center>
+
+**Tabela 5** - Cartão de Especificação 5
+
+| Nº Requisito: RNF15 | Classificação: Acessibilidade |
+|---------------------|------------------------------|
+| **Descrição:** Compatibilidade com leitores de tela para pessoas com deficiência visual. |
+| **Justificativa:** Tornar o sistema acessível a todos os usuários. |
+| **Origem do Requisito:** Introspecção |
+| **Critério de Aceitação:** Testes com leitores de tela aprovados. |
+| **Dependências:** Implementação de padrões de acessibilidade |
+| **Prioridade:** Alta |
+| **Conflitos:** Nenhum |
+| **História:** 2025 |
+
+Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
+
+</center>
+
+## Requisitos Não-Funcionais
+
+A tabela a seguir lista os requisitos não-funcionais utilizados para a criação do NFR Framework deste projeto.
+
+| ID    | Tema           | Descrição                                                                 | Fonte                | Critério de Aceitação                  | Implementação |
+|-------|----------------|--------------------------------------------------------------------------|----------------------|----------------------------------------|---------------|
+| RNF01 | Usabilidade    | O sistema deve ser fácil de usar para todos os perfis de usuário.         | Brainstorm, Introspecção | Usuários realizam tarefas básicas sem auxílio externo. | Não           |
+| RNF02 | Desempenho     | Tempo de resposta das ações não deve ultrapassar 2 segundos.              | Entrevista, MoSCoW   | 95% das ações respondem em até 2s.     | Não           |
+| RNF07 | Conformidade   | Garantir conformidade com a Portaria nº 127/2024 e LGPD.                 | Documentação oficial | Auditoria confirma aderência legal.    | Não           |
+| RNF08 | Desempenho     | Processar autorizações prévias em até 10 dias úteis.                     | Three Level Scale    | 100% das autorizações processadas no prazo. | Não           |
+| RNF15 | Acessibilidade | Compatibilidade com leitores de tela para pessoas com deficiência visual. | Introspecção         | Testes com leitores de tela aprovados. | Não           |
+
+Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
+
+### Gráfico de Interdependência de Softgoals (SIG)
+
+- **Usabilidade**  
+  - Contribui para: Satisfação do usuário (HELP)
+  - Refinado em: Facilidade de uso, Acessibilidade
+
+- **Desempenho**
+  - Contribui para: Eficiência operacional (MAKE)
+  - Refinado em: Tempo de resposta, Processamento de autorizações
+
+- **Segurança**
+  - Contribui para: Conformidade legal (HELP), pode conflitar com Desempenho (HURT)
+
+- **Acessibilidade**
+  - Contribui para: Usabilidade (MAKE)
+
+- **Conformidade legal**
+  - Refinado em: LGPD, Portaria 127/2024
+
+*(Inclua aqui uma imagem do SIG, por exemplo, exportada do draw.io e salva em assets/nfr/sig.png)*
+
+<p align="center">
+  <img src="..\..\..\assets\nfr\sig.png" alt="Gráfico SIG" width="600">
+</p>
+
+### Exemplo de Avaliação
+
+- **RNF02 (Desempenho)**: Satisfeito (✓) – Testes mostram tempo de resposta adequado.
+- **RNF15 (Acessibilidade)**: Fracamente Satisfeito (𝒲+) – Compatível com leitores de tela, mas com pequenas limitações.
+- **RNF07 (Conformidade)**: Indeterminado (u) – Auditoria pendente.
+
+### Responsáveis
+
+- Modelagem: Isaque Camargos, Ana Luiza Soares, Kaleb Macedo, Lucas Alves, Matheus de Alcântara, Othavio Bolzan, Yzabella Miranda
+- Validação: conforme tabelas de integrantes do grupo.
 
 
 
@@ -151,4 +294,4 @@ CHUNG, L.; NIXON, B. A.; YU, E.; MYLOPOULOS, J. Non-functional requirements in s
 
  Autor(es)                         | Revisor(es)          |
 |--------|------------|-------------------------------------------|-----------------------------------|----------------------|
-| `1.0`  | 18/05/2025 | Dstruturação do documento inicial, adicionando introdução, metodologia, as explicações sobre o sig, decomposição, contribuição, procedimento de avaliação e refenrencias.      | [Isaque Camargos](https://github.com/isaqzin)    |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                   |    
+| `1.0`  | 01/06/2025 | Dstruturação do documento inicial, adicionando introdução, metodologia, as explicações sobre o sig, decomposição, contribuição, procedimento de avaliação e refenrencias.      | [Kaleb Macedo](https://github.com/kalebmacedo)  | [Lucas Alves](https://github.com/) |
