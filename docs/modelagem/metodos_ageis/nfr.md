@@ -148,7 +148,7 @@ As tabelas a seguir detalham os requisitos não-funcionais elicitados para o pro
 | **Origem do Requisito:** Brainstorm, Introspecção |
 | **Critério de Aceitação:** Usuários realizam tarefas básicas sem auxílio externo. |
 | **Dependências:** Nenhuma |
-| **Prioridade:** Alta |
+| **Prioridade:**  |
 | **Conflitos:** Nenhum |
 | **História:** 2025 |
 
@@ -167,7 +167,7 @@ Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
 | **Origem do Requisito:** Entrevista, MoSCoW |
 | **Critério de Aceitação:** 95% das ações respondem em até 2s. |
 | **Dependências:** Infraestrutura adequada |
-| **Prioridade:** Alta |
+| **Prioridade:**  |
 | **Conflitos:** Pode conflitar com segurança em operações críticas |
 | **História:** 2025 |
 
@@ -186,7 +186,7 @@ Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
 | **Origem do Requisito:** Documentação oficial |
 | **Critério de Aceitação:** Auditoria confirma aderência legal. |
 | **Dependências:** Implementação de políticas de privacidade |
-| **Prioridade:** Crítica |
+| **Prioridade:**  |
 | **Conflitos:** Pode impactar desempenho |
 | **História:** 2025 |
 
@@ -205,7 +205,7 @@ Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
 | **Origem do Requisito:** Three Level Scale |
 | **Critério de Aceitação:** 100% das autorizações processadas no prazo. |
 | **Dependências:** Processos internos otimizados |
-| **Prioridade:** Média |
+| **Prioridade:**  |
 | **Conflitos:** Nenhum |
 | **História:** 2025 |
 
@@ -224,7 +224,7 @@ Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
 | **Origem do Requisito:** Introspecção |
 | **Critério de Aceitação:** Testes com leitores de tela aprovados. |
 | **Dependências:** Implementação de padrões de acessibilidade |
-| **Prioridade:** Alta |
+| **Prioridade:**  |
 | **Conflitos:** Nenhum |
 | **História:** 2025 |
 
@@ -238,11 +238,11 @@ A tabela a seguir lista os requisitos não-funcionais utilizados para a criaçã
 
 | ID    | Tema           | Descrição                                                                 | Fonte                | Critério de Aceitação                  | Implementação |
 |-------|----------------|--------------------------------------------------------------------------|----------------------|----------------------------------------|---------------|
-| RNF01 | Usabilidade    | O sistema deve ser fácil de usar para todos os perfis de usuário.         | Brainstorm, Introspecção | Usuários realizam tarefas básicas sem auxílio externo. | Não           |
-| RNF02 | Desempenho     | Tempo de resposta das ações não deve ultrapassar 2 segundos.              | Entrevista, MoSCoW   | 95% das ações respondem em até 2s.     | Não           |
-| RNF07 | Conformidade   | Garantir conformidade com a Portaria nº 127/2024 e LGPD.                 | Documentação oficial | Auditoria confirma aderência legal.    | Não           |
-| RNF08 | Desempenho     | Processar autorizações prévias em até 10 dias úteis.                     | Three Level Scale    | 100% das autorizações processadas no prazo. | Não           |
-| RNF15 | Acessibilidade | Compatibilidade com leitores de tela para pessoas com deficiência visual. | Introspecção         | Testes com leitores de tela aprovados. | Não           |
+| RNF01 | Usabilidade    | O sistema deve ser fácil de usar para todos os perfis de usuário.         | [Kaleb Macedo](https://github.com/kalebmacedo) e [Lucas Alves](https://github.com/) | Usuários realizam tarefas básicas sem auxílio externo. | Não           |
+| RNF02 | Desempenho     | Tempo de resposta das ações não deve ultrapassar 2 segundos.              | [Kaleb Macedo](https://github.com/kalebmacedo) e [Lucas Alves](https://github.com/)   | 95% das ações respondem em até 2s.     | Não           |
+| RNF07 | Conformidade   | Garantir conformidade com a Portaria nº 127/2024 e LGPD.                 | [Kaleb Macedo](https://github.com/kalebmacedo) e [Lucas Alves](https://github.com/) | Auditoria confirma aderência legal.    | Não           |
+| RNF08 | Desempenho     | Processar autorizações prévias em até 10 dias úteis.                     | [Kaleb Macedo](https://github.com/kalebmacedo) e [Lucas Alves](https://github.com/)    | 100% das autorizações processadas no prazo. | Não           |
+| RNF15 | Acessibilidade | Compatibilidade com leitores de tela para pessoas com deficiência visual. | [Kaleb Macedo](https://github.com/kalebmacedo) e [Lucas Alves](https://github.com/)        | Testes com leitores de tela aprovados. | Não           |
 
 Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
 
@@ -265,11 +265,6 @@ Fonte: [docs/elicitacao/elicitacao.md](../../elicitacao/elicitacao.md)
 - **Conformidade legal**
   - Refinado em: LGPD, Portaria 127/2024
 
-*(Inclua aqui uma imagem do SIG, por exemplo, exportada do draw.io e salva em assets/nfr/sig.png)*
-
-<p align="center">
-  <img src="..\..\..\assets\nfr\sig.png" alt="Gráfico SIG" width="600">
-</p>
 
 ### Exemplo de Avaliação
 
@@ -292,6 +287,9 @@ CHUNG, L.; NIXON, B. A.; YU, E.; MYLOPOULOS, J. Non-functional requirements in s
 
 
 
- Autor(es)                         | Revisor(es)          |
+| Versão | Data          | Descrição                          | Autor(es)     |  Revisor(es)  |
 |--------|------------|-------------------------------------------|-----------------------------------|----------------------|
-| `1.0`  | 01/06/2025 | Dstruturação do documento inicial, adicionando introdução, metodologia, as explicações sobre o sig, decomposição, contribuição, procedimento de avaliação e refenrencias.      | [Lucas Alves](https://github.com/)  | [Kaleb Macedo](https://github.com/kalebmacedo) |
+| `1.0`  | 01/06/2025 | Estruturação do documento inicial, adicionando introdução, metodologia, as explicações sobre o sig, decomposição, contribuição, procedimento de avaliação e refenrencias.      | [Lucas Alves](https://github.com/)  | [Kaleb Macedo](https://github.com/kalebmacedo) |
+| `1.1`  | 01/06/2025 | Arrumando questões de imagem, fonte e prioridade.      | [Lucas Alves](https://github.com/)  | [Kaleb Macedo](https://github.com/kalebmacedo) |
+
+
