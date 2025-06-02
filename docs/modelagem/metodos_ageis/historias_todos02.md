@@ -56,7 +56,7 @@ Na tabela 1, estão listados todos os integrantes da equipe que participaram da 
 
 ---
 
-### USuários Reais Envolvidos
+### Usuários Reais Envolvidos
 
 A tabela 2 apresenta a informação do usuário real que participou da etapa de histórias de Usuários. Nela, constam o nome do usuário e detalhes sobre a gravação da entrevista, incluindo o link para a autorização de gravação e a gravação da entrevista, postada no YouTube de forma não listada.
 
@@ -236,14 +236,14 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 
 <p align="center">Tabela 8 - US06</p>
 
-| Campo                      | Descrição                                                                                                                                                                                                                                               |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**                     | <a id="US06">US06</a>                                                                                                                                                                                                                                   |
-| **Título**                 | Receber Recomendações de Especialidade via Chatbot                                                                                                                                                                                                      |
-| **História**               | Como um usuário do GDF Saúde,<br>Eu quero ser direcionado à especialidade médica correta por um chatbot,<br>Para que eu identifique rapidamente o profissional adequado ao meu sintoma.                                                                 |
-| **Critérios de Aceitação** | <br>- Dado que o usuário inicia o chatbot,<br>- Quando ele descreve seus sintomas,<br>- Então o sistema deve recomendar uma especialidade médica com pelo menos 80% de precisão.                                                                        |
-| **Rastreabilidade**        | <a href="../../../elicitacao/requisitos_finais#RF21.1">RF21.1</a>                                                                                                                         |
-| **Épico Relacionado**      | <a href="../backlog#EP02">EP02</a>                                                                                                                                                        |
+| Campo                      | Descrição                                                                                                                                                                               |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ID**                     | <a id="US06">US06</a>                                                                                                                                                                   |
+| **Título**                 | Receber Recomendações de Especialidade via Chatbot                                                                                                                                      |
+| **História**               | Como um usuário do GDF Saúde,<br>Eu quero ser direcionado à especialidade médica correta por um chatbot,<br>Para que eu identifique rapidamente o profissional adequado ao meu sintoma. |
+| **Critérios de Aceitação** | <br>- Dado que o usuário inicia o chatbot,<br>- Quando ele descreve seus sintomas,<br>- Então o sistema deve recomendar uma especialidade médica com pelo menos 80% de precisão.        |
+| **Rastreabilidade**        | <a href="../../../elicitacao/requisitos_finais#RF21.1">RF21.1</a>                                                                                                                       |
+| **Épico Relacionado**      | <a href="../backlog#EP02">EP02</a>                                                                                                                                                      |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
@@ -615,7 +615,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **História**               | Como um beneficiário do GDF Saúde,<br>Eu quero denunciar condutas inadequadas de profissionais credenciados,<br>Para que a operadora possa tomar as devidas providências.                             |
 | **Critérios de Aceitação** | - Dado que estou insatisfeito com o atendimento de um profissional,<br>- Quando acesso o canal de denúncias e preencho as informações,<br>- Então o sistema deve registrar e encaminhar para análise. |
 | **Rastreabilidade**        |                                                                                                                                                                                                       |
-| **Épico Relacionado** | <a href="../backlog#EP14">EP14</a> |
+| **Épico Relacionado**      | <a href="../backlog#EP14">EP14</a>                                                                                                                                                                    |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
@@ -632,7 +632,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **História**               | Como um usuário do GDF Saúde,<br>Eu quero visualizar meu histórico de consultas realizadas,<br>Para que eu possa me lembrar das datas e dos profissionais que visitei para meu próprio controle e para agendar retornos.                                                                                                                                                                         |
 | **Critérios de Aceitação** | **Cenário 01: Visualizar a lista de consultas**<br>- Dado que o usuário está logado em sua conta,<br>- Quando ele acessa a seção de "Histórico de Consultas",<br>- Então o sistema deve exibir uma lista de todas as suas consultas passadas, ordenadas da mais recente para a mais antiga.<br>- E cada item da lista deve mostrar a data, o nome do profissional e a especialidade da consulta. |
 | **Rastreabilidade**        | [RF09.1](../../elicitacao/requisitos_finais.md#RF09.1)                                                                                                                                                                                                                                                                                                                                           |
-| **Épico Relacionado** | <a href="../backlog#EP04">EP04</a> |
+| **Épico Relacionado**      | <a href="../backlog#EP04">EP04</a>                                                                                                                                                                                                                                                                                                                                                               |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
 
@@ -649,7 +649,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **História**               | Como um usuário do GDF Saúde,<br>Eu quero ver um histórico de todos os exames que já realizei,<br>Para que eu possa manter um registro dos exames diagnósticos que fiz e quando foram realizados, especialmente para acompanhamento médico de longo prazo.                                                                     |
 | **Critérios de Aceitação** | **Cenário 01: Visualizar a lista de exames**<br>- Dado que o usuário está logado em sua conta,<br>- Quando ele acessa a seção de "Histórico de Exames",<br>- Então o sistema deve exibir uma lista com todos os seus exames realizados.<br>- E cada item da lista deve detalhar o nome do exame e a data em que foi realizado. |
 | **Rastreabilidade**        | [RF09.2](../../elicitacao/requisitos_finais.md#RF09.2)                                                                                                                                                                                                                                                                         |
-| **Épico Relacionado** | <a href="../backlog#EP04">EP04</a> |
+| **Épico Relacionado**      | <a href="../backlog#EP04">EP04</a>                                                                                                                                                                                                                                                                                             |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
 
@@ -666,7 +666,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **História**               | Como um usuário do GDF Saúde,<br>Eu quero poder visualizar os resultados dos meus exames laboratoriais diretamente no sistema,<br>Para que eu possa entender minha condição de saúde atual e compartilhar os resultados facilmente com meus médicos.                                                                                                                                                                   |
 | **Critérios de Aceitação** | **Cenário 01: Acessar um resultado de exame**<br>- Dado que o usuário está no "Histórico de Exames",<br>- Quando ele localiza um exame laboratorial que possui um resultado disponível,<br>- Então deve haver um botão ou link claramente identificado como "Ver Resultado" ou similar.<br>- E ao clicar, o sistema deve exibir o resultado, seja em uma nova página ou permitindo o download de um arquivo (ex: PDF). |
 | **Rastreabilidade**        | [RF09.3](../../elicitacao/requisitos_finais.md#RF09.3)                                                                                                                                                                                                                                                                                                                                                                 |
-| **Épico Relacionado** | <a href="../backlog#EP04">EP04</a> |
+| **Épico Relacionado**      | <a href="../backlog#EP04">EP04</a>                                                                                                                                                                                                                                                                                                                                                                                     |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
 
@@ -683,7 +683,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **História**               | Como um usuário do GDF Saúde,<br>Eu quero acessar meu histórico detalhado de cobranças de coparticipação,<br>Para que eu possa controlar meus gastos com o GDF Saúde e verificar se todas as cobranças estão corretas.                                                                                                              |
 | **Critérios de Aceitação** | - Dado que o usuário está logado em sua conta,<br>- Quando ele acessa a seção "Histórico de Coparticipações" ou "Financeiro",<br>- Então o sistema deve exibir uma lista de todas as suas cobranças de coparticipação.<br>- E cada item na lista deve especificar o serviço ao qual a cobrança se refere, a data e o valor cobrado. |
 | **Rastreabilidade**        | [RF09.4](../../elicitacao/requisitos_finais.md#RF09.4)                                                                                                                                                                                                                                                                              |
-| **Épico Relacionado** | <a href="../backlog#EP05">EP05</a> |
+| **Épico Relacionado**      | <a href="../backlog#EP05">EP05</a>                                                                                                                                                                                                                                                                                                  |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
 
@@ -700,7 +700,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **História**               | Como um usuário que busca agendamento,<br>Eu quero salvar ou "favoritar" horários de consulta que são mais convenientes para mim,<br>Para que eu possa agilizar o processo de marcação no futuro e ter acesso rápido às minhas preferências.                                                           |
 | **Critérios de Aceitação** | - Dado que o usuário está visualizando a agenda de um profissional,<br>- Quando ele encontra um horário de sua preferência,<br>- Então deve existir um ícone (como uma estrela) ou botão que permita marcar aquele horário como favorito.<br>- E o sistema deve confirmar que a preferência foi salva. |
 | **Rastreabilidade**        | [RF10](../../elicitacao/elicitacao.md#RF10)                                                                                                                                                                                                                                                            |
-| **Épico Relacionado** | <a href="../backlog#EP06">EP06</a> |
+| **Épico Relacionado**      | <a href="../backlog#EP06">EP06</a>                                                                                                                                                                                                                                                                     |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
 
@@ -717,7 +717,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **História**               | Como um usuário do GDF Saúde,<br>Eu quero iniciar uma solicitação de reembolso para uma cobrança de coparticipação que considero incorreta,<br>Para que eu possa corrigir o erro financeiro e reaver o valor que foi pago indevidamente.                                                                                                                                                                                                                                               |
 | **Critérios de Aceitação** | - Dado que o usuário está visualizando seu histórico de coparticipações,<br>- Quando ele identifica uma cobrança indevida e clica na opção "Contestar" ou "Solicitar Reembolso",<br>- Então o sistema deve abrir um formulário para a solicitação.<br>- E o formulário deve permitir que o usuário escreva uma justificativa e anexe documentos, se necessário.<br>- E após o envio, o sistema deve exibir uma mensagem de confirmação com um número de protocolo para acompanhamento. |
 | **Rastreabilidade**        | [RF20](../../elicitacao/elicitacao.md#RF20)                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **Épico Relacionado** | <a href="../backlog#EP05">EP05</a> |
+| **Épico Relacionado**      | <a href="../backlog#EP05">EP05</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
 
@@ -734,7 +734,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | História               | Como um usuário do aplicativo,<br>Eu quero ver uma seção chamada "Novidades" no menu principal,<br>Para que eu possa acessar facilmente as novas funções.              |
 | Critérios de Aceitação | <br>- Dado que o usuário acessa o menu principal,<br>- Quando o sistema estiver atualizado com essa funcionalidade,<br>- Então a opção "Novidades" deve estar visível. |
 | Rastreabilidade        | RF12.1                                                                                                                                                                 |
-| **Épico Relacionado** | <a href="../backlog#EP15">EP15</a> |
+| **Épico Relacionado**  | <a href="../backlog#EP15">EP15</a>                                                                                                                                     |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB"> Othavio Araujo Bolzan</a></p>
 
@@ -751,7 +751,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | História               | Como um usuário do aplicativo,<br>Eu quero ver uma lista com o título, descrição e data de lançamento das funcionalidades,<br>Para entender o que foi adicionado recentemente. |
 | Critérios de Aceitação | <br>- Dado que o usuário acessou a seção "Novidades",<br>- Quando houver funcionalidades disponíveis,<br>- Então o sistema deve exibir uma lista com título, descrição e data. |
 | Rastreabilidade        | RF12.2                                                                                                                                                                         |
-| **Épico Relacionado** | <a href="../backlog#EP15">EP15</a> |
+| **Épico Relacionado**  | <a href="../backlog#EP15">EP15</a>                                                                                                                                             |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB"> Othavio Araujo Bolzan</a></p>
 
@@ -768,7 +768,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | História               | Como um usuário do aplicativo,<br>Eu quero ver um marcador "Novo" em funcionalidades recém-lançadas,<br>Para identificar rapidamente o que acabou de ser adicionado.                 |
 | Critérios de Aceitação | <br>- Dado que uma funcionalidade foi lançada,<br>- Quando ela estiver dentro do período configurado (ex: 7 dias),<br>- Então o sistema deve exibir um marcador "Novo" ao lado dela. |
 | Rastreabilidade        | RF12.3                                                                                                                                                                               |
-| **Épico Relacionado** | <a href="../backlog#EP15">EP15</a> |
+| **Épico Relacionado**  | <a href="../backlog#EP15">EP15</a>                                                                                                                                                   |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB"> Othavio Araujo Bolzan</a></p>
 
@@ -785,7 +785,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | História               | Como um usuário do aplicativo,<br>Eu quero receber notificações push quando uma nova funcionalidade for lançada,<br>Para me manter informado das novidades sem precisar abrir o app. |
 | Critérios de Aceitação | <br>- Dado que uma nova funcionalidade foi lançada,<br>- Quando as notificações estiverem ativadas,<br>- Então o sistema deve enviar uma notificação push ao usuário.                |
 | **Rastreabilidade**    | RF12.4                                                                                                                                                                               |
-| **Épico Relacionado** | <a href="../backlog#EP15">EP15</a> |
+| **Épico Relacionado**  | <a href="../backlog#EP15">EP15</a>                                                                                                                                                   |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB"> Othavio Araujo Bolzan</a></p>
 
@@ -802,7 +802,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | História               | Como um usuário do aplicativo,<br>Eu quero tocar em uma funcionalidade da lista de novidades,<br>Para visualizar uma descrição detalhada, imagens ou vídeos demonstrativos dessa funcionalidade.          |
 | Critérios de Aceitação | <br>- Dado que o usuário acessou a seção "Novidades",<br>- Quando ele tocar em um item da lista,<br>- Então o sistema deve exibir uma tela com descrição completa, imagens e/oú vídeos da funcionalidade. |
 | **Rastreabilidade**    | RF12.5                                                                                                                                                                                                    |
-| **Épico Relacionado** | <a href="../backlog#EP15">EP15</a> |
+| **Épico Relacionado**  | <a href="../backlog#EP15">EP15</a>                                                                                                                                                                        |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB"> Othavio Araujo Bolzan</a></p>
 
@@ -819,7 +819,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | História               | Como um usuário do aplicativo,<br>Eu quero poder ordenar a lista de novidades por "mais recente" ou "mais antigo",<br>Para encontrar facilmente funcionalidades conforme a data.           |
 | Critérios de Aceitação | <br>- Dado que o usuário está visualizando a lista de novidades,<br>- Quando ele selecionar a opção de ordenação desejada,<br>- Então o sistema deve reordenar a lista conforme a escolha. |
 | **Rastreabilidade**    | RF12.6                                                                                                                                                                                     |
-| **Épico Relacionado** | <a href="../backlog#EP15">EP15</a> |
+| **Épico Relacionado**  | <a href="../backlog#EP15">EP15</a>                                                                                                                                                         |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB"> Othavio Araujo Bolzan</a></p>
 
@@ -835,8 +835,8 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Título**                 | Acessar Carteirinha Digital no Modo Offline                                                                                                                                                                                                                                                                                            |
 | **História**               | Como um usuário do GDF Saúde,<br>Eu quero poder acessar minha carteirinha digital mesmo quando estiver sem conexão à internet,<br>Para que eu consiga utilizá-la rapidamente em locais sem rede ou com instabilidade.                                                                                                                  |
 | **Critérios de Aceitação** | - Dado que o usuário tenha feito login previamente e baixado sua carteirinha digital ao menos uma vez,<br>- Quando ele estiver sem conexão com a internet ou sem acesso ao aplicativo e precisar abrir a carteirinha,<br>- Então ele pode abrir na sua galeria de fotos do celular/tablet e acessar a carteirinha previamente baixada. |
-| **Rastreabilidade**        | <a href="../../../elicitacao/requisitos_finais#RF03.2">RF03<                                                                                                                                     |
-| **Épico Relacionado** | <a href="../backlog#EP16">EP16</a> |
+| **Rastreabilidade**        | <a href="../../../elicitacao/requisitos_finais#RF03.2">RF03<                                                                                                                                                                                                                                                                           |
+| **Épico Relacionado**      | <a href="../backlog#EP16">EP16</a>                                                                                                                                                                                                                                                                                                     |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/redjsun"> Yzabella Miranda</a></p>
 
@@ -852,8 +852,8 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Título**                 | Adicionar Consulta à Rede Odontológica                                                                                                                                                                                                                                                                                                                              |
 | **História**               | Como um usuário do GDF Saúde,<br>Eu quero poder pesquisar por dentistas e clínicas odontológicas na rede credenciada,<br>Para que eu encontre facilmente um atendimento odontológico quando precisar.                                                                                                                                                               |
 | **Critérios de Aceitação** | - Dado que o usuário esteja logado no aplicativo,<br>- Quando ele acessar a seção de busca por profissionais/especialidades,<br>- Então ele deve ter a opção de filtrar ou pesquisar por "Odontologia" ou "Dentista",<br>- E o sistema deve exibir uma lista de profissionais e clínicas odontológicas credenciadas, com informações como nome, endereço e contato. |
-| **Rastreabilidade**        | <a href="../../../elicitacao/requisitos_finais#RF13">RF13                                                           <                                                                                                                                                                                                                                                                                                     |
-| **Épico Relacionado** | <a href="../backlog#EP17">EP17</a> |
+| **Rastreabilidade**        | <a href="../../../elicitacao/requisitos_finais#RF13">RF13 <                                                                                                                                                                                                                                                                                                         |
+| **Épico Relacionado**      | <a href="../backlog#EP17">EP17</a>                                                                                                                                                                                                                                                                                                                                  |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/redjsun"> Yzabella Miranda</a></p>
 
@@ -869,8 +869,8 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Título**                 | Visualizar Novas Clínicas Próximas por Localização                                                                                                                                                                                                                                                                                                                       |
 | **História**               | Como um usuário do GDF Saúde,<br>Eu quero que o aplicativo me apresente novas clínicas próximas com base na minha localização atual,<br>Para que eu possa descobrir e acessar serviços de saúde mais convenientes e recém-adicionados à rede.                                                                                                                            |
 | **Critérios de Aceitação** | - Dado que o usuário tenha permitido o acesso à sua localização no aplicativo,<br>- Quando ele estiver navegando na seção de busca por clínicas ou na tela inicial,<br>- Então o sistema deve identificar e destacar novas clínicas credenciadas que estejam próximas da sua localização,<br>- E deve fornecer detalhes como nome, especialidades, endereço e distância. |
-| **Rastreabilidade**        | <a href="../../../elicitacao/requisitos_finais#RF14.1">RF14.1<                                                                                                                                                                                                                                                                                                                                                                   |
-| **Épico Relacionado** | <a href="../backlog#EP17">EP17</a> |
+| **Rastreabilidade**        | <a href="../../../elicitacao/requisitos_finais#RF14.1">RF14.1<                                                                                                                                                                                                                                                                                                           |
+| **Épico Relacionado**      | <a href="../backlog#EP17">EP17</a>                                                                                                                                                                                                                                                                                                                                       |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/redjsun"> Yzabella Miranda</a></p>
 
@@ -886,8 +886,8 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Título**                 | Visualizar Clínicas Próximas por Localização                                                                                                                                                                                                                                                                                                            |
 | **História**               | Como um usuário do GDF Saúde,<br>Eu quero que o aplicativo me apresente clínicas próximas com base na minha localização atual,<br>Para que eu possa encontrar facilmente locais de atendimento de saúde convenientes.                                                                                                                                   |
 | **Critérios de Aceitação** | - Dado que o usuário tenha permitido o acesso à sua localização no aplicativo,<br>- Quando ele estiver navegando na seção de busca por clínicas ou na tela inicial,<br>- Então o sistema deve identificar clínicas credenciadas que estejam próximas da sua localização,<br>- E deve fornecer detalhes como nome, especialidades, endereço e distância. |
-| **Rastreabilidade**        | <a href="../../../elicitacao/requisitos_finais#RF14.2">RF14.2<                                                                                                                                                                                                                                                                                                                                                 |
-| **Épico Relacionado** | <a href="../backlog#EP17">EP17</a> |
+| **Rastreabilidade**        | <a href="../../../elicitacao/requisitos_finais#RF14.2">RF14.2<                                                                                                                                                                                                                                                                                          |
+| **Épico Relacionado**      | <a href="../backlog#EP17">EP17</a>                                                                                                                                                                                                                                                                                                                      |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/redjsun"> Yzabella Miranda</a></p>
 
@@ -903,8 +903,8 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Título**                 | Baixar Comprovantes de Agendamento                                                                                                                                                                                                                                                                                                 |
 | **História**               | Como um usuário do GDF Saúde,<br>Eu quero poder baixar os comprovantes dos meus agendamentos (consultas, exames),<br>Para que eu tenha um registro oficial e possa apresentá-lo se for necessário (na clínica ou para controle pessoal).                                                                                           |
 | **Critérios de Aceitação** | - Dado que o usuário tenha um agendamento confirmado no aplicativo,<br>- Quando ele visualizar os detalhes de um agendamento específico,<br>- Então deve existir um botão ou opção clara para "Baixar Comprovante",<br>- E o aplicativo deve gerar e salvar o comprovante em um formato comum (ex: PDF) no dispositivo do usuário. |
-| **Rastreabilidade**        | <a href="../../../elicitacao/requisitos_finais#RF15.2">RF15<                                                                                                                                                                                                                                                                                                                               |
-| **Épico Relacionado** | <a href="../backlog#EP18">EP18</a> |
+| **Rastreabilidade**        | <a href="../../../elicitacao/requisitos_finais#RF15.2">RF15<                                                                                                                                                                                                                                                                       |
+| **Épico Relacionado**      | <a href="../backlog#EP18">EP18</a>                                                                                                                                                                                                                                                                                                 |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/redjsun"> Yzabella Miranda</a></p>
 
@@ -921,7 +921,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **História**               | Como um usuário do aplicativo do GDF Saúde,<br>Eu quero poder fazer login usando minha biometria facial ou digital,<br>Para que eu acesse minha conta de forma mais rápida, segura e conveniente, sem precisar digitar minha senha toda vez.                                                                                                                                                              |
 | **Critérios de Aceitação** | - Dado que o dispositivo do usuário suporte biometria (facial ou digital) e a opção esteja ativada nas configurações do aplicativo,<br>- Quando o usuário abrir o aplicativo e for para a tela de login,<br>- Então ele deve ter a opção de usar a biometria cadastrada no dispositivo,<br>- E o aplicativo deve autenticá-lo e permitir o acesso à sua conta se a biometria for reconhecida com sucesso. |
 | **Rastreabilidade**        | RF19                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Épico Relacionado** | <a href="../backlog#EP19">EP19</a> |
+| **Épico Relacionado**      | <a href="../backlog#EP19">EP19</a>                                                                                                                                                                                                                                                                                                                                                                        |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/redjsun"> Yzabella Miranda</a></p>
 
