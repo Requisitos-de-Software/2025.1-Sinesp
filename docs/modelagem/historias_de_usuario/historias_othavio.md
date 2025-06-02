@@ -83,6 +83,8 @@
 
 ---
 
+<<<<<<< HEAD
+=======
 # US07 – Deve funcionar de forma offline para acesso à carteirinha e histórico de consultas
 | Campo                   | Descrição                                                                                                                                                                                                 |
 | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -94,3 +96,4 @@
 | Épico Relacionado |   |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB"> Othavio Araujo Bolzan</a></p>
+>>>>>>> b38cdaaaa3f930bbcb98d968e2acce92b1125d46
