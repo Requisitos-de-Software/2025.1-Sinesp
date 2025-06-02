@@ -170,6 +170,12 @@ Esse processo garantiu uma priorização mais realista e alinhada às necessidad
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UHXRdexWlT8?si=EHsJUQJL6nFke5lE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+### Gravações dos Integrantes Kaleb Macedo e Lucas Alves 
+
+1. Gravação da priorização e validação do épicos:
+
+<iframe width="560" height="315" src="https://youtube.com/embed/zOI12dxuxWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Backlog
 
 ### Backlog do Produto
