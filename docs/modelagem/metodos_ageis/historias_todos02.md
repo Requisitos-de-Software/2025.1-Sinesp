@@ -69,8 +69,8 @@ A tabela 2 apresenta a informação do usuário real que participou da etapa de 
                 <th>Nome</th>
                 <th>Data</th>
                 <th>Hora</th>
-                <th>Local</th>
                 <th>Duração da etapa</th>
+                <th>Local</th>
                 <th>Autorização da gravação</th>
             </tr>
         </thead>
