@@ -109,7 +109,7 @@ Na Tabela 2 contêm as informações do usuário participante:
                 <td>10:00</td>
                 <td>3 minutos</td>
                 <td>Presencial</td>
-                <td><a href="https://youtu.be/UHXRdexWlT8?si=nb0JwYjx70t1-nuS">Link para a gravação</a></td>
+                <td><a href="https://drive.google.com/file/d/1Mxk27eO6AuQpH50zMhQow98MOA-voBDl/view?usp=sharing">Ver Termo de Consentimento (PDF)</a></td>
             </tr>
         </tbody>
     </table>

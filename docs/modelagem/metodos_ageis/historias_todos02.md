@@ -105,7 +105,7 @@ A tabela 2 apresenta a informação do usuário real que participou da etapa de 
                 <td>10:00</td>
                 <td>6 minutos</td>
                 <td>Presencial</td>
-                <td><a href="https://youtu.be/NzopLcEFwqo?si=YiSxvB_HlUUPp8wk">Link para a gravação</a></td>
+                <td><a href="https://drive.google.com/file/d/1Mxk27eO6AuQpH50zMhQow98MOA-voBDl/view?usp=sharing">Ver Termo de Consentimento (PDF)</a></td>
             </tr>
         </tbody>
     </table>
