@@ -1,8 +1,11 @@
 # Backward-From
 
-Conforme define Sommerville (1998), a rastreabilidade backward-from, ou para trás, é o processo que permite descobrir a origem e a justificativa de um requisito, respondendo à pergunta fundamental: "Por que ele é necessário?".
-Este documento, seguindo o modelo de rastreabilidade para trás (backward-from) adaptado de Sayão e Leite, apresenta formalmente esses elos para o projeto GDF Saúde. Cada item do artefato "Requisitos Finais" é mapeado de volta às suas fontes entre as diversas técnicas de elicitação aplicadas.
-Esse mapeamento garante que as funcionalidades sejam validadas e alinhadas às necessidades dos usuários e às regras de negócio, além de facilitar a análise de impacto em futuras mudanças, um dos benefícios centrais da rastreabilidade.
+## Introdução
+
+A rastreabilidade de requisitos é uma disciplina fundamental para o sucesso de projetos de software, garantindo que cada funcionalidade desenvolvida tenha uma origem e um propósito claros. Neste contexto, a abordagem de rastreabilidade `backward-from` (para trás) é particularmente importante, pois conecta cada requisito final à sua fonte, respondendo à pergunta essencial: "Por que este requisito existe?".
+
+Para aplicar este conceito de forma sistemática no projeto GDF Saúde, é necessário adotar um framework metodológico robusto. A metodologia a seguir detalha o modelo escolhido para estruturar e gerenciar essas conexões de rastreabilidade, utilizando como base os conceitos apresentados em aula e outras referências de mercado.
+
 
 ## Tabela de Integrantes
 
@@ -21,6 +24,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram no refinamen
         <tbody>
             <tr>
                 <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+                <td>Adicionou o Backward From (<a href="#BF01">BF01</a> a <a href="#BF07">BF07</a>, <a href="#BF55">BF55</a> e <a href="#BF56">BF56</a>) e os elos correspondentes. Além disso criou a metodologia e organizou as referências.</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
@@ -37,7 +41,8 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram no refinamen
                 <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>  
             </tr>
             <tr>
-                <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>   
+                <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td> 
+                <td> Adicionou o Backward From (<a href="#BF35">BF35</a> a <a href="#BF41">BF41</a>, <a href="#BF64">BF64</a> e <a href="#BF65">BF65</a>) e os elos correspondentes.</td>  
             </tr>
             <tr>
                 <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
@@ -48,8 +53,21 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram no refinamen
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Isaque Camargos</a>, <a  href="https://github.com/isaqzin">Yzabella Miranda</a>, <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a>, <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
+## Metodologia
 
-### Legenda das Tabelas:
+A abordagem metodológica para esta análise baseia-se no **Meta-modelo de Toranzo**, conforme detalhado no material de referência da disciplina ([slides da Aula 26](../assets/aula26-milene-modelagem.pdf)). Este modelo organiza as informações rastreáveis em níveis e define os tipos de elos (vínculos) que descrevem as relações entre os artefatos.
+
+#### Níveis de Informação
+O modelo de Toranzo classifica as informações em quatro níveis principais: Ambiental, Organizacional, Gerencial e de Desenvolvimento, conforme apresentado nos [na página 19 dos slides 26](../assets/aula26-milene-modelagem.pdf#page=19). Neste documento, o foco está no nível de **Desenvolvimento**, conectando os requisitos finais às suas fontes de elicitação.
+
+#### Elos de Rastreabilidade
+Para descrever as conexões, utilizamos os principais elos de rastreabilidade propostos por Toranzo: Satisfação, Recurso, Responsabilidade, Representação, Alocado e Agregação, definidos nos [na página 21 dos slides 26](../assets/aula26-milene-modelagem.pdf#page=21).
+
+A aplicação prática desta metodologia se dará por meio de uma tabela que mapeia cada requisito à sua fonte de elicitação, especificando o tipo de elo que descreve essa relação.
+
+## Backward-From
+
+Serão utilizados as seguintes legendas das tabelas:
 
 - RFx: Requisito Funcional número x;
 - RNFx: Requisito Não Funcional número x;
@@ -59,7 +77,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram no refinamen
 - ISx: Requisito da Introspecção número x;
 - GFx: Requisito do Grupo de Foco número x;
 - BSx: Requisto do Brainstorm número x;
-- ELOx: Eelo número x;
+- ELBFx: Elo do Backward-From número x;
 - BFx: Backward from número x;
 
 ### Requisitos Funcionais 
@@ -156,7 +174,7 @@ Na tabela 3 encontra-se a rastreabilidade Backward from dos requisitos não func
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
 
-#### Elos de Rastreabilidade
+### Elos de Rastreabilidade
 
 A tabela 4 detalha os vínculos para os requisitos funcionais selecionados. A descrição de cada elo agora inclui sua rastreabilidade para a fonte de elicitação (ex: [EN01](../elicitacao/tecnicas/entrevista.md#EN01), [GF01](../elicitacao/tecnicas/grupo_focal.md#GF01)), estabelecendo o vínculo *backward-from*, e também sua relação com outros requisitos do sistema.
 
@@ -201,7 +219,9 @@ A tabela 4 detalha os vínculos para os requisitos funcionais selecionados. A de
 | <a id="ELOBF65"></a>ELOBF65 | <a href="#BF65">BF65</a> | Satisfação | Este elo de **Satisfação** estabelece que o sistema de notificações (que inclui requisitos como o [RF04.6](../elicitacao/requisitos_finais.md#RF04.6)) deve satisfazer esta regra de negócio ([RNF11](../elicitacao/requisitos_finais.md#RNF11)) sobre a retenção de dados, conforme solicitado no Grupo Focal ([GF16](../elicitacao/tecnicas/grupo_focal.md#GF16)). |
 | <a id="ELOBF68"></a>ELOBF68 | <a href="#BF68">BF68</a> | Representação | Este elo representa a restrição de que o layout deve ser consistente com o portal oficial ([RNF14](../elicitacao/requisitos_finais.md#RNF14)), um requisito de usabilidade identificado no Questionário ([QT16](../elicitacao/tecnicas/questionario.md#QT16)). |
 
-### Tipos de Elos Utilizados
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Yzabella Miranda</a> e <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+#### Tipos de Elos Utilizados
 
 <a id="representacao"></a>**Representação**
 Conecta a origem de um requisito (sua fonte na elicitação) à sua manifestação específica no sistema, ou como ele se relaciona a outro requisito como um de seus componentes.
@@ -213,12 +233,17 @@ Conecta dois ou mais requisitos que, juntos, formam uma funcionalidade maior e m
 Conecta um requisito a um dado, serviço ou outra funcionalidade da qual ele depende para operar. Descreve uma relação de dependência "precisa-de".
 
 <a id="satisfacao"></a>**Satisfação**
-Conecta um requisito de origem (ex: uma funcionalidade) a um requisito de destino (ex: uma restrição não funcional). [cite_start]Indica que a implementação da origem deve cumprir ou atender às condições impostas pelo destino.
+Conecta um requisito de origem (ex: uma funcionalidade) a um requisito de destino (ex: uma restrição não funcional). Indica que a implementação da origem deve cumprir ou atender às condições impostas pelo destino.
 
+## Referência Bibliográficas
+
+SERRANO, Milene; SERRANO, Maurício. **Slides da Aula 26 - Requisitos de Software**. Disponível [aqui](../assets/aula26-milene-modelagem.pdf). Acesso em: 08 jun. 2025.
 
 
 ## Histórico de Versão
 
-| Versão | Data          | Descrição                          | Autor(es)     |  Revisor(es)  |
-| ------ | ------------- | ---------------------------------- | ------------- | ------------- |
-| `1.0`  |  08/06/2025 |  Iniciou o documento colocando a tabela com todos os requisitos e fez o backward from <a href="#BF15">BF15</a> a <a href="#BF21">BF21</a>, <a href="#BF58">BF58</a> e <a href="#BF59">BF59</a> e os elos de mesmo intervalo, <a href="#ELO15">ELO15</a> a <a href="#ELO21">ELO21</a>, <a href="#ELO58">ELO58</a> e <a href="#ELO59">ELO59</a> | [Isaque Camargos](https://github.com/isaqzin)  | [Ana Luiza](https://github.com/Ana-Luiza-SC) |
+| Versão | Data | Descrição | Autor(es) | Revisor(es) |
+| :--- | :--- | :--- | :--- | :--- |
+| `1.0` | 08/06/2025 | Iniciou o documento colocando a tabela com todos os requisitos e fez o backward from <a href="#BF15">BF15</a> a <a href="#BF21">BF21</a>, <a href="#BF58">BF58</a> e <a href="#BF59">BF59</a> e os elos de mesmo intervalo, <a href="#ELO15">ELO15</a> a <a href="#ELO21">ELO21</a>, <a href="#ELO58">ELO58</a> e <a href="#ELO59">ELO59</a> | [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+| `1.2` | 08/06/2025 | Adicionou o Backward From (<a href="#BF01">BF01</a> a <a href="#BF07">BF07</a>, <a href="#BF55">BF55</a> e <a href="#BF56">BF56</a>) e os elos correspondentes. Além disso criou a metodologia e organizou as referências. | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Yzabella Miranda](https://github.com/redjsun) |
+| `1.3` | 08/06/2025 | Adicionou o Backward From (<a href="#BF35">BF35</a> a <a href="#BF41">BF41</a>, <a href="#BF64">BF64</a> e <a href="#BF65">BF65</a>) e os elos correspondentes. | [Yzabella Miranda](https://github.com/redjsun) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
