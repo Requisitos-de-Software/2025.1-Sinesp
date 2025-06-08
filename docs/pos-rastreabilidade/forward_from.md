@@ -1,3 +1,6 @@
+Este documento apresenta a execução da rastreabilidade forward-from no nosso projeto de estudo do aplicativo GDF Saúde, uma prática fundamental na engenharia de requisitos. A rastreabilidade forward-from estabelece ligações  entre os requisitos elicitados com os artefatos de desenho e implementação do sistema, garantindo que cada funcionalidade especificada seja devidamente desenvolvida e rastreada. Esse método contribui para o controle de qualidade e facilita a verificação do cumprimento dos requisitos 
+
+
 ## Tabela de Integrantes
 
 Na tabela 1 contêm todos os integrantes da equipe que participaram no refinamento dos requisitos e o que a pessoa desenvolveu.
