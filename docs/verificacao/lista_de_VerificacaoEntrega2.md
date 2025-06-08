@@ -13,9 +13,10 @@ A abordagem selecionada para esta verificação é uma versão adaptada da técn
 
 <p align="center">Figura 1: Etapas da Inspeção de acordo com Fagan. </p>
 <p align="center">
-  <img src="..\..\..\assets\nfr\inspencao-fagan.png" alt="Etapas da Inspeção de acordo com Fagan" width="600"/>
+  <img src="..\..\..\assets\nfr\inspecao-fagan.png" alt="Etapas da Inspeção de acordo com Fagan" width="600">
 </p>
 <p  align="center">Fonte:<a  > SOMMERVILLE</a></p>
+
 
 ## Lista de Verificação - Baseada no plano de ensino 
 

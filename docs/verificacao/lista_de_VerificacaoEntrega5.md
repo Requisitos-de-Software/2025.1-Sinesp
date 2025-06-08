@@ -1,8 +1,7 @@
-# Lista de Verificação da Entrega 4
-
+# Lista de Verificação da Entrega 5
 
 ## Introdução
-Este documento apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 4, tantos para o grupo e o grupo +1.
+Este documento apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 5, tantos para o grupo e o grupo +1.
 
 ## Objetivo
 - Fornecer critérios claros para verificação dos artefatos da Entrega 4;
@@ -15,7 +14,7 @@ A abordagem selecionada para esta verificação é uma versão adaptada da técn
 
 <p align="center">Figura 1: Etapas da Inspeção de acordo com Fagan. </p>
 <p align="center">
-  <img src="..\..\..\assets\nfr\inspencao-fagan.png" alt="Etapas da Inspeção de acordo com Fagan" width="600"/>
+  <img src="..\..\..\assets\nfr\inspecao-fagan.png" alt="Etapas da Inspeção de acordo com Fagan" width="600">
 </p>
 <p  align="center">Fonte:<a  > SOMMERVILLE</a></p>
 
