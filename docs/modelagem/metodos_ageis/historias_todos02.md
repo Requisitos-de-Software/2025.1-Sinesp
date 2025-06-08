@@ -191,7 +191,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Título**                 | Combinar Múltiplos Filtros de Pesquisa                                                                                                                                                                               |
 | **História**               | Como um usuário do GDF Saúde,<br>Eu quero combinar diferentes filtros de pesquisa,<br>Para que eu obtenha resultados mais precisos e relevantes.                                                                     |
 | **Critérios de Aceitação** | <br>- Dado que o usuário aplica múltiplos filtros (ex: região + especialidade),<br>- Quando ele executa a pesquisa,<br>- Então o sistema deve retornar resultados que satisfaçam todas as condições simultaneamente. |
-| **Rastreabilidade**        | <a href="../../../elicitacao/requisitos_finais#RF01.3">RF01.2</a>                                                                                                                                                    |
+| **Rastreabilidade**        | <a href="../../../elicitacao/requisitos_finais#RF01.3">RF01.3</a>                                                                                                                                                    |
 | **Épico Relacionado**      | <a href="../backlog#EP01">EP01</a>                                                                                                                                                                                   |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
