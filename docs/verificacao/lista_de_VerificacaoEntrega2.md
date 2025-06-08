@@ -8,6 +8,14 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 - Facilitar o processo de revisão pelos integrantes do grupo;
 - Assegurar que todos os itens exigidos estejam completos e corretos.
 
+## Metodologia
+A abordagem selecionada para esta verificação é uma versão adaptada da técnica de inspeção. Criada por Fagan na IBM em 1976, inicialmente para analisar códigos de software, essa metodologia envolve uma avaliação formal dos artefatos desenvolvidos com o objetivo de identificar possíveis falhas. A Figura 1 ilustra as fases propostas por Fagan para esse procedimento.
+
+<p align="center">
+  <img src="..\..\assets\lventrega5\inspencao-fagan.png" alt="Etapas da Inspeção de acordo com Fagan" width="600"/>
+</p>
+<p align="center"><strong>Figura 1: Etapas da Inspeção de acordo com Fagan. </strong><br><em>Fonte: SOMMERVILLE (2007).</em></p>
+
 ## Lista de Verificação - Baseada no plano de ensino 
 
 
@@ -405,6 +413,10 @@ VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: soft
 
 WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Press, 2013. ISBN 978-0-7356-7966-5. p. 321 - 322 Disponível em: [Software Requirements](https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf)  .Acesso em: 01 de maio de 2025
 
+REQUISTOS DE SOFTWARE. *Planejamento da Verificação da Etapa 1 do Grupo 2*. Disponível em: [site](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/verificacao/grupo2/entrega1/planejamento-verificacao-e1-grupo2/). Acesso em: 8 jun. 2025.
+
+SOMMERVILLE, Ian. *Engenharia de software*. 08. ed. São Paulo: Pearson Addison Wesley, 2007.
+
 ## Histórico de Versões
 
 | Versão | Data       | Descrição            | Autor(es)                                       | Revisor(es)                                 |
@@ -422,4 +434,5 @@ WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond. Microsoft Pre
 | `2.0`  | 04/05/2025 | Adicionando a tabela de verificação introspecção | [Lucas Alves](https://github.com/LucasAlves71) | [Kaleb Macedo](https://github.com/kalebmacedo) |
 | `2.1`  | 04/05/2025 | Adicionando a tabela de verificação da técnica de Three Level Scale | [Yzabella Miranda](https://github.com/redjsun) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
 | `2.2`  | 04/05/2025 | Adição da tabela de verificação do Moscow | [Kaleb Macedo](https://github.com/kalebmacedo) | [Lucas Alves](https://github.com/LucasAlves71) |
+| `2.3`  | 06/06/2025 | Adição de tópico referente a metodologia da lista de verificação junto a um link de fonte. | [Yzabella Miranda](https://github.com/redjsun) | [Isaque Camargos](https://github.com/isaqzin) |
 

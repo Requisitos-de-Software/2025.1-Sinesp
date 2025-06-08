@@ -8,6 +8,14 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 - Facilitar o processo de revisão pelos integrantes do grupo;
 - Assegurar que todos os itens exigidos estejam completos e corretos.
 
+## Metodologia
+A abordagem selecionada para esta verificação é uma versão adaptada da técnica de inspeção. Criada por Fagan na IBM em 1976, inicialmente para analisar códigos de software, essa metodologia envolve uma avaliação formal dos artefatos desenvolvidos com o objetivo de identificar possíveis falhas. A Figura 1 ilustra as fases propostas por Fagan para esse procedimento.
+
+<p align="center">
+  <img src="..\..\assets\lventrega5\inspencao-fagan.png" alt="Etapas da Inspeção de acordo com Fagan" width="600"/>
+</p>
+<p align="center"><strong>Figura 1: Etapas da Inspeção de acordo com Fagan. </strong><br><em>Fonte: SOMMERVILLE (2007).</em></p>
+
 ## Lista de Verificação - Entregas do Projeto - (Tabela 1)
 
 
@@ -142,8 +150,13 @@ Para cada item da lista, o revisor deve:
 
 ## Referências
 
-- SALES, André Barros de. [Plano de Ensino – Requisitos de Software: REE012025 – Turma 03](https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf). Brasília: Universidade de Brasília, Faculdade UnB Gama, 2025. 7 p. Acessado em: 09 de abril de 2025
-- Introducing Rich Pictures - Rich Picture Drawing Guidelines. 4 p. Disponível em: https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf. Acessado em: 09 de abril de 2025
+SALES, André Barros de. [Plano de Ensino – Requisitos de Software: REE012025 – Turma 03](https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf). Brasília: Universidade de Brasília, Faculdade UnB Gama, 2025. 7 p. Acessado em: 09 de abril de 2025
+
+Introducing Rich Pictures - Rich Picture Drawing Guidelines. 4 p. Disponível em: https://aprender3.unb.br/pluginfile.php/3096055/mod_resource/content/2/1_5145791542719414573.pdf. Acessado em: 09 de abril de 2025
+
+REQUISTOS DE SOFTWARE. *Planejamento da Verificação da Etapa 1 do Grupo 2*. Disponível em: [site](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/verificacao/grupo2/entrega1/planejamento-verificacao-e1-grupo2/). Acesso em: 8 jun. 2025.
+
+SOMMERVILLE, Ian. *Engenharia de software*. 08. ed. São Paulo: Pearson Addison Wesley, 2007.
 
 ## Histórico de Versões
 
@@ -155,4 +168,5 @@ Para cada item da lista, o revisor deve:
 | `1.3`  | 23/04/2025 | Atualização nas tabelas | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |
 | `1.4`  | 24/04/2025 | Correção das imagens das fontes | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Lucas Alves](https://github.com/LucasAlves71) |
 | `1.5`  | 03/05/2025 | Correção das imagens das fontes | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Isaque Camargos](https://github.com/isaqzin) |
+| `1.6`  | 06/06/2025 | Adição de tópico referente a metodologia da lista de verificação junto a um link de fonte. | [Yzabella Miranda](https://github.com/redjsun) | [Isaque Camargos](https://github.com/isaqzin) |
 
