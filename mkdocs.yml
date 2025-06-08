@@ -50,8 +50,11 @@ nav:
       - Rich Picture: pre-rastreabilidade/rich_picture.md
 
   - Elicitação: 
-      - Requisios Elicitados Refinados: elicitacao/requisitos_finais.md
+      - Requisios Elicitados Finais: elicitacao/requisitos_finais.md
       - Requisios Elicitados: elicitacao/elicitacao.md   
+      - Perfil de Usuário: elicitacao/perfil.md
+      - Personas: elicitacao/personas.md
+
       - Técnicas de Priorização: 
           - $100: elicitacao/priorizacao/dolares100.md
           - First Thing First: elicitacao/priorizacao/first_thing_first.md
@@ -65,8 +68,6 @@ nav:
           - Questionário: elicitacao/tecnicas/questionario.md
           - Glossário: elicitacao/tecnicas/glossario.md
           
-      - Perfil de Usuário: elicitacao/perfil.md
-      - Personas: elicitacao/personas.md
 
   - Modelagem:
       - Metodologias tradicionais: 
