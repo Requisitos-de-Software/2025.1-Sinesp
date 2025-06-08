@@ -44,7 +44,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram no refinamen
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Isaque Camargos</a>, <a  href="https://github.com/isaqzin">Yzabella Miranda</a>, <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a>, <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
 
-## Legenda das Tabelas:
+### Legenda das Tabelas:
 
 - RFx: Requisito Funcional número x;
 - RNFx: Requisito Não Funcional número x;
@@ -57,7 +57,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram no refinamen
 - ELOx: Eelo número x;
 - BFx: Backward from número x;
 
-## Requisitos Funcionais Refinados
+### Requisitos Funcionais 
 
 Na tabela 2 encontra-se a rastreabilidade Backward from dos requisitos funcionais.
 
@@ -122,7 +122,7 @@ Na tabela 2 encontra-se a rastreabilidade Backward from dos requisitos funcionai
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
-## Requisitos Não Funcionais Refinados
+### Requisitos Não Funcionais
 
 Na tabela 3 encontra-se a rastreabilidade Backward from dos requisitos não funcionais.
 
@@ -153,7 +153,9 @@ Na tabela 3 encontra-se a rastreabilidade Backward from dos requisitos não func
 
 ### Elos de Rastreabilidade
 
-A tabela abaixo detalha os vínculos para os requisitos funcionais selecionados. A descrição de cada elo agora inclui sua rastreabilidade para a fonte de elicitação (ex: [EN01](../elicitacao/tecnicas/entrevista.md#EN01), [GF01](../elicitacao/tecnicas/grupo_focal.md#GF01)), estabelecendo o vínculo *backward-from*, e também sua relação com outros requisitos do sistema.
+A tabela 4 detalha os vínculos para os requisitos funcionais selecionados. A descrição de cada elo agora inclui sua rastreabilidade para a fonte de elicitação (ex: [EN01](../elicitacao/tecnicas/entrevista.md#EN01), [GF01](../elicitacao/tecnicas/grupo_focal.md#GF01)), estabelecendo o vínculo *backward-from*, e também sua relação com outros requisitos do sistema.
+
+<p align="center">Tabela 4: Elos de Rastreabilidade</p>
 
 | ID do Elo | ID do Requisito (BF) | Tipo de elo | Descrição do elo |
 | :--- | :--- | :--- | :--- |
