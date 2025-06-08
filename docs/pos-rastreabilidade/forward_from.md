@@ -97,11 +97,11 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram no refinamen
 | <a id="FF34"></a>FF34 || <a id="RF09.2"></a>RF09.2 | Permitir ao usuário visualizar o histórico de exames realizados.|  Não              ||
 | <a id="FF35"></a>FF35 || <a id="RF09.3"></a>RF09.3 | Permitir ao usuário visualizar os resultados de seus exames laboratoriais.| Não              ||
 | <a id="FF36"></a>FF36 | [RF09](../elicitacao/elicitacao.md#RF09) | [RF09.4](../elicitacao/requisitos_finais.md#RF09.4) | Permitir ao usuário visualizar o histórico de suas coparticipações.| Não||
-| <a id="FF37"></a>FF37 || <a id="RF10"></a>RF10     | Permitir que o usuário favorite horários de consulta desejados.|  Não              ||
-| <a id="FF38"></a>FF38 || <a id="RF11"></a>RF11 | Oferecer um canal para o usuário enviar feedback sobre atendimentos.| Não              |
-| <a id="FF39"></a>FF39 || <a id="RF12.1"></a>RF12.1 | Apesentar uma seção no menu principal chamada "Novidades".| Não ||
-| <a id="FF41"></a>FF40 || <a id="RF12.2"></a>RF12.2 | Exibir uma lista com título, descrição e data de lançamento das novas funcionalidades.| Não||
-| <a id="FF42"></a>FF42 || <a id="RF12.3"></a>RF12.3 | Destacar funcionalidades novas com um marcador de "Novo" por um período configurável (ex: 7 dias).|  Não              ||
+| <a id="FF37"></a>FF37 | [RF10](../elicitacao/elicitacao.md#RF10) | [RF10](../elicitacao/requisitos_finais.md#RF10) | Permitir que o usuário favorite horários de consulta desejados.|  Não              ||
+| <a id="FF38"></a>FF38 | [RF11](../elicitacao/elicitacao.md#RF11) | [RF11](../elicitacao/requisitos_finais.md#RF11) | Oferecer um canal para o usuário enviar feedback sobre atendimentos.| Não              |
+| <a id="FF39"></a>FF39 | [RF12](../elicitacao/elicitacao.md#RF12) | [RF12.1](../elicitacao/requisitos_finais.md#RF12.1) | Apesentar uma seção no menu principal chamada "Novidades".| Não ||
+| <a id="FF41"></a>FF40 | [RF12](../elicitacao/elicitacao.md#RF12) | [RF12.2](../elicitacao/requisitos_finais.md#RF12.2) | Exibir uma lista com título, descrição e data de lançamento das novas funcionalidades.| Não||
+| <a id="FF42"></a>FF42 | [RF12](../elicitacao/elicitacao.md#RF12) | [RF12.3](../elicitacao/requisitos_finais.md#RF12.3) | Destacar funcionalidades novas com um marcador de "Novo" por um período configurável (ex: 7 dias).|  Não              ||
 | <a id="FF43"></a>FF43 || <a id="RF12.4"></a>RF12.4 |Exibir pop-ups informativos com as principais novidades após a atualização do aplicativo.|  Não||
 | <a id="FF44"></a>FF44 || <a id="12.5"></a>RF12.5 | Permitir que o usuário toque em uma funcionalidade da lista de novidades para ver uma descrição detalhada.|  Não||
 | <a id="FF45"></a>FF45 || <a id="RF12.6"></a>RF12.6 |Permitir que o usuário ordene as novidades por "mais recente" e "mais antigo" no topo da lista.| Não| |
@@ -126,23 +126,23 @@ Na tabela 3 encontra-se a rastreabilidade Forward from dos requisitos não funci
 
 |**ID**|**Requisito Original**| **Requisito Final**  | **Descrição**   | **Implementado** |**Elo**|**Léxicos**|**Especificação Suplementar**| **NFR**|
 | ---------------- | ----------- | --------------------- | ---------------- |---|---|---|---|---|
-| <a id="FFXX"></a>FFXX | [RNF01](../elicitacao/elicitacao.md#RNF01) | [RNF01.1](../elicitacao/requisitos_finais.md#RNF01.1) | A interface deve ser responsiva para dispositivos Android 5.0 ou superiores e iOS 13.0 ou superiores.                               | Não              ||
-| <a id="FFXX"></a>FFXX | [RNF02](../elicitacao/elicitacao.md#RNF02)  | [RNF02.1](../elicitacao/requisitos_finais.md#RNF02.1) | 95 % das ações devem ter tempo de resposta ≤ 2 segundos, medido em ambiente com até 100 usuários simultâneos.                       | Não              ||
-||| <a id="RNF03.1"></a>RNF03.1 | Todos os dados sensíveis em repouso devem ser criptografados com ao menos um recurso de criptografia.                               |  Sim              ||
-||| <a id="RNF03.2"></a>RNF03.2 | Autenticação de dois fatores deve estar disponível via SMS ou app de autenticação externa.| Não              ||
-|<a id="FF58"></a>FF58|[RNF04](../elicitacao/elicitacao.md#RNF04)| [RNF04](../elicitacao/requisitos_finais.md#RNF04)     | Manter o sistema disponível 24/7 para autorizações de urgência/emergência e apresentar alta disponibilidade (mínimo de 99% uptime). |Sim              |[ELO58](#ELO58)|-|[Confiabilidade](../modelagem/metodos_tradicionais/especificacao-suplementar.md#RNF05)|-|
-|<a id="FF59"></a>FF59|[RNF05](../elicitacao/elicitacao.md#RNF05)| [RNF05](../elicitacao/requisitos_finais.md#RNF05)     | O sistema deve ser compatível com as versões 5.0 ou superioresdo Android e 13.0 ou superiores do iOS.            | Sim              |[ELO59](#ELO58)|-|[Suportabilidade](../modelagem/metodos_tradicionais/especificacao-suplementar.md#RNF05)|-|
-||| <a id="RNF06"></a>RNF06     | O aplicativo deve ser compatível com leitores de tela para garantir acessibilidade a pessoas com deficiência visual.| Não||
-||| <a id="RNF07"></a>RNF07     | Garantir conformidade com a Portaria nº 127/2024, legislações complementares e padrões da LGPD.              |  Sim              ||
-||| <a id="RNF08"></a>RNF08     | Processar autorizações prévias em até 10 dias úteis.|Sim              ||
-||| <a id="RNF09"></a>RNF09    | Comunicar-se com a folha de pagamento do GDF para descontos de mensalidades.| Sim              ||
-||| <a id="RNF10"></a>RNF10    | Garantir que informações críticas, como a carteirinha digital, estejam acessíveis em até três cliques ou com no máximo 2 cliques a partir da tela inicial. | Sim              ||
-||| <a id="RNF11"></a>RNF11     | Manter histórico de notificações acessível ao usuário por no mínimo 6 meses.| Não              ||
-||| <a id="RNF12"></a>RNF12     | O aplicativo deve oferecer suporte por chat ou telefone.    | Sim              ||
-||| <a id="RNF13"></a>RNF13    | Deve funcionar de forma offline para acesso à carteirinha e histórico de consultas.                               |  Não              ||
-||| <a id="RNF14"></a>RNF14    | O layout deve ser consistente com o portal oficial do plano.                                                      |  Não              |
-||| <a id="RNF15"></a>RNF15    | O sistema deve exigir autenticação via GovBR para login.| Não              ||
-||| <a id="RNF16"></a>RNF16    | As informações exibidas devem ser claras, completas e atualizadas em tempo real.                                  |  Sim ||
+| <a id="FF56"></a>FF56 | [RNF01](../elicitacao/elicitacao.md#RNF01) | [RNF01.1](../elicitacao/requisitos_finais.md#RNF01.1) | A interface deve ser responsiva para dispositivos Android 5.0 ou superiores e iOS 13.0 ou superiores.                               | Não              ||
+| <a id="FF56"></a>FF56 | [RNF02](../elicitacao/elicitacao.md#RNF02)  | [RNF02.1](../elicitacao/requisitos_finais.md#RNF02.1) | 95 % das ações devem ter tempo de resposta ≤ 2 segundos, medido em ambiente com até 100 usuários simultâneos.                       | Não              ||
+| <a id="FF57"></a>FF57 || <a id="RNF03.1"></a>RNF03.1 | Todos os dados sensíveis em repouso devem ser criptografados com ao menos um recurso de criptografia.                               |  Sim              ||
+| <a id="FF58"></a>FF58 || <a id="RNF03.2"></a>RNF03.2 | Autenticação de dois fatores deve estar disponível via SMS ou app de autenticação externa.| Não              ||
+|<a id="FF59"></a>FF59|[RNF04](../elicitacao/elicitacao.md#RNF04)| [RNF04](../elicitacao/requisitos_finais.md#RNF04)     | Manter o sistema disponível 24/7 para autorizações de urgência/emergência e apresentar alta disponibilidade (mínimo de 99% uptime). |Sim              |[ELO58](#ELO58)|-|[Confiabilidade](../modelagem/metodos_tradicionais/especificacao-suplementar.md#RNF05)|-|
+|<a id="FF60"></a>FF60|[RNF05](../elicitacao/elicitacao.md#RNF05)| [RNF05](../elicitacao/requisitos_finais.md#RNF05)     | O sistema deve ser compatível com as versões 5.0 ou superioresdo Android e 13.0 ou superiores do iOS.            | Sim              |[ELO59](#ELO58)|-|[Suportabilidade](../modelagem/metodos_tradicionais/especificacao-suplementar.md#RNF05)|-|
+| <a id="FF61"></a>FF61 || <a id="RNF06"></a>RNF06     | O aplicativo deve ser compatível com leitores de tela para garantir acessibilidade a pessoas com deficiência visual.| Não||
+| <a id="FF62"></a>FF62 || <a id="RNF07"></a>RNF07     | Garantir conformidade com a Portaria nº 127/2024, legislações complementares e padrões da LGPD.              |  Sim              ||
+| <a id="FF63"></a>FF63 || <a id="RNF08"></a>RNF08     | Processar autorizações prévias em até 10 dias úteis.|Sim              ||
+| <a id="FF64"></a>FF64 || <a id="RNF09"></a>RNF09    | Comunicar-se com a folha de pagamento do GDF para descontos de mensalidades.| Sim              ||
+| <a id="FF65"></a>FF65 || <a id="RNF10"></a>RNF10    | Garantir que informações críticas, como a carteirinha digital, estejam acessíveis em até três cliques ou com no máximo 2 cliques a partir da tela inicial. | Sim              ||
+| <a id="FF66"></a>FF66 || <a id="RNF11"></a>RNF11     | Manter histórico de notificações acessível ao usuário por no mínimo 6 meses.| Não              ||
+| <a id="FF67"></a>FF67 || <a id="RNF12"></a>RNF12     | O aplicativo deve oferecer suporte por chat ou telefone.    | Sim              ||
+| <a id="FF68"></a>FF68 || <a id="RNF13"></a>RNF13    | Deve funcionar de forma offline para acesso à carteirinha e histórico de consultas.                               |  Não              ||
+| <a id="FF69"></a>FF69 || <a id="RNF14"></a>RNF14    | O layout deve ser consistente com o portal oficial do plano.                                                      |  Não              |
+| <a id="FF70"></a>FF70 || <a id="RNF15"></a>RNF15    | O sistema deve exigir autenticação via GovBR para login.| Não              ||
+| <a id="FF71"></a>FF71 || <a id="RNF16"></a>RNF16    | As informações exibidas devem ser claras, completas e atualizadas em tempo real.                                  |  Sim ||
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
