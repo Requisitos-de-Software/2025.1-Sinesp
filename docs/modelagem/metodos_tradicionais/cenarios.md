@@ -58,7 +58,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
 
 Inicialmente, para evitar conflitos de formatação, uma vez que todos do grupo estão envolvidos no desenvolvimento deste artefato, e garantir uma documentação limpa e padronizada, utilizou-se o editor online [StackEdit](https://stackedit.io/app#) na construção e organização do conteúdo.
 
-A metodologia adotada foi baseada nos conceitos apresentados nos slides Requisitos – Aula 10, de Milene Serrano e Maurício Serrano (2025), o PDF dos slides pode ser acessado [clicando aqui](../../assets/Requisitos-Aula-10.pdf), onde realizou-se o desenvolvimento dos cenários a partir da identificação dos requisitos, definindo objetivos e contexto. Foram mapeados atores e recursos, e os cenários são criados com: título e metas, contexto, exceções e restrições, e episódios detalhando ações principais e alternativas. A documentação foi padronizada utilizando tabelas no seguinte formato apresentado na Tabela 2 abaixo.
+A metodologia adotada foi baseada nos conceitos apresentados nos slides Requisitos – Aula 10, de Milene Serrano e Maurício Serrano (2025), o PDF dos slides pode ser acessado [clicando aqui](../../assets/Requisitos-Aula-10.pdf), onde realizou-se o desenvolvimento dos cenários a partir da identificação dos requisitos, definindo objetivos e contexto. Foram mapeados atores e recursos, e os cenários são criados com: Título e metas, contexto, exceções e restrições, e episódios detalhando ações principais e alternativas. A documentação foi padronizada utilizando tabelas no seguinte formato apresentado na Tabela 2 abaixo.
 
 
 <p  align="center">Tabela 2: padrão de cenários</p>
@@ -92,7 +92,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                                                                                                  |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Pesquisa e filtro de clínicas                                                                                                                                                                                                                              |
+| Título <a id="CE01"></a>          | Pesquisa e filtro de clínicas                                                                                                                                                                                                                              |
 | Metas/Objetivos | Permitir ao usuário localizar clínicas e profissionais com base em critérios como especialidade, região, tipo de atendimento e proximidade.                                                                                                                |
 | Contexto        | O usuário precisa agendar uma consulta com um cardiologista próximo à sua casa. Ao acessar o aplicativo GDF Saúde, ele usa os filtros disponíveis e encontra clínicas na região administrativa de residência.                                              |
 | Ator(es)        | - Usuário do GDF Saúde. <br> - Sistema de busca do aplicativo.                                                                                                                                                                                             |
@@ -112,7 +112,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                                                |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Avaliação de clínicas                                                                                                                                                                                    |
+| Título <a id="CE02"></a>          | Avaliação de clínicas                                                                                                                                                                                    |
 | Metas/Objetivos | Permitir que o usuário avalie clínicas após o atendimento, contribuindo com comentários e notas.                                                                                                         |
 | Contexto        | Após realizar uma consulta em uma clínica conveniada, o usuário acessa o aplicativo GDF Saúde e deixa uma nota de 4 estrelas e um comentário positivo sobre o atendimento recebido.                      |
 | Ator(es)        | - Usuário do GDF Saúde. <br> - Clínicas credenciadas. <br> - Sistema de avaliação do aplicativo.                                                                                                         |
@@ -132,7 +132,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                                                                                          |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Acesso à carteirinha digital sem conexão à internet                                                                                                                                                                                                |
+| Título <a id="CE03"></a>          | Acesso à carteirinha digital sem conexão à internet                                                                                                                                                                                                |
 | Metas/Objetivos | Permitir que o usuário baixe a carteirinha para acessá-la posteriormente sem conexão à internet.                                                                                                                                                   |
 | Contexto        | O usuário está em um hospital, clínica ou laboratório e precisa da carteirinha para solicitar autorização do procedimento. Sem a carteirinha física e sem conexão, ele acessa a galeria de fotos do dispositivo, onde já havia baixado o arquivo. |
 | Ator(es)        | - Usuário cadastrado (titular ou dependente).<br>- INAS: fornece dados para emissão da carteirinha.<br>- Galeria de fotos: sistema externo que armazena o arquivo local.                                                                           |
@@ -152,7 +152,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                                      |
 |-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Recebimento de notificações configuráveis via app, SMS ou e-mail                                                                                                                               |
+| Título <a id="CE04"></a>          | Recebimento de notificações configuráveis via app, SMS ou e-mail                                                                                                                               |
 | Metas/Objetivos | Permitir que o usuário receba notificações personalizadas sobre vencimento de faturas, agendamentos e demonstrativos.                                                                          |
 | Contexto        | O usuário configura no app GDF Saúde quais eventos quer ser lembrado e por quais canais — app, SMS ou e-mail — e passa a receber alertas conforme sua escolha.                                 |
 | Ator(es)        | - Usuário (titular ou dependente).<br>- Sistema de notificações do GDF Saúde.<br>- Provedores externos de SMS e e‑mail.                                                                         |
@@ -172,7 +172,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                      |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Agendar ou cancelar consultas e exames pelo aplicativo                                                                        |
+| Título <a id="CE05"></a>          | Agendar ou cancelar consultas e exames pelo aplicativo                                                                        |
 | Metas/Objetivos | Permitir que o usuário realize agendamentos e cancelamentos com agilidade, incluindo pagamento automático aos prestadores.     |
 | Contexto        | O usuário acessa o aplicativo e seleciona a funcionalidade desejada (agendar ou cancelar).                                     |
 | Ator(es)        | - Usuário.<br>- Sistema de Saúde.<br>- Prestador da Rede de Atendimento.                                                       |
@@ -192,7 +192,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                             |
 |-----------------|------------------------------------------------------------------------------------------------------------------------|
-| Título          | Visualizar valores e demonstrativos financeiros no aplicativo                                                        |
+| Título <a id="CE06"></a>          | Visualizar valores e demonstrativos financeiros no aplicativo                                                        |
 | Metas/Objetivos | Informar o usuário sobre valores de consulta, coparticipações, histórico e geração de demonstrativos para IR.         |
 | Contexto        | O usuário acessa a área financeira do aplicativo para consultar valores, baixar demonstrativos e ver histórico de IR. |
 | Ator(es)        | - Usuário.<br>- Sistema do Plano de Saúde.                                                                             |
@@ -212,7 +212,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                          |
 |-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Cadastrar titulares, dependentes e optantes com validação de documentos                                                                                                            |
+| Título <a id="CE07"></a>          | Cadastrar titulares, dependentes e optantes com validação de documentos                                                                                                            |
 | Metas/Objetivos | Garantir o cadastro completo e validado de usuários, incluindo dependentes e optantes, com conferência de documentos e critérios de elegibilidade.                                    |
 | Contexto        | O usuário inicia o processo de adesão pelo aplicativo ou portal, informando dados pessoais e anexando documentos oficiais para validação.                                           |
 | Ator(es)        | - Usuário.<br>- Sistema de Adesão.<br>- Operador do Plano.                                                                                                                         |
@@ -232,7 +232,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                                   |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Verificar cobertura e necessidade de autorização prévia para procedimentos                                                                                                                  |
+| Título <a id="CE08"></a>          | Verificar cobertura e necessidade de autorização prévia para procedimentos                                                                                                                  |
 | Metas/Objetivos | Garantir que os procedimentos solicitados estejam cobertos segundo normas da TABGDFSAÚDE e DUT, incluindo regras de carência e exclusão.                                                    |
 | Contexto        | O usuário ou prestador solicita um procedimento através do aplicativo ou sistema de autorização, aguardando confirmação automática ou técnica conforme a tabela vigente.                     |
 | Ator(es)        | - Usuário ou prestador.<br>- Sistema de Saúde.<br>- Equipe Técnica de Autorização.                                                                                                          |
@@ -252,7 +252,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Visualizar Histórico de Guias RF09                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Título <a id="CE09"></a>          | Visualizar Histórico de Guias RF09                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Metas/Objetivos | Permitir que o usuário visualize seu histórico de saúde, incluindo consultas médicas, exames realizados, resultados laboratoriais e coparticipações, de forma organizada e acessível para acompanhar seu histórico médico e financeiro.                                                                                                                                                                                                                                                                                                  |
 | Contexto        | Usuário autenticado no app móvel GDF Saúde deseja revisar seu histórico de atendimentos e despesas relacionadas ao plano (consultas, exames, coparticipações).                                                                                                                                                                                                                                                                                                                                                                        |
 | Ator(es)        | - Usuário cadastrado no GDF Saúde<br>- Sistema de histórico do aplicativo                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -270,7 +270,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Favoritar Horários de Consulta RF10                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Título <a id="CE10"></a>          | Favoritar Horários de Consulta RF10                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Metas/Objetivos | Permitir que o usuário marque como favoritos horários desejados durante o agendamento, facilitando futuras reservas rápidas e convenientes.                                                                                                                                                                                                                                                                                                                                                                                     |
 | Contexto        | Usuário autenticado no app móvel GDF Saúde está agendando uma consulta e deseja salvar horários preferidos para uso posterior.                                                                                                                                                                                                                                                                                                                                                                                                  |
 | Ator(es)        | - Usuário cadastrado no GDF Saúde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
@@ -290,7 +290,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                                                                                                               |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Canal para o usuário enviar feedback sobre atendimentos                                                                                                                                                                                                                 |
+| Título <a id="CE11"></a>          | Canal para o usuário enviar feedback sobre atendimentos                                                                                                                                                                                                                 |
 | Metas/Objetivos | Permitir ao usuário registrar sua experiência, contribuindo para a melhoria da qualidade dos serviços prestados.                                                                                                                                                        |
 | Contexto        | Após atendimento em clínica agendada pelo app, o usuário acessa o histórico e envia nota e comentário.                                                                                                                                                                     |
 | Ator(es)        | - Usuário do GDF Saúde.<br>- Módulo de registro de feedback.                                                                                                                                                                                                              |
@@ -310,7 +310,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                                                                                                    |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Divulgar informações sobre novas funcionalidades                                                                                                                                                                                                             |
+| Título <a id="CE12"></a>          | Divulgar informações sobre novas funcionalidades                                                                                                                                                                                                             |
 | Metas/Objetivos | Informar os usuários sobre atualizações e incentivá‑los a usar novos recursos.                                                                                                                                                                               |
 | Contexto        | Após atualização do app com nova função “Chat com Profissionais”, o sistema exibe uma notificação no primeiro acesso.                                                                                                                                         |
 | Ator(es)        | - Usuário do GDF Saúde.<br>- Sistema de notificações e gerenciamento de versões.                                                                                                                                                                              |
@@ -330,7 +330,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                                                                                          |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Consulta integrada à rede odontológica pública                                                                                                                                                                                                      |
+| Título <a id="CE13"></a>          | Consulta integrada à rede odontológica pública                                                                                                                                                                                                      |
 | Metas/Objetivos | Permitir que usuários busquem e agendem consultas em unidades odontológicas públicas via aplicativo, com informações atualizadas da rede de saúde governamental.                                                                                     |
 | Contexto        | Usuário acessa app GDF Saúde, escolhe “Rede Odontológica”, visualiza clínicas parceiras, horários e vagas em tempo real e agenda o atendimento.                                                                                                       |
 | Ator(es)        | - Usuário do GDF Saúde<br>- Unidades odontológicas parceiras<br>- Equipe de integração de dados do INAS                                                                                                      |
@@ -350,7 +350,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                                                  |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Apresentar clínicas novas e próximas da localização do usuário                                                                                                                                              |
+| Título <a id="CE14"></a>          | Apresentar clínicas novas e próximas da localização do usuário                                                                                                                                              |
 | Metas/Objetivos | Permitir ao usuário descobrir facilmente novas clínicas cadastradas e clínicas próximas com base em sua localização atual.                                                                                   |
 | Contexto        | Usuário abre app com GPS ativo; sistema identifica localização e lista clínicas próximas, destacando novas unidades cadastradas na plataforma.                                                              |
 | Ator(es)        | - Usuário do GDF Saúde<br>- Sistema de geolocalização do dispositivo<br>- Servidores de GDF Saúde responsáveis pela gestão de clínicas                                                                      |
@@ -370,7 +370,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                                                                      |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Download de comprovantes de agendamento                                                                                                                                                                                       |
+| Título <a id="CE15"></a>          | Download de comprovantes de agendamento                                                                                                                                                                                       |
 | Metas/Objetivos | Permitir que o usuário baixe comprovantes de agendamento em formato digital (PDF), garantindo autenticidade e segurança com QR code de validação.                                                                              |
 | Contexto        | Após agendar uma consulta, o usuário acessa “Meus Agendamentos” e solicita geração de comprovante; o sistema gera PDF criptografado com QR code e oferece opção de download.                                                    |
 | Ator(es)        | - Usuário do GDF Saúde<br>- Sistema de geração de documentos do INAS<br>- Serviço de armazenamento seguro de arquivos                                                                                                           |
@@ -390,7 +390,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                          |
 |-----------------|--------------------------------------------------------------------------------------------------------------------|
-| Título          | Visualizar calendário personalizado com informações do plano                                                      |
+| Título <a id="CE16"></a>          | Visualizar calendário personalizado com informações do plano                                                      |
 | Metas/Objetivos | Permitir ao usuário acompanhar suas consultas, prazos de carência e vencimentos de forma clara e integrada.       |
 | Contexto        | O usuário acessa o aplicativo e consulta o calendário com eventos relacionados ao seu plano de saúde.             |
 | Ator(es)        | - Usuário.<br>- Sistema de Saúde.                                                                                  |
@@ -410,7 +410,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                         |
 |-----------------|---------------------------------------------------------------------------------------------------|
-| Título          | Visualizar painel de metas com gamificação                                                       |
+| Título <a id="CE17"></a>          | Visualizar painel de metas com gamificação                                                       |
 | Metas/Objetivos | Estimular o acompanhamento da saúde por meio de metas e recompensas visuais.                     |
 | Contexto        | O usuário acessa o painel e verifica seu progresso e as metas a cumprir.                         |
 | Ator(es)        | - Usuário.<br>- Sistema de Monitoramento de Saúde.                                                |
@@ -430,7 +430,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                              |
 |-----------------|--------------------------------------------------------------------------------------------------------|
-| Título          | Registrar denúncia contra profissional da rede credenciada                                             |
+| Título <a id="CE18"></a>          | Registrar denúncia contra profissional da rede credenciada                                             |
 | Metas/Objetivos | Permitir que usuários denunciem condutas inadequadas de profissionais, garantindo um canal seguro e sigiloso. |
 | Contexto        | O usuário acessa o aplicativo após atendimento e deseja relatar um problema com um profissional da rede. |
 | Ator(es)        | - Usuário.<br>- Sistema de Saúde.<br>- Setor de Ouvidoria.                                              |
@@ -450,7 +450,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                                                                                                                                                             |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Login por biometria facial ou digital                                                                                                                                                                                                                                                                                 |
+| Título <a id="CE19"></a>          | Login por biometria facial ou digital                                                                                                                                                                                                                                                                                 |
 | Metas/Objetivos | Permitir acesso prático e seguro usando biometria, sem digitar senha.                                                                                                                                                                                                                                                  |
 | Contexto        | Usuário com conta ativa opta por habilitar biometria no primeiro acesso ou depois e passa a usá‑la para autenticar.                                                                                                                                                                                                      |
 | Ator(es)        | - Usuário do GDF Saúde.<br>- SO (Android/iOS) com suporte biométrico.<br>- App GDF Saúde integrado à biometria.                                                                                                                                                                                                           |
@@ -470,7 +470,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                              |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Solicitação de Reembolso de Cobrança Indevida                                                                                          |
+| Título <a id="CE20"></a>          | Solicitação de Reembolso de Cobrança Indevida                                                                                          |
 | Metas/Objetivos | Permitir que o usuário solicite reembolso de uma cobrança indevida de coparticipação, garantindo um processo transparente e eficiente. |
 | Contexto        | Usuário autenticado no app GDF Saúde identifica uma cobrança indevida e inicia o processo de solicitação de reembolso.                 |
 | Ator(es)        | - Usuário.<br>- Sistema de reembolso do aplicativo.                                                                                    |
@@ -491,7 +491,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                                                                                 |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Chatbot para direcionamento médico                                                                                                                                                                                                       |
+| Título <a id="CE21"></a>          | Chatbot para direcionamento médico                                                                                                                                                                                                       |
 | Metas/Objetivos | Auxiliar o usuário na escolha da especialidade médica adequada com base nos sintomas descritos.                                                                                                                                           |
 | Contexto        | Um usuário sente dores persistentes nas costas, mas não sabe qual especialidade deve procurar. Ele acessa o chatbot do aplicativo GDF Saúde, descreve seus sintomas e recebe a sugestão de procurar um ortopedista.                       |
 | Ator(es)        | - Usuário do GDF Saúde. <br> - Chatbot embutido no aplicativo.                                                                                                                                                                            |
@@ -512,7 +512,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                                                                                                                                                                                        |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Interface intuitiva e acessível                                                                                                                                                                                                                                                                                                                  |
+| Título <a id="CE22"></a>          | Interface intuitiva e acessível                                                                                                                                                                                                                                                                                                                  |
 | Metas/Objetivos | Tornar a experiência do usuário simples, clara e adaptada para pessoas idosas ou com pouca familiaridade com tecnologia, mantendo a organização e responsividade em dispositivos móveis.                                                                                                                                                         |
 | Contexto        | Um servidor público aposentado acessa o aplicativo GDF Saúde em seu smartphone Android para verificar informações sobre sua carteirinha e agendar uma consulta. A interface do aplicativo apresenta botões grandes, texto legível, categorias bem definidas e respostas claras. O usuário consegue concluir as ações desejadas sem dificuldades. |
 | Ator(es)        | - Usuário do GDF Saúde com baixa familiaridade tecnológica. <br> - Interface do aplicativo (sistema interno).                                                                                                                                                                                                                                    |
@@ -534,7 +534,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                                                                                                               |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Carregamento rápido e fluido das telas                                                                                                                                                                                                                                  |
+| Título <a id="CE23"></a>          | Carregamento rápido e fluido das telas                                                                                                                                                                                                                                  |
 | Metas/Objetivos | Garantir que o aplicativo responda rapidamente a comandos do usuário, sem travamentos ou lentidão, com tempo de resposta inferior a 2 segundos.                                                                                                                         |
 | Contexto        | Um usuário acessa o aplicativo GDF Saúde para verificar o status de uma autorização médica. Ele navega entre diferentes telas — login, menu principal, autorizações — e todas as transições ocorrem de maneira rápida e suave, sem atrasos perceptíveis.                |
 | Ator(es)        | - Usuário do GDF Saúde (titular ou dependente). <br> - Backend do sistema (servidores de dados e processamento).                                                                                                                                                        |
@@ -557,7 +557,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                                                                                         |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Segurança e transparência no uso de dados                                                                                                                                                                                                         |
+| Título <a id="CE24"></a>          | Segurança e transparência no uso de dados                                                                                                                                                                                                         |
 | Metas/Objetivos | Proteger os dados pessoais do usuário, garantindo criptografia e autenticação em dois fatores, em conformidade com a LGPD.                                                                                                                        |
 | Contexto        | Um usuário realiza login no aplicativo GDF Saúde e recebe um código de verificação por SMS como segunda etapa de autenticação. Ao acessar seus dados pessoais, ele visualiza um aviso sobre como as informações estão sendo usadas e armazenadas. |
 | Ator(es)        | - Usuário do GDF Saúde. <br> - Servidores do INAS responsáveis pela proteção dos dados.                                                                                                                                                           |
@@ -578,7 +578,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento         | Descrição |
 |------------------|-----------|
-| Título           | Disponibilidade 24/7 para autorizações de urgência/emergência |
+| Título <a id="CE25"></a>           | Disponibilidade 24/7 para autorizações de urgência/emergência |
 | Metas/Objetivos  | Garantir que o sistema esteja disponível continuamente (≥ 99% de uptime) para autorizar atendimentos de urgência e emergência. |
 | Contexto         | Beneficiário chega em emergência fora do expediente e precisa autorizar procedimento pelo GDF Saúde; o sistema deve responder sem atrasos. |
 | Ator(es)         | - Beneficiário do plano. <br>- Profissional de saúde ou recepcionista. <br>- Sistema GDF Saúde. <br>- Equipe de infraestrutura/DevOps. |
@@ -598,7 +598,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento         | Descrição |
 |------------------|-----------|
-| Título           | Compatibilidade com diferentes versões do Android e iOS |
+| Título <a id="CE26"></a>           | Compatibilidade com diferentes versões do Android e iOS |
 | Metas/Objetivos  | Garantir que o aplicativo funcione corretamente em dispositivos com versões variadas dos sistemas operacionais Android e iOS, atendendo a maioria dos usuários do mercado. |
 | Contexto         | O usuário possui um smartphone com uma versão intermediária do Android (ex.: Android 10) ou do iOS (ex.: iOS 14) e precisa utilizar o aplicativo GDF Saúde com todas as funcionalidades ativas, sem falhas ou incompatibilidades. |
 | Ator(es)         | - Usuário do aplicativo GDF Saúde com diferentes versões de sistema operacional. <br>- Equipe de desenvolvimento e testes. <br>- Lojas de aplicativos (Google Play e App Store). |
@@ -618,7 +618,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento         | Descrição |
 |------------------|-----------|
-| Título           | Compatibilidade do aplicativo com leitores de tela |
+| Título <a id="CE27"></a>           | Compatibilidade do aplicativo com leitores de tela |
 | Metas/Objetivos  | Garantir que pessoas com deficiência visual possam utilizar o aplicativo GDF Saúde via leitores de tela, com navegação acessível, clara e funcional. |
 | Contexto         | Usuário com deficiência visual utiliza o leitor de tela nativo (TalkBack ou VoiceOver) para consultar informações médicas no app, esperando que todos os elementos estejam corretamente rotulados e navegáveis. |
 | Ator(es)         | - Usuário com deficiência visual. <br>- Sistema operacional (Android/iOS) com leitor de tela ativo. |
@@ -638,7 +638,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                          |
 |-----------------|----------------------------------------------------------------------------------------------------|
-| Título          | Garantir conformidade legal e proteção de dados                                                   |
+| Título <a id="CE28"></a>          | Garantir conformidade legal e proteção de dados                                                   |
 | Metas/Objetivos | Assegurar que o sistema opere em conformidade com a Portaria nº 127/2024, legislações complementares e LGPD. |
 | Contexto        | O sistema armazena e processa dados pessoais sensíveis de usuários, devendo respeitar normas e consentimentos legais. |
 | Ator(es)        | - Desenvolvedor<br>- Administrador do sistema<br>- Órgãos reguladores                               |
@@ -658,7 +658,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------|
-| Título          | Processar autorizações prévias dentro do prazo legal                                       |
+| Título <a id="CE29"></a>          | Processar autorizações prévias dentro do prazo legal                                       |
 | Metas/Objetivos | Garantir que autorizações para procedimentos sejam analisadas em até 10 dias úteis.        |
 | Contexto        | O usuário solicita uma autorização via aplicativo para um procedimento médico.             |
 | Ator(es)        | - Usuário<br>- Sistema de Autorização<br>- Equipe de Análise Médica                         |
@@ -678,7 +678,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                       |
 |-----------------|-------------------------------------------------------------------------------------------------|
-| Título          | Comunicar-se com a folha de pagamento do GDF para aplicar descontos                             |
+| Título <a id="CE30"></a>          | Comunicar-se com a folha de pagamento do GDF para aplicar descontos                             |
 | Metas/Objetivos | Garantir que o valor das mensalidades seja corretamente descontado na folha de pagamento.       |
 | Contexto        | Após cadastro do titular, o sistema envia informações à folha de pagamento do GDF.              |
 | Ator(es)        | - Sistema do Plano de Saúde<br>- Sistema da Folha de Pagamento do GDF<br>- Usuário              |
@@ -698,7 +698,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                        |
 |-----------------|------------------------------------------------------------------------------------------------------------------|
-| Título          | Acessar carteirinha digital com no máximo dois cliques                                                          |
+| Título <a id="CE31"></a>          | Acessar carteirinha digital com no máximo dois cliques                                                          |
 | Metas/Objetivos | Facilitar acesso rápido à carteirinha digital diretamente da tela inicial.                                       |
 | Contexto        | Usuário autentica-se e precisa apresentar a carteirinha em atendimento.                                         |
 | Ator(es)        | - Usuário<br>- Sistema do aplicativo                                                                              |
@@ -719,7 +719,7 @@ Este cenário está relacionado com o requisito não funcional **não implementa
 
 | **Elemento**         | **Descrição**                                                                                   |
 |----------------------|------------------------------------------------------------------------------------------------|
-| **Título**           | Acesso ao Histórico de Notificações                                                            |
+| **Título <a id="CE32"></a>**           | Acesso ao Histórico de Notificações                                                            |
 | **Metas/Objetivos**  | Permitir que o usuário visualize notificações recebidas nos últimos 6 meses.                   |
 | **Contexto**         | O usuário está logado no sistema INAS e deseja consultar notificações anteriores.              |
 | **Ator(es)**         | Usuário (beneficiário).                                                                         |
@@ -739,7 +739,7 @@ Este cenário está relacionado com o requisito não funcional **implementado** 
 
 | **Elemento**         | **Descrição**                                                                                      |
 |----------------------|---------------------------------------------------------------------------------------------------|
-| **Título**           | Suporte ao Usuário via Chat ou Telefone                                                           |
+| **Título <a id="CE33"></a>**           | Suporte ao Usuário via Chat ou Telefone                                                           |
 | **Metas/Objetivos**  | Fornecer assistência ao usuário para resolver dúvidas ou problemas.                               |
 | **Contexto**         | O usuário está utilizando o sistema e precisa de ajuda.                                           |
 | **Ator(es)**         | Usuário (beneficiário), Agente de Suporte.                                                        |
@@ -759,7 +759,7 @@ Este cenário está relacionado com o requisito não funcional **implementado** 
 
 | Elemento        | Descrição                                                                                                                          |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Funcionar de forma offline para acesso à carteirinha e histórico de consultas                                                      |
+| Título <a id="CE34"></a>          | Funcionar de forma offline para acesso à carteirinha e histórico de consultas                                                      |
 | Metas/Objetivos | Garantir que a carteirinha e o histórico de consultas estejam disponíveis mesmo sem conexão à internet.                            |
 | Contexto        | Usuário está em local sem cobertura e precisa consultar carteirinha ou histórico de atendimentos médicos.                          |
 | Ator(es)        | - Usuário do GDF Saúde<br>- Sistema de sincronização offline                                                                         |
@@ -779,7 +779,7 @@ Este cenário está relacionado com o requisito não funcional **implementado** 
 
 | Elemento        | Descrição                                                                                                                                           |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Apresentar clínicas novas e próximas da localização do usuário                                                                                     |
+| Título <a id="CE35"></a>          | Apresentar clínicas novas e próximas da localização do usuário                                                                                     |
 | Metas/Objetivos | Permitir que o usuário descubra facilmente novas clínicas cadastradas e clínicas próximas com base em sua localização atual.                        |
 | Contexto        | Usuário abre o app com GPS ativado; o sistema identifica a localização e lista clínicas próximas, destacando novas unidades cadastradas.             |
 | Ator(es)        | - Usuário do GDF Saúde<br>- Sistema de geolocalização do dispositivo<br>- Servidores de GDF Saúde responsáveis pela gestão de clínicas               |
@@ -799,7 +799,7 @@ Este cenário está relacionado com o requisito não funcional **implementado** 
 
 | Elemento        | Descrição                                                                                                                                                                   |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Autenticação segura via GovBR                                                                                                                                                |
+| Título <a id="CE36"></a>          | Autenticação segura via GovBR                                                                                                                                                |
 | Metas/Objetivos | Garantir acesso seguro ao sistema, exigindo autenticação pelo GovBR com nível de segurança adequado.                                                                         |
 | Contexto        | Usuário tenta fazer login no app GDF Saúde e é redirecionado à plataforma GovBR para validar sua identidade e credenciais (certificado digital ou conta gov.br).                |
 | Ator(es)        | - Usuário do GDF Saúde<br>- Plataforma GovBR<br>- Servidores do INAS responsáveis pela integração                                                                             |
@@ -819,7 +819,7 @@ Este cenário está relacionado com o requisito não funcional **implementado** 
 
 | Elemento        | Descrição                                                                                                                                                                                                      |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Título          | Exibição de informações claras, completas e atualizadas em tempo real                                                                                                                                          |
+| Título <a id="CE37"></a>          | Exibição de informações claras, completas e atualizadas em tempo real                                                                                                                                          |
 | Metas/Objetivos | Garantir que dados exibidos (ex.: resultados de exames, histórico de guias) sejam precisos, contextualizados e sincronizados instantaneamente com fontes oficiais.                                            |
 | Contexto        | Usuário acessa seção “Resultados de Exames” ou “Histórico de Saúde” e espera ver data/hora da última atualização, com indicadores visuais de status (síncro OK, pendente, erro).                               |
 | Ator(es)        | - Usuário do GDF Saúde<br>- Sistemas de backend do INAS (bases governamentais)<br>- Equipe de gestão de dados                                                        |
@@ -856,3 +856,4 @@ SERRANO, Milene; SERRANO, Maurício. *Requisitos - Aula 10*. Disponível em: htt
 | `1.8`  | 17/05/2025| Adição dos cenários 7, 8, 16, 18, 29 e 30                                                                     | [Lucas Alves](https://github.com/LucasAlves71)                                                      | [Yzabella Miranda](https://github.com/redjsun)                                                  |
 | `1.9`  | 16/05/2025 | Adição dos cenários 9, 10, 20, 31 e 32                                                                        | [Matheus de Alcântara](https://github.com/matheusdealcantara)                                      | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                                   |
 | `2.0`  | 17/05/2025 | Consolidação final do documento: organização e união de todos os cenários entregues pelos integrantes         | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                                 | [Yzabella Miranda](https://github.com/redjsun) e [Matheus de Alcântara](https://github.com/matheusdealcantara)                                                  |
+|`2.1`  | 08/06/2025  | Adição de ancoras | [Isaque Camargos](https://github.com/isaqzin) | [Lucas Alves](https://github.com/LucasAlves71) |

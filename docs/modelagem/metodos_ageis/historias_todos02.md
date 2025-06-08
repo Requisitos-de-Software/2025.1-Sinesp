@@ -412,7 +412,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Título**                 | Agendar Consultas e Exames pelo Aplicativo                                                                                                                                                                                           |
 | **História**               | Como um usuário do GDF Saúde,<br>Eu quero agendar consultas e exames diretamente pelo aplicativo,<br>Para que eu possa gerenciar minha saúde de forma conveniente e eficiente.                                                       |
 | **Critérios de Aceitação** | <br>- Dado que o usuário está logado no aplicativo,<br>- Quando ele seleciona a opção de agendamento e escolhe uma especialidade/exame, prestador e horário,<br>- Então o sistema deve confirmar o agendamento e exibir os detalhes. |
-| **Rastreabilidade**        | [RNF05](../../elicitacao/elicitacao.md#RNF05)                                                                                                                                                                                        |
+| **Rastreabilidade**        | [RF05.1](../../elicitacao/requisitos_finais.md#RF05.1)                                                                                                                                                                                        |
 | **Épico Relacionado**      | <a href="../backlog#EP09">EP09</a>                                                                                                                                                                                                   |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>

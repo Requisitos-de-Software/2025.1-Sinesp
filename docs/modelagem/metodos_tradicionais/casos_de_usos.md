@@ -52,7 +52,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
 		</tbody>
 	</table>
 </div>
-<div> 
+</div> 
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Isaque Camargos</a> e <a  href="https://github.com/isaqzin">Yzabella Miranda</a></p>
 
@@ -150,7 +150,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo              | Descrição                                                                                                                                       |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| UC01                 |Filtrar redes credenciadas                                                                                                               |
+| <a id="UC01"></a>UC01                 |Filtrar redes credenciadas                                                                                                               |
 | Descrição          | Permitir ao usuário buscar clínicas/profissionais do INAS buscando pelo nome ou por meio de filtros como especialidade, região, tipo de atendimento e proximidade. |
 | Ator               | Usuário do aplicativo GDF Saúde                                                                                                                 |
 | Pré-condições      | 1. Conexão com internet. <br>2. Usuário é beneficiário do Plano INAS <br>3. Usuário realizou o cadastro no GDF Saúde                           |
@@ -172,7 +172,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo              | Descrição                                                                                                                                       |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| UC02                 |Acessar avaliações das redes credenciadas                                                                                                |
+| <a id="UC02"></a>UC02                 |Acessar avaliações das redes credenciadas                                                                                                |
 | Descrição          | Permitir ao usuário visualizar e dar notas e comentários sobre as redes credenciadas.                                                          |
 | Ator               | Usuário do aplicativo GDF Saúde                                                                                                                 |
 | Pré-condições      | 1. Conexão com internet. <br>2. Usuário é beneficiário do Plano INAS <br>3. Usuário realizou o cadastro no GDF Saúde                           |
@@ -194,7 +194,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo              | Descrição                                                                                                                                       |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| UC03                 |Iniciar conversa com chatbot de triagem                                                                                                  |
+| <a id="UC03"></a>UC03                 |Iniciar conversa com chatbot de triagem                                                                                                  |
 | Descrição          | Permitir ao usuário interagir com chatbot para identificar especialidade médica adequada                                                       |
 | Ator               | Usuário do aplicativo GDF Saúde                                                                                                                 |
 | Pré-condições      | 1. Conexão com internet. <br>2. Usuário é beneficiário do Plano INAS                                                                            |
@@ -216,7 +216,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo              | Descrição                                                                                                                                       |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| UC04                 | Acessar sistema com facilidade                                                                                                           |
+| <a id="UC04"></a>UC04                 | Acessar sistema com facilidade                                                                                                           |
 | Descrição          | Garantir interface intuitiva e acessível para todos os usuários                                                                                 |
 | Ator               | Usuário do aplicativo GDF Saúde                                                                                                                 |
 | Pré-condições      | 1. Conexão com internet <br>2. Usuário é beneficiário do Plano INAS <br>3. Aplicativo instalado no dispositivo                                  |
@@ -238,7 +238,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo              | Descrição                                                                                                                                       |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| UC05                 | Garantir desempenho do sistema                                                                                                           |
+| <a id="UC05"></a>UC05                 | Garantir desempenho do sistema                                                                                                           |
 | Descrição          | Assegurar que todas as funcionalidades respondam em até 2 segundos                                                                             |
 | Ator               | Usuário do aplicativo GDF Saúde                                                                                                                 |
 | Pré-condições      | 1. Conexão estável com internet <br>2. Usuário é beneficiário do Plano INAS <br>3. Aplicativo atualizado                                       |
@@ -260,7 +260,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo              | Descrição                                                                                                                                       |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| UC06                 | Garantir segurança no uso do sistema                                                                                                     |
+| <a id="UC06"></a>UC06                 | Garantir segurança no uso do sistema                                                                                                     |
 | Descrição          | Assegurar acesso seguro às funcionalidades com proteção de dados e conformidade LGPD                                                           |
 | Ator               | Usuário do aplicativo GDF Saúde                                                                                                                 |
 | Pré-condições      | 1. Conexão segura (HTTPS) <br>2. Usuário cadastrado no INAS <br>3. Dispositivo compatível                                                       |
@@ -280,7 +280,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
-|UC07            |  Fazer login                                                        |
+|<a id="UC07"></a>UC07            |  Fazer login                                                        |
 | Descrição          | Permitir que o usuário acesse o app com e-mail/CPF e senha.               |
 | Ator               | Usuário cadastrado                                                        |
 | Pré-condições      | App instalado e com conexão à internet.                                   |
@@ -300,7 +300,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
-| UC08                 |  Login por biometria                                                |
+| <a id="UC08"></a>UC08                 |  Login por biometria                                                |
 | Descrição          | Permitir login via impressão digital ou reconhecimento facial.            |
 | Ator               | Usuário cadastrado                                                        |
 | Pré-condições      | Dispositivo com sensor biométrico, usuário já logado ao menos uma vez.    |
@@ -320,7 +320,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
-| UC09                 | Baixar carteirinha                                                 |
+| <a id="UC09"></a>UC09                 | Baixar carteirinha                                                 |
 | Descrição          | Permitir download da carteirinha digital para uso offline.                |
 | Ator               | Usuário autenticado                                                       |
 | Pré-condições      | Conexão com internet e usuário logado.                                    |
@@ -341,7 +341,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
-| UC10                 |  Configurar notificações                                            |
+| <a id="UC10"></a>UC10                 |  Configurar notificações                                            |
 | Descrição          | Permitir ao usuário selecionar tipos e canais de notificações.            |
 | Ator               | Usuário autenticado                                                       |
 | Pré-condições      | Login realizado com sucesso.                                              |
@@ -362,7 +362,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
-| UC11                 |  Enviar notificações                                                |
+| <a id="UC11"></a>UC11                 |  Enviar notificações                                                |
 | Descrição          | Enviar notificações com base nas preferências do usuário.                 |
 | Ator               | Serviços de notificação                                 |
 | Pré-condições      | Configurações de notificação existentes e evento ativador.                |
@@ -383,7 +383,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
-| UC12                 |  Solicitar autorização de urgência/emergência                      |
+| <a id="UC12"></a>UC12                 |  Solicitar autorização de urgência/emergência                      |
 | Descrição          | Permitir que profissionais de saúde solicitem autorização em tempo real. |
 | Ator               | Profissional de saúde e INAS                                   |
 | Pré-condições      | Sistema disponível e login realizado.                                     |
@@ -404,7 +404,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| UC13                | Agendar consulta ou exame                                                                   |
+| <a id="UC13"></a>UC13                | Agendar consulta ou exame                                                                   |
 | Descrição         | Permitir que o titular agende uma consulta ou exame com prestadores credenciados via aplicativo, com pagamento automático integrado. |
 | Ator              | Titular do plano de saúde                                                                           |
 | Pré-condições     | 1. Titular autenticado no aplicativo <br> 2. Estar com plano de saúde ativo <br> 3. Ter conexão com internet |
@@ -425,7 +425,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| UC14                | Cancelar consulta ou exame                                                                  |
+| <a id="UC14"></a>UC14                | Cancelar consulta ou exame                                                                  |
 | Descrição         | Permitir que o titular cancele um agendamento de consulta ou exame feito anteriormente pelo aplicativo. |
 | Ator              | Titular do plano de saúde                                                                           |
 | Pré-condições     | 1. Titular autenticado no aplicativo <br> 2. Existir um agendamento ativo para consulta ou exame <br> 3. Conexão com internet |
@@ -448,7 +448,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| UC15                | Visualizar valor da consulta                                                                |
+| <a id="UC15"></a>UC15                | Visualizar valor da consulta                                                                |
 | Descrição         | Permitir que o titular visualize o valor exato de uma consulta em uma clínica específica, considerando a aplicação automática de coparticipação. |
 | Ator              | Titular do plano de saúde                                                                           |
 | Pré-condições     | 1. Estar autenticado no aplicativo <br> 2. Ter plano de saúde ativo <br> 3. Conexão com internet     |
@@ -471,7 +471,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo             | Descrição             |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| UC16                | Gerar demonstrativo de IR                                                                   |
+| <a id="UC16"></a>UC16                | Gerar demonstrativo de IR                                                                   |
 | Descrição         | Permitir que o titular gere um demonstrativo com os dados de despesas médicas para fins de declaração do Imposto de Renda. |
 | Ator              | Titular do plano de saúde                                                                           |
 | Pré-condições     | 1. Titular autenticado <br> 2. Existência de despesas médicas registradas no sistema <br> 3. Conexão ativa com internet |
@@ -494,7 +494,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| UC17                | Visualizar histórico de IR                                                                   |
+| <a id="UC17"></a>UC17                | Visualizar histórico de IR                                                                   |
 | Descrição         | Permitir que o titular consulte todos os demonstrativos de despesas médicas já gerados para declaração do Imposto de Renda. |
 | Ator              | Titular do plano de saúde                                                                           |
 | Pré-condições     | 1. Titular autenticado <br> 2. Existência de demonstrativos anteriores <br> 3. Conexão com internet |
@@ -516,7 +516,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| UC18                | Visualizar painel de metas                                                                  |
+| <a id="UC18"></a>UC18                | Visualizar painel de metas                                                                  |
 | Descrição         | Permitir que o titular ou dependente acesse um painel com metas de saúde personalizadas, como exames periódicos ou consultas anuais. |
 | Ator              | Titular do plano de saúde, Dependente                                                              |
 | Pré-condições     | 1. Usuário autenticado <br> 2. Perfil de saúde configurado <br> 3. Metas cadastradas no sistema    |
@@ -538,7 +538,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| UC19                | Solicitar autorização                                                                       |
+| <a id="UC19"></a>UC19                | Solicitar autorização                                                                       |
 | Descrição         | Permitir que o titular ou dependente solicite uma autorização prévia para a realização de procedimentos que exigem aprovação do plano. |
 | Ator              | Titular do plano de saúde, Dependente                                                              |
 | Pré-condições     | 1. Usuário autenticado <br> 2. Procedimento exige autorização <br> 3. Documentação necessária anexada |
@@ -560,7 +560,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| UC20                | Verificar conformidade com LGPD                                                             |
+| <a id="UC20"></a>UC20                | Verificar conformidade com LGPD                                                             |
 | Descrição         | Garantir que o sistema esteja em conformidade com a Portaria nº 127/2024, legislações complementares e os princípios da LGPD durante o uso das funcionalidades que tratam dados pessoais. |
 | Ator              | Sistema                                                                                             |
 | Pré-condições     | 1. Ação do usuário envolve tratamento de dados pessoais <br> 2. Consentimento válido registrado    |
@@ -578,7 +578,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 ###  UC21 – Cadastrar titulares, dependentes e optantes
 | Campo | Descrição |
 |  -----------------  |  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  |
-| UC21 | Cadastrar titulares, dependentes e optantes |
+| <a id="UC21"></a>UC21 | Cadastrar titulares, dependentes e optantes |
 | Descrição | Permitir o cadastro de titulares, dependentes e optantes no sistema com validação de documentos e elegibilidade. |
 | Ator | Atendente do plano de saúde / Titular |
 | Pré-condições | 1. Usuário autenticado (se for o titular) <br> 2. Documentação digitalizada |
@@ -602,7 +602,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo | Descrição |
 |  -----------------  |  -----------------------------------------------------------------------------------------------------------------------------------------------------------  |
-| UC22 | Verificar procedimentos para autorização |
+| <a id="UC22"></a>UC22 | Verificar procedimentos para autorização |
 | Descrição | Verificar se procedimentos estão na TABGDFSAÚDE, se atendem às DUT, carência ou exclusões, exigindo solicitação médica e análise técnica. |
 | Ator | Titular / Profissional de saúde / Analista técnico |
 | Pré-condições | 1. Procedimento solicitado <br> 2. Dados médicos anexados |
@@ -628,7 +628,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo | Descrição |
 |  -----------------  |  ---------------------------------------------------------------------------------------------------------------------------------  |
-| UC23 | Visualizar calendário personalizado |
+| <a id="UC23"></a>UC23 | Visualizar calendário personalizado |
 | Descrição | Disponibilizar ao titular um calendário com consultas agendadas, prazos de carência e vencimentos. |
 | Ator | Titular |
 | Pré-condições | 1. Titular autenticado <br> 2. Ter eventos vinculados ao seu plano |
@@ -651,7 +651,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo | Descrição |
 |  -----------------  |  ------------------------------------------------------------------------------------------------------------------------------  |
-| UC24 | Registrar denúncia contra profissional |
+| <a id="UC24"></a>UC24 | Registrar denúncia contra profissional |
 | Descrição | Permitir que o titular registre denúncias sobre condutas inadequadas de profissionais da rede credenciada. |
 | Ator | Titular |
 | Pré-condições | 1. Titular autenticado <br> 2. Consulta ou atendimento realizado com profissional credenciado |
@@ -673,7 +673,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo | Descrição |
 |  -----------------  |  ---------------------------------------------------------------------------------------------------------------------------------------------  |
-| UC25 |Comunicar com folha de pagamento do GDF |
+| <a id="UC25"></a>UC25 |Comunicar com folha de pagamento do GDF |
 | Descrição | Permitir comunicação automatizada entre o sistema e a folha de pagamento do GDF para descontos de mensalidades. |
 | Ator | Sistema |
 | Pré-condições | 1. Titular com vínculo ativo ao GDF <br> 2. Plano de saúde com mensalidade ativa |
@@ -695,7 +695,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo | Descrição |
 |  -----------------  |  -------------------------------------------------------------------------------------------------------------------  |
-| UC26 | Acesso rápido à carteirinha digital |
+| <a id="UC26"></a>UC26 | Acesso rápido à carteirinha digital |
 | Descrição | Garantir que a carteirinha digital esteja acessível em até três cliques ou no máximo dois a partir da tela inicial. |
 | Ator | Titular |
 | Pré-condições | 1. Aplicativo instalado <br> 2. Titular autenticado |
@@ -717,7 +717,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo | Descrição |
 |-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| UC27 | Visualizar histórico de guias |
+| <a id="UC27"></a>UC27 | Visualizar histórico de guias |
 | Descrição | O caso de uso possibilita ao usuário visualizar seu histórico de guias, incluindo consultas médicas, exames realizados, resultados de exames laboratoriais e coparticipações, de forma organizada e acessível no GDF Saúde. |
 | Ator | Usuário cadastrado no plano de saúde GDF Saúde. |
 | Pré-condições | O GDF Saúde deve conter registros de saúde do usuário. |
@@ -738,11 +738,11 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo           | Descrição                                                                                                                                        |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| UC28            | Favoritar Horários de Consulta                                                                                                                                                                                                                                                                                                                                      |
-| Descrição       | Permite ao usuário marcar horários preferidos para agendamentos futuros no GDF Saúde, facilitando agendamentos com rapidez e conveniência.                                                                                                                                                                                                                          |
-| Ator            | Usuário cadastrado no plano de saúde GDF Saúde.                                                                                                                                                                                                                                                                                                                     |
-| Pré-condições   | O GDF Saúde deve exibir horários disponíveis para consulta.                                                                                                                                                                                                                                                                                                         |
-| Ação            | O usuário acessa a seção de agendamento, seleciona horários para favoritar e confirma a ação.                                                                                                                                                                                                                                |
+| <a id="UC28"></a>UC28            | Favoritar Horários de Consulta|
+| Descrição       | Permite ao usuário marcar horários preferidos para agendamentos futuros no GDF Saúde, facilitando agendamentos com rapidez e conveniência.|
+| Ator            | Usuário cadastrado no plano de saúde GDF Saúde.|
+| Pré-condições   | O GDF Saúde deve exibir horários disponíveis para consulta.|
+| Ação            | O usuário acessa a seção de agendamento, seleciona horários para favoritar e confirma a ação.|
 | Fluxo Básico    | 1. O sistema exibe horários disponíveis.<br>2. O usuário seleciona horários para favoritar.<br>3. O usuário confirma a ação.<br>4. O sistema salva os horários na lista de favoritos.<br>5. Finaliza caso de uso.                                                                                                            |
 | Fluxo Alternativo| FA1. Horário Indisponível:<br>- Se um horário selecionado estiver indisponível, o sistema notifica "Horário não disponível" e remove-o da seleção.<br>- O sistema retoma ao passo 2 do fluxo básico.                                                                                                                         |
 | Fluxo de Exceção| FE1. Erro Técnico:<br>- Se ocorrer erro ao salvar, o sistema exibe "Erro ao salvar horário" e oferece opção de tentar novamente.<br>- Finaliza fluxo.                                                                                                                                |
@@ -759,11 +759,11 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo           | Descrição                                                                                                                                                                                                                                            |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| UC29            | Solicitação de Reembolso de Cobrança Indevida                                                                                                                                                          |
-| Descrição       | Permite ao usuário solicitar reembolso de valores cobrados indevidamente no GDF Saúde, fornecendo justificativa e documentos para análise, garantindo um processo transparente e eficiente.                                                                                                                                                                                                                                          |
-| Ator            | Usuário cadastrado no plano de saúde GDF Saúde.                                                                                                                                                                                                                                                            |
-| Pré-condições   | 1. O usuário deve ter uma cobrança registrada no GDF Saúde.<br>2. A solicitação deve ser feita dentro de 30 dias da cobrança indevida.                                                                                                                                                     |
-| Ação            | O usuário acessa a seção de reembolso, seleciona a cobrança indevida, preenche justificativa, anexa documentos e envia a solicitação para análise.                                                                                                                                                                                                                             |
+| <a id="UC29"></a>UC29            | Solicitação de Reembolso de Cobrança Indevida|
+| Descrição       | Permite ao usuário solicitar reembolso de valores cobrados indevidamente no GDF Saúde, fornecendo justificativa e documentos para análise, garantindo um processo transparente e eficiente.|
+| Ator            | Usuário cadastrado no plano de saúde GDF Saúde.|
+| Pré-condições   | 1. O usuário deve ter uma cobrança registrada no GDF Saúde.<br>2. A solicitação deve ser feita dentro de 30 dias da cobrança indevida.|
+| Ação            | O usuário acessa a seção de reembolso, seleciona a cobrança indevida, preenche justificativa, anexa documentos e envia a solicitação para análise.|
 | Fluxo Básico    | 1. O sistema exibe uma lista de cobranças recentes.<br>2. O usuário seleciona a cobrança indevida.<br>3. O sistema apresenta formulário para justificativa e anexos.<br>4. O usuário preenche justificativa e anexa documentos.<br>5. O sistema valida e envia a solicitação.<br>6. O sistema notifica o usuário.<br>7. Finaliza caso de uso.                                                                                                    |
 | Fluxo Alternativo| FA1. Documentação Incompleta:<br>- No passo 4, se a documentação estiver incompleta, o sistema solicita os arquivos faltantes.<br>- O usuário anexa os documentos adicionais.<br>- O sistema retoma ao passo 5.                                                                                                                                          |
 | Fluxo de Exceção| FE1. Erro Técnico:<br>- No passo 5, caso ocorra erro técnico, o sistema exibe "Erro ao enviar solicitação" e oferece opção de tentar novamente.<br>- Finaliza fluxo.                                                                                                                                             |
@@ -780,7 +780,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo           | Descrição                                                                                           |
 |-----------------|-----------------------------------------------------------------------------------------------------|
-| UC30            | Acessar Histórico de Notificações                                                                   |
+| <a id="UC30"></a>UC30            | Acessar Histórico de Notificações                                                                   |
 | Descrição       | Permite ao usuário visualizar notificações recebidas nos últimos 6 meses no GDF Saúde.              |
 | Ator            | Usuário cadastrado no plano de saúde GDF Saúde.                                                     |
 | Pré-condições   | O GDF Saúde deve ter notificações armazenadas por pelo menos 6 meses.                               |
@@ -801,7 +801,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo           | Descrição                                                                                                                                                                                                                  |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| UC31            | Receber suporte via chat ou telefone                                                                                                                                                |
+| <a id="UC31"></a>UC31            | Receber suporte via chat ou telefone                                                                                                                                                |
 | Descrição       | O caso de uso possibilita ao usuário receber suporte por chat ou telefone para resolver dúvidas ou problemas, com tempos de resposta definidos.                                      |
 | Ator            | Usuário cadastrado no plano de saúde GDF Saúde, Agente de Suporte                                                                            |
 | Pré-condições   | O GDF Saúde deve ter canais de suporte (chat ou telefone) ativos.                                                                            |
@@ -822,7 +822,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo | Descrição | 
 |-----------------------|-------------------------------------------------------------------------------| 
-| UC32 | Enviar Feedback de Atendimento     |
+| <a id="UC32"></a>UC32 | Enviar Feedback de Atendimento     |
 | Descrição | Permitir que o usuário acesse o app mediante autenticação GovBR. |
 | Ator | - Usuário cadastrado no GovBR|
 | Pré-condições | 1. Usuário autenticado <br> 2. Consulta já realizada <br> 3. Conexão com a internet ativa|
@@ -841,7 +841,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo | Descrição | 
 |-----------------------|-------------------------------------------------------------------------------| 
-| UC33 |Acessar Informações sobre Novas Funcionalidades    |
+| <a id="UC33"></a>UC33 |Acessar Informações sobre Novas Funcionalidades    |
 | Descrição | Permitir que o usuário acesse informações divulgadas pelo sistema sobre novas funcionalidades do aplicativo. |
 | Ator | - Usuário do plano de saúde. -Sistema do GDF Saúde  |
 | Pré-condições | 1. Aplicativo iniciado <br> 2. Conexão com a internet ativ|
@@ -860,7 +860,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo | Descrição | 
 |-----------------------|-------------------------------------------------------------------------------| 
-| UC34 |Acessar Aplicativo em Modo Offline.    |
+| <a id="UC34"></a>UC34 |Acessar Aplicativo em Modo Offline.    |
 | Descrição | Permitir que o usuário acesse o aplicativo e utilize funcionalidades básicas como carteirinha e histórico de consultas sem conexão com a internet. |
 | Ator | - Usuário do plano de saúde. |
 | Pré-condições | 1. Aplicativo instalado <br> 2. Dados sincronizados previamente <br> 3. Sem conexão com internet.| 
@@ -881,7 +881,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo | Descrição | 
 |-----------------------|-------------------------------------------------------------------------------| 
-| UC35 | Fazer login via GovBR |
+| <a id="UC35"></a>UC35 | Fazer login via GovBR |
 | Descrição | Permitir que o usuário acesse o app mediante autenticação GovBR. |
 | Ator | Usuário cadastrado no GovBR |
 | Pré-condições | App instalado, conexão à internet e conta GovBR ativa. |
@@ -900,7 +900,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo | Descrição |
 |-----------------------|-------------------------------------------------------------------------------|
-| UC36 | Consultar rede odontológica |
+| <a id="UC36"></a>UC36 | Consultar rede odontológica |
 | Descrição | Permitir ao usuário buscar clínicas odontológicas cadastradas. |
 | Ator | Usuário autenticado |
 | Pré-condições | Usuário estar logado via GovBR. |
@@ -919,7 +919,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo | Descrição |
 |-----------------------|-------------------------------------------------------------------------------| 
-| UC37| Buscar clínicas próximas |
+| <a id="UC37"></a>UC37| Buscar clínicas próximas |
 | Descrição | Apresentar clínicas próximas com base na localização do usuário. |
 | Ator | Usuário autenticado |
 | Pré-condições | Usuário logado e permissão para uso de geolocalização. |
@@ -938,7 +938,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo | Descrição |
 |-----------------------|-------------------------------------------------------------------------------|
-| UC38 | Baixar comprovante de agendamento |
+| <a id="UC38"></a>UC38 | Baixar comprovante de agendamento |
 | Descrição | Permitir ao usuário baixar comprovantes de agendamentos realizados. |
 | Ator | Usuário autenticado com agendamento ativo. |
 | Pré-condições | Usuário logado e agendamento confirmado. |
@@ -976,3 +976,5 @@ Lucid Software Português. *Tutorial de Caso de Uso UML*. Youtube, 25 abr. 2019.
 |`1.5`  | 17/05/2025  | Adição dos casos de usos referentes aos requisitos funcionais 7, 8 e 18 e dos requisitos não funcionais 9 e 10 | [Lucas Alves](https://github.com/LucasAlves71) | [Yzabella Miranda](https://github.com/redjsun) |
 |`1.6`  | 17/05/2025  | Adição dos casos de usos referentes aos requisitos funcionais 11 e 12 e dos requisitos não funcionais 13 e 14 | [Othavio Bolzan](https://github.com/bolzanMGB) | [Kaleb Macedo](https://github.com/kalebmacedo) |
 |`1.7`  | 17/05/2025  | Adição dos casos de usos referentes aos requisitos funcionais 13, 14 e 15 e dos requisitos não funcionais 15 | [Yzabella Miranda](https://github.com/redjsun) |[Othavio Bolzan](https://github.com/bolzanMGB) |
+|`1.8`  | 08/06/2025  | Adição de ancoras | [Isaque Camargos](https://github.com/isaqzin) | [Lucas Alves](https://github.com/LucasAlves71) |
+
