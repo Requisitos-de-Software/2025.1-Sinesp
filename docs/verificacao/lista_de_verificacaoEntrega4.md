@@ -10,6 +10,14 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 - Facilitar o processo de revisão pelos integrantes do grupo;
 - Assegurar que todos os itens exigidos estejam completos e corretos.
 
+## Metodologia
+A abordagem selecionada para esta verificação é uma versão adaptada da técnica de inspeção. Criada por Fagan na IBM em 1976, inicialmente para analisar códigos de software, essa metodologia envolve uma avaliação formal dos artefatos desenvolvidos com o objetivo de identificar possíveis falhas. A Figura 1 ilustra as fases propostas por Fagan para esse procedimento.
+
+<p align="center">
+  <img src="..\..\assets\lventrega5\inspencao-fagan.png" alt="Etapas da Inspeção de acordo com Fagan" width="600"/>
+</p>
+<p align="center"><strong>Figura 1: Etapas da Inspeção de acordo com Fagan. </strong><br><em>Fonte: SOMMERVILLE (2007).</em></p>
+
 ---
 
 ## Lista de Verificação - Baseada no plano de ensino 
@@ -132,6 +140,10 @@ SBOK® GUIDE. *Scrum Body of Knowledge (SBOK® Guide)*. 4. ed. [S. l.]: Scrum St
 
 SILVA, Reinaldo Antônio da. *NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados*. 2019. Dissertação (Mestrado em Ciência da Computação) – Programa de Pós-Graduação em Ciência da Computação, Universidade Federal de Pernambuco, Recife. Disponível em: [site](https://aprender3.unb.br/pluginfile.php/3096155/mod_resource/content/2/DISSERTAÇÃO%20Reinaldo%20Antônio%20da%20Silva.pdf) . Acesso em: 31 maio 2025.
 
+REQUISTOS DE SOFTWARE. *Planejamento da Verificação da Etapa 1 do Grupo 2*. Disponível em: [site](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/verificacao/grupo2/entrega1/planejamento-verificacao-e1-grupo2/). Acesso em: 8 jun. 2025.
+
+SOMMERVILLE, Ian. *Engenharia de software*. 08. ed. São Paulo: Pearson Addison Wesley, 2007.
+
 ## Histórico de Versões
 
 | Versão | Data       | Descrição            | Autor(es)                                       | Revisor(es)                                 |
@@ -140,3 +152,4 @@ SILVA, Reinaldo Antônio da. *NFR4ES: Um Catálogo de Requisitos Não-Funcionais
 | `1.1`  | 31/05/2025 | Criação das listas de verificação baseadas no plano de ensino e itens tecnicos e documentação. | [Yzabella Miranda](https://github.com/redjsun) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 | `1.2`  | 31/05/2025 | Criação das listas de verificação história de usuário e  NFR| [Yzabella Miranda](https://github.com/redjsun) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 | `1.3`  | 01/06/2025 | Criação da lista de verificação  backlog. | [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+| `1.4`  | 06/06/2025 | Adição de tópico referente a metodologia da lista de verificação junto a um link de fonte. | [Yzabella Miranda](https://github.com/redjsun) | [Isaque Camargos](https://github.com/isaqzin) |

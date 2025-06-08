@@ -8,6 +8,11 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 - Facilitar o processo de revisão pelos integrantes do grupo;
 - Assegurar que todos os itens exigidos estejam completos e corretos.
 
+## Metodologia
+A metodologia escolhida para esta verificação é uma adaptação da inspeção. Desenvolvida originalmente para códigos de software por Fagan na IBM em 1976, essa técnica consiste em uma revisão formal dos artefatos produzidos a fim de se encontrar defeitos, a figura 1 exemplifica as etapas que Fagan propôs para esse processo.
+
+**Figura 1** - Etapas da Inspeção de acordo com Fagan. ![inspecaofagan](../../../assets/inspecao-fagan.png) _Fonte: SOMMERVILLE (2007)._4 PROCURAR ESSA FONTE
+
 ---
 
 ## Lista de Verificação - Baseada no plano de ensino 
@@ -154,9 +159,14 @@ BRASIL. Ministério da Ciência, Tecnologia e Inovações. Especificação Suple
 pag 4-5. Disponível em:
 [Especificação Suplementar](https://pdp.mctic.gov.br/MCTI-PDP/guidances/examples/Especificacao%20Suplementar_4C68A4F4.html). Acesso em: 13 maio 2025.
 
+REQUISTOS DE SOFTWARE. *Planejamento da Verificação da Etapa 1 do Grupo 2*. Disponível em: [site](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/verificacao/grupo2/entrega1/planejamento-verificacao-e1-grupo2/). Acesso em: 8 jun. 2025.
+
+SOMMERVILLE, Ian. *Engenharia de software*. 08. ed. São Paulo: Pearson Addison Wesley, 2007.
+
 ## Histórico de Versões
 
 | Versão | Data       | Descrição            | Autor(es)                                       | Revisor(es)                                 |
 | ------ | ---------- | -------------------- | ----------------------------------------------- | ------------------------------------------- |
 | `1.0`  | 16/05/2025 | Adição das tabelas do plano de ensino, estruturação do documento e adição de itens nas tabelas de Casos de uso, cenários e Especificação suplementar | [Isaque Camargos](https://github.com/isaqzin) | [Lucas Alves](https://github.com/LucasAlves71) |
 | `1.1`  | 18/05/2025 | Adição da tabela de léxico e adiação de mais itens de verificação nas tabelas de Casos de uso, cenários e Especificação suplementar| [Othavio Bolzan](https://github.com/bolzanMGB) | [Lucas Alves](https://github.com/LucasAlves71) |
+| `1.2`  | 06/06/2025 | Adição de tópico referente a metodologia da lista de verificação junto a um link de fonte. | [Yzabella Miranda](https://github.com/redjsun) | [Isaque Camargos](https://github.com/isaqzin) |
