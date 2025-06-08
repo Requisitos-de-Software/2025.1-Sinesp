@@ -9,9 +9,13 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 - Assegurar que todos os itens exigidos estejam completos e corretos.
 
 ## Metodologia
-A metodologia escolhida para esta verificação é uma adaptação da inspeção. Desenvolvida originalmente para códigos de software por Fagan na IBM em 1976, essa técnica consiste em uma revisão formal dos artefatos produzidos a fim de se encontrar defeitos, a figura 1 exemplifica as etapas que Fagan propôs para esse processo.
+A abordagem selecionada para esta verificação é uma versão adaptada da técnica de inspeção. Criada por Fagan na IBM em 1976, inicialmente para analisar códigos de software, essa metodologia envolve uma avaliação formal dos artefatos desenvolvidos com o objetivo de identificar possíveis falhas. A Figura 1 ilustra as fases propostas por Fagan para esse procedimento.
 
-**Figura 1** - Etapas da Inspeção de acordo com Fagan. ![inspecaofagan](../../../assets/inspecao-fagan.png) _Fonte: SOMMERVILLE (2007)._4 PROCURAR ESSA FONTE
+<p align="center">Figura 1: Etapas da Inspeção de acordo com Fagan. </p>
+<p align="center">
+  <img src="..\..\..\assets\inspencao-fagan.png" alt="Etapas da Inspeção de acordo com Fagan" width="600"/>
+</p>
+<p  align="center">Fonte:<a  > SOMMERVILLE</a></p>
 
 ---
 
