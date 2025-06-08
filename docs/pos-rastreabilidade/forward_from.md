@@ -1,3 +1,7 @@
+# Foward-From
+
+## Introdução
+
 Este documento apresenta a execução da rastreabilidade forward-from no nosso projeto de estudo do aplicativo GDF Saúde, uma prática fundamental na engenharia de requisitos. A rastreabilidade forward-from estabelece ligações  entre os requisitos elicitados com os artefatos de desenho e implementação do sistema, garantindo que cada funcionalidade especificada seja devidamente desenvolvida e rastreada. Esse método contribui para o controle de qualidade e facilita a verificação do cumprimento dos requisitos 
 
 
@@ -44,7 +48,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram no refinamen
     </table>
 </div>
 
-<p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Isaque Camargos</a>, <a  href="https://github.com/isaqzin">Yzabella Miranda</a>, <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a>, <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Isaque Camargos</a>, <a  href="https://github.com/redjsun">Yzabella Miranda</a>, <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a>, <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
 ## Legenda das Tabelas:
 
