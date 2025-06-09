@@ -52,7 +52,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram no refinamen
     </table>
 </div>
 
-<p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Isaque Camargos</a>, <a  href="https://github.com/isaqzin">Yzabella Miranda</a>, <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a>, <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Isaque Camargos</a>, <a  href="https://github.com/redjsun">Yzabella Miranda</a>, <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a>, <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
 ## Metodologia
 
@@ -230,7 +230,7 @@ A tabela 4 detalha os vínculos para os requisitos selecionados. A descrição d
 | <a id="ELOBF67"></a>ELOBF67 | <a href="#BF67">BF67</a> | Satisfação | Este elo de Satisfação formaliza a necessidade de funcionamento offline para carteirinha e histórico de consultas, uma restrição identificada na Introspecção ([RNF13](../elicitacao/requisitos_finais.md#RNF13)), garantindo acessibilidade mesmo sem conexão. |
 | <a id="ELOBF68"></a>ELOBF68 | <a href="#BF68">BF68</a> | Representação | Este elo representa a restrição de que o layout deve ser consistente com o portal oficial ([RNF14](../elicitacao/requisitos_finais.md#RNF14)), um requisito de usabilidade identificado no Questionário ([QT16](../elicitacao/tecnicas/questionario.md#QT16)). |
 
-<p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Yzabella Miranda</a> e <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/redjsun">Yzabella Miranda</a> e <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
 #### Tipos de Elos Utilizados
 
