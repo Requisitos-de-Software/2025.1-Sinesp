@@ -82,7 +82,7 @@ nav:
           - NFR framework: modelagem/metodos_ageis/nfr.md 
 
   - Pós rastreabilidade:
-      - Matriz de Rastreabilidade: pos-rastreabilidade/matriz_rastreabilidade.md
+      - Matriz de Rastreabilidade: pos-rastreabilidade/matriz_geral.md
       - Backward From: pos-rastreabilidade/backward_from.md
       - Forward From: pos-rastreabilidade/forward_from.md
 
@@ -92,11 +92,13 @@ nav:
           - Entrega 2: verificacao/lista_de_VerificacaoEntrega2.md
           - Entrega 3: verificacao/lista_de_verificacaoEntrega3.md
           - Entrega 4: verificacao/lista_de_verificacaoEntrega4.md
+          - Entrega 5: verificacao/lista_de_VerificacaoEntrega6.md
       - Grupo +1:
           - Entrega 1: verificacao/lista_de_VerificacaoEntrega1.md
           - Entrega 2: verificacao/lista_de_VerificacaoEntrega2.md
           - Entrega 3: verificacao/lista_de_verificacaoEntrega3.md
           - Entrega 4: verificacao/lista_de_verificacaoEntrega4.md
+          - Entrega 6: verificacao/lista_de_VerificacaoEntrega6.md
 
   - Inspeção:
       - Grupo -1 e professor: inspecao/grupo-1eprofessor.md
@@ -105,10 +107,12 @@ nav:
           - Entrega 2: inspecao/inspecao_2_grupo.md
           - Entrega 3: inspecao/inspecao_3_grupo.md
           - Entrega 4: inspecao/inspecao_4_grupo.md
+          - Entrega 6: inspecao/inspecao_6_grupo.md
       - Grupo +1:
           - Entrega 1: inspecao/lista_de_inspecaoEntrega1Grupo+1.md
           - Entrega 2: inspecao/inspecao_2_grupo+1.md
           - Entrega 3: inspecao/inspecao_3_grupo+1.md
           - Entrega 4: inspecao/inspecao_4_grupo+1.md
+          - Entrega 6: inspecao/inspecao_6_grupo+1.md
 extra_css:
   - stylesheets/extra.css
