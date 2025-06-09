@@ -191,7 +191,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Título**                 | Combinar Múltiplos Filtros de Pesquisa                                                                                                                                                                               |
 | **História**               | Como um usuário do GDF Saúde,<br>Eu quero combinar diferentes filtros de pesquisa,<br>Para que eu obtenha resultados mais precisos e relevantes.                                                                     |
 | **Critérios de Aceitação** | <br>- Dado que o usuário aplica múltiplos filtros (ex: região + especialidade),<br>- Quando ele executa a pesquisa,<br>- Então o sistema deve retornar resultados que satisfaçam todas as condições simultaneamente. |
-| **Rastreabilidade**        | <a href="../../../elicitacao/requisitos_finais#RF01.3">RF01.2</a>                                                                                                                                                    |
+| **Rastreabilidade**        | <a href="../../../elicitacao/requisitos_finais#RF01.3">RF01.3</a>                                                                                                                                                    |
 | **Épico Relacionado**      | <a href="../backlog#EP01">EP01</a>                                                                                                                                                                                   |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
@@ -412,7 +412,7 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Título**                 | Agendar Consultas e Exames pelo Aplicativo                                                                                                                                                                                           |
 | **História**               | Como um usuário do GDF Saúde,<br>Eu quero agendar consultas e exames diretamente pelo aplicativo,<br>Para que eu possa gerenciar minha saúde de forma conveniente e eficiente.                                                       |
 | **Critérios de Aceitação** | <br>- Dado que o usuário está logado no aplicativo,<br>- Quando ele seleciona a opção de agendamento e escolhe uma especialidade/exame, prestador e horário,<br>- Então o sistema deve confirmar o agendamento e exibir os detalhes. |
-| **Rastreabilidade**        | [RNF05](../../elicitacao/elicitacao.md#RNF05)                                                                                                                                                                                        |
+| **Rastreabilidade**        | [RF05.1](../../elicitacao/requisitos_finais.md#RF05.1)                                                                                                                                                                                        |
 | **Épico Relacionado**      | <a href="../backlog#EP09">EP09</a>                                                                                                                                                                                                   |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>

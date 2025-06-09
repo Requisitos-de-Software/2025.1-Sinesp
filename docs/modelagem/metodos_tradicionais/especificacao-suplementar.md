@@ -45,7 +45,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram desta etapa 
             </tr>
             <tr>
                 <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
-                <td>Classificação dos requisitos não funcionais: <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF04">RNF04</a>, <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF06">RNF06</a>.</td>
+                <td>Classificação dos requisitos não funcionais: <a id="RNF04" href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF04">RNF04</a>, <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF06">RNF06</a>.</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
@@ -150,7 +150,7 @@ Esta seção descreve os requisitos relacionados istema de oferecer manutenção
     </tr>
   </thead>
   <tbody>
-    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF05">RNF05</a></td><td>O sistema deve ser compatível com diferentes versões do Android e iOS, a partir das versões mais utilizadas no mercado.</td></tr>
+    <tr><td><a  id="RNF05" href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF05">RNF05</a></td><td>O sistema deve ser compatível com diferentes versões do Android e iOS, a partir das versões mais utilizadas no mercado.</td></tr>
   </tbody>
 </table>
 

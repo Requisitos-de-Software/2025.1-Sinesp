@@ -283,20 +283,20 @@ A Tabela 3 apresenta os requisitos extraídos, com identificadores, tipo e statu
 
 <p align="center">Tabela 3 – Requisitos Elicitados</p>
 
-| **ID**                        | **Descrição**                                                                 | **Tipo** | **Implementado** |
-|-------------------------------|-------------------------------------------------------------------------------|----------|------------------|
-| EN01                          | Permitir ao usuário pesquisar clínicas e profissionais credenciados por especialidade. | RF01     | sim              |
-| EN02                          | Oferecer filtros por região administrativa e especialidade.                   | RF01     | sim              |
-| EN03                          | Disponibilizar sistema de avaliação de clínicas com notas e comentários.      | RF02     | não              |
-| EN04                          | Exibir carteirinha digital mesmo sem conexão (offline).                      | RF03     | não              |
-| EN05                          | Permitir configurar notificações via app, SMS ou e-mail.                     | RF04     | não              |
-| EN06                          | Enviar alertas antes do vencimento da fatura.                                 | RF04     | não              |
-| EN07                          | Permitir agendamento de consultas e exames pelo aplicativo.                   | RF05     | não              |
-| EN08                          | Exibir valor específico de consulta em cada clínica credenciada.              | RF05     | não              |
-| EN09                          | Apresentar novas clínicas e próximas de acordo com a localização do usuário.  | RF14     | não              |
-| EN10                          | Interface intuitiva com filtros e menus claros.                              | RNF01    | sim              |
-| EN11                          | Garantir carregamento rápido e fluido das telas.                              | RNF02    | sim              |
-| EN12                          | Assegurar segurança no acesso e armazenamento de dados pessoais.              | RNF03    | sim              |
+| **ID**                  | **Descrição**                                                                 | **Tipo** | **Implementado** |
+|-------------------------|-------------------------------------------------------------------------------|----------|------------------|
+| <a id="EN01"></a>EN01   | Permitir ao usuário pesquisar clínicas e profissionais credenciados por especialidade. | RF01     | Sim              |
+| <a id="EN02"></a>EN02   | Oferecer filtros por região administrativa e especialidade.                   | RF01     | Sim              |
+| <a id="EN03"></a>EN03   | Disponibilizar sistema de avaliação de clínicas com notas e comentários.      | RF02     | Não              |
+| <a id="EN04"></a>EN04   | Exibir carteirinha digital mesmo sem conexão (offline).                      | RF03     | Não              |
+| <a id="EN05"></a>EN05   | Permitir configurar notificações via app, SMS ou e-mail.                     | RF04     | Não              |
+| <a id="EN06"></a>EN06   | Enviar alertas antes do vencimento da fatura.                                 | RF04     | Não              |
+| <a id="EN07"></a>EN07   | Permitir agendamento de consultas e exames pelo aplicativo.                   | RF05     | Não              |
+| <a id="EN08"></a>EN08   | Exibir valor específico de consulta em cada clínica credenciada.              | RF05     | Não              |
+| <a id="EN09"></a>EN09   | Apresentar novas clínicas e próximas de acordo com a localização do usuário.  | RF14     | Não              |
+| <a id="EN10"></a>EN10   | Interface intuitiva com filtros e menus claros.                              | RNF01    | Sim              |
+| <a id="EN11"></a>EN11   | Garantir carregamento rápido e fluido das telas.                              | RNF02    | Sim              |
+| <a id="EN12"></a>EN12   | Assegurar segurança no acesso e armazenamento de dados pessoais.              | RNF03    | Sim              |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -318,3 +318,4 @@ Robby. *Elicitation Interview Questions*. Your Career Support. 24 out. 2022. Dis
 | ``1.3``  | 03/05/2025 | Correção de contagem de perguntas e inclusão de termo consentimento | [Isaque Camargos](https://github.com/isaqzin) |[Yzabella Miranda](https://github.com/redjsun) |
 | ``1.4``  | 10/05/2025 | Modificação da documentação para estar de acordo com as outras técnicas | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) |
 | ``1.5``  | 12/05/2025 | Ajuste na formatação para renderização correta | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) |
+| ``1.6``  | 08/06/2025 | Adicionando rastreabilidade na tabela de requisitos | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin) |
