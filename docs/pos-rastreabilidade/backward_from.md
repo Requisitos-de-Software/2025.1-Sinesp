@@ -31,7 +31,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram no refinamen
             </tr>
             <tr>
                 <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
-                <td>Realizou a rastreabilidade backward-from <a href="#BF22">BF22</a> a <a href="#BF28">BF27</a>, <a href="#BF60">BF60</a>, <a href="BF61">BF61</a> e <a href="#BF68">BF68</a>. Além dos ELOS do mesmo intervalo, <a href="#ELO22">ELO22</a> a <a href="#ELO28">ELO28</a>, <a href="#ELO60">ELO60</a>, <a href="#ELO61">ELO61</a> e <a href="#ELO68">ELO68</a></td>
+                <td>Redigiu a introdução e realizou a rastreabilidade backward-from <a href="#BF22">BF22</a> a <a href="#BF28">BF27</a>, <a href="#BF60">BF60</a>, <a href="BF61">BF61</a> e <a href="#BF68">BF68</a>. Além dos ELOS do mesmo intervalo, <a href="#ELO22">ELO22</a> a <a href="#ELO28">ELO28</a>, <a href="#ELO60">ELO60</a>, <a href="#ELO61">ELO61</a> e <a href="#ELO68">ELO68</a></td>
             </tr>
             <tr>
                 <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>  
@@ -149,7 +149,7 @@ Na tabela 3 encontra-se a rastreabilidade Backward from dos requisitos não func
 |<a id="BF65"></a>BF65|[RNF11](../elicitacao/elicitacao.md#RNF11)| <a id="RNF11"></a>[RNF11](../elicitacao/requisitos_finais.md#RNF11) | Manter histórico de notificações acessível ao usuário por no mínimo 6 meses. | [GF16](../elicitacao/tecnicas/grupo_focal.md#GF16) | Não |[ELOBF65](#ELOBF65)|
 ||| <a id="RNF12"></a>RNF12     | O aplicativo deve oferecer suporte por chat ou telefone.                                                                            | [IS15](../elicitacao/tecnicas/introspeccao.md#IS15)  | Sim              ||
 ||| <a id="RNF13"></a>RNF13    | Deve funcionar de forma offline para acesso à carteirinha e histórico de consultas.                               | [IS19](../elicitacao/tecnicas/introspeccao.md#IS19)                          | Não              ||
-|<a id="BF68"></a>BF68| [RNF14](../elicitacao/elicitacao.md#RNF14) | [RNF14](../elicitacao/elicitacao.md#RNF14)    | O layout deve ser consistente com o portal oficial do plano.                                                      | [QT16](../elicitacao/tecnicas/questionario.md#QT16)                          | Não              ||
+|<a id="BF68"></a>BF68| [RNF14](../elicitacao/elicitacao.md#RNF14) | [RNF14](../elicitacao/elicitacao.md#RNF14)    | O layout deve ser consistente com o portal oficial do plano.                                                      | [QT16](../elicitacao/tecnicas/questionario.md#QT16)                          | Não              | <a href="#ELOBF68">ELOBF68</a> |
 ||| <a id="RNF15"></a>RNF15    | O sistema deve exigir autenticação via GovBR para login.                                                          | [GF11](../elicitacao/tecnicas/grupo_focal.md#GF11)                          | Não              ||
 ||| <a id="RNF16"></a>RNF16    | As informações exibidas devem ser claras, completas e atualizadas em tempo real.                                  | [QT13](../elicitacao/tecnicas/questionario.md#QT13)                          | Sim ||
 
@@ -222,3 +222,4 @@ Conecta um requisito de origem (ex: uma funcionalidade) a um requisito de destin
 | Versão | Data          | Descrição                          | Autor(es)     |  Revisor(es)  |
 | ------ | ------------- | ---------------------------------- | ------------- | ------------- |
 | `1.0`  |  08/06/2025 |  Iniciou o documento colocando a tabela com todos os requisitos e fez o backward from <a href="#BF15">BF15</a> a <a href="#BF21">BF21</a>, <a href="#BF58">BF58</a> e <a href="#BF59">BF59</a> e os elos de mesmo intervalo, <a href="#ELO15">ELO15</a> a <a href="#ELO21">ELO21</a>, <a href="#ELO58">ELO58</a> e <a href="#ELO59">ELO59</a> | [Isaque Camargos](https://github.com/isaqzin)  | [Ana Luiza](https://github.com/Ana-Luiza-SC) |
+| `1.1`  |  08/06/2025 |  Redigiu a introdução e realizou a rastreabilidade backward-from <a href="#BF22">BF22</a> a <a href="#BF28">BF27</a>, <a href="#BF60">BF60</a>, <a href="BF61">BF61</a> e <a href="#BF68">BF68</a>. Além dos ELOS do mesmo intervalo, <a href="#ELO22">ELO22</a> a <a href="#ELO28">ELO28</a>, <a href="#ELO60">ELO60</a>, <a href="#ELO61">ELO61</a> e <a href="#ELO68">ELO68</a> | [Matheus de Alcântara](https://github.com/matheusdealcantara)  | [Isaque Camargos](https://github.com/isaqzin) |
