@@ -157,24 +157,69 @@ Na tabela 3 encontra-se a rastreabilidade Forward from dos requisitos não funci
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
 
-### Elos de Rastreabilidade
+### Elos de Rastreabilidade (Forward-From)
 
-A tabela 4 detalha os vínculos para os requisitos selecionados. A descrição de cada elo agora inclui sua rastreabilidade para a fonte de elicitação (ex: [EN01](../elicitacao/tecnicas/entrevista.md#EN01), [GF01](../elicitacao/tecnicas/grupo_focal.md#GF01)), estabelecendo o vínculo *backward-from*, e também sua relação com outros requisitos do sistema.
+A tabela 4 detalha os vínculos *forward-from* para os requisitos selecionados. A descrição de cada elo mostra como o requisito é rastreado para frente, conectando-se aos artefatos de modelagem e planejamento que orientam sua implementação.
 
-<p align="center">Tabela 4: Elos de Rastreabilidade</p>
+<p align="center">Tabela 4: Elos de Rastreabilidade (Forward-From)</p>
 
-| **Elo**      | **Requisito** | **Tipo de Vínculo** | **Descrição do Elo** |
-|--------------|---------------|---------------------|----------------------|
-| ELOFF22    | [RF06.1](../elicitacao/requisitos_finais.md#RF06.1) | Satisfação | O requisito é satisfeito e detalhado pela História de Usuário [US19](../modelagem/metodos_ageis/historias_todos02.md#US19): "Exibir Valor da Consulta por Clínica". |
-| ELOFF23    | [RF06.2](../elicitacao/requisitos_finais.md#RF06.2) | Satisfação | A implementação deste requisito é definida pela História de Usuário [US20](../modelagem/metodos_ageis/historias_todos02.md#US20): "Visualizar Valor da Coparticipação". |
-| ELOFF24    | [RF06.3](../elicitacao/requisitos_finais.md#RF06.3) | Satisfação | Satisfeito pela História de Usuário [US21](../modelagem/metodos_ageis/historias_todos02.md#US21): "Gerar e Baixar Demonstrativo para Imposto de Renda". |
-| ELOFF25    | [RF06.4](../elicitacao/requisitos_finais.md#RF06.4) | Representação | Este requisito é representado e especificado pelo Caso de Uso [UC17](../modelagem/metodos_tradicionais/casos_de_usos.md#UC17): "Visualizar histórico de IR". |
-| ELOFF26    | [RF06.5](../elicitacao/requisitos_finais.md#RF06.5) | Satisfação | É satisfeito pela História de Usuário [US32](../modelagem/metodos_ageis/historias_todos02.md#US32): "Visualizar Histórico de Coparticipações", que aborda a funcionalidade do extrato financeiro. |
-| ELOFF27    | [RF07.1](../elicitacao/requisitos_finais.md#RF07.1) | Satisfação | O requisito é diretamente atendido pela História de Usuário [US22](../modelagem/metodos_ageis/historias_todos02.md#US22): "Cadastro de Titular". |
-| ELOFF62    | [RNF06](../elicitacao/requisitos_finais.md#RNF06) | Representação | O comportamento esperado é detalhado no [Cenário 27](../modelagem/metodos_tradicionais/cenarios.md#CE27): "Compatibilidade do aplicativo com leitores de tela", que ilustra o uso prático da acessibilidade. |
-| ELOFF63    | [RNF07](../elicitacao/requisitos_finais.md#RNF07) | Representação | A aplicação desta restrição é especificada no Caso de Uso [UC20](../modelagem/metodos_tradicionais/casos_de_usos.md#UC20): "Verificar conformidade com LGPD", que descreve a verificação funcional das regras de negócio. |
-| ELOFF70      | [RNF14](../elicitacao/requisitos_finais.md#RNF14) | Representação | Este requisito é representado como um softgoal dentro do [NFR Framework](../modelagem/metodos_ageis/nfr.md#RNF14), onde é acompanhado na categoria NFR 01 (Usabilidade). |
+| Elo | Requisito | Tipo de Vínculo | Descrição do Elo |
+| :--- | :--- | :--- | :--- |
+| ELOFF01 | [RF01.1](../elicitacao/requisitos_finais.md#RF01.1) | Representação | O requisito é representado em detalhes pelo [Caso de Uso UC01](../modelagem/metodos_tradicionais/casos_de_usos.md#UC01) e pelo [Cenário CE01](../modelagem/metodos_tradicionais/cenarios.md#CE01), e sua implementação está descrita na [História de Usuário US01](../modelagem/metodos_ageis/historias_todos02.md#US01). |
+| ELOFF02 | [RF01.2](../elicitacao/requisitos_finais.md#RF01.2) | Representação | A funcionalidade é detalhada no [Caso de Uso UC01](../modelagem/metodos_tradicionais/casos_de_usos.md#UC01) e na [História de Usuário US02](../modelagem/metodos_ageis/historias_todos02.md#US02), que descrevem a interação do usuário ao buscar profissionais. |
+| ELOFF03 | [RF01.3](../elicitacao/requisitos_finais.md#RF01.3) | Agregação | Este requisito agrega as funcionalidades de busca de [RF01.1](../elicitacao/requisitos_finais.md#RF01.1) e [RF01.2](../elicitacao/requisitos_finais.md#RF01.2). Sua implementação está descrita na [História de Usuário US03](../modelagem/metodos_ageis/historias_todos02.md#US03). |
+| ELOFF04 | [RF01.4](../elicitacao/requisitos_finais.md#RF01.4) | Representação | O requisito é representado pelo [Caso de Uso UC01](../modelagem/metodos_tradicionais/casos_de_usos.md#UC01), que inclui a busca por proximidade como um de seus fluxos. |
+| ELOFF05 | [RF01.6](../elicitacao/requisitos_finais.md#RF01.6) | Representação | O requisito é detalhado no [Cenário CE01](../modelagem/metodos_tradicionais/cenarios.md#CE01) como um dos filtros aplicados pelo usuário. |
+| ELOFF06 | [RF02.1](../elicitacao/requisitos_finais.md#RF02.1) | Representação | O requisito é representado pela [História de Usuário US04](../modelagem/metodos_ageis/historias_todos02.md#US04) e modelado no [Caso de Uso UC02](../modelagem/metodos_tradicionais/casos_de_usos.md#UC02). |
+| ELOFF07 | [RF02.2](../elicitacao/requisitos_finais.md#RF02.2) | Alocado | O requisito foi alocado para desenvolvimento no **Tema 02** ([TM02](../modelagem/metodos_ageis/backlog.md#TM02)) do Backlog, sendo detalhado pela [História de Usuário US05](../modelagem/metodos_ageis/historias_todos02.md#US05). |
+| ELOFF15 | [RF04.5](../elicitacao/requisitos_finais.md#RF04.5) | Alocado | O requisito foi alocado ao **Épico EP08** ([EP08](../modelagem/metodos_ageis/backlog.md#EP08)) e sua implementação é guiada pela [História de Usuário US11](../modelagem/metodos_ageis/historias_todos02.md#US11). |
+| ELOFF16 | [RF04.6](../elicitacao/requisitos_finais.md#RF04.6) | Representação | O requisito é representado pelo [Caso de Uso UC10](../modelagem/metodos_tradicionais/casos_de_usos.md#UC10) e detalhado no [Cenário CE04](../modelagem/metodos_tradicionais/cenarios.md#CE04). |
+| ELOFF17 | [RF04.7](../elicitacao/requisitos_finais.md#RF04.7) | Recurso | A implementação deste requisito depende do recurso de configuração de notificações, descrito no [Caso de Uso UC10](../modelagem/metodos_tradicionais/casos_de_usos.md#UC10). |
+| ELOFF18 | [RF04.8](../elicitacao/requisitos_finais.md#RF04.8) | Representação | A notificação de alteração representa um evento do [Caso de Uso UC11](../modelagem/metodos_tradicionais/casos_de_usos.md#UC11), que trata do envio de notificações. |
+| ELOFF19 | [RF04.9](../elicitacao/requisitos_finais.md#RF04.9) | Recurso | Este requisito depende do recurso (demonstrativo gerado) do requisito `RF06.3`, cuja história de usuário é a [US15](../modelagem/metodos_ageis/historias_todos02.md#US15). |
+| ELOFF20 | [RF05.1](../elicitacao/requisitos_finais.md#RF05.1) | Alocado | O requisito foi alocado para implementação no **Épico EP09** ([EP09](../modelagem/metodos_ageis/backlog.md#EP09)) do backlog, sendo descrito pela [História de Usuário US16](../modelagem/metodos_ageis/historias_todos02.md#US16). |
+| ELOFF21 | [RF05.2](../elicitacao/requisitos_finais.md#RF05.2) | Agregação | Este requisito agrega a funcionalidade de cancelamento ao [Caso de Uso UC14](../modelagem/metodos_tradicionais/casos_de_usos.md#UC14) e ao [Cenário CE05](../modelagem/metodos_tradicionais/cenarios.md#CE05), complementando o agendamento. |
+| ELOFF22 | [RF06.1](../elicitacao/requisitos_finais.md#RF06.1) | Satisfação | O requisito é satisfeito e detalhado pela História de Usuário [US19](../modelagem/metodos_ageis/historias_todos02.md#US19): "Exibir Valor da Consulta por Clínica". |
+| ELOFF23 | [RF06.2](../elicitacao/requisitos_finais.md#RF06.2) | Satisfação | A implementação deste requisito é definida pela História de Usuário [US20](../modelagem/metodos_ageis/historias_todos02.md#US20): "Visualizar Valor da Coparticipação". |
+| ELOFF24 | [RF06.3](../elicitacao/requisitos_finais.md#RF06.3) | Satisfação | Satisfeito pela História de Usuário [US21](../modelagem/metodos_ageis/historias_todos02.md#US21): "Gerar e Baixar Demonstrativo para Imposto de Renda". |
+| ELOFF25 | [RF06.4](../elicitacao/requisitos_finais.md#RF06.4) | Representação | Este requisito é representado e especificado pelo Caso de Uso [UC17](../modelagem/metodos_tradicionais/casos_de_usos.md#UC17): "Visualizar histórico de IR". |
+| ELOFF26 | [RF06.5](../elicitacao/requisitos_finais.md#RF06.5) | Satisfação | É satisfeito pela História de Usuário [US32](../modelagem/metodos_ageis/historias_todos02.md#US32): "Visualizar Histórico de Coparticipações", que aborda a funcionalidade do extrato financeiro. |
+| ELOFF27 | [RF07.1](../elicitacao/requisitos_finais.md#RF07.1) | Satisfação | O requisito é diretamente atendido pela História de Usuário [US22](../modelagem/metodos_ageis/historias_todos02.md#US22): "Cadastro de Titular". |
+| ELOFF35 | [RF09.3](../elicitacao/requisitos_finais.md#RF09.3) | Representação | O requisito é representado funcionalmente pelo [Caso de Uso UC27](../modelagem/metodos_tradicionais/casos_de_usos.md#UC27) e sua interação é detalhada no [Cenário CE09](../modelagem/metodos_tradicionais/cenarios.md#CE09). |
+| ELOFF36 | [RF09.4](../elicitacao/requisitos_finais.md#RF09.4) | Alocado | O requisito está alocado para desenvolvimento no **Tema 03** ([TM03](../modelagem/metodos_ageis/backlog.md#TM03)), conforme detalhado na [História de Usuário US32](../modelagem/metodos_ageis/historias_todos02.md#US32). |
+| ELOFF37 | [RF10](../elicitacao/requisitos_finais.md#RF10) | Representação | O requisito é modelado pelo [Caso de Uso UC28](../modelagem/metodos_tradicionais/casos_de_usos.md#UC28) e detalhado pelo [Cenário CE10](../modelagem/metodos_tradicionais/cenarios.md#CE10). |
+| ELOFF38 | [RF11](../elicitacao/requisitos_finais.md#RF11) | Representação | A funcionalidade de feedback é descrita pelo [Caso de Uso UC32](../modelagem/metodos_tradicionais/casos_de_usos.md#UC32) e exemplificada no [Cenário CE11](../modelagem/metodos_tradicionais/cenarios.md#CE11). |
+| ELOFF39 | [RF12.1](../elicitacao/requisitos_finais.md#RF12.1) | Alocado | O requisito foi alocado para implementação dentro do **Tema 10** ([TM10](../modelagem/metodos_ageis/backlog.md#TM10)) através da [História de Usuário US35](../modelagem/metodos_ageis/historias_todos02.md#US35). |
+| ELOFF40 | [RF12.2](../elicitacao/requisitos_finais.md#RF12.2) | Agregação | Este requisito agrega a lista de novidades ao [Caso de Uso UC33](../modelagem/metodos_tradicionais/casos_de_usos.md#UC33), que define a seção "Novidades" como um todo. |
+| ELOFF41 | [RF12.3](../elicitacao/requisitos_finais.md#RF12.3) | Representação | O marcador "Novo" é uma representação visual descrita no [Cenário CE12](../modelagem/metodos_tradicionais/cenarios.md#CE12). |
+| ELOFF55 | [RNF01.1](../elicitacao/requisitos_finais.md#RNF01.1) | Satisfação | O requisito de responsividade é um critério que a implementação de artefatos visuais, como o [Protótipo](../modelagem/prototipo.md), deve satisfazer. |
+| ELOFF56 | [RNF02.1](../elicitacao/requisitos_finais.md#RNF02.1) | Satisfação | O requisito de desempenho deve ser satisfeito pela arquitetura e implementação dos Casos de Uso, como o [UC05](../modelagem/metodos_tradicionais/casos_de_usos.md#UC05). |
+| ELOFF58 | [RNF04](../elicitacao/requisitos_finais.md#RNF04) | Satisfação | Funcionalidades críticas, detalhadas em Casos de Uso como o [UC12](../modelagem/metodos_tradicionais/casos_de_usos.md#UC12), devem satisfazer este requisito de alta disponibilidade, cujos detalhes estão na [Especificação Suplementar](../modelagem/metodos_tradicionais/especificacao-suplementar.md). |
+| ELOFF59 | [RNF05](../elicitacao/requisitos_finais.md#RNF05) | Satisfação | O requisito de compatibilidade é um critério que todo o desenvolvimento, gerenciado pelo [Backlog](../modelagem/metodos_ageis/backlog.md), deve satisfazer. |
+| ELOFF62 | [RNF06](../elicitacao/requisitos_finais.md#RNF06) | Representação | O comportamento esperado é detalhado no [Cenário CE27](../modelagem/metodos_tradicionais/cenarios.md#CE27): "Compatibilidade do aplicativo com leitores de tela", que ilustra o uso prático da acessibilidade. |
+| ELOFF63 | [RNF07](../elicitacao/requisitos_finais.md#RNF07) | Representação | A aplicação desta restrição é especificada no Caso de Uso [UC20](../modelagem/metodos_tradicionais/casos_de_usos.md#UC20): "Verificar conformidade com LGPD". |
+| ELOFF64 | [RNF10](../elicitacao/requisitos_finais.md#RNF10) | Satisfação | A usabilidade de funcionalidades como a **carteirinha digital** ([RF03](../elicitacao/requisitos_finais.md#RF03)), modelada no [Caso de Uso UC26](../modelagem/metodos_tradicionais/casos_de_usos.md#UC26), deve satisfazer o critério de acessibilidade rápida. |
+| ELOFF65 | [RNF11](../elicitacao/requisitos_finais.md#RNF11) | Representação | O requisito é representado funcionalmente pelo [Caso de Uso UC30](../modelagem/metodos_tradicionais/casos_de_usos.md#UC30), que descreve como o usuário interage com o histórico de notificações. |
+| ELOFF70 | [RNF14](../elicitacao/requisitos_finais.md#RNF14) | Representação | Este requisito é representado como um softgoal dentro do [NFR Framework](../modelagem/metodos_ageis/nfr.md), onde é acompanhado na categoria NFR 01 (Usabilidade). |
 
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/redjsun">Yzabella Miranda</a> e <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+### Tipos de Elos Utilizados
+
+<a id="representacao"></a>**Representação**
+Conecta um requisito à sua modelagem ou especificação em outro artefato (ex: um RF é representado por um Caso de Uso e uma História de Usuário).
+
+<a id="agregacao"></a>**Agregação**
+Conecta um requisito a outro que o compõe ou do qual ele faz parte para entregar uma funcionalidade maior (ex: um RF de filtro específico se agrega a uma funcionalidade de busca geral).
+
+<a id="alocado"></a>**Alocado**
+Conecta um requisito a um artefato de planejamento que define onde e como ele será desenvolvido (ex: um RF é alocado a um Épico no Backlog).
+
+<a id="recurso"></a>**Recurso**
+Conecta um requisito a outro do qual ele depende para operar (ex: uma notificação depende do recurso de configuração para funcionar).
+
+<a id="satisfacao"></a>**Satisfação**
+Conecta um requisito funcional a um requisito não funcional que lhe impõe uma restrição de qualidade (ex: a implementação de um RF deve satisfazer um RNF de desempenho).
 
 ## Histórico de Versão
 
