@@ -52,7 +52,10 @@ Os vídeos estão armazenados como **não listados no YouTube** e podem ser disp
 ### Reunião 07 – Divisão de responsabilidades e revisão de NFRs   
 <iframe width="560" height="315" src="https://youtube.com/embed/Gyb2z_Xl6qU" frameborder="0" allowfullscreen></iframe>
 
----
+--- 
+
+### Reunião 08 – Reunião para a entrega 06   
+<iframe width="560" height="315" src="https://youtube.com/embed/6js2ninvKWo" frameborder="0" allowfullscreen></iframe>
 
 ## Gravações Grupos +1
 
@@ -78,3 +81,4 @@ Os vídeos estão armazenados como **não listados no YouTube** e podem ser disp
 | 2.1 | 18/05/2025  | Adição da ATA do dia 09/05      | [Kaleb Macedo](https://github.com/kalebmacedo)  |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
 | 2.2 | 18/05/2025  | Adição da ATA do dia 16/05      | [Kaleb Macedo](https://github.com/kalebmacedo)  |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
 | 2.3 | 01/06/2025  | Adição da ATA do dia 30/05      | [Kaleb Macedo](https://github.com/kalebmacedo)  |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
+| 2.4 | 01/06/2025  | Adição da ATA do dia 06/06      | [Kaleb Macedo](https://github.com/kalebmacedo)  |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
