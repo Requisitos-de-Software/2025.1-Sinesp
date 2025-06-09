@@ -28,6 +28,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram no refinamen
             </tr>
             <tr>
                 <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+                <td>Realizou a rastreabilidade Backward-From para os requisitos <a href="#BF08">BF08</a> a <a href="#BF14">BF14</a>, <a href="#BF57">BF57</a>, <a href="#BF58">BF58</a> e <a href="#BF70">BF70</a> e os elos de mesmo intervalo, <a href="#ELOBF08">ELOBF08</a> a <a href="#ELOBF14">ELOBF14</a>, <a href="#ELOBF57">ELOBF57</a>, <a href="#ELOBF58">ELOBF58</a> e <a href="#ELOBF70">ELOBF70</a>.</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
