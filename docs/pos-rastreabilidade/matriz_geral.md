@@ -97,7 +97,7 @@ A matriz é apresentada com 7 colunas sendo elas:
 
 ## Bibliografia
 
-
+SERRANO, Milene; SERRANO, Maurício. Slides da Aula 26: Requisitos de Software. Brasília: Universidade de Brasília, 2025. Material didático em formato PDF. Disponível em: https://aprender3.unb.br/pluginfile.php/3096178/mod_resource/content/1/Requisitos%20-%20Aula%20026.pdf. Acesso em: 8 jun. 2025.
 
 ## Histórico de Versões
 
