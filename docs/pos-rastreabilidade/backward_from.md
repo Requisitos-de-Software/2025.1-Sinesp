@@ -177,7 +177,7 @@ Na tabela 3 encontra-se a rastreabilidade Backward from dos requisitos não func
 
 ### Elos de Rastreabilidade
 
-A tabela 4 detalha os vínculos para os requisitos funcionais selecionados. A descrição de cada elo agora inclui sua rastreabilidade para a fonte de elicitação (ex: [EN01](../elicitacao/tecnicas/entrevista.md#EN01), [GF01](../elicitacao/tecnicas/grupo_focal.md#GF01)), estabelecendo o vínculo *backward-from*, e também sua relação com outros requisitos do sistema.
+A tabela 4 detalha os vínculos para os requisitos selecionados. A descrição de cada elo agora inclui sua rastreabilidade para a fonte de elicitação (ex: [EN01](../elicitacao/tecnicas/entrevista.md#EN01), [GF01](../elicitacao/tecnicas/grupo_focal.md#GF01)), estabelecendo o vínculo *backward-from*, e também sua relação com outros requisitos do sistema.
 
 <p align="center">Tabela 4: Elos de Rastreabilidade</p>
 
