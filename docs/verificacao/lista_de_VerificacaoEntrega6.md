@@ -17,7 +17,7 @@ A abordagem selecionada para esta verificação é uma versão adaptada da técn
 
 <p align="center">Tabela 1 – Lista de Verificação de Itens Técnicos e Documentais</p>
 
-| ID | Item de Verificação | Autor | Referência |
+| ID | Item de Verificação | Autor | <input type="checkbox" > |
 |----|--------------------|-------|------------|
 | 1 | O histórico de versão está padronizado no repositório? - Uso de convenções consistentes para registrar alterações no repositório do projeto. | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\..\assets\lventrega2\lista_parte2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf" target="_blank">Plano de Ensino</a></div> |
 | 2 | Referências e bibliografia estão incluídas nos artefatos? - Citação correta de fontes utilizadas para fundamentar o projeto e seus artefatos. | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | <div><img src="..\..\assets\lventrega2\lista_parte2_planoDeEnsino.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf" target="_blank">Plano de Ensino</a></div> |
