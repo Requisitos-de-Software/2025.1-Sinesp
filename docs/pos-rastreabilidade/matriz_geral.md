@@ -8,6 +8,53 @@ Ao utilizar essa técnica de referências e documentos cruzados, é possível id
 
 Em suma, a matriz geral, por meio de sua abordagem estruturada e de sua capacidade de estabelecer referências cruzadas e elos, desempenha um papel fundamental na análise e compreensão dos requisitos, fornecendo uma visão completa e detalhada das relações entre os elementos do projeto.
 
+## Tabela de Integrantes
+
+Na tabela 1 contêm todos os integrantes da equipe que participaram no refinamento dos requisitos e o que a pessoa desenvolveu.
+
+<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+
+<div align="center">
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Contribuições na Matriz Geral</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+                <td>Montagem da estrutura da matriz geral, inclusão dos requisitos de <a href="#RF01.1">RF01.1</a> a <a href="#RF07.1">RF07.1</a>, <a href="#RNF01.1">RNF01.1</a>, <a href="#RNF02.1">RNF02.1</a>, <a href="#RNF10">RNF10</a> e <a href="#RNF11">RNF11</a>.</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+                <td>Redação da introdução, objetivos. Adição dos requisitos <a href="#RF02.3">RF02.3</a>, <a href="#RF02.4">RF02.4</a>, <a href="#RF04.1">RF04.1</a> a <a href="#RF04.4">RF04.4</a>, <a href="#RNF03.1">RNF03.1</a>, <a href="#RNF03.2">RNF03.2</a> e <a href="#RNF16">RNF16</a> na matriz geral.</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+                <td>Inclusão dos requisitos <a href="#RF04.5">RF04.5</a> a <a href="#RF05.2">RF05.2</a>, <a href="#RNF04">RNF04</a> e <a href="#RNF05">RNF05</a> na matriz geral.</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+                <td>Adição dos requisitos <a href="#RF06.1">RF06.1</a> a <a href="#RF06.5">RF06.5</a>, <a href="#RNF06">RNF06</a>, <a href="#RNF07">RNF07</a> e <a href="#RNF14">RNF14</a> na matriz geral.</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+                <td>Colaboração na inclusão dos requisitos <a href="#RF09.3">RF09.3</a> a <a href="#RF10">RF10</a>.</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+                <td>Adição dos requisitos <a href="#RF12.1">RF12.1</a> a <a href="#RF12.3">RF12.3</a>, <a href="#RF09.4">RF09.4</a>, <a href="#RNF12">RNF12</a>.</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+                <td>Inclusão dos requisitos <a href="#RF12.4">RF12.4</a> a <a href="#RF16">RF16</a>, <a href="#RNF13">RNF13</a>, <a href="#RNF16">RNF16</a> e adição da metodologia da matriz geral.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
 ## Objetivos
 
 Esse artefato tem como objetivo agregar os resultados obtidos nos artefatos de Backward-From e Forward-From em uma única matriz de rastreabilidade.
