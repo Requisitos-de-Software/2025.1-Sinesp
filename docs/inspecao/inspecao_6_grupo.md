@@ -3,6 +3,7 @@
 ## Introdução
 Este documento apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 5, tanto para o grupo quanto para o grupo +1.
 
+
 ## Objetivo
 * Fornecer critérios claros para verificação dos artefatos da Entrega 5.
 * Garantir a padronização e qualidade dos documentos produzidos.
