@@ -11,12 +11,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 * Assegurar que todos os itens exigidos estejam completos e corretos.
 
 ## Metodologia
-A abordagem selecionada para esta verificação é uma versão adaptada da técnica de inspeção. Criada por Fagan na IBM em 1976, inicialmente para analisar códigos de software, essa metodologia envolve uma avaliação formal dos artefatos desenvolvidos com o objetivo de identificar possíveis falhas. A Figura 1 ilustra as fases propostas por Fagan para esse procedimento.
-
-<p align="center">
-  <img src="..\..\assets\lventrega5\inspencao-fagan.png" alt="Etapas da Inspeção de acordo com Fagan" width="600"/>
-</p>
-<p align="center"><strong>Figura 1: Etapas da Inspeção de acordo com Fagan. </strong><br><em>Fonte: SOMMERVILLE (2007).</em></p>
+A abordagem selecionada para esta verificação é uma versão adaptada da técnica de inspeção. Criada por Fagan na IBM em 1976, inicialmente para analisar códigos de software, essa metodologia envolve uma avaliação formal dos artefatos desenvolvidos com o objetivo de identificar possíveis falhas. A figura no [link](https://drive.google.com/file/d/1p1_tbSuhx40kIwyFyTPTdgZ8PtgYFvDl/view?usp=sharing) abaixo ilustra as fases propostas por Fagan para esse procedimento.
 
 ---
 
@@ -50,7 +45,7 @@ A abordagem selecionada para esta verificação é uma versão adaptada da técn
 | 3 | Existem elos do tipo: Satisfação, Recurso, Responsabilidade, Representação, Alocado e Agregação? | [Kaleb de Souza](https://github.com/kalebmacedo) | <div><img src="..\..\assets\lventrega5\slide2.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096178/mod_resource/content/1/Requisitos%20-%20Aula%20026.pdf" target="_blank"> Aula 26 - Maurício Serrano </a></div> |
 | 4 | As informações rastreadas foram classificadas em Ambiental, Organizacional, Gerencial e Desenvolvimento? | [Lucas Alvez](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega5\slide3.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096178/mod_resource/content/1/Requisitos%20-%20Aula%20026.pdf" target="_blank"> Aula 26 - Maurício Serrano </a></div> |
 | 5 | O artefato está conectado entre si por meio de hyperlinks? | [Matheus de Alcântara](https://github.com/matheusdealcantara) | <div><img src="..\..\assets\lventrega5\livro1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096180/mod_resource/content/2/Rastreabilidade.pdf" target="_blank"> Rastreabilidade </a></div> |
-| 6 | Na matriz de rastreamento, os artefatos iniciais estão representados nas linhas e os artefatos-alvo nas colunas? | [Othavio Bolzan](https://github.com/bolzanMGB) | <div><img src="..\..\assets\lventrega5\livro2.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096180/mod_resource/content/2/Rastreabilidade.pdf" target="_blank"> Rastreabilidade </a></div> |
+| 6 | Na matriz de rastreamento, os artefatos iniciais estão representados nas linhas e os artefatos-alvo nas colunas? | [Othavio Bolzan](https://githuAHAMb.com/bolzanMGB) | <div><img src="..\..\assets\lventrega5\livro2.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096180/mod_resource/content/2/Rastreabilidade.pdf" target="_blank"> Rastreabilidade </a></div> |
 | 7 | A matriz de rastreamento geral reflete com precisão as ligações entre os requisitos e seus artefatos correspondentes (fontes, desenvolvimento, etc.)? | [Yzabella Miranda](https://github.com/redjsun) | <div><img src="..\..\assets\lventrega5\livro3.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096180/mod_resource/content/2/Rastreabilidade.pdf" target="_blank"> Rastreabilidade </a></div> |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
