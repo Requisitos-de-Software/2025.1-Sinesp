@@ -1,6 +1,5 @@
 # Lista de Verificação da Entrega 6
 
-
 ## Introdução
 Este documento apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 5, tanto para o grupo quanto para o grupo +1.
 
