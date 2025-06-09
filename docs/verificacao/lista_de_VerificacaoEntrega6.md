@@ -13,8 +13,6 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 ## Metodologia
 A abordagem selecionada para esta verificação é uma versão adaptada da técnica de inspeção. Criada por Fagan na IBM em 1976, inicialmente para analisar códigos de software, essa metodologia envolve uma avaliação formal dos artefatos desenvolvidos com o objetivo de identificar possíveis falhas. A figura no [link](https://drive.google.com/file/d/1p1_tbSuhx40kIwyFyTPTdgZ8PtgYFvDl/view?usp=sharing) abaixo ilustra as fases propostas por Fagan para esse procedimento.
 
----
-
 ## Lista de Verificação - Itens Técnicos e Documentais
 
 <p align="center">Tabela 1 – Lista de Verificação de Itens Técnicos e Documentais</p>
