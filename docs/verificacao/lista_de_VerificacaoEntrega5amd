@@ -1,7 +1,8 @@
-# Lista de Verificação da Entrega 5
+# Lista de Verificação da Entrega 4
+
 
 ## Introdução
-Este documento apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 5, tantos para o grupo e o grupo +1.
+Este documento apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 4, tantos para o grupo e o grupo +1.
 
 ## Objetivo
 - Fornecer critérios claros para verificação dos artefatos da Entrega 4;
@@ -12,11 +13,10 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 ## Metodologia
 A abordagem selecionada para esta verificação é uma versão adaptada da técnica de inspeção. Criada por Fagan na IBM em 1976, inicialmente para analisar códigos de software, essa metodologia envolve uma avaliação formal dos artefatos desenvolvidos com o objetivo de identificar possíveis falhas. A Figura 1 ilustra as fases propostas por Fagan para esse procedimento.
 
-<p align="center">Figura 1: Etapas da Inspeção de acordo com Fagan. </p>
 <p align="center">
-  <img src="..\..\..\assets\nfr\inspecao-fagan.png" alt="Etapas da Inspeção de acordo com Fagan" width="600">
+  <img src="..\..\assets\lventrega5\inspencao-fagan.png" alt="Etapas da Inspeção de acordo com Fagan" width="600"/>
 </p>
-<p  align="center">Fonte:<a  > SOMMERVILLE</a></p>
+<p align="center"><strong>Figura 1: Etapas da Inspeção de acordo com Fagan. </strong><br><em>Fonte: SOMMERVILLE (2007).</em></p>
 
 ---
 
@@ -52,7 +52,7 @@ A abordagem selecionada para esta verificação é uma versão adaptada da técn
 | ID | Item de Verificação  | Autor | Referência |
 |----|----------------------|-------|------------|
 |  1 | A rastreabilidade backward-from estão ligando requisitos às suas fontes? | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | <div><img src="..\..\assets\lventrega5\slide1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096178/mod_resource/content/1/Requisitos%20-%20Aula%20026.pdf#page=[6]"> Aula 26 - Maurício Serrano </a></div> |
-|  2 | A rastreabilidade forward-from estão ligando requisitos requisitos a artefatos de desenho e implementação? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega5\slide1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096178/mod_resource/content/1/Requisitos%20-%20Aula%20026.pdf#page=[6]"> Aula 26 - Maurício Serrano</a></div> |
+|  2 | A rastreabilidade forward-from estão ligando requisitos requisitos a artefatos de desenho e implementação? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega5\slide1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096178/mod_resource/content/1/Requisitos%20-%20Aula%20026.pdf#page=[6]"> Aula 26 - Maurício Serrano </a></div> |
 |  3 | Existem elos do tipo: Satisfação, Recurso, Responsabilidade, Representação, Alocado e Agregação? | [Kaleb de Souza](https://github.com/kalebmacedo) | <div><img src="..\..\assets\lventrega5\slide2.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096178/mod_resource/content/1/Requisitos%20-%20Aula%20026.pdf"> Aula 26 - Maurício Serrano </a></div> |
 |  4 | As informações rastreadas foram classificadas em Ambiental, Organizacional, Gerencial e Desenvolvimento? | [Lucas Alvez](https://github.com/LucasAlves71) | <div><img src="..\..\assets\lventrega5\slide3.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096178/mod_resource/content/1/Requisitos%20-%20Aula%20026.pdf"> Aula 26 - Maurício Serrano </a></div> |
 |  5 | O artefato esta conectado entre si por meio de hyperlinks? | [Matheus de Alcântara](https://github.com/matheusdealcantara) | <div><img src="..\..\assets\lventrega5\livro1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096180/mod_resource/content/2/Rastreabilidade.pdf"> Rastreabilidade </a></div> |
