@@ -58,6 +58,12 @@ A abordagem selecionada para esta verificação é uma versão adaptada da técn
 ---
 
 
+## Gravação da Inspenção do Grupo+1
+
+<iframe width="560" height="315" src="https://youtu.be/dJ7-pGWY5lQ?si=k3qkK1NDkQsQsUlR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+--
+
 ## Referências Bibliográficas
 
 REQUISITOS DE SOFTWARE. *Planejamento da Verificação da Etapa 1 do Grupo 2*. Disponível em: [site](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/verificacao/grupo2/entrega1/planejamento-verificacao-e1-grupo2/). Acesso em: 8 jun. 2025.
