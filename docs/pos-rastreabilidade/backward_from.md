@@ -80,7 +80,7 @@ Serão utilizados as seguintes legendas das tabelas:
 - ISx: Requisito da Introspecção número x;
 - GFx: Requisito do Grupo de Foco número x;
 - BSx: Requisto do Brainstorm número x;
-- ELBFx: Elo do Backward-From número x;
+- ELOBFx: Elo do Backward-From número x;
 - BFx: Backward from número x;
 
 ### Requisitos Funcionais 
