@@ -57,7 +57,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram no refinamen
 
 Para conduzir essa revisão, seguimos as seguintes etapas:
 
-1. **Levantamento inicial**: Coletamos todos os requisitos atuais disponíveis na página de Requisitos Elicitados: [Clique aqui](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/)
+1. **Levantamento inicial**: Coletamos todos os requisitos atuais disponíveis na página de Requisitos Elicitados: [Clique aqui](../elicitacao/elicitacao.md)
 
 2. **Análise de indivisibilidade**: Quebramos requisitos compostos em subitens (por exemplo, 1.1, 1.2 etc.), garantindo que cada requisito represente uma única necessidade do usuário ou do sistema.
 
@@ -152,7 +152,7 @@ Na tabela 2 encontra-se todos os requisitos funcionais que foram ou não corriji
 
 Na tabela 3 encontra-se todos os requisitos não funcionais que foram ou não corrijidos.
 
-<p align="center">Tabela 3: Requisitos Não Funcionais versão 2.6</p>
+<p align="center">Tabela 3: Requisitos Não Funcionais Versão 2.6</p>
 
 | **Tipo**                    | **Descrição**                                                                                                                       | **Técnicas**                                                                                                                                                                                                                                                                                                          | **Implementado** |
 | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |

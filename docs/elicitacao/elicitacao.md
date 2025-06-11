@@ -4,6 +4,8 @@
 
 Esta página consolida os requisitos identificados para o projeto, eliciados por meio das técnicas Entrevista, Glossário, Questionário, Introspecção e Grupo Focal. O processo de levantamento priorizou a compreensão das necessidades dos usuários e a conformidade com normas técnicas, garantindo clareza e alinhamento aos objetivos propostos.
 
+> Observação: a versão final dos requisitos podem ser encontrados na página [Requisitos Elicitados Finais](../elicitacao/requisitos_finais.md)
+
 ## Requisitos
 
 Os requisitos foram organizados em duas tabelas: a Tabela 1 apresenta os Requisitos Funcionais, enquanto a Tabela 2 lista os Requisitos Não Funcionais.
@@ -21,7 +23,7 @@ Legenda das Tabelas:
 
 ### Funcionais
 
-<p align="center">Tabela 1: Requisitos Funcionais</p>
+<p align="center">Tabela 1: Requisitos Funcionais versão 1.2</p>
 
 | **Tipo** | **Descrição**                                                                                                      | **Técnicas**                  | **Implementado** |
 |----------|--------------------------------------------------------------------------------------------------------------------|-------------------------------|------------------|
@@ -55,7 +57,7 @@ Para tal brainstorm a presença dos integrantes [Ana Luiza Soares](https://githu
 
 #### Tabela dos Novos funcionais 
 
-<p align="center">Tabela 2: Novos Requisitos Funcionais</p>
+<p align="center">Tabela 2: Novos Requisitos Funcionais Versão 1.2</p>
 
 | **Tipo** | **Descrição**                                                                                                      | **Técnicas**                  | **Implementado** |
 |----------|--------------------------------------------------------------------------------------------------------------------|-------------------------------|------------------|
@@ -71,7 +73,7 @@ Para tal brainstorm a presença dos integrantes [Ana Luiza Soares](https://githu
 
 ### Não funcionais
 
-<p align="center">Tabela 3: Requisitos Não Funcionais</p>
+<p align="center">Tabela 3: Requisitos Não Funcionais Versão 1.2</p>
 
 | **Tipo** | **Descrição**                                                                                                      | **Técnicas**                  | **Implementado** |
 |----------|--------------------------------------------------------------------------------------------------------------------|-------------------------------|------------------|
