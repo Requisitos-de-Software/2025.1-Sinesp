@@ -127,7 +127,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 2: Avaliação de Clínicas  
+### Cenário 2: Avaliação de Atendimento com escala de 1 a 5 
 **Requisito Associado:** [RF02.1](../../../elicitacao/requisitos_finais/#RF02.1)  
 
 <p align="center">Tabela 4 - Cenário 2 </p>
@@ -135,14 +135,14 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 | Elemento | Descrição |
 | :--- | :--- |
 | **ID** |  <a id="CE02">CE02</a>  |
-| **Título** | Avaliação de Atendimento com Escala Likert |
-| **Metas/Objetivos** | Permitir que o usuário avalie a qualidade de um atendimento específico utilizando uma escala Likert de 0 a 5, oferecendo um feedback mais detalhado sobre sua satisfação. |
+| **Título** | Avaliação de Atendimento com escala de 1 a 5 |
+| **Metas/Objetivos** | Permitir que o usuário avalie a qualidade de um atendimento específico utilizando uma escala Likert de 1 a 5, oferecendo um feedback mais detalhado sobre sua satisfação. |
 | **Contexto** | Após uma consulta de rotina, um usuário acessa o aplicativo GDF Saúde para registrar sua experiência. Ele seleciona a opção "4 - Satisfeito" na escala de avaliação e deixa um comentário elogiando a pontualidade do atendimento. |
 | **Ator(es)** | - Usuário do GDF Saúde.<br>- Sistema de avaliação do aplicativo. |
 | **Recursos** | - Aplicativo GDF Saúde.<br>- Histórico de atendimentos do usuário.<br>- Interface de avaliação com escala Likert de 0 a 5 (onde 0 é "Muito Insatisfeito" e 5 é "Muito Satisfeito") e campo para comentários. |
 | **Exceções** | - O sistema apresenta um erro e não consegue registrar a avaliação enviada.<br>- O usuário tenta avaliar um atendimento que ainda não foi concluído. |
 | **Restrições** | - O sistema deve permitir apenas uma avaliação por atendimento realizado.<br>- A interface deve exibir claramente o significado de cada nível da escala Likert para orientar o usuário.<br>- O sistema deve possuir um mecanismo para moderar ou filtrar comentários com linguagem inadequada. |
-| **Episódios** | 1. O usuário acessa a seção "Histórico de Atendimentos" no aplicativo.<br>2. Localiza e seleciona a consulta que deseja avaliar.<br>3. Clica na opção “Avaliar Atendimento”.<br>4. O sistema exibe a escala de avaliação de 0 a 5.<br>5. O usuário seleciona a nota "4 - Satisfeito".<br>6. Opcionalmente, o usuário escreve um comentário no campo de texto.<br>7. A avaliação é registrada e associada àquele atendimento específico. |
+| **Episódios** | 1. O usuário acessa a seção "Histórico de Atendimentos" no aplicativo.<br>2. Localiza e seleciona a consulta que deseja avaliar.<br>3. Clica na opção “Avaliar Atendimento”.<br>4. O sistema exibe a escala de avaliação de 1 a 5.<br>5. O usuário seleciona a nota "4 - Satisfeito".<br>6. Opcionalmente, o usuário escreve um comentário no campo de texto.<br>7. A avaliação é registrada e associada àquele atendimento específico. |
 
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC" target="_blank">Ana Luiza Soares</a></p>
@@ -550,7 +550,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 22: Interface Intuitiva e Acessível  
+### Cenário 22: Responsividade da Interface em Diferentes Dispositivos  
 
 **Requisito Associado:** [RNF01.1](../../../elicitacao/requisitos_finais/#RNF01.1)  
 
@@ -573,7 +573,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 ---
 
 
-### Cenário 23: Carregamento Rápido e Fluido das Telas
+### Cenário 23: Performance de Resposta Sob Carga
 
 **Requisito Associado:** [RNF02.1](../../../elicitacao/requisitos_finais/#RNF02.1)  
 
@@ -583,8 +583,8 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 | :--- | :--- |
 | **ID** | <a id="CE23">CE23</a> |
 | **Título** | Performance de Resposta Sob Carga |
-| **Metas/Objetivos** | Validar que 95% das interações do usuário no aplicativo tenham um tempo de resposta inferior a 2 segundos, mesmo sob uma carga de 100 usuários simultâneos. |
-| **Contexto** | Em um teste de performance, o sistema é submetido a uma carga simulada de 100 usuários realizando diferentes ações (login, busca de clínicas, consulta de carteirinha). Um usuário-teste realiza uma busca por "cardiologistas em Taguatinga" e o resultado é exibido em 1.7 segundos, mesmo com a alta demanda no servidor. |
+| **Metas/Objetivos** | Validar que 95% das interações do usuário no aplicativo tenham um tempo de resposta inferior a 2 segundos, mesmo sob uma carga de 100 usuários simultâneos, por exemplo. |
+| **Contexto** | Em um teste de performance, o sistema é submetido a uma carga simulada de 100 usuários realizando diferentes ações (login, busca de clínicas, consulta de carteirinha). Um usuário-teste realiza uma busca por redes credenciadas e o resultado é exibido em 1.7 segundos, mesmo com a alta demanda no servidor. |
 | **Ator(es)** | - Usuário do GDF Saúde.<br>- Backend do sistema. |
 | **Recursos** | - Aplicativo GDF Saúde.<br>- Ferramenta para simulação de carga (ex: JMeter, Gatling).<br>- Ambiente de servidor monitorado. |
 | **Exceções** | - O tempo médio de resposta para a funcionalidade de busca ultrapassa 2 segundos durante o teste de carga.<br>- Mais de 5% das requisições totais no teste apresentam falha ou tempo de resposta superior ao limite estabelecido. |
@@ -596,7 +596,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 ---
 
 
-### Cenário 24: Segurança e Transparência no Uso de Dados  
+### Cenário 24: Criptografia de Dados Sensíveis  
 
 **Requisito Associado:** [RNF03.1](../../../elicitacao/requisitos_finais/#RNF03.1)  
 
@@ -605,7 +605,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 | Elemento | Descrição |
 | :--- | :--- |
 | **ID** | <a id="CE24">CE24</a> |
-| **Título** | Criptografia de Dados Sensíveis em Repouso |
+| **Título** | Criptografia de Dados Sensíveis. |
 | **Metas/Objetivos** | Garantir que todas as informações pessoais e sensíveis dos usuários (CPF, nome, dados médicos) armazenadas nos bancos de dados do sistema estejam protegidas por criptografia. |
 | **Contexto** | Um auditor de segurança realiza uma verificação no banco de dados do INAS. Ao inspecionar a tabela de usuários, ele observa que os dados nas colunas "CPF", "NomeCompleto" e "Email" não estão em texto plano, mas sim como uma cadeia de caracteres indecifrável, confirmando que a criptografia em repouso está implementada. |
 | **Ator(es)** | - Administrador de Sistema / Auditor de Segurança.<br>- Sistema de Gerenciamento de Banco de Dados (SGBD). |
