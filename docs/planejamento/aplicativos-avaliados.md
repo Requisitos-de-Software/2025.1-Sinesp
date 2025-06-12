@@ -5,54 +5,52 @@
 Foi realizada uma atividade na qual cada integrante do grupo ficou responsável por escolher um aplicativo, analisá-lo criticamente e representar sua compreensão por meio de uma **Rich Picture**.  
 Este documento reúne as análises individuais e as respectivas representações visuais elaboradas pelos membros do grupo, com o objetivo de ilustrar as percepções sobre os sistemas avaliados.
 
+## Tabela de Integrantes
+
 A seguinte **Tabela 1** nos informa o integrante e o app avaliado:
 
-<div style="display: flex; justify-content: center;">
-
-<table>
-<thead>
-<tr>
-<th>Integrante</th>
-<th>Aplicativo Avaliado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
-<td><a href="#CarteiradeTrânsito">Carteira de Trânsito</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza</a></td>
-<td><a href="#Telegram">Telegram</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
-<td><a href="#MCalculadoradoCidadão">Calculadora do Cidadão</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
-<td><a href="#DetranDF">Detran DF</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/matheusdealcantara">Matheus Alcântara</a></td>
-<td><a href="#CadastroÚnico">Cadastro Único</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
-<td><a href="#Spotify">Spotify</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
-<td><a href="#Duolingo">Duolingo</a></td>
-</tr>
-</tbody>
-</table>
-
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Contribuição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+        <td>Análise do aplicativo Carteira de Trânsito e elaboração de Rich Picture</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+        <td>Análise do aplicativo Telegram e elaboração de Rich Picture</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+        <td>Análise do aplicativo Calculadora do Cidadão e elaboração de Rich Picture</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+        <td>Análise do aplicativo Detran DF e elaboração de Rich Picture</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+        <td>Análise do aplicativo Cadastro Único e elaboração de Rich Picture</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+        <td>Análise do aplicativo Spotify e elaboração de Rich Picture</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+        <td>Análise do aplicativo Duolingo e elaboração de Rich Picture</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
-<p style="text-align: center; font-size: 16px;">
-  Fonte: <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>, 2025.
-</p>
 
 
 ### Carteira de Trânsito
@@ -221,3 +219,4 @@ O integrante [Yzabella Miranda](https://github.com/redjsun) optou por representa
 | 1.0 | 20/04/2025 | Adição da RICH PICTURE criado por todos os integrantes do grupo |  [Kaleb Macedo](https://github.com/kalebmacedo)  | [Ana Luiza](https://github.com/Ana-Luiza-SC) |
 | 1.1 | 20/04/2025 | Adição da tabela dos integrantes do grupo |  [Kaleb Macedo](https://github.com/kalebmacedo)  | [Ana Luiza](https://github.com/Ana-Luiza-SC) |
 | 1.2 | 20/04/2025 | Correção bug fotos, alteração da posição dos títulos e fonte |  [Isaque Camargos](https://github.com/isaqzin)  | [Kaleb Macedo](https://github.com/kalebmacedo) |
+| 1.3 | 20/04/2025 | Adição de nova tabela de integrantes |  [Lucas](https://github.com/LucasAlves71)  | [Kaleb Macedo](https://github.com/kalebmacedo) |

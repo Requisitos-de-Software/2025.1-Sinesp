@@ -4,6 +4,31 @@
 
 As personas são representações fictícias de usuários reais criadas com base em dados coletados durante a fase de levantamento de requisitos. Elas ajudam a sintetizar informações relevantes sobre os usuários, como motivações, objetivos, comportamentos e frustrações. Segundo Barbosa e Silva, o uso de personas auxilia equipes de design e desenvolvimento a manter o foco nas necessidades reais dos usuários durante a tomada de decisões ao longo do projeto.
 
+## Integrantes do Grupo
+    
+
+Na tabela 1 contêm todos os integrantes da equipe que participaram na construção do perfil de usuário e o que a pessoa desenvolveu durante o projeto.
+
+<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+<div align="center">
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Quais etapas participou</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+                <td>Realizou a análise do perfil de usuário, a partir disso, criando as personas, além de escrever todo o documento.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
 ## Objetivo
 
 O objetivo deste artefato é representar diferentes perfis de usuários do sistema por meio de personas, de forma a guiar o desenvolvimento de soluções mais aderentes às suas expectativas, necessidades e limitações. Essas personas servirão como referência para decisões de design centradas no usuário e para embasar futuras etapas da engenharia de requisitos, como definição de histórias de usuário, jornada do usuário, testes de usabilidade e, especialmente, para a priorização dos requisitos com base nas necessidades e expectativas identificadas.
@@ -125,3 +150,4 @@ Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; B
 | 1.3    | 02/05/2025 | Adicionando nova persona, história de cada persona, atualizando dados de cada um | [Lucas Alves](https://github.com/LucasAlves71) |[Isaque Camargos](https://github.com/isaqzin) |
 | 1.4    | 03/05/2025 | Atualização do objetivo com foco em priorização e reformulação da definição de antiusuário | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |
 | 1.5    | 11/05/2025 | Adição da utilização das personas no processo de priorização | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |
+| 1.6    | 11/05/2025 | Adição da tabela de integrantes | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |
