@@ -6,6 +6,8 @@ Um caso de uso é uma representação detalhada de como os usuários do aplicati
 
 Seu principal objetivo é apoiar o desenvolvimento do aplicativo, oferecendo uma visão clara e prática dos requisitos funcionais. Os casos de uso ajudam a definir o comportamento esperado do sistema diante de ações comuns dos usuários, contribuindo para garantir que as funcionalidades atendam às necessidades reais dos beneficiários do plano de saúde.
 
+É importante notar que esses casos de uso foram **refatorados** para maior clareza e precisão, além de corresponderem com os requisitos finais que foram refinados. Você pode acessar a versão antiga clicando [aqui](../../metodos_tradicionais/casos_de_usos).
+
 ## Integrantes do Grupo
 
 Na tabela 1 contêm todos os integrantes da equipe que participaram na construção dos cenários e o que a pessoa desenvolveu durante o projeto.
@@ -23,7 +25,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
 	<tbody>
 				<tr>
 					<td><a  href="https://github.com/Ana-Luiza-SC"">Ana Luiza Soares</a></td>
-					<td>Criou o diagrama referentes aos requisitos: RF01,RF02, RF21, RNF01, RNF02, RNF03 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC01, UC02, UC03,  UC04, UC05 e UC06. </td>	
+					<td>Criou o diagrama  e especificações dos casos de uso referentes aos requisitos: RF01.1, RF01.2, RF01.3, RF01.4, RF01.5, RF02.1, RF02.2, RF02.3 e RF21.</0td>	
 				</tr>
 				<tr>
 					<td><a  href="https://github.com/isaqzin">Isaque Camargos</a></td>
@@ -66,7 +68,7 @@ No desenvolvimento do diagrama, empregamos dois relacionamentos fundamentais: o 
 
 Com foco nos diagramas de caso de uso, a Tabela 2 apresenta os principais elementos que compõem o modelo, oferecendo uma visão clara e organizada da estrutura de interações entre os atores e o sistema.
 
-## Elementos de caso de uso
+### Elementos de caso de uso
 
 <p  align="center">Tabela 2: legenda dos diagramas de caso de uso</p>
 
@@ -81,23 +83,17 @@ Com foco nos diagramas de caso de uso, a Tabela 2 apresenta os principais elemen
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Yzabella Miranda</a></p>
 
 ## Diagramas de caso de uso
-As figuras 1 a 8 representam as especializações dos casos de uso.
+As figuras 1 a 7 representam as especializações dos casos de uso.
 
 <p align="center">Figura 1 - Caso de uso UC01 a UC03 </p>
 <p align="center">
-  <img src="..\../assets/casos-uso/casos-uso-ana-rf.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
+  <img src="..\..\assets\casos-uso\casos-uso-ana-novo.png" width="600">
 </p>
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC" target="_blank">Ana Luiza Soares</a></p>
 
-<p align="center">Figura 2 - Caso de uso UC04 a UC06 </p>
-<p align="center">
-  <img src="..\..\assets\casos-uso\casos-uso-ana-rnf.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
-</p>
 
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
-
-<p align="center">Figura 3 - Caso de uso UC07 a UC12 </p>
+<p align="center">Figura 2 - Caso de uso UC07 a UC12 </p>
 <p align="center">
   <img src="..\..\assets\casos-uso\casos-uso-isaque.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
@@ -105,7 +101,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 <p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
 
 
-<p align="center">Figura 4 - Caso de uso UC13 a UC20 </p>
+<p align="center">Figura 3 - Caso de uso UC13 a UC20 </p>
 <p align="center">
   <img src="..\..\assets\casos-uso\casos-uso-kaleb.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
@@ -113,7 +109,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo" target="_blank">Kaleb Macedo</a></p>
 
 
-<p align="center">Figura 5 - Caso de uso UC21 a UC26 </p>
+<p align="center">Figura 4 - Caso de uso UC21 a UC26 </p>
 <p align="center">
   <img src="..\..\assets\casos-uso\casos-uso-lucas.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
@@ -121,21 +117,21 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71" target="_blank">Lucas Alves</a></p>
 
 
-<p align="center">Figura 6 - Caso de uso UC27 a UC31 </p>
+<p align="center">Figura 5 - Caso de uso UC27 a UC31 </p>
 <p align="center">
   <img src="..\..\assets\casos-uso\casos-uso-matheus.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara" target="_blank" >Matheus de Alcântara</a></p>
 
-<p align="center">Figura 7 - Caso de uso UC32 a UC34 </p>
+<p align="center">Figura 6 - Caso de uso UC32 a UC34 </p>
 <p align="center">
   <img src="..\..\assets\casos-uso\casos-uso-othavio.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a></p>
 
-<p align="center">Figura 8 - Caso de uso UC35 a UC38 </p>
+<p align="center">Figura 7 - Caso de uso UC35 a UC38 </p>
 <p align="center">
   <img src="..\..\assets\casos-uso\casos-uso-yza.png" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
@@ -144,47 +140,45 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 ## Especialização dos casos de uso 
 
-### UC01 – Filtrar redes credenciadas
+### UC01 – Pesquisar Redes por Filtros
 
-<p align="center">Tabela 3 - Caso de Uso 1 </p>
-
-| Campo              | Descrição                                                                                                                                       |
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a id="UC01"></a>UC01                 |Filtrar redes credenciadas                                                                                                               |
-| Descrição          | Permitir ao usuário buscar clínicas/profissionais do INAS buscando pelo nome ou por meio de filtros como especialidade, região, tipo de atendimento e proximidade. |
-| Ator               | Usuário do aplicativo GDF Saúde                                                                                                                 |
-| Pré-condições      | 1. Conexão com internet. <br>2. Usuário é beneficiário do Plano INAS <br>3. Usuário realizou o cadastro no GDF Saúde                           |
-| Ação               | Usuário aplica os filtros que ele deseja e/ou busca pelo nome da rede credenciada.                                                             |
-| Fluxo principal    | - Usuário abre o aplicativo <br>- Usuário abre a aba de redes credenciadas <br>- Usuário seleciona filtros ou busca por uma rede credenciada <br>- Sistema exibe lista de redes credenciadas correspondentes. |
-| Fluxo alternativo  | - Usuário abre o aplicativo <br>- Usuário abre a aba de redes credenciadas <br>- Usuário não filtra e nem busca pela rede credenciada <br>- São listadas aleatoriamente todas as redes credenciadas |
-| Fluxo de exceção   | - Usuário abre o aplicativo <br>- Usuário abre a aba de redes credenciadas <br>- Usuário seleciona filtros ou busca por uma rede credenciada <br>- Não aparece nenhuma rede credenciada correspondente |
-| Pós-condições      | Lista de redes filtradas é exibida com dados (endereço, telefone, horário).                                                                    |
-| Rastreabilidade    | [RF01](../../elicitacao/elicitacao.md#RNF01)                                                                                                                                      |
-| Data de criação    | 17/05/2025                                                                                                                                     |
+| Campo                    | Descrição                                                                                                                                                                                                                                  |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a id="UC01"></a>UC01     | Pesquisar Redes Credenciadas por Filtros|
+| Descrição                | Permitir ao usuário localizar redes credenciadas aplicando filtros de busca gerais para refinar os resultados.|
+| Ator                     | Usuário do aplicativo GDF Saúde|
+| Pré-condições            | 1. Conexão com internet. <br>2. Usuário é beneficiário do Plano INAS e está logado.|
+| Ação                     | Usuário aplica um ou mais filtros na tela de busca e inicia a pesquisa. |
+| Fluxo principal          | - Usuário abre o aplicativo e acessa a aba "Rede Credenciada". <br>- Sistema exibe a interface de busca com as opções de filtro. <br>- Usuário seleciona o filtro "Região Administrativa" e escolhe uma opção. <br>- Sistema exibe os resultados que correspondem ao filtro aplicado. |
+| Fluxo alternativo        | - Usuário realiza a busca sem aplicar nenhum filtro. <br>- Sistema exibe a lista completa de todas as redes credenciadas, ordenadas alfabeticamente.|
+| Fluxo de exceção         | - Usuário aplica um filtro que não possui nenhuma rede correspondente. <br>- Sistema exibe a mensagem "Nenhuma rede credenciada encontrada para os critérios selecionados." |
+| Pós-condições            | A lista de redes credenciadas que atende aos filtros aplicados é exibida com sucesso para o usuário.|
+| Rastreabilidade          | [RF01.1](../../elicitacao/requisitos_finais.md#RF01.1)|
+| Data de criação          | 12/06/2025|
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
 ---
 
-### UC02 – Acessar avaliações das redes credenciadas
+### UC02 – Pesquisar Profissionais da Saúde
 
 <p align="center">Tabela 4 - Caso de Uso 2 </p>
 
-| Campo              | Descrição                                                                                                                                       |
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a id="UC02"></a>UC02                 |Acessar avaliações das redes credenciadas                                                                                                |
-| Descrição          | Permitir ao usuário visualizar e dar notas e comentários sobre as redes credenciadas.                                                          |
-| Ator               | Usuário do aplicativo GDF Saúde                                                                                                                 |
-| Pré-condições      | 1. Conexão com internet. <br>2. Usuário é beneficiário do Plano INAS <br>3. Usuário realizou o cadastro no GDF Saúde                           |
-| Ação               | Usuário acessa a seção "Avaliações" da rede desejada.                                                                                           |
-| Fluxo principal    | - Usuário abre o aplicativo <br>- Usuário abre a aba de "Avaliações" <br>- Usuário seleciona filtros ou busca por uma rede credenciada <br>- Sistema exibe as avaliações disponíveis referentes à rede credenciada <br>- O usuário pode avaliar o atendimento |
-| Fluxo alternativo  | - Usuário abre o aplicativo <br>- Usuário abre a aba de "Avaliações" <br>- Não filtra e nem busca pela rede credenciada <br>- Sistema exibe as avaliações disponíveis referentes à rede credenciada <br>- O usuário pode avaliar o atendimento |
-| Fluxo de exceção   | - Usuário abre o aplicativo <br>- Usuário abre a aba de "Avaliações" <br>- Usuário seleciona filtros ou busca por uma rede credenciada <br>- Não aparece nenhuma rede credenciada correspondente |
-| Pós-condições      | Avaliações são exibidas ou opção de registrar nova avaliação.                                                                                  |
-| Rastreabilidade    | [RF02](../../elicitacao/elicitacao.md#RF02)                                                                                                                                       |
-| Data de criação    | 17/05/2025                                                                                                                                     |
+| Campo                    | Descrição                                                                                                                                                                                                                                  |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a id="UC02"></a>UC02     | Pesquisar Profissionais da Saúde|
+| Descrição                | Permitir ao usuário encontrar um profissional da saúde específico (médico, psicólogo, etc.) através de uma busca dedicada.|
+| Ator                     | Usuário do aplicativo GDF Saúde|
+| Pré-condições            | 1. Conexão com internet. <br>2. Usuário é beneficiário do Plano INAS e está logado.|
+| Ação                     | Usuário insere o nome de um profissional ou seleciona uma especialidade na área de busca de profissionais.|
+| Fluxo principal          | - Usuário acessa a seção "Buscar Profissional". <br>- Sistema exibe o campo de busca. <br>- Usuário digita o nome do profissional. <br>- Usuário aciona a busca. <br>- Sistema exibe o perfil detalhado do profissional encontrado.           |
+| Fluxo alternativo        | - Usuário digita um nome parcial ou incompleto. <br>- Sistema exibe uma lista de profissionais cujos nomes correspondem à busca parcial para que o usuário selecione o correto.|
+| Fluxo de exceção         | - A busca não retorna nenhum profissional com o nome inserido. <br>- Sistema exibe a mensagem "Nenhum profissional encontrado com os dados informados."|
+| Pós-condições            | O perfil do profissional de saúde desejado é encontrado e suas informações são exibidas para o usuário.|
+| Rastreabilidade          | [RF01.2](../../elicitacao/requisitos_finais.md#RF01.2)|
+| Data de criação          | 12/06/2025|
 
-<p align="center">Fonte: Autoria de <a src="https://github.com/Ana-Luiza-SC" targe="_blank">Ana Luiza Soares</a></p>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
 ---
 
@@ -194,87 +188,22 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 | Campo              | Descrição                                                                                                                                       |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a id="UC03"></a>UC03                 |Iniciar conversa com chatbot de triagem                                                                                                  |
-| Descrição          | Permitir ao usuário interagir com chatbot para identificar especialidade médica adequada                                                       |
-| Ator               | Usuário do aplicativo GDF Saúde                                                                                                                 |
-| Pré-condições      | 1. Conexão com internet. <br>2. Usuário é beneficiário do Plano INAS                                                                            |
-| Ação               | Usuário inicia conversa e descreve sintomas                                                                                                     |
+| <a id="UC03"></a>UC03 | Iniciar conversa com chatbot de triagem |
+| Descrição          | Permitir ao usuário interagir com chatbot para identificar especialidade médica adequada |
+| Ator               | Usuário do aplicativo GDF Saúde |
+| Pré-condições      | 1. Conexão com internet. <br>2. Usuário é beneficiário do Plano INAS |
+| Ação               | Usuário inicia conversa e descreve sintomas |
 | Fluxo principal    | - Usuário abre o aplicativo <br>- Usuário seleciona a opção "Chatbot de Saúde" <br>- Sistema exibe tela inicial do chatbot <br>- Usuário descreve sintomas <br>- Chatbot analisa e sugere especialidade médica <br>- Sistema pede confirmação ao usuário posteriormente para análise de desempenho |
 | Fluxo alternativo  | - Usuário abre o aplicativo <br>- Usuário seleciona a opção "Chatbot de Saúde" <br>- Sistema exibe tela inicial do chatbot <br>- Usuário tem dúvidas ou fornece informações vagas <br>- Chatbot recomenda buscar hospital para melhor triagem |
 | Fluxo de exceção   | - Usuário abre o aplicativo <br>- Usuário seleciona a opção "Chatbot de Saúde" <br>- Inicia a conversa <br>- Chatbot redireciona para especialidade médica incorreta |
-| Pós-condições      | Especialidade médica identificada corretamente e confirmado o desempenho do chatbot posteriormente                                              |
-| Rastreabilidade    | [RF21](../../elicitacao/elicitacao.md#RF21)                                                                                                                                        |
-| Data de criação    | 17/05/2025                                                                                                                                     |
+| Pós-condições      | Especialidade médica identificada corretamente e confirmado o desempenho do chatbot posteriormente |
+| Rastreabilidade    | [RF21](../../elicitacao/requisitos_finais.md#RF21) |
+| Data de criação    | 17/05/2025 |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/Ana-Luiza-SC" targe="_blank">Ana Luiza Soares</a></p>
 
 ---
 
-### UC04 – Acessar sistema com facilidade
-
-<p align="center">Tabela 6 - Caso de Uso 4 </p>
-
-| Campo              | Descrição                                                                                                                                       |
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a id="UC04"></a>UC04                 | Acessar sistema com facilidade                                                                                                           |
-| Descrição          | Garantir interface intuitiva e acessível para todos os usuários                                                                                 |
-| Ator               | Usuário do aplicativo GDF Saúde                                                                                                                 |
-| Pré-condições      | 1. Conexão com internet <br>2. Usuário é beneficiário do Plano INAS <br>3. Aplicativo instalado no dispositivo                                  |
-| Ação               | Usuário abre o aplicativo e navega pelas funcionalidades com facilidade                                                                         |
-| Fluxo principal    | - Usuário abre o aplicativo <br>- Sistema carrega tela inicial em até 2 segundos <br>- Menu principal com ícones intuitivos é exibido <br>- Usuário navega entre as opções sem dificuldades |
-| Fluxo alternativo  | - Usuário abre o aplicativo <br>- Tem dificuldade com alguma funcionalidade <br>- Sistema oferece opção "Ajuda" <br>- Usuário acessa tutorial integrado |
-| Fluxo de exceção   | - Usuário abre o aplicativo <br>- Não consegue acessar as funcionalidades <br>- Não consegue acessar os tutoriais <br>- Não fica satisfeito com o aplicativo |
-| Pós-condições      | Acesso às funcionalidades realizado com sucesso OU tutorial consultado para solução de dúvidas suficiente                                       |
-| Rastreabilidade    | [RNF01](../../elicitacao/elicitacao.md#RNF01)                                                                                                                                      |
-| Data de criação    | 17/05/2025                                                                                                                                     |
-
-<p align="center">Fonte: Autoria de <a src="https://github.com/Ana-Luiza-SC" targe="_blank">Ana Luiza Soares</a></p>
-
----
-
-### UC05 – Garantir desempenho do sistema
-
-<p align="center">Tabela 7 - Caso de Uso 5 </p>
-
-| Campo              | Descrição                                                                                                                                       |
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a id="UC05"></a>UC05                 | Garantir desempenho do sistema                                                                                                           |
-| Descrição          | Assegurar que todas as funcionalidades respondam em até 2 segundos                                                                             |
-| Ator               | Usuário do aplicativo GDF Saúde                                                                                                                 |
-| Pré-condições      | 1. Conexão estável com internet <br>2. Usuário é beneficiário do Plano INAS <br>3. Aplicativo atualizado                                       |
-| Ação               | Usuário interage com as funcionalidades do aplicativo                                                                                           |
-| Fluxo principal    | - Usuário seleciona qualquer funcionalidade <br>- Sistema processa a requisição <br>- Resposta é exibida em até 2 segundos                      |
-| Fluxo alternativo  | - Usuário seleciona funcionalidade <br>- Tempo excede 2 segundos <br>- Sistema exibe ícone de carregamento <br>- Completa ação em até 5 segundos |
-| Fluxo de exceção   | - Usuário seleciona funcionalidade <br>- Sistema não responde após 5 segundos <br>- Exibe mensagem "Problema de conexão"                        |
-| Pós-condições      | Funcionalidade acessada dentro do tempo esperado                                                                                                |
-| Rastreabilidade    | [RNF02](../../elicitacao/elicitacao.md#RNF02)                                                                                                                                      |
-| Data de criação    | 17/05/2025                                                                                                                                     |
-
-<p align="center">Fonte: Autoria de <a src="https://github.com/Ana-Luiza-SC" targe="_blank">Ana Luiza Soares</a></p>
-
----
-
-### UC06 – Garantir segurança no uso do sistema
-
-<p align="center">Tabela 8 - Caso de Uso 6 </p>
-
-| Campo              | Descrição                                                                                                                                       |
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a id="UC06"></a>UC06                 | Garantir segurança no uso do sistema                                                                                                     |
-| Descrição          | Assegurar acesso seguro às funcionalidades com proteção de dados e conformidade LGPD                                                           |
-| Ator               | Usuário do aplicativo GDF Saúde                                                                                                                 |
-| Pré-condições      | 1. Conexão segura (HTTPS) <br>2. Usuário cadastrado no INAS <br>3. Dispositivo compatível                                                       |
-| Ação               | Usuário realiza autenticação para acessar o sistema                                                                                             |
-| Fluxo principal    | - Usuário insere credenciais <br>- Sistema solicita segundo fator de autenticação <br>- Validação bem-sucedida <br>- Acesso concedido com criptografia de dados |
-| Fluxo alternativo  | - Usuário falha na autenticação <br>- Sistema oferece: "Recuperar acesso" ou "Tentar novamente" <br>- Redireciona para fluxo de recuperação    |
-| Fluxo de exceção   | - Múltiplas tentativas falhas <br>- Sistema bloqueia acesso temporariamente <br>- Notifica ANPD em caso de violação de dados <br>- Envia alerta para o usuário |
-| Pós-condições      | Acesso seguro concedido                                                                                                                         |
-| Rastreabilidade    | [RNF03](../../elicitacao/elicitacao.md#RNF03)                                                                                                                                    |
-| Data de criação    | 17/05/2025                                                                                                                                     |
-
-<p align="center">Fonte: Autoria de <a src="https://github.com/Ana-Luiza-SC" targe="_blank">Ana Luiza Soares</a></p>
-
----
 ### UC07 – Fazer login
 <p align="center">Tabela 9 - Caso de Uso 7 </p>
 
@@ -289,7 +218,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Credenciais inválidas: sistema exibe mensagem de erro.                  |
 | Fluxo de exceção   | - Ausência de conexão: sistema informa que não é possível conectar.       |
 | Pós-condições      | Usuário autenticado e apto a usar o aplicativo.                           |
-| Rastreabilidade    |   [RF19](../../elicitacao/elicitacao.md#RF19)                                                                         |
+| Rastreabilidade    |   [RF19](../../elicitacao/requisitos_finais.md#RF19)                                                                         |
 | Data de criação    | 15/05/2025                                                                |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
@@ -309,7 +238,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Biometria não reconhecida: sistema oferece login por senha.             |
 | Fluxo de exceção   | - Sensor indisponível: app informa erro e redireciona para login comum.   |
 | Pós-condições      | Usuário autenticado via biometria ou direcionado para login manual.       |
-| Rastreabilidade    | [RF19](../../elicitacao/elicitacao.md#RF19)          |
+| Rastreabilidade    | [RF19](../../elicitacao/requisitos_finais.md#RF19)          |
 | Data de criação    | 15/05/2025                 |
 
 ---
@@ -329,7 +258,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Caso já tenha sido baixada, o sistema permite rebaixar.                 |
 | Fluxo de exceção   | - Falta de conexão ou falha no armazenamento: erro informado ao usuário.  |
 | Pós-condições      | Carteirinha disponível localmente mesmo sem internet.                     |
-| Rastreabilidade    |  [RF03](../../elicitacao/elicitacao.md#RF03)               |
+| Rastreabilidade    |  [RF03](../../elicitacao/requisitos_finais.md#RF03)               |
 | Data de criação    | 15/05/2025                                                                |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
@@ -350,7 +279,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo  | —                                                                         |
 | Fluxo de exceção   | - sistema exibe erro ao tentar salvar.                      |
 | Pós-condições      | Preferências de notificação atualizadas.                                  |
-| Rastreabilidade    |[RF04](../../elicitacao/elicitacao.md#RF04)                    |
+| Rastreabilidade    |[RF04](../../elicitacao/requisitos_finais.md#RF04)                    |
 | Data de criação    | 15/05/2025                                                                |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
@@ -371,7 +300,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Falha de envio: sistema realiza tentativa posterior.                    |
 | Fluxo de exceção   | - Falha permanente: log de erro registrado, equipe notificada.            |
 | Pós-condições      | Notificação enviada ou tentativa registrada para análise.                 |
-| Rastreabilidade    |    [RF04](../../elicitacao/elicitacao.md#RF04)                                                                       |
+| Rastreabilidade    |    [RF04](../../elicitacao/requisitos_finais.md#RF04)                                                                       |
 | Data de criação    | 15/05/2025                                                                |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
@@ -392,7 +321,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Dados incompletos: sistema solicita complementação.                     |
 | Fluxo de exceção   | - Sistema fora do ar: notifica falha e orienta alternativa.               |
 | Pós-condições      | Autorização registrada, atendimento liberado.                             |
-| Rastreabilidade    | [RNF04](../../elicitacao/elicitacao.md#RNF04)                                                                           |
+| Rastreabilidade    | [RNF04](../../elicitacao/requisitos_finais.md#RNF04)                                                                           |
 | Data de criação    | 15/05/2025                                                                |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
@@ -413,7 +342,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Usuário cancela o agendamento antes da confirmação <br> - Sistema não realiza pagamento |
 | Fluxo de exceção  | - Prestador indisponível para o horário escolhido <br> - Falha no pagamento automático <br> - Exibe mensagem de erro ao usuário |
 | Pós-condições     | Agendamento é confirmado e exibido ao usuário; valor debitado automaticamente do saldo ou coparticipação processada |
-| Rastreabilidade   | [RF05](../../elicitacao/elicitacao.md#RF05)                                                                                              |
+| Rastreabilidade   | [RF05](../../elicitacao/requisitos_finais.md#RF05)                                                                                              |
 | Data de criação   | 17/05/2025                                                                                          |
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
 
@@ -434,7 +363,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Usuário visualiza detalhes mas não confirma o cancelamento <br> - Nenhuma alteração é feita |
 | Fluxo de exceção  | - Tentativa de cancelar um agendamento já expirado <br> - Falha de conexão com o servidor <br> - Exibe mensagem de erro ao usuário |
 | Pós-condições     | O atendimento é removido da agenda e o usuário visualiza a confirmação de cancelamento              |
-| Rastreabilidade   | RF05 [RF05](../../elicitacao/elicitacao.md#RF05)                                                                                               |
+| Rastreabilidade   | RF05 [RF05](../../elicitacao/requisitos_finais.md#RF05)                                                                                               |
 | Data de criação   | 17/05/2025                                                                                          |
 
 
@@ -457,7 +386,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Usuário apenas visualiza a lista de clínicas sem selecionar nenhuma <br> - Sistema exibe faixa de preço genérica |
 | Fluxo de exceção  | - Clínica não possui valor cadastrado <br> - Falha ao aplicar a coparticipação <br> - Sistema exibe mensagem de erro |
 | Pós-condições     | O usuário compreende o valor final que será cobrado no agendamento da consulta                     |
-| Rastreabilidade   | [RF06](../../elicitacao/elicitacao.md#RF06)                                                                                             |
+| Rastreabilidade   | [RF06](../../elicitacao/requisitos_finais.md#RF06)                                                                                             |
 | Data de criação   | 17/05/2025                                                                                          |
 
 
@@ -480,7 +409,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Usuário seleciona o período, mas não finaliza a geração <br> - Nenhum arquivo é criado            |
 | Fluxo de exceção  | - Nenhuma despesa registrada no período <br> - Falha ao gerar o documento <br> - Sistema exibe mensagem de erro |
 | Pós-condições     | O demonstrativo é gerado e pode ser baixado pelo usuário em seguida                                |
-| Rastreabilidade   |  [RF06](../../elicitacao/elicitacao.md#RF06)                                                                                              |
+| Rastreabilidade   |  [RF06](../../elicitacao/requisitos_finais.md#RF06)                                                                                              |
 | Data de criação   | 17/05/2025                                                                                          |
 
 
@@ -503,7 +432,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Nenhum demonstrativo é selecionado <br> - Tela permanece apenas com listagem                     |
 | Fluxo de exceção  | - Nenhum histórico encontrado <br> - Erro ao carregar dados <br> - Sistema exibe alerta ao usuário |
 | Pós-condições     | O demonstrativo consultado é exibido com detalhes ao usuário                                       |
-| Rastreabilidade   | [RF06](../../elicitacao/elicitacao.md#RF06)                                                                                              |
+| Rastreabilidade   | [RF06](../../elicitacao/requisitos_finais.md#RF06)                                                                                              |
 | Data de criação   | 17/05/2025                                                                                          |
 
 
@@ -525,7 +454,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Usuário acessa a seção, mas não possui metas registradas <br> - Sistema exibe mensagem de ausência de metas |
 | Fluxo de exceção  | - Falha ao carregar dados de metas <br> - Sistema exibe mensagem de erro ao usuário                |
 | Pós-condições     | O usuário pode acompanhar suas metas de saúde e é incentivado a cumpri-las                         |
-| Rastreabilidade   | [RF17](../../elicitacao/elicitacao.md#RF17)                                                                                              |
+| Rastreabilidade   | [RF17](../../elicitacao/requisitos_finais.md#RF17)                                                                                              |
 | Data de criação   | 17/05/2025                                                                                          |
 
 
@@ -547,7 +476,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Usuário acessa a seção, mas não finaliza o envio <br> - Solicitação não é registrada             |
 | Fluxo de exceção  | - Documento obrigatório não anexado <br> - Falha no envio dos dados <br> - Sistema exibe mensagem de erro |
 | Pós-condições     | A solicitação é registrada no sistema e encaminhada para análise, respeitando o prazo máximo de 10 dias úteis |
-| Rastreabilidade   | [RNF08](../../elicitacao/elicitacao.md#RNF08)                                                                                             |
+| Rastreabilidade   | [RNF08](../../elicitacao/requisitos_finais.md#RNF08)                                                                                             |
 | Data de criação   | 17/05/2025                                                                                          |
 
 
@@ -569,7 +498,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Consentimento expirado ou ausente <br> - Sistema bloqueia operação e solicita aceite atualizado |
 | Fluxo de exceção  | - Violação detectada na política de privacidade <br> - Sistema registra ocorrência e nega a operação |
 | Pós-condições     | O sistema garante que as operações executadas seguem as exigências legais e mantém rastreamento das ações realizadas |
-| Rastreabilidade   | [RNF07](../../elicitacao/elicitacao.md#RNF07)                                                                                               |
+| Rastreabilidade   | [RNF07](../../elicitacao/requisitos_finais.md#RNF07)                                                                                               |
 | Data de criação   | 17/05/2025                                                                                          |
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
 
@@ -587,7 +516,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Sistema identifica documentos inválidos <br> - Informa o usuário e solicita novo envio |
 | Fluxo de exceção | - Falha no upload de documentos <br> - Erro no processo de validação |
 | Pós-condições | Cadastro realizado e pessoa adicionada à base de dados com status elegível ou pendente |
-| Rastreabilidade | [RF07](../../elicitacao/elicitacao.md#RF07) |
+| Rastreabilidade | [RF07](../../elicitacao/requisitos_finais.md#RF07) |
 | Data de criação | 17/05/2025 |
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71">Lucas Alves</a></p>
@@ -611,7 +540,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Procedimento está coberto e não exige análise <br> - Autorização é liberada automaticamente |
 | Fluxo de exceção | - Solicitação incompleta ou sem documentação médica <br> - Exibe erro e solicita correção |
 | Pós-condições | Procedimento autorizado ou negado com justificativa técnica |
-| Rastreabilidade | [RF08](../../elicitacao/elicitacao.md#RF08) |
+| Rastreabilidade | [RF08](../../elicitacao/requisitos_finais.md#RF08) |
 | Data de criação | 17/05/2025 |
 
   
@@ -637,7 +566,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Não há consultas ou prazos registrados <br> - Sistema informa ausência de eventos |
 | Fluxo de exceção | - Falha na recuperação de dados <br> - Exibe mensagem de erro |
 | Pós-condições | Titular visualiza suas obrigações e compromissos relacionados ao plano |
-| Rastreabilidade | [RF16](../../elicitacao/elicitacao.md#RF16) |
+| Rastreabilidade | [RF16](../../elicitacao/requisitos_finais.md#RF16) |
 | Data de criação | 17/05/2025 |
 
 
@@ -660,7 +589,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Usuário salva denúncia como rascunho para enviar depois |
 | Fluxo de exceção | - Falha no envio da denúncia <br> - Sistema exibe erro e sugere reenvio |
 | Pós-condições | Denúncia registrada e encaminhada para análise pelo setor responsável |
-| Rastreabilidade | [RF18](../../elicitacao/elicitacao.md#RF18) |
+| Rastreabilidade | [RF18](../../elicitacao/requisitos_finais.md#RF18) |
 | Data de criação | 17/05/2025 |
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71">Lucas Alves</a></p>
@@ -682,7 +611,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Sistema reprograma envio se falha temporária na comunicação |
 | Fluxo de exceção | - Falha na integração com sistema do GDF <br> - Notifica equipe técnica |
 | Pós-condições | Mensalidade é descontada automaticamente na folha |
-| Rastreabilidade | [RNF09](../../elicitacao/elicitacao.md#RNF09) |
+| Rastreabilidade | [RNF09](../../elicitacao/requisitos_finais.md#RNF09) |
 | Data de criação | 17/05/2025 |
 
 
@@ -704,7 +633,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | - Carteirinha disponível via atalho na tela inicial |
 | Fluxo de exceção | - Falha no carregamento da carteirinha <br> - Exibe erro e instruções |
 | Pós-condições | Titular acessa rapidamente seus dados de identificação do plano |
-| Rastreabilidade | [RNF10](../../elicitacao/elicitacao.md#RNF10) |
+| Rastreabilidade | [RNF10](../../elicitacao/requisitos_finais.md#RNF10) |
 | Data de criação | 17/05/2025 |
 
 
@@ -726,7 +655,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo Alternativo | FA1. Sem Histórico Disponível: No passo 1, se não houver histórico, o sistema exibe "Nenhum histórico disponível". Finaliza fluxo. |
 | Fluxo de Exceção | FE1. Erro Técnico: No passo 1, caso ocorra um erro técnico, o sistema exibe "Erro ao carregar histórico" e oferece opções de tentar novamente ou contatar o suporte. Finaliza fluxo. |
 | Pós-condições | O usuário visualizou seu histórico de saúde. |
-| Rastreabilidade | [RF09](../../elicitacao/elicitacao.md#RF09) |
+| Rastreabilidade | [RF09](../../elicitacao/requisitos_finais.md#RF09) |
 | Data de Criação | 15/05/2025 |
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
@@ -747,7 +676,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo Alternativo| FA1. Horário Indisponível:<br>- Se um horário selecionado estiver indisponível, o sistema notifica "Horário não disponível" e remove-o da seleção.<br>- O sistema retoma ao passo 2 do fluxo básico.                                                                                                                         |
 | Fluxo de Exceção| FE1. Erro Técnico:<br>- Se ocorrer erro ao salvar, o sistema exibe "Erro ao salvar horário" e oferece opção de tentar novamente.<br>- Finaliza fluxo.                                                                                                                                |
 | Pós-condições   | Os horários favoritados estão salvos no perfil do usuário.                                                                                                                                                                                                                                                |
-| Rastreabilidade | [RF10](../../elicitacao/elicitacao.md#RF10)                                                                                                                                                  |
+| Rastreabilidade | [RF10](../../elicitacao/requisitos_finais.md#RF10)                                                                                                                                                  |
 | Data de Criação | 15/05/2025                                                                                                                                                                                                          
 
 <p align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
@@ -768,7 +697,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo Alternativo| FA1. Documentação Incompleta:<br>- No passo 4, se a documentação estiver incompleta, o sistema solicita os arquivos faltantes.<br>- O usuário anexa os documentos adicionais.<br>- O sistema retoma ao passo 5.                                                                                                                                          |
 | Fluxo de Exceção| FE1. Erro Técnico:<br>- No passo 5, caso ocorra erro técnico, o sistema exibe "Erro ao enviar solicitação" e oferece opção de tentar novamente.<br>- Finaliza fluxo.                                                                                                                                             |
 | Pós-condições   | A solicitação de reembolso foi registrada e enviada para análise.                                                                                                                     |
-| Rastreabilidade |   [RF20](../../elicitacao/elicitacao.md#RF20)                                                                        |
+| Rastreabilidade |   [RF20](../../elicitacao/requisitos_finais.md#RF20)                                                                        |
 | Data de Criação | 15/05/2025                                                                                                                                             |
 
 <p align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
@@ -789,7 +718,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo Alternativo| FA1. Se não houver notificações, o sistema exibe "Nenhuma notificação disponível" e finaliza fluxo. |
 | Fluxo de Exceção| FE1. Em caso de erro técnico, o sistema exibe "Erro ao carregar notificações" e oferece tentar novamente. |
 | Pós-condições   | O usuário acessou o histórico de notificações.                                                      |
-| Rastreabilidade |       [RNF11](../../elicitacao/elicitacao.md#RNF11)                                                                                              |
+| Rastreabilidade |       [RNF11](../../elicitacao/requisitos_finais.md#RNF11)                                                                                              |
 | Data de Criação | 15/05/2025                                                                                               |
 
 <p align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
@@ -810,7 +739,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo Alternativo| FA1. Tempo de Espera Excedido: No passo 4, se o tempo de resposta exceder 5 minutos (chat) ou 2 toques (telefone), o sistema notifica "Aguarde, estamos atendendo" e retoma ao passo 4.                                    |
 | Fluxo de Exceção| FE1. Canal Indisponível: No passo 2, caso o canal esteja indisponível, o sistema exibe "Suporte temporariamente indisponível" e sugere tentar mais tarde. Finaliza fluxo.                                                  |
 | Pós-condições   | O usuário recebeu assistência ou foi informado sobre a solução.                                                                             |
-| Rastreabilidade | [RNF12](../../elicitacao/elicitacao.md#RNF12)                                                                                                                                                                                |
+| Rastreabilidade | [RNF12](../../elicitacao/requisitos_finais.md#RNF12)                                                                                                                                                                                |
 | Data de Criação | 15/05/2025                                                                                                                                                                               |
 
 <p align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
@@ -831,7 +760,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo |- Consulta ainda não realizada: sistema bloqueia envio <br> - Avaliação incompleta: sistema solicita preenchimento obrigatório|
 | Fluxo de exceção | - Falha de rede durante envio <br> - Erro de autenticação do usuário|
 | Pós-condições | Feedback registrado e vinculado à consulta avaliada  |
-| Rastreabilidade | [RF11](../../elicitacao/elicitacao.md#RF11) |
+| Rastreabilidade | [RF11](../../elicitacao/requisitos_finais.md#RF11) |
 | Data de criação | 17/05/2025 | 
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
@@ -850,7 +779,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo |- Usuário não acessa a área de novidades <br> - Nenhuma ação ocorre.| 
 | Fluxo de exceção | - Falha na atualização de dados pelo sistema <br> - Problemas de conexão no acesso do usuário.| 
 | Pós-condições | Usuário visualiza informações atualizadas sobre novas funcionalidades. |
-| Rastreabilidade | [RF12](../../elicitacao/elicitacao.md#RF12) |
+| Rastreabilidade | [RF12](../../elicitacao/requisitos_finais.md#RF12) |
 | Data de criação | 17/05/2025 | 
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
@@ -869,7 +798,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo |- Caso dados offline não estejam atualizados, sistema exibe aviso de possível desatualização. |
 | Fluxo de exceção | - Dados offline corrompidos ou indisponíveis| 
 | Pós-condições | Usuário acessa funcionalidades básicas com dados disponíveis em modo offline| 
-| Rastreabilidade | [RNF13](../../elicitacao/elicitacao.md#RNF13) |
+| Rastreabilidade | [RNF13](../../elicitacao/requisitos_finais.md#RNF13) |
 | Data de criação | 17/05/2025 | 
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
@@ -890,7 +819,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | Credenciais inválidas: sistema exibe mensagem de erro e sugere recuperação de senha. |
 | Fluxo de exceção | Falha na conexão com GovBR: sistema informa indisponibilidade temporária. |
 | Pós-condições | Usuário autenticado e com acesso às funcionalidades do app. |
-| Rastreabilidade | [RNF15](../../elicitacao/elicitacao.md#RNF15) |
+| Rastreabilidade | [RNF15](../../elicitacao/requisitos_finais.md#RNF15) |
 | Data de criação | 17/05/2025 | 
 ---
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
@@ -909,7 +838,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | Nenhum resultado: sistema sugere ampliar critérios de busca. |
 | Fluxo de exceção | Falha na conexão: sistema notifica "Tente novamente mais tarde". |
 | Pós-condições | Usuário visualiza clínicas odontológicas compatíveis. |
-| Rastreabilidade | [RF13](../../elicitacao/elicitacao.md#RF13) |
+| Rastreabilidade | [RF13](../../elicitacao/requisitos_finais.md#RF13) |
 | Data de criação | 17/05/2025 | 
 ---
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
@@ -928,12 +857,13 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | Localização automática falha: usuário insere endereço manualmente. |
 | Fluxo de exceção | Geolocalização desativada: sistema solicita ativação ou entrada manual. |
 | Pós-condições | Usuário visualiza clínicas próximas ou resultados conforme endereço. |
-| Rastreabilidade | [RF14](../../elicitacao/elicitacao.md#RF14) |
+| Rastreabilidade | [RF14](../../elicitacao/requisitos_finais.md#RF14) |
 | Data de criação | 17/05/2025 | 
 ---
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
 ### UC38 – Baixar comprovante de agendamento
+
 <p align="center">Tabela 40 - Caso de Uso 38 </p>
 
 | Campo | Descrição |
@@ -947,12 +877,138 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | Comprovante expirado: sistema notifica "Agendamento não encontrado". |
 | Fluxo de exceção | Falha no servidor: sistema exibe mensagem de erro. |
 | Pós-condições | Comprovante é salvo no dispositivo do usuário. |
-| Rastreabilidade | [RF15](../../elicitacao/elicitacao.md#RF15) |
+| Rastreabilidade | [RF15](../../elicitacao/requisitos_finais.md#RF15) |
 | Data de criação | 17/05/2025 |
 
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
 ---
+
+### UC39 - Combinar Filtros de Pesquisa
+
+<p align="center">Tabela 41 - Caso de Uso 39 </p>
+
+| Campo                    | Descrição|
+|--------------------------|-----------------------------------------|
+| <a id="UC39"></a>UC39     | Combinar Filtros de Pesquisa|
+| Descrição                | Permitir ao usuário refinar progressivamente sua busca ao aplicar múltiplos filtros de forma simultânea.|
+| Ator                     | Usuário do aplicativo GDF Saúde|
+| Pré-condições            | 1. Conexão com internet. <br>2. Usuário está na tela de busca.|
+| Ação                     | Usuário aplica um filtro inicial e, em seguida, adiciona um segundo filtro para restringir ainda mais os resultados.|
+| Fluxo principal          | - Usuário acessa a busca e aplica o filtro "Especialidade: Ortopedia". <br>- Sistema atualiza a lista de resultados. <br>- Em seguida, o usuário aplica o filtro "Região: Taguatinga". <br>- Sistema atualiza a lista novamente, mostrando apenas resultados que atendem a ambos os filtros. |
+| Fluxo alternativo        | - Usuário aplica múltiplos filtros, mas decide remover um deles. <br>- O usuário desmarca o filtro "Região: Taguatinga". <br>- Sistema recalcula os resultados, exibindo todos os ortopedistas, independentemente da região.                 |
+| Fluxo de exceção         | - A combinação de filtros aplicada é muito restritiva e não retorna resultados. <br>- Sistema exibe a mensagem "Nenhum resultado para a combinação de filtros selecionada."|
+| Pós-condições            | A lista de resultados exibida atende a todos os critérios dos filtros combinados pelo usuário.|
+| Rastreabilidade          | [RF01.3](../../elicitacao/requisitos_finais.md#RF01.3)|
+| Data de criação          | 12/06/2025|
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+---
+### UC40 – Buscar por Proximidade
+
+<p align="center">Tabela 42 - Caso de Uso 40 </p>
+
+| Campo                    | Descrição |
+|--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| <a id="UC40"></a>UC40     | Buscar por Proximidade|
+| Descrição                | Permitir ao usuário encontrar redes credenciadas em um raio de até 10 km de sua localização geográfica atual.|
+| Ator                     | Usuário do aplicativo GDF Saúde|
+| Pré-condições            | 1. Conexão com internet. <br>2. Os serviços de localização do dispositivo estão ativados.|
+| Ação                     | Usuário ativa a opção de filtro "Buscar Perto de Mim" na tela de pesquisa.|
+| Fluxo principal          | - Na tela de busca, o usuário ativa o filtro de proximidade. <br>- Sistema solicita permissão para acessar a localização, caso ainda não a tenha. <br>- Usuário concede a permissão. <br>- Sistema obtém a localização e exibe os resultados em um raio de 10 km. |
+| Fluxo alternativo        | - O usuário ativa o filtro, mas nega a permissão de acesso à localização. <br>- Sistema exibe uma mensagem informativa explicando que a funcionalidade requer a permissão para operar.                                                         |
+| Fluxo de exceção         | - O sistema não consegue obter a localização do usuário devido a um erro de GPS ou de rede. <br>- Sistema exibe a mensagem "Não foi possível determinar sua localização. Tente novamente."                                                     |
+| Pós-condições            | A lista de resultados é filtrada para exibir apenas as redes credenciadas próximas ao usuário, ordenadas pela distância.|
+| Rastreabilidade          | [RF01.4](../../elicitacao/requisitos_finais.md#RF01.4)|
+| Data de criação          | 12/06/2025 |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+---
+### UC41 – Filtrar por Especialidade Médica
+
+<p align="center">Tabela 43 - Caso de Uso 41 </p>
+
+| Campo                    | Descrição |
+|--------------------------|-------------------------------------------------------------------------------------------------------------|
+| <a id="UC41"></a>UC41     | Filtrar por Especialidade Médica |
+| Descrição                | Permitir ao usuário filtrar a busca de redes credenciadas selecionando uma especialidade médica específica em uma lista. |
+| Ator                     | Usuário do aplicativo GDF Saúde |
+| Pré-condições            | 1. Conexão com internet. <br>2. Usuário está na tela de busca. |
+| Ação                     | Usuário seleciona a opção de filtro "Especialidade" e escolhe um item da lista. |
+| Fluxo principal          | - Usuário toca no campo de filtro "Especialidade". <br>- Sistema exibe uma lista de todas as especialidades disponíveis. <br>- Usuário seleciona "Dermatologia" da lista. <br>- Sistema atualiza a busca para mostrar apenas redes com essa especialidade. |
+| Fluxo alternativo        | - O usuário começa a digitar no campo de busca de especialidades. <br>- O sistema filtra dinamicamente a lista de especialidades para corresponder ao texto digitado.                                                                       |
+| Fluxo de exceção         | - A lista de especialidades não pode ser carregada devido a uma falha de conexão. <br>- Sistema exibe uma mensagem de erro com a opção de tentar novamente.                                                                                 |
+| Pós-condições            | A lista de resultados contém apenas redes que atendem à especialidade médica selecionada. |
+| Rastreabilidade          | [RF01.5](../../elicitacao/requisitos_finais.md#RF01.5) |
+| Data de criação          | 12/06/2025 |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+---
+### UC42 – Atribuir Nota de Avaliação
+
+<p align="center">Tabela 44 - Caso de Uso 42 </p>
+
+| Campo                    | Descrição                                                 |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a id="UC42"></a>UC42     | Atribuir Nota de Avaliação                                      |
+| Descrição                | Permitir ao usuário classificar a qualidade de um atendimento utilizando uma nota na escala Likert de 1 a 5. |
+| Ator                     | Usuário do aplicativo GDF Saúde           |
+| Pré-condições            | 1. Usuário teve um atendimento registrado na rede a ser avaliada. <br>2. Usuário está logado no aplicativo.   |
+| Ação                     | Usuário seleciona uma nota de 1 a 5 estrelas na tela de avaliação de um atendimento. |
+| Fluxo principal          | - Usuário acessa o perfil da clínica e seleciona a opção "Avaliar Atendimento". <br>- Sistema exibe a interface de avaliação. <br>- Usuário seleciona a nota desejada (ex: 4 de 5 estrelas). <br>- Usuário confirma a submissão da nota.      |
+| Fluxo alternativo        | - O usuário seleciona uma nota, mas decide alterá-la antes de submeter. <br>- O usuário toca em uma nova quantidade de estrelas, e o sistema atualiza a seleção.                 |
+| Fluxo de exceção         | - O usuário tenta submeter a avaliação, mas ocorre uma falha de conexão. <br>- Sistema exibe uma mensagem de erro e oferece a opção de tentar novamente, mantendo a nota selecionada.                                                        |
+| Pós-condições            | A nota de avaliação do usuário é registrada com sucesso no sistema e associada ao respectivo atendimento. |
+| Rastreabilidade          | [RF02.1](../../elicitacao/requisitos_finais.md#RF02.1) |
+| Data de criação          | 12/06/2025   |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+---
+### UC43 – Ler e Escrever Comentários
+
+<p align="center">Tabela 45 - Caso de Uso 43 </p>
+
+| Campo                    | Descrição                                               |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a id="UC43"></a>UC43     | Ler e Escrever Comentários                                        |
+| Descrição                | Permitir ao usuário ler as experiências de outros beneficiários e deixar seus próprios comentários sobre atendimentos. |
+| Ator                     | Usuário do aplicativo GDF Saúde |
+| Pré-condições            | 1. Usuário está logado. <br>2. Usuário está visualizando o perfil de uma clínica ou profissional.|
+| Ação                     | Usuário acessa a seção de comentários para ler as avaliações ou preenche o campo de texto para submeter um novo comentário.                                                                                                                |
+| Fluxo principal          | - Leitura: Usuário acessa a aba "Avaliações" e percorre a lista de comentários existentes. <br>- Escrita: Na mesma tela, usuário toca em "Deixar um comentário", digita seu feedback no campo de texto e toca em "Enviar".              |
+| Fluxo alternativo        | - Ao escrever um comentário, o usuário decide cancelar a ação antes de enviar. <br>- O usuário toca no botão "Cancelar" e o sistema o retorna à tela anterior sem salvar o rascunho.     |
+| Fluxo de exceção         | - O comentário do usuário contém termos inadequados bloqueados pelo sistema. <br>- Ao tentar enviar, o sistema exibe uma mensagem informando que o comentário não pode ser publicado e destaca as diretrizes da comunidade.                |
+| Pós-condições            | Usuário visualiza os comentários de outros ou tem seu novo comentário submetido com sucesso para moderação e publicação. |
+| Rastreabilidade          | [RF02.2](../../elicitacao/requisitos_finais.md#RF02.2) |
+| Data de criação          | 12/06/2025   |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+---
+### UC44 – Visualizar Comentários Relevantes
+
+<p align="center">Tabela 46 - Caso de Uso 44 </p>
+
+| Campo                    | Descrição                                                 |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a id="UC44"></a>UC44     | Visualizar Comentários Relevantes                                |
+| Descrição                | Permitir ao usuário visualizar primeiro os comentários que o sistema classifica automaticamente como os mais "relevantes", com base em critérios como utilidade e palavras-chave.                                                           |
+| Ator                     | Usuário do aplicativo GDF Saúde    |
+| Pré-condições            | Usuário está na seção de avaliações de uma clínica que possui múltiplos comentários. |
+| Ação                     | Usuário abre a lista de comentários de um profissional ou clínica. |
+| Fluxo principal          | - Usuário acessa a aba de "Avaliações" de uma clínica. <br>- A lista de comentários é carregada. <br>- O sistema, por padrão, exibe no topo os comentários que foram identificados como os mais relevantes.                                      |
+| Fluxo alternativo        | - O usuário prefere ver os comentários mais recentes. <br>- O usuário seleciona a opção de ordenação "Mais Recentes". <br>- O sistema recarrega a lista, exibindo os comentários em ordem cronológica decrescente.                             |
+| Fluxo de exceção         | - A clínica não possui comentários suficientes para que a classificação por relevância seja significativa. <br>- O sistema exibe todos os comentários disponíveis, ordenados por data como padrão alternativo.                                |
+| Pós-condições            | O usuário tem acesso rápido às opiniões consideradas mais úteis, otimizando seu tempo de análise. |
+| Rastreabilidade          | [RF02.3](../../elicitacao/requisitos_finais.md#RF02.3)  |
+| Data de criação          | 12/06/2025   |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
 
 ## Referência Bibliográfica
 
@@ -977,4 +1033,6 @@ Lucid Software Português. *Tutorial de Caso de Uso UML*. Youtube, 25 abr. 2019.
 |`1.6`  | 17/05/2025  | Adição dos casos de usos referentes aos requisitos funcionais 11 e 12 e dos requisitos não funcionais 13 e 14 | [Othavio Bolzan](https://github.com/bolzanMGB) | [Kaleb Macedo](https://github.com/kalebmacedo) |
 |`1.7`  | 17/05/2025  | Adição dos casos de usos referentes aos requisitos funcionais 13, 14 e 15 e dos requisitos não funcionais 15 | [Yzabella Miranda](https://github.com/redjsun) |[Othavio Bolzan](https://github.com/bolzanMGB) |
 |`1.8`  | 08/06/2025  | Adição de ancoras | [Isaque Camargos](https://github.com/isaqzin) | [Lucas Alves](https://github.com/LucasAlves71) |
+|`1.9`  | 17/05/2025  | Retirando o diagrama de caso de uso referente aos requisitos funcionais da Ana| [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Kaleb Macedo](https://github.com/kalebmacedo) |
+|`2.0`  | 11/06/2025  | Corrigi os meus cenários, retirando as especificações e diagrama dos casos de uso de requisitos não funcionais e criando casos de uso para os requisitos: RF01.1, RF01.2, RF01.3, RF01.4, RF01.5, RF02.1, RF02.2 e RF02.3 .  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
 

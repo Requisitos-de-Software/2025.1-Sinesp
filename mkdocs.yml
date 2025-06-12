@@ -72,16 +72,22 @@ nav:
           
 
   - Modelagem:
-      - Metodologias tradicionais: 
+      - Metodologias Tradicionais:  
+          - Casos de uso: modelagem/tradicional_final/casos_de_usos.md
+          - Validação dos Casos de Uso: modelagem/tradicional_final/validacao_caso_uso.md
+          - Cenários: modelagem/tradicional_final/cenarios.md
+          - Especificação Suplementar: modelagem/tradicional_final/especificacao-suplementar.md
+          - Léxicos: modelagem/tradicional_final/lexicos.md  
+      - Metodologias Ágeis: 
+          - Histórias de Usuário: modelagem/metodos_ageis/historias_todos02.md
+          - Backlog do Produto: modelagem/metodos_ageis/backlog.md
+          - NFR framework: modelagem/metodos_ageis/nfr.md 
+      - Metodologias Tradicionais Versões Antigas: 
           - Casos de uso: modelagem/metodos_tradicionais/casos_de_usos.md
           - Validação dos Casos de Uso: modelagem/metodos_tradicionais/validacao_caso_uso.md
           - Cenários: modelagem/metodos_tradicionais/cenarios.md
           - Especificação Suplementar: modelagem/metodos_tradicionais/especificacao-suplementar.md
           - Léxicos: modelagem/metodos_tradicionais/lexicos.md  
-      - Metodologias ágeis: 
-          - Histórias de Usuário: modelagem/metodos_ageis/historias_todos02.md
-          - Backlog do Produto: modelagem/metodos_ageis/backlog.md
-          - NFR framework: modelagem/metodos_ageis/nfr.md 
 
   - Pós rastreabilidade:
       - Matriz de Rastreabilidade: pos-rastreabilidade/matriz_geral.md
