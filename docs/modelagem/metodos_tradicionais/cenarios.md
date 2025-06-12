@@ -894,7 +894,159 @@ Este cenário está relacionado com o requisito não funcional **implementado** 
 
 ---
 
+### Cenário 38: Pesquisa de Profissionais da Saúde
 
+**Requisito Associado:** [RF01.2](../../../elicitacao/requisitos_finais/#RF01.2) - O usuário poderá pesquisar profissionais da saúde (médicos, psicólogos etc.) por meio de filtros de busca.
+
+<p align="center">Tabela 40 - Cenário 38</p>
+
+| Elemento | Descrição |
+| :--- | :--- |
+| **ID** | <a id="CE38">CE38</a> |
+| **Título** | Pesquisa de Profissionais da Saúde por Categoria |
+| **Metas/Objetivos** | Permitir que o usuário encontre um profissional de saúde (médico, psicólogo, etc.) utilizando um filtro específico de categoria profissional. |
+| **Contexto** | Um beneficiário precisa de acompanhamento psicológico e utiliza o aplicativo para encontrar uma lista de todos os psicólogos credenciados na rede GDF Saúde. |
+| **Ator(es)** | - Usuário do GDF Saúde<br>- Sistema de busca do aplicativo |
+| **Recursos** | - Interface com filtros de pesquisa<br>- Banco de dados de profissionais categorizados |
+| **Exceções** | - A busca por uma categoria específica não retorna nenhum profissional.<br>- O profissional listado não atende mais pela rede credenciada. |
+| **Restrições** | - A lista de profissionais e suas categorias deve ser mantida atualizada pelo INAS. |
+| **Episódios** | 1. O usuário acessa a funcionalidade de busca da rede credenciada.<br>2. Seleciona o filtro "Tipo de Profissional".<br>3. Escolhe a opção "Psicólogo" na lista.<br>4. O sistema exibe uma lista com todos os psicólogos disponíveis. |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC" target="_blank">Ana Luiza Soares</a></p>
+
+---
+
+### Cenário 39: Combinação de Filtros de Pesquisa
+
+**Requisito Associado:** [RF01.3](../../../elicitacao/requisitos_finais/#RF01.3) - Será possível combinar filtros de pesquisa (por ex. “região administrativa + especialidade”).
+
+<p align="center">Tabela 41 - Cenário 39</p>
+
+| Elemento | Descrição |
+| :--- | :--- |
+| **ID** | <a id="CE39">CE39</a> |
+| **Título** | Refinamento da Busca com Filtros Combinados |
+| **Metas/Objetivos** | Permitir que o usuário refine os resultados da busca aplicando múltiplos filtros de forma simultânea para encontrar um atendimento altamente específico. |
+| **Contexto** | Um usuário precisa agendar uma consulta com um cardiologista que atenda na Asa Sul. Para otimizar sua busca, ele aplica os filtros "Especialidade" e "Região Administrativa" ao mesmo tempo. |
+| **Ator(es)** | - Usuário do GDF Saúde<br>- Sistema de busca do aplicativo |
+| **Recursos** | - Interface de busca que permite a seleção de múltiplos filtros.<br>- Backend capaz de processar consultas com lógica "E" (AND). |
+| **Exceções** | - A combinação de filtros resulta em uma lista vazia, sem nenhuma correspondência.<br>- O sistema interpreta a busca com a lógica "OU" (OR) em vez de "E", retornando resultados imprecisos. |
+| **Restrições** | - O sistema deve aplicar uma lógica "E" (AND) para todos os filtros selecionados, garantindo que todos os critérios sejam atendidos simultaneamente. |
+| **Episódios** | 1. O usuário seleciona o filtro "Especialidade: Cardiologia".<br>2. Sem limpar o primeiro filtro, ele adiciona "Região Administrativa: Asa Sul".<br>3. O sistema processa a busca combinada.<br>4. A tela de resultados exibe apenas os cardiologistas que atendem na Asa Sul. |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC" target="_blank">Ana Luiza Soares</a></p>
+
+---
+
+### Cenário 40: Busca por Proximidade
+
+**Requisito Associado:** [RF01.4](../../../elicitacao/requisitos_finais/#RF01.4) - O filtro de pesquisa deve permitir buscas por proximidade do usuário (distância em até 10 km).
+
+<p align="center">Tabela 42 - Cenário 40</p>
+
+| Elemento | Descrição |
+| :--- | :--- |
+| **ID** | <a id="CE40">CE40</a> |
+| **Título** | Localização de Atendimento por Proximidade |
+| **Metas/Objetivos** | Facilitar a vida do usuário permitindo que ele encontre opções de atendimento próximas à sua localização atual, dentro de um raio de 10 km. |
+| **Contexto** | Um usuário está em seu local de trabalho e precisa de atendimento odontológico com urgência. Ele utiliza a função "Buscar Perto de Mim" para ver as clínicas mais próximas. |
+| **Ator(es)** | - Usuário do GDF Saúde<br>- Sistema de busca e geolocalização |
+| **Recursos** | - GPS do dispositivo móvel do usuário.<br>- API de geolocalização (ex: Google Maps).<br>- Banco de dados com as coordenadas geográficas das clínicas. |
+| **Exceções** | - O usuário não concede a permissão de acesso à localização.<br>- O GPS do dispositivo está desativado ou com baixa precisão.<br>- Nenhuma clínica é encontrada no raio de 10 km. |
+| **Restrições** | - A funcionalidade requer permissão explícita do usuário para acessar a localização do dispositivo.<br>- A busca é estritamente limitada a um raio de 10 km da posição atual do usuário. |
+| **Episódios** | 1. O usuário toca no ícone de busca por proximidade.<br>2. O aplicativo solicita e obtém permissão para usar o GPS.<br>3. O sistema captura as coordenadas atuais e busca no banco de dados.<br>4. Uma lista de clínicas é exibida, ordenada da mais próxima para a mais distante (até 10 km). |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC" target="_blank">Ana Luiza Soares</a></p>
+
+---
+
+### Cenário 41: Busca por Especialidade Médica
+
+**Requisito Associado:** [RF01.5](../../../elicitacao/requisitos_finais/#RF01.5) - O Filtro permite busca pela especialidade médica.
+
+<p align="center">Tabela 43 - Cenário 41</p>
+
+| Elemento | Descrição |
+| :--- | :--- |
+| **ID** | <a id="CE41">CE41</a> |
+| **Título** | Filtro por Especialidade Médica |
+| **Metas/Objetivos** | Permitir que o usuário encontre facilmente profissionais e clínicas que ofereçam uma determinada especialidade médica. |
+| **Contexto** | Um usuário precisa encontrar um ortopedista para tratar uma lesão no joelho. Ele acessa o aplicativo e utiliza o filtro de especialidades para listar todas as opções disponíveis. |
+| **Ator(es)** | - Usuário do GDF Saúde<br>- Sistema de busca do aplicativo |
+| **Recursos** | - Interface com campo de busca ou lista de seleção de especialidades.<br>- Banco de dados de profissionais e suas respectivas especialidades. |
+| **Exceções** | - O usuário digita o nome de uma especialidade com erro e o sistema não oferece sugestões.<br>- Não existem profissionais da especialidade buscada na rede credenciada. |
+| **Restrições** | - A lista de especialidades deve ser padronizada e de fácil compreensão para o usuário leigo. |
+| **Episódios** | 1. O usuário vai até a área de busca da rede.<br>2. Clica no filtro "Especialidade".<br>3. Digita ou seleciona "Ortopedia" na lista.<br>4. O sistema retorna todos os ortopedistas e clínicas com essa especialidade. |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC" target="_blank">Ana Luiza Soares</a></p>
+
+---
+
+### Cenário 42: Leitura e Publicação de Comentários
+
+**Requisito Associado:** [RF02.2](../../../elicitacao/requisitos_finais/#RF02.2) - O usuário poderá deixar e/ou ler comentários sobre atendimentos em clínicas ou com profissionais específicos.
+
+<p align="center">Tabela 44 - Cenário 42</p>
+
+| Elemento | Descrição |
+| :--- | :--- |
+| **ID** | <a id="CE42">CE42</a> |
+| **Título** | Interação com Comentários de Atendimentos |
+| **Metas/Objetivos** | Criar uma comunidade de feedback, permitindo que usuários leiam avaliações de outros e publiquem suas próprias experiências para ajudar na tomada de decisão. |
+| **Contexto** | Antes de marcar uma consulta com um novo pediatra para seu filho, uma usuária acessa o perfil do profissional no aplicativo para ler os comentários deixados por outros pais. |
+| **Ator(es)** | - Usuário do GDF Saúde<br>- Sistema de avaliação e comentários |
+| **Recursos** | - Seção de comentários no perfil de clínicas e profissionais.<br>- Formulário para submissão de texto. |
+| **Exceções** | - A seção de comentários não carrega por um erro de conexão.<br>- O comentário enviado pelo usuário viola os termos de uso e é bloqueado. |
+| **Restrições** | - Apenas usuários que tiveram um atendimento confirmado podem publicar um comentário.<br>- Os comentários devem passar por um filtro de moderação de conteúdo. |
+| **Episódios** | 1. Uma usuária busca por um pediatra e seleciona um perfil.<br>2. Navega até a seção de avaliações e lê os comentários existentes.<br>3. Após sua própria consulta, ela retorna ao perfil e clica em "Deixar um comentário".<br>4. Escreve sua avaliação e a submete para publicação. |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC" target="_blank">Ana Luiza Soares</a></p>
+
+---
+
+### Cenário 43: Classificação de Relevância dos Comentários
+
+**Requisito Associado:** [RF02.3](../../../elicitacao/requisitos_finais/#RF02.2) - O sistema classificará comentários como “relevantes” ou “não relevantes” automaticamente com base em palavras-chave e upvotes de outros usuários.
+
+<p align="center">Tabela 45 - Cenário 43</p>
+
+| Elemento | Descrição |
+| :--- | :--- |
+| **ID** | <a id="CE43">CE43</a> |
+| **Título** | Destaque de Comentários Relevantes |
+| **Metas/Objetivos** | Melhorar a experiência do usuário, destacando automaticamente os comentários mais úteis e informativos com base em seu conteúdo e na percepção de outros usuários. |
+| **Contexto** | Ao ler as avaliações de um hospital, um usuário nota que os comentários no topo da lista são mais detalhados, mencionam aspectos como "tempo de espera" e "qualidade do atendimento", e possuem um selo de "Relevante". |
+| **Ator(es)** | - Usuário do GDF Saúde<br>- Sistema de classificação de conteúdo |
+| **Recursos** | - Algoritmo de Processamento de Linguagem Natural (PLN) para análise de texto.<br>- Funcionalidade de "upvote" (voto positivo) para comentários. |
+| **Exceções** | - Um comentário genérico e pouco útil é classificado erroneamente como "relevante".<br>- O sistema de upvotes é explorado para promover artificialmente um comentário. |
+| **Restrições** | - A relevância de um comentário deve ser calculada por um algoritmo que pondere a presença de palavras-chave predefinidas e o número de "upvotes" recebidos. |
+| **Episódios** | 1. Um usuário escreve um comentário detalhado sobre sua experiência cirúrgica.<br>2. Outros usuários acham o comentário útil e dão "upvotes".<br>3. O algoritmo do sistema identifica palavras-chave como "cirurgia", "recuperação" e "equipe médica".<br>4. Com base nos upvotes e nas palavras-chave, o comentário recebe a tag "Relevante" e é movido para o topo da lista. |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC" target="_blank">Ana Luiza Soares</a></p>
+
+---
+
+### Cenário 44: Ordenação por Nota Média de Atendimento
+
+**Requisito Associado:** [RF02.4](../../../elicitacao/requisitos_finais/#RF02.2) - O sistema ordenará clínicas por nota média de atendimento, do maior para o menor.
+
+<p align="center">Tabela 46 - Cenário 44</p>
+
+| Elemento | Descrição |
+| :--- | :--- |
+| **ID** | <a id="CE44">CE44</a> |
+| **Título** | Ordenação de Resultados por Avaliação |
+| **Metas/Objetivos** | Permitir que o usuário organize os resultados de uma busca de clínicas com base na satisfação de outros pacientes, exibindo as mais bem avaliadas primeiro. |
+| **Contexto** | Um usuário busca por "laboratórios de análises clínicas" e, para garantir um serviço de qualidade, ele usa a opção de ordenar os resultados pela nota média, do maior para o menor. |
+| **Ator(es)** | - Usuário do GDF Saúde<br>- Sistema de busca e ordenação |
+| **Recursos** | - Interface com opção de ordenação (menu dropdown, botão, etc.).<br>- Backend com lógica para calcular e ordenar pela nota média das avaliações. |
+| **Exceções** | - A função de ordenar não é aplicada corretamente e a lista permanece inalterada.<br>- As notas exibidas estão desatualizadas em relação às últimas avaliações recebidas. |
+| **Restrições** | - A nota média deve ser claramente visível em cada item da lista de resultados.<br>- A opção de ordenação por nota deve ser facilmente acessível. |
+| **Episódios** | 1. Um usuário executa uma busca por laboratórios.<br>2. Na tela de resultados, ele clica em "Ordenar por" e seleciona "Maior Nota".<br>3. A lista de laboratórios é recarregada.<br>4. O laboratório com nota média 4.9 aparece no topo, seguido pelo de nota 4.8, e assim por diante. |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC" target="_blank">Ana Luiza Soares</a></p>
+
+---
 
 ## Referência Bibliográfica
 

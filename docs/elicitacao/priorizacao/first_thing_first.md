@@ -4,6 +4,48 @@
 
 Conforme Vazquez, Simões e Albert (2013) em *Engenharia de requisitos: software orientado ao negócio*, a priorização de requisitos é uma etapa crítica da engenharia de requisitos. Ela permite ordenar funcionalidades e características segundo critérios objetivos — valor de negócio, penalidade por não implementação, esforço de desenvolvimento e riscos — garantindo que a equipe concentre recursos no que traz maior retorno e reduz expose a riscos. A técnica *First Things First* combina esses fatores em um único índice para apoiar decisões consistentes e transparentes, essenciais em projetos com restrições de tempo e orçamento.
 
+
+## Integrantes do Grupo
+
+Na tabela 1 contêm todos os integrantes da equipe que participaram na construção dos cenários e o que a pessoa desenvolveu durante o projeto.
+
+<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+
+<div align="center">
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Quais etapas participou</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://github.com/Ana-Luiza-SC" target="_blank">Ana Luiza Soares</a></td>
+                <td>Criou os cenários: 1, 2, 21, 22, 23 e 24. Além disso, consolidou o documento final ao pegar os cenários separados, que se encontravam na plataforma <a href="https://stackedit.io/app#">StackEdit</a> e organizar no documento final para o Github Pages. Além disso refatorou os cenários para fazerem sentido para os novos requisitos finais e arrumou a rastreabilidade de todos os requisitos do antigo para o novo</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/isaqzin" target="_blank">Isaque Camargos</a></td>
+                <td> Inicou o documento criando a introdução e criou os cenários: 3, 4, 19, 25, 25 e 26.</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Isaque Camargos</a>, <a  href="https://github.com/isaqzin">Yzabella Miranda</a> e <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
 ## Metodologia
 
 Para tabular e priorizar cada requisito, [Ana Luiza Soares](https://github.com/Ana-Luiza-SC), [Matheus de Alcantara](https://github.com/matheusdealcantara) e [Yzabella Miranda](https://github.com/redjsun) atuaram como personas e desenvolvedores. Cada requisito foi pontuado em quatro dimensões:

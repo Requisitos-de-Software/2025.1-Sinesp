@@ -85,19 +85,13 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 <p align="center">Figura 1 - Caso de uso UC01 a UC03 </p>
 <p align="center">
-  <img src="..\../assets/casos-uso/casos-uso-ana-rf.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
+  <img src="..\..\assets\casos-uso\casos-uso-ana.png" width="600">
 </p>
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC" target="_blank">Ana Luiza Soares</a></p>
 
-<p align="center">Figura 2 - Caso de uso UC04 a UC06 </p>
-<p align="center">
-  <img src="..\..\assets\casos-uso\casos-uso-ana-rnf.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
-</p>
 
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
-
-<p align="center">Figura 3 - Caso de uso UC07 a UC12 </p>
+<p align="center">Figura 2 - Caso de uso UC07 a UC12 </p>
 <p align="center">
   <img src="..\..\assets\casos-uso\casos-uso-isaque.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
@@ -105,7 +99,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 <p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
 
 
-<p align="center">Figura 4 - Caso de uso UC13 a UC20 </p>
+<p align="center">Figura 3 - Caso de uso UC13 a UC20 </p>
 <p align="center">
   <img src="..\..\assets\casos-uso\casos-uso-kaleb.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
@@ -113,7 +107,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo" target="_blank">Kaleb Macedo</a></p>
 
 
-<p align="center">Figura 5 - Caso de uso UC21 a UC26 </p>
+<p align="center">Figura 4 - Caso de uso UC21 a UC26 </p>
 <p align="center">
   <img src="..\..\assets\casos-uso\casos-uso-lucas.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
@@ -121,21 +115,21 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71" target="_blank">Lucas Alves</a></p>
 
 
-<p align="center">Figura 6 - Caso de uso UC27 a UC31 </p>
+<p align="center">Figura 5 - Caso de uso UC27 a UC31 </p>
 <p align="center">
   <img src="..\..\assets\casos-uso\casos-uso-matheus.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara" target="_blank" >Matheus de Alcântara</a></p>
 
-<p align="center">Figura 7 - Caso de uso UC32 a UC34 </p>
+<p align="center">Figura 6 - Caso de uso UC32 a UC34 </p>
 <p align="center">
   <img src="..\..\assets\casos-uso\casos-uso-othavio.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a></p>
 
-<p align="center">Figura 8 - Caso de uso UC35 a UC38 </p>
+<p align="center">Figura 7 - Caso de uso UC35 a UC38 </p>
 <p align="center">
   <img src="..\..\assets\casos-uso\casos-uso-yza.png" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
@@ -977,4 +971,5 @@ Lucid Software Português. *Tutorial de Caso de Uso UML*. Youtube, 25 abr. 2019.
 |`1.6`  | 17/05/2025  | Adição dos casos de usos referentes aos requisitos funcionais 11 e 12 e dos requisitos não funcionais 13 e 14 | [Othavio Bolzan](https://github.com/bolzanMGB) | [Kaleb Macedo](https://github.com/kalebmacedo) |
 |`1.7`  | 17/05/2025  | Adição dos casos de usos referentes aos requisitos funcionais 13, 14 e 15 e dos requisitos não funcionais 15 | [Yzabella Miranda](https://github.com/redjsun) |[Othavio Bolzan](https://github.com/bolzanMGB) |
 |`1.8`  | 08/06/2025  | Adição de ancoras | [Isaque Camargos](https://github.com/isaqzin) | [Lucas Alves](https://github.com/LucasAlves71) |
+|`1.9`  | 17/05/2025  | Retirando o diagrama de caso de uso referente aos requisitos funcionais da Ana| [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Kaleb Macedo](https://github.com/kalebmacedo) |
 
