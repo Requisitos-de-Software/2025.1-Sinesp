@@ -72,16 +72,22 @@ nav:
           
 
   - Modelagem:
-      - Metodologias tradicionais: 
+      - Metodologias Tradicionais:  
+          - Casos de uso: modelagem/tradicional_final/casos_de_usos.md
+          - Validação dos Casos de Uso: modelagem/tradicional_final/validacao_caso_uso.md
+          - Cenários: modelagem/tradicional_final/cenarios.md
+          - Especificação Suplementar: modelagem/tradicional_final/especificacao-suplementar.md
+          - Léxicos: modelagem/tradicional_final/lexicos.md  
+      - Metodologias Ágeis: 
+          - Histórias de Usuário: modelagem/metodos_ageis/historias_todos02.md
+          - Backlog do Produto: modelagem/metodos_ageis/backlog.md
+          - NFR framework: modelagem/metodos_ageis/nfr.md 
+      - Metodologias Tradicionais Versões Antigas: 
           - Casos de uso: modelagem/metodos_tradicionais/casos_de_usos.md
           - Validação dos Casos de Uso: modelagem/metodos_tradicionais/validacao_caso_uso.md
           - Cenários: modelagem/metodos_tradicionais/cenarios.md
           - Especificação Suplementar: modelagem/metodos_tradicionais/especificacao-suplementar.md
           - Léxicos: modelagem/metodos_tradicionais/lexicos.md  
-      - Metodologias ágeis: 
-          - Histórias de Usuário: modelagem/metodos_ageis/historias_todos02.md
-          - Backlog do Produto: modelagem/metodos_ageis/backlog.md
-          - NFR framework: modelagem/metodos_ageis/nfr.md 
 
   - Pós rastreabilidade:
       - Matriz de Rastreabilidade: pos-rastreabilidade/matriz_geral.md
@@ -109,12 +115,12 @@ nav:
           - Entrega 2: inspecao/inspecao_2_grupo.md
           - Entrega 3: inspecao/inspecao_3_grupo.md
           - Entrega 4: inspecao/inspecao_4_grupo.md
-          - Entrega 5: inspecao/inspecao_5_grupo.md
+          - Entrega 6: inspecao/inspecao_6_grupo.md
       - Grupo +1:
           - Entrega 1: inspecao/lista_de_inspecaoEntrega1Grupo+1.md
           - Entrega 2: inspecao/inspecao_2_grupo+1.md
           - Entrega 3: inspecao/inspecao_3_grupo+1.md
           - Entrega 4: inspecao/inspecao_4_grupo+1.md
-          - Entrega 5: inspecao/inspecao_5_grupo+1.md
+          - Entrega 6: inspecao/inspecao_6_grupo+1.md
 extra_css:
   - stylesheets/extra.css
