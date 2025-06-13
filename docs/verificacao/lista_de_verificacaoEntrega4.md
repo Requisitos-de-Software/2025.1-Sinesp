@@ -1,8 +1,50 @@
 # Lista de Verificação da Entrega 4
 
-
 ## Introdução
 Este documento apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 4, tantos para o grupo e o grupo +1.
+
+## Tabela de Integrantes
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Contribuição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+        <td>Criação e estruturação do documento, elaboração das listas de verificação baseadas no plano de ensino, itens técnicos e documentais, histórias de usuário e NFR Framework, organização e divisão das tabelas, adição do tópico de metodologia</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+        <td>Elaboração da lista de verificação do backlog</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+        <td>Revisão das listas de verificação, elaboração de itens da lista de histórias de usuário</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+        <td>Elaboração de itens da lista de histórias de usuário</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+        <td>Elaboração de itens da lista de histórias de usuário</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+        <td>Elaboração de itens da lista de histórias de usuário</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+        <td>Elaboração de itens da lista de histórias de usuário</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## Objetivo
 - Fornecer critérios claros para verificação dos artefatos da Entrega 4;
@@ -154,3 +196,4 @@ SOMMERVILLE, Ian. *Engenharia de software*. 08. ed. São Paulo: Pearson Addison 
 | `1.2`  | 31/05/2025 | Criação das listas de verificação história de usuário e  NFR| [Yzabella Miranda](https://github.com/redjsun) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 | `1.3`  | 01/06/2025 | Criação da lista de verificação  backlog. | [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 | `1.4`  | 06/06/2025 | Adição de tópico referente a metodologia da lista de verificação junto a um link de fonte. | [Yzabella Miranda](https://github.com/redjsun) | [Isaque Camargos](https://github.com/isaqzin) |
+| `1.5`  | 13/06/2025 | Adição de tabela de integrantes | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |

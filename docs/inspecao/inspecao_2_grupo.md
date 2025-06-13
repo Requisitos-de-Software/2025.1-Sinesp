@@ -2,6 +2,49 @@
 
 Documento baseado na lista de verificação feita para a entrega 2. Esta lista de inspeção visa avaliar, por meio de perguntas objetivas, a completude e a qualidade dos itens exigidos para a Entrega 2. As tabelas são focadas em fazer a inspeção, que foram são registradas conforme os responsáveis por criação e revisão, e seguem sendo atualizadas conforme os feedbacks da equipe e do professor.
 
+## Tabela de Integrantes
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Contribuição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+        <td>Elaboração da inspeção, atualização das tabelas, elaboração e revisão das seções de entrevista, $100, personas, revisão geral</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+        <td>Elaboração e revisão das seções de perfil de usuário, glossário, First Things First, revisão geral, atualização das verificações conforme reunião</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+        <td>Elaboração e revisão dos itens de questionário, perfil de usuário, personas, revisão dos itens de verificação</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+        <td>Criação do documento, elaboração das seções de introspecção, MOSCOW, atualização das tabelas</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+        <td>Elaboração e revisão das seções de grupo focal, personas, revisão do documento</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+        <td>Elaboração e revisão das seções de introspecção, MOSCOW, revisão dos Rich Pictures</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+        <td>Elaboração e revisão da seção Three Level Scale, revisão dos dados e imagens</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 ---
 
 ## Objetivos
@@ -50,7 +93,7 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 | 6 | Cronograma executado com responsáveis e datas                                                         | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" Checked> Conforme | 
 | 7 | Atas de reunião com data, horário, participantes e objetivos                                          | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" Checked> Conforme | 
 | 8 | Gravações de reuniões salvas                                                                          | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" Checked> Conforme | 
-| 9 | Apresentações no YouTube como "não listado"                                                           | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" Checked> Conforme | 
+| 9 | Apresentações no YouTube como "não listado"                                                           | [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" Checked> Conforme |
 
 
 
@@ -266,7 +309,7 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 | 4  | Confirmar se as partes interessadas concordaram na prioritização da escala de importância x urgência                      | [Yzabella Miranda](https://github.com/redjsun)      |        [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB)       | <input type="checkbox" Checked> Conforme |
 | 5  | As prioridades altas são importantes e urgentes?   | [Yzabella Miranda](https://github.com/redjsun)      |       [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB)   | <input type="checkbox"> Incompleta |
 | 6  | As prioridades médias são importante, mas não são urgentes?  | [Yzabella Miranda](https://github.com/redjsun)      |    [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB)  | <input type="checkbox"> Incompleta |
-| 7  |    As prioridades baixas não são importantes e urgentes?           | [Yzabella Miranda](https://github.com/redjsun)      |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) |<input type="checkbox"> Incompleta |
+| 7  |    As prioridades baixas não são importantes e urgentes?           | [Yzabella Miranda](https://github.com/redjsun)      |     [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) |<input type="checkbox"> Incompleta |
 | 8  |    O número de altas está elevado?      | [Yzabella Miranda](https://github.com/redjsun)      |     [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB)       | <input type="checkbox" Checked> Conforme |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/redjsun">Yzabella Miranda</a></p>
@@ -314,3 +357,4 @@ Segue abaixo a gravação da inspeção da entrega 2, realizada no dia **01 de m
 | `1.4`  |  04/05/2025 |  Adicionando a tabela 11 (three level scale) no documento |  [Yzabella Miranda](https://github.com/redjsun)  | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
 | `1.5`  |  04/05/2025 |  Adicionando a tabela 9 (MOSCOW) no documento | [Lucas Alves](https://github.com/LucasAlves71)  | [Kaleb de Souza](https://github.com/kalebmacedo) |
 | `1.6`  |  04/05/2025 |  Atualizando as verificações de acordo com a reunião da inspeção do grupo, inclusão da tabela do questionário e inclusão do vídeo da gravação | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Isaque Camargos](https://github.com/isaqzin)  |
+| `1.7`  | 13/06/2025 | Adição de tabela de integrantes | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |

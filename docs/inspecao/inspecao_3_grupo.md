@@ -2,6 +2,49 @@
 
 Documento baseado na lista de verificação feita para a entrega 3. Esta lista de inspeção visa avaliar, por meio de perguntas objetivas, a completude e a qualidade dos itens exigidos para a Entrega 3. As tabelas são focadas em fazer a inspeção, que foram são registradas conforme os responsáveis por criação e revisão, e seguem sendo atualizadas conforme os feedbacks da equipe e do professor.
 
+## Tabela de Integrantes
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Contribuição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+        <td>Elaboração da lista de verificação, elaboração de itens da tabela de cenários, elaboração de itens da tabela de especificação suplementar, revisão geral</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+        <td>Elaboração da estrutura do documento, elaboração de itens da tabela de cenários, elaboração de itens da tabela de casos de uso, revisão geral</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+        <td>Elaboração de itens da tabela de cenários, elaboração de itens da tabela de casos de uso, elaboração de itens da tabela de especificação suplementar</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+        <td>Elaboração de itens da tabela de cenários, elaboração de itens da tabela de casos de uso, elaboração de itens da tabela de especificação suplementar</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+        <td>Elaboração de itens da tabela de cenários, elaboração de itens da tabela de casos de uso, elaboração de itens da tabela de especificação suplementar</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+        <td>Elaboração de itens da tabela de cenários, elaboração de itens da tabela de casos de uso, elaboração e revisão da tabela de léxicos, elaboração de itens da tabela de especificação suplementar</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+        <td>Elaboração de itens da tabela de cenários, elaboração de itens da tabela de casos de uso, elaboração de itens da tabela de especificação suplementar, revisão geral</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 ---
 
 ## Objetivos
@@ -166,3 +209,4 @@ pag 4-5. Disponível em:
 | ------ | ------------- | ---------------------------------- | ------------- | ------------- |
 | `1.0`  |  18/05/2025 |  Colocando as tabelas de 1 a 6 no arquivo | [Othavio Bolzan](https://github.com/bolzanMGB)  | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
 | `1.1`  |  18/05/2025 |  Preenchendo os checkboxes | [Lucas Alves](https://github.com/LucasAlves71)  | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
+| `1.2`  | 13/06/2025 | Adição de tabela de integrantes | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |

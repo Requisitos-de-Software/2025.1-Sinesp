@@ -3,6 +3,49 @@
 ## Introdução
 Este documento apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 4, tanto para o grupo quanto para o grupo +1.
 
+## Tabela de Integrantes
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Contribuição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+        <td>Elaboração da inspeção, elaboração e revisão dos itens de backlog</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+        <td>Revisão da inspeção, elaboração e revisão das listas de verificação, elaboração de itens das histórias de usuário</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+        <td>Elaboração e revisão das listas de verificação, elaboração de itens das histórias de usuário</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+        <td>Elaboração e revisão das listas de verificação, elaboração de itens das histórias de usuário</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+        <td>Elaboração e revisão das listas de verificação, elaboração de itens das histórias de usuário</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+        <td>Elaboração e revisão das listas de verificação, elaboração de itens das histórias de usuário, elaboração e revisão do NFR Framework</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+        <td>Elaboração e revisão das listas de verificação, elaboração de itens das histórias de usuário, elaboração e revisão do NFR Framework</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 ## Objetivo
 - Fornecer critérios claros para verificação dos artefatos da Entrega 4;
 - Garantir a padronização e qualidade dos documentos produzidos;
@@ -123,3 +166,4 @@ SILVA, Reinaldo Antônio da. *NFR4ES: Um Catálogo de Requisitos Não-Funcionais
 | ------ | ---------- | -------------------- | ----------------------------------------------- | ------------------------------------------- |
 | `1.0`  | 02/06/2025 | Criação do documento | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Yzabella Miranda](https://github.com/redjsun) |
 | `1.1`  | 02/06/2025 | Adicionando as informações da inspeção | [Lucas Alves](https://github.com/LucasAlves71) | [Kaleb Macedo](https://github.com/kalebmacedo) |
+| `1.2`  | 13/06/2025 | Adição de tabela de integrantes | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |

@@ -2,6 +2,49 @@
 
 Este documento apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 3, tantos para o grupo e o grupo +1. As tabelas 1 e 2 foram elaboradas com base no plano de ensino e na lista de verificação sugerida pelo professor, [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342), sendo uma lista de verificação que será usada na inspeção da entrega 3.
 
+## Tabela de Integrantes
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Contribuição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+        <td>Elaboração da lista de verificação, elaboração de itens da tabela de cenários, elaboração de itens da tabela de especificação suplementar, revisão geral</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+        <td>Elaboração da estrutura do documento, elaboração de itens da tabela de cenários, elaboração de itens da tabela de casos de uso, revisão geral</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+        <td>Elaboração de itens da tabela de cenários, elaboração de itens da tabela de casos de uso, elaboração de itens da tabela de especificação suplementar</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+        <td>Elaboração de itens da tabela de cenários, elaboração de itens da tabela de casos de uso, elaboração de itens da tabela de especificação suplementar</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+        <td>Elaboração de itens da tabela de cenários, elaboração de itens da tabela de casos de uso, elaboração de itens da tabela de especificação suplementar</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+        <td>Elaboração de itens da tabela de cenários, elaboração de itens da tabela de casos de uso, elaboração e revisão da tabela de léxicos, elaboração de itens da tabela de especificação suplementar</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+        <td>Elaboração de itens da tabela de cenários, elaboração de itens da tabela de casos de uso, elaboração de itens da tabela de especificação suplementar, revisão geral</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 ## Objetivo
 - Fornecer critérios claros para verificação dos artefatos da Entrega 3;
 - Garantir a padronização e qualidade dos documentos produzidos;
@@ -134,9 +177,9 @@ A abordagem selecionada para esta verificação é uma versão adaptada da técn
 | 1 | Cada símbolo é descrito com pelo menos uma noção? |[Othavio Bolzan](https://github.com/bolzanMGB)   |<div><img src="..\..\assets\lventrega3\lexico2.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf">Aula 10 - Maurício Serrano</a></div>|>|
 | 2 | Cada símbolo é descrito com pelo menos um impacto? |[Othavio Bolzan](https://github.com/bolzanMGB)   |<div><img src="..\..\assets\lventrega3\lexico2.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf">Aula 10 - Maurício Serrano</a></div>|>
 | 3 | Os impactos descrevem um efeito/uso/ocorrência do símbolo na aplicação? |[Othavio Bolzan](https://github.com/bolzanMGB)   |<div><img src="..\..\assets\lventrega3\lexico1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf">Aula 10 - Maurício Serrano</a></div>|>
-| 4 | As noções descrevem o significado de um símbolo?|[Othavio Bolzan](https://github.com/bolzanMGB)   |<div><img src="..\..\assets\lventrega3\lexico1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf">Aula 10 - Maurício Serrano</a></div>|>
-| 5 | Cada entrada no léxico pertence a um e somente um tipo (verbo, objeto ou estado)?|[Othavio Bolzan](https://github.com/bolzanMGB)   |<div><img src="..\..\assets\lventrega3\lexico3.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf">Aula 10 - Maurício Serrano</a></div>|>
-| 6 | Os impactos dos objetos são ações que podem ser aplicadas a eles?|[Othavio Bolzan](https://github.com/bolzanMGB)   |<div><img src="..\..\assets\lventrega3\lexico3.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf">Aula 10 - Maurício Serrano</a></div>|>
+| 4 | As noções descrevem o significado de um símbolo?|[Othavio Bolzan](https://github.com/bolzanMGB)   |<div><img src="..\..\assets\lventrega3\lexico1.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf">Aula 10 - Maurício Serrano</a></div>|
+| 5 | Cada entrada no léxico pertence a um e somente um tipo (verbo, objeto ou estado)?|[Othavio Bolzan](https://github.com/bolzanMGB)   |<div><img src="..\..\assets\lventrega3\lexico3.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf">Aula 10 - Maurício Serrano</a></div>|
+| 6 | Os impactos dos objetos são ações que podem ser aplicadas a eles?|[Othavio Bolzan](https://github.com/bolzanMGB)   |<div><img src="..\..\assets\lventrega3\lexico3.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf">Aula 10 - Maurício Serrano</a></div>|
 | 7 | A noção do estado indica o que ele significa e as ações que levaram a este estado?|[Othavio Bolzan](https://github.com/bolzanMGB)   |<div><img src="..\..\assets\lventrega3\lexico3.png" alt="Referência do item" width="100px"><br><a href="https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf">Aula 10 - Maurício Serrano</a></div>|>
 
 
@@ -173,3 +216,4 @@ SOMMERVILLE, Ian. *Engenharia de software*. 08. ed. São Paulo: Pearson Addison 
 | `1.0`  | 16/05/2025 | Adição das tabelas do plano de ensino, estruturação do documento e adição de itens nas tabelas de Casos de uso, cenários e Especificação suplementar | [Isaque Camargos](https://github.com/isaqzin) | [Lucas Alves](https://github.com/LucasAlves71) |
 | `1.1`  | 18/05/2025 | Adição da tabela de léxico e adiação de mais itens de verificação nas tabelas de Casos de uso, cenários e Especificação suplementar| [Othavio Bolzan](https://github.com/bolzanMGB) | [Lucas Alves](https://github.com/LucasAlves71) |
 | `1.2`  | 06/06/2025 | Adição de tópico referente a metodologia da lista de verificação junto a um link de fonte. | [Yzabella Miranda](https://github.com/redjsun) | [Isaque Camargos](https://github.com/isaqzin) |
+| `1.3`  | 13/06/2025 | Adição de tabela de integrantes | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |

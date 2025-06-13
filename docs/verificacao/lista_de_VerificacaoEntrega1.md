@@ -2,6 +2,29 @@
 
 Este documento apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 1, tantos para o grupo e o grupo +1. As tabelas 1, 2 e 3 foram elaboradas com base no plano de ensino e na lista de verificação sugerida pelo professor, [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342), sendo uma lista de verificação que será usada na inspeção da entrega 1.
 
+## Tabela de Integrantes
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Contribuição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+        <td>Elaboração da lista de verificação</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+        <td>Revisão da lista de verificação</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 ## Objetivo
 - Fornecer critérios claros para verificação dos artefatos da Entrega 1;
 - Garantir a padronização e qualidade dos documentos produzidos;
@@ -168,4 +191,5 @@ SOMMERVILLE, Ian. *Engenharia de software*. 08. ed. São Paulo: Pearson Addison 
 | `1.4`  | 24/04/2025 | Correção das imagens das fontes | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Lucas Alves](https://github.com/LucasAlves71) |
 | `1.5`  | 03/05/2025 | Correção das imagens das fontes | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Isaque Camargos](https://github.com/isaqzin) |
 | `1.6`  | 06/06/2025 | Adição de tópico referente a metodologia da lista de verificação junto a um link de fonte. | [Yzabella Miranda](https://github.com/redjsun) | [Isaque Camargos](https://github.com/isaqzin) |
+| `1.7`  | 13/06/2025 | Adição de tabela de integrantes | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |
 

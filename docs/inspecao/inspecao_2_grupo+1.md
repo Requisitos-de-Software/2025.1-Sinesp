@@ -2,6 +2,49 @@
 
 Documento baseado na lista de verificação feita para a entrega 2. Esta lista de inspeção visa avaliar, por meio de perguntas objetivas, a completude e a qualidade dos itens exigidos para a Entrega 2. As tabelas são focadas em fazer a inspeção, que foram são registradas conforme os responsáveis por criação e revisão, e seguem sendo atualizadas conforme os feedbacks da equipe e do professor.
 
+## Tabela de Integrantes
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Contribuição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+        <td>Elaboração da inspeção, atualização das tabelas, elaboração e revisão das seções de entrevista, $100, personas, revisão geral</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+        <td>Elaboração e revisão das seções de perfil de usuário, glossário, First Things First, revisão geral, atualização das verificações conforme reunião</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+        <td>Elaboração e revisão dos itens de questionário, perfil de usuário, personas, revisão dos itens de verificação</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+        <td>Criação do documento, elaboração das seções de introspecção, MOSCOW, atualização das tabelas</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+        <td>Elaboração e revisão das seções de grupo focal, personas, revisão do documento</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+        <td>Elaboração e revisão das seções de introspecção, MOSCOW, revisão dos Rich Pictures</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+        <td>Elaboração e revisão da seção Three Level Scale, revisão dos dados e imagens</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 ---
 
 ## Objetivos
@@ -310,3 +353,4 @@ Segue abaixo a gravação da inspeção da entrega 2, realizada no dia **05 de m
 | `1.0`  |  05/05/2025 |  Criação do arquivo | [Lucas Alves](https://github.com/LucasAlves71)  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) |
 | `1.1`  |  05/05/2025 |  Preenchendo a lista de inspeção | [Lucas Alves](https://github.com/LucasAlves71)  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) |
 | `1.2`  |  05/05/2025 |  Adicionando o vídeo | [Isaque Camargos](https://github.com/isaqzin)  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Lucas Alves](https://github.com/LucasAlves71) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) |
+| `1.3`  | 13/06/2025 | Adição de tabela de integrantes | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |

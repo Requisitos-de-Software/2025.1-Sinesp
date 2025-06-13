@@ -1,8 +1,50 @@
 # Lista de Verificação da Entrega 6
 
-
 ## Introdução
 Este documento apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 5, tanto para o grupo quanto para o grupo +1.
+
+## Tabela de Integrantes
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Contribuição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+        <td>Elaboração da lista de verificação, elaboração de itens da verificação de rastreabilidade</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+        <td>Revisão da lista de verificação, elaboração de itens da verificação de rastreabilidade</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+        <td>Elaboração de itens da verificação de rastreabilidade</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/kalebmacedo">Kaleb de Souza</a></td>
+        <td>Elaboração de itens da verificação de rastreabilidade</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+        <td>Elaboração de itens da verificação de rastreabilidade</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+        <td>Elaboração de itens da verificação de rastreabilidade</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+        <td>Criação do documento, estruturação das tabelas, elaboração de itens da verificação de rastreabilidade</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## Objetivo
 * Fornecer critérios claros para verificação dos artefatos da Entrega 5.
@@ -68,3 +110,4 @@ SOMMERVILLE, Ian. *Engenharia de software*. 8. ed. São Paulo: Pearson Addison W
 |---|---|---|---|---|
 | `1.0` | 06/06/2025 | Criação do documento junto da estruturação das tabelas, com organização e divisão de como serão montadas e a ordem em que serão analisadas. | [Yzabella Miranda](https://github.com/redjsun) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 | `1.1` | 06/06/2025 | Criação da lista de verificação de rastreabilidade junto ao ajuste das referências. | [Yzabella Miranda](https://github.com/redjsun) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+| `1.2`  | 13/06/2025 | Adição de tabela de integrantes | [Lucas Alves](https://github.com/LucasAlves71) | [Isaque Camargos](https://github.com/isaqzin) |
