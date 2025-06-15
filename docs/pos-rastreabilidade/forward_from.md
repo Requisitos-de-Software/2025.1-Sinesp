@@ -12,44 +12,47 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram no refinamen
 <p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
 
 <div align="center">
-    <table>
-        <thead>
-            <tr>
-                <th>Nome</th>
-                <th>Quais etapas participou</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
-                <td>Realizou a rastreabilidade forward-from <a href="#FF08">FF08</a> a <a href="#FF14">FF14</a>, <a href="#FF57">FF57</a>, <a href="#FF58">FF58</a> e <a href="#FF70">FF70</a>, além dos elos de mesmo intervalo, <a href="#ELOFF08">ELOFF08</a> a <a href="#ELOFF14">ELOFF14</a>, <a href="#ELOFF57">ELOFF57</a>, <a href="#ELOFF58">ELOFF58</a> e <a href="#ELOFF70">ELOFF70</a>.</td>
-            </tr>
-            <tr>
-                <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
-                <td>Iniciou o documento colocando a tabela com todos os requisitos e fez o backward from <a href="#FF15">FF15</a> a <a href="#FF21">FF21</a>, <a href="#FF58">FF58</a> e <a href="#FF59">FF59</a> e os elos de mesmo intervalo, <a href="#ELO15">ELO15</a> a <a href="#ELO21">ELO21</a>, <a href="#ELO58">ELO58</a> e <a href="#ELO59">ELO59</a> </td>
-            </tr>
-            <tr>
-                <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
-                <td>Realizou a rastreabilidade backward-from <a href="#FF22">FF22</a> a <a href="#FF28">FF27</a>, <a href="#FF60">FF60</a>, <a href="FF61">FF61</a> e <a href="#FF68">FF68</a>. Além dos ELOS do mesmo intervalo, <a href="#ELO22">ELO22</a> a <a href="#ELO28">ELO28</a>, <a href="#ELO60">ELO60</a>, <a href="#ELO61">ELO61</a> e <a href="#ELO68">ELO68</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>  
-            </tr>
-            <tr>
-                <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>   
-            </tr>
-            <tr>
-                <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
-                <td>Realizou a rastreabilidade forward-from <a href="#FF42">FF42</a> a <a href="#FF51">FF51</a>, <a href="#FF68">FF68</a> e <a href="#FF69">FF69</a></td>.
-            </tr>
-        </tbody>
-    </table>
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Quais etapas participou</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+        <td>Realizou a rastreabilidade para os requisitos <a href="#FF01">FF01</a> a <a href="#FF07">FF07</a>, <a href="#FF57">FF57</a>, <a href="#FF58">FF58</a> e corrigiu a numeração de todos os IDs.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+        <td>Realizou a rastreabilidade forward-from <a href="#FF08">FF08</a> a <a href="#FF14">FF14</a>, <a href="#FF57">FF57</a>, <a href="#FF58">FF58</a> e <a href="#FF70">FF70</a>, além dos elos de mesmo intervalo, <a href="#ELOFF08">ELOFF08</a> a <a href="#ELOFF14">ELOFF14</a>, <a href="#ELOFF57">ELOFF57</a>, <a href="#ELOFF58">ELOFF58</a> e <a href="#ELOFF70">ELOFF70</a>.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+        <td>Iniciou o documento, colocou a tabela com todos os requisitos e realizou a rastreabilidade de <a href="#FF15">FF15</a> a <a href="#FF21">FF21</a>, <a href="#FF58">FF58</a> e <a href="#FF59">FF59</a>.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+        <td>Realizou a rastreabilidade forward-from <a href="#FF22">FF22</a> a <a href="#FF27">FF27</a>, <a href="#FF62">FF62</a>, <a href="#FF63">FF63</a> e <a href="#FF70">FF70</a>.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+        <td>Realizou a rastreabilidade para os requisitos <a href="#FF28">FF28</a> a <a href="#FF34">FF34</a>, <a href="#FF64">FF64</a>, <a href="#FF65">FF65</a> e <a href="#FF71">FF71</a>.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+        <td>Corrigiu os caminhos e links dos artefatos em toda a documentação.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+        <td>Realizou a rastreabilidade forward-from <a href="#FF42">FF42</a> a <a href="#FF51">FF51</a>, <a href="#FF68">FF68</a> e <a href="#FF69">FF69</a>.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
-<p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Isaque Camargos</a>, <a  href="https://github.com/redjsun">Yzabella Miranda</a>, <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a>, <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a>, <a href="https://github.com/redjsun">Yzabella Miranda</a>, <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a>, <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
 Metodologia
 A Metodologia adotada para esta análise fundamenta-se no Meta-modelo de Toranzo, conforme descrito nos materiais da disciplina ([slides da Aula 26](../assets/aula26-milene-modelagem.pdf)). Este modelo organiza as informações rastreáveis em níveis hierárquicos e define elos que representam as relações entre artefatos envolvidos no desenvolvimento de sistemas.
