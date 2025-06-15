@@ -3,6 +3,51 @@
 ## Introdução
 Durante a etapa inicial de seleção, o grupo avaliou potenciais aplicativos, ponderando critérios técnicos e impacto social. A princípio, o aplicativo CNH (Carteira Nacional de Habilitação Digital) foi considerado uma opção promissora, porém, ele foi selecionado por outro grupo antes de nossa definição final, o que demandou a exploração de alternativas. Opções como o Telegram foram analisadas, mas sua extensa gama de funcionalidades tornou inviável uma análise focada. O Sinesp Cidadão surgiu como a escolha definitiva, mas posteriormente, também foi desconsiderado. Diante disso, optamos definitivamente pelo aplicativo GDF Saúde, que atende aos critérios necessários para uma investigação técnica detalhada, além de apresentar relevância social no contexto de serviços públicos de saúde.
 
+## Integrantes do Grupo
+
+Na tabela 1 contêm todos os integrantes da equipe que participaram na construção deste documento e o que cada pessoa desenvolveu durante o projeto.
+
+<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Quais etapas participou</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza</a></td>
+        <td>Revisão do documento e formatação das imagens.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+        <td>Correção de bugs visuais e revisão geral do documento.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+        <td>Revisão do documento.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+        <td>Correção da imagem referente aos termos de uso.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/bolzanMGB">Othavio Araujo Bolzan</a></td>
+        <td>Adição da seção "Termos de Uso" e atualização do aplicativo.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+        <td>Criação da página inicial e atualização do aplicativo escolhido.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
 ## Critérios da escolha
 A seleção do GDF Saúde como objeto de estudo foi pautada pelos seguintes critérios estratégicos:
 - Aplicativo ainda não trabalhado na disciplina anteriormente

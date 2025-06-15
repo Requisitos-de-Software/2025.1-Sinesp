@@ -8,11 +8,60 @@ Este documento apresenta o cronograma executado da disciplina de **Requisitos de
 
 As tabelas foram elaboradas inicialmente no **Microsoft Excel** e convertidas para Markdown com auxílio da ferramenta **Deepseek**. A estrutura segue o mesmo modelo utilizado no cronograma planejado, respeitando as etapas previstas e organizando as atividades por entrega.
 
+## Integrantes do Grupo
+
+Na tabela 1 contêm todos os integrantes da equipe que participaram na construção deste documento e o que cada pessoa desenvolveu durante o projeto.
+
+<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Quais etapas participou</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+        <td>Criação e atualização do cronograma executado, além de participar em todas as entregas e revisões do projeto.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+        <td>Criação e atualização do cronograma executado, além de participar em todas as entregas e revisões do projeto.</td>
+      </tr>
+       <tr>
+        <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+        <td>Participou ativamente de todas as entregas, incluindo modelagem, priorização e verificação de artefatos.</td>
+      </tr>
+       <tr>
+        <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+        <td>Participou ativamente de todas as entregas, desde a definição da equipe até a verificação e modelagem ágil.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+        <td>Revisão do cronograma e participação ativa em todas as entregas, incluindo elicitação, modelagem e verificação.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/bolzanMGB">Othavio Araujo Bolzan</a></td>
+        <td>Participou ativamente de todas as entregas, incluindo modelagem, elicitação e verificação de artefatos.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+        <td>Participou ativamente de todas as entregas, incluindo priorização, modelagem ágil e verificação de artefatos.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
 <br>
 
 ## Entregas do Projeto
 
-<p align="center">Tabela 1 – Datas das Entregas</p>
+<p align="center">Tabela 2 – Datas das Entregas</p>
 
 | Entrega       | Descrição                                                      | Data Limite |
 |---------------|----------------------------------------------------------------|-------------|
@@ -32,7 +81,7 @@ As tabelas foram elaboradas inicialmente no **Microsoft Excel** e convertidas pa
 
 <br>
 
-<p align="center">Tabela 2 – Entrega 1 Planejada</p>
+<p align="center">Tabela 3 – Entrega 1 Planejada</p>
 
 | Título                                             | Autor(es)                           | Revisor(es)          | Data de Entrega Planejada | Data de Entrega Executada |
 | -------------------------------------------------- | ----------------------------------- | -------------------- | ------------------------- | ------------------------- |
@@ -54,7 +103,7 @@ As tabelas foram elaboradas inicialmente no **Microsoft Excel** e convertidas pa
 
 <br>
 
-<p align="center">Tabela 3 – Entrega 2 Executada</p>
+<p align="center">Tabela 4 – Entrega 2 Executada</p>
 
 | Título | Autor(es) | Revisor(es) | Data de Entrega Planejada | Data de Entrega Executada |
 |--------|-----------|-------------|----------------------------|----------------------------|
@@ -81,6 +130,7 @@ As tabelas foram elaboradas inicialmente no **Microsoft Excel** e convertidas pa
 ## Cronograma da Entrega 3 – Modelagem de Requisitos
 
 <br>
+<p align="center">Tabela 5 – Entrega 3 Executada</p>
 
 | Título                                                          | Autor(es)                                                                                                            | Revisor(es)          | Data de Entrega Planejada | Data de Entrega Executada |
 | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------- | ------------------------- | ------------------------- |
@@ -105,7 +155,7 @@ As tabelas foram elaboradas inicialmente no **Microsoft Excel** e convertidas pa
 
 <br>
 
-<p align="center">Tabela 5 – Entrega 4 Executada</p>
+<p align="center">Tabela 6 – Entrega 4 Executada</p>
 
 | Título | Autor(es) | Revisor(es) | Data de Entrega Planejada | Data de Entrega Executada |
 |--------|-----------|-------------|----------------------------|----------------------------|
@@ -127,7 +177,7 @@ As tabelas foram elaboradas inicialmente no **Microsoft Excel** e convertidas pa
 
 <br>
 
-<p align="center">Tabela 6 – Entrega 5 Executada</p>
+<p align="center">Tabela 7 – Entrega 5 Executada</p>
 
 | Título | Autor(es) | Revisor(es) | Data de Entrega Planejada | Data de Entrega Executada |
 |--------|-----------|-------------|---------------------------|---------------------------|
@@ -160,7 +210,7 @@ As tabelas foram elaboradas inicialmente no **Microsoft Excel** e convertidas pa
 
 <br>
 
-<p align="center">Tabela 7 – Entrega 6 Executada</p>
+<p align="center">Tabela 8 – Entrega 6 Executada</p>
 
 | Título | Autor(es) | Revisor(es) | Data de Entrega Planejada | Data de Entrega Executada |
 |--------|-----------|-------------|---------------------------|---------------------------|
@@ -182,7 +232,7 @@ As tabelas foram elaboradas inicialmente no **Microsoft Excel** e convertidas pa
 
 <br>
 
-<p align="center">Tabela 8 – Entrega Final Executada</p>
+<p align="center">Tabela 9 – Entrega Final Executada</p>
 
 | Título | Autor(es) | Revisor | Data de início | Data do fim | Data para revisão |
 |---|---|---|---|---|---|

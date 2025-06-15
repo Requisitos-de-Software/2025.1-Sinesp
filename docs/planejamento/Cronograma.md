@@ -4,6 +4,55 @@
 
 O cronograma é uma ferramenta fundamental na gestão de projetos, pois permite a organização lógica e temporal das atividades, a definição de prazos realistas, o monitoramento do progresso e o controle das entregas. Sua elaboração contribui diretamente para o uso eficiente dos recursos, a melhoria da comunicação entre os membros da equipe e a identificação antecipada de riscos e desvios, possibilitando ações corretivas e preventivas durante a execução do projeto (KERZNER, 2017).  
 
+## Integrantes do Grupo
+
+Na tabela 1 contêm todos os integrantes da equipe que participaram na construção deste documento e o que cada pessoa desenvolveu durante o projeto.
+
+<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Quais etapas participou</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+        <td>Criação e detalhamento do cronograma planejado, além da participação ativa em todas as etapas de elicitação, modelagem e verificação.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+        <td>Criação do cronograma executado, estruturação do repositório e participação em todas as etapas do projeto.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+        <td>Estruturação inicial do repositório, revisão de ferramentas e participação em todas as etapas de modelagem, priorização e verificação.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+        <td>Definição da equipe, criação de personas, checklists e participação em todas as etapas de modelagem e verificação.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+        <td>Seleção de ferramentas, revisão de cronogramas e participação ativa em todas as etapas de elicitação, modelagem e verificação.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/bolzanMGB">Othavio Araujo Bolzan</a></td>
+        <td>Definição do escopo, elicitação, modelagem de requisitos e participação em todas as entregas do projeto.</td>
+      </tr>
+       <tr>
+        <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+        <td>Definição do escopo, criação de personas, modelagem ágil e participação em todas as entregas do projeto.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
 
 ## Metodologia
 

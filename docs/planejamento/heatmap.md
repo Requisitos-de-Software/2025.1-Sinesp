@@ -4,6 +4,35 @@
 
 O heatmap é uma ferramenta visual que utiliza cores para representar dados, facilitando a identificação de padrões e tendências. No contexto do nosso projeto, utilizamos um heatmap para visualizar a disponibilidade coletiva da equipe para reuniões e atividades colaborativas, permitindo identificar rapidamente os melhores horários para agendamentos.
 
+## Integrantes do Grupo
+
+Na tabela 1 contêm todos os integrantes da equipe que participaram na construção deste documento e o que cada pessoa desenvolveu durante o projeto.
+
+<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Quais etapas participou</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+        <td>Criação do documento de heatmap.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+        <td>Revisão do documento.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
 ## Uso do Heatmap de Disponibilidade
 
 Este heatmap representa a disponibilidade geral do grupo ao longo da semana, com cada célula mostrando um valor numérico de 0 a 7, onde:

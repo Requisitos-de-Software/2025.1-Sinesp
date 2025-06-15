@@ -4,9 +4,38 @@
 
 Esta página tem como objetivo documentar todas as ferramentas utilizadas pela equipe ao longo do desenvolvimento do projeto. A seleção adequada de ferramentas é essencial para garantir a produtividade, colaboração efetiva e qualidade dos entregáveis. Cada ferramenta foi escolhida considerando sua funcionalidade específica e contribuição para as diferentes etapas do processo de desenvolvimento, além de considerar a familiaridade de cada integrante com a ferramenta.
 
+## Integrantes do Grupo
+
+Na tabela 1 contêm todos os integrantes da equipe que participaram na construção deste documento e o que cada pessoa desenvolveu durante o projeto.
+
+<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Quais etapas participou</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+        <td>Criação e atualização da página de ferramentas, incluindo a adição e remoção de ferramentas conforme o uso no projeto.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/kalebmacedo">Kaleb de Souza</a></td>
+        <td>Revisão completa do documento de ferramentas.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
 ## Ferramentas Utilizadas
 
-Tabela 1: ferramentas utilizadas
+Tabela 2: ferramentas utilizadas
 
 | | Ferramenta | Finalidade |
 |:--:|:--:|:--|

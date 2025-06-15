@@ -4,6 +4,43 @@
 
 Este documento tem como objetivo formalizar os papéis, responsabilidades e acordos gerais da equipe para o projeto. Ele detalha as funções de cada membro, organiza as reuniões e estabelece regras para o funcionamento eficiente do time.
 
+## Integrantes do Grupo
+
+Na tabela 1 contêm todos os integrantes da equipe que participaram na construção deste documento e o que cada pessoa desenvolveu durante o projeto.
+
+<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Quais etapas participou</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+        <td>Criação do documento inicial de definição da equipe.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+        <td>Atualização do documento com a exclusão do papel de Product Owner.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+        <td>Revisão do documento.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza</a></td>
+        <td>Revisão das atualizações do documento.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
 ### Processo de Decisão
 
 Para a escolha do **Scrum Master** e do **Product Owner (PO)**, foi utilizado um formulário do Google, onde todos os membros da equipe puderam declarar o seu desejo em ser algum dos dois cargos. Essa abordagem garantiu que as decisões fossem tomadas de maneira colaborativa e transparente, refletindo a vontade de cada um.
