@@ -150,7 +150,7 @@ Esta seção descreve os requisitos relacionados istema de oferecer manutenção
     </tr>
   </thead>
   <tbody>
-    <tr><td><a  id="RNF05" href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF05">RNF05</a></td><td>O sistema deve ser compatível com diferentes versões do Android e iOS, a partir das versões mais utilizadas no mercado.</td></tr>
+    <tr><td><a  id="RNF05" href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF05">RNF05</a></td><td>O sistema deve ser compatível com as versões 5.0 ou superioresdo Android e 13.0 ou superiores do iOS.</td></tr>
   </tbody>
 </table>
 
