@@ -1,8 +1,39 @@
 # Vídeos Gravados das Reuniões
 
+## Introdução
+
 Este projeto mantém registros em vídeo das reuniões realizadas pelo **Grupo 9**, como parte do desenvolvimento do projeto **GDF SAÚDE** na disciplina de Requisitos de Software – FCTE/UnB (2025.1).
 
 Os vídeos têm o objetivo de garantir a rastreabilidade das decisões, facilitar revisões posteriores e promover transparência nas etapas de construção dos artefatos do projeto.
+
+## Integrantes do Grupo
+
+Na tabela 1 contêm todos os integrantes da equipe que participaram na construção deste documento e o que cada pessoa desenvolveu durante o projeto.
+
+<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Quais etapas participou</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+        <td>Criação do documento e adição de todas as gravações das reuniões do grupo e com o grupo+1.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+        <td>Revisão das atualizações do documento.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
 
 ---
 
