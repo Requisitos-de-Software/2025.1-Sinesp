@@ -29,7 +29,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
 				</tr>
 				<tr>
 					<td><a  href="https://github.com/isaqzin">Isaque Camargos</a></td>
-					<td>Criou o diagrama referentes aos requisitos: RF03,RF04, RF19, RNF04,  RNF05 e  RNF06 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC07, UC08, UC09,  UC10, UC11 e UC12. Além disso, criou o documento inicial. </td>	
+					<td>Criou o diagrama referentes aos requisitos: RF03,RF04.1, RF04.9 e RF19. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC07, UC08, UC09,  UC10, UC11 e UC12. Além disso, criou o documento inicial. </td>	
 				</tr>
 				<tr>
 					<td><a  href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
@@ -95,7 +95,7 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 <p align="center">Figura 2 - Caso de uso UC07 a UC12 </p>
 <p align="center">
-  <img src="..\..\assets\casos-uso\casos-uso-isaque.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
+  <img src="..\..\assets\casos-uso\new_diagrama_isaque.png" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
@@ -279,7 +279,7 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 | Fluxo alternativo  | —                                                                         |
 | Fluxo de exceção   | - sistema exibe erro ao tentar salvar.                      |
 | Pós-condições      | Preferências de notificação atualizadas.                                  |
-| Rastreabilidade    |[RF04](../../elicitacao/requisitos_finais.md#RF04)                    |
+| Rastreabilidade    |[RF04.1](../../elicitacao/requisitos_finais.md#RF04.1)  e [RF04.9](../../elicitacao/requisitos_finais.md#RF04.9)                  |
 | Data de criação    | 15/05/2025                                                                |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
@@ -300,28 +300,7 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Falha de envio: sistema realiza tentativa posterior.                    |
 | Fluxo de exceção   | - Falha permanente: log de erro registrado, equipe notificada.            |
 | Pós-condições      | Notificação enviada ou tentativa registrada para análise.                 |
-| Rastreabilidade    |    [RF04](../../elicitacao/requisitos_finais.md#RF04)                                                                       |
-| Data de criação    | 15/05/2025                                                                |
-
-<p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
-
----
-
-### UC12 – Solicitar autorização de urgência/emergência
-<p align="center">Tabela 14 - Caso de Uso 12 </p>
-
-| Campo              | Descrição                                                                 |
-|--------------------|---------------------------------------------------------------------------|
-| <a id="UC12"></a>UC12                 |  Solicitar autorização de urgência/emergência                      |
-| Descrição          | Permitir que profissionais de saúde solicitem autorização em tempo real. |
-| Ator               | Profissional de saúde e INAS                                   |
-| Pré-condições      | Sistema disponível e login realizado.                                     |
-| Ação               | Profissional preenche dados e solicita autorização imediata.              |
-| Fluxo principal    | - Profissional acessa funcionalidade.<br>- Informa dados do paciente.<br>- Sistema ou o INAS valida e aprova.<br>- Autorização emitida. |
-| Fluxo alternativo  | - Dados incompletos: sistema solicita complementação.                     |
-| Fluxo de exceção   | - Sistema fora do ar: notifica falha e orienta alternativa.               |
-| Pós-condições      | Autorização registrada, atendimento liberado.                             |
-| Rastreabilidade    | [RNF04](../../elicitacao/requisitos_finais.md#RNF04)                                                                           |
+| Rastreabilidade    |    [RF04.1](../../elicitacao/requisitos_finais.md#RF04.1)  e [RF04.9](../../elicitacao/requisitos_finais.md#RF04.9)                                                                      |
 | Data de criação    | 15/05/2025                                                                |
 
 <p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>

@@ -18,7 +18,7 @@ A tabela a seguir apresenta todos os integrantes da equipe e suas respectivas co
 | [Kaleb Macedo](https://github.com/kalebmacedo) | Responsável pelos léxicos dos requisitos [RF05](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF05), [RF06](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF06), [RF17](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF17), [RNF07](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF07) e [RNF08](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF08) |
 | [Othavio Bolzan](https://github.com/bolzanMGB) | Desenvolveu léxicos para os requisitos [RF11](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF11), [RF12](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF12), [RNF13](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF13) e [RNF14](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF14) |
 | [Yzabella Miranda](https://github.com/redjsun) | Elaborou léxicos dos requisitos [RNF15](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF15), [RNF16](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF16), [RF13](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF13), [RF14](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF14) e [RF15](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF15) |
-| [Isaque Camargos](https://github.com/isaqzin) | Adicionou a quais  lexicos os requsitos  [RF04](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF04),  [RF03](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF03) e [RF19](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF19)se relacionavam. Contribuiu na organização do material que estava na plataforma <a href="https://stackedit.io/app#">StackEdit</a>. Por fim, em dupla com o [Matheus de Alcântara](https://github.com/matheusdealcantara) fez introdução, metodoliga, deixou os lexicos com hyperlinks entre si. |
+| [Isaque Camargos](https://github.com/isaqzin) | Adicionou a quais  lexicos os requsitos  [RF04.1](../../elicitacao/requisitos_finais.md#RF04.1), [RF04.2](../../elicitacao/requisitos_finais.md#RF04.2), [RF04.3](../../elicitacao/requisitos_finais.md#RF04.3), [RF04.4](../../elicitacao/requisitos_finais.md#RF04.4), [RF04.5](../../elicitacao/requisitos_finais.md#RF04.5), [RF04.6](../../elicitacao/requisitos_finais.md#RF04.6), [RF04.7](../../elicitacao/requisitos_finais.md#RF04.7), [RF04.8](../../elicitacao/requisitos_finais.md#RF04.8), [RF04.9](../../elicitacao/requisitos_finais.md#RF04.9),  [RF03](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF03) e [RF19](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF19)se relacionavam. Contribuiu na organização do material que estava na plataforma <a href="https://stackedit.io/app#">StackEdit</a>. Por fim, em dupla com o [Matheus de Alcântara](https://github.com/matheusdealcantara) fez introdução, metodoliga, deixou os lexicos com hyperlinks entre si. |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a> e <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
 
@@ -69,7 +69,8 @@ O termo "Beneficiário" refere-se aos funcionários públicos do GDF e seus depe
 
 ## Léxico 2: <a id="Notificacoes"></a>Notificações
 
-**Requisitos relacionados:** [RF04](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF04), [RNF11](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF11)
+**Requisitos relacionados:** [RF04.1](../../elicitacao/requisitos_finais.md#RF04.1), [RF04.2](../../elicitacao/requisitos_finais.md#RF04.2), [RF04.3](../../elicitacao/requisitos_finais.md#RF04.3), [RF04.4](../../elicitacao/requisitos_finais.md#RF04.4), [RF04.5](../../elicitacao/requisitos_finais.md#RF04.5), [RF04.6](../../elicitacao/requisitos_finais.md#RF04.6), [RF04.7](../../elicitacao/requisitos_finais.md#RF04.7), [RF04.8](../../elicitacao/requisitos_finais.md#RF04.8), [RF04.9](../../elicitacao/requisitos_finais.md#RF04.9)
+, [RNF11](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF11)
 
 O termo "Notificações" refere-se às mensagens ou alertas enviados ao usuário sobre eventos específicos.
 
@@ -77,7 +78,7 @@ O termo "Notificações" refere-se às mensagens ou alertas enviados ao usuário
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Notificações | Objeto | Alertas | - Mensagens enviadas ao [Beneficiário](./lexicos.md/#usuario) sobre eventos específicos.<br> - Se relaciona com [histórico](./lexicos.md/#historico) e [armazenar](./lexicos.md/#Armazenar)  | - O [Beneficiário](./lexicos.md/#usuario) escolhe receber notificações sobre ações necessárias ou informações relevantes. | [RF04](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF04), [RNF11](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF11) |
+| Notificações | Objeto | Alertas | - Mensagens enviadas ao [Beneficiário](./lexicos.md/#usuario) sobre eventos específicos.<br> - Se relaciona com [histórico](./lexicos.md/#historico) e [armazenar](./lexicos.md/#Armazenar)  | - O [Beneficiário](./lexicos.md/#usuario) escolhe receber notificações sobre ações necessárias ou informações relevantes. | [RF04.1](../../elicitacao/requisitos_finais.md#RF04.1), [RF04.2](../../elicitacao/requisitos_finais.md#RF04.2), [RF04.3](../../elicitacao/requisitos_finais.md#RF04.3), [RF04.4](../../elicitacao/requisitos_finais.md#RF04.4), [RF04.5](../../elicitacao/requisitos_finais.md#RF04.5), [RF04.6](../../elicitacao/requisitos_finais.md#RF04.6), [RF04.7](../../elicitacao/requisitos_finais.md#RF04.7), [RF04.8](../../elicitacao/requisitos_finais.md#RF04.8), [RF04.9](../../elicitacao/requisitos_finais.md#RF04.9), [RNF11](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF11) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a> e <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
 
@@ -101,7 +102,7 @@ O léxico "Histórico" foi identificado nos requisitos [RF09](https://requisitos
 
 ## Léxico 4: <a id="consulta"></a>Consulta
 
-**Requisitos relacionados:** [RF05](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF05), [RF13](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF13), [RF14](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF14), [RF15](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF15), [RF09](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF09), [RF01](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF01), [RF10](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF10), [RF04](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF04)
+**Requisitos relacionados:** [RF05](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF05), [RF13](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF13), [RF14](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF14), [RF15](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF15), [RF09](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF09), [RF01](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF01), [RF10](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF10), [RF04.6](../../elicitacao/requisitos_finais.md#RF04.6)
 
 O termo "Consulta" aparece em diversos requisitos, sempre relacionado ao atendimento clínico agendado entre o [Beneficiário](./lexicos.md/#usuario) e um profissional de saúde.
 
@@ -109,7 +110,7 @@ O termo "Consulta" aparece em diversos requisitos, sempre relacionado ao atendim
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Consulta | Objeto | Atendimento | - Atendimento clínico agendado entre o [Beneficiário](./lexicos.md/#usuario) e um [profissional](./lexicos.md/#prestador). | - O [Beneficiário](./lexicos.md/#usuario) agenda uma consulta - O [Beneficiário](./lexicos.md/#usuario) desmarca uma consulta | [RF05](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF05), [RF13](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF13), [RF14](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF14), [RF15](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF15), [RF09](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF09), [RF10](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF10), [RF10](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF10), [RF04](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF04) |
+| Consulta | Objeto | Atendimento | - Atendimento clínico agendado entre o [Beneficiário](./lexicos.md/#usuario) e um [profissional](./lexicos.md/#prestador). | - O [Beneficiário](./lexicos.md/#usuario) agenda uma consulta - O [Beneficiário](./lexicos.md/#usuario) desmarca uma consulta | [RF05](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF05), [RF13](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF13), [RF14](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF14), [RF15](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF15), [RF09](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF09), [RF10](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF10), [RF10](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF10), [RF04.6](../../elicitacao/requisitos_finais.md#RF04.6) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>, <a href="https://github.com/redjsun">Yzabella Miranda</a>, <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a>, <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -149,7 +150,7 @@ O termo "Coparticipação" é utilizado para descrever valores pagos pelo [Benef
 
 ## Léxico 7: <a id="agendar"></a>Agendar (Marcar)
 
-**Requisitos relacionados:** [RF05](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF05), [RF13](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF13), [RF15](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF15), [RF10](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF10), [RF04](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF04)
+**Requisitos relacionados:** [RF05](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF05), [RF13](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF13), [RF15](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF15), [RF10](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF10), [RF04.7](../../elicitacao/requisitos_finais.md#RF04.7)
 
 O termo "Agendar" refere-se à ação de reservar um horário para consulta ou [exame](./lexicos.md/#exame). "Marcar" é considerado sinônimo.
 
@@ -157,7 +158,7 @@ O termo "Agendar" refere-se à ação de reservar um horário para consulta ou [
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Agendar | Verbo | Marcar | O [Beneficiário](./lexicos.md/#usuario) acessa o GDF Saúde e executa a ação de reservar um horário para consulta ou [exame](./lexicos.md/#exame). | - O [Beneficiário](./lexicos.md/#usuario) possui uma consulta ou [exame](./lexicos.md/#exame) agendado. | [RF05](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF05), [RF13](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF13), [RF15](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF15), [RF10](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF10), [RF04](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF04) |
+| Agendar | Verbo | Marcar | O [Beneficiário](./lexicos.md/#usuario) acessa o GDF Saúde e executa a ação de reservar um horário para consulta ou [exame](./lexicos.md/#exame). | - O [Beneficiário](./lexicos.md/#usuario) possui uma consulta ou [exame](./lexicos.md/#exame) agendado. | [RF05](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF05), [RF13](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF13), [RF15](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF15), [RF10](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF10), [RF04.7](../../elicitacao/requisitos_finais.md#RF04.7) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>, <a href="https://github.com/redjsun">Yzabella Miranda</a>, <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a> e <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -165,7 +166,7 @@ O termo "Agendar" refere-se à ação de reservar um horário para consulta ou [
 
 ## Léxico 8: <a id="cancelar"></a>Cancelar (Desmarcar)
 
-**Requisitos relacionados:** [RF05](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF05), [RF04](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF04)
+**Requisitos relacionados:** [RF05](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF05), [RF04.8](../../elicitacao/requisitos_finais.md#RF04.8)
 
 O termo "Cancelar" refere-se à ação de desmarcar uma consulta ou [exame](./lexicos.md/#exame) previamente agendado. "Desmarcar" é considerado sinônimo.
 
@@ -173,7 +174,7 @@ O termo "Cancelar" refere-se à ação de desmarcar uma consulta ou [exame](./le
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Cancelar | Verbo | Desmarcar | - O [Beneficiário](./lexicos.md/#usuario) acessa o sistema e desmarca uma consulta ou [exame](./lexicos.md/#exame) previamente agendado. | - Os horários ficam liberados.<br> - Cobranças são desfeitas.| [RF05](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF05), [RF04](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF04) |
+| Cancelar | Verbo | Desmarcar | - O [Beneficiário](./lexicos.md/#usuario) acessa o sistema e desmarca uma consulta ou [exame](./lexicos.md/#exame) previamente agendado. | - Os horários ficam liberados.<br> - Cobranças são desfeitas.| [RF05](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF05), [RF04.8](../../elicitacao/requisitos_finais.md#RF04.8) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> e <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -181,7 +182,7 @@ O termo "Cancelar" refere-se à ação de desmarcar uma consulta ou [exame](./le
 
 ## Léxico 9: <a id="agendamento"></a>Agendamento (Reserva)
 
-**Requisitos relacionados:** [RF15](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF15), [RF10](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF10), [RF04](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF04)
+**Requisitos relacionados:** [RF15](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF15), [RF10](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF10), [RF04.8](../../elicitacao/requisitos_finais.md#RF04.8) e [RF04.7](../../elicitacao/requisitos_finais.md#RF04.7)
 
 O termo "Agendamento" refere-se à reserva de horário para atendimento ou serviço no sistema de saúde. "Reserva" é considerado sinônimo.
 
@@ -189,7 +190,7 @@ O termo "Agendamento" refere-se à reserva de horário para atendimento ou servi
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Agendamento | Objeto | Reserva | - Reserva de horário para atendimento ou serviço no sistema de saúde. - O agendamento é feito para uma [consulta](./lexicos.md/#consulta) em um determinado horário. | Permite ao [Beneficiário](./lexicos.md/#usuario) organizar e acompanhar seus compromissos. | [RF15](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF15), [RF10](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF10), [RF04](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF04) |
+| Agendamento | Objeto | Reserva | - Reserva de horário para atendimento ou serviço no sistema de saúde. - O agendamento é feito para uma [consulta](./lexicos.md/#consulta) em um determinado horário. | Permite ao [Beneficiário](./lexicos.md/#usuario) organizar e acompanhar seus compromissos. | [RF15](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF15), [RF10](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF10), [RF04.8](../../elicitacao/requisitos_finais.md#RF04.8) e [RF04.7](../../elicitacao/requisitos_finais.md#RF04.7) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/redjsun">Yzabella Miranda</a>, <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a> e <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -419,7 +420,7 @@ O termo "Calendário Personalizado" refere-se à ferramenta visual que mostra ev
 
 ## Léxico 24: <a id="consulta_agendada"></a> Consulta Agendada
 
-**Requisitos relacionados:** [RF16](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF16), [RF10](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF10), [RF04](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF04)
+**Requisitos relacionados:** [RF16](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF16), [RF10](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF10), [RF04.8](../../elicitacao/requisitos_finais.md#RF04.8), [RF04.6](../../elicitacao/requisitos_finais.md#RF04.6) e [RF04.7](../../elicitacao/requisitos_finais.md#RF04.7)
 
 O termo "Consulta Agendada" refere-se ao compromisso de atendimento clínico já registrado no sistema.
 
@@ -427,7 +428,7 @@ O termo "Consulta Agendada" refere-se ao compromisso de atendimento clínico já
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Consulta Agendada | Estado | - | - [Consulta](./lexicos.md/#consulta) está registrada no sistema.<br> - O [Beneficiário](./lexicos.md/#usuario) agendou uma consulta. | - | [RF16](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF16), [RF10](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF10), [RF04](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF04) |
+| Consulta Agendada | Estado | - | - [Consulta](./lexicos.md/#consulta) está registrada no sistema.<br> - O [Beneficiário](./lexicos.md/#usuario) agendou uma consulta. | - | [RF16](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF16), [RF10](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF10), [RF04.8](../../elicitacao/requisitos_finais.md#RF04.8), [RF04.6](../../elicitacao/requisitos_finais.md#RF04.6) e [RF04.7](../../elicitacao/requisitos_finais.md#RF04.7)|
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a> e <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -435,7 +436,7 @@ O termo "Consulta Agendada" refere-se ao compromisso de atendimento clínico já
 
 ## Léxico 25: <a id="vencimento"></a>Vencimento
 
-**Requisitos relacionados:** [RF16](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF16), [RF04](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF04)
+**Requisitos relacionados:** [RF16](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF16),[RF04.1](../../elicitacao/requisitos_finais.md#RF04.1)
 
 O termo "Vencimento" refere-se à data limite para uso de um benefício, pagamento ou renovação.
 
@@ -443,7 +444,7 @@ O termo "Vencimento" refere-se à data limite para uso de um benefício, pagamen
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Vencimento | Objeto | - | Data limite para uso de um benefício, pagamento ou renovação. | Evita perdas de prazos e interrupções de serviços. | [RF16](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF16), [RF04](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF04) |
+| Vencimento | Objeto | - | Data limite para uso de um benefício, pagamento ou renovação. | Evita perdas de prazos e interrupções de serviços. | [RF16](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF16), [RF04.1](../../elicitacao/requisitos_finais.md#RF04.1)|
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a> e <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 

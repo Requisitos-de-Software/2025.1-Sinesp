@@ -168,23 +168,43 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
 ---
+### Cenário x: Configuração de preferências de notificação pelo usuário  
+**Requisito Associado:** [RF04.1](../../elicitacao/requisitos_finais.md#RF04.1)  e [RF04.9](../../elicitacao/requisitos_finais.md#RF04.9)
 
-### Cenário 4: Recebimento de notificações configuráveis via app, SMS ou e-mail  
-**Requisito Associado:** [RF04](../../../elicitacao/requisitos_finais/#RF04)  
+<p align="center">Tabela x - Cenário x</p>
 
-<p align="center">Tabela 6 - Cenário 4</p>
+| Elemento        | Descrição|
+|-----------------|--------------------------------------------------------|
+| **ID**|  <a id="CE05">CE05</a>|
+| **Título**| Configuração de preferências de notificação pelo usuário|
+| **Metas/Objetivos** | Permitir que o usuário escolha quais tipos de eventos deseja ser notificado (ex.: vencimento de fatura, demonstrativo IR) e por quais canais (app, SMS, e-mail).|
+| **Contexto**| O usuário acessa o app GDF Saúde, entra nas configurações e define os eventos e canais pelos quais deseja ser notificado. As preferências ficam salvas no sistema.            |
+| **Ator(es)**| - Usuário (titular ou dependente).<br>- Sistema de notificações do GDF Saúde.|
+| **Recursos**| - App móvel GDF Saúde.<br>- Dispositivo do usuário.<br>- Conexão com internet.<br>- Interface de configuração de notificações.|
+| **Exceções**        | - Falha na conexão durante salvamento.<br>- Falha de autenticação do usuário.<br>- Erro de permissão no dispositivo (notificações desativadas).|
+| **Restrições**      | É necessário estar autenticado e com conexão ativa.|
+| **Episódios**       | 1. Usuário faz login no app.<br>2. Acessa “Outros → Configurações → Notificações”.<br>3. Escolhe eventos (ex.: fatura, IR) e canais (app, SMS, e-mail).<br>4. Sistema salva preferências. |
 
-| Elemento        | Descrição                                                                                                                                                                                      |
-|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE04">CE04</a>  |
-| **Título**       | Recebimento de notificações configuráveis via app, SMS ou e-mail                                                                                                                               |
-| **Metas/Objetivos** | Permitir que o usuário receba notificações personalizadas sobre vencimento de faturas, agendamentos e demonstrativos.                                                                          |
-| **Contexto**        | O usuário configura no app GDF Saúde quais eventos quer ser lembrado e por quais canais — app, SMS ou e-mail — e passa a receber alertas conforme sua escolha.                                 |
-| **Ator(es)**        | - Usuário (titular ou dependente).<br>- Sistema de notificações do GDF Saúde.<br>- Provedores externos de SMS e e‑mail.                                                                         |
-| **Recursos**        | - App móvel GDF Saúde.<br>- Dispositivo do usuário.<br>- Internet para configuração e envio.<br>- Servidores de notificação e APIs de SMS/e-mail.                                             |
-| **Exceções**        | - Preferências não configuradas.<br>- Sem conexão ao enviar push.<br>- Provedor de SMS/e-mail indisponível.<br>- Caixa de e‑mail cheia ou número incorreto.                                   |
-| **Restrições**      | Depende de conexão ativa e permissões corretas no dispositivo.                                                                                                                                 |
-| **Episódios**       | 1. Usuário faz login.<br>2. Acessa “Configurações → Notificações”.<br>3. Seleciona tipos e canais de alerta.<br>4. Sistema salva preferências.<br>5. Evento ocorre e notificação é enviada.<br>6. Usuário recebe e visualiza. |
+<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
+
+---
+
+### Cenário X: Envio de notificação sobre demonstrativo de IR e vencimento de fatura  
+**Requisito Associado:** [RF04.1](../../elicitacao/requisitos_finais.md#RF04.1)  e [RF04.9](../../elicitacao/requisitos_finais.md#RF04.9)
+
+<p align="center">Tabela X - Cenário X</p>
+
+| Elemento        | Descrição|
+|-----------------|----------------------------------------------------|
+| **ID**          |  <a id="CE06">CE06</a>|
+| **Título**      | Envio de notificação sobre demonstrativo de IR e vencimento de fatura|
+| **Metas/Objetivos** | Informar o usuário sobre a disponibilidade do demonstrativo do Imposto de Renda e o vencimento de sua fatura de forma automática.|
+| **Contexto**| Após o sistema identificar que um demonstrativo está disponível ou uma fatura está prestes a vencer, ele envia uma notificação usando os canais configurados pelo usuário.|
+| **Ator(es)**| - Sistema de notificações do GDF Saúde.<br>- Usuário (titular ou dependente).<br>- Provedores externos de SMS e e‑mail.|
+| **Recursos**| - Preferências de notificação já configuradas.<br>- Servidor de eventos (ex.: gerador de alertas de IR/fatura).<br>- Internet.<br>- APIs de envio de SMS, e-mail e push.|
+| **Exceções**| - Configurações ausentes ou inválidas.<br>- Falha no envio por canal externo.<br>- Caixa de e-mail cheia ou número de celular inválido.|
+| **Restrições**| Envio condicionado às preferências do usuário e à disponibilidade do provedor.|
+| **Episódios**| 1. Sistema detecta a liberação do demonstrativo de IR e o vencimento próximo da fatura.<br>2. Consulta preferências do usuário.<br>3. Envia notificações pelos canais definidos.<br>4. Usuário recebe alerta e visualiza conteúdo. |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -547,69 +567,6 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
----
-
-### Cenário 25: Disponibilidade 24/7 para autorizações de urgência/emergência  
-
-**Requisito Associado:** [RNF04](../../../elicitacao/requisitos_finais/#RNF04)  
-
-<p align="center">Tabela 8 - Cenário 25</p>
-
-| Elemento         | Descrição |
-|------------------|---------|
-|**ID**|  <a id="CE25">CE25</a>  |
-| **Título**            | Disponibilidade 24/7 para autorizações de urgência/emergência |
-| **Metas/Objetivos**  | Garantir que o sistema esteja disponível continuamente (≥ 99% de uptime) para autorizar atendimentos de urgência e emergência. |
-| **Contexto**         | Beneficiário chega em emergência fora do expediente e precisa autorizar procedimento pelo GDF Saúde; o sistema deve responder sem atrasos. |
-| **Ator(es)**         | - Beneficiário do plano. <br>- Profissional de saúde ou recepcionista. <br>- Sistema GDF Saúde. <br>- Equipe de infraestrutura/DevOps. |
-| **Recursos**         | - Infraestrutura em nuvem com alta disponibilidade. <br>- Internet no local de atendimento. <br>- Ferramentas de monitoramento de uptime e logs. |
-| **Exceções**         | - Queda de serviço no GDF Saúde. <br>- Instabilidade de rede ou nuvem. <br>- Falhas em janelas críticas de manutenção. |
-| **Restrições**       | Manter ≥ 99% de disponibilidade mensal; manutenções planejadas em janelas de baixo impacto. |
-| **Episódios**        | 1. Paciente chega na emergência no fim de semana. <br>2. Recepcionista acessa GDF Saúde. <br>3. Sistema autoriza procedimento imediatamente. <br>4. Paciente é atendido sem atrasos. <br>5. Logs de operação e uptime são registrados. |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
-
----
-
-### Cenário 26: Compatibilidade com diferentes versões do Android e iOS  
-**Requisito Associado:** [RNF05](../../../elicitacao/requisitos_finais/#RNF05)  
-
-<p align="center">Tabela 6 - Cenário 26</p>
-
-| Elemento         | Descrição |
-|------------------|---------|
-|**ID**|  <a id="CE26">CE26</a>  |
-| **Título**           | Compatibilidade com diferentes versões do Android e iOS |
-| **Metas/Objetivos**  | Garantir que o aplicativo funcione corretamente em dispositivos com versões variadas dos sistemas operacionais Android e iOS, atendendo a maioria dos usuários do mercado. |
-| **Contexto**         | O usuário possui um smartphone com uma versão intermediária do Android (ex.: Android 10) ou do iOS (ex.: iOS 14) e precisa utilizar o aplicativo GDF Saúde com todas as funcionalidades ativas, sem falhas ou incompatibilidades. |
-| **Ator(es)**         | - Usuário do aplicativo GDF Saúde com diferentes versões de sistema operacional. <br>- Equipe de desenvolvimento e testes. <br>- Lojas de aplicativos (Google Play e App Store). |
-| **Recursos**         | - Dispositivos com versões variadas de Android e iOS. <br>- Ambiente de testes com emuladores e dispositivos físicos. <br>- Ferramentas de compatibilidade (ex.: Firebase Test Lab, Xcode, Android Studio). |
-| **Exceções**         | - Funcionalidades específicas não disponíveis em versões antigas. <br>- Comportamentos visuais ou de navegação inconsistentes entre versões. <br>- APIs ou permissões não suportadas em versões muito antigas. |
-| **Restrições**       | Suporte garantido apenas para versões oficialmente mantidas e com base de usuários significativa (ex.: Android 9+ e iOS 13+). |
-| **Episódios**        | 1. Definir mínimo de versões suportadas com base em dados de mercado.<br>2. Desenvolver e testar o app nas versões selecionadas.<br>3. Usuário com Android 10 ou iOS 14 abre o app.<br>4. App inicia sem falhas.<br>5. Usuário utiliza todas as funcionalidades. |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
-
----
-
-### Cenário 27: Compatibilidade do aplicativo com leitores de tela  
-**Requisito Associado:** [RNF06](../../../elicitacao/requisitos_finais/#RNF06)  
-
-<p align="center">Tabela 7 - Cenário 27</p>
-
-| Elemento         | Descrição |
-|------------------|---------|
-|**ID**|  <a id="CE27">CE27</a>  |
-| **Título**           | Compatibilidade do aplicativo com leitores de tela |
-| **Metas/Objetivos**  | Garantir que pessoas com deficiência visual possam utilizar o aplicativo GDF Saúde via leitores de tela, com navegação acessível, clara e funcional. |
-| **Contexto**         | Usuário com deficiência visual utiliza o leitor de tela nativo (TalkBack ou VoiceOver) para consultar informações médicas no app, esperando que todos os elementos estejam corretamente rotulados e navegáveis. |
-| **Ator(es)**         | - Usuário com deficiência visual. <br>- Sistema operacional (Android/iOS) com leitor de tela ativo. |
-| **Recursos**         | - App GDF Saúde com rótulos de acessibilidade (contentDescription no Android, accessibilityLabel no iOS). <br>- Leitores de tela: TalkBack e VoiceOver. <br>- Dispositivo móvel compatível. |
-| **Exceções**         | - Elementos sem descrição adequada. <br>- Componentes interativos não reconhecidos. <br>- Informações transmitidas apenas visualmente (cores ou ícones sem texto alternativo). |
-| **Restrições**       | Seguir diretrizes de acessibilidade dos SO e evitar personalizações que comprometam a leitura automatizada. |
-| **Episódios**        | 1. Usuário ativa leitor de tela. <br>2. Abre o app GDF Saúde. <br>3. Leitor de tela identifica botões, menus e textos. <br>4. Usuário navega com gestos/comandos. <br>5. Acessa agendamentos e exames sem assistência visual. |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
 ---
 
