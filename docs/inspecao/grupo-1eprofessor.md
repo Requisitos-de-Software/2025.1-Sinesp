@@ -4,6 +4,35 @@
 
 Este documento tem como objetivo listar as inspeções do nosso grupo feita pelo grupo -1 e pelo professor e monitores. 
 
+## Integrantes do Grupo
+
+Na tabela 1 contêm todos os integrantes da equipe que participaram na construção deste documento e o que cada pessoa desenvolveu durante o projeto.
+
+<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Quais etapas participou</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+        <td>Criação do arquivo e adição dos links de inspeção das entregas.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+        <td>Revisão do documento.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
 ## Grupo -1 
 
 O [grupo 8](https://github.com/Requisitos-de-Software/2025.1-e-GDF) é o grupo que nos avalia, segue os links para a inspeção de cada entrega: 
