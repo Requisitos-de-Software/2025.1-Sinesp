@@ -6,6 +6,39 @@ Este documento descreve o objetivo da verificação, a metodologia aplicada e os
 
 ---
 
+## Integrantes do Grupo
+
+Na tabela 1 contêm todos os integrantes da equipe que participaram na construção deste documento e o que cada pessoa desenvolveu durante o projeto.
+
+<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Quais etapas participou</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/redjsun">Yzabella Miranda Pimenta</a></td>
+        <td>Criação do documento e adição dos resultados da verificação.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+        <td>Criação do documento e adição dos resultados da verificação.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+        <td>Revisão completa do documento.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
 ## Metodologia
 Os resultados da verificação do artefato foram obtidos com base na lista de verificação elaborada na etapa de planejamento. Para responder às questões dessa lista, o avaliador Gustavo Freitas utilizou as opções de prioridade Baixa, Média e Alta, conforme definido pelos participantes [Yzabella Miranda Pimenta](https://github.com/redjsun) e [Othavio Araujo Bolzan](https://github.com/bolzanMGB).  Os resultados foram organizados de acordo com os identificadores das respectivas funcionalidades, sendo que cada item possui sua prioridade específica. Esses dados estão apresentados na Tabela 1: Resultados Three Level Scale abaixo.
 

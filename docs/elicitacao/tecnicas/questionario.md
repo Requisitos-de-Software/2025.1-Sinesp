@@ -6,7 +6,47 @@ O presente relatório tem como objetivo apresentar uma análise detalhada do per
 
 Ao entender a vivência dos beneficiários com o aplicativo, é possível estabelecer critérios mais claros para evoluções no produto, alinhando a solução tecnológica às reais necessidades da população usuária do plano de saúde.
 
----
+## Integrantes do Grupo
+
+Na tabela 1 contêm todos os integrantes da equipe que participaram na construção deste documento e o que cada pessoa desenvolveu durante o projeto.
+
+<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Quais etapas participou</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+        <td>Elaboração do questionário e adição de informações ao documento.</td>
+      </tr>
+       <tr>
+        <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+        <td>Elaboração do questionário.</td>
+      </tr>
+       <tr>
+        <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+        <td>Revisão, elaboração da documentação do questionário, adição de informações e correção de imagens.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+        <td>Correção de imagens e revisão do documento.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+        <td>Revisão do documento.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
 
 ## Metodologia
 
@@ -76,7 +116,7 @@ As tabelas 1 e 2 listadas a seguir contém os requisitos que foram elicitados du
 | <a id="QT10"></a>QT10  | O aplicativo deve apresentar **alta disponibilidade** (mínimo de 99% uptime)                             | [RNF04](../../elicitacao/elicitacao.md#RNF04)   | Não          |
 | <a id="QT11"></a>QT11  | A interface deve ser **intuitiva, acessível e responsiva** em smartphones Android e iOS                 | [RNF05](../../elicitacao/elicitacao.md#RNF05)   | Sim          |
 | <a id="QT12"></a>QT12  | O tempo de resposta das ações não deve ultrapassar 2 segundos                                            | [RNF02](../../elicitacao/elicitacao.md#RNF02)   | Não          |
-| <a id="QT13"></a>QT13  | As informações exibidas devem ser **claras, completas e atualizadas em tempo real**                     | [RNF16](../../elicitacao/elicitacao.md#RNF16)   | Sim          |
+| <a id="QT13"></a>QT13  | As informações exibidas devem ser **claras, completas e atualizadas em tempo real** | [RNF16](../../elicitacao/elicitacao.md#RNF16)   | Sim          |
 | <a id="QT14"></a>QT14  | O app deve ser compatível com leitores de tela (acessibilidade digital)                                  | [RNF06](../../elicitacao/elicitacao.md#RNF06)   | Não          |
 | <a id="QT15"></a>QT15  | A segurança das informações do usuário deve seguir os padrões da LGPD                                    | [RNF03](../../elicitacao/elicitacao.md#RNF03)   | Sim          |
 | <a id="QT16"></a>QT16  | O layout deve ser consistente com o portal oficial do plano                                              | [RNF14](../../elicitacao/elicitacao.md#RNF14)   | Não          |

@@ -4,6 +4,39 @@
 
 A introspecção é uma técnica de elicitação de requisitos baseada na imaginação de cenários hipotéticos de uso. Por meio de uma análise individual, os participantes se colocam no lugar de um usuário comum do sistema e descrevem funcionalidades e características desejadas. Esta seção apresenta os requisitos funcionais e não funcionais elicitados para o aplicativo **GDF Saúde** por meio dessa técnica.
 
+## Integrantes do Grupo
+
+Na tabela 1 contêm todos os integrantes da equipe que participaram na construção deste documento e o que cada pessoa desenvolveu durante o projeto.
+
+<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Quais etapas participou</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+        <td>Criação da introdução, elaboração dos requisitos iniciais e revisão da tabela.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+        <td>Criação da introdução e elaboração dos requisitos iniciais.</td>
+      </tr>
+       <tr>
+        <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+        <td>Revisão completa do documento e ajuste das tabelas.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
 ## Metodologia
 
 O processo de introspecção foi conduzido individualmente pelos participantes [Lucas Alves Oliveira dos Santos](https://github.com/LucasAlves71) e [Othavio Araujo Bolzan](https://github.com/bolzanMGB), seguindo o cronograma apresentado na tabela 1. Cada participante imaginou-se utilizando o aplicativo GDF Saúde em situações diversas. A partir dessas cenários hipotéticos de usos, foram definidos os requisitos desejados, que foram organizados em duas tabelas: **Requisitos Funcionais (Tabela 2)** e **Requisitos Não-Funcionais (Tabela 3)**.

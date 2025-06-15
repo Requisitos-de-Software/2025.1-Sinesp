@@ -6,6 +6,47 @@ Esta página consolida os requisitos identificados para o projeto, eliciados por
 
 > Observação: a versão final dos requisitos podem ser encontrados na página [Requisitos Elicitados Finais](../elicitacao/requisitos_finais.md)
 
+## Integrantes do Grupo
+
+Na tabela 1 contêm todos os integrantes da equipe que participaram na construção deste documento e o que cada pessoa desenvolveu durante o projeto.
+
+<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Quais etapas participou</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+        <td>Criação da documentação inicial e dos requisitos.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+        <td>Criação da documentação inicial e dos requisitos.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+        <td>Criação e atualização da documentação e das tabelas de requisitos.</td>
+      </tr>
+       <tr>
+        <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+        <td>Revisão do documento e adição da seção de novos requisitos funcionais.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+        <td>Atualização da tabela de requisitos.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
 ## Requisitos
 
 Os requisitos foram organizados em duas tabelas: a Tabela 1 apresenta os Requisitos Funcionais, enquanto a Tabela 2 lista os Requisitos Não Funcionais.
@@ -25,7 +66,7 @@ Legenda das Tabelas:
 
 <p align="center">Tabela 1: Requisitos Funcionais versão 1.2</p>
 
-| **Tipo** | **Descrição**                                                                                                      | **Técnicas**                  | **Implementado** |
+| **Tipo** | **Descrição** | **Técnicas** | **Implementado** |
 |----------|--------------------------------------------------------------------------------------------------------------------|-------------------------------|------------------|
 | <a id="RF01"></a>RF01     | Permitir ao usuário pesquisar e filtrar clínicas e profissionais credenciados por especialidade, região administrativa, tipo de atendimento e proximidade. | [EN01](../elicitacao/tecnicas/entrevista.md#EN01), [EN02](../elicitacao/tecnicas/entrevista.md#EN02), [IS02](../elicitacao/tecnicas/introspeccao.md#IS02), [IS06](../elicitacao/tecnicas/introspeccao.md#IS06), [QT03](../elicitacao/tecnicas/questionario.md#QT03), [QT08](../elicitacao/tecnicas/questionario.md#QT08) | Sim              |
 | <a id="RF02"></a>RF02     | Disponibilizar sistema de avaliação de clínicas com notas e comentários.                                           | [EN03](../elicitacao/tecnicas/entrevista.md#EN03), [GF01](../elicitacao/tecnicas/grupo_focal.md#GF01)                    | Não              |
@@ -59,7 +100,7 @@ Para tal brainstorm a presença dos integrantes [Ana Luiza Soares](https://githu
 
 <p align="center">Tabela 2: Novos Requisitos Funcionais Versão 1.2</p>
 
-| **Tipo** | **Descrição**                                                                                                      | **Técnicas**                  | **Implementado** |
+| **Tipo** | **Descrição** | **Técnicas** | **Implementado** |
 |----------|--------------------------------------------------------------------------------------------------------------------|-------------------------------|------------------|
 |  <a id="RF16"></a>RF16     | Disponibilizar calendário personalizado com visualização de consultas agendadas, prazos de carência e vencimentos.| BS01   | Não | 
 | <a id="RF17"></a>RF17    | Exibir painel com metas de saúde personalizadas (ex: exames periódicos, consultas anuais) com gamificação para incentivar acompanhamento.| BS02   | Não | 
@@ -75,7 +116,7 @@ Para tal brainstorm a presença dos integrantes [Ana Luiza Soares](https://githu
 
 <p align="center">Tabela 3: Requisitos Não Funcionais Versão 1.2</p>
 
-| **Tipo** | **Descrição**                                                                                                      | **Técnicas**                  | **Implementado** |
+| **Tipo** | **Descrição** | **Técnicas** | **Implementado** |
 |----------|--------------------------------------------------------------------------------------------------------------------|-------------------------------|------------------|
 | <a id="RNF01"></a>RNF01    | A interface deve ser intuitiva, clara, adaptada para idosos e pessoas com baixa familiaridade tecnológica, organizada em categorias e responsiva em smartphones Android e iOS. | [EN10](../elicitacao/tecnicas/entrevista.md#EN10), [GF13](../elicitacao/tecnicas/grupo_focal.md#GF13), [IS13](../elicitacao/tecnicas/introspeccao.md#IS13), [QT11](../elicitacao/tecnicas/questionario.md#QT11)        | Não              |
 | <a id="RNF02"></a>RNF02    | Garantir carregamento rápido e fluído de todas as telas, com tempo de resposta das ações não ultrapassando 2 segundos. | [EN11](../elicitacao/tecnicas/entrevista.md#EN11), [GF17](../elicitacao/tecnicas/grupo_focal.md#GF17), [IS14](../elicitacao/tecnicas/introspeccao.md#IS14), [QT12](../elicitacao/tecnicas/questionario.md#QT12)        | Sim              |
