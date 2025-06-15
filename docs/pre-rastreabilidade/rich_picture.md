@@ -6,9 +6,42 @@ O *Rich Picture* é uma técnica visual colaborativa empregada para explorar e c
 
 No escopo deste trabalho, o *Rich Picture* foi desenvolvido com base no aplicativo **GDF Saúde**, escolhido pelo grupo em razão de seu impacto social e estrutura técnica que permite uma análise rica em elementos. A técnica foi utilizada para ilustrar visualmente os atores, funcionalidades e interações centrais do sistema, respeitando os limites éticos definidos previamente pelo grupo, como a não realização de engenharia reversa.
 
+## Integrantes do Grupo
+
+Na tabela 1 contêm todos os integrantes da equipe que participaram na construção deste documento e o que cada pessoa desenvolveu durante o projeto.
+
+<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Quais etapas participou</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza</a></td>
+        <td>Criação e formatação da primeira versão do Rich Picture.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+        <td>Elaboração da segunda versão do Rich Picture.</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+        <td>Revisão de todas as versões do documento e atualização da documentação e imagens.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
 ## Metodologia e Ferramentas
 
-A elaboração do *Rich Picture* foi realizada por meio da ferramenta **Figma**, que possibilitou a criação colaborativa do diagrama e da legenda correspondente. Logo abaixo, nota-se o **Rich Picture** do app **GDF Saúde**  na figura 1 e sua respectiva legenda na figura 2: 
+A elaboração do *Rich Picture* foi realizada por meio da ferramenta **Figma**, que possibilitou a criação colaborativa do diagrama e da legenda correspondente. Logo abaixo, nota-se o **Rich Picture** do app **GDF Saúde** na figura 1 e sua respectiva legenda na figura 2: 
 
 <p align="center">
   <img src="../assets/rich-picture/RP-GDF.png" alt="Rich Picture do GDF Saúde" width="600"/>
