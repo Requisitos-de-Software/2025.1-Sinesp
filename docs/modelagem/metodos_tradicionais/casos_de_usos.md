@@ -115,7 +115,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 <p align="center">Figura 5 - Caso de uso UC21 a UC26 </p>
 <p align="center">
-  <img src="..\..\assets\casos-uso\casos-uso-lucas.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
+  <img src="..\..\assets\casos-uso\new_diagrama_lucas.png" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71" target="_blank">Lucas Alves</a></p>
