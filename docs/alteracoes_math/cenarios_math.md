@@ -1,11 +1,10 @@
-# Cenários – Matheus de Alcântara
-
-## Cenário 1: Visualizar Histórico de Consultas Realizadas
+## Cenário 9: Visualizar Histórico de Consultas Realizadas
 
 **Requisito Associado:** [RF09.1](../../elicitacao/requisitos_finais.md#RF09.1)
 
 | Elemento        | Descrição |
 |-----------------|-----------|
+| **ID**          | CE09      |
 | **Título**      | Visualizar Histórico de Consultas Realizadas |
 | **Metas/Objetivos** | Permitir ao usuário acessar e consultar todas as consultas realizadas, com detalhes de data, profissional e especialidade. |
 | **Contexto**    | Usuário autenticado deseja revisar seu histórico de consultas para controle pessoal ou agendamento de retornos. |
@@ -17,12 +16,13 @@
 
 ---
 
-## Cenário 2: Visualizar Histórico de Exames Realizados
+## Cenário X: Visualizar Histórico de Exames Realizados
 
 **Requisito Associado:** [RF09.2](../../elicitacao/requisitos_finais.md#RF09.2)
 
 | Elemento        | Descrição |
 |-----------------|-----------|
+| **ID**          | CEXX      |
 | **Título**      | Visualizar Histórico de Exames Realizados |
 | **Metas/Objetivos** | Permitir ao usuário consultar todos os exames realizados, com nome, data e status. |
 | **Contexto**    | Usuário autenticado deseja acompanhar exames feitos para controle de saúde e acompanhamento médico. |
@@ -34,12 +34,13 @@
 
 ---
 
-## Cenário 3: Visualizar Resultados de Exames Laboratoriais
+## Cenário X: Visualizar Resultados de Exames Laboratoriais
 
 **Requisito Associado:** [RF09.3](../../elicitacao/requisitos_finais.md#RF09.3)
 
 | Elemento        | Descrição |
 |-----------------|-----------|
+| **ID**          | CEXX      |
 | **Título**      | Visualizar Resultados de Exames Laboratoriais |
 | **Metas/Objetivos** | Permitir ao usuário acessar resultados de exames laboratoriais realizados, visualizar e baixar arquivos de resultados. |
 | **Contexto**    | Usuário autenticado deseja consultar resultados de exames para acompanhamento médico ou compartilhamento com profissionais de saúde. |
@@ -51,12 +52,13 @@
 
 ---
 
-## Cenário 4: Visualizar Histórico de Coparticipações
+## Cenário X: Visualizar Histórico de Coparticipações
 
 **Requisito Associado:** [RF09.4](../../elicitacao/requisitos_finais.md#RF09.4)
 
 | Elemento        | Descrição |
 |-----------------|-----------|
+| **ID**          | CEXX      |
 | **Título**      | Visualizar Histórico de Coparticipações |
 | **Metas/Objetivos** | Permitir ao usuário consultar cobranças de coparticipação detalhadas, visualizar valores, datas, serviços e status de pagamento. |
 | **Contexto**    | Usuário autenticado deseja conferir valores cobrados em coparticipação para controle financeiro e contestação de cobranças. |

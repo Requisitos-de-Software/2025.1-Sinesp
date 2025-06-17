@@ -41,7 +41,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
             </tr>
             <tr>
                 <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td>Desenvolveu a metodologia e criou os cenários: 9, 10, 20, 31 e 32.</td>
+                <td>Desenvolveu a metodologia e criou os cenários referente aos requisitos RF09.1, RF09.2, RF09.3, RF09.4, RF10 e RF20</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a></td>
@@ -294,23 +294,89 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 9: Visualizar Histórico de Guias  
-**Requisito Associado:** [RF09](../../../elicitacao/requisitos_finais/#RF09)  
+### Cenário 9: Visualizar Histórico de Consultas Realizadas
 
-<p align="center">Tabela 11 - Cenário 09</p>
+<p align="center">Tabela 11 - Cenário 9</p>
 
-| Elemento        | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE09">CE09</a>  |
-| **Título**          | Visualizar Histórico de Guias RF09                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Metas/Objetivos** | Permitir que o usuário visualize seu histórico de saúde, incluindo consultas médicas, exames realizados, resultados laboratoriais e coparticipações, de forma organizada e acessível para acompanhar seu histórico médico e financeiro.                                                                                                                                                                                                                                                                                                  |
-| **Contexto**        | Usuário autenticado no app móvel GDF Saúde deseja revisar seu histórico de atendimentos e despesas relacionadas ao plano (consultas, exames, coparticipações).                                                                                                                                                                                                                                                                                                                                                                        |
-| **Ator(es)**        | - Usuário cadastrado no GDF Saúde<br>- Sistema de histórico do aplicativo                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **Recursos**        | - App GDF Saúde<br>- Seção “Histórico de Guias” ou equivalente<br>- Banco de dados de consultas, exames, resultados e coparticipações<br>- Conexão à internet<br>- Dispositivo do usuário (smartphone, tablet ou computador)                                                                                                                                                                                                                                                                                                      |
-| **Exceções**        | - Usuário não autenticado (impede acesso)<br>- Sem histórico disponível (novo usuário ou falha de sincronização)<br>- Erro técnico (falha no servidor ou BD)<br>- Conexão instável interrompe o carregamento                                                                                                                                                                                                                                                                                                                            |
-| **Restrições**      | - Autenticação obrigatória via INAS<br>- Apenas titular ou dependentes autorizados podem acessar<br>- Criptografia e LGPD para armazenamento e transmissão<br>- Desempenho: tempo de carregamento < 2 s<br>- Acessibilidade conforme WCAG 2.1 AA                                                                                                                                                                                                                                                                                      |
-| **Episódios**       | 1. Usuário faz login no GDF Saúde.<br>2. Navega até “Histórico de Guias”.<br>3. Sistema exibe lista com consultas, exames, resultados e coparticipações.<br>4. Usuário clica em um item para ver detalhes completos.<br>5. Se sem histórico, exibe “Nenhum histórico disponível”.<br>6. Se erro técnico, exibe “Erro ao carregar histórico” e oferece “Tentar novamente” ou “Suporte”.<br>7. Usuário sai da seção ou do app. |
+**Requisito Associado:** [RF09.1](../../elicitacao/requisitos_finais.md#RF09.1)
 
+| Elemento        | Descrição |
+|-----------------|-----------|
+| **ID**          | CE09      |
+| **Título**      | Visualizar Histórico de Consultas Realizadas |
+| **Metas/Objetivos** | Permitir ao usuário acessar e consultar todas as consultas realizadas, com detalhes de data, profissional e especialidade. |
+| **Contexto**    | Usuário autenticado deseja revisar seu histórico de consultas para controle pessoal ou agendamento de retornos. |
+| **Ator(es)**    | - Usuário cadastrado no GDF Saúde |
+| **Recursos**    | - App GDF Saúde<br>- Banco de dados de consultas<br>- Conexão à internet<br>- Interface de histórico com filtros e busca<br>- Sistema de autenticação<br>- Sistema de exportação/visualização de detalhes |
+| **Exceções**    | - Usuário sem consultas registradas: sistema exibe mensagem "Nenhuma consulta encontrada".<br>- Erro técnico ao carregar histórico: sistema exibe mensagem de erro e opção de tentar novamente.<br>- Falha de autenticação: usuário é redirecionado para tela de login.<br>- Conexão instável: sistema exibe aviso e tenta recarregar.<br>- Dados corrompidos: sistema orienta a contatar suporte. |
+| **Restrições**  | - Apenas usuários autenticados podem acessar.<br>- Dados protegidos por LGPD.<br>- Histórico disponível apenas para titulares e dependentes autorizados.<br>- Acesso permitido somente em dispositivos compatíveis.<br>- Tempo de carregamento deve ser inferior a 2 segundos.<br>- Histórico limitado aos últimos 5 anos. |
+| **Episódios**   | 1. Usuário faz login.<br>2. Acessa "Histórico de Consultas".<br>3. Sistema exibe lista de consultas.<br>4. Usuário pode filtrar por período, profissional ou especialidade.<br>5. Usuário busca por palavra-chave.<br>6. Seleciona consulta para ver detalhes (data, profissional, local, status, observações).<br>7. Usuário pode exportar ou compartilhar o histórico.<br>8. Se não houver consultas, sistema exibe mensagem adequada.<br>9. Se erro, sistema oferece opção de tentar novamente ou contatar suporte. |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></p>
+
+---
+
+### Cenário X: Visualizar Histórico de Exames Realizados
+
+<p align="center">Tabela X - Cenário X</p>
+
+**Requisito Associado:** [RF09.2](../../elicitacao/requisitos_finais.md#RF09.2)
+
+| Elemento        | Descrição |
+|-----------------|-----------|
+| **ID**          | CEXX      |
+| **Título**      | Visualizar Histórico de Exames Realizados |
+| **Metas/Objetivos** | Permitir ao usuário consultar todos os exames realizados, com nome, data e status. |
+| **Contexto**    | Usuário autenticado deseja acompanhar exames feitos para controle de saúde e acompanhamento médico. |
+| **Ator(es)**    | - Usuário cadastrado no GDF Saúde |
+| **Recursos**    | - App GDF Saúde<br>- Banco de dados de exames<br>- Conexão à internet<br>- Interface de histórico de exames com filtros e busca<br>- Sistema de autenticação<br>- Sistema de exportação/visualização de detalhes |
+| **Exceções**    | - Usuário sem exames registrados: sistema exibe "Nenhum exame encontrado".<br>- Erro técnico ao carregar histórico: sistema exibe mensagem de erro e opção de tentar novamente.<br>- Falha de autenticação: usuário é redirecionado para tela de login.<br>- Conexão instável: sistema exibe aviso e tenta recarregar.<br>- Dados corrompidos: sistema orienta a contatar suporte. |
+| **Restrições**  | - Apenas usuários autenticados podem acessar.<br>- Dados protegidos por LGPD.<br>- Histórico disponível apenas para titulares e dependentes autorizados.<br>- Acesso permitido somente em dispositivos compatíveis.<br>- Tempo de carregamento deve ser inferior a 2 segundos.<br>- Histórico limitado aos últimos 5 anos. |
+| **Episódios**   | 1. Usuário faz login.<br>2. Acessa "Histórico de Exames".<br>3. Sistema exibe lista de exames realizados.<br>4. Usuário pode filtrar por período, tipo de exame ou status.<br>5. Usuário busca por palavra-chave.<br>6. Seleciona exame para ver detalhes (nome, data, local, status, observações).<br>7. Usuário pode exportar ou compartilhar o histórico.<br>8. Se não houver exames, sistema exibe mensagem adequada.<br>9. Se erro, sistema oferece opção de tentar novamente ou contatar suporte. |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></p>
+
+---
+
+### Cenário X: Visualizar Resultados de Exames Laboratoriais
+
+<p align="center">Tabela X - Cenário X</p>
+
+**Requisito Associado:** [RF09.3](../../elicitacao/requisitos_finais.md#RF09.3)
+
+| Elemento        | Descrição |
+|-----------------|-----------|
+| **ID**          | CEXX      |
+| **Título**      | Visualizar Resultados de Exames Laboratoriais |
+| **Metas/Objetivos** | Permitir ao usuário acessar resultados de exames laboratoriais realizados, visualizar e baixar arquivos de resultados. |
+| **Contexto**    | Usuário autenticado deseja consultar resultados de exames para acompanhamento médico ou compartilhamento com profissionais de saúde. |
+| **Ator(es)**    | - Usuário cadastrado no GDF Saúde |
+| **Recursos**    | - App GDF Saúde<br>- Banco de dados de exames/resultados<br>- Conexão à internet<br>- Interface de histórico de exames com acesso a resultados<br>- Sistema de autenticação<br>- Visualizador de PDF/imagens<br>- Sistema de exportação/download de resultados |
+| **Exceções**    | - Resultado não disponível: sistema exibe "Resultado ainda não disponível".<br>- Erro técnico ao carregar resultado: sistema exibe mensagem de erro e opção de tentar novamente.<br>- Falha de autenticação: usuário é redirecionado para tela de login.<br>- Conexão instável: sistema exibe aviso e tenta recarregar.<br>- Arquivo corrompido: sistema orienta a contatar suporte.<br>- Resultado restrito por política de privacidade: sistema exibe mensagem de acesso negado. |
+| **Restrições**  | - Apenas usuários autenticados podem acessar.<br>- Dados protegidos por LGPD.<br>- Resultados disponíveis apenas para exames realizados pelo plano.<br>- Download permitido apenas em dispositivos compatíveis.<br>- Tempo de carregamento deve ser inferior a 2 segundos.<br>- Resultados disponíveis por até 5 anos após realização do exame. |
+| **Episódios**   | 1. Usuário faz login.<br>2. Acessa "Histórico de Exames".<br>3. Seleciona exame com resultado disponível.<br>4. Sistema exibe botão/link para visualizar ou baixar resultado.<br>5. Usuário visualiza resultado em tela ou faz download (PDF, imagem).<br>6. Usuário pode compartilhar resultado com profissional de saúde.<br>7. Se resultado não disponível, sistema exibe mensagem adequada.<br>8. Se erro, sistema oferece opção de tentar novamente ou contatar suporte. |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></p>
+
+---
+
+### Cenário X: Visualizar Histórico de Coparticipações
+
+<p align="center">Tabela X - Cenário X</p>
+
+**Requisito Associado:** [RF09.4](../../elicitacao/requisitos_finais.md#RF09.4)
+
+| Elemento        | Descrição |
+|-----------------|-----------|
+| **ID**          | CEXX      |
+| **Título**      | Visualizar Histórico de Coparticipações |
+| **Metas/Objetivos** | Permitir ao usuário consultar cobranças de coparticipação detalhadas, visualizar valores, datas, serviços e status de pagamento. |
+| **Contexto**    | Usuário autenticado deseja conferir valores cobrados em coparticipação para controle financeiro e contestação de cobranças. |
+| **Ator(es)**    | - Usuário cadastrado no GDF Saúde |
+| **Recursos**    | - App GDF Saúde<br>- Banco de dados financeiro<br>- Conexão à internet<br>- Interface de histórico de coparticipações com filtros e busca<br>- Sistema de autenticação<br>- Sistema de exportação/visualização de detalhes<br>- Canal de contestação de cobrança |
+| **Exceções**    | - Nenhuma cobrança registrada: sistema exibe "Nenhuma coparticipação encontrada".<br>- Erro técnico ao carregar histórico: sistema exibe mensagem de erro e opção de tentar novamente.<br>- Falha de autenticação: usuário é redirecionado para tela de login.<br>- Conexão instável: sistema exibe aviso e tenta recarregar.<br>- Dados corrompidos: sistema orienta a contatar suporte.<br>- Contestação não permitida para cobranças antigas: sistema exibe mensagem de restrição. |
+| **Restrições**  | - Apenas usuários autenticados podem acessar.<br>- Dados protegidos por LGPD.<br>- Histórico disponível apenas para titulares e dependentes autorizados.<br>- Contestação permitida apenas para cobranças dos últimos 30 dias.<br>- Tempo de carregamento deve ser inferior a 2 segundos.<br>- Histórico limitado aos últimos 5 anos. |
+| **Episódios**   | 1. Usuário faz login.<br>2. Acessa "Histórico de Coparticipações".<br>3. Sistema exibe lista de cobranças detalhadas (valor, data, serviço, status).<br>4. Usuário pode filtrar por período, tipo de serviço ou status.<br>5. Usuário busca por palavra-chave.<br>6. Seleciona cobrança para ver detalhes.<br>7. Usuário pode exportar histórico ou iniciar contestação.<br>8. Se não houver cobranças, sistema exibe mensagem adequada.<br>9. Se erro, sistema oferece opção de tentar novamente ou contatar suporte. |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></p>
 
