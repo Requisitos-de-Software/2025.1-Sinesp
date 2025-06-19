@@ -103,7 +103,7 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 <p align="center">Figura 3 - Caso de uso UC13 a UC20 </p>
 <p align="center">
-  <img src="..\..\assets\casos-uso\casos-uso-kaleb.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
+  <img src="..\..\assets\casos-uso\casos-uso-kaleb-rf.png" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo" target="_blank">Kaleb Macedo</a></p>
@@ -307,181 +307,165 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC13 – Agendar consulta ou exame
-<p align="center">Tabela 15 - Caso de Uso 13 </p>
+## UC12 – Agendar Consulta ou Exame
+<p align="center">Tabela 14 - Caso de Uso 12</p>
 
-| Campo             | Descrição                                                                                          |
-|-------------------|----------------------------------------------------------------------------------------------------|
-| <a id="UC13"></a>UC13                | Agendar consulta ou exame                                                                   |
-| Descrição         | Permitir que o titular agende uma consulta ou exame com prestadores credenciados via aplicativo, com pagamento automático integrado. |
-| Ator              | Titular do plano de saúde                                                                           |
-| Pré-condições     | 1. Titular autenticado no aplicativo <br> 2. Estar com plano de saúde ativo <br> 3. Ter conexão com internet |
-| Ação              | Usuário seleciona tipo de atendimento (consulta ou exame), define prestador e horário e confirma o agendamento. O sistema realiza o pagamento automático. |
-| Fluxo principal   | - Usuário abre o aplicativo <br> - Acessa a seção de agendamento <br> - Escolhe tipo de atendimento <br> - Seleciona prestador e horário <br> - Confirma agendamento <br> - Sistema realiza pagamento automático |
-| Fluxo alternativo | - Usuário cancela o agendamento antes da confirmação <br> - Sistema não realiza pagamento |
-| Fluxo de exceção  | - Prestador indisponível para o horário escolhido <br> - Falha no pagamento automático <br> - Exibe mensagem de erro ao usuário |
-| Pós-condições     | Agendamento é confirmado e exibido ao usuário; valor debitado automaticamente do saldo ou coparticipação processada |
-| Rastreabilidade   | [RF05](../../elicitacao/requisitos_finais.md#RF05)                                                                                              |
-| Data de criação   | 17/05/2025                                                                                          |
-<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
-
----
-
-### UC14 – Cancelar consulta ou exame
-
-<p align="center">Tabela 16 - Caso de Uso 14 </p>
-
-| Campo             | Descrição                                                                                          |
-|-------------------|----------------------------------------------------------------------------------------------------|
-| <a id="UC14"></a>UC14                | Cancelar consulta ou exame                                                                  |
-| Descrição         | Permitir que o titular cancele um agendamento de consulta ou exame feito anteriormente pelo aplicativo. |
-| Ator              | Titular do plano de saúde                                                                           |
-| Pré-condições     | 1. Titular autenticado no aplicativo <br> 2. Existir um agendamento ativo para consulta ou exame <br> 3. Conexão com internet |
-| Ação              | Usuário acessa a lista de agendamentos, escolhe o atendimento que deseja cancelar e confirma a ação. |
-| Fluxo principal   | - Usuário acessa o aplicativo <br> - Entra na seção de agendamentos ativos <br> - Seleciona uma consulta ou exame <br> - Confirma o cancelamento <br> - Sistema remove o agendamento |
-| Fluxo alternativo | - Usuário visualiza detalhes mas não confirma o cancelamento <br> - Nenhuma alteração é feita |
-| Fluxo de exceção  | - Tentativa de cancelar um agendamento já expirado <br> - Falha de conexão com o servidor <br> - Exibe mensagem de erro ao usuário |
-| Pós-condições     | O atendimento é removido da agenda e o usuário visualiza a confirmação de cancelamento              |
-| Rastreabilidade   | RF05 [RF05](../../elicitacao/requisitos_finais.md#RF05)                                                                                               |
-| Data de criação   | 17/05/2025                                                                                          |
-
+| Campo | Descrição |
+| :--- | :--- |
+| UC28 | Agendar consulta ou exame |
+| Descrição | Permitir ao usuário agendar consultas e exames diretamente pelo aplicativo, com pagamento automático para prestadores da Rede de Atendimento. |
+| Ator | Beneficiário (Usuário do plano de saúde) |
+| Pré-condições | O usuário deve estar autenticado no sistema. |
+| Fluxo principal | 1. Usuário acessa a seção "Agendamentos".<br>2. Usuário seleciona a opção "Novo Agendamento".<br>3. O sistema solicita que o usuário busque por especialidade, profissional ou clínica.<br>4. O usuário realiza a busca e seleciona o profissional e o horário desejado.<br>5. O sistema exibe um resumo do agendamento (data, hora, profissional, local).<br>6. O sistema informa que o pagamento da coparticipação (se aplicável) será processado.<br>7. Usuário confirma os detalhes do agendamento.<br>8. O sistema processa o pagamento automático.<br>9. O sistema confirma o agendamento e envia uma notificação ao usuário. |
+| Fluxo alternativo | **A1. Horário tornou-se indisponível:**<br>- Se o horário selecionado for ocupado durante o processo, o sistema exibe a mensagem "Este horário não está mais disponível" e solicita que o usuário escolha um novo horário. |
+| Fluxo de exceção | **E1. Falha no processamento do pagamento:**<br>- Sistema exibe mensagem "Falha ao processar o pagamento. Verifique seus dados ou tente outro método.".<br>- O agendamento não é concluído.<br>**E2. Sessão expirada:**<br>- Sistema solicita novo login. |
+| Pós-condições | A consulta ou exame está agendada no sistema. O pagamento aplicável foi processado. |
+| Rastreabilidade | [RF05.1](../../elicitacao/requisitos_finais.md#RF05.1) |
+| Data de criação | 15/06/2025 |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
 
 ---
 
-### UC15 – Visualizar valor da consulta
+## UC13 – Cancelar Consulta ou Exame
+<p align="center">Tabela 15 - Caso de Uso 13</p>
 
-<p align="center">Tabela 17 - Caso de Uso 15 </p>
-
-| Campo             | Descrição                                                                                          |
-|-------------------|----------------------------------------------------------------------------------------------------|
-| <a id="UC15"></a>UC15                | Visualizar valor da consulta                                                                |
-| Descrição         | Permitir que o titular visualize o valor exato de uma consulta em uma clínica específica, considerando a aplicação automática de coparticipação. |
-| Ator              | Titular do plano de saúde                                                                           |
-| Pré-condições     | 1. Estar autenticado no aplicativo <br> 2. Ter plano de saúde ativo <br> 3. Conexão com internet     |
-| Ação              | O usuário navega até a aba de valores, seleciona uma clínica e visualiza o valor final com a coparticipação aplicada. |
-| Fluxo principal   | - Usuário acessa o aplicativo <br> - Vai até a seção de consultas <br> - Escolhe uma clínica específica <br> - Sistema exibe o valor bruto e o valor com coparticipação aplicada |
-| Fluxo alternativo | - Usuário apenas visualiza a lista de clínicas sem selecionar nenhuma <br> - Sistema exibe faixa de preço genérica |
-| Fluxo de exceção  | - Clínica não possui valor cadastrado <br> - Falha ao aplicar a coparticipação <br> - Sistema exibe mensagem de erro |
-| Pós-condições     | O usuário compreende o valor final que será cobrado no agendamento da consulta                     |
-| Rastreabilidade   | [RF06](../../elicitacao/requisitos_finais.md#RF06)                                                                                             |
-| Data de criação   | 17/05/2025                                                                                          |
-
+| Campo | Descrição |
+| :--- | :--- |
+| UC29 | Cancelar consulta ou exame |
+| Descrição | Permitir ao usuário cancelar uma consulta ou exame agendado diretamente pelo aplicativo, com o devido processamento de estorno de pagamento conforme as regras de negócio. |
+| Ator | Beneficiário (Usuário do plano de saúde) |
+| Pré-condições | O usuário deve estar autenticado no sistema e ter ao menos uma consulta ou exame futuro agendado. |
+| Fluxo principal | 1. Usuário acessa a seção "Meus Agendamentos".<br>2. O sistema exibe a lista de agendamentos futuros.<br>3. Usuário seleciona o agendamento que deseja cancelar.<br>4. O sistema exibe os detalhes do agendamento e a opção "Cancelar Agendamento".<br>5. Usuário confirma o cancelamento.<br>6. O sistema processa o cancelamento e o estorno do pagamento, se aplicável.<br>7. O sistema exibe a mensagem "Agendamento cancelado com sucesso.". |
+| Fluxo alternativo | **A1. Cancelamento sujeito a taxas:**<br>- O sistema informa que o cancelamento está sujeito a uma taxa de acordo com a política e pergunta se o usuário deseja continuar. |
+| Fluxo de exceção | **E1. Falha ao processar o estorno:**<br>- O sistema exibe a mensagem "O agendamento foi cancelado, mas houve um erro ao processar o estorno. Entre em contato com o suporte." |
+| Pós-condições | A consulta ou exame está com o status "Cancelado". O valor correspondente foi estornado, se aplicável. |
+| Rastreabilidade | [RF05.2](../../elicitacao/requisitos_finais.md#RF05.2) |
+| Data de criação | 15/06/2025 |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
 
 ---
 
-### UC16 – Gerar demonstrativo de IR
+## UC14 – Exibir Valor de Consulta em Clínica
+<p align="center">Tabela 16 - Caso de Uso 14</p>
 
-<p align="center">Tabela 18 - Caso de Uso 16 </p>
-
-| Campo             | Descrição             |
-|-------------------|----------------------------------------------------------------------------------------------------|
-| <a id="UC16"></a>UC16                | Gerar demonstrativo de IR                                                                   |
-| Descrição         | Permitir que o titular gere um demonstrativo com os dados de despesas médicas para fins de declaração do Imposto de Renda. |
-| Ator              | Titular do plano de saúde                                                                           |
-| Pré-condições     | 1. Titular autenticado <br> 2. Existência de despesas médicas registradas no sistema <br> 3. Conexão ativa com internet |
-| Ação              | O usuário seleciona o período desejado e solicita a geração do demonstrativo de IR.                |
-| Fluxo principal   | - Usuário acessa o aplicativo <br> - Entra na seção de impostos <br> - Seleciona o ano-base desejado <br> - Clica em “Gerar demonstrativo” <br> - Sistema processa os dados |
-| Fluxo alternativo | - Usuário seleciona o período, mas não finaliza a geração <br> - Nenhum arquivo é criado            |
-| Fluxo de exceção  | - Nenhuma despesa registrada no período <br> - Falha ao gerar o documento <br> - Sistema exibe mensagem de erro |
-| Pós-condições     | O demonstrativo é gerado e pode ser baixado pelo usuário em seguida                                |
-| Rastreabilidade   |  [RF06](../../elicitacao/requisitos_finais.md#RF06)                                                                                              |
-| Data de criação   | 17/05/2025                                                                                          |
-
+| Campo | Descrição |
+| :--- | :--- |
+| UC30 | Exibir Valor de Consulta em Clínica |
+| Descrição | Permitir ao usuário visualizar o valor específico de uma consulta ou procedimento em cada clínica disponível na rede. |
+| Ator | Beneficiário (Usuário do plano de saúde) |
+| Pré-condições | O usuário deve estar autenticado no sistema. |
+| Fluxo principal | 1. Usuário acessa a "Rede de Atendimento".<br>2. Usuário busca por uma especialidade ou procedimento.<br>3. O sistema exibe a lista de clínicas e profissionais que atendem ao critério.<br>4. Para cada resultado da lista, o sistema exibe o valor específico da consulta naquele local. |
+| Fluxo alternativo | **A1. Valor não informado:**<br>- Se uma clínica não disponibiliza o valor, o sistema exibe a mensagem "Valor a consultar". |
+| Fluxo de exceção | **E1. Falha ao carregar a rede:**<br>- O sistema exibe a mensagem "Erro ao carregar a rede de atendimento. Tente novamente." |
+| Pós-condições | O usuário visualizou os valores das consultas nas clínicas de seu interesse. |
+| Rastreabilidade | [RF06.1](../../elicitacao/requisitos_finais.md#RF06.1) |
+| Data de criação | 15/06/2025 |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
 
 ---
 
-### UC17 – Visualizar histórico de IR	
+## UC15 – Calcular e Exibir Valor da Coparticipação
+<p align="center">Tabela 17 - Caso de Uso 15</p>
 
-<p align="center">Tabela 19 - Caso de Uso 17 </p>
-
-| Campo             | Descrição                                                                                          |
-|-------------------|----------------------------------------------------------------------------------------------------|
-| <a id="UC17"></a>UC17                | Visualizar histórico de IR                                                                   |
-| Descrição         | Permitir que o titular consulte todos os demonstrativos de despesas médicas já gerados para declaração do Imposto de Renda. |
-| Ator              | Titular do plano de saúde                                                                           |
-| Pré-condições     | 1. Titular autenticado <br> 2. Existência de demonstrativos anteriores <br> 3. Conexão com internet |
-| Ação              | O usuário acessa a seção de histórico de IR e visualiza os demonstrativos disponíveis por ano.     |
-| Fluxo principal   | - Usuário acessa o aplicativo <br> - Entra na seção de histórico de IR <br> - Visualiza a lista de demonstrativos por ano <br> - Seleciona um deles para consulta |
-| Fluxo alternativo | - Nenhum demonstrativo é selecionado <br> - Tela permanece apenas com listagem                     |
-| Fluxo de exceção  | - Nenhum histórico encontrado <br> - Erro ao carregar dados <br> - Sistema exibe alerta ao usuário |
-| Pós-condições     | O demonstrativo consultado é exibido com detalhes ao usuário                                       |
-| Rastreabilidade   | [RF06](../../elicitacao/requisitos_finais.md#RF06)                                                                                              |
-| Data de criação   | 17/05/2025                                                                                          |
-
+| Campo | Descrição |
+| :--- | :--- |
+| UC31 | Calcular e Exibir Valor da Coparticipação |
+| Descrição | O sistema deve calcular e exibir o valor da coparticipação do beneficiário para cada consulta e procedimento médico realizado que esteja sujeito a este regime. |
+| Ator | Beneficiário (Usuário do plano de saúde) |
+| Pré-condições | O usuário deve estar autenticado e visualizando um procedimento sujeito a coparticipação. |
+| Fluxo principal | 1. O usuário seleciona um procedimento (ex: durante um agendamento).<br>2. O sistema identifica o procedimento e o plano do beneficiário.<br>3. O sistema acessa as regras de coparticipação do plano.<br>4. O sistema calcula o valor exato ou estimado da coparticipação.<br>5. O sistema exibe o valor calculado para o usuário de forma clara. |
+| Fluxo alternativo | **A1. Procedimento isento:**<br>- Se o procedimento for isento, o sistema exibe "Coparticipação: R$ 0,00" ou "Isento". |
+| Fluxo de exceção | **E1. Erro no cálculo:**<br>- O sistema exibe a mensagem "Não foi possível calcular a coparticipação. O valor será detalhado no seu extrato." |
+| Pós-condições | O usuário foi informado sobre o valor da sua coparticipação para um procedimento. |
+| Rastreabilidade | [RF06.2](../../elicitacao/requisitos_finais.md#RF06.2) |
+| Data de criação | 15/06/2025 |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
 
 ---
 
-### UC18 – Visualizar painel de metas
-<p align="center">Tabela 20 - Caso de Uso 18 </p>
+## UC16 – Gerar Demonstrativo de Despesas para IR
+<p align="center">Tabela 18 - Caso de Uso 16</p>
 
-| Campo             | Descrição                                                                                          |
-|-------------------|----------------------------------------------------------------------------------------------------|
-| <a id="UC18"></a>UC18                | Visualizar painel de metas                                                                  |
-| Descrição         | Permitir que o titular ou dependente acesse um painel com metas de saúde personalizadas, como exames periódicos ou consultas anuais. |
-| Ator              | Titular do plano de saúde, Dependente                                                              |
-| Pré-condições     | 1. Usuário autenticado <br> 2. Perfil de saúde configurado <br> 3. Metas cadastradas no sistema    |
-| Ação              | O usuário acessa a seção de metas e visualiza objetivos ativos, status de cumprimento e progresso gamificado. |
-| Fluxo principal   | - Usuário acessa o aplicativo <br> - Entra na área de metas <br> - Visualiza metas personalizadas <br> - Sistema exibe progresso com gamificação |
-| Fluxo alternativo | - Usuário acessa a seção, mas não possui metas registradas <br> - Sistema exibe mensagem de ausência de metas |
-| Fluxo de exceção  | - Falha ao carregar dados de metas <br> - Sistema exibe mensagem de erro ao usuário                |
-| Pós-condições     | O usuário pode acompanhar suas metas de saúde e é incentivado a cumpri-las                         |
-| Rastreabilidade   | [RF17](../../elicitacao/requisitos_finais.md#RF17)                                                                                              |
-| Data de criação   | 17/05/2025                                                                                          |
-
+| Campo | Descrição |
+| :--- | :--- |
+| UC32 | Gerar Demonstrativo de Despesas para Imposto de Renda |
+| Descrição | Permitir ao usuário gerar e baixar o demonstrativo consolidado de despesas médicas de um ano específico para a declaração de Imposto de Renda. |
+| Ator | Beneficiário (Usuário do plano de saúde) |
+| Pré-condições | O usuário deve estar autenticado no sistema. |
+| Fluxo principal | 1. Usuário acessa a seção "Financeiro" ou "Documentos".<br>2. Usuário seleciona a opção "Demonstrativo para Imposto de Renda".<br>3. O sistema solicita ao usuário que selecione o ano-calendário.<br>4. Usuário seleciona o ano e confirma.<br>5. O sistema compila as despesas e gera o documento em PDF.<br>6. O sistema disponibiliza o arquivo para download. |
+| Fluxo alternativo | **A1. Nenhuma despesa no período:**<br>- O sistema exibe a mensagem "Nenhuma despesa médica foi encontrada para o ano selecionado.". |
+| Fluxo de exceção | **E1. Erro na geração do documento:**<br>- O sistema exibe a mensagem "Ocorreu um erro ao gerar seu demonstrativo. Por favor, tente novamente." |
+| Pós-condições | O usuário obteve o arquivo com seu demonstrativo de despesas. |
+| Rastreabilidade | [RF06.3](../../elicitacao/requisitos_finais.md#RF06.3) |
+| Data de criação | 15/06/2025 |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
 
 ---
 
-### UC19 – Solicitar autorização
-<p align="center">Tabela 21 - Caso de Uso 19 </p>
+## UC17 – Consultar Histórico de Demonstrativos de IR
+<p align="center">Tabela 19 - Caso de Uso 17</p>
 
-| Campo             | Descrição                                                                                          |
-|-------------------|----------------------------------------------------------------------------------------------------|
-| <a id="UC19"></a>UC19                | Solicitar autorização                                                                       |
-| Descrição         | Permitir que o titular ou dependente solicite uma autorização prévia para a realização de procedimentos que exigem aprovação do plano. |
-| Ator              | Titular do plano de saúde, Dependente                                                              |
-| Pré-condições     | 1. Usuário autenticado <br> 2. Procedimento exige autorização <br> 3. Documentação necessária anexada |
-| Ação              | O usuário acessa a funcionalidade, preenche o formulário de solicitação e envia os documentos exigidos para análise. |
-| Fluxo principal   | - Usuário acessa o aplicativo <br> - Entra na seção de autorizações <br> - Preenche o formulário <br> - Anexa documentos <br> - Envia solicitação para análise |
-| Fluxo alternativo | - Usuário acessa a seção, mas não finaliza o envio <br> - Solicitação não é registrada             |
-| Fluxo de exceção  | - Documento obrigatório não anexado <br> - Falha no envio dos dados <br> - Sistema exibe mensagem de erro |
-| Pós-condições     | A solicitação é registrada no sistema e encaminhada para análise, respeitando o prazo máximo de 10 dias úteis |
-| Rastreabilidade   | [RNF08](../../elicitacao/requisitos_finais.md#RNF08)                                                                                             |
-| Data de criação   | 17/05/2025                                                                                          |
-
+| Campo | Descrição |
+| :--- | :--- |
+| UC33 | Consultar Histórico de Demonstrativos de IR |
+| Descrição | Permitir ao usuário visualizar e baixar demonstrativos de Imposto de Renda que foram gerados anteriormente. |
+| Ator | Beneficiário (Usuário do plano de saúde) |
+| Pré-condições | O usuário deve estar autenticado no sistema. |
+| Fluxo principal | 1. Usuário acessa a seção "Financeiro" ou "Documentos".<br>2. Usuário navega até a área "Histórico de Demonstrativos de IR".<br>3. O sistema exibe a lista de demonstrativos disponíveis, por ano.<br>4. Usuário seleciona um demonstrativo da lista para baixar. |
+| Fluxo alternativo | **A1. Histórico vazio:**<br>- O sistema exibe a mensagem "Nenhum demonstrativo foi gerado anteriormente.". |
+| Fluxo de exceção | **E1. Falha na recuperação do arquivo:**<br>- O sistema exibe a mensagem "Erro ao carregar o arquivo do demonstrativo." |
+| Pós-condições | O usuário visualizou seu histórico e/ou baixou um demonstrativo antigo. |
+| Rastreabilidade | [RF06.4](../../elicitacao/requisitos_finais.md#RF06.4) |
+| Data de criação | 15/06/2025 |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
 
 ---
 
-### UC20 – Verificar conformidade com LGPD
-<p align="center">Tabela 22 - Caso de Uso 20 </p>
+## UC18 – Consultar Extrato Financeiro
+<p align="center">Tabela 19 - Caso de Uso 18</p>
 
-| Campo             | Descrição                                                                                          |
-|-------------------|----------------------------------------------------------------------------------------------------|
-| <a id="UC20"></a>UC20                | Verificar conformidade com LGPD                                                             |
-| Descrição         | Garantir que o sistema esteja em conformidade com a Portaria nº 127/2024, legislações complementares e os princípios da LGPD durante o uso das funcionalidades que tratam dados pessoais. |
-| Ator              | Sistema                                                                                             |
-| Pré-condições     | 1. Ação do usuário envolve tratamento de dados pessoais <br> 2. Consentimento válido registrado    |
-| Ação              | O sistema valida automaticamente se os dados estão sendo processados conforme as políticas da LGPD e as normas vigentes antes de executar operações sensíveis. |
-| Fluxo principal   | - Usuário inicia uma ação (ex: agendamento, geração de documento) <br> - Sistema verifica conformidade com as normas <br> - Caso positivo, a ação prossegue |
-| Fluxo alternativo | - Consentimento expirado ou ausente <br> - Sistema bloqueia operação e solicita aceite atualizado |
-| Fluxo de exceção  | - Violação detectada na política de privacidade <br> - Sistema registra ocorrência e nega a operação |
-| Pós-condições     | O sistema garante que as operações executadas seguem as exigências legais e mantém rastreamento das ações realizadas |
-| Rastreabilidade   | [RNF07](../../elicitacao/requisitos_finais.md#RNF07)                                                                                               |
-| Data de criação   | 17/05/2025                                                                                          |
+| Campo | Descrição |
+| :--- | :--- |
+| UC34 | Consultar Extrato Financeiro |
+| Descrição | Permitir ao usuário consultar seu extrato financeiro detalhado e atualizado diariamente. |
+| Ator | Beneficiário (Usuário do plano de saúde) |
+| Pré-condições | O usuário deve estar autenticado no sistema. |
+| Fluxo principal | 1. Usuário acessa a seção "Financeiro".<br>2. O sistema exibe o extrato, com as transações mais recentes primeiro.<br>3. Cada item exibe data, descrição da transação e valor.<br>4. O usuário pode aplicar filtros para buscar transações. |
+| Fluxo alternativo | **A1. Nenhuma transação no período:**<br>- O sistema exibe a mensagem "Nenhuma transação encontrada para o período selecionado.". |
+| Fluxo de exceção | **E1. Falha ao carregar o extrato:**<br>- Sistema exibe mensagem "Erro ao carregar o extrato financeiro." |
+| Pós-condições | O usuário visualizou suas movimentações financeiras. |
+| Rastreabilidade | [RF06.5](../../elicitacao/requisitos_finais.md#RF06.5) |
+| Data de criação | 15/06/2025 |
+
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
 
-<p align="center">Tabela 23 - Caso de Uso 21 </p>
+---
+
+## UC19 – Visualizar Painel de Metas de Saúde
+<p align="center">Tabela 20 - Caso de Uso 19</p>
+
+| Campo | Descrição |
+| :--- | :--- |
+| UC35 | Visualizar Painel de Metas de Saúde |
+| Descrição | Exibir um painel personalizado com metas de saúde e gamificação para incentivar o acompanhamento. |
+| Ator | Beneficiário (Usuário do plano de saúde) |
+| Pré-condições | O usuário deve estar autenticado no sistema. |
+| Fluxo principal | 1. Usuário acessa a seção "Minha Saúde" ou "Painel de Metas".<br>2. O sistema exibe o painel de metas personalizadas.<br>3. O painel mostra as metas, o progresso e elementos de gamificação (pontos, emblemas).<br>4. Usuário pode clicar em uma meta para ver detalhes ou agendar o procedimento correspondente. |
+| Fluxo alternativo | **A1. Usuário sem metas definidas:**<br>- O sistema exibe uma mensagem de boas-vindas e incentiva a configuração das primeiras metas. |
+| Fluxo de exceção | **E1. Falha ao carregar o painel de metas:**<br>- O sistema exibe a mensagem "Não foi possível carregar suas metas de saúde." |
+| Pós-condições | O usuário visualizou seu progresso em relação às suas metas de saúde. |
+| Rastreabilidade | [RF17](../../elicitacao/requisitos_finais.md#RF17) |
+| Data de criação | 15/06/2025 |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
+---
 
 ###  UC21 – Cadastrar titulares, dependentes e optantes
 | Campo | Descrição |
