@@ -15,10 +15,10 @@ A tabela a seguir apresenta todos os integrantes da equipe e suas respectivas co
 | [Matheus de Alcântara](https://github.com/matheusdealcantara) | Criou os léxicos referentes aos requisitos: [RF09.1](../../elicitacao/requisitos_finais.md#RF09.1), [RF09.2](../../elicitacao/requisitos_finais.md#RF09.2), [RF09.3](../../elicitacao/requisitos_finais.md#RF09.3), [RF09.4](../../elicitacao/requisitos_finais.md#RF09.4), [RF10](../../elicitacao/requisitos_finais.md#RF10), [RF20](../../elicitacao/requisitos_finais.md#RF20), [RNF11](../../elicitacao/requisitos_finais.md#RNF11) e [RNF12](../../elicitacao/requisitos_finais.md#RNF12). Elaborou o documento inicial e contribuiu na organização geral do material que estava na plataforma <a href="https://stackedit.io/app#">StackEdit</a>. Por fim, em dupla com o [Isaque Camargos](https://github.com/isaqzin) fez introdução, metodoliga, deixou os lexicos com hyperlinks entre si. |
 | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | Desenvolveu léxicos para os requisitos [RF01](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF01), [RF02](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF02), [RF21](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF21), [RNF01](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF01), [RNF02](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF02) e [RNF03](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF03) |
 | [Lucas Alves](https://github.com/LucasAlves71) | Elaborou os léxicos dos requisitos [RF07](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF07), [RF08](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF08), [RF16](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF16), [RF18](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF18), [RNF09](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF09) e [RNF10](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF10). Descreveu a metodologia da elaboração dos léxicos |
-| [Kaleb Macedo](https://github.com/kalebmacedo) | Responsável pelos léxicos dos requisitos [RF05](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF05), [RF06](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF06), [RF17](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF17), [RNF07](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF07) e [RNF08](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF08) |
+| [Kaleb Macedo](https://github.com/kalebmacedo) | Responsável pelos léxicos dos requisitos [RF05](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF05), [RF06](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF06), [RF17](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF17), [RNF07](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF07) e [RNF08](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF08). Adicionou léxicos para os requisitos refinados [RNF05.1](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF5.1), [RNF05.2](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF05.2), [RNF06.](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF06.1) ao [RNF06.5](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF06.5) e [RNF17](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF17). |
 | [Othavio Bolzan](https://github.com/bolzanMGB) | Desenvolveu léxicos para os requisitos [RF11](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF11), [RF12](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF12), [RNF13](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF13) e [RNF14](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF14) |
 | [Yzabella Miranda](https://github.com/redjsun) | Elaborou léxicos dos requisitos [RNF15](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF15), [RNF16](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF16), [RF13](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF13), [RF14](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF14) e [RF15](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF15) |
-| [Isaque Camargos](https://github.com/isaqzin) | Adicionou a quais  lexicos os requsitos  [RF04.1](../../elicitacao/requisitos_finais.md#RF04.1), [RF04.2](../../elicitacao/requisitos_finais.md#RF04.2), [RF04.3](../../elicitacao/requisitos_finais.md#RF04.3), [RF04.4](../../elicitacao/requisitos_finais.md#RF04.4), [RF04.5](../../elicitacao/requisitos_finais.md#RF04.5), [RF04.6](../../elicitacao/requisitos_finais.md#RF04.6), [RF04.7](../../elicitacao/requisitos_finais.md#RF04.7), [RF04.8](../../elicitacao/requisitos_finais.md#RF04.8), [RF04.9](../../elicitacao/requisitos_finais.md#RF04.9),  [RF03](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF03) e [RF19](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF19)se relacionavam. Contribuiu na organização do material que estava na plataforma <a href="https://stackedit.io/app#">StackEdit</a>. Por fim, em dupla com o [Matheus de Alcântara](https://github.com/matheusdealcantara) fez introdução, metodoliga, deixou os lexicos com hyperlinks entre si. |
+| [Isaque Camargos](https://github.com/isaqzin) | Adicionou a quais lexicos os requsitos [RF04.1](../../elicitacao/requisitos_finais.md#RF04.1), [RF04.2](../../elicitacao/requisitos_finais.md#RF04.2), [RF04.3](../../elicitacao/requisitos_finais.md#RF04.3), [RF04.4](../../elicitacao/requisitos_finais.md#RF04.4), [RF04.5](../../elicitacao/requisitos_finais.md#RF04.5), [RF04.6](../../elicitacao/requisitos_finais.md#RF04.6), [RF04.7](../../elicitacao/requisitos_finais.md#RF04.7), [RF04.8](../../elicitacao/requisitos_finais.md#RF04.8), [RF04.9](../../elicitacao/requisitos_finais.md#RF04.9), [RF03](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF03) e [RF19](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF19)se relacionavam. Contribuiu na organização do material que estava na plataforma <a href="https://stackedit.io/app#">StackEdit</a>. Por fim, em dupla com o [Matheus de Alcântara](https://github.com/matheusdealcantara) fez introdução, metodoliga, deixou os lexicos com hyperlinks entre si. |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a> e <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
 
@@ -716,6 +716,102 @@ O termo "Solicitar Reembolso" refere-se à ação de enviar uma requisição for
 | Solicitar Reembolso | Verbo | Pedir ressarcimento | Ação de enviar uma requisição formal ao sistema para análise e possível devolução de valores de coparticipação cobrados indevidamente. | Inicia o processo de [reembolso](./lexicos.md/#reembolso) para análise e eventual correção financeira a favor do usuário. | [RF20](../../elicitacao/requisitos_finais.md#RF20) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
+
+---
+
+## Léxico 43: <a id="agendamento_pagamento_auto"></a>Agendamento com Pagamento Automático
+
+**Requisitos relacionados:** RF05.1, RF05.2
+
+O termo refere-se ao processo completo de agendamento que inclui a transação financeira automática.
+
+<p align="center">Tabela 43: Léxico - Agendamento com Pagamento Automático</p>
+
+| Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
+| --- | --- | --- | --- | --- | --- |
+| Agendamento com Pagamento Automático | Objeto | - | Processo de reserva de consulta/exame que inclui cobrança automática ao prestador da rede | Simplifica o processo para o usuário e garante pagamento imediato ao prestador | RF05.1, RF05.2 |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
+---
+
+## Léxico 44: <a id="valor_consulta"></a>Valor de Consulta
+
+**Requisitos relacionados:** RF06.1
+
+O termo refere-se ao preço específico cobrado por cada clínica.
+
+<p align="center">Tabela 44: Léxico - Valor de Consulta</p>
+
+| Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
+| --- | --- | --- | --- | --- | --- |
+| Valor de Consulta | Objeto | Preço, Custo | Valor específico cobrado por cada clínica para diferentes tipos de consulta | Permite comparação de preços e planejamento financeiro | RF06.1 |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
+---
+
+## Léxico 45: <a id="calculo_coparticipacao"></a>Cálculo de Coparticipação
+
+**Requisitos relacionados:** RF06.2
+
+O termo refere-se ao processo automático de determinação da parte do valor que cabe ao beneficiário.
+
+<p align="center">Tabela 45: Léxico - Cálculo de Coparticipação</p>
+
+| Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
+| --- | --- | --- | --- | --- | --- |
+| Cálculo de Coparticipação | Verbo | - | Processo automático que determina a parte do valor que cabe ao beneficiário | Garante transparência nos custos compartilhados | RF06.2 |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
+---
+
+## Léxico 46: <a id="demonstrativo_ir"></a>Demonstrativo de IR
+
+**Requisitos relacionados:** RF06.3, RF06.4
+
+O termo refere-se ao documento fiscal para declaração de impostos.
+
+<p align="center">Tabela 46: Léxico - Demonstrativo de IR</p>
+
+| Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
+| --- | --- | --- | --- | --- | --- |
+| Demonstrativo de IR | Objeto | Comprovante fiscal | Documento que comprova despesas médicas para declaração do imposto de renda | Facilita a declaração anual de impostos | RF06.3, RF06.4 |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
+---
+
+## Léxico 47: <a id="extrato_financeiro"></a>Extrato Financeiro
+
+**Requisitos relacionados:** RF06.5
+
+O termo refere-se ao relatório financeiro atualizado diariamente.
+
+<p align="center">Tabela 47: Léxico - Extrato Financeiro</p>
+
+| Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
+| --- | --- | --- | --- | --- | --- |
+| Extrato Financeiro | Objeto | Histórico financeiro | Relatório atualizado diariamente com todas as transações financeiras relacionadas ao plano | Permite acompanhamento de gastos e pagamentos | RF06.5 |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
+---
+
+## Léxico 48: <a id="painel_metas_saude"></a>Painel de Metas de Saúde
+
+**Requisitos relacionados:** RF17
+
+O termo refere-se à interface gamificada de acompanhamento de metas de saúde.
+
+<p align="center">Tabela 48: Léxico - Painel de Metas de Saúde</p>
+
+| Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
+| --- | --- | --- | --- | --- | --- |
+| Painel de Metas de Saúde | Objeto | Dashboard de saúde | Interface que exibe metas personalizadas com elementos de gamificação | Incentiva o acompanhamento preventivo da saúde | RF17 |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
 
 ## Referência Bibliográfica
 
