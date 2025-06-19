@@ -103,7 +103,7 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 <p align="center">Figura 3 - Caso de uso UC13 a UC20 </p>
 <p align="center">
-  <img src="..\..\assets\casos-uso\casos-uso-kaleb.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
+  <img src="..\..\assets\casos-uso\casos-uso-kaleb-rf.png" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo" target="_blank">Kaleb Macedo</a></p>
