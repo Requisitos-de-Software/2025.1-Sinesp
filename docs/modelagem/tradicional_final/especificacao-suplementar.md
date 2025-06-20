@@ -99,7 +99,7 @@ Este tópico lista os requisitos que garantem que a interação do usuário com 
     <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF01">RNF01</a></td><td>A interface deve ser intuitiva, clara e adaptada para idosos/pessoas com baixa familiaridade tecnológica.</td></tr>
     <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF06">RNF06</a></td><td>O aplicativo deve ser compatível com leitores de tela para garantir acessibilidade a pessoas com deficiência visual.</td></tr>
     <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF10">RNF10</a></td><td>As informações críticas para o usuário, como a carteirinha digital, devem estar acessíveis em até 3 cliques, sendo recomendado no máximo 2 cliques a partir da tela inicial do aplicativo.</td></tr>
-    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF12">RNF12</a></td><td>O aplicativo deve oferecer suporte por chat ou telefone.</td></tr>
+    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF12">RNF12</a></td><td>O aplicativo deve disponibilizar uma funcionalidade de chat com um atendente em até 2 cliques a partir da tela inicial e mostrar um número de telefone para suporte.</td></tr>
     <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF14">RNF14</a></td><td>O layout deve ser consistente com o portal oficial do plano.</td></tr>
     <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF16">RNF16</a></td><td>O sistema deve ser acessível em Português.</td></tr>
   </tbody>
@@ -128,7 +128,8 @@ Esta seção trata da estabilidade e segurança dadas pelo sistema, bem como sua
    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF04">RNF04</a></td><td>Manter o sistema disponível 24/7 para autorizações de urgência/emergência e apresentar alta disponibilidade (mínimo de 99% uptime).</td></tr>
     <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF07">RNF07</a></td><td>Garantir conformidade com a Portaria nº 127/2024, legislações complementares e padrões da LGPD.</td></tr>
     <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF09">RNF09</a></td><td>O sistema deve garantir comunicação segura e periódica com a folha de pagamento do GDF para processar descontos de mensalidades dos titulares, com mecanismos de verificação para garantir a integridade e consistência dos valores deco.</td></tr>
-    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF13">RNF13</a></td><td>Funciona offline para carteirinha e histórico.</td</tr>
+    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF11">RNF11</a></td><td>O sistema deve armazenar e permitir o acesso ao histórico de notificações do usuário por no mínimo 180 dias.</td></tr>
+    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF13">RNF13</a></td><td>Funciona offline para carteirinha e histórico.</td></tr>
     <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF15">RNF15</a></td><td>Autenticação via GovBR.</td></tr>
   </tbody>
 </table>
@@ -198,3 +199,4 @@ BRASIL. Ministério da Ciência, Tecnologia e Inovações. **Especificação Sup
 | 1.5 | 18/05/2025 | Adição das especificações relacionadas aos RNF04, RNF06 | [Isaque Camargos](https://github.com/isaqzin)  | [Lucas Alves](https://github.com/)|
 | 1.6 | 18/05/2025 | Adição das especificações relacionadas aos RNF11, RNF12 | [Matheus de Alcântara](https://github.com/matheusdealcantara)  | [Lucas Alves](https://github.com/)|
 | 1.7 | 18/05/2025 | Adição das especificações relacionadas aos RNF13, RNF14 | [Othavio Bolzan](https://github.com/bolzanMG)  | [Lucas Alves](https://github.com/)|
+| 1.8 | 19/06/2025 | Alterações finais para os requisitos RNF11 e RNF12 para a nova versão deixando-os testáveis | [Matheus de Alcântara](https://github.com/matheusdealcantara)  | [Kaleb Macedo](https://github.com/kalebmacedo)|
