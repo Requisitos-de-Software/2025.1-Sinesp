@@ -130,7 +130,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 
 <p align="center">Figura 7 - Caso de uso UC32 a UC34 </p>
 <p align="center">
-  <img src="..\..\assets\casos-uso\casos-uso-othavio.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
+  <img src="..\..\assets\casos-uso\casos-de-uso-othavio.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a></p>

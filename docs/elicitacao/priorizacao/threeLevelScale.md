@@ -1,76 +1,150 @@
-# Resultados da Verificação por Inspeção - Three Level Scale
+# Three Level Scale
 
 ## Introdução
 
 Este documento descreve o objetivo da verificação, a metodologia aplicada e os dados coletados durante a análise do artefato Three Level Scale.
 
----
 
-## Metodologia
-Os resultados da verificação do artefato foram obtidos com base na lista de verificação elaborada na etapa de planejamento. Para responder às questões dessa lista, o avaliador Gustavo Freitas utilizou as opções de prioridade Baixa, Média e Alta, conforme definido pelos participantes [Yzabella Miranda Pimenta](https://github.com/redjsun) e [Othavio Araujo Bolzan](https://github.com/bolzanMGB).  Os resultados foram organizados de acordo com os identificadores das respectivas funcionalidades, sendo que cada item possui sua prioridade específica. Esses dados estão apresentados na Tabela 1: Resultados Three Level Scale abaixo.
 
 ---
 
-## Resultados Three Level Scale - tabela 1
 
-<div style="display: flex; justify-content: center;">
-  <table border="1" cellspacing="0" cellpadding="5">
-    <thead>
-      <tr>
-        <th>ID</th>
-        <th>Funcionalidade</th>
-        <th>Prioridade</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>RF01</td><td>Permitir ao usuário pesquisar e filtrar clínicas e profissionais credenciados por especialidade, região administrativa, tipo de atendimento e proximidade.</td><td>ALTA</td></tr>
-      <tr><td>RF02</td><td>Disponibilizar sistema de avaliação de clínicas com notas e comentários.</td><td>MÉDIA</td></tr>
-      <tr><td>RF03</td><td>Exibir carteirinha digital mesmo sem conexão (modo offline) e permitir acesso rápido e estável.</td><td>ALTA</td></tr>
-      <tr><td>RF04</td><td>Enviar notificações configuráveis via app, SMS ou e-mail sobre vencimento de fatura, retornos médicos pendentes, abertura de agenda, cancelamentos de horários, horários favoritos disponíveis, prazos importantes, confirmações ou alterações de agendamento e disponibilidade de demonstrativos de IR.</td><td>ALTA</td></tr>
-      <tr><td>RF05</td><td>Permitir agendamento e cancelamento de consultas e exames diretamente pelo aplicativo, com pagamento automático para prestadores da Rede de Atendimento.</td><td>ALTA</td></tr>
-      <tr><td>RF06</td><td>Exibir valor específico de consulta em cada clínica, aplicar percentuais de coparticipação, gerar e baixar demonstrativos de despesas médicas para imposto de renda, consultar histórico de demonstrativos de IR e mostrar extrato financeiro atualizado diariamente.</td><td>MÉDIA</td></tr>
-      <tr><td>RF07</td><td>Permitir cadastro de titulares, dependentes e optantes com validação de documentos e elegibilidade.</td><td>MÉDIA</td></tr>
-      <tr><td>RF08</td><td>Verificar se procedimentos estão na TABGDFSAÚDE, atendem às DUT, estão sujeitos a carência ou são excluídos, exigindo solicitação médica e análise técnica para autorizações prévias.</td><td>ALTA</td></tr>
-      <tr><td>RF09</td><td>Permitir ao usuário visualizar histórico de consultas, exames realizados, resultados de exames laboratoriais e coparticipações.</td><td>ALTA</td></tr>
-      <tr><td>RF10</td><td>Permitir que o usuário favorite horários de consulta desejados.</td><td>BAIXA</td></tr>
-      <tr><td>RF11</td><td>Oferecer um canal para o usuário enviar feedback sobre atendimentos.</td><td>MÉDIA</td></tr>
-      <tr><td>RF12</td><td>Divulgar informações sobre novas funcionalidades no aplicativo.</td><td>BAIXA</td></tr>
-      <tr><td>RF13</td><td>Adicionar consulta à rede odontológica.</td><td>MÉDIA</td></tr>
-      <tr><td>RF14</td><td>Apresentar novas clínicas e clínicas próximas de acordo com a localização do usuário.</td><td>ALTA</td></tr>
-      <tr><td>RF15</td><td>Permitir baixar comprovantes de agendamento.</td><td>MÉDIA</td></tr>
-      <tr><td>RNF01</td><td>A interface deve ser intuitiva, clara, adaptada para idosos e pessoas com baixa familiaridade tecnológica, organizada em categorias e responsiva em smartphones Android e iOS.</td><td>ALTA</td></tr>
-      <tr><td>RNF02</td><td>Garantir carregamento rápido e fluído de todas as telas, com tempo de resposta das ações não ultrapassando 2 segundos.</td><td>MÉDIA</td></tr>
-      <tr><td>RNF03</td><td>Assegurar segurança no acesso e armazenamento de dados pessoais, criptografar dados sensíveis conforme LGPD, incluir autenticação em dois fatores e ser transparente quanto ao uso e segurança dos dados.</td><td>ALTA</td></tr>
-      <tr><td>RNF04</td><td>Manter o sistema disponível 24/7 para autorizações de urgência/emergência e apresentar alta disponibilidade (mínimo de 99% uptime).</td><td>ALTA</td></tr>
-      <tr><td>RNF05</td><td>O sistema deve ser compatível com diferentes versões do Android e iOS, a partir das versões mais utilizadas no mercado.</td><td>MÉDIA</td></tr>
-      <tr><td>RNF06</td><td>O aplicativo deve ser compatível com leitores de tela para garantir acessibilidade a pessoas com deficiência visual.</td><td>MÉDIA</td></tr>
-      <tr><td>RNF07</td><td>Garantir conformidade com a Portaria nº 127/2024, legislações complementares e padrões da LGPD.</td><td>ALTA</td></tr>
-      <tr><td>RNF08</td><td>Processar autorizações prévias em até 10 dias úteis.</td><td>MÉDIA</td></tr>
-      <tr><td>RNF09</td><td>Comunicar-se com a folha de pagamento do GDF para descontos de mensalidades.</td><td>BAIXA</td></tr>
-      <tr><td>RNF10</td><td>Garantir que informações críticas, como a carteirinha digital, estejam acessíveis em até três cliques ou com no máximo 2 cliques a partir da tela inicial.</td><td>MÉDIA</td></tr>
-      <tr><td>RNF11</td><td>Manter histórico de notificações acessível ao usuário por no mínimo 6 meses.</td><td>MÉDIA</td></tr>
-      <tr><td>RNF12</td><td>O aplicativo deve oferecer suporte por chat ou telefone.</td><td>ALTA</td></tr>
-      <tr><td>RNF13</td><td>Deve funcionar de forma offline para acesso à carteirinha e histórico de consultas.</td><td>ALTA</td></tr>
-      <tr><td>RNF14</td><td>O layout deve ser consistente com o portal oficial do plano.</td><td>BAIXA</td></tr>
-      <tr><td>RNF15</td><td>O sistema deve exigir autenticação via GovBR para login.</td><td>BAIXA</td></tr>
-      <tr><td>RNF16</td><td>As informações exibidas devem ser claras, completas e atualizadas em tempo real.</td><td>ALTA</td></tr>
-    </tbody>
-  </table>
+## Integrantes do Grupo
+
+Na tabela 1 contêm todos os integrantes da equipe que participaram da priorização e o que a pessoa desenvolveu durante o projeto.
+
+<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+
+<div align="center">
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Quais etapas participou</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://github.com/Ana-Luiza-SC" target="_blank">Ana Luiza Soares</a></td>
+                <td>Participou da priorização prensencial.</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
+                <td>Participou da priorização prensencial.</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a></td>
+                <td> Fez a documentação do arquivo e participou da priorização prensencial.</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></td>
+                <td>Participou da priorização prensencial.</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 
-<font size="3"><p style="text-align: center">Tabela 1: Resultados Three Level Scale.</p></font>
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> </p>
+
+---
+## Metodologia
+Os resultados da verificação do artefato foram obtidos após um processo iterativo de priorização. Inicialmente, foram testadas duas abordagens:
+
+1. **Priorização com Personas:** Método descartado por não atender aos requisitos de validação com usuários reais.
+
+2. **Priorização Online:** Realizada remotamente, mas invalidada devido à exigência de interação presencial para maior confiabilidade dos resultados.
+
+A **versão final** adotada foi a **priorização presencial**, conduzida pelos integrantes [Ana Luiza Soares](https://github.com/Ana-Luiza-SC), [Matheus de Alcântara](https://github.com/matheusdealcantara), [Othavio Bolzan](https://github.com/bolzanMGB), [Yzabella Miranda](https://github.com/redjsun) e **Gustavo Freitas** (usuário real que validou as pontuações) utilizando a escala Three Level Scale (Baixa, Média, Alta).
+
+Os critérios foram definidos em consenso durante a atividade presencial, e os resultados foram organizados por identificadores de funcionalidades, conforme apresentado na Tabela 2: Resultados Three Level Scale.
+
+---
+
+## Usuários reais envolvidos
+
+A Tabela 1 contêm as informações do usuário participante da Priorização, com o nome, informações sobre a gravação realizada e sua postagem no Youtube de forma não listada.
+
+<p align="center">Tabela 1: Usuários reais</p>
+
+<div align="center">
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Data</th>
+                <th>Hora</th>
+                <th>Duração da etapa</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gustavo Freitas</td>
+                <td>10/06/2025</td>
+                <td>13:00</td>
+                <td>6m 37s</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> </p>
+
+--- 
+
+## Tabela de priorização
+
+<p align="center">Tabela 2: Three Level  Scale</p>
+
+
+  
+  | id    | funcionalidades                                                                                                       | prioridade |
+|-------|-----------------------------------------------------------------------------------------------------------------------|------------|
+| RF01  | Permitir ao usuário pesquisar e filtrar clínicas e profissionais credenciados por especialidade, região administrativa, tipo de atendimento e proximidade. | ALTA       |
+| RF02  | Disponibilizar sistema de avaliação de clínicas com notas e comentários.                                              | MÉDIA      |
+| RF03  | Exibir carteirinha digital mesmo sem conexão (modo offline) e permitir acesso rápido e estável.                       | ALTA       |
+| RF04  | Enviar notificações configuráveis via app, SMS ou e-mail sobre vencimento de fatura, retornos médicos pendentes, abertura de agenda, cancelamentos de horários, horários favoritos disponíveis, prazos importantes, confirmações ou alterações de agendamento e disponibilidade de demonstrativos de IR. | ALTA       |
+| RF05  | Permitir agendamento e cancelamento de consultas e exames diretamente pelo aplicativo, com pagamento automático para prestadores da Rede de Atendimento. | ALTA       |
+| RF06  | Exibir valor específico de consulta em cada clínica, aplicar percentuais de coparticipação, gerar e baixar demonstrativos de despesas médicas para imposto de renda, consultar histórico de demonstrativos de IR e mostrar extrato financeiro atualizado diariamente. | MÉDIA      |
+| RF07  | Permitir cadastro de titulares, dependentes e optantes com validação de documentos e elegibilidade.                    | MÉDIA      |
+| RF08  | Verificar se procedimentos estão na TABGDFSAÚDE, atendem às DUT, estão sujeitos a carência ou são excluídos, exigindo solicitação médica e análise técnica para autorizações prévias. | ALTA       |
+| RF09  | Permitir ao usuário visualizar histórico de consultas, exames realizados, resultados de exames laboratoriais e coparticipações. | ALTA       |
+| RF10  | Permitir que o usuário favorite horários de consulta desejados.                                                       | BAIXA      |
+| RF11  | Oferecer um canal para o usuário enviar feedback sobre atendimentos.                                                  | MÉDIA      |
+| RF12  | Divulgar informações sobre novas funcionalidades no aplicativo.                                                       | BAIXA      |
+| RF13  | Adicionar consulta à rede odontológica.                                                                               | MÉDIA      |
+| RF14  | Apresentar novas clínicas e clínicas próximas de acordo com a localização do usuário.                                 | ALTA       |
+| RF15  | Permitir baixar comprovantes de agendamento.                                                                          | MÉDIA      |
+| RNF01 | A interface deve ser intuitiva, clara, adaptada para idosos e pessoas com baixa familiaridade tecnológica, organizada em categorias e responsiva em smartphones Android e iOS. | ALTA       |
+| RNF02 | Garantir carregamento rápido e fluído de todas as telas, com tempo de resposta das ações não ultrapassando 2 segundos. | MÉDIA      |
+| RNF03 | Assegurar segurança no acesso e armazenamento de dados pessoais, criptografar dados sensíveis conforme LGPD, incluir autenticação em dois fatores e ser transparente quanto ao uso e segurança dos dados. | ALTA       |
+| RNF04 | Manter o sistema disponível 24/7 para autorizações de urgência/emergência e apresentar alta disponibilidade (mínimo de 99% uptime). | ALTA       |
+| RNF05 | O sistema deve ser compatível com diferentes versões do Android e iOS, a partir das versões mais utilizadas no mercado. | MÉDIA      |
+| RNF06 | O aplicativo deve ser compatível com leitores de tela para garantir acessibilidade a pessoas com deficiência visual.  | MÉDIA      |
+| RNF07 | Garantir conformidade com a Portaria nº 127/2024, legislações complementares e padrões da LGPD.                       | ALTA       |
+| RNF08 | Processar autorizações prévias em até 10 dias úteis.                                                                  | MÉDIA      |
+| RNF09 | Comunicar-se com a folha de pagamento do GDF para descontos de mensalidades.                                          | BAIXA      |
+| RNF10 | Garantir que informações críticas, como a carteirinha digital, estejam acessíveis em até três cliques ou com no máximo 2 cliques a partir da tela inicial. | MÉDIA      |
+| RNF11 | Manter histórico de notificações acessível ao usuário por no mínimo 6 meses.                                          | MÉDIA      |
+| RNF12 | O aplicativo deve oferecer suporte por chat ou telefone.                                                              | ALTA       |
+| RNF13 | Deve funcionar de forma offline para acesso à carteirinha e histórico de consultas.                                    | ALTA       |
+| RNF14 | O layout deve ser consistente com o portal oficial do plano.                                                           | BAIXA      |
+| RNF15 | O sistema deve exigir autenticação via GovBR para login.                                                              | BAIXA      |
+| RNF16 | As informações exibidas devem ser claras, completas e atualizadas em tempo real.                                       | ALTA       |
+
+
 <font size="3"><p style="text-align: center">Fonte: [Othavio Bolzan](https://github.com/bolzanMGB) e [Yzabella Pimenta](https://github.com/redjsun) .</p></font>
 
 ---
 
-## Gravação da Inspeção
-A inspeção e o preenchimento da lista foram gravados e podem ser vistos no Vídeo 1.
-
-<div style="display: flex; justify-content: center;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/S1TjgL_gzeQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+## Gravação da Priorização
+A priorização e o preenchimento da lista foram gravados e podem ser vistos no Vídeo 1.
 
 <font size="3"><p style="text-align: center">Vídeo 1: Gravação da inspeção do artefato Three Level Scale.</p></font>
+
+
+<div style="display: flex; justify-content: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=AmDLnh4qbeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 
 ---
@@ -80,3 +154,4 @@ A inspeção e o preenchimento da lista foram gravados e podem ser vistos no Ví
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |--------|------|-----------|-----------|-------------|
 | 1.0 | 04/05/2025 | Criação do documento e adição dos resultados | [Yzabella Miranda Pimenta](https://github.com/redjsun) e [Othavio Bolzan](https://github.com/bolzanMGB) | [Kaleb Macedo](https://github.com/kalebmacedo) |
+| 2.0 | 20/06/2025 | Alteração com a priorização com os usuários reais| <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a>, <a href="https://github.com/redjsun">Yzabella Miranda</a>, <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a>  e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> </p>| [Kaleb Macedo](https://github.com/kalebmacedo) |
