@@ -45,7 +45,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
             </tr>
             <tr>
                 <td><a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a></td>
-                <td>Criou os cenários  referentes aos requisitos:: RF11, RF12.1, RF12.2, RF12.3, RF12.4, RF12.5 e RF12.</td>
+                <td>Criou os cenários  referentes aos requisitos:: RF11, RF12.1, RF12.2, RF12.3, RF12.4, RF12.5 e RF12.6.</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></td>
@@ -125,13 +125,11 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC" target="_blank">Ana Luiza Soares</a></p>
 
 ---
-
-
-### Cenário 41: Pesquisa de Profissionais da Saúde
+### Cenário 2: Pesquisa de Profissionais da Saúde
 
 **Requisito Associado:** [RF01.2](../../../elicitacao/requisitos_finais/#RF01.2) - O usuário poderá pesquisar profissionais da saúde (médicos, psicólogos etc.) por meio de filtros de busca.
 
-<p align="center">Tabela 43 - Cenário 41</p>
+<p align="center">Tabela 4 - Cenário 2</p>
 
 | Elemento | Descrição |
 | :--- | :--- |
@@ -149,11 +147,11 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 42: Combinação de Filtros de Pesquisa
+### Cenário 3: Combinação de Filtros de Pesquisa
 
 **Requisito Associado:** [RF01.3](../../../elicitacao/requisitos_finais/#RF01.3) - Será possível combinar filtros de pesquisa (por ex. “região administrativa + especialidade”).
 
-<p align="center">Tabela 44 - Cenário 42</p>
+<p align="center">Tabela 5 - Cenário 3</p>
 
 | Elemento | Descrição |
 | :--- | :--- |
@@ -171,11 +169,11 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 43: Busca por Proximidade
+### Cenário 4: Busca por Proximidade
 
 **Requisito Associado:** [RF01.4](../../../elicitacao/requisitos_finais/#RF01.4) - O filtro de pesquisa deve permitir buscas por proximidade do usuário (distância em até 10 km).
 
-<p align="center">Tabela 45 - Cenário 43</p>
+<p align="center">Tabela 6 - Cenário 4</p>
 
 | Elemento | Descrição |
 | :--- | :--- |
@@ -193,11 +191,12 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 44: Busca por Especialidade Médica
+
+### Cenário 5: Busca por Especialidade Médica
 
 **Requisito Associado:** [RF01.5](../../../elicitacao/requisitos_finais/#RF01.5) - O Filtro permite busca pela especialidade médica.
 
-<p align="center">Tabela 46 - Cenário 44</p>
+<p align="center">Tabela 7 - Cenário 5</p>
 
 | Elemento | Descrição |
 | :--- | :--- |
@@ -215,11 +214,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-
-### Cenário 2: Avaliação de Atendimento com escala de 1 a 5 
+### Cenário 6: Avaliação de Atendimento com escala de 1 a 5 
 **Requisito Associado:** [RF02.1](../../../elicitacao/requisitos_finais/#RF02.1)  
 
-<p align="center">Tabela 4 - Cenário 2 </p>
+<p align="center">Tabela 8 - Cenário 6 </p>
 
 | Elemento | Descrição |
 | :--- | :--- |
@@ -238,11 +236,12 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 45: Leitura e Publicação de Comentários
+
+### Cenário 7: Leitura e Publicação de Comentários
 
 **Requisito Associado:** [RF02.2](../../../elicitacao/requisitos_finais/#RF02.2) - O usuário poderá deixar e/ou ler comentários sobre atendimentos em clínicas ou com profissionais específicos.
 
-<p align="center">Tabela 47 - Cenário 45</p>
+<p align="center">Tabela 9 - Cenário 7</p>
 
 | Elemento | Descrição |
 | :--- | :--- |
@@ -260,11 +259,13 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 46: Classificação de Relevância dos Comentários
+
+### Cenário 8: Classificação de Relevância dos Comentários
 
 **Requisito Associado:** [RF02.3](../../../elicitacao/requisitos_finais/#RF02.2) - O sistema classificará comentários como “relevantes” ou “não relevantes” automaticamente com base em palavras-chave e upvotes de outros usuários.
 
-<p align="center">Tabela 48 - Cenário 46</p>
+<p align="center">Tabela 10 - Cenário 8</p>
+
 
 | Elemento | Descrição |
 | :--- | :--- |
@@ -282,11 +283,13 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 47: Ordenação por Nota Média de Atendimento
+
+### Cenário 9: Ordenação por Nota Média de Atendimento
 
 **Requisito Associado:** [RF02.4](../../../elicitacao/requisitos_finais/#RF02.2) - O sistema ordenará clínicas por nota média de atendimento, do maior para o menor.
 
-<p align="center">Tabela 49 - Cenário 47</p>
+<p align="center">Tabela 11 - Cenário 9</p>
+
 
 | Elemento | Descrição |
 | :--- | :--- |
@@ -305,10 +308,11 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 ---
 
 
-### Cenário 3: Acesso à carteirinha digital sem conexão à internet  
+### Cenário 10: Acesso à carteirinha digital sem conexão à internet  
+
 **Requisito Associado:** [RF03](../../../elicitacao/requisitos_finais/#RF03)  
 
-<p align="center">Tabela 5 - Cenário 3</p>
+<p align="center">Tabela 12 - Cenário 10</p>
 
 | Elemento        | Descrição                                                                                                                                                                                                                                          |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -322,13 +326,14 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 | **Restrições**      | Depende de download prévio e espaço suficiente no dispositivo.                                                                                                                                                                                       |
 | **Episódios**       | 1. Usuário faz login no GDF Saúde.<br>2. Navega até “Carteirinha” e baixa o arquivo (se necessário).<br>3. Sai do app e abre a galeria de fotos.<br>4. Localiza e visualiza a carteirinha offline.                                                  |
 
-<p align="center">Fonte: Autoria de <a href="https://github.com/redjsun">Yzabella Miranda</a></p>
+<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
 ---
-### Cenário x: Configuração de preferências de notificação pelo usuário  
+
+### Cenário 11: Configuração de preferências de notificação pelo usuário  
 **Requisito Associado:** [RF04.1](../../elicitacao/requisitos_finais.md#RF04.1)  e [RF04.9](../../elicitacao/requisitos_finais.md#RF04.9)
 
-<p align="center">Tabela x - Cenário x</p>
+<p align="center">Tabela 13 - Cenário 11</p>
 
 | Elemento        | Descrição|
 |-----------------|--------------------------------------------------------|
@@ -346,10 +351,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário X: Envio de notificação sobre demonstrativo de IR e vencimento de fatura  
+### Cenário 12: Envio de notificação sobre demonstrativo de IR e vencimento de fatura  
 **Requisito Associado:** [RF04.1](../../elicitacao/requisitos_finais.md#RF04.1)  e [RF04.9](../../elicitacao/requisitos_finais.md#RF04.9)
 
-<p align="center">Tabela X - Cenário X</p>
+<p align="center">Tabela 14 - Cenário 12</p>
 
 | Elemento        | Descrição|
 |-----------------|----------------------------------------------------|
@@ -367,9 +372,11 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-## Cenário x: Agendar Consulta Médica pelo AplicativoAdd commentMore actions
+### Cenário 13: Agendar Consulta Médica pelo AplicativoAdd commentMore actions
 
 **Requisito Associado:** [RF05.1](../../elicitacao/requisitos_finais.md#RF05.1)
+
+<p align="center">Tabela 15 - Cenário 13</p>
 
 | Elemento | Descrição |
 |---|---|
@@ -386,9 +393,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-## Cenário x: Cancelar um Agendamento de Consulta
+### Cenário 14: Cancelar um Agendamento de Consulta
 
 **Requisito Associado:** [RF05.2](../../elicitacao/requisitos_finais.md#RF05.2)
+<p align="center">Tabela 16 - Cenário 14</p>
 
 | Elemento | Descrição |
 |---|---|
@@ -405,9 +413,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-## Cenário x: Verificar Preço de Consulta Antes de Agendar
+### Cenário 15: Verificar Preço de Consulta Antes de Agendar
 
 **Requisito Associado:** [RF06.1](../../elicitacao/requisitos_finais.md#RF06.1)
+<p align="center">Tabela 17 - Cenário 15</p>
 
 | Elemento | Descrição |
 |---|---|
@@ -424,9 +433,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-## Cenário x: Simular Custo de Coparticipação
+### Cenário 16: Simular Custo de Coparticipação
 
 **Requisito Associado:** [RF06.2](../../elicitacao/requisitos_finais.md#RF06.2)
+<p align="center">Tabela 18 - Cenário 16</p>
 
 | Elemento | Descrição |
 |---|---|
@@ -443,9 +453,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-## Cenário x: Emitir Demonstrativo para Imposto de Renda
+### Cenário 17: Emitir Demonstrativo para Imposto de Renda
 
 **Requisito Associado:** [RF06.3](../../elicitacao/requisitos_finais.md#RF06.3)
+<p align="center">Tabela 19 - Cenário 17</p>
 
 | Elemento | Descrição |
 |---|---|
@@ -462,9 +473,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-## Cenário x: Acessar Demonstrativos de Anos Anteriores
+### Cenário 18: Acessar Demonstrativos de Anos Anteriores
 
 **Requisito Associado:** [RF06.4](../../elicitacao/requisitos_finais.md#RF06.4)
+<p align="center">Tabela 20 - Cenário 18</p>
 
 | Elemento | Descrição |
 |---|---|
@@ -481,9 +493,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-## Cenário x: Conferir Despesas no Extrato Financeiro
+### Cenário 19: Conferir Despesas no Extrato Financeiro
 
 **Requisito Associado:** [RF06.5](../../elicitacao/requisitos_finais.md#RF06.5)
+<p align="center">Tabela 21 - Cenário 19</p>
 
 | Elemento | Descrição |
 |---|---|
@@ -500,9 +513,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-## Cenário x: Acompanhar Metas de Saúde Preventiva
+### Cenário 20: Acompanhar Metas de Saúde Preventiva
 
 **Requisito Associado:** [RF17](../../elicitacao/requisitos_finais.md#RF17)
+<p align="center">Tabela 22 - Cenário 20</p>
 
 | Elemento | Descrição |
 |---|---|
@@ -519,9 +533,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-## Cenário x: Cadastrar Titular no Sistema
+### Cenário 21: Cadastrar Titular no Sistema
 
 **Requisito Associado:** [RF07.1](../../elicitacao/requisitos_finais.md#RF07.1)
+<p align="center">Tabela 23 - Cenário 21</p>
 
 | Elemento | Descrição |
 |---|---|
@@ -538,9 +553,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-## Cenário x: Cadastrar Dependente Vinculado ao Titular
+### Cenário 22: Cadastrar Dependente Vinculado ao Titular
 
 **Requisito Associado:** [RF07.2](../../elicitacao/requisitos_finais.md#RF07.2)
+<p align="center">Tabela 24 - Cenário 22</p>
 
 | Elemento | Descrição |
 |---|---|
@@ -557,9 +573,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-## Cenário x: Cadastrar Optante no Sistema
+### Cenário 23: Cadastrar Optante no Sistema
 
 **Requisito Associado:** [RF07.3](../../elicitacao/requisitos_finais.md#RF07.3)
+<p align="center">Tabela 25 - Cenário 23</p>
 
 | Elemento | Descrição |
 |---|---|
@@ -576,9 +593,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-## Cenário x: Validar Documentos no Cadastro
+### Cenário 24: Validar Documentos no Cadastro
 
 **Requisito Associado:** [RF07.4](../../elicitacao/requisitos_finais.md#RF07.4)
+<p align="center">Tabela 26 - Cenário 24</p>
 
 | Elemento | Descrição |
 |---|---|
@@ -595,9 +613,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-## Cenário x: Verificar Elegibilidade no Cadastro
+### Cenário 25: Verificar Elegibilidade no Cadastro
 
 **Requisito Associado:** [RF07.5](../../elicitacao/requisitos_finais.md#RF07.5)
+<p align="center">Tabela 27 - Cenário 25</p>
 
 | Elemento | Descrição |
 |---|---|
@@ -614,9 +633,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-## Cenário x: Verificar Procedimentos para Autorização
+### Cenário 26: Verificar Procedimentos para Autorização
 
 **Requisito Associado:** [RF08](../../elicitacao/requisitos_finais.md#RF08)
+<p align="center">Tabela 28 - Cenário 26</p>
 
 | Elemento | Descrição |
 |---|---|
@@ -633,11 +653,11 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 9: Visualizar Histórico de Consultas Realizadas
+### Cenário 27: Visualizar Histórico de Consultas Realizadas
 
-<p align="center">Tabela 11 - Cenário 9</p>
 
 **Requisito Associado:** [RF09.1](../../elicitacao/requisitos_finais.md#RF09.1)
+<p align="center">Tabela 29 - Cenário 27</p>
 
 | Elemento        | Descrição |
 |-----------------|-----------|
@@ -655,11 +675,12 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário X: Visualizar Histórico de Exames Realizados
+### Cenário 28: Visualizar Histórico de Exames Realizados
 
-<p align="center">Tabela X - Cenário X</p>
+
 
 **Requisito Associado:** [RF09.2](../../elicitacao/requisitos_finais.md#RF09.2)
+<p align="center">Tabela 30 - Cenário 28</p>
 
 | Elemento        | Descrição |
 |-----------------|-----------|
@@ -677,11 +698,11 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário X: Visualizar Resultados de Exames Laboratoriais
+### Cenário 29: Visualizar Resultados de Exames Laboratoriais
 
-<p align="center">Tabela X - Cenário X</p>
 
 **Requisito Associado:** [RF09.3](../../elicitacao/requisitos_finais.md#RF09.3)
+<p align="center">Tabela 31 - Cenário 29</p>
 
 | Elemento        | Descrição |
 |-----------------|-----------|
@@ -699,11 +720,12 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário X: Visualizar Histórico de Coparticipações
+### Cenário 30: Visualizar Histórico de Coparticipações
 
-<p align="center">Tabela X - Cenário X</p>
+
 
 **Requisito Associado:** [RF09.4](../../elicitacao/requisitos_finais.md#RF09.4)
+<p align="center">Tabela 32 - Cenário 30</p>
 
 | Elemento        | Descrição |
 |-----------------|-----------|
@@ -721,10 +743,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 10: Favoritar Horários de Consulta  
+### Cenário 31: Favoritar Horários de Consulta  
 **Requisito Associado:** [RF10](../../../elicitacao/requisitos_finais/#RF10)  
 
-<p align="center">Tabela 12 - Cenário 10</p>
+<p align="center">Tabela 33 - Cenário 31</p>
 
 | Elemento        | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -742,10 +764,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 11: Canal para o usuário enviar feedback sobre atendimentos  
+### Cenário 32: Canal para o usuário enviar feedback sobre atendimentos  
 **Requisito Associado:** [RF11](../../../elicitacao/requisitos_finais/#RF11)  
 
-<p align="center">Tabela 13 - Cenário 11</p>
+<p align="center">Tabela 34 - Cenário 32</p>
 
 | Elemento        | Descrição                                                                                                                                                                                                                                                               |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -764,8 +786,9 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 12 – Apresentar uma Seção no Menu Principal Chamada "Novidades"
+### Cenário 33: Apresentar uma Seção no Menu Principal Chamada "Novidades"
 **Requisito Associado:** [RF12.1](../../../elicitacao/requisitos_finais/#RF12.1)  
+<p align="center">Tabela 35 - Cenário 33</p>
 
 | Elemento        | Descrição |
 |-----------------|-----------|
@@ -783,8 +806,9 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 13 – Exibir Lista de Funcionalidades com Título, Descrição e Data
+### Cenário 34: Exibir Lista de Funcionalidades com Título, Descrição e Data
 **Requisito Associado:** [RF12.2](../../../elicitacao/requisitos_finais/#RF12.2)  
+<p align="center">Tabela 36 - Cenário 34</p>
 
 | Elemento        | Descrição |
 |-----------------|-----------|
@@ -803,8 +827,9 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 14 – Destacar Funcionalidades com Marcador "Novo"
+### Cenário 35: Destacar Funcionalidades com Marcador "Novo"
 **Requisito Associado:** [RF12.3](../../../elicitacao/requisitos_finais/#RF12.3)  
+<p align="center">Tabela 37 - Cenário 35</p>
 
 | Elemento        | Descrição |
 |-----------------|-----------|
@@ -822,8 +847,9 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 15 – Exibir Pop-ups Informativos com as Principais Novidades
+### Cenário 36: Exibir Pop-ups Informativos com as Principais Novidades
 **Requisito Associado:** [RF12.4](../../../elicitacao/requisitos_finais/#RF12.4)  
+<p align="center">Tabela 38 - Cenário 36</p>
 
 | Elemento        | Descrição |
 |-----------------|-----------|
@@ -841,8 +867,9 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-## Cenário 16 – Ver Descrição Detalhada ao Tocar na Funcionalidade
+## Cenário 37: Ver Descrição Detalhada ao Tocar na Funcionalidade
 **Requisito Associado:** [RF12.5](../../../elicitacao/requisitos_finais/#RF12.5)  
+<p align="center">Tabela 39 - Cenário 37</p>
 
 
 | Elemento        | Descrição |
@@ -861,10 +888,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 17: Ordenar Novidades por Mais Recente ou Mais Antigo  
+### Cenário 38: Ordenar Novidades por Mais Recente ou Mais Antigo  
 **Requisito Associado:** [RF12.6](../../../elicitacao/requisitos_finais/#RF12.6)  
 
-<p align="center">Tabela x - Cenário x</p>
+<p align="center">Tabela 40 - Cenário 38</p>
 
 | Elemento        | Descrição |
 |-----------------|-----------|
@@ -882,73 +909,99 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 13: Adicionar consulta à rede odontológica  
-**Requisito Associado:** [RF13](../../../elicitacao/requisitos_finais/#RF13)  
+### Cenário 39: Buscar Clínicas Odontológicas
 
-<p align="center">Tabela 15 - Cenário 13</p>
+**Requisito Associado:** [RF13](../../elicitacao/requisitos_finais/#RF13)
 
-| Elemento        | Descrição                                                                                                                                                                                                                                          |
-|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE">CE</a>  |
-| **Título** <a id="CE13"></a>          | Consulta integrada à rede odontológica pública                                                                                                                                                                                                      |
-| **Metas/Objetivos** | Permitir que usuários busquem e agendem consultas em unidades odontológicas públicas via aplicativo, com informações atualizadas da rede de saúde governamental.                                                                                     |
-| **Contexto**        | Usuário acessa app GDF Saúde, escolhe “Rede Odontológica”, visualiza clínicas parceiras, horários e vagas em tempo real e agenda o atendimento.                                                                                                       |
-| **Ator(es)**        | - Usuário do GDF Saúde<br>- Unidades odontológicas parceiras<br>- Equipe de integração de dados do INAS                                                                                                      |
-| **Recursos**        | - Integração com base de dados da rede odontológica pública<br>- Mapa interativo com geolocalização<br>- Sistema de sincronização em tempo real<br>- Filtros (procedimento, localidade, disponibilidade)                                                |
-| **Exceções**        | - Informações de vagas ou horários desatualizadas<br>- Falha na integração com a rede odontológica<br>- Erro na exibição do mapa ou filtros                                                                                                         |
-| **Restrições**      | - Dados das clínicas devem ser validados diariamente<br>- Atualizações de vagas a cada 15 minutos                                                                                                                                                    |
-| **Episódios**       | 1. Usuário acessa “Rede Odontológica”.<br>2. Sistema solicita localização ou usuário insere manualmente.<br>3. Exibe lista/mapa de clínicas e horários disponíveis.<br>4. Usuário filtra e agenda consulta.<br>5. Recebe confirmação via notificação. |
+<p align="center">Tabela 41 - Cenário 39</p>
 
-<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
-
----
-
-### Cenário 14: Apresentar novas clínicas e clínicas próximas  
-**Requisito Associado:** [RF14](../../../elicitacao/requisitos_finais/#RF14)  
-
-<p align="center">Tabela 16 - Cenário 14</p>
-
-| Elemento        | Descrição                                                                                                                                                                                                  |
-|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE14">CE14</a>  |
-| **Título**          | Apresentar clínicas novas e próximas da localização do usuário                                                                                                                                              |
-| **Metas/Objetivos** | Permitir ao usuário descobrir facilmente novas clínicas cadastradas e clínicas próximas com base em sua localização atual.                                                                                   |
-| **Contexto**        | Usuário abre app com GPS ativo; sistema identifica localização e lista clínicas próximas, destacando novas unidades cadastradas na plataforma.                                                              |
-| **Ator(es)**        | - Usuário do GDF Saúde<br>- Sistema de geolocalização do dispositivo<br>- Servidores de GDF Saúde responsáveis pela gestão de clínicas                                                                      |
-| **Recursos**        | - Acesso à localização do dispositivo<br>- Banco de dados de clínicas e coordenadas geográficas<br>- Interface de listagem e mapa                                                                            |
-| **Exceções**        | - Permissão de localização negada<br>- GPS desativado<br>- Falha ao acessar banco de dados remoto                                                                                                           |
-| **Restrições**      | - Depende de permissão de geolocalização<br>- Lista deve ser atualizada periodicamente e exibida de forma clara e acessível                                                                                  |
-| **Episódios**       | 1. Usuário abre app com GPS ativo.<br>2. Sistema solicita permissão de localização (se necessário).<br>3. Exibe lista e mapa de clínicas próximas e novas unidades.                                         |
+| Elemento | Descrição |
+|---|---|
+|**ID**| <a id="CE36.1">CE36.1</a> |
+| **Título** | Consulta à Rede Odontológica por Filtros |
+| **Metas/Objetivos** | Permitir que o usuário encontre clínicas odontológicas cadastradas de forma eficiente, aplicando critérios de busca específicos. |
+| **Contexto** | O usuário, já logado no aplicativo via GovBR, deseja encontrar uma clínica odontológica que atenda às suas necessidades, utilizando filtros como especialidade ou bairro. |
+| **Ator(es)** | - Usuário autenticado |
+| **Recursos** | - Aplicativo GDF Saúde<br>- Banco de dados da rede odontológica<br>- Ferramenta de filtragem de busca |
+| **Exceções** | - Nenhum resultado encontrado para os filtros aplicados<br>- Falha na conexão com o servidor de dados |
+| **Restrições** | - A funcionalidade só está disponível para usuários autenticados.<br>- Os dados das clínicas devem estar atualizados. |
+| **Episódios** | 1. Usuário acessa "Buscar rede odontológica".<br>2. Usuário insere filtros de pesquisa (ex.: "Odontopediatria", "Asa Sul").<br>3. Sistema processa os filtros e consulta o banco de dados.<br>4. Sistema exibe uma lista de clínicas odontológicas que correspondem aos critérios.<br>5. (Fluxo Alternativo) Se não houver resultados, o sistema sugere ampliar os critérios de busca.<br>6. (Fluxo de Exceção) Em caso de falha na conexão, o sistema notifica "Tente novamente mais tarde". |
 
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
 ---
 
-### Cenário 15: Permitir baixar comprovantes de agendamento  
-**Requisito Associado:** [RF15](../../../elicitacao/requisitos_finais/#RF15)  
+### Cenário 40: Visualizar Novas Clínicas Próximas
 
-<p align="center">Tabela 17 - Cenário 15</p>
+**Requisito Associado:** [RF14.1](../../elicitacao/requisitos_finais/#RF14.1)
 
-| Elemento        | Descrição                                                                                                                                                                                                                      |
-|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE15">CE15</a>  |
-| **Título**         | Download de comprovantes de agendamento                                                                                                                                                                                       |
-| **Metas/Objetivos** | Permitir que o usuário baixe comprovantes de agendamento em formato digital (PDF), garantindo autenticidade e segurança com QR code de validação.                                                                              |
-| **Contexto**        | Após agendar uma consulta, o usuário acessa “Meus Agendamentos” e solicita geração de comprovante; o sistema gera PDF criptografado com QR code e oferece opção de download.                                                    |
-| **Ator(es)**        | - Usuário do GDF Saúde<br>- Sistema de geração de documentos do INAS<br>- Serviço de armazenamento seguro de arquivos                                                                                                           |
-| **Recursos**        | - Gerador de PDF com dados do agendamento e QR code<br>- Armazenamento em nuvem com criptografia<br>- Componente de download integrado ao app                                                                                        |
-| **Exceções**        | - Falha ao gerar o comprovante (dados incompletos)<br>- Download não inicia por conexão instável<br>- QR code inválido ou não reconhecido pelo sistema da clínica                                                                   |
-| **Restrições**      | - Comprovantes devem conter assinatura digital<br>- Dados sensíveis (ex.: CPF) devem ser mascarados no arquivo                                                                                                                   |
-| **Episódios**       | 1. Usuário faz login e acessa “Meus Agendamentos”.<br>2. Seleciona atendimento e clica “Gerar Comprovante”.<br>3. Sistema gera PDF com QR code.<br>4. Usuário baixa ou compartilha o comprovante via e-mail/app. |
+<p align="center">Tabela 42 - Cenário 40</p>
+
+| Elemento | Descrição |
+|---|---|
+|**ID**| <a id="CE37.1">CE37.1</a> |
+| **Título** | Descoberta de Novas Clínicas na Proximidade |
+| **Metas/Objetivos** | Apresentar ao usuário as clínicas recém-cadastradas que estão próximas à sua localização atual, ou a um endereço especificado. |
+| **Contexto** | O usuário, logado no sistema e com permissão de geolocalização, busca por novas unidades de saúde que foram adicionadas recentemente em sua região. |
+| **Ator(es)** | - Usuário autenticado<br>- Sistema de geolocalização |
+| **Recursos** | - Aplicativo GDF Saúde<br>- Serviço de geolocalização do dispositivo<br>- Banco de dados de clínicas com registro de data de cadastro |
+| **Exceções** | - Falha na detecção automática de localização<br>- Geolocalização desativada no dispositivo<br>- Nenhuma nova clínica encontrada na proximidade |
+| **Restrições** | - Requer permissão de geolocalização do usuário.<br>- A identificação de "nova clínica" deve ser baseada em um critério de tempo definido. |
+| **Episódios** | 1. Usuário acessa a opção "Novas Unidades de Saúde Próximas".<br>2. Sistema tenta detectar a localização automática do usuário.<br>3. (Fluxo Alternativo) Se a detecção automática falhar, o sistema solicita que o usuário insira o endereço manualmente.<br>4. Sistema consulta o banco de dados para identificar novas clínicas na proximidade da localização (automática ou manual).<br>5. (Fluxo de Exceção) Se a geolocalização estiver desativada, o sistema solicita a ativação ou a entrada manual do endereço.<br>6. Sistema exibe uma lista de novas clínicas encontradas, ordenadas por proximidade. |
 
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
 ---
 
-### Cenário 16: Visualizar calendário personalizado com informações do plano  
+### Cenário 41: Visualizar Clínicas Próximas
+
+**Requisito Associado:** [RF14.2](../../elicitacao/requisitos_finais/#RF14.2)
+
+<p align="center">Tabela 43 - Cenário 41</p>
+
+| Elemento | Descrição |
+|---|---|
+|**ID**| <a id="CE38.1">CE38.1</a> |
+| **Título** | Busca e Exibição de Clínicas Existentes Próximas |
+| **Metas/Objetivos** | Fornecer ao usuário uma lista de clínicas de saúde existentes próximas à sua localização, facilitando o acesso a serviços. |
+| **Contexto** | O usuário, logado e com permissão de geolocalização, deseja visualizar as unidades de saúde já cadastradas que estão mais próximas a ele, ou a um endereço especificado. |
+| **Ator(es)** | - Usuário autenticado<br>- Sistema de geolocalização |
+| **Recursos** | - Aplicativo GDF Saúde<br>- Serviço de geolocalização do dispositivo<br>- Banco de dados de clínicas cadastradas |
+| **Exceções** | - Falha na detecção automática de localização<br>- Geolocalização desativada no dispositivo<br>- Nenhuma clínica encontrada na proximidade |
+| **Restrições** | - Requer permissão de geolocalização do usuário.<br>- A lista de clínicas deve ser abrangente e atualizada. |
+| **Episódios** | 1. Usuário acessa a opção "Buscar Unidades de Saúde Próximas".<br>2. Sistema tenta detectar a localização automática do usuário.<br>3. (Fluxo Alternativo) Se a detecção automática falhar, o sistema solicita que o usuário insira o endereço manualmente.<br>4. Sistema consulta o banco de dados para identificar clínicas na proximidade da localização (automática ou manual).<br>5. (Fluxo de Exceção) Se a geolocalização estiver desativada, o sistema solicita a ativação ou a entrada manual do endereço.<br>6. Sistema exibe uma lista de clínicas encontradas, ordenadas por proximidade. |
+
+<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
+
+---
+
+### Cenário 42: Baixar Comprovante de Agendamento
+
+**Requisito Associado:** [RF15](../../elicitacao/requisitos_finais/#RF15)
+
+<p align="center">Tabela 44 - Cenário 42</p>
+
+| Elemento | Descrição |
+|---|---|
+|**ID**| <a id="CE39.1">CE39.1</a> |
+| **Título** | Download do Comprovante de Agendamento |
+| **Metas/Objetivos** | Permitir que o usuário baixe o comprovante em PDF de um agendamento confirmado para fins de registro ou apresentação. |
+| **Contexto** | O usuário, logado e com um agendamento ativo e confirmado, precisa obter o comprovante desse agendamento. |
+| **Ator(es)** | - Usuário autenticado |
+| **Recursos** | - Aplicativo GDF Saúde<br>- Módulo de gerenciamento de agendamentos<br>- Gerador de PDF |
+| **Exceções** | - Agendamento não encontrado ou expirado<br>- Falha na geração do PDF<br>- Falha no servidor |
+| **Restrições** | - O download só é permitido para agendamentos confirmados e não expirados.<br>- O comprovante deve ser gerado no formato PDF. |
+| **Episódios** | 1. Usuário acessa a área "Comprovantes de agendamento".<br>2. Sistema exibe a lista de agendamentos do usuário.<br>3. Usuário seleciona o agendamento desejado para baixar o comprovante.<br>4. Usuário clica no botão "Baixar".<br>5. Sistema gera o comprovante em formato PDF e inicia o download para o dispositivo do usuário.<br>6. (Fluxo Alternativo) Se o agendamento não for encontrado ou estiver expirado, o sistema notifica "Agendamento não encontrado".<br>7. (Fluxo de Exceção) Em caso de falha no servidor durante a geração ou download, o sistema exibe uma mensagem de erro. |
+
+<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
+
+---
+
+
+### Cenário 43: Visualizar calendário personalizado com informações do plano  
 **Requisito Associado:** [RF16](../../../elicitacao/requisitos_finais/#RF16)  
 
-<p align="center">Tabela 18 - Cenário 16</p>
+<p align="center">Tabela 45 - Cenário 43</p>
 
 | Elemento        | Descrição                                                                                                          |
 |-----------------|------------------------------------------------------------------------------------------------------------------|
@@ -966,10 +1019,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 17: Visualizar painel de metas com gamificação  
+### Cenário 44: Visualizar painel de metas com gamificação  
 **Requisito Associado:** [RF17](../../../elicitacao/requisitos_finais/#RF17)  
 
-<p align="center">Tabela 19 - Cenário 17</p>
+<p align="center">Tabela 46 - Cenário 44</p>
 
 | Elemento        | Descrição                                                                                         |
 |-----------------|-------------------------------------------------------------------------------------------------|
@@ -987,10 +1040,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 18: Registrar denúncia contra profissional da rede credenciada  
+### Cenário 45: Registrar denúncia contra profissional da rede credenciada  
 **Requisito Associado:** [RF18](../../../elicitacao/requisitos_finais/#RF18)  
 
-<p align="center">Tabela 20 - Cenário 18</p>
+<p align="center">Tabela 47 - Cenário 45</p>
 
 | Elemento        | Descrição                                                                                              |
 |-----------------|------------------------------------------------------------------------------------------------------|
@@ -1008,10 +1061,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 19: Login por biometria facial ou digital  
+### Cenário 46: Login por biometria facial ou digital  
 **Requisito Associado:** [RF19](../../../elicitacao/requisitos_finais/#RF19)  
 
-<p align="center">Tabela 21 - Cenário 19</p>
+<p align="center">Tabela 48 - Cenário 46</p>
 
 | Elemento        | Descrição                                                                                                                                                                                                                                                                                                             |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1029,10 +1082,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 20: Solicitação de Reembolso de Cobrança Indevida  
+### Cenário 47: Solicitação de Reembolso de Cobrança Indevida  
 **Requisito Associado:** [RF20](../../../elicitacao/requisitos_finais/#RF20)  
 
-<p align="center">Tabela 22 - Cenário 20</p>
+<p align="center">Tabela 49 - Cenário 47</p>
 
 | Elemento        | Descrição                                                                                                                              |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------|
@@ -1050,11 +1103,11 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 21: Chatbot para Direcionamento Médico
+### Cenário 48: Chatbot para Direcionamento Médico
   
 **Requisito Associado:** [RF21](../../../elicitacao/requisitos_finais/#RF21)  
 
-<p align="center">Tabela 23 - Cenário 21 </p>
+<p align="center">Tabela 50 - Cenário 48 </p>
 
 | Elemento        | Descrição                                                                                                                                                                                                                                 |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1073,179 +1126,10 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 28: Garantir conformidade legal e proteção de dados  
-**Requisito Associado:** [RNF07](../../../elicitacao/requisitos_finais/#RNF07)  
-
-<p align="center">Tabela 30 - Cenário 28</p>
-
-| Elemento        | Descrição                                                                                          |
-|-----------------|--------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE28">CE28</a>  |
-| **Título**          | Garantir conformidade legal e proteção de dados                                                   |
-| **Metas/Objetivos** | Assegurar que o sistema opere em conformidade com a Portaria nº 127/2024, legislações complementares e LGPD. |
-| **Contexto**        | O sistema armazena e processa dados pessoais sensíveis de usuários, devendo respeitar normas e consentimentos legais. |
-| **Ator(es)**        | - Desenvolvedor<br>- Administrador do sistema<br>- Órgãos reguladores                               |
-| **Recursos**        | - Políticas de privacidade<br>- Logs de acesso<br>- Criptografia de dados<br>- Módulo de consentimento de uso |
-| **Exceções**        | - Falhas de segurança detectadas<br>- Coleta de dados sem consentimento válido                      |
-| **Restrições**      | - Uso restrito de dados sensíveis<br>- Validações legais obrigatórias antes de qualquer processamento |
-| **Episódios**       | 1. Sistema solicita consentimento ao usuário.<br>2. Registra logs de acesso.<br>3. Criptografa dados sensíveis e monitora conformidade. |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
-
----
-
-### Cenário 29: Processar autorizações prévias dentro do prazo legal  
-**Requisito Associado:** [RNF08](../../../elicitacao/requisitos_finais/#RNF08)  
-
-<p align="center">Tabela 31 - Cenário 29</p>
-
-| Elemento        | Descrição                                                                                   |
-|-----------------|-------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE29">CE29</a>  |
-| **Título**           | Processar autorizações prévias dentro do prazo legal                                       |
-| **Metas/Objetivos** | Garantir que autorizações para procedimentos sejam analisadas em até 10 dias úteis.        |
-| **Contexto**        | O usuário solicita uma autorização via aplicativo para um procedimento médico.             |
-| **Ator(es)**        | - Usuário<br>- Sistema de Autorização<br>- Equipe de Análise Médica                         |
-| **Recursos**        | - Formulário digital de solicitação<br>- Base de procedimentos<br>- Fluxo de trabalho de autorização |
-| **Exceções**        | - Solicitação incompleta<br>- Falta de documentos obrigatórios                              |
-| **Restrições**      | - Contagem de prazo apenas em dias úteis<br>- Anexos obrigatórios antes da análise          |
-| **Episódios**       | 1. Usuário preenche solicitação.<br>2. Sistema verifica preenchimento.<br>3. Encaminha para equipe médica.<br>4. Resposta é enviada em até 10 dias úteis. |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
-
----
-
-### Cenário 30: Comunicar-se com a folha de pagamento do GDF para aplicar descontos  
-**Requisito Associado:** [RNF09](../../../elicitacao/requisitos_finais/#RNF09)  
-
-<p align="center">Tabela 32 - Cenário 30</p>
-
-| Elemento        | Descrição                                                                                       |
-|-----------------|-----------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE30">CE30</a>  |
-| **Título**         | Comunicar-se com a folha de pagamento do GDF para aplicar descontos                             |
-| **Metas/Objetivos** | Garantir que o valor das mensalidades seja corretamente descontado na folha de pagamento.       |
-| **Contexto**        | Após cadastro do titular, o sistema envia informações à folha de pagamento do GDF.              |
-| **Ator(es)**        | - Sistema do Plano de Saúde<br>- Sistema da Folha de Pagamento do GDF<br>- Usuário              |
-| **Recursos**        | - API de integração com o GDF<br>- Banco de dados de contratos e valores de mensalidades         |
-| **Exceções**        | - Falha na comunicação com a folha de pagamento<br>- Dados inconsistentes ou ausência de matrícula |
-| **Restrições**      | - Aplicável apenas a servidores públicos do GDF com matrícula ativa e vínculo permitido         |
-| **Episódios**       | 1. Conclusão do cadastro do titular.<br>2. Envio de dados à folha do GDF.<br>3. Folha confirma recebimento.<br>4. Desconto é aplicado.<br>5. Sistema registra sucesso da operação. |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
-
----
-
-### Cenário 31: Acessar carteirinha digital com no máximo dois cliques  
-**Requisito Associado:** [RNF10](../../../elicitacao/requisitos_finais/#RNF10)  
-
-<p align="center">Tabela 33 - Cenário 31</p>
-
-| Elemento        | Descrição                                                                                                        |
-|-----------------|----------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE31">CE31</a>  |
-| **Título**           | Acessar carteirinha digital com no máximo dois cliques                                                          |
-| **Metas/Objetivos** | Facilitar acesso rápido à carteirinha digital diretamente da tela inicial.                                       |
-| **Contexto**        | Usuário autentica-se e precisa apresentar a carteirinha em atendimento.                                         |
-| **Ator(es)**        | - Usuário<br>- Sistema do aplicativo                                                                              |
-| **Recursos**        | - Interface com atalho na home<br>- Módulo de exibição da carteirinha integrado ao perfil                        |
-| **Exceções**        | - Falha de rede impede exibição<br>- Usuário não autenticado                                                     |
-| **Restrições**      | Funcionalidade acessível em no máximo dois cliques a partir da tela inicial.                                     |
-| **Episódios**       | 1. Usuário abre o app.<br>2. Clica em “Carteirinha Digital”.<br>3. Carteirinha é exibida na tela.                  |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
-
----
-
-### Cenário 32: Manter histórico de notificações acessível ao usuário por no mínimo 6 meses
-
-Este cenário está relacionado com o requisito não funcional **não implementado** [RNF11](../../../elicitacao/requisitos_finais/).
-
-<p align="center">Tabela 34 - Cenário 32</p>
-
-| **Elemento**         | **Descrição**                                                                                   |
-|----------------------|----------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE32">CE32</a>  |
-| **Título**           | Acesso ao Histórico de Notificações                                                            |
-| **Metas/Objetivos**  | Permitir que o usuário visualize notificações recebidas nos últimos 6 meses.                   |
-| **Contexto**         | O usuário está logado no sistema INAS e deseja consultar notificações anteriores.              |
-| **Ator(es)**        | Usuário (beneficiário).                                                                         |
-| **Recursos**         | Sistema INAS, banco de dados de notificações.                                                  |
-| **Exceções**         | Notificações indisponíveis devido a falhas técnicas ou expiradas após 6 meses.                 |
-| **Episódios**       | 1. O usuário acessa a seção "Notificações" no sistema.<br>2. O sistema exibe uma lista de notificações dos últimos 6 meses.<br>3. O usuário pode filtrar ou buscar notificações específicas.<br>4. Notificações fora do período de 6 meses não são exibidas. |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></p>
-
----
-
-### Cenário 33: Suporte ao Usuário via Chat ou Telefone
-
-Este cenário está relacionado com o requisito não funcional **implementado** [RNF12](../../../elicitacao/requisitos_finais/).
-
-<p align="center">Tabela 35 - Cenário 33</p>
-
-| **Elemento**         | **Descrição**                                                                                      |
-|----------------------|---------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE33">CE33</a>  |
-| **Título**          | Suporte ao Usuário via Chat ou Telefone   |
-| **Metas/Objetivos**  | Fornecer assistência ao usuário para resolver dúvidas ou problemas.                               |
-| **Contexto**         | O usuário está utilizando o sistema e precisa de ajuda.                                           |
-| **Ator(es)**        | Usuário (beneficiário), Agente de Suporte.                                                        |
-| **Recursos**         | Sistema INAS, canal de chat ou telefone.                                                          |
-| **Exceções**         | Canal de suporte indisponível ou tempo de espera excessivo.                                       |
-| **Episódios**       | 1. O usuário acessa a seção "Outros" no sistema.<br>2. O usuário seleciona a opção "Ajuda e ouvidoria".<br>3. Escolhe a opção "Central de relacionamento 24h".<br>4. Para telefone: liga para o número fornecido e fala com um agente. |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></p>
-
----
-
-
-### Cenário 34: Funcionar de forma offline para acesso à carteirinha e histórico de consultas  
-**Requisito Associado:** [RNF13](../../../elicitacao/requisitos_finais/#RNF13)  
-
-<p align="center">Tabela 36 - Cenário 34</p>
-
-| Elemento        | Descrição                                                                                                                          |
-|-----------------|----------------------------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE34">CE34</a>  |
-| **Título**           | Funcionar de forma offline para acesso à carteirinha e histórico de consultas                                                      |
-| **Metas/Objetivos** | Garantir que a carteirinha e o histórico de consultas estejam disponíveis mesmo sem conexão à internet.                            |
-| **Contexto**        | Usuário está em local sem cobertura e precisa consultar carteirinha ou histórico de atendimentos médicos.                          |
-| **Ator(es)**        | - Usuário do GDF Saúde<br>- Sistema de sincronização offline                                                                         |
-| **Recursos**        | - Armazenamento local de dados sincronizados previamente<br>- Interface dedicada ao modo offline                                     |
-| **Exceções**        | - Dados não sincronizados previamente (não disponíveis offline)                                                                     |
-| **Restrições**      | - Apenas carteirinha e histórico de consultas ficam disponíveis offline<br>- Dados devem ser armazenados de forma segura e criptografada |
-| **Episódios**       | 1. Usuário habilita GovBR e autentica offline.<br>2. Abre o app sem conexão.<br>3. Interface reduzida exibe carteirinha e histórico sincronizados. |
-
-<p align="center">Fonte: Adaptado de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
-
----
-
-### Cenário 35: Apresentar clínicas novas e próximas da localização do usuário  
-**Requisito Associado:** [RNF14](../../../elicitacao/requisitos_finais/#RNF14)  
-
-<p align="center">Tabela 37 - Cenário 35</p>
-
-| Elemento        | Descrição                                                                                                                                           |
-|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE35">CE35</a>  |
-| **Título**          | Apresentar clínicas novas e próximas da localização do usuário                                                                                     |
-| **Metas/Objetivos** | Permitir que o usuário descubra facilmente novas clínicas cadastradas e clínicas próximas com base em sua localização atual.                        |
-| **Contexto**        | Usuário abre o app com GPS ativado; o sistema identifica a localização e lista clínicas próximas, destacando novas unidades cadastradas.             |
-| **Ator(es)**        | - Usuário do GDF Saúde<br>- Sistema de geolocalização do dispositivo<br>- Servidores de GDF Saúde responsáveis pela gestão de clínicas               |
-| **Recursos**        | - Acesso à localização do dispositivo<br>- Banco de dados de clínicas e coordenadas geográficas<br>- Interface de listagem e mapa                   |
-| **Exceções**        | - Permissão de localização negada<br>- GPS desativado<br>- Falha de acesso ao banco de dados remoto                                                |
-| **Restrições**      | - Depende de permissão de geolocalização<br>- Lista deve ser atualizada periodicamente e exibida de forma clara e acessível                         |
-| **Episódios**       | 1. Usuário abre o app com GPS ativo.<br>2. Sistema solicita permissão (se necessário).<br>3. Exibe lista de clínicas próximas e novas unidades.      |
-
-<p align="center">Fonte: Adaptado de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
-
----
-
-### Cenário 36: Exigir autenticação via GovBR para login  
+### Cenário 49: Exigir autenticação via GovBR para login  
 **Requisito Associado:** [RF22](../../../elicitacao/requisitos_finais/#RF22)  
 
-<p align="center">Tabela 38 - Cenário 36</p>
+<p align="center">Tabela 51 - Cenário 49</p>
 
 | Elemento        | Descrição                                                                                                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1261,249 +1145,9 @@ Este cenário está relacionado com o requisito não funcional **implementado** 
 
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
----
-
-### Cenário 37: Buscar Clínicas Odontológicas
-
-**Requisito Associado:** [RF13](../../elicitacao/requisitos_finais/#RF13)
-
-<p align="center">Tabela 39 - Cenário 37</p>
-
-| Elemento | Descrição |
-|---|---|
-|**ID**| <a id="CE36.1">CE36.1</a> |
-| **Título** | Consulta à Rede Odontológica por Filtros |
-| **Metas/Objetivos** | Permitir que o usuário encontre clínicas odontológicas cadastradas de forma eficiente, aplicando critérios de busca específicos. |
-| **Contexto** | O usuário, já logado no aplicativo via GovBR, deseja encontrar uma clínica odontológica que atenda às suas necessidades, utilizando filtros como especialidade ou bairro. |
-| **Ator(es)** | - Usuário autenticado |
-| **Recursos** | - Aplicativo GDF Saúde<br>- Banco de dados da rede odontológica<br>- Ferramenta de filtragem de busca |
-| **Exceções** | - Nenhum resultado encontrado para os filtros aplicados<br>- Falha na conexão com o servidor de dados |
-| **Restrições** | - A funcionalidade só está disponível para usuários autenticados.<br>- Os dados das clínicas devem estar atualizados. |
-| **Episódios** | 1. Usuário acessa "Buscar rede odontológica".<br>2. Usuário insere filtros de pesquisa (ex.: "Odontopediatria", "Asa Sul").<br>3. Sistema processa os filtros e consulta o banco de dados.<br>4. Sistema exibe uma lista de clínicas odontológicas que correspondem aos critérios.<br>5. (Fluxo Alternativo) Se não houver resultados, o sistema sugere ampliar os critérios de busca.<br>6. (Fluxo de Exceção) Em caso de falha na conexão, o sistema notifica "Tente novamente mais tarde". |
-
-<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
 ---
 
-### Cenário 38: Visualizar Novas Clínicas Próximas
-
-**Requisito Associado:** [RF14.1](../../elicitacao/requisitos_finais/#RF14.1)
-
-<p align="center">Tabela 40 - Cenário 38</p>
-
-| Elemento | Descrição |
-|---|---|
-|**ID**| <a id="CE37.1">CE37.1</a> |
-| **Título** | Descoberta de Novas Clínicas na Proximidade |
-| **Metas/Objetivos** | Apresentar ao usuário as clínicas recém-cadastradas que estão próximas à sua localização atual, ou a um endereço especificado. |
-| **Contexto** | O usuário, logado no sistema e com permissão de geolocalização, busca por novas unidades de saúde que foram adicionadas recentemente em sua região. |
-| **Ator(es)** | - Usuário autenticado<br>- Sistema de geolocalização |
-| **Recursos** | - Aplicativo GDF Saúde<br>- Serviço de geolocalização do dispositivo<br>- Banco de dados de clínicas com registro de data de cadastro |
-| **Exceções** | - Falha na detecção automática de localização<br>- Geolocalização desativada no dispositivo<br>- Nenhuma nova clínica encontrada na proximidade |
-| **Restrições** | - Requer permissão de geolocalização do usuário.<br>- A identificação de "nova clínica" deve ser baseada em um critério de tempo definido. |
-| **Episódios** | 1. Usuário acessa a opção "Novas Unidades de Saúde Próximas".<br>2. Sistema tenta detectar a localização automática do usuário.<br>3. (Fluxo Alternativo) Se a detecção automática falhar, o sistema solicita que o usuário insira o endereço manualmente.<br>4. Sistema consulta o banco de dados para identificar novas clínicas na proximidade da localização (automática ou manual).<br>5. (Fluxo de Exceção) Se a geolocalização estiver desativada, o sistema solicita a ativação ou a entrada manual do endereço.<br>6. Sistema exibe uma lista de novas clínicas encontradas, ordenadas por proximidade. |
-
-<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
-
----
-
-### Cenário 39: Visualizar Clínicas Próximas
-
-**Requisito Associado:** [RF14.2](../../elicitacao/requisitos_finais/#RF14.2)
-
-<p align="center">Tabela 41 - Cenário 39</p>
-
-| Elemento | Descrição |
-|---|---|
-|**ID**| <a id="CE38.1">CE38.1</a> |
-| **Título** | Busca e Exibição de Clínicas Existentes Próximas |
-| **Metas/Objetivos** | Fornecer ao usuário uma lista de clínicas de saúde existentes próximas à sua localização, facilitando o acesso a serviços. |
-| **Contexto** | O usuário, logado e com permissão de geolocalização, deseja visualizar as unidades de saúde já cadastradas que estão mais próximas a ele, ou a um endereço especificado. |
-| **Ator(es)** | - Usuário autenticado<br>- Sistema de geolocalização |
-| **Recursos** | - Aplicativo GDF Saúde<br>- Serviço de geolocalização do dispositivo<br>- Banco de dados de clínicas cadastradas |
-| **Exceções** | - Falha na detecção automática de localização<br>- Geolocalização desativada no dispositivo<br>- Nenhuma clínica encontrada na proximidade |
-| **Restrições** | - Requer permissão de geolocalização do usuário.<br>- A lista de clínicas deve ser abrangente e atualizada. |
-| **Episódios** | 1. Usuário acessa a opção "Buscar Unidades de Saúde Próximas".<br>2. Sistema tenta detectar a localização automática do usuário.<br>3. (Fluxo Alternativo) Se a detecção automática falhar, o sistema solicita que o usuário insira o endereço manualmente.<br>4. Sistema consulta o banco de dados para identificar clínicas na proximidade da localização (automática ou manual).<br>5. (Fluxo de Exceção) Se a geolocalização estiver desativada, o sistema solicita a ativação ou a entrada manual do endereço.<br>6. Sistema exibe uma lista de clínicas encontradas, ordenadas por proximidade. |
-
-<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
-
----
-
-### Cenário 40: Baixar Comprovante de Agendamento
-
-**Requisito Associado:** [RF15](../../elicitacao/requisitos_finais/#RF15)
-
-<p align="center">Tabela 42 - Cenário 40</p>
-
-| Elemento | Descrição |
-|---|---|
-|**ID**| <a id="CE39.1">CE39.1</a> |
-| **Título** | Download do Comprovante de Agendamento |
-| **Metas/Objetivos** | Permitir que o usuário baixe o comprovante em PDF de um agendamento confirmado para fins de registro ou apresentação. |
-| **Contexto** | O usuário, logado e com um agendamento ativo e confirmado, precisa obter o comprovante desse agendamento. |
-| **Ator(es)** | - Usuário autenticado |
-| **Recursos** | - Aplicativo GDF Saúde<br>- Módulo de gerenciamento de agendamentos<br>- Gerador de PDF |
-| **Exceções** | - Agendamento não encontrado ou expirado<br>- Falha na geração do PDF<br>- Falha no servidor |
-| **Restrições** | - O download só é permitido para agendamentos confirmados e não expirados.<br>- O comprovante deve ser gerado no formato PDF. |
-| **Episódios** | 1. Usuário acessa a área "Comprovantes de agendamento".<br>2. Sistema exibe a lista de agendamentos do usuário.<br>3. Usuário seleciona o agendamento desejado para baixar o comprovante.<br>4. Usuário clica no botão "Baixar".<br>5. Sistema gera o comprovante em formato PDF e inicia o download para o dispositivo do usuário.<br>6. (Fluxo Alternativo) Se o agendamento não for encontrado ou estiver expirado, o sistema notifica "Agendamento não encontrado".<br>7. (Fluxo de Exceção) Em caso de falha no servidor durante a geração ou download, o sistema exibe uma mensagem de erro. |
-
-<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
-
----
-
-### Cenário XX: O sistema deve permitir o cadastro de dependentes vinculados a um titular
-
-**Requisito Associado:** [RF07.2](../../../elicitacao/requisitos_finais/#RF07.2) - O sistema deve permitir o cadastro de dependentes vinculados a um titular
-
-<p align="center">Tabela XX - Cenário XX</p>
-
-| Elemento            | Descrição|
-| :------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**              | <a id="CEXX">CEXX</a>                                                                                                                                                                                                                                                                                                                                                          |
-| **Título**          | Cadastro de Dependentes Vinculados a um Titular                                                                                                                                                                                                                                                                                                                                |
-| **Metas/Objetivos** | Permitir que um usuário titular cadastre dependentes no sistema, associando-os ao seu plano de saúde.                                                                                                                                                                                                                                                                          |
-| **Contexto**        | Um usuário titular do GDF Saúde deseja incluir seus filhos e cônjuge como dependentes em seu cadastro, para que todos tenham acesso aos serviços vinculados ao plano.                                                                                                                                                                                                          |
-| **Ator(es)**        | - Usuário titular do GDF Saúde<br>- Sistema de cadastro e gestão de usuários                                                                                                                                                                                                                                                                                                   |
-| **Recursos**        | - Interface para gerenciamento de perfil com opção de adicionar dependentes.<br>- Formulário de cadastro com campos como nome, data de nascimento, parentesco, CPF.<br>- Validações de vínculo e elegibilidade conforme regras do plano.                                                                                                               |
-| **Exceções**        | - Dados do dependente são inválidos (ex: CPF duplicado, data de nascimento no futuro).<br>- Limite de número de dependentes excedido.<br>- Tentativa de cadastro por usuário não titular.                                                                                                                                                                                      |
-| **Restrições**      | - Apenas usuários titulares podem adicionar ou remover dependentes.<br>- Cada dependente deve estar vinculado a um único titular.<br>- Dados obrigatórios devem ser preenchidos corretamente para concluir o cadastro.                                                                                                                                                         |
-| **Episódios**       | 1. O titular acessa seu perfil no sistema.<br>2. Ele seleciona a opção "Gerenciar Dependentes" e clica em "Adicionar Novo".<br>3. Preenche os dados do dependente (ex: nome, parentesco, data de nascimento).<br>4. Confirma a inclusão, e o dependente aparece listado como vinculado ao titular.<br>5. O sistema valida as informações e confirma a associação bem-sucedida. |
-|
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a></p>
-
----
-
-### Cenário XX: O sistema deve permitir o cadastro de optantes
-
-**Requisito Associado:** [RF07.3](../../../elicitacao/requisitos_finais/#RF07.3) - O sistema deve permitir o cadastro de optantes.
-
-<p align="center">Tabela XX - Cenário XX</p>
-
-| Elemento            | Descrição                                                                                                                                                                                                                                                                                                  |
-| :------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**              | <a id="CEXX">CEXX</a>                                                                                                                                                                                                                                                                                      |
-| **Título**          | Cadastro de Optantes                                                                                                                                                                                                                                                                                       |
-| **Metas/Objetivos** | Permitir que usuários elegíveis realizem seu cadastro como optantes no sistema, vinculando-se formalmente ao plano de saúde GDF Saúde.                                                                                                                                                                     |
-| **Contexto**        | Um servidor público que deseja aderir ao GDF Saúde acessa o sistema e realiza seu cadastro como optante, preenchendo os dados exigidos para formalizar a opção pelo plano.                                                                                                                                 |
-| **Ator(es)**        | - Usuário elegível (servidor público ou equivalente)<br>- Sistema de cadastro e validação de optantes                                                                                                                                                                                                      |
-| **Recursos**        | - Interface com opção de "Cadastrar como Optante".<br>- Formulário com dados pessoais, funcionais e de contato.<br>- Integração com base de dados funcionais para validação da elegibilidade.<br>- Confirmação e geração de comprovante de adesão.                                                         |
-| **Exceções**        | - Dados fornecidos não conferem com os registros funcionais.<br>- Tentativa de cadastro por usuário não elegível.<br>- Erro de sistema durante o processo de envio ou validação.                                                                                                                           |
-| **Restrições**      | - Apenas usuários elegíveis podem se cadastrar como optantes.<br>- Campos obrigatórios (como matrícula funcional, CPF, e-mail, etc.) devem estar corretamente preenchidos.<br>- Cada usuário só pode se cadastrar uma vez como optante.                                                                    |
-| **Episódios**       | 1. Um servidor público acessa o portal do GDF Saúde.<br>2. Seleciona a opção "Quero ser Optante".<br>3. Preenche o formulário com seus dados pessoais e funcionais.<br>4. O sistema valida os dados e confirma a elegibilidade.<br>5. O cadastro é concluído e o usuário recebe uma confirmação de adesão. |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a></p>
-
----
-
-
-### Cenário XX: O sistema deve validar os documentos apresentados durante o cadastro
-
-**Requisito Associado:** [RF07.4](../../../elicitacao/requisitos_finais/#RF07.4) - O sistema deve validar os documentos apresentados durante o cadastro
-
-<p align="center">Tabela XX - Cenário XX</p>
-
-| Elemento            | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **ID**              | <a id="CEXX">CEXX</a>                                                                                                                                                                                                                                                                                                                                                                                                           |
-| **Título**          | Validação de Documentos no Cadastro                                                                                                                                                                                                                                                                                                                                                                                             |
-| **Metas/Objetivos** | Garantir que os documentos enviados durante o processo de cadastro sejam válidos, legíveis e correspondam aos dados informados pelo usuário.                                                                                                                                                                                                                                                                                    |
-| **Contexto**        | Durante o cadastro como optante ou dependente, o usuário é solicitado a enviar documentos como RG, CPF, comprovante de vínculo e/ou certidão de nascimento. O sistema valida automaticamente esses arquivos antes de permitir a conclusão do processo.                                                                                                                                                                          |
-| **Ator(es)**        | - Usuário (titular ou dependente)<br>- Sistema de validação de documentos                                                                                                                                                                                                                                                                                                                                                       |
-| **Recursos**        | - Upload de documentos no formato PDF, JPG ou PNG.<br>- Mecanismo de validação automática (formato, tamanho, legibilidade mínima).<br>- Interface para visualização e substituição de documentos inválidos.<br>- Notificação ao usuário em caso de erro.                                                                                                                                                                        |
-| **Exceções**        | - Arquivo corrompido ou ilegível.<br>- Documento incompatível com o tipo solicitado (ex: envia CNH no lugar do RG).<br>- Dados no documento não coincidem com os dados informados no formulário.                                                                                                                                                                                                                                |
-| **Restrições**      | - Apenas formatos permitidos (PDF, JPG, PNG).<br>- Tamanho máximo de arquivo definido pelo sistema.<br>- Todos os documentos obrigatórios devem ser enviados e validados antes da finalização do cadastro.                                                                                                                                                                                                                      |
-| **Episódios**       | 1. O usuário inicia o cadastro e preenche os dados solicitados.<br>2. Anexa os documentos exigidos pelo sistema (ex: RG, CPF, certidão).<br>3. O sistema verifica se os arquivos são legíveis e se correspondem ao tipo solicitado.<br>4. Caso algum documento esteja inválido, o sistema exibe mensagem de erro com a opção de reenviar.<br>5. Com todos os documentos validados, o sistema permite a finalização do cadastro. |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a></p>
-
----
-
-### Cenário XX: O sistema deve verificar a elegibilidade dos titulares, dependentes e optantes durante o processo de cadastro.
-**Requisito Associado:** [RF07.5](../../../elicitacao/requisitos_finais/#RF07.5) - 	O sistema deve verificar a elegibilidade dos titulares, dependentes e optantes durante o processo de cadastro.
-
-<p align="center">Tabela XX - Cenário XX</p>
-
-| Elemento            | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**              | <a id="CEXX">CEXX</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Título**          | Verificação de Elegibilidade no Cadastro                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| **Metas/Objetivos** | Assegurar que apenas usuários elegíveis (titulares, dependentes e optantes) possam ser cadastrados no sistema GDF Saúde, de acordo com critérios definidos pelo plano.                                                                                                                                                                                                                                                                                                     |
-| **Contexto**        | Durante o processo de cadastro, o sistema realiza verificações automáticas para validar se o titular é um servidor ativo, se os dependentes possuem vínculo permitido (como filho ou cônjuge) e se o optante atende aos critérios exigidos.                                                                                                                                                                                                                                |
-| **Ator(es)**        | - Usuário (titular, dependente ou optante)<br>- Sistema de verificação de elegibilidade<br>- Base de dados funcionais e administrativas                                                                                                                                                                                                                                                                                                                                    |
-| **Recursos**        | - Integração com sistemas de RH ou banco de dados oficial de servidores.<br>- Regras de negócio para checagem de vínculos familiares.<br>- Feedback ao usuário sobre aprovação ou recusa de elegibilidade.                                                                                                                                                                                                                                                                 |
-| **Exceções**        | - Usuário tenta se cadastrar, mas não consta como servidor ativo ou elegível.<br>- Dependente com vínculo não permitido (ex: sobrinho).<br>- Falha na comunicação com a base de dados de verificação.                                                                                                                                                                                                                                                                      |
-| **Restrições**      | - Nenhum cadastro pode ser concluído sem a verificação de elegibilidade.<br>- As regras de elegibilidade devem estar atualizadas conforme diretrizes do plano GDF Saúde.<br>- Em caso de reprovação, o motivo deve ser informado ao usuário.                                                                                                                                                                                                                               |
-| **Episódios**       | 1. Um servidor acessa o sistema para se cadastrar como titular ou optante.<br>2. O sistema consulta automaticamente sua situação funcional para verificar se está ativo e apto.<br>3. Ele adiciona um dependente, e o sistema valida o grau de parentesco.<br>4. Caso todos os critérios de elegibilidade sejam atendidos, o sistema permite concluir o cadastro.<br>5. Se alguma pessoa for considerada inelegível, uma mensagem explica o motivo e impede a finalização. |
-
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a></p>
-
-
----
-
-### Cenário XX: O sistema deve verificar a elegibilidade dos titulares, dependentes e optantes durante o processo de cadastro.
-**Requisito Associado:** [RF08.1](../../../elicitacao/requisitos_finais/#RF08.1) - 	Verificar se procedimentos estão na TABGDFSAÚDE, atendem às DUT, estão sujeitos a carência ou são excluídos, exigindo solicitação médica e análise técnica para autorizações prévias.
-
-<p align="center">Tabela XX - Cenário XX</p>
-
-| Elemento            | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| :------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**              | <a id="CEXX">CEXX</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| **Título**          | Verificação de Procedimentos com Base na TABGDFSAÚDE, DUT, Carência e Regras de Autorização                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **Metas/Objetivos** | Verificar automaticamente se um procedimento solicitado está previsto na Tabela TABGDFSAÚDE, se atende às Diretrizes de Utilização Técnica (DUT), se está sujeito a período de carência, se é excluído da cobertura ou se exige solicitação médica e análise técnica para autorização prévia.                                                                                                                                                                                                                                                                                             |
-| **Contexto**        | Um beneficiário solicita a realização de um procedimento (ex: ressonância magnética). O sistema consulta as regras da TABGDFSAÚDE, verifica as DUT, analisa se o procedimento requer carência, e determina se é necessário solicitar autorização prévia com análise técnica.                                                                                                                                                                                                                                                                                                              |
-| **Ator(es)**        | - Beneficiário<br>- Médico solicitante<br>- Sistema de autorização e regulação<br>- Auditor médico/técnico                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **Recursos**        | - Integração com a tabela TABGDFSAÚDE e regras atualizadas de DUT.<br>- Consulta à carência individual do beneficiário.<br>- Módulo para upload de solicitação médica.<br>- Disparo automático de fluxo para análise técnica (quando aplicável).                                                                                                                                                                                                                                                                                                                                          |
-| **Exceções**        | - Procedimento não consta na TABGDFSAÚDE.<br>- Beneficiário ainda está em período de carência.<br>- Documentação incompleta para análise técnica.<br>- Falha na leitura das regras de DUT.                                                                                                                                                                                                                                                                                                                                                                                                |
-| **Restrições**      | - Procedimentos excluídos não devem seguir para autorização.<br>- Solicitações que exigem análise técnica não podem ser liberadas automaticamente.<br>- O sistema deve exibir justificativa clara para qualquer negativa ou exigência adicional.                                                                                                                                                                                                                                                                                                                                          |
-| **Episódios**       | 1. Um médico solicita um procedimento para um beneficiário no sistema.<br>2. O sistema verifica se o procedimento está listado na TABGDFSAÚDE.<br>3. Consulta as DUT para ver se a indicação clínica atende aos critérios.<br>4. Avalia se o beneficiário já cumpriu a carência exigida.<br>5. Caso o procedimento esteja coberto e sem restrições, a solicitação é autorizada.<br>6. Se exigir análise técnica, o sistema solicita documentos médicos e envia para auditoria.<br>7. Em caso de exclusão da cobertura ou descumprimento de critérios, o pedido é recusado com explicação. |
-
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a></p>
-
----
-
-### Cenário XX: Permitir ao usuário visualizar o histórico de consultas realizadas
-**Requisito Associado:** [RF09.1](../../../elicitacao/requisitos_finais/#RF09.1) - 	Permitir ao usuário visualizar o histórico de consultas realizadas.
-<p align="center">Tabela XX - Cenário XX</p>
-
-| Elemento            | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| :------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**              | <a id="CE50">CE50</a>                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **Título**          | Visualização do Histórico de Consultas                                                                                                                                                                                                                                                                                                                                                                                                              |
-| **Metas/Objetivos** | Permitir que o usuário acompanhe todas as consultas médicas já realizadas, com detalhes como data, especialidade, profissional de saúde e local de atendimento.                                                                                                                                                                                                                                                                                     |
-| **Contexto**        | Um beneficiário deseja consultar seu histórico de atendimento para verificar quando foi sua última consulta com um cardiologista e em qual clínica ocorreu. Ele acessa o sistema e visualiza todas as consultas registradas em ordem cronológica.                                                                                                                                                                                                   |
-| **Ator(es)**        | - Beneficiário (titular ou dependente)<br>- Sistema de registro e exibição de histórico médico                                                                                                                                                                                                                                                                                                                                                      |
-| **Recursos**        | - Tela de histórico com filtros por período, especialidade e profissional.<br>- Listagem com informações resumidas (data, especialidade, local, nome do profissional).<br>- Opção de detalhar cada consulta (ex: horário, status, observações).                                                                                                                                                                                                     |
-| **Exceções**        | - Nenhuma consulta encontrada para o período selecionado.<br>- Dados incompletos devido a falhas no registro de atendimentos.<br>- Problemas de sincronização com sistemas externos de clínicas credenciadas.                                                                                                                                                                                                                                       |
-| **Restrições**      | - O histórico só deve exibir consultas já realizadas, não futuras ou agendadas.<br>- Usuários dependentes só podem ver seu próprio histórico.<br>- Informações sensíveis devem seguir as diretrizes da LGPD (Lei Geral de Proteção de Dados).                                                                                                                                                                                                       |
-| **Episódios**       | 1. O beneficiário acessa seu perfil no sistema GDF Saúde.<br>2. Seleciona a opção "Histórico de Consultas".<br>3. A tela exibe uma lista das consultas realizadas em ordem cronológica.<br>4. O usuário aplica filtros para visualizar apenas as consultas com determinada especialidade.<br>5. Ele clica em uma linha da lista para ver detalhes da consulta, como nome do médico, unidade de atendimento e observações clínicas (se disponíveis). |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a></p>
-## Referência Bibliográfica
-
----
-
-### Cenário XX: Visualização do Histórico de Consultas
-**Requisito Associado:** [RF09.2](../../../elicitacao/requisitos_finais/#RF09.2) - 	Visualização do Histórico de Consultas
-<p align="center">Tabela XX - Cenário XX</p>
-
-| Elemento            | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| :------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**              | <a id="CEXX">CEXX</a>                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **Título**          | Visualização do Histórico de Consultas                                                                                                                                                                                                                                                                                                                                                                                                              |
-| **Metas/Objetivos** | Permitir que o usuário acompanhe todas as consultas médicas já realizadas, com detalhes como data, especialidade, profissional de saúde e local de atendimento.                                                                                                                                                                                                                                                                                     |
-| **Contexto**        | Um beneficiário deseja consultar seu histórico de atendimento para verificar quando foi sua última consulta com um cardiologista e em qual clínica ocorreu. Ele acessa o sistema e visualiza todas as consultas registradas em ordem cronológica.                                                                                                                                                                                                   |
-| **Ator(es)**        | - Beneficiário (titular ou dependente)<br>- Sistema de registro e exibição de histórico médico                                                                                                                                                                                                                                                                                                                                                      |
-| **Recursos**        | - Tela de histórico com filtros por período, especialidade e profissional.<br>- Listagem com informações resumidas (data, especialidade, local, nome do profissional).<br>- Opção de detalhar cada consulta (ex: horário, status, observações).                                                                                                                                                                                                     |
-| **Exceções**        | - Nenhuma consulta encontrada para o período selecionado.<br>- Dados incompletos devido a falhas no registro de atendimentos.<br>- Problemas de sincronização com sistemas externos de clínicas credenciadas.                                                                                                                                                                                                                                       |
-| **Restrições**      | - O histórico só deve exibir consultas já realizadas, não futuras ou agendadas.<br>- Usuários dependentes só podem ver seu próprio histórico.<br>- Informações sensíveis devem seguir as diretrizes da LGPD (Lei Geral de Proteção de Dados).                                                                                                                                                                                                       |
-| **Episódios**       | 1. O beneficiário acessa seu perfil no sistema GDF Saúde.<br>2. Seleciona a opção "Histórico de Consultas".<br>3. A tela exibe uma lista das consultas realizadas em ordem cronológica.<br>4. O usuário aplica filtros para visualizar apenas as consultas com determinada especialidade.<br>5. Ele clica em uma linha da lista para ver detalhes da consulta, como nome do médico, unidade de atendimento e observações clínicas (se disponíveis). |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a></p>
-
----
 
 ## Referência Bibliográfica
 
@@ -1530,4 +1174,4 @@ SERRANO, Milene; SERRANO, Maurício. *Requisitos - Aula 10*. Disponível em: [ht
 |`3.0`  | 12/06/2025  | Corrigindo âncoras e metodologia para uma melhor rastreabilidade e identificação dos cenários. Além disso, corrigi os meus cenários, retirando os cenários não funcionais e criando cenários para os Requisitos: RF01.1, RF01.2, RF01.3, RF01.4, RF01.5, RF02.1, RF02.2 e RF02.3 .  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
 | `3.1` | 19/06/2025  | Correção dos cenários para os requisitos RF09.1, RF09.2, RF09.3, RF09.4, RF10 e RF20 de acordo com as revisões da entrega, sendo para 2 requisitos funcionais não implementados no mínimo | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Othavio Bolzan](https://github.com/bolzanMGB) |
 | `3.2` | 21/06/2025  | Adição dos meus cenários refinados | [Lucas Alves](https://github.com/LucasAlves71)  | [Isaque Camargos](https://github.com/isaqzin) |
-
+|`3.3`  | 21/06/2025  | Organização e renomeação dos casos de uso  | [Othavio Bolzan](https://github.com/bolzanMGB) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
