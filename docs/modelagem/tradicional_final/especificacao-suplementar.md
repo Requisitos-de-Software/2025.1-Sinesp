@@ -201,4 +201,4 @@ BRASIL. Ministério da Ciência, Tecnologia e Inovações. **Especificação Sup
 | 1.6 | 18/05/2025 | Adição das especificações relacionadas aos RNF11, RNF12 | [Matheus de Alcântara](https://github.com/matheusdealcantara)  | [Lucas Alves](https://github.com/)|
 | 1.7 | 18/05/2025 | Adição das especificações relacionadas aos RNF13, RNF14 | [Othavio Bolzan](https://github.com/bolzanMG)  | [Lucas Alves](https://github.com/)|
 | 1.8 | 19/06/2025 | Alterações finais para os requisitos RNF11 e RNF12 para a nova versão deixando-os testáveis | [Matheus de Alcântara](https://github.com/matheusdealcantara)  | [Kaleb Macedo](https://github.com/kalebmacedo)|
-| 1.9 | 21/06/2025 | Alterando para fazer sentidospara os requisitos não funcionais refinados: RNF01.1, RNF02.1, RNF03.1 e RNF03.2 | [Matheus de Alcântara](https://github.com/matheusdealcantara)  | [Kaleb Macedo](https://github.com/kalebmacedo)|
+| 1.9 | 21/06/2025 | Alterando para fazer sentidospara os requisitos não funcionais refinados: RNF01.1, RNF02.1, RNF03.1 e RNF03.2 |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
