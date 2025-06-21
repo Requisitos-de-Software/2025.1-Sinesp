@@ -45,7 +45,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
                 </tr>
                 <tr>
                     <td><a  href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
-                    <td>Criou o diagrama referentes aos requisitos: RF11, RF12, RNF13 e RNF14. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC33, UC34, UC35, UC38, UC39.</td>	
+                    <td>Criou o diagrama referentes aos requisitos: RF11, RF12.1, RF12.2, RF12.3, RF12.4, RF12.5, RF12.6. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC33, UC34, UC35, UC38, UC39.</td>	
                 </tr>
                 <tr>
                     <td><a  href="https://github.com/redjsun">Yzabella Miranda</a></td>
@@ -142,7 +142,7 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ### UC01 – Pesquisar Redes por Filtros
 
-<p align="center">Tabela 3 - Caso de Uso 1 </p>
+<p align="center">Tabela 3 - Caso de Uso UC01</p>
 
 | Campo                    | Descrição                                                                                                                                                                                                                                  |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -164,7 +164,7 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ### UC02 – Pesquisar Profissionais da Saúde
 
-<p align="center">Tabela 4 - Caso de Uso 2 </p>
+<p align="center">Tabela 4 - Caso de Uso UC02</p>
 
 | Campo                    | Descrição                                                                                                                                                                                                                                  |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -184,13 +184,79 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC03 – Iniciar conversa com chatbot de triagem
+### UC03 – Atribuir Nota de Avaliação
 
-<p align="center">Tabela 5 - Caso de Uso 3 </p>
+<p align="center">Tabela 5 - Caso de Uso UC03</p>
+
+| Campo                    | Descrição                                                 |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a id="UC03"></a>UC03     | Atribuir Nota de Avaliação                                      |
+| Descrição                | Permitir ao usuário classificar a qualidade de um atendimento utilizando uma nota na escala Likert de 1 a 5. |
+| Ator                     | Usuário do aplicativo GDF Saúde           |
+| Pré-condições            | 1. Usuário teve um atendimento registrado na rede a ser avaliada. <br>2. Usuário está logado no aplicativo.   |
+| Ação                     | Usuário seleciona uma nota de 1 a 5 estrelas na tela de avaliação de um atendimento. |
+| Fluxo principal          | - Usuário acessa o perfil da clínica e seleciona a opção "Avaliar Atendimento". <br>- Sistema exibe a interface de avaliação. <br>- Usuário seleciona a nota desejada (ex: 4 de 5 estrelas). <br>- Usuário confirma a submissão da nota.      |
+| Fluxo alternativo        | - O usuário seleciona uma nota, mas decide alterá-la antes de submeter. <br>- O usuário toca em uma nova quantidade de estrelas, e o sistema atualiza a seleção.                 |
+| Fluxo de exceção         | - O usuário tenta submeter a avaliação, mas ocorre uma falha de conexão. <br>- Sistema exibe uma mensagem de erro e oferece a opção de tentar novamente, mantendo a nota selecionada.                                                        |
+| Pós-condições            | A nota de avaliação do usuário é registrada com sucesso no sistema e associada ao respectivo atendimento. |
+| Rastreabilidade          | [RF02.1](../../elicitacao/requisitos_finais.md#RF02.1) |
+| Data de criação          | 12/06/2025   |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+---
+
+### UC04 – Ler e Escrever Comentários
+
+<p align="center">Tabela 6 - Caso de Uso UC04</p>
+
+| Campo                    | Descrição                                               |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a id="UC04"></a>UC04     | Ler e Escrever Comentários                                        |
+| Descrição                | Permitir ao usuário ler as experiências de outros beneficiários e deixar seus próprios comentários sobre atendimentos. |
+| Ator                     | Usuário do aplicativo GDF Saúde |
+| Pré-condições            | 1. Usuário está logado. <br>2. Usuário está visualizando o perfil de uma clínica ou profissional.|
+| Ação                     | Usuário acessa a seção de comentários para ler as avaliações ou preenche o campo de texto para submeter um novo comentário.                                                                                                                |
+| Fluxo principal          | - Leitura: Usuário acessa a aba "Avaliações" e percorre a lista de comentários existentes. <br>- Escrita: Na mesma tela, usuário toca em "Deixar um comentário", digita seu feedback no campo de texto e toca em "Enviar".              |
+| Fluxo alternativo        | - Ao escrever um comentário, o usuário decide cancelar a ação antes de enviar. <br>- O usuário toca no botão "Cancelar" e o sistema o retorna à tela anterior sem salvar o rascunho.     |
+| Fluxo de exceção         | - O comentário do usuário contém termos inadequados bloqueados pelo sistema. <br>- Ao tentar enviar, o sistema exibe uma mensagem informando que o comentário não pode ser publicado e destaca as diretrizes da comunidade.                |
+| Pós-condições            | Usuário visualiza os comentários de outros ou tem seu novo comentário submetido com sucesso para moderação e publicação. |
+| Rastreabilidade          | [RF02.2](../../elicitacao/requisitos_finais.md#RF02.2) |
+| Data de criação          | 12/06/2025   |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+---
+
+### UC05 – Visualizar Comentários Relevantes
+
+<p align="center">Tabela 7 - Caso de Uso UC05</p>
+
+| Campo                    | Descrição                                                 |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a id="UC05"></a>UC05     | Visualizar Comentários Relevantes                                |
+| Descrição                | Permitir ao usuário visualizar primeiro os comentários que o sistema classifica automaticamente como os mais "relevantes", com base em critérios como utilidade e palavras-chave.                                                           |
+| Ator                     | Usuário do aplicativo GDF Saúde    |
+| Pré-condições            | Usuário está na seção de avaliações de uma clínica que possui múltiplos comentários. |
+| Ação                     | Usuário abre a lista de comentários de um profissional ou clínica. |
+| Fluxo principal          | - Usuário acessa a aba de "Avaliações" de uma clínica. <br>- A lista de comentários é carregada. <br>- O sistema, por padrão, exibe no topo os comentários que foram identificados como os mais relevantes.                                      |
+| Fluxo alternativo        | - O usuário prefere ver os comentários mais recentes. <br>- O usuário seleciona a opção de ordenação "Mais Recentes". <br>- O sistema recarrega a lista, exibindo os comentários em ordem cronológica decrescente.                             |
+| Fluxo de exceção         | - A clínica não possui comentários suficientes para que a classificação por relevância seja significativa. <br>- O sistema exibe todos os comentários disponíveis, ordenados por data como padrão alternativo.                                |
+| Pós-condições            | O usuário tem acesso rápido às opiniões consideradas mais úteis, otimizando seu tempo de análise. |
+| Rastreabilidade          | [RF02.3](../../elicitacao/requisitos_finais.md#RF02.3)  |
+| Data de criação          | 12/06/2025   |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+---
+
+### UC06 – Iniciar Conversa com Chatbot de Triagem
+
+<p align="center">Tabela 8 - Caso de Uso UC06</p>
 
 | Campo              | Descrição                                                                                                                                       |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a id="UC03"></a>UC03 | Iniciar conversa com chatbot de triagem |
+| <a id="UC06"></a>UC06 | Iniciar Conversa com Chatbot de Triagem |
 | Descrição          | Permitir ao usuário interagir com chatbot para identificar especialidade médica adequada |
 | Ator               | Usuário do aplicativo GDF Saúde |
 | Pré-condições      | 1. Conexão com internet. <br>2. Usuário é beneficiário do Plano INAS |
@@ -202,16 +268,17 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 | Rastreabilidade    | [RF21](../../elicitacao/requisitos_finais.md#RF21) |
 | Data de criação    | 17/05/2025 |
 
-<p align="center">Fonte: Autoria de <a src="https://github.com/Ana-Luiza-SC" targe="_blank">Ana Luiza Soares</a></p>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
 ---
 
-### UC04 – Fazer login
-<p align="center">Tabela 6 - Caso de Uso 4 </p>
+### UC07 – Fazer Login
+
+<p align="center">Tabela 9 - Caso de Uso UC07</p>
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
-|<a id="UC07"></a>UC07            |  Fazer login                                                        |
+| <a id="UC07"></a>UC07 | Fazer Login                                                        |
 | Descrição          | Permitir que o usuário acesse o app com e-mail/CPF e senha.               |
 | Ator               | Usuário cadastrado                                                        |
 | Pré-condições      | App instalado e com conexão à internet.                                   |
@@ -220,18 +287,20 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Credenciais inválidas: sistema exibe mensagem de erro.                  |
 | Fluxo de exceção   | - Ausência de conexão: sistema informa que não é possível conectar.       |
 | Pós-condições      | Usuário autenticado e apto a usar o aplicativo.                           |
-| Rastreabilidade    |   [RF19](../../elicitacao/requisitos_finais.md#RF19)                                                                         |
+| Rastreabilidade    | [RF19](../../elicitacao/requisitos_finais.md#RF19)                                                                         |
 | Data de criação    | 15/05/2025                                                                |
 
-<p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
+<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
+
 ---
 
-### UC05 – Login por biometria
-<p align="center">Tabela 7 - Caso de Uso 5 </p>
+### UC08 – Login por Biometria
+
+<p align="center">Tabela 10 - Caso de Uso UC08</p>
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
-| <a id="UC08"></a>UC08                 |  Login por biometria                                                |
+| <a id="UC08"></a>UC08 | Login por Biometria                                                |
 | Descrição          | Permitir login via impressão digital ou reconhecimento facial.            |
 | Ator               | Usuário cadastrado                                                        |
 | Pré-condições      | Dispositivo com sensor biométrico, usuário já logado ao menos uma vez.    |
@@ -243,14 +312,17 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 | Rastreabilidade    | [RF19](../../elicitacao/requisitos_finais.md#RF19)          |
 | Data de criação    | 15/05/2025                 |
 
+<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
+
 ---
 
-### UC06 – Baixar carteirinha
-<p align="center">Tabela 8 - Caso de Uso 6 </p>
+### UC09 – Baixar Carteirinha
+
+<p align="center">Tabela 11 - Caso de Uso UC09</p>
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
-| <a id="UC09"></a>UC09                 | Baixar carteirinha                                                 |
+| <a id="UC09"></a>UC09 | Baixar Carteirinha                                                 |
 | Descrição          | Permitir download da carteirinha digital para uso offline.                |
 | Ator               | Usuário autenticado                                                       |
 | Pré-condições      | Conexão com internet e usuário logado.                                    |
@@ -259,61 +331,64 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Caso já tenha sido baixada, o sistema permite rebaixar.                 |
 | Fluxo de exceção   | - Falta de conexão ou falha no armazenamento: erro informado ao usuário.  |
 | Pós-condições      | Carteirinha disponível localmente mesmo sem internet.                     |
-| Rastreabilidade    |  [RF03](../../elicitacao/requisitos_finais.md#RF03)               |
+| Rastreabilidade    | [RF03](../../elicitacao/requisitos_finais.md#RF03)               |
 | Data de criação    | 15/05/2025                                                                |
 
-<p align="center">Fonte: Autoria de <a src="https://github.com/redjsun" targe="_blank">Yzabella Miranda</a></p>
+<p align="center">Fonte: Autoria de <a href="https://github.com/redjsun">Yzabella Miranda</a></p>
 
 ---
 
-### UC07 – Configurar notificações
-<p align="center">Tabela 9 - Caso de Uso 7 </p>
+### UC10 – Configurar Notificações
+
+<p align="center">Tabela 12 - Caso de Uso UC10</p>
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
-| <a id="UC10"></a>UC10                 |  Configurar notificações                                            |
+| <a id="UC10"></a>UC10 | Configurar Notificações                                            |
 | Descrição          | Permitir ao usuário selecionar tipos e canais de notificações.            |
 | Ator               | Usuário autenticado                                                       |
 | Pré-condições      | Login realizado com sucesso.                                              |
 | Ação               | O usuário acessa as configurações de notificação e define suas preferências. |
 | Fluxo principal    | - O usuário acessa “Configurações”.<br>- Escolhe os tipos e canais desejados.<br>- Salva as alterações.<br>- Preferências são persistidas pelo sistema. |
 | Fluxo alternativo  | —                                                                         |
-| Fluxo de exceção   | - sistema exibe erro ao tentar salvar.                      |
+| Fluxo de exceção   | - Sistema exibe erro ao tentar salvar.                      |
 | Pós-condições      | Preferências de notificação atualizadas.                                  |
-| Rastreabilidade    |[RF04.1](../../elicitacao/requisitos_finais.md#RF04.1)  e [RF04.9](../../elicitacao/requisitos_finais.md#RF04.9)                  |
+| Rastreabilidade    | [RF04.1](../../elicitacao/requisitos_finais.md#RF04.1) e [RF04.9](../../elicitacao/requisitos_finais.md#RF04.9)                  |
 | Data de criação    | 15/05/2025                                                                |
 
-<p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
+<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
 ---
 
-### UC08 – Enviar notificações
-<p align="center">Tabela 10 - Caso de Uso 8 </p>
+### UC11 – Enviar Notificações
+
+<p align="center">Tabela 13 - Caso de Uso UC11</p>
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
-| <a id="UC11"></a>UC11                 |  Enviar notificações                                                |
+| <a id="UC11"></a>UC11 | Enviar Notificações                                                |
 | Descrição          | Enviar notificações com base nas preferências do usuário.                 |
 | Ator               | Serviços de notificação                                 |
 | Pré-condições      | Configurações de notificação existentes e evento ativador.                |
 | Ação               | O sistema identifica evento e envia a notificação pelo canal configurado. |
-| Fluxo principal    | - Evento ocorre (ex: consulta cancelada).<br>- Preferências são consultadas.<br>- Sistema envia via canal apropriado(e-mail, SMS e/ou notificação do próprio app).<br>- Envio é registrado. |
+| Fluxo principal    | - Evento ocorre (ex: consulta cancelada).<br>- Preferências são consultadas.<br>- Sistema envia via canal apropriado (e-mail, SMS e/ou notificação do próprio app).<br>- Envio é registrado. |
 | Fluxo alternativo  | - Falha de envio: sistema realiza tentativa posterior.                    |
 | Fluxo de exceção   | - Falha permanente: log de erro registrado, equipe notificada.            |
 | Pós-condições      | Notificação enviada ou tentativa registrada para análise.                 |
-| Rastreabilidade    |    [RF04.1](../../elicitacao/requisitos_finais.md#RF04.1)  e [RF04.9](../../elicitacao/requisitos_finais.md#RF04.9)                                                                      |
+| Rastreabilidade    | [RF04.1](../../elicitacao/requisitos_finais.md#RF04.1) e [RF04.9](../../elicitacao/requisitos_finais.md#RF04.9)                                                                      |
 | Data de criação    | 15/05/2025                                                                |
 
-<p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
+<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
 ---
 
-### UC09 – Agendar Consulta ou Exame
-<p align="center">Tabela 11 - Caso de Uso 9</p>
+### UC12 – Agendar Consulta ou Exame
+
+<p align="center">Tabela 14 - Caso de Uso UC12</p>
 
 | Campo | Descrição |
-| :--- | :--- |
-| UC28 | Agendar consulta ou exame |
+|-------|-----------|
+| <a id="UC12"></a>UC12 | Agendar Consulta ou Exame |
 | Descrição | Permitir ao usuário agendar consultas e exames diretamente pelo aplicativo, com pagamento automático para prestadores da Rede de Atendimento. |
 | Ator | Beneficiário (Usuário do plano de saúde) |
 | Pré-condições | O usuário deve estar autenticado no sistema. |
@@ -328,12 +403,13 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC10 – Cancelar Consulta ou Exame
-<p align="center">Tabela 12 - Caso de Uso 10</p>
+### UC13 – Cancelar Consulta ou Exame
+
+<p align="center">Tabela 15 - Caso de Uso UC13</p>
 
 | Campo | Descrição |
-| :--- | :--- |
-| UC29 | Cancelar consulta ou exame |
+|-------|-----------|
+| <a id="UC13"></a>UC13 | Cancelar Consulta ou Exame |
 | Descrição | Permitir ao usuário cancelar uma consulta ou exame agendado diretamente pelo aplicativo, com o devido processamento de estorno de pagamento conforme as regras de negócio. |
 | Ator | Beneficiário (Usuário do plano de saúde) |
 | Pré-condições | O usuário deve estar autenticado no sistema e ter ao menos uma consulta ou exame futuro agendado. |
@@ -348,12 +424,13 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC11 – Exibir Valor de Consulta em Clínica
-<p align="center">Tabela 13 - Caso de Uso 11</p>
+### UC14 – Exibir Valor de Consulta em Clínica
+
+<p align="center">Tabela 16 - Caso de Uso UC14</p>
 
 | Campo | Descrição |
-| :--- | :--- |
-| UC30 | Exibir Valor de Consulta em Clínica |
+|-------|-----------|
+| <a id="UC14"></a>UC14 | Exibir Valor de Consulta em Clínica |
 | Descrição | Permitir ao usuário visualizar o valor específico de uma consulta ou procedimento em cada clínica disponível na rede. |
 | Ator | Beneficiário (Usuário do plano de saúde) |
 | Pré-condições | O usuário deve estar autenticado no sistema. |
@@ -368,12 +445,13 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC12 – Calcular e Exibir Valor da Coparticipação
-<p align="center">Tabela 14 - Caso de Uso 12</p>
+### UC15 – Calcular e Exibir Valor da Coparticipação
+
+<p align="center">Tabela 17 - Caso de Uso UC15</p>
 
 | Campo | Descrição |
-| :--- | :--- |
-| UC31 | Calcular e Exibir Valor da Coparticipação |
+|-------|-----------|
+| <a id="UC15"></a>UC15 | Calcular e Exibir Valor da Coparticipação |
 | Descrição | O sistema deve calcular e exibir o valor da coparticipação do beneficiário para cada consulta e procedimento médico realizado que esteja sujeito a este regime. |
 | Ator | Beneficiário (Usuário do plano de saúde) |
 | Pré-condições | O usuário deve estar autenticado e visualizando um procedimento sujeito a coparticipação. |
@@ -388,12 +466,13 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC13 – Gerar Demonstrativo de Despesas para IR
-<p align="center">Tabela 15 - Caso de Uso 13</p>
+### UC16 – Gerar Demonstrativo de Despesas para IR
+
+<p align="center">Tabela 18 - Caso de Uso UC16</p>
 
 | Campo | Descrição |
-| :--- | :--- |
-| UC32 | Gerar Demonstrativo de Despesas para Imposto de Renda |
+|-------|-----------|
+| <a id="UC16"></a>UC16 | Gerar Demonstrativo de Despesas para Imposto de Renda |
 | Descrição | Permitir ao usuário gerar e baixar o demonstrativo consolidado de despesas médicas de um ano específico para a declaração de Imposto de Renda. |
 | Ator | Beneficiário (Usuário do plano de saúde) |
 | Pré-condições | O usuário deve estar autenticado no sistema. |
@@ -408,12 +487,13 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC14 – Consultar Histórico de Demonstrativos de IR
-<p align="center">Tabela 16 - Caso de Uso 14</p>
+### UC17 – Consultar Histórico de Demonstrativos de IR
+
+<p align="center">Tabela 19 - Caso de Uso UC17</p>
 
 | Campo | Descrição |
-| :--- | :--- |
-| UC33 | Consultar Histórico de Demonstrativos de IR |
+|-------|-----------|
+| <a id="UC17"></a>UC17 | Consultar Histórico de Demonstrativos de IR |
 | Descrição | Permitir ao usuário visualizar e baixar demonstrativos de Imposto de Renda que foram gerados anteriormente. |
 | Ator | Beneficiário (Usuário do plano de saúde) |
 | Pré-condições | O usuário deve estar autenticado no sistema. |
@@ -428,12 +508,13 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC15 – Consultar Extrato Financeiro
-<p align="center">Tabela 17 - Caso de Uso 15</p>
+### UC18 – Consultar Extrato Financeiro
+
+<p align="center">Tabela 20 - Caso de Uso UC18</p>
 
 | Campo | Descrição |
-| :--- | :--- |
-| UC34 | Consultar Extrato Financeiro |
+|-------|-----------|
+| <a id="UC18"></a>UC18 | Consultar Extrato Financeiro |
 | Descrição | Permitir ao usuário consultar seu extrato financeiro detalhado e atualizado diariamente. |
 | Ator | Beneficiário (Usuário do plano de saúde) |
 | Pré-condições | O usuário deve estar autenticado no sistema. |
@@ -448,12 +529,13 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC16 – Visualizar Painel de Metas de Saúde
-<p align="center">Tabela 18 - Caso de Uso 16</p>
+### UC19 – Visualizar Painel de Metas de Saúde
+
+<p align="center">Tabela 21 - Caso de Uso UC19</p>
 
 | Campo | Descrição |
-| :--- | :--- |
-| UC35 | Visualizar Painel de Metas de Saúde |
+|-------|-----------|
+| <a id="UC19"></a>UC19 | Visualizar Painel de Metas de Saúde |
 | Descrição | Exibir um painel personalizado com metas de saúde e gamificação para incentivar o acompanhamento. |
 | Ator | Beneficiário (Usuário do plano de saúde) |
 | Pré-condições | O usuário deve estar autenticado no sistema. |
@@ -468,12 +550,13 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC17 – Cadastrar Titular
-<p align="center">Tabela 19 - Caso de Uso 17 </p>
+### UC20 – Cadastrar Titular
+
+<p align="center">Tabela 22 - Caso de Uso UC20</p>
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| <a id="UC21"></a>UC21                | Cadastrar Titular                                                                |
+| <a id="UC20"></a>UC20 | Cadastrar Titular                                                                |
 | Descrição         | Permitir o cadastro de titulares no sistema, com validação de dados e documentação.                |
 | Ator              | Usuário (Titular)                                                                                  |
 | Pré-condições     | Usuário autenticado; documentação necessária digitalizada.                                         |
@@ -488,12 +571,13 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC18 – Cadastrar Dependente
-<p align="center">Tabela 20 - Caso de Uso 18 </p>
+### UC21 – Cadastrar Dependente
+
+<p align="center">Tabela 23 - Caso de Uso UC21</p>
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| <a id="UC22"></a>UC22                | Cadastrar Dependente                                                             |
+| <a id="UC21"></a>UC21 | Cadastrar Dependente                                                             |
 | Descrição         | Permitir o cadastro de dependentes vinculados a um titular.                                        |
 | Ator              | Usuário (Titular)                                                                                  |
 | Pré-condições     | Titular autenticado; documentação do dependente digitalizada.                                      |
@@ -508,12 +592,13 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC19 – Cadastrar Optante
-<p align="center">Tabela 21 - Caso de Uso 19 </p>
+### UC22 – Cadastrar Optante
+
+<p align="center">Tabela 24 - Caso de Uso UC22</p>
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| <a id="UC23"></a>UC23                | Cadastrar Optante                                                                |
+| <a id="UC22"></a>UC22 | Cadastrar Optante                                                                |
 | Descrição         | Permitir o cadastro de optantes no sistema, com validação de dados e documentação.                 |
 | Ator              | Usuário (Optante)                                                                                  |
 | Pré-condições     | Usuário autenticado; documentação necessária digitalizada.                                         |
@@ -528,12 +613,13 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC20 – Validar Documentos no Cadastro
-<p align="center">Tabela 22 - Caso de Uso 20 </p>
+### UC23 – Validar Documentos no Cadastro
+
+<p align="center">Tabela 25 - Caso de Uso UC23</p>
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| <a id="UC24"></a>UC24                | Validar Documentos no Cadastro                                                   |
+| <a id="UC23"></a>UC23 | Validar Documentos no Cadastro                                                   |
 | Descrição         | Validar os documentos apresentados durante o cadastro de titulares, dependentes e optantes.        |
 | Ator              | Sistema                                                                                            |
 | Pré-condições     | Documentos anexados no processo de cadastro.                                                       |
@@ -548,12 +634,13 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC21 – Verificar Elegibilidade no Cadastro
-<p align="center">Tabela 23 - Caso de Uso 21 </p>
+### UC24 – Verificar Elegibilidade no Cadastro
+
+<p align="center">Tabela 26 - Caso de Uso UC24</p>
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| <a id="UC25"></a>UC25                | Verificar Elegibilidade no Cadastro                                              |
+| <a id="UC24"></a>UC24 | Verificar Elegibilidade no Cadastro                                              |
 | Descrição         | Verificar a elegibilidade dos titulares, dependentes e optantes durante o processo de cadastro.    |
 | Ator              | Sistema                                                                                            |
 | Pré-condições     | Dados e documentos enviados no cadastro.                                                           |
@@ -568,12 +655,13 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC22 – Verificar Procedimentos para Autorização
-<p align="center">Tabela 24 - Caso de Uso 22 </p>
+### UC25 – Verificar Procedimentos para Autorização
+
+<p align="center">Tabela 27 - Caso de Uso UC25</p>
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| <a id="UC26"></a>UC26                | Verificar Procedimentos para Autorização                                         |
+| <a id="UC25"></a>UC25 | Verificar Procedimentos para Autorização                                         |
 | Descrição         | Verificar se procedimentos estão na TABGDFSAÚDE, atendem às DUT, carência ou exclusões, exigindo solicitação médica e análise técnica para autorizações prévias. |
 | Ator              | Titular / Profissional de saúde / Analista técnico                                                 |
 | Pré-condições     | Procedimento solicitado e dados médicos anexados.                                                  |
@@ -588,12 +676,13 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC23 – Registrar Denúncia contra Profissional
-<p align="center">Tabela 25 - Caso de Uso 23 </p>
+### UC26 – Registrar Denúncia contra Profissional
+
+<p align="center">Tabela 28 - Caso de Uso UC26</p>
 
 | Campo             | Descrição                                                                                          |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| <a id="UC27"></a>UC27                | Registrar Denúncia contra Profissional                                           |
+| <a id="UC26"></a>UC26 | Registrar Denúncia contra Profissional                                           |
 | Descrição         | Permitir ao usuário registrar denúncias de condutas inadequadas por parte de profissionais da rede credenciada. |
 | Ator              | Usuário (Titular, Dependente ou Optante)                                                           |
 | Pré-condições     | Usuário autenticado; denúncia relacionada a profissional da rede credenciada.                      |
@@ -608,20 +697,20 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC24 – Visualizar Histórico de Consultas Realizadas
+### UC27 – Visualizar Histórico de Consultas Realizadas
 
-<p align="center">Tabela 26 - Caso de Uso 24 </p>
+<p align="center">Tabela 29 - Caso de Uso UC27</p>
 
 | Campo              | Descrição                                                                                                                                       |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a id="UC27"></a>UC27                 | Visualizar histórico de consultas realizadas                                                                                   |
+| <a id="UC27"></a>UC27 | Visualizar Histórico de Consultas Realizadas                                                                                   |
 | Descrição          | Permitir ao usuário visualizar a lista de todas as consultas realizadas, com data, profissional e especialidade.                               |
 | Ator               | Usuário cadastrado no plano de saúde GDF Saúde                                                           |
 | Pré-condições      | O usuário deve estar autenticado no sistema.                                                             |
 | Ação               | O usuário acessa a seção "Histórico de Consultas".                                                      |
 | Fluxo principal    | 1. Usuário faz login no sistema.<br>2. Usuário navega até a seção "Histórico de Consultas".<br>3. Sistema recupera e exibe a lista de consultas realizadas, ordenadas da mais recente para a mais antiga.<br>4. Cada item exibe data, profissional e especialidade.<br>5. Usuário pode buscar ou filtrar consultas por período, profissional ou especialidade.<br>6. Usuário seleciona uma consulta para ver detalhes.<br>7. Sistema exibe detalhes completos da consulta selecionada.<br>8. Usuário retorna à lista ou encerra a navegação. |
-| Fluxo alternativo  | A1. Se não houver consultas registradas:<br>&nbsp;&nbsp;- Sistema exibe mensagem "Nenhuma consulta encontrada".<br>&nbsp;&nbsp;- Usuário pode retornar ao menu principal. |
-| Fluxo de exceção   | E1. Falha na recuperação dos dados:<br>&nbsp;&nbsp;- Sistema exibe mensagem "Erro ao carregar histórico de consultas".<br>&nbsp;&nbsp;- Usuário pode tentar novamente ou contatar o suporte.<br>E2. Sessão expirada:<br>&nbsp;&nbsp;- Sistema solicita novo login. |
+| Fluxo alternativo  | A1. Se não houver consultas registradas:<br>  - Sistema exibe mensagem "Nenhuma consulta encontrada".<br>  - Usuário pode retornar ao menu principal. |
+| Fluxo de exceção   | E1. Falha na recuperação dos dados:<br>  - Sistema exibe mensagem "Erro ao carregar histórico de consultas".<br>  - Usuário pode tentar novamente ou contatar o suporte.<br>E2. Sessão expirada:<br>  - Sistema solicita novo login. |
 | Pós-condições      | O usuário visualizou seu histórico de consultas.                                                         |
 | Rastreabilidade    | [RF09.1](../../elicitacao/requisitos_finais.md#RF09.1)                                                  |
 | Data de criação    | 15/05/2025                                                                                               |
@@ -630,20 +719,20 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC25 – Visualizar Histórico de Exames Realizados
+### UC28 – Visualizar Histórico de Exames Realizados
 
-<p align="center">Tabela 27 - Caso de Uso 25 </p>
+<p align="center">Tabela 30 - Caso de Uso UC28</p>
 
 | Campo              | Descrição                                                                                                  |
 |--------------------|----------------------------------------------------------------------------------------------------------|
-| <a id="UC28"></a>UC28                 | Visualizar histórico de exames realizados                                                |
+| <a id="UC28"></a>UC28 | Visualizar Histórico de Exames Realizados                                                |
 | Descrição          | Permitir ao usuário visualizar a lista de todos os exames realizados, com nome do exame e data.           |
 | Ator               | Usuário cadastrado no plano de saúde GDF Saúde                                                           |
 | Pré-condições      | O usuário deve estar autenticado no sistema.                                                             |
 | Ação               | O usuário acessa a seção "Histórico de Exames".                                                          |
 | Fluxo principal    | 1. Usuário faz login.<br>2. Acessa "Histórico de Exames".<br>3. Sistema exibe lista de exames realizados.<br>4. Cada item mostra nome do exame e data.<br>5. Usuário pode buscar ou filtrar exames.<br>6. Usuário seleciona exame para ver detalhes.<br>7. Sistema exibe detalhes do exame.<br>8. Usuário retorna à lista ou encerra. |
-| Fluxo alternativo  | A1. Se não houver exames:<br>&nbsp;&nbsp;- Sistema exibe "Nenhum exame encontrado".<br>&nbsp;&nbsp;- Usuário pode retornar ao menu principal. |
-| Fluxo de exceção   | E1. Falha ao carregar exames:<br>&nbsp;&nbsp;- Sistema exibe "Erro ao carregar exames".<br>&nbsp;&nbsp;- Usuário pode tentar novamente ou contatar suporte.<br>E2. Sessão expirada:<br>&nbsp;&nbsp;- Sistema solicita novo login. |
+| Fluxo alternativo  | A1. Se não houver exames:<br>  - Sistema exibe "Nenhum exame encontrado".<br>  - Usuário pode retornar ao menu principal. |
+| Fluxo de exceção   | E1. Falha ao carregar exames:<br>  - Sistema exibe "Erro ao carregar exames".<br>  - Usuário pode tentar novamente ou contatar suporte.<br>E2. Sessão expirada:<br>  - Sistema solicita novo login. |
 | Pós-condições      | O usuário visualizou seu histórico de exames.                                                            |
 | Rastreabilidade    | [RF09.2](../../elicitacao/requisitos_finais.md#RF09.2)                                                  |
 | Data de criação    | 15/05/2025                                                                                               |
@@ -652,20 +741,20 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC26 – Visualizar Resultados de Exames Laboratoriais
+### UC29 – Visualizar Resultados de Exames Laboratoriais
 
-<p align="center">Tabela 28 - Caso de Uso 26 </p>
+<p align="center">Tabela 31 - Caso de Uso UC29</p>
 
 | Campo              | Descrição                                                                                                  |
 |--------------------|----------------------------------------------------------------------------------------------------------|
-| <a id="UC29"></a>UC29                 | Visualizar resultados de exames laboratoriais                                            |
+| <a id="UC29"></a>UC29 | Visualizar Resultados de Exames Laboratoriais                                            |
 | Descrição          | Permitir ao usuário acessar e visualizar os resultados de exames laboratoriais realizados.                |
 | Ator               | Usuário cadastrado no plano de saúde GDF Saúde                                                           |
 | Pré-condições      | O usuário deve estar autenticado e ter exames laboratoriais com resultado disponível.                     |
 | Ação               | O usuário acessa a seção "Histórico de Exames" e seleciona um exame com resultado.                       |
 | Fluxo principal    | 1. Usuário faz login.<br>2. Acessa "Histórico de Exames".<br>3. Sistema exibe lista de exames laboratoriais.<br>4. Exames com resultado disponível exibem botão "Ver Resultado".<br>5. Usuário clica para visualizar ou baixar o resultado.<br>6. Sistema exibe ou permite download do resultado.<br>7. Usuário retorna à lista ou encerra. |
-| Fluxo alternativo  | A1. Se não houver resultados disponíveis:<br>&nbsp;&nbsp;- Sistema exibe "Nenhum resultado disponível".<br>&nbsp;&nbsp;- Usuário pode retornar ao menu principal. |
-| Fluxo de exceção   | E1. Falha ao carregar resultados:<br>&nbsp;&nbsp;- Sistema exibe "Erro ao carregar resultados".<br>&nbsp;&nbsp;- Usuário pode tentar novamente ou contatar suporte.<br>E2. Arquivo corrompido:<br>&nbsp;&nbsp;- Sistema exibe mensagem de erro e orienta novo download.<br>E3. Sessão expirada:<br>&nbsp;&nbsp;- Sistema solicita novo login. |
+| Fluxo alternativo  | A1. Se não houver resultados disponíveis:<br>  - Sistema exibe "Nenhum resultado disponível".<br>  - Usuário pode retornar ao menu principal. |
+| Fluxo de exceção   | E1. Falha ao carregar resultados:<br>  - Sistema exibe "Erro ao carregar resultados".<br>  - Usuário pode tentar novamente ou contatar suporte.<br>E2. Arquivo corrompido:<br>  - Sistema exibe mensagem de erro e orienta novo download.<br>E3. Sessão expirada:<br>  - Sistema solicita novo login. |
 | Pós-condições      | O usuário visualizou o resultado do exame laboratorial.                                                  |
 | Rastreabilidade    | [RF09.3](../../elicitacao/requisitos_finais.md#RF09.3)                                                  |
 | Data de criação    | 15/05/2025                                                                                               |
@@ -674,20 +763,20 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC27 – Visualizar Histórico de Coparticipações
+### UC30 – Visualizar Histórico de Coparticipações
 
-<p align="center">Tabela 29 - Caso de Uso 27 </p>
+<p align="center">Tabela 32 - Caso de Uso UC30</p>
 
 | Campo              | Descrição                                                                                                  |
 |--------------------|----------------------------------------------------------------------------------------------------------|
-| <a id="UC30"></a>UC30                 | Visualizar histórico de coparticipações                                                  |
+| <a id="UC30"></a>UC30 | Visualizar Histórico de Coparticipações                                                  |
 | Descrição          | Permitir ao usuário acessar o histórico detalhado de cobranças de coparticipação.                         |
 | Ator               | Usuário cadastrado no plano de saúde GDF Saúde                                                           |
 | Pré-condições      | O usuário deve estar autenticado no sistema.                                                             |
 | Ação               | O usuário acessa a seção "Histórico de Coparticipações" ou "Financeiro".                                 |
 | Fluxo principal    | 1. Usuário faz login.<br>2. Acessa "Histórico de Coparticipações".<br>3. Sistema exibe lista de cobranças de coparticipação.<br>4. Cada item mostra serviço, data e valor cobrado.<br>5. Usuário pode buscar ou filtrar cobranças.<br>6. Usuário seleciona uma cobrança para ver detalhes.<br>7. Sistema exibe detalhes completos.<br>8. Usuário retorna à lista ou encerra. |
-| Fluxo alternativo  | A1. Se não houver cobranças:<br>&nbsp;&nbsp;- Sistema exibe "Nenhuma coparticipação encontrada".<br>&nbsp;&nbsp;- Usuário pode retornar ao menu principal. |
-| Fluxo de exceção   | E1. Falha ao carregar histórico:<br>&nbsp;&nbsp;- Sistema exibe "Erro ao carregar histórico de coparticipações".<br>&nbsp;&nbsp;- Usuário pode tentar novamente ou contatar suporte.<br>E2. Sessão expirada:<br>&nbsp;&nbsp;- Sistema solicita novo login. |
+| Fluxo alternativo  | A1. Se não houver cobranças:<br>  - Sistema exibe "Nenhuma coparticipação encontrada".<br>  - Usuário pode retornar ao menu principal. |
+| Fluxo de exceção   | E1. Falha ao carregar histórico:<br>  - Sistema exibe "Erro ao carregar histórico de coparticipações".<br>  - Usuário pode tentar novamente ou contatar suporte.<br>E2. Sessão expirada:<br>  - Sistema solicita novo login. |
 | Pós-condições      | O usuário visualizou seu histórico de coparticipações.                                                   |
 | Rastreabilidade    | [RF09.4](../../elicitacao/requisitos_finais.md#RF09.4)                                                  |
 | Data de criação    | 15/05/2025                                                                                               |
@@ -696,20 +785,20 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC28 – Favoritar Horários de Consulta
+### UC31 – Favoritar Horários de Consulta
 
-<p align="center">Tabela 30 - Caso de Uso 28 </p>
+<p align="center">Tabela 33 - Caso de Uso UC31</p>
 
 | Campo              | Descrição                                                                                                  |
 |--------------------|----------------------------------------------------------------------------------------------------------|
-| <a id="UC31"></a>UC31                 | Favoritar horários de consulta                                                          |
+| <a id="UC31"></a>UC31 | Favoritar Horários de Consulta                                                          |
 | Descrição          | Permitir ao usuário marcar horários preferidos para agendamentos futuros.                                |
 | Ator               | Usuário cadastrado no plano de saúde GDF Saúde                                                           |
 | Pré-condições      | O sistema deve exibir horários disponíveis para consulta.                                                |
 | Ação               | O usuário acessa a seção de agendamento, seleciona horários para favoritar e confirma a ação.            |
 | Fluxo principal    | 1. Usuário faz login.<br>2. Acessa a seção de agendamento.<br>3. Sistema exibe horários disponíveis.<br>4. Usuário seleciona um ou mais horários para favoritar.<br>5. Usuário confirma a ação.<br>6. Sistema salva horários favoritos no perfil do usuário.<br>7. Sistema exibe confirmação de sucesso.<br>8. Usuário pode visualizar ou editar favoritos. |
-| Fluxo alternativo  | A1. Horário indisponível:<br>&nbsp;&nbsp;- Sistema notifica "Horário não disponível" e remove da seleção.<br>&nbsp;&nbsp;- Usuário pode escolher outro horário.<br>A2. Limite de favoritos atingido:<br>&nbsp;&nbsp;- Sistema informa o limite e impede seleção adicional. |
-| Fluxo de exceção   | E1. Erro ao salvar favoritos:<br>&nbsp;&nbsp;- Sistema exibe "Erro ao salvar horário favorito" e oferece tentar novamente.<br>E2. Sessão expirada:<br>&nbsp;&nbsp;- Sistema solicita novo login. |
+| Fluxo alternativo  | A1. Horário indisponível:<br>  - Sistema notifica "Horário não disponível" e remove da seleção.<br>  - Usuário pode escolher outro horário.<br>A2. Limite de favoritos atingido:<br>  - Sistema informa o limite e impede seleção adicional. |
+| Fluxo de exceção   | E1. Erro ao salvar favoritos:<br>  - Sistema exibe "Erro ao salvar horário favorito" e oferece tentar novamente.<br>E2. Sessão expirada:<br>  - Sistema solicita novo login. |
 | Pós-condições      | Horários favoritados salvos no perfil do usuário.                                                        |
 | Rastreabilidade    | [RF10](../../elicitacao/requisitos_finais.md#RF10)                                                      |
 | Data de criação    | 15/05/2025                                                                                               |
@@ -718,20 +807,20 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC29 – Solicitar Reembolso de Cobrança Indevida
+### UC32 – Solicitar Reembolso de Cobrança Indevida
 
-<p align="center">Tabela 31 - Caso de Uso 29 </p>
+<p align="center">Tabela 34 - Caso de Uso UC32</p>
 
 | Campo              | Descrição                                                                                                  |
 |--------------------|----------------------------------------------------------------------------------------------------------|
-| <a id="UC32"></a>UC32                 | Solicitar reembolso de cobrança indevida                                                |
+| <a id="UC32"></a>UC32 | Solicitar Reembolso de Cobrança Indevida                                                |
 | Descrição          | Permitir ao usuário solicitar reembolso de valores cobrados indevidamente, fornecendo justificativa e documentos. |
 | Ator               | Usuário cadastrado no plano de saúde GDF Saúde                                                           |
 | Pré-condições      | 1. O usuário deve ter uma cobrança registrada.<br>2. Solicitação feita em até 30 dias da cobrança.        |
 | Ação               | O usuário acessa a seção de reembolso, seleciona a cobrança, preenche justificativa, anexa documentos e envia. |
 | Fluxo principal    | 1. Usuário faz login.<br>2. Acessa a seção de reembolso.<br>3. Sistema exibe lista de cobranças.<br>4. Usuário seleciona cobrança indevida.<br>5. Sistema apresenta formulário para justificativa e anexos.<br>6. Usuário preenche justificativa e anexa documentos.<br>7. Usuário envia solicitação.<br>8. Sistema valida dados e envia solicitação.<br>9. Sistema notifica usuário sobre o recebimento.<br>10. Usuário pode acompanhar o status da solicitação. |
-| Fluxo alternativo  | A1. Documentação incompleta:<br>&nbsp;&nbsp;- Sistema solicita arquivos faltantes.<br>&nbsp;&nbsp;- Usuário anexa documentos adicionais.<br>&nbsp;&nbsp;- Sistema retoma validação. |
-| Fluxo de exceção   | E1. Erro técnico ao enviar solicitação:<br>&nbsp;&nbsp;- Sistema exibe "Erro ao enviar solicitação" e oferece tentar novamente.<br>E2. Prazo excedido:<br>&nbsp;&nbsp;- Sistema informa que o prazo para solicitação expirou e impede envio.<br>E3. Sessão expirada:<br>&nbsp;&nbsp;- Sistema solicita novo login. |
+| Fluxo alternativo  | A1. Documentação incompleta:<br>  - Sistema solicita arquivos faltantes.<br>  - Usuário anexa documentos adicionais.<br>  - Sistema retoma validação. |
+| Fluxo de exceção   | E1. Erro técnico ao enviar solicitação:<br>  - Sistema exibe "Erro ao enviar solicitação" e oferece tentar novamente.<br>E2. Prazo excedido:<br>  - Sistema informa que o prazo para solicitação expirou e impede envio.<br>E3. Sessão expirada:<br>  - Sistema solicita novo login. |
 | Pós-condições      | Solicitação registrada e enviada para análise.                                                           |
 | Rastreabilidade    | [RF20](../../elicitacao/requisitos_finais.md#RF20)                                                      |
 | Data de criação    | 15/05/2025                                                                                               |
@@ -740,39 +829,37 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC30 – Enviar Feedback de Atendimento
-<p align="center">Tabela 32 - Caso de Uso 30 </p>
+### UC33 – Enviar Feedback de Atendimento
+
+<p align="center">Tabela 35 - Caso de Uso UC33</p>
 
 | Campo | Descrição | 
-|-----------------------|-------------------------------------------------------------------------------| 
-| <a id="UC33"></a>UC33 | Enviar Feedback de Atendimento     |
-| Descrição | Permitir que o usuário acesse o app mediante autenticação GovBR. |
-| Ator | - Usuário cadastrado no GovBR|
-| Pré-condições | 1. Usuário autenticado <br> 2. Consulta já realizada <br> 3. Conexão com a internet ativa|
+|-------|-----------|
+| <a id="UC33"></a>UC33 | Enviar Feedback de Atendimento |
+| Descrição | Permitir que o usuário envie feedback sobre o atendimento de uma consulta realizada. |
+| Ator | Usuário cadastrado no GovBR |
+| Pré-condições | 1. Usuário autenticado <br> 2. Consulta já realizada <br> 3. Conexão com a internet ativa |
 | Ação | Usuário acessa o canal de feedback, seleciona uma consulta anterior e preenche o formulário com a avaliação. |
-| Fluxo principal |- Usuário acessa a área de feedback <br> - Seleciona uma consulta <br> - Preenche formulário de avaliação <br> - Envia feedback |
-| Fluxo alternativo |- Consulta ainda não realizada: sistema bloqueia envio <br> - Avaliação incompleta: sistema solicita preenchimento obrigatório|
-| Fluxo de exceção | - Falha de rede durante envio <br> - Erro de autenticação do usuário|
-| Pós-condições | Feedback registrado e vinculado à consulta avaliada  |
+| Fluxo principal | - Usuário acessa a área de feedback <br> - Seleciona uma consulta <br> - Preenche formulário de avaliação <br> - Envia feedback |
+| Fluxo alternativo | - Consulta ainda não realizada: sistema bloqueia envio <br> - Avaliação incompleta: sistema solicita preenchimento obrigatório |
+| Fluxo de exceção | - Falha de rede durante envio <br> - Erro de autenticação do usuário |
+| Pós-condições | Feedback registrado e vinculado à consulta avaliada |
 | Rastreabilidade | [RF11](../../elicitacao/requisitos_finais.md#RF11) |
-| Data de criação | 17/05/2025 | 
+| Data de criação | 17/05/2025 |
+
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
 ---
 
-<<<<<<< HEAD
-=======
-### UC31 – Acessar Informações sobre Novas Funcionalidades
-<p align="center">Tabela 33 - Caso de Uso 31 </p>
->>>>>>> origin/main
+### UC34 – Apresentar Seção “Novidades” no Menu Principal
 
-### UCXX – Apresentar Seção “Novidades” no Menu Principal
+<p align="center">Tabela 36 - Caso de Uso UC34</p>
 
 | Campo | Descrição |
-|--------------------|-------------------------------------------------------------|
-| UC34.1 | Apresentar Seção “Novidades” no Menu Principal |
+|-------|-----------|
+| <a id="UC34"></a>UC34 | Apresentar Seção “Novidades” no Menu Principal |
 | Descrição | Permitir que o usuário visualize no menu principal uma nova seção chamada “Novidades”. |
-| Ator | - Usuário do plano de saúde <br> - Sistema do GDF Saúde |
+| Ator | Usuário do plano de saúde <br> Sistema do GDF Saúde |
 | Pré-condições | 1. Aplicativo iniciado <br> 2. Conexão com a internet ativada |
 | Ação | Sistema exibe a seção "Novidades" no menu principal. |
 | Fluxo principal | - Sistema atualiza menu <br> - Seção “Novidades” aparece visível para o usuário |
@@ -784,16 +871,17 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
-<<<<<<< HEAD
 ---
 
-### UCXX – Exibir Lista de Funcionalidades com Título, Descrição e Data
+### UC35 – Exibir Lista de Funcionalidades com Título, Descrição e Data
+
+<p align="center">Tabela 37 - Caso de Uso UC35</p>
 
 | Campo | Descrição |
-|--------------------|-------------------------------------------------------------|
-| UC34.2 | Exibir Lista de Funcionalidades com Título, Descrição e Data |
+|-------|-----------|
+| <a id="UC35"></a>UC35 | Exibir Lista de Funcionalidades com Título, Descrição e Data |
 | Descrição | Permitir que o usuário visualize uma lista contendo as novas funcionalidades, incluindo título, descrição e data de lançamento. |
-| Ator | - Usuário do plano de saúde <br> - Sistema do GDF Saúde |
+| Ator | Usuário do plano de saúde <br> Sistema do GDF Saúde |
 | Pré-condições | 1. Aplicativo iniciado <br> 2. Conexão com a internet ativada |
 | Ação | Sistema apresenta uma lista com as informações das novas funcionalidades |
 | Fluxo principal | - Sistema busca e exibe as funcionalidades na tela de novidades |
@@ -807,7 +895,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UCXX – Destacar Funcionalidades com Marcador “Novo”
+### UC36 – Destacar Funcionalidades com Marcador “Novo”
+<p align="center">Tabela 38 - Caso de Uso 36 </p>
 
 | Campo | Descrição |
 |--------------------|-------------------------------------------------------------|
@@ -827,7 +916,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UCXX – Exibir Pop-ups com Novidades Após Atualização
+### UC37 – Exibir Pop-ups com Novidades Após Atualização
+<p align="center">Tabela 39 - Caso de Uso 37 </p>
 
 | Campo | Descrição |
 |--------------------|-------------------------------------------------------------|
@@ -847,7 +937,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UCXX – Ver Descrição Detalhada de Funcionalidade
+### UC38 – Ver Descrição Detalhada de Funcionalidade
+<p align="center">Tabela 40 - Caso de Uso 38 </p>
 
 | Campo | Descrição |
 |--------------------|-------------------------------------------------------------|
@@ -867,7 +958,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UCXX – Ordenar Novidades por Data
+### UC39 – Ordenar Novidades por Data
+<p align="center">Tabela 41 - Caso de Uso 39 </p>
 
 | Campo | Descrição |
 |--------------------|-------------------------------------------------------------|
@@ -885,36 +977,11 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
----
-
-### UC35 – Acessar Aplicativo em Modo Offline
-<p align="center">Tabela 37 - Caso de Uso 35 </p>
-=======
-### UC32 – Acessar Aplicativo em Modo Offline
-<p align="center">Tabela 34 - Caso de Uso 32 </p>
->>>>>>> origin/main
-
-| Campo | Descrição | 
-|-----------------------|-------------------------------------------------------------------------------| 
-| <a id="UC35"></a>UC35 |Acessar Aplicativo em Modo Offline.    |
-| Descrição | Permitir que o usuário acesse o aplicativo e utilize funcionalidades básicas como carteirinha e histórico de consultas sem conexão com a internet. |
-| Ator | - Usuário do plano de saúde. |
-| Pré-condições | 1. Aplicativo instalado <br> 2. Dados sincronizados previamente <br> 3. Sem conexão com internet.| 
-| Ação | Usuário inicia o aplicativo sem conexão; sistema carrega funcionalidades offline permitidas. |
-| Fluxo principal |- Usuário abre aplicativo <br> - Sistema detecta ausência de internet <br> - Ativa modo offline <br> - Usuário acessa carteirinha e histórico de consultas |
-| Fluxo alternativo |- Caso dados offline não estejam atualizados, sistema exibe aviso de possível desatualização. |
-| Fluxo de exceção | - Dados offline corrompidos ou indisponíveis| 
-| Pós-condições | Usuário acessa funcionalidades básicas com dados disponíveis em modo offline| 
-| Rastreabilidade | [RNF13](../../elicitacao/requisitos_finais.md#RNF13) |
-| Data de criação | 17/05/2025 | 
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
 ---
----
 
-### UC33 – Fazer login via GovBR
-<p align="center">Tabela 35 - Caso de Uso 33 </p>
+### UC40 – Fazer login via GovBR
+<p align="center">Tabela 42 - Caso de Uso 40 </p>
 
 | Campo | Descrição | 
 |-----------------------|-------------------------------------------------------------------------------| 
@@ -929,11 +996,13 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 | Pós-condições | Usuário autenticado e com acesso às funcionalidades do app. |
 | Rastreabilidade | [RF22](../../elicitacao/elicitacao.md#RF22) |
 | Data de criação | 17/05/2025 | 
----
+
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
-### UC34 – Consultar rede odontológica
-<p align="center">Tabela 36 - Caso de Uso 34 </p>
+---
+
+### UC41 – Consultar rede odontológica
+<p align="center">Tabela 43 - Caso de Uso 41 </p>
 
 | Campo | Descrição |
 |-----------------------|-------------------------------------------------------------------------------|
@@ -951,8 +1020,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 ---
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
-### UC35 – Apresentar Novas Clínicas Próximas
-<p align="center">Tabela 37 - Caso de Uso 35 </p>
+### UC42 – Apresentar Novas Clínicas Próximas
+<p align="center">Tabela 44 - Caso de Uso 42 </p>
 
 | Campo | Descrição |
 |---|---|
@@ -971,8 +1040,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 ---
 
-### UC36 – Apresentar Clínicas Próximas
-<p align="center">Tabela 38 - Caso de Uso 36 </p>
+### UC43 – Apresentar Clínicas Próximas
+<p align="center">Tabela 45 - Caso de Uso 43 </p>
 
 | Campo | Descrição |
 |---|---|
@@ -992,8 +1061,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC37 – Baixar comprovante de agendamento
-<p align="center">Tabela 39 - Caso de Uso 37 </p>
+### UC44 – Baixar comprovante de agendamento
+<p align="center">Tabela 46 - Caso de Uso 44 </p>
 
 | Campo | Descrição |
 |-----------------------|-------------------------------------------------------------------------------|
@@ -1011,127 +1080,9 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
----
 
-### UC38 - Combinar Filtros de Pesquisa
-<p align="center">Tabela 40 - Caso de Uso 38 </p>
-
-| Campo                    | Descrição|
-|--------------------------|-----------------------------------------|
-| <a id="UC40"></a>UC40     | Combinar Filtros de Pesquisa|
-| Descrição                | Permitir ao usuário refinar progressivamente sua busca ao aplicar múltiplos filtros de forma simultânea.|
-| Ator                     | Usuário do aplicativo GDF Saúde|
-| Pré-condições            | 1. Conexão com internet. <br>2. Usuário está na tela de busca.|
-| Ação                     | Usuário aplica um filtro inicial e, em seguida, adiciona um segundo filtro para restringir ainda mais os resultados.|
-| Fluxo principal          | - Usuário acessa a busca e aplica o filtro "Especialidade: Ortopedia". <br>- Sistema atualiza a lista de resultados. <br>- Em seguida, o usuário aplica o filtro "Região: Taguatinga". <br>- Sistema atualiza a lista novamente, mostrando apenas resultados que atendem a ambos os filtros. |
-| Fluxo alternativo        | - Usuário aplica múltiplos filtros, mas decide remover um deles. <br>- O usuário desmarca o filtro "Região: Taguatinga". <br>- Sistema recalcula os resultados, exibindo todos os ortopedistas, independentemente da região.                 |
-| Fluxo de exceção         | - A combinação de filtros aplicada é muito restritiva e não retorna resultados. <br>- Sistema exibe a mensagem "Nenhum resultado para a combinação de filtros selecionada."|
-| Pós-condições            | A lista de resultados exibida atende a todos os critérios dos filtros combinados pelo usuário.|
-| Rastreabilidade          | [RF01.3](../../elicitacao/requisitos_finais.md#RF01.3)|
-| Data de criação          | 12/06/2025|
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
 ---
-### UC39 – Buscar por Proximidade
-<p align="center">Tabela 41 - Caso de Uso 39 </p>
-
-| Campo                    | Descrição |
-|--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| <a id="UC41"></a>UC41     | Buscar por Proximidade|
-| Descrição                | Permitir ao usuário encontrar redes credenciadas em um raio de até 10 km de sua localização geográfica atual.|
-| Ator                     | Usuário do aplicativo GDF Saúde|
-| Pré-condições            | 1. Conexão com internet. <br>2. Os serviços de localização do dispositivo estão ativados.|
-| Ação                     | Usuário ativa a opção de filtro "Buscar Perto de Mim" na tela de pesquisa.|
-| Fluxo principal          | - Na tela de busca, o usuário ativa o filtro de proximidade. <br>- Sistema solicita permissão para acessar a localização, caso ainda não a tenha. <br>- Usuário concede a permissão. <br>- Sistema obtém a localização e exibe os resultados em um raio de 10 km. |
-| Fluxo alternativo        | - O usuário ativa o filtro, mas nega a permissão de acesso à localização. <br>- Sistema exibe uma mensagem informativa explicando que a funcionalidade requer a permissão para operar.                                                         |
-| Fluxo de exceção         | - O sistema não consegue obter a localização do usuário devido a um erro de GPS ou de rede. <br>- Sistema exibe a mensagem "Não foi possível determinar sua localização. Tente novamente."                                                     |
-| Pós-condições            | A lista de resultados é filtrada para exibir apenas as redes credenciadas próximas ao usuário, ordenadas pela distância.|
-| Rastreabilidade          | [RF01.4](../../elicitacao/requisitos_finais.md#RF01.4)|
-| Data de criação          | 12/06/2025 |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
-
----
-### UC40 – Filtrar por Especialidade Médica
-<p align="center">Tabela 42 - Caso de Uso 40 </p>
-
-| Campo                    | Descrição |
-|--------------------------|-------------------------------------------------------------------------------------------------------------|
-| <a id="UC42"></a>UC42     | Filtrar por Especialidade Médica |
-| Descrição                | Permitir ao usuário filtrar a busca de redes credenciadas selecionando uma especialidade médica específica em uma lista. |
-| Ator                     | Usuário do aplicativo GDF Saúde |
-| Pré-condições            | 1. Conexão com internet. <br>2. Usuário está na tela de busca. |
-| Ação                     | Usuário seleciona a opção de filtro "Especialidade" e escolhe um item da lista. |
-| Fluxo principal          | - Usuário toca no campo de filtro "Especialidade". <br>- Sistema exibe uma lista de todas as especialidades disponíveis. <br>- Usuário seleciona "Dermatologia" da lista. <br>- Sistema atualiza a busca para mostrar apenas redes com essa especialidade. |
-| Fluxo alternativo        | - O usuário começa a digitar no campo de busca de especialidades. <br>- O sistema filtra dinamicamente a lista de especialidades para corresponder ao texto digitado.                                                                       |
-| Fluxo de exceção         | - A lista de especialidades não pode ser carregada devido a uma falha de conexão. <br>- Sistema exibe uma mensagem de erro com a opção de tentar novamente.                                                                                 |
-| Pós-condições            | A lista de resultados contém apenas redes que atendem à especialidade médica selecionada. |
-| Rastreabilidade          | [RF01.5](../../elicitacao/requisitos_finais.md#RF01.5) |
-| Data de criação          | 12/06/2025 |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
-
----
-### UC41 – Atribuir Nota de Avaliação
-<p align="center">Tabela 43 - Caso de Uso 41 </p>
-
-| Campo                    | Descrição                                                 |
-|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a id="UC43"></a>UC43     | Atribuir Nota de Avaliação                                      |
-| Descrição                | Permitir ao usuário classificar a qualidade de um atendimento utilizando uma nota na escala Likert de 1 a 5. |
-| Ator                     | Usuário do aplicativo GDF Saúde           |
-| Pré-condições            | 1. Usuário teve um atendimento registrado na rede a ser avaliada. <br>2. Usuário está logado no aplicativo.   |
-| Ação                     | Usuário seleciona uma nota de 1 a 5 estrelas na tela de avaliação de um atendimento. |
-| Fluxo principal          | - Usuário acessa o perfil da clínica e seleciona a opção "Avaliar Atendimento". <br>- Sistema exibe a interface de avaliação. <br>- Usuário seleciona a nota desejada (ex: 4 de 5 estrelas). <br>- Usuário confirma a submissão da nota.      |
-| Fluxo alternativo        | - O usuário seleciona uma nota, mas decide alterá-la antes de submeter. <br>- O usuário toca em uma nova quantidade de estrelas, e o sistema atualiza a seleção.                 |
-| Fluxo de exceção         | - O usuário tenta submeter a avaliação, mas ocorre uma falha de conexão. <br>- Sistema exibe uma mensagem de erro e oferece a opção de tentar novamente, mantendo a nota selecionada.                                                        |
-| Pós-condições            | A nota de avaliação do usuário é registrada com sucesso no sistema e associada ao respectivo atendimento. |
-| Rastreabilidade          | [RF02.1](../../elicitacao/requisitos_finais.md#RF02.1) |
-| Data de criação          | 12/06/2025   |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
-
----
-### UC42 – Ler e Escrever Comentários
-<p align="center">Tabela 44 - Caso de Uso 42 </p>
-
-| Campo                    | Descrição                                               |
-|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a id="UC44"></a>UC44     | Ler e Escrever Comentários                                        |
-| Descrição                | Permitir ao usuário ler as experiências de outros beneficiários e deixar seus próprios comentários sobre atendimentos. |
-| Ator                     | Usuário do aplicativo GDF Saúde |
-| Pré-condições            | 1. Usuário está logado. <br>2. Usuário está visualizando o perfil de uma clínica ou profissional.|
-| Ação                     | Usuário acessa a seção de comentários para ler as avaliações ou preenche o campo de texto para submeter um novo comentário.                                                                                                                |
-| Fluxo principal          | - Leitura: Usuário acessa a aba "Avaliações" e percorre a lista de comentários existentes. <br>- Escrita: Na mesma tela, usuário toca em "Deixar um comentário", digita seu feedback no campo de texto e toca em "Enviar".              |
-| Fluxo alternativo        | - Ao escrever um comentário, o usuário decide cancelar a ação antes de enviar. <br>- O usuário toca no botão "Cancelar" e o sistema o retorna à tela anterior sem salvar o rascunho.     |
-| Fluxo de exceção         | - O comentário do usuário contém termos inadequados bloqueados pelo sistema. <br>- Ao tentar enviar, o sistema exibe uma mensagem informando que o comentário não pode ser publicado e destaca as diretrizes da comunidade.                |
-| Pós-condições            | Usuário visualiza os comentários de outros ou tem seu novo comentário submetido com sucesso para moderação e publicação. |
-| Rastreabilidade          | [RF02.2](../../elicitacao/requisitos_finais.md#RF02.2) |
-| Data de criação          | 12/06/2025   |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
-
----
-### UC43 – Visualizar Comentários Relevantes
-<p align="center">Tabela 45 - Caso de Uso 43 </p>
-
-| Campo                    | Descrição                                                 |
-|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a id="UC45"></a>UC45     | Visualizar Comentários Relevantes                                |
-| Descrição                | Permitir ao usuário visualizar primeiro os comentários que o sistema classifica automaticamente como os mais "relevantes", com base em critérios como utilidade e palavras-chave.                                                           |
-| Ator                     | Usuário do aplicativo GDF Saúde    |
-| Pré-condições            | Usuário está na seção de avaliações de uma clínica que possui múltiplos comentários. |
-| Ação                     | Usuário abre a lista de comentários de um profissional ou clínica. |
-| Fluxo principal          | - Usuário acessa a aba de "Avaliações" de uma clínica. <br>- A lista de comentários é carregada. <br>- O sistema, por padrão, exibe no topo os comentários que foram identificados como os mais relevantes.                                      |
-| Fluxo alternativo        | - O usuário prefere ver os comentários mais recentes. <br>- O usuário seleciona a opção de ordenação "Mais Recentes". <br>- O sistema recarrega a lista, exibindo os comentários em ordem cronológica decrescente.                             |
-| Fluxo de exceção         | - A clínica não possui comentários suficientes para que a classificação por relevância seja significativa. <br>- O sistema exibe todos os comentários disponíveis, ordenados por data como padrão alternativo.                                |
-| Pós-condições            | O usuário tem acesso rápido às opiniões consideradas mais úteis, otimizando seu tempo de análise. |
-| Rastreabilidade          | [RF02.3](../../elicitacao/requisitos_finais.md#RF02.3)  |
-| Data de criação          | 12/06/2025   |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
-
 
 ## Referência Bibliográfica
 
@@ -1158,11 +1109,9 @@ Lucid Software Português. *Tutorial de Caso de Uso UML*. Youtube, 25 abr. 2019.
 |`1.8`  | 08/06/2025  | Adição de ancoras | [Isaque Camargos](https://github.com/isaqzin) | [Lucas Alves](https://github.com/LucasAlves71) |
 |`1.9`  | 17/05/2025  | Retirando o diagrama de caso de uso referente aos requisitos funcionais da Ana| [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Kaleb Macedo](https://github.com/kalebmacedo) |
 |`2.0`  | 11/06/2025  | Corrigi os meus cenários, retirando as especificações e diagrama dos casos de uso de requisitos não funcionais e criando casos de uso para os requisitos: RF01.1, RF01.2, RF01.3, RF01.4, RF01.5, RF02.1, RF02.2 e RF02.3 .  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
-<<<<<<< HEAD
 |`2.1`  | 20/06/2025  | Criando casos de uso para os requisitos: RF12.1, RF12.2, RF12.3, RF12.4, RF12.5, RF12.6 | [Othavio Bolzan](https://github.com/bolzanMGB) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | 
+|`2.2`  | 21/06/2025  | Adição dos meus casos de uso certos, além da enumeração e padronização do documento  | [Lucas Alves](https://github.com/LucasAlves71) | [Kaleb Macedo](https://github.com/kalebmacedo) |
+|`2.3`  | 21/06/2025  | Renomeação dos casos de uso  | [Othavio Bolzan](https://github.com/bolzanMGB) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 
-=======
-|`2.1`  | 21/06/2025  | Adição dos meus casos de uso certos, além da enumeração e padronização do documento  | [Lucas Alves](https://github.com/LucasAlves71) | [Kaleb Macedo](https://github.com/kalebmacedo) |
->>>>>>> origin/main
 
 
