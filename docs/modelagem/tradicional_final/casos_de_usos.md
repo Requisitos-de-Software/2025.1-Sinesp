@@ -49,7 +49,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
 				</tr>
 				<tr>
 					<td><a  href="https://github.com/redjsun">Yzabella Miranda</a></td>
-					<td>Criou o diagrama referentes aos requisitos: RNF15,RF13, RF14 e RF15 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC36, UC37, UC38 e UC39. </td>	
+					<td>Criou o diagrama referentes aos requisitos: RF13, RF14.1, RF14.2, FR15 E RF22 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC35, UC36, UC37, UC38 e UC39. </td>	
 				</tr>
 		</tbody>
 	</table>
@@ -794,13 +794,14 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
 ---
+---
 
-### UC36 – Fazer login via GovBR
-<p align="center">Tabela 38 - Caso de Uso 36 </p>
+### UC35 – Fazer login via GovBR
+<p align="center">Tabela 37 - Caso de Uso 35 </p>
 
 | Campo | Descrição | 
 |-----------------------|-------------------------------------------------------------------------------| 
-| <a id="UC36"></a>UC36 | Fazer login via GovBR |
+| <a id="UC35"></a>UC35 | Fazer login via GovBR |
 | Descrição | Permitir que o usuário acesse o app mediante autenticação GovBR. |
 | Ator | Usuário cadastrado no GovBR |
 | Pré-condições | App instalado, conexão à internet e conta GovBR ativa. |
@@ -809,17 +810,17 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 | Fluxo alternativo | Credenciais inválidas: sistema exibe mensagem de erro e sugere recuperação de senha. |
 | Fluxo de exceção | Falha na conexão com GovBR: sistema informa indisponibilidade temporária. |
 | Pós-condições | Usuário autenticado e com acesso às funcionalidades do app. |
-| Rastreabilidade | [RNF15](../../elicitacao/requisitos_finais.md#RNF15) |
+| Rastreabilidade | [RF22](../../elicitacao/elicitacao.md#RF22) |
 | Data de criação | 17/05/2025 | 
 ---
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
-### UC37 – Consultar rede odontológica
-<p align="center">Tabela 39 - Caso de Uso 37 </p>
+### UC36 – Consultar rede odontológica
+<p align="center">Tabela 38 - Caso de Uso 36 </p>
 
 | Campo | Descrição |
 |-----------------------|-------------------------------------------------------------------------------|
-| <a id="UC37"></a>UC37 | Consultar rede odontológica |
+| <a id="UC36"></a>UC36 | Consultar rede odontológica |
 | Descrição | Permitir ao usuário buscar clínicas odontológicas cadastradas. |
 | Ator | Usuário autenticado |
 | Pré-condições | Usuário estar logado via GovBR. |
@@ -828,37 +829,56 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 | Fluxo alternativo | Nenhum resultado: sistema sugere ampliar critérios de busca. |
 | Fluxo de exceção | Falha na conexão: sistema notifica "Tente novamente mais tarde". |
 | Pós-condições | Usuário visualiza clínicas odontológicas compatíveis. |
-| Rastreabilidade | [RF13](../../elicitacao/requisitos_finais.md#RF13) |
+| Rastreabilidade | [RF13](../../elicitacao/elicitacao.md#RF13) |
 | Data de criação | 17/05/2025 | 
 ---
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
-### UC38 – Buscar clínicas próximas
+# UC37 – Apresentar Novas Clínicas Próximas
+
+| Campo | Descrição |
+|---|---|
+| <a id="UC37.1"></a>UC37| Apresentar Novas Clínicas Próximas|
+| Descrição | Exibir novas clínicas que surgiram na região do usuário, com base em sua localização. |
+| Ator | Usuário autenticado |
+| Pré-condições | Usuário logado e permissão para uso de geolocalização. |
+| Ação| O sistema detecta a localização do usuário e apresenta uma lista de novas clínicas na proximidade. |
+| Fluxo principal | 1. Usuário acessa a opção "Novas Unidades de Saúde Próximas".<br>2. Sistema detecta a localização automática do usuário.<br>3. Exibe uma lista de novas clínicas em ordem de proximidade. |
+| Fluxo alternativo | Localização automática falha: usuário insere o endereço manualmente. |
+| Fluxo de exceção | Geolocalização desativada: sistema solicita ativação ou entrada manual. |
+| Pós-condições | Usuário visualiza novas clínicas próximas ou resultados conforme o endereço inserido. |
+| Rastreabilidade | [RF14.1](../../elicitacao/elicitacao.md#RF14.1) |
+| Data de criação | 20/06/2025 |
+
+<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
+---
+
+# UC38 – Apresentar Clínicas Próximas
+
+| Campo | Descrição |
+|---|---|
+| <a id="UC38"></a>UC38| Apresentar Clínicas Próximas |
+| Descrição| Exibir clínicas existentes na região do usuário, com base em sua localização. |
+| Ator | Usuário autenticado |
+| Pré-condições | Usuário logado e permissão para uso de geolocalização. |
+| Ação| O sistema detecta a localização do usuário e apresenta uma lista de clínicas próximas. |
+| Fluxo principal | 1. Usuário acessa a opção "Buscar Unidades de Saúde Próximas".<br>2. Sistema detecta a localização automática do usuário.<br>3. Exibe uma lista de clínicas em ordem de proximidade. |
+| Fluxo alternativo | Localização automática falha: usuário insere o endereço manualmente. |
+| Fluxo de exceção | Geolocalização desativada: sistema solicita ativação ou entrada manual. |
+| Pós-condições | Usuário visualiza clínicas próximas ou resultados conforme o endereço inserido. |
+| Rastreabilidade | [RF14.2](../../elicitacao/elicitacao.md#RF14.2) |
+|Data de criação | 20/06/2025 |
+
+<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
+
+---
+
+### UC39 – Baixar comprovante de agendamento
 <p align="center">Tabela 40 - Caso de Uso 38 </p>
 
 | Campo | Descrição |
-|-----------------------|-------------------------------------------------------------------------------| 
-| <a id="UC38"></a>UC38| Buscar clínicas próximas |
-| Descrição | Apresentar clínicas próximas com base na localização do usuário. |
-| Ator | Usuário autenticado |
-| Pré-condições | Usuário logado e permissão para uso de geolocalização. |
-| Ação| O sistema detecta a localização do usuário e exibe clínicas próximas. |
-| Fluxo principal | 1. Usuário acessa "Buscar Unidades de Saúde Próximas".<br>2. Sistema detecta localização automática.<br>3. Exibe lista de clínicas em ordem de proximidade. |
-| Fluxo alternativo | Localização automática falha: usuário insere endereço manualmente. |
-| Fluxo de exceção | Geolocalização desativada: sistema solicita ativação ou entrada manual. |
-| Pós-condições | Usuário visualiza clínicas próximas ou resultados conforme endereço. |
-| Rastreabilidade | [RF14](../../elicitacao/requisitos_finais.md#RF14) |
-| Data de criação | 17/05/2025 | 
----
-<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
-
-### UC39 – Baixar comprovante de agendamento
-
-<p align="center">Tabela 41 - Caso de Uso 39 </p>
-
-| Campo | Descrição |
 |-----------------------|-------------------------------------------------------------------------------|
-| <a id="UC39"></a>UC39 | Baixar comprovante de agendamento |
+| <a id="UC38"></a>UC38 | Baixar comprovante de agendamento |
 | Descrição | Permitir ao usuário baixar comprovantes de agendamentos realizados. |
 | Ator | Usuário autenticado com agendamento ativo. |
 | Pré-condições | Usuário logado e agendamento confirmado. |
@@ -867,7 +887,7 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 | Fluxo alternativo | Comprovante expirado: sistema notifica "Agendamento não encontrado". |
 | Fluxo de exceção | Falha no servidor: sistema exibe mensagem de erro. |
 | Pós-condições | Comprovante é salvo no dispositivo do usuário. |
-| Rastreabilidade | [RF15](../../elicitacao/requisitos_finais.md#RF15) |
+| Rastreabilidade | [RF15](../../elicitacao/elicitacao.md#RF15) |
 | Data de criação | 17/05/2025 |
 
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
