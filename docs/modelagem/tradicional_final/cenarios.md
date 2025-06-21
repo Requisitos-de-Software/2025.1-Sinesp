@@ -45,7 +45,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
             </tr>
             <tr>
                 <td><a href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a></td>
-                <td>Criou os cenários: 11, 12, 33 e 34.</td>
+                <td>Criou os cenários  referentes aos requisitos:: RF11, RF12.1, RF12.2, RF12.3, RF12.4, RF12.5 e RF12.</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></td>
@@ -602,28 +602,126 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 | **Restrições**      | Só permite enviar após o atendimento constar no histórico; comentários não podem ser ofensivos.                                                                                                                                                                           |
 | **Episódios**       | 1. Usuário acessa o app.<br>2. Abre “Histórico de Atendimentos”.<br>3. Seleciona atendimento e clica em “Enviar Feedback”.<br>4. Preenche nota e comentário.<br>5. Envia o feedback.                                                                                        |
 
-<p align="center">Fonte: Adaptado de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
 
 ---
 
-### Cenário 12: Divulgar informações sobre novas funcionalidades no aplicativo  
-**Requisito Associado:** [RF12](../../../elicitacao/requisitos_finais/#RF12)  
+### Cenário 12 – Apresentar uma Seção no Menu Principal Chamada "Novidades"
+**Requisito Associado:** [RF12.1](../../../elicitacao/requisitos_finais/#RF12.1)  
 
-<p align="center">Tabela 14 - Cenário 12</p>
+| Elemento        | Descrição |
+|-----------------|-----------|
+| **ID**          | CE12.1 |
+| **Título**      | Apresentar uma seção no menu principal chamada "Novidades" |
+| **Metas/Objetivos** | Facilitar o acesso dos usuários às informações recentes do app por meio de uma entrada dedicada no menu. |
+| **Contexto**    | O app é aberto e apresenta no menu principal uma nova seção intitulada “Novidades”. |
+| **Ator(es)**    | - Usuário do GDF Saúde <br> - Sistema de menu e interface |
+| **Recursos**    | - App GDF Saúde <br> - Módulo de navegação e layout |
+| **Exceções**    | - Erro na exibição da seção <br> - Menu não atualizado |
+| **Restrições**  | A seção deve ser visível sem ações adicionais por parte do usuário. |
+| **Episódios**   | 1. Usuário abre o app <br> 2. Menu principal é carregado <br> 3. Seção “Novidades” está visível |
 
-| Elemento        | Descrição                                                                                                                                                                                                                                                    |
-|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE12">CE12</a>  |
-| **Título**           | Divulgar informações sobre novas funcionalidades                                                                                                                                                                                                             |
-| **Metas/Objetivos** | Informar os usuários sobre atualizações e incentivá‑los a usar novos **Recursos**.                                                                                                                                                                               |
-| **Contexto**        | Após atualização do app com nova função “Chat com Profissionais”, o sistema exibe uma notificação no primeiro acesso.                                                                                                                                         |
-| **Ator(es)**        | - Usuário do GDF Saúde.<br>- Sistema de notificações e gerenciamento de versões.                                                                                                                                                                              |
-| **Recursos**        | - App GDF Saúde.<br>- Banco de dados de funcionalidades e changelogs.<br>- Sistema de notificações.                                                                                                                                                            |
-| **Exceções**        | - Usuário ignora ou não vê a notificação.<br>- Falha na exibição devido a erro no update.                                                                                                                                                                     |
-| **Restrições**      | Notificação exibida apenas uma vez por funcionalidade, de forma não intrusiva.                                                                                                                                                                                |
-| **Episódios**       | 1. Atualização instalada.<br>2. Usuário abre o app.<br>3. Notificação sobre a novidade é exibida.<br>4. Usuário clica para saber mais.<br>5. Funcionalidade é apresentada com instruções.                                                                     |
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
-<p align="center">Fonte: Adaptado de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+---
+
+### Cenário 13 – Exibir Lista de Funcionalidades com Título, Descrição e Data
+**Requisito Associado:** [RF12.2](../../../elicitacao/requisitos_finais/#RF12.2)  
+
+| Elemento        | Descrição |
+|-----------------|-----------|
+| **ID**          | CE12.2 |
+| **Título**      | Exibir lista de funcionalidades com título, descrição e data de lançamento |
+| **Metas/Objetivos** | Permitir que o usuário se informe sobre as funcionalidades lançadas recentemente. |
+| **Contexto**    | Ao acessar a seção “Novidades”, o usuário visualiza uma lista de funcionalidades lançadas. |
+| **Ator(es)**    | - Usuário do GDF Saúde <br> - Sistema de exibição de novidades |
+| **Recursos**    | - App GDF Saúde <br> - Banco de dados de funcionalidades |
+| **Exceções**    | - Falha ao carregar a lista <br> - Lista vazia |
+| **Restrições**  | Os dados devem ser exibidos de forma legível e organizada |
+| **Episódios**   | 1. Usuário acessa seção “Novidades” <br> 2. Lista de funcionalidades é exibida com título, descrição e data |
+
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+---
+
+### Cenário 14 – Destacar Funcionalidades com Marcador "Novo"
+**Requisito Associado:** [RF12.3](../../../elicitacao/requisitos_finais/#RF12.3)  
+
+| Elemento        | Descrição |
+|-----------------|-----------|
+| **ID**          | CE12.3 |
+| **Título**      | Destacar funcionalidades novas com marcador "Novo" |
+| **Metas/Objetivos** | Ajudar o usuário a identificar rapidamente o que foi recentemente lançado. |
+| **Contexto**    | Na lista de novidades, as funcionalidades lançadas recentemente exibem um marcador "Novo". |
+| **Ator(es)**    | - Usuário do GDF Saúde <br> - Sistema de exibição de marcadores |
+| **Recursos**    | - App GDF Saúde <br> - Banco de dados de lançamento |
+| **Exceções**    | - Data de lançamento incorreta <br> - Marcador não exibido corretamente |
+| **Restrições**  | Marcador deve ser exibido apenas por um período configurável (ex: 7 dias) |
+| **Episódios**   | 1. Usuário abre a seção “Novidades” <br> 2. Funcionalidades lançadas nos últimos 7 dias exibem o marcador "Novo" |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+---
+
+### Cenário 15 – Exibir Pop-ups Informativos com as Principais Novidades
+**Requisito Associado:** [RF12.4](../../../elicitacao/requisitos_finais/#RF12.4)  
+
+| Elemento        | Descrição |
+|-----------------|-----------|
+| **ID**          | CE12.4 |
+| **Título**      | Exibir pop-ups informativos com as principais novidades após atualização |
+| **Metas/Objetivos** | Informar imediatamente o usuário sobre novas funcionalidades após atualização do app. |
+| **Contexto**    | Ao abrir o app após uma atualização, um pop-up apresenta um resumo das novidades. |
+| **Ator(es)**    | - Usuário do GDF Saúde <br> - Sistema de notificações e controle de versão |
+| **Recursos**    | - App GDF Saúde <br> - Sistema de notificações e changelog |
+| **Exceções**    | - Pop-up não aparece <br> - Usuário ignora o conteúdo |
+| **Restrições**  | Pop-up exibido uma única vez por funcionalidade |
+| **Episódios**   | 1. App é atualizado <br> 2. Usuário abre o app <br> 3. Pop-up com novidades é exibido |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+---
+
+## Cenário 16 – Ver Descrição Detalhada ao Tocar na Funcionalidade
+**Requisito Associado:** [RF12.5](../../../elicitacao/requisitos_finais/#RF12.5)  
+
+
+| Elemento        | Descrição |
+|-----------------|-----------|
+| **ID**          | CE12.5 |
+| **Título**      | Permitir que o usuário toque em uma funcionalidade para ver detalhes |
+| **Metas/Objetivos** | Fornecer informações completas sobre as funcionalidades listadas. |
+| **Contexto**    | O usuário toca em uma funcionalidade na seção de novidades e acessa a descrição detalhada. |
+| **Ator(es)**    | - Usuário do GDF Saúde <br> - Sistema de navegação |
+| **Recursos**    | - App GDF Saúde <br> - Banco de dados de funcionalidades |
+| **Exceções**    | - Erro ao carregar os detalhes |
+| **Restrições**  | Funcionalidade precisa estar presente na lista |
+| **Episódios**   | 1. Usuário acessa a seção de novidades <br> 2. Toca em uma funcionalidade <br> 3. Sistema exibe detalhes |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+---
+
+### Cenário 17: Ordenar Novidades por Mais Recente ou Mais Antigo  
+**Requisito Associado:** [RF12.6](../../../elicitacao/requisitos_finais/#RF12.6)  
+
+<p align="center">Tabela x - Cenário x</p>
+
+| Elemento        | Descrição |
+|-----------------|-----------|
+| **ID**          | CE12.6 |
+| **Título**      | Permitir ordenação das novidades por "mais recente" e "mais antigo" |
+| **Metas/Objetivos** | Facilitar a navegação do usuário entre diferentes novidades conforme sua preferência. |
+| **Contexto**    | O usuário acessa a lista de novidades e escolhe como deseja ordenar os itens. |
+| **Ator(es)**    | - Usuário do GDF Saúde <br> - Sistema de exibição de lista |
+| **Recursos**    | - App GDF Saúde <br> - Banco de dados de funcionalidades |
+| **Exceções**    | - Ordenação não funciona corretamente |
+| **Restrições**  | Lista deve ser reordenada imediatamente após seleção |
+| **Episódios**   | 1. Usuário acessa lista de novidades <br> 2. Seleciona ordenação <br> 3. Lista é reorganizada |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
 ---
 

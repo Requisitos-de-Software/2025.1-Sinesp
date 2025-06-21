@@ -126,7 +126,7 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 <p align="center">Figura 6 - Caso de uso UC32 a UC34 </p>
 <p align="center">
-  <img src="..\..\assets\casos-uso\casos-uso-othavio2.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
+  <img src="..\..\assets\casos-uso\casos-de-uso-othavio-novo.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a></p>
@@ -758,28 +758,141 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 | Data de criação | 17/05/2025 | 
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
+---
 
+<<<<<<< HEAD
+=======
 ### UC31 – Acessar Informações sobre Novas Funcionalidades
 <p align="center">Tabela 33 - Caso de Uso 31 </p>
+>>>>>>> origin/main
 
-| Campo | Descrição | 
-|-----------------------|-------------------------------------------------------------------------------| 
-| <a id="UC34"></a>UC34 |Acessar Informações sobre Novas Funcionalidades    |
-| Descrição | Permitir que o usuário acesse informações divulgadas pelo sistema sobre novas funcionalidades do aplicativo. |
-| Ator | - Usuário do plano de saúde. -Sistema do GDF Saúde  |
-| Pré-condições | 1. Aplicativo iniciado <br> 2. Conexão com a internet ativ|
-| Ação | Sistema adiciona informações sobre novas funcionalidades; usuário acessa e visualiza essas informações. |
-| Fluxo principal |- Sistema publica nova funcionalidade <br> - Usuário acessa área de novidades <br> - Visualiza detalhes da funcionalidade. |
-| Fluxo alternativo |- Usuário não acessa a área de novidades <br> - Nenhuma ação ocorre.| 
-| Fluxo de exceção | - Falha na atualização de dados pelo sistema <br> - Problemas de conexão no acesso do usuário.| 
-| Pós-condições | Usuário visualiza informações atualizadas sobre novas funcionalidades. |
-| Rastreabilidade | [RF12](../../elicitacao/requisitos_finais.md#RF12) |
-| Data de criação | 17/05/2025 | 
+### UCXX – Apresentar Seção “Novidades” no Menu Principal
+
+| Campo | Descrição |
+|--------------------|-------------------------------------------------------------|
+| UC34.1 | Apresentar Seção “Novidades” no Menu Principal |
+| Descrição | Permitir que o usuário visualize no menu principal uma nova seção chamada “Novidades”. |
+| Ator | - Usuário do plano de saúde <br> - Sistema do GDF Saúde |
+| Pré-condições | 1. Aplicativo iniciado <br> 2. Conexão com a internet ativada |
+| Ação | Sistema exibe a seção "Novidades" no menu principal. |
+| Fluxo principal | - Sistema atualiza menu <br> - Seção “Novidades” aparece visível para o usuário |
+| Fluxo alternativo | - Menu não atualizado <br> - Seção não aparece até próxima atualização |
+| Fluxo de exceção | - Falha na exibição do menu <br> - Problema de renderização no aplicativo |
+| Pós-condições | Usuário pode acessar a área de novidades a partir do menu principal |
+| Rastreabilidade | [RF12.1](../../elicitacao/requisitos_finais.md#RF12.1) |
+| Data de criação | 20/06/2025 |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
+<<<<<<< HEAD
+---
+
+### UCXX – Exibir Lista de Funcionalidades com Título, Descrição e Data
+
+| Campo | Descrição |
+|--------------------|-------------------------------------------------------------|
+| UC34.2 | Exibir Lista de Funcionalidades com Título, Descrição e Data |
+| Descrição | Permitir que o usuário visualize uma lista contendo as novas funcionalidades, incluindo título, descrição e data de lançamento. |
+| Ator | - Usuário do plano de saúde <br> - Sistema do GDF Saúde |
+| Pré-condições | 1. Aplicativo iniciado <br> 2. Conexão com a internet ativada |
+| Ação | Sistema apresenta uma lista com as informações das novas funcionalidades |
+| Fluxo principal | - Sistema busca e exibe as funcionalidades na tela de novidades |
+| Fluxo alternativo | - Lista vazia ou sem novas entradas <br> - Exibe mensagem de "nenhuma novidade disponível" |
+| Fluxo de exceção | - Falha ao carregar dados do servidor |
+| Pós-condições | Usuário visualiza a lista informativa de funcionalidades lançadas |
+| Rastreabilidade | [RF12.2](../../elicitacao/requisitos_finais.md#RF12.2) |
+| Data de criação | 20/06/2025 |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+---
+
+### UCXX – Destacar Funcionalidades com Marcador “Novo”
+
+| Campo | Descrição |
+|--------------------|-------------------------------------------------------------|
+| UC34.3 | Destacar Funcionalidades com Marcador “Novo” |
+| Descrição | Destacar funcionalidades lançadas recentemente com um marcador visual “Novo” por um período configurável. |
+| Ator | - Usuário do plano de saúde <br> - Sistema do GDF Saúde |
+| Pré-condições | 1. Aplicativo iniciado <br> 2. Conexão com a internet ativada |
+| Ação | Sistema exibe marcador “Novo” para funcionalidades recentes |
+| Fluxo principal | - Funcionalidade foi lançada nos últimos X dias <br> - Sistema adiciona marcador visual “Novo” |
+| Fluxo alternativo | - Funcionalidade foi lançada há mais de X dias <br> - Nenhum marcador é exibido |
+| Fluxo de exceção | - Erro de cálculo no período do marcador |
+| Pós-condições | Funcionalidades novas são facilmente identificáveis pelo usuário |
+| Rastreabilidade | [RF12.3](../../elicitacao/requisitos_finais.md#RF12.3) |
+| Data de criação | 20/06/2025 |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+---
+
+### UCXX – Exibir Pop-ups com Novidades Após Atualização
+
+| Campo | Descrição |
+|--------------------|-------------------------------------------------------------|
+| UC34.4 | Exibir Pop-ups com Novidades Após Atualização |
+| Descrição | Exibir automaticamente pop-ups informativos com as principais novidades sempre que o aplicativo for atualizado. |
+| Ator | - Usuário do plano de saúde <br> - Sistema do GDF Saúde |
+| Pré-condições | 1. Aplicativo recém-atualizado <br> 2. Conexão com a internet ativada |
+| Ação | Sistema apresenta pop-up informativo ao iniciar o app após atualização |
+| Fluxo principal | - Sistema detecta atualização <br> - Pop-up com resumo das novidades é exibido |
+| Fluxo alternativo | - Pop-up já exibido anteriormente <br> - Sistema não exibe novamente |
+| Fluxo de exceção | - Falha na verificação de versão ou na exibição do pop-up |
+| Pós-condições | Usuário toma conhecimento das principais mudanças |
+| Rastreabilidade | [RF12.4](../../elicitacao/requisitos_finais.md#RF12.4) |
+| Data de criação | 20/06/2025 |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+---
+
+### UCXX – Ver Descrição Detalhada de Funcionalidade
+
+| Campo | Descrição |
+|--------------------|-------------------------------------------------------------|
+| UC34.5 | Ver Descrição Detalhada de Funcionalidade |
+| Descrição | Permitir que o usuário acesse uma descrição detalhada de uma nova funcionalidade ao tocá-la na lista de novidades. |
+| Ator | - Usuário do plano de saúde <br> - Sistema do GDF Saúde |
+| Pré-condições | 1. Aplicativo iniciado <br> 2. Conexão com a internet ativada |
+| Ação | Sistema carrega e exibe os detalhes da funcionalidade selecionada |
+| Fluxo principal | - Usuário toca em uma funcionalidade <br> - Detalhes completos são exibidos |
+| Fluxo alternativo | - Nenhuma funcionalidade tocada <br> - Nenhuma ação ocorre |
+| Fluxo de exceção | - Falha no carregamento dos dados detalhados |
+| Pós-condições | Usuário visualiza informações completas da funcionalidade selecionada |
+| Rastreabilidade | [RF12.5](../../elicitacao/requisitos_finais.md#RF12.5) |
+| Data de criação | 20/06/2025 |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+---
+
+### UCXX – Ordenar Novidades por Data
+
+| Campo | Descrição |
+|--------------------|-------------------------------------------------------------|
+| UC34.6 | Ordenar Novidades por Data |
+| Descrição | Permitir que o usuário ordene as novidades exibidas por "mais recente" ou "mais antigo". |
+| Ator | - Usuário do plano de saúde <br> - Sistema do GDF Saúde |
+| Pré-condições | 1. Aplicativo iniciado <br> 2. Conexão com a internet ativada |
+| Ação | Sistema exibe opção de ordenação e reorganiza a lista conforme escolha do usuário |
+| Fluxo principal | - Usuário seleciona critério de ordenação <br> - Sistema aplica filtro e exibe resultado |
+| Fluxo alternativo | - Ordenação não alterada <br> - Lista permanece na ordem padrão |
+| Fluxo de exceção | - Falha na ordenação ou erro na interface de filtro |
+| Pós-condições | Usuário visualiza as novidades ordenadas conforme preferência |
+| Rastreabilidade | [RF12.6](../../elicitacao/requisitos_finais.md#RF12.6) |
+| Data de criação | 20/06/2025 |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+---
+
+### UC35 – Acessar Aplicativo em Modo Offline
+<p align="center">Tabela 37 - Caso de Uso 35 </p>
+=======
 ### UC32 – Acessar Aplicativo em Modo Offline
 <p align="center">Tabela 34 - Caso de Uso 32 </p>
+>>>>>>> origin/main
 
 | Campo | Descrição | 
 |-----------------------|-------------------------------------------------------------------------------| 
@@ -1045,6 +1158,11 @@ Lucid Software Português. *Tutorial de Caso de Uso UML*. Youtube, 25 abr. 2019.
 |`1.8`  | 08/06/2025  | Adição de ancoras | [Isaque Camargos](https://github.com/isaqzin) | [Lucas Alves](https://github.com/LucasAlves71) |
 |`1.9`  | 17/05/2025  | Retirando o diagrama de caso de uso referente aos requisitos funcionais da Ana| [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Kaleb Macedo](https://github.com/kalebmacedo) |
 |`2.0`  | 11/06/2025  | Corrigi os meus cenários, retirando as especificações e diagrama dos casos de uso de requisitos não funcionais e criando casos de uso para os requisitos: RF01.1, RF01.2, RF01.3, RF01.4, RF01.5, RF02.1, RF02.2 e RF02.3 .  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
+<<<<<<< HEAD
+|`2.1`  | 20/06/2025  | Criando casos de uso para os requisitos: RF12.1, RF12.2, RF12.3, RF12.4, RF12.5, RF12.6 | [Othavio Bolzan](https://github.com/bolzanMGB) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | 
+
+=======
 |`2.1`  | 21/06/2025  | Adição dos meus casos de uso certos, além da enumeração e padronização do documento  | [Lucas Alves](https://github.com/LucasAlves71) | [Kaleb Macedo](https://github.com/kalebmacedo) |
+>>>>>>> origin/main
 
 
