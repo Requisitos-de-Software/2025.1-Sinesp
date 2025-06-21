@@ -890,7 +890,7 @@ As figuras 1 a 8 representam as especializações dos casos de uso.
 | Fluxo alternativo | Credenciais inválidas: sistema exibe mensagem de erro e sugere recuperação de senha. |
 | Fluxo de exceção | Falha na conexão com GovBR: sistema informa indisponibilidade temporária. |
 | Pós-condições | Usuário autenticado e com acesso às funcionalidades do app. |
-| Rastreabilidade | [RNF15](../../elicitacao/elicitacao.md#RNF15) |
+| Rastreabilidade | [RF22](../../elicitacao/elicitacao.md#RF22) |
 | Data de criação | 17/05/2025 | 
 ---
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
