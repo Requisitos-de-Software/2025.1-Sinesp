@@ -79,10 +79,10 @@ Evitamos utilizar modelos prontos, buscando adaptar a estrutura às particularid
 ##  Especificação Suplementar Realizada
 
 ### 1. Funcionalidade
-As funcionalidades foram elicitadas e podem ser encontradas em Elicitação de requisitos e nos Casos de usos levantados.
+As funcionalidades foram elicitadas e podem ser encontradas em [Elicitação de requisitos](../../elicitacao/requisitos_finais.md) e nos [Casos de Usos](../tradicional_final/casos_de_usos.md) levantados.
 
 
-### 2. Usabilidade
+### <a id="ES02"></a>2. Usabilidade
 
 Este tópico lista os requisitos que garantem que a interação do usuário com o sistema seja intuitiva, acessível e eficiente.
 
@@ -109,7 +109,7 @@ Este tópico lista os requisitos que garantem que a interação do usuário com 
 
 
 
-### 3. Confiabilidade
+### <a id="ES03"></a>3. Confiabilidade
 
 
 Esta seção trata da estabilidade e segurança dadas pelo sistema, bem como sua capacidade de operar corretamente mesmo em situações inesperadas.
@@ -137,7 +137,7 @@ Esta seção trata da estabilidade e segurança dadas pelo sistema, bem como sua
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>, <a href="https://github.com/isaqzin">Isaque Camargos</a>,  <a href="https://github.com/bolzanMGB">Othavio Bolzan</a>, <a href="https://github.com/redjsun">Yzabella Miranda</a> <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
 
 
-### 4. Suportabilidade
+### <a id="ES04"></a>4. Suportabilidade
 
 Esta seção descreve os requisitos relacionados istema de oferecer manutenção, escalabilidade, adaptabilidade, internacionalização e extensibilidade.
 

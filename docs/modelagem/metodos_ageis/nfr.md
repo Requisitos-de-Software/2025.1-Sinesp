@@ -242,7 +242,7 @@ A Figura 3 apresenta o Gráfico de Interdependência de Softgoals (SIG) para os 
 
 <p align="center">Fonte: (SILVA, 2019)</p>
 
-### NFR 01 - Usabilidade
+### <a id="NFR01"></a>NFR 01 - Usabilidade
 
 Os requisitos utilizados para o NFR 01 (usabilidade) estão presentes na tabela 6, e são:
 
@@ -267,7 +267,7 @@ A figura 4 apresenta o gráfico de interdependência de softgoals (SIG) para o N
 - **RNF10 (Acessibilidade)**: Satisfeito (✓) – A carteirinha digital é acessível em até 3 cliques.
 - **RNF14 (Consistência Visual)**: Indeterminado (u)
 
-### NFR 02 - Desempenho
+### <a id="NFR02"></a>NFR 02 - Desempenho
 
 Os requisitos utilizados para o NFR 02 (desempenho) estão presentes na tabela 6, e são:
 
@@ -287,7 +287,7 @@ A figura 5 apresenta o gráfico de interdependência de softgoals (SIG) para o N
 - **RNF02 (Desempenho)**: Francamente (𝒲-) – Testes mostram que algumas ações possuem tempo de resposta maior que 2s.
 - **RNF08 (Desempenho)**: Satisfeito (✓) – 100% das autorizações prévias são processadas em até 10 dias úteis.
 
-### NFR 03 - Conformidade
+### <a id="NFR03"></a>NFR 03 - Conformidade
 
 Os requisitos utilizados para o NFR 03 (conformidade) estão presentes na tabela 6, e são:
 
@@ -307,7 +307,7 @@ A figura 6 apresenta o gráfico de interdependência de softgoals (SIG) para o N
 
 - **RNF07 (Conformidade)**: Indeterminado (u) – Auditoria pendente para verificar a conformidade com a Portaria nº 127/2024 e LGPD.
 
-### NFR 04 - Acessibilidade
+### <a id="NFR04"></a>NFR 04 - Acessibilidade
 
 Os requisitos utilizados para o NFR 04 (acessibilidade) estão presentes na tabela 6, e são:
 
