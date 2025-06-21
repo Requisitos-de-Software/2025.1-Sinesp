@@ -59,7 +59,7 @@ O termo "Beneficiário" refere-se aos funcionários públicos do GDF e seus depe
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Usuário | Objeto | Titular, Dependente | Titular ou dependente do [plano de Saúde](./lexicos.md#LX38) INAS que utiliza o aplicativo GDF Saúde.| -Usuário é titular ou dependende <br>- Usuário faz [login](./lexicos.md#LX41) <br> - Usuário usa [carteirinha](./lexicos.md#LX12)<br> - Usuário agenda [consulta](./lexicos.md#LX04) <br> | [RF07.1](../../elicitacao/requisitos_finais.md#RF07.1), [RF07.2](../../elicitacao/requisitos_finais.md#RF07.2), [RF07.3](../../elicitacao/requisitos_finais.md#RF07.3), [RF07.4](../../elicitacao/requisitos_finais.md#RF07.4), [RF07.5](../../elicitacao/requisitos_finais.md#RF07.5) |
+| Usuário | Objeto | Titular, Dependente, Usuário titular, Optante | Titular ou dependente do [plano de Saúde](./lexicos.md#LX38) INAS que utiliza o aplicativo GDF Saúde.| -Usuário é titular ou dependende <br>- Usuário faz [login](./lexicos.md#LX41) <br> - Usuário usa [carteirinha](./lexicos.md#LX12)<br> - Usuário agenda [consulta](./lexicos.md#LX04) <br> | [RF07.1](../../elicitacao/requisitos_finais.md#RF07.1), [RF07.2](../../elicitacao/requisitos_finais.md#RF07.2), [RF07.3](../../elicitacao/requisitos_finais.md#RF07.3), [RF07.4](../../elicitacao/requisitos_finais.md#RF07.4), [RF07.5](../../elicitacao/requisitos_finais.md#RF07.5) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a>, <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a> e <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
@@ -265,7 +265,7 @@ Os termos "Prestador" e "Profissional Credenciado" referem-se a profissionais, c
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Prestador | Objeto | Profissional Credenciado | - Profissional, clínica ou laboratório integrante da Rede de Atendimento. | - Executa os serviços contratados pelos [usuários](./lexicos.md#LX01).<br> - O [Beneficiário](./lexicos.md#LX01) seleciona um prestador. | [RF05.1](../../elicitacao/requisitos_finais.md#RF05.1), [RF05.2](../../elicitacao/requisitos_finais.md#RF05.2), [RF18.1](../../elicitacao/requisitos_finais.md#RF18.1), [RF01.1](../../elicitacao/requisitos_finais.md#RF01.1), [RF01.2](../../elicitacao/requisitos_finais.md#RF01.2) |
+| Prestador | Objeto | Profissional Credenciado, Prestador de serviço | - Profissional, clínica ou laboratório integrante da Rede de Atendimento. | - Executa os serviços contratados pelos [usuários](./lexicos.md#LX01).<br> - O [Beneficiário](./lexicos.md#LX01) seleciona um prestador. | [RF05.1](../../elicitacao/requisitos_finais.md#RF05.1), [RF05.2](../../elicitacao/requisitos_finais.md#RF05.2), [RF18.1](../../elicitacao/requisitos_finais.md#RF18.1), [RF01.1](../../elicitacao/requisitos_finais.md#RF01.1), [RF01.2](../../elicitacao/requisitos_finais.md#RF01.2) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>, <a href="https://github.com/LucasAlves71">Lucas Alves</a> e <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
@@ -281,7 +281,7 @@ Os termos "Validar", "Verificar" e "Conferir" estão relacionados à checagem de
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Validar | Verbo | Verificar, Conferir | - Ação de verificar a autenticidade e conformidade dos documentos ou procedimentos.<br> - O sistema valida as informações dos documentos e procedimentos | - Os documentos e procedimentos estão validados<br> - O [Beneficiário](./lexicos.md#LX01) pode utilizar o sistema | [RF07.4](../../elicitacao/requisitos_finais.md#RF07.4), [RF08.1](../../elicitacao/requisitos_finais.md#RF08.1) |
+| Validar | Verbo | Verificar, Conferir, Autenticar | - Ação de verificar a autenticidade e conformidade dos documentos ou procedimentos.<br> - O sistema valida as informações dos documentos e procedimentos | - Os documentos e procedimentos estão validados<br> - O [Beneficiário](./lexicos.md#LX01) pode utilizar o sistema | [RF07.4](../../elicitacao/requisitos_finais.md#RF07.4), [RF08.1](../../elicitacao/requisitos_finais.md#RF08.1) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
@@ -297,7 +297,7 @@ O termo "Elegibilidade" está relacionado à condição que define se o indivíd
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Elegibilidade | Objeto | - | - Condição que define se o indivíduo pode ser incluído no [plano de Saúde](./lexicos.md#LX38).<br> - O [Beneficiário](./lexicos.md#LX01) está elegível para o plano de saúde | - Evita cadastros indevidos e garante o cumprimento das regras do [plano de Saúde](./lexicos.md#LX38). | [RF07.5](../../elicitacao/requisitos_finais.md#RF07.5) |
+| Elegibilidade | Objeto | Aptidão, Qualificação | - Condição que define se o indivíduo pode ser incluído no [plano de Saúde](./lexicos.md#LX38).<br> - O [Beneficiário](./lexicos.md#LX01) está elegível para o plano de saúde | - Evita cadastros indevidos e garante o cumprimento das regras do [plano de Saúde](./lexicos.md#LX38). | [RF07.5](../../elicitacao/requisitos_finais.md#RF07.5) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
@@ -313,7 +313,7 @@ O termo "TABGDFSAÚDE" refere-se à tabela de procedimentos autorizados e cobert
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| TABGDFSAÚDE | Objeto | - | - Tabela de procedimentos autorizados e cobertos pelo [plano de Saúde](./lexicos.md#LX38). | - O [Beneficiário](./lexicos.md#LX01) visualiza o que é permitido e financiado pelo [plano de Saúde](./lexicos.md#LX38). | [RF08.1](../../elicitacao/requisitos_finais.md#RF08.1) |
+| TABGDFSAÚDE | Objeto | Tabela de procedimentos | - Tabela de procedimentos autorizados e cobertos pelo [plano de Saúde](./lexicos.md#LX38). | - O [Beneficiário](./lexicos.md#LX01) visualiza o que é permitido e financiado pelo [plano de Saúde](./lexicos.md#LX38). | [RF08.1](../../elicitacao/requisitos_finais.md#RF08.1) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
@@ -329,7 +329,7 @@ O termo "DUT" refere-se à Diretriz de Utilização Técnica.
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| DUT | Objeto | - | - Diretriz de Utilização Técnica. | - Orienta decisões médicas e administrativas para autorizações. | [RF08.1](../../elicitacao/requisitos_finais.md#RF08.1) |
+| DUT | Objeto | Diretriz Técnica | - Diretriz de Utilização Técnica. | - Orienta decisões médicas e administrativas para autorizações. | [RF08.1](../../elicitacao/requisitos_finais.md#RF08.1) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
@@ -345,7 +345,7 @@ O termo "Carência" refere-se ao período em que o usuário ainda não tem direi
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Carência | Objeto | - | - Período em que o usuário ainda não tem direito a determinados serviços. - O [Beneficiário](./lexicos.md#LX01) possui um período de carência | - Controla o acesso gradual aos benefícios do [plano de Saúde](./lexicos.md#LX38). | [RF08.1](../../elicitacao/requisitos_finais.md#RF08.1), [RF16](../../elicitacao/requisitos_finais.md#RF16) |
+| Carência | Objeto | Período de espera | - Período em que o usuário ainda não tem direito a determinados serviços. - O [Beneficiário](./lexicos.md#LX01) possui um período de carência | - Controla o acesso gradual aos benefícios do [plano de Saúde](./lexicos.md#LX38). | [RF08.1](../../elicitacao/requisitos_finais.md#RF08.1), [RF16](../../elicitacao/requisitos_finais.md#RF16) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
@@ -361,7 +361,7 @@ O termo "Exclusão" refere-se a procedimento ou situação não coberta pelo [pl
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Exclusão | Objeto | - | - Procedimento ou situação não coberta pelo [plano de Saúde](./lexicos.md#LX38). | - Evita solicitações indevidas ou que violem as regras contratuais. | [RF08.1](../../elicitacao/requisitos_finais.md#RF08.1) |
+| Exclusão | Objeto | Não cobertura | - Procedimento ou situação não coberta pelo [plano de Saúde](./lexicos.md#LX38). | - Evita solicitações indevidas ou que violem as regras contratuais. | [RF08.1](../../elicitacao/requisitos_finais.md#RF08.1) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
@@ -377,7 +377,7 @@ O termo "Solicitação Médica" refere-se ao pedido emitido por profissional de 
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Solicitação Médica | Objeto | - | - Pedido emitido por profissional de saúde para execução de um procedimento.<br> - Os procedimentos da [TABGDFSAÚDE](./lexicos.md#LX17) podem estar excluídos. | - Inicia o processo de autorização técnica. | [RF08.1](../../elicitacao/requisitos_finais.md#RF08.1) |
+| Solicitação Médica | Objeto | Pedido médico, Prescrição | - Pedido emitido por profissional de saúde para execução de um procedimento.<br> - Os procedimentos da [TABGDFSAÚDE](./lexicos.md#LX17) podem estar excluídos. | - Inicia o processo de autorização técnica. | [RF08.1](../../elicitacao/requisitos_finais.md#RF08.1) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
@@ -393,7 +393,7 @@ O termo "Análise Técnica" refere-se à avaliação feita pela equipe técnica 
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Análise Técnica | Objeto | - | - Avaliação feita pela equipe técnica para [validar](./lexicos.md#LX15) o procedimento. | - Assegura que apenas procedimentos elegíveis sejam autorizados. | [RF08.1](../../elicitacao/requisitos_finais.md#RF08.1) |
+| Análise Técnica | Objeto | Avaliação técnica, Perícia | - Avaliação feita pela equipe técnica para [validar](./lexicos.md#LX15) o procedimento. | - Assegura que apenas procedimentos elegíveis sejam autorizados. | [RF08.1](../../elicitacao/requisitos_finais.md#RF08.1) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
@@ -409,7 +409,7 @@ O termo "Calendário Personalizado" refere-se à ferramenta visual que mostra ev
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Calendário Personalizado | Objeto | - | - Ferramenta visual que mostra eventos e prazos relacionados ao [plano de Saúde](./lexicos.md#LX38).<br> - As [consultas](./lexicos.md#LX04) [agendadas](./lexicos.md#LX24), prazos de [carência](./lexicos.md#LX19) e [vencimento](./lexicos.md#LX25) são exibidos no calendário. | - Centraliza informações importantes e melhora a gestão da saúde pessoal.<br> - O [Beneficiário](./lexicos.md#LX01) pode [visualizar](./lexicos.md#LX11) o calendário. | [RF16](../../elicitacao/requisitos_finais.md#RF16) 
+| Calendário Personalizado | Objeto | Agenda personalizada | - Ferramenta visual que mostra eventos e prazos relacionados ao [plano de Saúde](./lexicos.md#LX38).<br> - As [consultas](./lexicos.md#LX04) [agendadas](./lexicos.md#LX24), prazos de [carência](./lexicos.md#LX19) e [vencimento](./lexicos.md#LX25) são exibidos no calendário. | - Centraliza informações importantes e melhora a gestão da saúde pessoal.<br> - O [Beneficiário](./lexicos.md#LX01) pode [visualizar](./lexicos.md#LX11) o calendário. | [RF16](../../elicitacao/requisitos_finais.md#RF16) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
@@ -425,7 +425,7 @@ O termo "Consulta Agendada" refere-se ao compromisso de atendimento clínico já
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Consulta Agendada | Estado | - | - [Consulta](./lexicos.md#LX04) está registrada no sistema.<br> - O [Beneficiário](./lexicos.md#LX01) agendou uma consulta. | - | [RF16](../../elicitacao/requisitos_finais.md#RF16), [RF10](../../elicitacao/requisitos_finais.md#RF10), [RF04.8](../../elicitacao/requisitos_finais.md#RF04.8), [RF04.6](../../elicitacao/requisitos_finais.md#RF04.6) e [RF04.7](../../elicitacao/requisitos_finais.md#RF04.7)|
+| Consulta Agendada | Estado | Compromisso médico | - [Consulta](./lexicos.md#LX04) está registrada no sistema.<br> - O [Beneficiário](./lexicos.md#LX01) agendou uma consulta. | - | [RF16](../../elicitacao/requisitos_finais.md#RF16), [RF10](../../elicitacao/requisitos_finais.md#RF10), [RF04.8](../../elicitacao/requisitos_finais.md#RF04.8), [RF04.6](../../elicitacao/requisitos_finais.md#RF04.6) e [RF04.7](../../elicitacao/requisitos_finais.md#RF04.7)|
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a>, <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a> e <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -441,7 +441,7 @@ O termo "Vencimento" refere-se à data limite para uso de um benefício, pagamen
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Vencimento | Objeto | - | Data limite para uso de um benefício, pagamento ou renovação. | Evita perdas de prazos e interrupções de serviços. | [RF16](../../elicitacao/requisitos_finais.md#RF16), [RF04.1](../../elicitacao/requisitos_finais.md#RF04.1)|
+| Vencimento | Objeto | Data limite, Prazo | Data limite para uso de um benefício, pagamento ou renovação. | Evita perdas de prazos e interrupções de serviços. | [RF16](../../elicitacao/requisitos_finais.md#RF16), [RF04.1](../../elicitacao/requisitos_finais.md#RF04.1)|
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a> e <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -457,7 +457,7 @@ O termo "Denunciar" refere-se à ação de relatar comportamento inadequado ou a
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Denunciar | Verbo | - | - Ação de relatar comportamento inadequado ou antiético.<br> - O [Beneficiário](./lexicos.md#LX01) relata uma denúncia no sistema. | - A denúncia é listada e fica vinculada à  | [RF18.1](../../elicitacao/requisitos_finais.md#RF18.1) |
+| Denunciar | Verbo | Reportar, Relatar | - Ação de relatar comportamento inadequado ou antiético.<br> - O [Beneficiário](./lexicos.md#LX01) relata uma denúncia no sistema. | - A denúncia é listada e fica vinculada à  | [RF18.1](../../elicitacao/requisitos_finais.md#RF18.1) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
@@ -473,7 +473,7 @@ O termo "Conduta Inadequada" refere-se ao comportamento que fere princípios ét
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Conduta Inadequada | Objeto | - | Comportamento que fere princípios éticos ou profissionais. | Gera ações corretivas e melhora a segurança do [Beneficiário](./lexicos.md#LX01). | [RF18.1](../../elicitacao/requisitos_finais.md#RF18.1) |
+| Conduta Inadequada | Objeto | Comportamento impróprio, Má conduta | Comportamento que fere princípios éticos ou profissionais. | Gera ações corretivas e melhora a segurança do [Beneficiário](./lexicos.md#LX01). | [RF18.1](../../elicitacao/requisitos_finais.md#RF18.1) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
@@ -598,7 +598,7 @@ O termo "Login" refere-se ao acesso inicial do [Beneficiário](./lexicos.md#LX01
 
 | Termo | Tipo | Sinônimos | Noção | Impacto | Requisitos |
 | --- | --- | --- | --- | --- | --- |
-| Login | Objeto | - | - Acesso inicial do [Beneficiário](./lexicos.md#LX01) ao sistema após autenticação. | - O [Beneficiário](./lexicos.md#LX01) entra no aplicativo | [RF22](../../elicitacao/requisitos_finais.md#RF22), [RF19](../../elicitacao/requisitos_finais.md#RF19) |
+| Login | Objeto | Autenticação, Acesso | - Acesso inicial do [Beneficiário](./lexicos.md#LX01) ao sistema após autenticação. | - O [Beneficiário](./lexicos.md#LX01) entra no aplicativo | [RF22](../../elicitacao/requisitos_finais.md#RF22), [RF19](../../elicitacao/requisitos_finais.md#RF19) |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/redjsun">Yzabella Miranda</a> e <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -668,7 +668,9 @@ O termo "Chat" refere-se a um canal de comunicação em tempo real via texto.
 
 ---
 
-## Léxico 40: <a id="LX40"></a>Favoritar horários de consulta
+## Léxico  40: <a id="LX40"></a>Favoritar horários de consulta
+
+
 
 **Requisitos relacionados:** [RF10](../../elicitacao/requisitos_finais.md#RF10)
 
@@ -946,3 +948,4 @@ SERRANO, Milene; SERRANO, Maurício. **Engenharia de Requisitos – Aula 10: Mod
 | `1.3` | 20/06/2025 | Adição dos léxicos para os requisitos refinados RF05.1, RF05.2, RF06.1-RF06.5 e RF17 | [Kaleb Macedo](https://github.com/kalebmacedo) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
 | `1.4` | 19/06/2025 | Correção da rastreabilidade para as novas versões dos requisitos RF09.1, RF09.2, RF09.3, RF09.4, RF10, RF20, RNF11 e RNF12 | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Isaque Camargos](https://github.com/isaqzin) |
 | `1.5` | 21/06/2025 | Correção na rastreabilidado dos requisitos que faltavam e na rastrebailidade dos léxicos para padronizar os ids, além de criar novos léxicos para os meus RNF e RF que não haviam léxicos | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Isaque Camargos](https://github.com/isaqzin) |
+| `1.6` | 25/06/2025 | Adição de sinônimos aos léxicos com base nos meus cenários | [Lucas Alves](https://github.com/LucasAlves71) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
