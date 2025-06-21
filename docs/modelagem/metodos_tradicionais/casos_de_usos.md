@@ -47,7 +47,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
 				</tr>
 				<tr>
 					<td><a  href="https://github.com/redjsun">Yzabella Miranda</a></td>
-					<td>Criou o diagrama referentes aos requisitos: RNF15,RF13, RF14 e RF15 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC35, UC36, UC37 e UC38. </td>	
+					<td>Criou o diagrama referentes aos requisitos: RF13, RF14, RF15 e RF22.1 e RF22.2. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC35, UC36, UC37, UC38 e UC39. </td>	
 				</tr>
 		</tbody>
 	</table>
