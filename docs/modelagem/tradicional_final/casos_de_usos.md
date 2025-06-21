@@ -49,7 +49,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
 				</tr>
 				<tr>
 					<td><a  href="https://github.com/redjsun">Yzabella Miranda</a></td>
-					<td>Criou o diagrama referentes aos requisitos: RF13, RF14.1, RF14.2, FR15 E RF22 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC35, UC36, UC37, UC38 e UC39. </td>	
+					<td>Criou o diagrama referentes aos requisitos: RF3, RF13, RF14.1, RF14.2, FR15 E RF22. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC09, UC35, UC36, UC37, UC38 e UC39. </td>	
 				</tr>
 		</tbody>
 	</table>
@@ -261,7 +261,7 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 | Rastreabilidade    |  [RF03](../../elicitacao/requisitos_finais.md#RF03)               |
 | Data de criação    | 15/05/2025                                                                |
 
-<p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
+<p align="center">Fonte: Autoria de <a src="https://github.com/redjsun" targe="_blank">Yzabella Miranda</a></p>
 
 ---
 

@@ -49,7 +49,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
             </tr>
             <tr>
                 <td><a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></td>
-                <td>Ajustou a tabela 1 e criou os cenários: 13, 14, 15, 35 e 36.</td>
+                <td>Realizou o ajuste da tabela 1, que estava quebra. Além disso, criou os cenários referentes aos requisitos: RF3, RF13, RF14.1, RF14.2, RF15 e RF22.</td>
             </tr>
         </tbody>
     </table>
@@ -165,7 +165,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 | **Restrições**      | Depende de download prévio e espaço suficiente no dispositivo.                                                                                                                                                                                       |
 | **Episódios**       | 1. Usuário faz login no GDF Saúde.<br>2. Navega até “Carteirinha” e baixa o arquivo (se necessário).<br>3. Sai do app e abre a galeria de fotos.<br>4. Localiza e visualiza a carteirinha offline.                                                  |
 
-<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
+<p align="center">Fonte: Autoria de <a href="https://github.com/redjsun">Yzabella Miranda</a></p>
 
 ---
 ### Cenário x: Configuração de preferências de notificação pelo usuário  
