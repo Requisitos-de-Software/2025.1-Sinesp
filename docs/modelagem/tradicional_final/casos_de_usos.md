@@ -15,44 +15,44 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
 <p  align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
 <div align="center">
 <div>
-	<table>
-		<thead>
-				<tr>
-					<th>Nome</th>
-					<th>Quais etapas participou</th>
-				</tr>
-		</thead>
-	<tbody>
-				<tr>
-					<td><a  href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
-					<td>Criou o diagrama  e especificações dos casos de uso referentes aos requisitos: RF01.1, RF01.2, RF01.3, RF01.4, RF01.5, RF02.1, RF02.2, RF02.3 e RF21.</0td>	
-				</tr>
-				<tr>
-					<td><a  href="https://github.com/isaqzin">Isaque Camargos</a></td>
-					<td>Criou o diagrama referentes aos requisitos: RF03,RF04.1, RF04.9 e RF19. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC07, UC08, UC09,  UC10, UC11 e UC12. Além disso, criou o documento inicial. </td>	
-				</tr>
-				<tr>
-					<td><a  href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
-					<td>Criou o diagrama referentes aos requisitos: RF05, RF06, RF17 RNF07 e RNF08 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC13, UC14, UC15,  UC16, UC17, UC18, UC19 e UC20. </td>	
-				</tr>
-				<tr>
-					<td><a  href="https://github.com/LucasAlves71">Lucas Alves</a></td>
-					<td>Criou o diagrama referentes aos requisitos: RF07,RF08, RNF09, RNF10 e RF18 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC21, UC22, UC23,  UC24, UC25 e UC26. </td>	
-				</tr>
-				<tr>
-					<td><a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
-					<td>Criou o diagrama referentes aos requisitos: RF09.1 a RF09.4, RF10 e RF20. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC27, UC28, UC29, UC30, UC31 e UC32. </td>	
-				</tr>
-				<tr>
-					<td><a  href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
-					<td>Criou o diagrama referentes aos requisitos: RF11,RF12.1, RF12.2, RF12.3, RF12.4, RF12.5, RF12.6, RNF13 e RNF14 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UCXX a UCXX, UCXX e UCXX. </td>	
-				</tr>
-				<tr>
-					<td><a  href="https://github.com/redjsun">Yzabella Miranda</a></td>
-					<td>Criou o diagrama referentes aos requisitos: RNF15,RF13, RF14 e RF15 . Criou as especificações dos casos de uso referente a estes requisitos, sendo eles  UC36, UC37, UC38 e UC39. </td>	
-				</tr>
-		</tbody>
-	</table>
+    <table>
+        <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Quais etapas participou</th>
+                </tr>
+        </thead>
+    <tbody>
+                <tr>
+                    <td><a  href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+                    <td>Criou o diagrama  e especificações dos casos de uso referentes aos requisitos: RF01.1, RF01.2, RF01.3, RF01.4, RF01.5, RF02.1, RF02.2, RF02.3 e RF21. <br> Casos de uso: UC01, UC02, UC03, UC44, UC45, UC46, UC47, UC48 e UC49.</td>	
+                </tr>
+                <tr>
+                    <td><a  href="https://github.com/isaqzin">Isaque Camargos</a></td>
+                    <td>Criou o diagrama referentes aos requisitos: RF03,RF04.1, RF04.9 e RF19. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC04, UC05, UC06, UC07, UC08 e UC09. Além disso, criou o documento inicial.</td>	
+                </tr>
+                <tr>
+                    <td><a  href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+                    <td>Criou o diagrama referentes aos requisitos: RF05, RF06 e RF17. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC13, UC14, UC15, UC16, UC28, UC29, UC30, UC31, UC32, UC33, UC34, UC35.</td>	
+                </tr>
+                <tr>
+                    <td><a  href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+                    <td>Criou o diagrama referentes aos requisitos: RF07, RF08 e RF18. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC17, UC18, UC19, UC20, UC21, UC22, UC23.</td>	
+                </tr>
+                <tr>
+                    <td><a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+                    <td>Criou o diagrama referentes aos requisitos: RF09.1 a RF09.4, RF10 e RF20. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC27, UC28, UC29, UC30, UC31, UC32.</td>	
+                </tr>
+                <tr>
+                    <td><a  href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+                    <td>Criou o diagrama referentes aos requisitos: RF11, RF12, RNF13 e RNF14. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC33, UC34, UC35, UC38, UC39.</td>	
+                </tr>
+                <tr>
+                    <td><a  href="https://github.com/redjsun">Yzabella Miranda</a></td>
+                    <td>Criou o diagrama referentes aos requisitos: RF3, RF13, RF14.1, RF14.2, RF15 e RF22. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC36, UC37, UC38, UC39, UC42, UC43.</td>	
+                </tr>
+        </tbody>
+    </table>
 </div>
 </div> 
 
@@ -111,7 +111,7 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 <p align="center">Figura 4 - Caso de uso UC21 a UC26 </p>
 <p align="center">
-  <img src="..\..\assets\casos-uso\casos-uso-lucas.jpg" alt="Heatmap de disponibilidade da equipe" width="600">
+  <img src="..\..\assets\casos-uso\new_diagrama_lucas.png" alt="Heatmap de disponibilidade da equipe" width="600">
 </p>
 
 <p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71" target="_blank">Lucas Alves</a></p>
@@ -141,6 +141,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 ## Especialização dos casos de uso 
 
 ### UC01 – Pesquisar Redes por Filtros
+
+<p align="center">Tabela 3 - Caso de Uso 1 </p>
 
 | Campo                    | Descrição                                                                                                                                                                                                                                  |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -204,8 +206,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC07 – Fazer login
-<p align="center">Tabela 9 - Caso de Uso 7 </p>
+### UC04 – Fazer login
+<p align="center">Tabela 6 - Caso de Uso 4 </p>
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
@@ -224,8 +226,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 <p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
 ---
 
-### UC08 – Login por biometria
-<p align="center">Tabela 10 - Caso de Uso 8 </p>
+### UC05 – Login por biometria
+<p align="center">Tabela 7 - Caso de Uso 5 </p>
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
@@ -243,9 +245,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC09 – Baixar carteirinha
-
-<p align="center">Tabela 11 - Caso de Uso 9 </p>
+### UC06 – Baixar carteirinha
+<p align="center">Tabela 8 - Caso de Uso 6 </p>
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
@@ -261,12 +262,12 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 | Rastreabilidade    |  [RF03](../../elicitacao/requisitos_finais.md#RF03)               |
 | Data de criação    | 15/05/2025                                                                |
 
-<p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
+<p align="center">Fonte: Autoria de <a src="https://github.com/redjsun" targe="_blank">Yzabella Miranda</a></p>
 
 ---
 
-### UC10 – Configurar notificações
-<p align="center">Tabela 12 - Caso de Uso 10 </p>
+### UC07 – Configurar notificações
+<p align="center">Tabela 9 - Caso de Uso 7 </p>
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
@@ -286,8 +287,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC11 – Enviar notificações
-<p align="center">Tabela 13 - Caso de Uso 11 </p>
+### UC08 – Enviar notificações
+<p align="center">Tabela 10 - Caso de Uso 8 </p>
 
 | Campo              | Descrição                                                                 |
 |--------------------|---------------------------------------------------------------------------|
@@ -307,8 +308,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-## UC12 – Agendar Consulta ou Exame
-<p align="center">Tabela 14 - Caso de Uso 12</p>
+### UC09 – Agendar Consulta ou Exame
+<p align="center">Tabela 11 - Caso de Uso 9</p>
 
 | Campo | Descrição |
 | :--- | :--- |
@@ -327,8 +328,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-## UC13 – Cancelar Consulta ou Exame
-<p align="center">Tabela 15 - Caso de Uso 13</p>
+### UC10 – Cancelar Consulta ou Exame
+<p align="center">Tabela 12 - Caso de Uso 10</p>
 
 | Campo | Descrição |
 | :--- | :--- |
@@ -347,8 +348,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-## UC14 – Exibir Valor de Consulta em Clínica
-<p align="center">Tabela 16 - Caso de Uso 14</p>
+### UC11 – Exibir Valor de Consulta em Clínica
+<p align="center">Tabela 13 - Caso de Uso 11</p>
 
 | Campo | Descrição |
 | :--- | :--- |
@@ -367,8 +368,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-## UC15 – Calcular e Exibir Valor da Coparticipação
-<p align="center">Tabela 17 - Caso de Uso 15</p>
+### UC12 – Calcular e Exibir Valor da Coparticipação
+<p align="center">Tabela 14 - Caso de Uso 12</p>
 
 | Campo | Descrição |
 | :--- | :--- |
@@ -387,8 +388,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-## UC16 – Gerar Demonstrativo de Despesas para IR
-<p align="center">Tabela 18 - Caso de Uso 16</p>
+### UC13 – Gerar Demonstrativo de Despesas para IR
+<p align="center">Tabela 15 - Caso de Uso 13</p>
 
 | Campo | Descrição |
 | :--- | :--- |
@@ -407,8 +408,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-## UC17 – Consultar Histórico de Demonstrativos de IR
-<p align="center">Tabela 19 - Caso de Uso 17</p>
+### UC14 – Consultar Histórico de Demonstrativos de IR
+<p align="center">Tabela 16 - Caso de Uso 14</p>
 
 | Campo | Descrição |
 | :--- | :--- |
@@ -427,8 +428,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-## UC18 – Consultar Extrato Financeiro
-<p align="center">Tabela 19 - Caso de Uso 18</p>
+### UC15 – Consultar Extrato Financeiro
+<p align="center">Tabela 17 - Caso de Uso 15</p>
 
 | Campo | Descrição |
 | :--- | :--- |
@@ -447,8 +448,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-## UC19 – Visualizar Painel de Metas de Saúde
-<p align="center">Tabela 20 - Caso de Uso 19</p>
+### UC16 – Visualizar Painel de Metas de Saúde
+<p align="center">Tabela 18 - Caso de Uso 16</p>
 
 | Campo | Descrição |
 | :--- | :--- |
@@ -467,146 +468,149 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-###  UC21 – Cadastrar titulares, dependentes e optantes
-| Campo | Descrição |
-|  -----------------  |  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  |
-| <a id="UC21"></a>UC21 | Cadastrar titulares, dependentes e optantes |
-| Descrição | Permitir o cadastro de titulares, dependentes e optantes no sistema com validação de documentos e elegibilidade. |
-| Ator | Atendente do plano de saúde / Titular |
-| Pré-condições | 1. Usuário autenticado (se for o titular) <br> 2. Documentação digitalizada |
-| Ação | Usuário preenche os dados, envia documentos e confirma o cadastro; sistema valida e registra. |
-| Fluxo principal | - Usuário acessa a seção de cadastro <br> - Escolhe tipo de pessoa (titular, dependente, optante) <br> - Preenche dados e anexa documentos <br> - Sistema valida documentação e elegibilidade <br> - Cadastro é confirmado |
-| Fluxo alternativo | - Sistema identifica documentos inválidos <br> - Informa o usuário e solicita novo envio |
-| Fluxo de exceção | - Falha no upload de documentos <br> - Erro no processo de validação |
-| Pós-condições | Cadastro realizado e pessoa adicionada à base de dados com status elegível ou pendente |
-| Rastreabilidade | [RF07](../../elicitacao/requisitos_finais.md#RF07) |
-| Data de criação | 17/05/2025 |
+### UC17 – Cadastrar Titular
+<p align="center">Tabela 19 - Caso de Uso 17 </p>
 
-<p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+| Campo             | Descrição                                                                                          |
+|-------------------|----------------------------------------------------------------------------------------------------|
+| <a id="UC21"></a>UC21                | Cadastrar Titular                                                                |
+| Descrição         | Permitir o cadastro de titulares no sistema, com validação de dados e documentação.                |
+| Ator              | Usuário (Titular)                                                                                  |
+| Pré-condições     | Usuário autenticado; documentação necessária digitalizada.                                         |
+| Fluxo principal   | 1. Usuário acessa a área de cadastro.<br>2. Preenche dados pessoais.<br>3. Anexa documentação.<br>4. Sistema valida informações.<br>5. Cadastro é confirmado. |
+| Fluxo alternativo | Dados incompletos: sistema solicita complementação.                                                |
+| Fluxo de exceção  | Falha no upload de documentos: sistema exibe erro e orienta tentar novamente.                      |
+| Pós-condições     | Titular cadastrado e apto a utilizar o sistema.                                                    |
+| Rastreabilidade   | [RF07.1](../../elicitacao/requisitos_finais.md#RF07.1)                                             |
+| Data de criação   | 15/06/2025                                                                                         |
 
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
 ---
 
+### UC18 – Cadastrar Dependente
+<p align="center">Tabela 20 - Caso de Uso 18 </p>
 
-###  UC22 – Verificar procedimentos para autorização
+| Campo             | Descrição                                                                                          |
+|-------------------|----------------------------------------------------------------------------------------------------|
+| <a id="UC22"></a>UC22                | Cadastrar Dependente                                                             |
+| Descrição         | Permitir o cadastro de dependentes vinculados a um titular.                                        |
+| Ator              | Usuário (Titular)                                                                                  |
+| Pré-condições     | Titular autenticado; documentação do dependente digitalizada.                                      |
+| Fluxo principal   | 1. Titular acessa área de dependentes.<br>2. Inicia cadastro.<br>3. Preenche dados do dependente.<br>4. Anexa documentação.<br>5. Sistema valida e confirma cadastro. |
+| Fluxo alternativo | Dados incompletos: sistema solicita complementação.                                                |
+| Fluxo de exceção  | Falha no upload de documentos: sistema exibe erro e orienta tentar novamente.                      |
+| Pós-condições     | Dependente cadastrado e vinculado ao titular.                                                      |
+| Rastreabilidade   | [RF07.2](../../elicitacao/requisitos_finais.md#RF07.2)                                             |
+| Data de criação   | 15/06/2025                                                                                         |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+---
+
+### UC19 – Cadastrar Optante
+<p align="center">Tabela 21 - Caso de Uso 19 </p>
+
+| Campo             | Descrição                                                                                          |
+|-------------------|----------------------------------------------------------------------------------------------------|
+| <a id="UC23"></a>UC23                | Cadastrar Optante                                                                |
+| Descrição         | Permitir o cadastro de optantes no sistema, com validação de dados e documentação.                 |
+| Ator              | Usuário (Optante)                                                                                  |
+| Pré-condições     | Usuário autenticado; documentação necessária digitalizada.                                         |
+| Fluxo principal   | 1. Usuário acessa área de cadastro.<br>2. Seleciona opção "Optante".<br>3. Preenche dados.<br>4. Anexa documentação.<br>5. Sistema valida e confirma cadastro. |
+| Fluxo alternativo | Dados incompletos: sistema solicita complementação.                                                |
+| Fluxo de exceção  | Falha no upload de documentos: sistema exibe erro e orienta tentar novamente.                      |
+| Pós-condições     | Optante cadastrado e apto a utilizar o sistema.                                                    |
+| Rastreabilidade   | [RF07.3](../../elicitacao/requisitos_finais.md#RF07.3)                                             |
+| Data de criação   | 15/06/2025                                                                                         |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+---
+
+### UC20 – Validar Documentos no Cadastro
+<p align="center">Tabela 22 - Caso de Uso 20 </p>
+
+| Campo             | Descrição                                                                                          |
+|-------------------|----------------------------------------------------------------------------------------------------|
+| <a id="UC24"></a>UC24                | Validar Documentos no Cadastro                                                   |
+| Descrição         | Validar os documentos apresentados durante o cadastro de titulares, dependentes e optantes.        |
+| Ator              | Sistema                                                                                            |
+| Pré-condições     | Documentos anexados no processo de cadastro.                                                       |
+| Fluxo principal   | 1. Sistema recebe documentos.<br>2. Realiza validação automática.<br>3. Informa resultado ao usuário. |
+| Fluxo alternativo | Documento ilegível: solicita novo envio.                                                           |
+| Fluxo de exceção  | Falha técnica na validação: sistema exibe erro e orienta tentar novamente.                        |
+| Pós-condições     | Documentos validados ou solicitação de reenvio.                                                    |
+| Rastreabilidade   | [RF07.4](../../elicitacao/requisitos_finais.md#RF07.4)                                             |
+| Data de criação   | 15/06/2025                                                                                         |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+---
+
+### UC21 – Verificar Elegibilidade no Cadastro
+<p align="center">Tabela 23 - Caso de Uso 21 </p>
+
+| Campo             | Descrição                                                                                          |
+|-------------------|----------------------------------------------------------------------------------------------------|
+| <a id="UC25"></a>UC25                | Verificar Elegibilidade no Cadastro                                              |
+| Descrição         | Verificar a elegibilidade dos titulares, dependentes e optantes durante o processo de cadastro.    |
+| Ator              | Sistema                                                                                            |
+| Pré-condições     | Dados e documentos enviados no cadastro.                                                           |
+| Fluxo principal   | 1. Sistema recebe dados.<br>2. Verifica critérios de elegibilidade.<br>3. Informa resultado ao usuário. |
+| Fluxo alternativo | Dados inconsistentes: solicita correção.                                                           |
+| Fluxo de exceção  | Falha técnica na verificação: sistema exibe erro e orienta tentar novamente.                       |
+| Pós-condições     | Cadastro aprovado ou pendente de regularização.                                                    |
+| Rastreabilidade   | [RF07.5](../../elicitacao/requisitos_finais.md#RF07.5)                                             |
+| Data de criação   | 15/06/2025                                                                                         |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+---
+
+### UC22 – Verificar Procedimentos para Autorização
 <p align="center">Tabela 24 - Caso de Uso 22 </p>
-  
 
-| Campo | Descrição |
-|  -----------------  |  -----------------------------------------------------------------------------------------------------------------------------------------------------------  |
-| <a id="UC22"></a>UC22 | Verificar procedimentos para autorização |
-| Descrição | Verificar se procedimentos estão na TABGDFSAÚDE, se atendem às DUT, carência ou exclusões, exigindo solicitação médica e análise técnica. |
-| Ator | Titular / Profissional de saúde / Analista técnico |
-| Pré-condições | 1. Procedimento solicitado <br> 2. Dados médicos anexados |
-| Ação | Usuário submete solicitação de procedimento; sistema verifica regras e, se necessário, aciona análise técnica. |
-| Fluxo principal | - Solicitação médica submetida <br> - Sistema verifica TABGDFSAÚDE e DUT <br> - Verifica carência e exclusões <br> - Solicita análise técnica se necessário |
-| Fluxo alternativo | - Procedimento está coberto e não exige análise <br> - Autorização é liberada automaticamente |
-| Fluxo de exceção | - Solicitação incompleta ou sem documentação médica <br> - Exibe erro e solicita correção |
-| Pós-condições | Procedimento autorizado ou negado com justificativa técnica |
-| Rastreabilidade | [RF08](../../elicitacao/requisitos_finais.md#RF08) |
-| Data de criação | 17/05/2025 |
+| Campo             | Descrição                                                                                          |
+|-------------------|----------------------------------------------------------------------------------------------------|
+| <a id="UC26"></a>UC26                | Verificar Procedimentos para Autorização                                         |
+| Descrição         | Verificar se procedimentos estão na TABGDFSAÚDE, atendem às DUT, carência ou exclusões, exigindo solicitação médica e análise técnica para autorizações prévias. |
+| Ator              | Titular / Profissional de saúde / Analista técnico                                                 |
+| Pré-condições     | Procedimento solicitado e dados médicos anexados.                                                  |
+| Fluxo principal   | 1. Usuário submete solicitação.<br>2. Sistema verifica TABGDFSAÚDE e DUT.<br>3. Verifica carência e exclusões.<br>4. Solicita análise técnica se necessário.<br>5. Informa resultado ao usuário. |
+| Fluxo alternativo | Procedimento coberto e sem exigência de análise: autorização automática.                           |
+| Fluxo de exceção  | Solicitação incompleta: sistema solicita complementação.<br>Falha técnica: exibe erro e orienta tentar novamente. |
+| Pós-condições     | Procedimento autorizado ou negado com justificativa técnica.                                       |
+| Rastreabilidade   | [RF08](../../elicitacao/requisitos_finais.md#RF08)                                                 |
+| Data de criação   | 15/06/2025                                                                                         |
 
-  
-  
-
-<p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
 ---
 
-
-###  UC23 – Visualizar calendário personalizado
+### UC23 – Registrar Denúncia contra Profissional
 <p align="center">Tabela 25 - Caso de Uso 23 </p>
-  
 
-| Campo | Descrição |
-|  -----------------  |  ---------------------------------------------------------------------------------------------------------------------------------  |
-| <a id="UC23"></a>UC23 | Visualizar calendário personalizado |
-| Descrição | Disponibilizar ao titular um calendário com consultas agendadas, prazos de carência e vencimentos. |
-| Ator | Titular |
-| Pré-condições | 1. Titular autenticado <br> 2. Ter eventos vinculados ao seu plano |
-| Ação | Usuário acessa calendário e visualiza eventos pessoais e datas importantes |
-| Fluxo principal | - Usuário acessa a área de calendário <br> - Sistema exibe visualização personalizada com: <br> consultas, carências, vencimentos |
-| Fluxo alternativo | - Não há consultas ou prazos registrados <br> - Sistema informa ausência de eventos |
-| Fluxo de exceção | - Falha na recuperação de dados <br> - Exibe mensagem de erro |
-| Pós-condições | Titular visualiza suas obrigações e compromissos relacionados ao plano |
-| Rastreabilidade | [RF16](../../elicitacao/requisitos_finais.md#RF16) |
-| Data de criação | 17/05/2025 |
+| Campo             | Descrição                                                                                          |
+|-------------------|----------------------------------------------------------------------------------------------------|
+| <a id="UC27"></a>UC27                | Registrar Denúncia contra Profissional                                           |
+| Descrição         | Permitir ao usuário registrar denúncias de condutas inadequadas por parte de profissionais da rede credenciada. |
+| Ator              | Usuário (Titular, Dependente ou Optante)                                                           |
+| Pré-condições     | Usuário autenticado; denúncia relacionada a profissional da rede credenciada.                      |
+| Fluxo principal   | 1. Usuário acessa área de denúncias.<br>2. Preenche formulário com detalhes.<br>3. Anexa evidências, se houver.<br>4. Envia denúncia.<br>5. Sistema registra e encaminha para análise. |
+| Fluxo alternativo | Usuário não anexa evidências: sistema permite envio apenas com descrição.                          |
+| Fluxo de exceção  | Falha no envio: sistema exibe erro e orienta tentar novamente.                                     |
+| Pós-condições     | Denúncia registrada e encaminhada para análise.                                                    |
+| Rastreabilidade   | [RF18](../../elicitacao/requisitos_finais.md#RF18)                                                 |
+| Data de criação   | 15/06/2025                                                                                         |
 
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
-<p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+---
 
---- 
+### UC24 – Visualizar Histórico de Consultas Realizadas
 
-###  UC24 – Registrar denúncia contra profissional
 <p align="center">Tabela 26 - Caso de Uso 24 </p>
-  
-
-| Campo | Descrição |
-|  -----------------  |  ------------------------------------------------------------------------------------------------------------------------------  |
-| <a id="UC24"></a>UC24 | Registrar denúncia contra profissional |
-| Descrição | Permitir que o titular registre denúncias sobre condutas inadequadas de profissionais da rede credenciada. |
-| Ator | Titular |
-| Pré-condições | 1. Titular autenticado <br> 2. Consulta ou atendimento realizado com profissional credenciado |
-| Ação | Usuário preenche formulário de denúncia e submete com descrição dos fatos |
-| Fluxo principal | - Usuário acessa seção de denúncias <br> - Informa dados do atendimento <br> - Descreve a denúncia <br> - Submete para análise |
-| Fluxo alternativo | - Usuário salva denúncia como rascunho para enviar depois |
-| Fluxo de exceção | - Falha no envio da denúncia <br> - Sistema exibe erro e sugere reenvio |
-| Pós-condições | Denúncia registrada e encaminhada para análise pelo setor responsável |
-| Rastreabilidade | [RF18](../../elicitacao/requisitos_finais.md#RF18) |
-| Data de criação | 17/05/2025 |
-
-<p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71">Lucas Alves</a></p>
-
----
-
-###  UC25 – Comunicar com folha de pagamento do GDF
-<p align="center">Tabela 27 - Caso de Uso 25 </p>
-  
-
-| Campo | Descrição |
-|  -----------------  |  ---------------------------------------------------------------------------------------------------------------------------------------------  |
-| <a id="UC25"></a>UC25 |Comunicar com folha de pagamento do GDF |
-| Descrição | Permitir comunicação automatizada entre o sistema e a folha de pagamento do GDF para descontos de mensalidades. |
-| Ator | Sistema |
-| Pré-condições | 1. Titular com vínculo ativo ao GDF <br> 2. Plano de saúde com mensalidade ativa |
-| Ação | Sistema envia dados de cobrança à folha de pagamento e recebe confirmação de desconto |
-| Fluxo principal | - Sistema verifica titulares vinculados <br> - Gera informações de cobrança <br> - Envia à folha do GDF <br> - Recebe confirmação de desconto |
-| Fluxo alternativo | - Sistema reprograma envio se falha temporária na comunicação |
-| Fluxo de exceção | - Falha na integração com sistema do GDF <br> - Notifica equipe técnica |
-| Pós-condições | Mensalidade é descontada automaticamente na folha |
-| Rastreabilidade | [RNF09](../../elicitacao/requisitos_finais.md#RNF09) |
-| Data de criação | 17/05/2025 |
-
-
-<p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71">Lucas Alves</a></p>
-
----
-
-###  UC26 – Acesso rápido à carteirinha digital
-<p align="center">Tabela 28 - Caso de Uso 26 </p>
-
-| Campo | Descrição |
-|  -----------------  |  -------------------------------------------------------------------------------------------------------------------  |
-| <a id="UC26"></a>UC26 | Acesso rápido à carteirinha digital |
-| Descrição | Garantir que a carteirinha digital esteja acessível em até três cliques ou no máximo dois a partir da tela inicial. |
-| Ator | Titular |
-| Pré-condições | 1. Aplicativo instalado <br> 2. Titular autenticado |
-| Ação | Usuário navega pela interface do app até a carteirinha digital com acessibilidade rápida |
-| Fluxo principal | - Usuário abre o aplicativo <br> - Acessa a área de carteirinha (máximo 2 cliques) <br> - Visualiza dados |
-| Fluxo alternativo | - Carteirinha disponível via atalho na tela inicial |
-| Fluxo de exceção | - Falha no carregamento da carteirinha <br> - Exibe erro e instruções |
-| Pós-condições | Titular acessa rapidamente seus dados de identificação do plano |
-| Rastreabilidade | [RNF10](../../elicitacao/requisitos_finais.md#RNF10) |
-| Data de criação | 17/05/2025 |
-
-
-<p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71">Lucas Alves</a></p>
-
----
-
-### UC27 – Visualizar Histórico de Consultas Realizadas
-
-<p align="center">Tabela 29 - Caso de Uso 27 </p>
 
 | Campo              | Descrição                                                                                                                                       |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -626,9 +630,9 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC28 – Visualizar Histórico de Exames Realizados
+### UC25 – Visualizar Histórico de Exames Realizados
 
-<p align="center">Tabela 30 - Caso de Uso 28 </p>
+<p align="center">Tabela 27 - Caso de Uso 25 </p>
 
 | Campo              | Descrição                                                                                                  |
 |--------------------|----------------------------------------------------------------------------------------------------------|
@@ -648,9 +652,9 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC29 – Visualizar Resultados de Exames Laboratoriais
+### UC26 – Visualizar Resultados de Exames Laboratoriais
 
-<p align="center">Tabela 31 - Caso de Uso 29 </p>
+<p align="center">Tabela 28 - Caso de Uso 26 </p>
 
 | Campo              | Descrição                                                                                                  |
 |--------------------|----------------------------------------------------------------------------------------------------------|
@@ -670,9 +674,9 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC30 – Visualizar Histórico de Coparticipações
+### UC27 – Visualizar Histórico de Coparticipações
 
-<p align="center">Tabela 32 - Caso de Uso 30 </p>
+<p align="center">Tabela 29 - Caso de Uso 27 </p>
 
 | Campo              | Descrição                                                                                                  |
 |--------------------|----------------------------------------------------------------------------------------------------------|
@@ -692,9 +696,9 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC31 – Favoritar Horários de Consulta
+### UC28 – Favoritar Horários de Consulta
 
-<p align="center">Tabela 33 - Caso de Uso 31 </p>
+<p align="center">Tabela 30 - Caso de Uso 28 </p>
 
 | Campo              | Descrição                                                                                                  |
 |--------------------|----------------------------------------------------------------------------------------------------------|
@@ -714,9 +718,9 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC32 – Solicitar Reembolso de Cobrança Indevida
+### UC29 – Solicitar Reembolso de Cobrança Indevida
 
-<p align="center">Tabela 34 - Caso de Uso 32 </p>
+<p align="center">Tabela 31 - Caso de Uso 29 </p>
 
 | Campo              | Descrição                                                                                                  |
 |--------------------|----------------------------------------------------------------------------------------------------------|
@@ -736,8 +740,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
-### UC33 – Enviar Feedback de Atendimento
-<p align="center">Tabela 35 - Caso de Uso 33 </p>
+### UC30 – Enviar Feedback de Atendimento
+<p align="center">Tabela 32 - Caso de Uso 30 </p>
 
 | Campo | Descrição | 
 |-----------------------|-------------------------------------------------------------------------------| 
@@ -756,6 +760,11 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ---
 
+<<<<<<< HEAD
+=======
+### UC31 – Acessar Informações sobre Novas Funcionalidades
+<p align="center">Tabela 33 - Caso de Uso 31 </p>
+>>>>>>> origin/main
 
 ### UCXX – Apresentar Seção “Novidades” no Menu Principal
 
@@ -775,6 +784,7 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
+<<<<<<< HEAD
 ---
 
 ### UCXX – Exibir Lista de Funcionalidades com Título, Descrição e Data
@@ -879,6 +889,10 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 ### UC35 – Acessar Aplicativo em Modo Offline
 <p align="center">Tabela 37 - Caso de Uso 35 </p>
+=======
+### UC32 – Acessar Aplicativo em Modo Offline
+<p align="center">Tabela 34 - Caso de Uso 32 </p>
+>>>>>>> origin/main
 
 | Campo | Descrição | 
 |-----------------------|-------------------------------------------------------------------------------| 
@@ -897,13 +911,14 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
 ---
+---
 
-### UC36 – Fazer login via GovBR
-<p align="center">Tabela 38 - Caso de Uso 36 </p>
+### UC33 – Fazer login via GovBR
+<p align="center">Tabela 35 - Caso de Uso 33 </p>
 
 | Campo | Descrição | 
 |-----------------------|-------------------------------------------------------------------------------| 
-| <a id="UC36"></a>UC36 | Fazer login via GovBR |
+| <a id="UC35"></a>UC35 | Fazer login via GovBR |
 | Descrição | Permitir que o usuário acesse o app mediante autenticação GovBR. |
 | Ator | Usuário cadastrado no GovBR |
 | Pré-condições | App instalado, conexão à internet e conta GovBR ativa. |
@@ -912,17 +927,17 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 | Fluxo alternativo | Credenciais inválidas: sistema exibe mensagem de erro e sugere recuperação de senha. |
 | Fluxo de exceção | Falha na conexão com GovBR: sistema informa indisponibilidade temporária. |
 | Pós-condições | Usuário autenticado e com acesso às funcionalidades do app. |
-| Rastreabilidade | [RNF15](../../elicitacao/requisitos_finais.md#RNF15) |
+| Rastreabilidade | [RF22](../../elicitacao/elicitacao.md#RF22) |
 | Data de criação | 17/05/2025 | 
 ---
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
-### UC37 – Consultar rede odontológica
-<p align="center">Tabela 39 - Caso de Uso 37 </p>
+### UC34 – Consultar rede odontológica
+<p align="center">Tabela 36 - Caso de Uso 34 </p>
 
 | Campo | Descrição |
 |-----------------------|-------------------------------------------------------------------------------|
-| <a id="UC37"></a>UC37 | Consultar rede odontológica |
+| <a id="UC36"></a>UC36 | Consultar rede odontológica |
 | Descrição | Permitir ao usuário buscar clínicas odontológicas cadastradas. |
 | Ator | Usuário autenticado |
 | Pré-condições | Usuário estar logado via GovBR. |
@@ -931,37 +946,58 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 | Fluxo alternativo | Nenhum resultado: sistema sugere ampliar critérios de busca. |
 | Fluxo de exceção | Falha na conexão: sistema notifica "Tente novamente mais tarde". |
 | Pós-condições | Usuário visualiza clínicas odontológicas compatíveis. |
-| Rastreabilidade | [RF13](../../elicitacao/requisitos_finais.md#RF13) |
+| Rastreabilidade | [RF13](../../elicitacao/elicitacao.md#RF13) |
 | Data de criação | 17/05/2025 | 
 ---
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
-### UC38 – Buscar clínicas próximas
-<p align="center">Tabela 40 - Caso de Uso 38 </p>
+### UC35 – Apresentar Novas Clínicas Próximas
+<p align="center">Tabela 37 - Caso de Uso 35 </p>
 
 | Campo | Descrição |
-|-----------------------|-------------------------------------------------------------------------------| 
-| <a id="UC38"></a>UC38| Buscar clínicas próximas |
-| Descrição | Apresentar clínicas próximas com base na localização do usuário. |
+|---|---|
+| <a id="UC37.1"></a>UC37| Apresentar Novas Clínicas Próximas|
+| Descrição | Exibir novas clínicas que surgiram na região do usuário, com base em sua localização. |
 | Ator | Usuário autenticado |
 | Pré-condições | Usuário logado e permissão para uso de geolocalização. |
-| Ação| O sistema detecta a localização do usuário e exibe clínicas próximas. |
-| Fluxo principal | 1. Usuário acessa "Buscar Unidades de Saúde Próximas".<br>2. Sistema detecta localização automática.<br>3. Exibe lista de clínicas em ordem de proximidade. |
-| Fluxo alternativo | Localização automática falha: usuário insere endereço manualmente. |
+| Ação| O sistema detecta a localização do usuário e apresenta uma lista de novas clínicas na proximidade. |
+| Fluxo principal | 1. Usuário acessa a opção "Novas Unidades de Saúde Próximas".<br>2. Sistema detecta a localização automática do usuário.<br>3. Exibe uma lista de novas clínicas em ordem de proximidade. |
+| Fluxo alternativo | Localização automática falha: usuário insere o endereço manualmente. |
 | Fluxo de exceção | Geolocalização desativada: sistema solicita ativação ou entrada manual. |
-| Pós-condições | Usuário visualiza clínicas próximas ou resultados conforme endereço. |
-| Rastreabilidade | [RF14](../../elicitacao/requisitos_finais.md#RF14) |
-| Data de criação | 17/05/2025 | 
+| Pós-condições | Usuário visualiza novas clínicas próximas ou resultados conforme o endereço inserido. |
+| Rastreabilidade | [RF14.1](../../elicitacao/elicitacao.md#RF14.1) |
+| Data de criação | 20/06/2025 |
+
+<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 ---
+
+### UC36 – Apresentar Clínicas Próximas
+<p align="center">Tabela 38 - Caso de Uso 36 </p>
+
+| Campo | Descrição |
+|---|---|
+| <a id="UC38"></a>UC38| Apresentar Clínicas Próximas |
+| Descrição| Exibir clínicas existentes na região do usuário, com base em sua localização. |
+| Ator | Usuário autenticado |
+| Pré-condições | Usuário logado e permissão para uso de geolocalização. |
+| Ação| O sistema detecta a localização do usuário e apresenta uma lista de clínicas próximas. |
+| Fluxo principal | 1. Usuário acessa a opção "Buscar Unidades de Saúde Próximas".<br>2. Sistema detecta a localização automática do usuário.<br>3. Exibe uma lista de clínicas em ordem de proximidade. |
+| Fluxo alternativo | Localização automática falha: usuário insere o endereço manualmente. |
+| Fluxo de exceção | Geolocalização desativada: sistema solicita ativação ou entrada manual. |
+| Pós-condições | Usuário visualiza clínicas próximas ou resultados conforme o endereço inserido. |
+| Rastreabilidade | [RF14.2](../../elicitacao/elicitacao.md#RF14.2) |
+|Data de criação | 20/06/2025 |
+
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
-### UC39 – Baixar comprovante de agendamento
+---
 
-<p align="center">Tabela 41 - Caso de Uso 39 </p>
+### UC37 – Baixar comprovante de agendamento
+<p align="center">Tabela 39 - Caso de Uso 37 </p>
 
 | Campo | Descrição |
 |-----------------------|-------------------------------------------------------------------------------|
-| <a id="UC39"></a>UC39 | Baixar comprovante de agendamento |
+| <a id="UC38"></a>UC38 | Baixar comprovante de agendamento |
 | Descrição | Permitir ao usuário baixar comprovantes de agendamentos realizados. |
 | Ator | Usuário autenticado com agendamento ativo. |
 | Pré-condições | Usuário logado e agendamento confirmado. |
@@ -970,16 +1006,15 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 | Fluxo alternativo | Comprovante expirado: sistema notifica "Agendamento não encontrado". |
 | Fluxo de exceção | Falha no servidor: sistema exibe mensagem de erro. |
 | Pós-condições | Comprovante é salvo no dispositivo do usuário. |
-| Rastreabilidade | [RF15](../../elicitacao/requisitos_finais.md#RF15) |
+| Rastreabilidade | [RF15](../../elicitacao/elicitacao.md#RF15) |
 | Data de criação | 17/05/2025 |
 
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
 ---
 
-### UC40 - Combinar Filtros de Pesquisa
-
-<p align="center">Tabela 42 - Caso de Uso 40 </p>
+### UC38 - Combinar Filtros de Pesquisa
+<p align="center">Tabela 40 - Caso de Uso 38 </p>
 
 | Campo                    | Descrição|
 |--------------------------|-----------------------------------------|
@@ -998,9 +1033,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
 ---
-### UC41 – Buscar por Proximidade
-
-<p align="center">Tabela 43 - Caso de Uso 41 </p>
+### UC39 – Buscar por Proximidade
+<p align="center">Tabela 41 - Caso de Uso 39 </p>
 
 | Campo                    | Descrição |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1019,9 +1053,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
 ---
-### UC42 – Filtrar por Especialidade Médica
-
-<p align="center">Tabela 44 - Caso de Uso 42 </p>
+### UC40 – Filtrar por Especialidade Médica
+<p align="center">Tabela 42 - Caso de Uso 40 </p>
 
 | Campo                    | Descrição |
 |--------------------------|-------------------------------------------------------------------------------------------------------------|
@@ -1040,9 +1073,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
 ---
-### UC43 – Atribuir Nota de Avaliação
-
-<p align="center">Tabela 45 - Caso de Uso 43 </p>
+### UC41 – Atribuir Nota de Avaliação
+<p align="center">Tabela 43 - Caso de Uso 41 </p>
 
 | Campo                    | Descrição                                                 |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1061,9 +1093,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
 ---
-### UC44 – Ler e Escrever Comentários
-
-<p align="center">Tabela 46 - Caso de Uso 44 </p>
+### UC42 – Ler e Escrever Comentários
+<p align="center">Tabela 44 - Caso de Uso 42 </p>
 
 | Campo                    | Descrição                                               |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1082,9 +1113,8 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
 
 ---
-### UC45 – Visualizar Comentários Relevantes
-
-<p align="center">Tabela 47 - Caso de Uso 45 </p>
+### UC43 – Visualizar Comentários Relevantes
+<p align="center">Tabela 45 - Caso de Uso 43 </p>
 
 | Campo                    | Descrição                                                 |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1128,7 +1158,11 @@ Lucid Software Português. *Tutorial de Caso de Uso UML*. Youtube, 25 abr. 2019.
 |`1.8`  | 08/06/2025  | Adição de ancoras | [Isaque Camargos](https://github.com/isaqzin) | [Lucas Alves](https://github.com/LucasAlves71) |
 |`1.9`  | 17/05/2025  | Retirando o diagrama de caso de uso referente aos requisitos funcionais da Ana| [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Kaleb Macedo](https://github.com/kalebmacedo) |
 |`2.0`  | 11/06/2025  | Corrigi os meus cenários, retirando as especificações e diagrama dos casos de uso de requisitos não funcionais e criando casos de uso para os requisitos: RF01.1, RF01.2, RF01.3, RF01.4, RF01.5, RF02.1, RF02.2 e RF02.3 .  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
+<<<<<<< HEAD
 |`2.1`  | 20/06/2025  | Criando casos de uso para os requisitos: RF12.1, RF12.2, RF12.3, RF12.4, RF12.5, RF12.6 | [Othavio Bolzan](https://github.com/bolzanMGB) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | 
 
+=======
+|`2.1`  | 21/06/2025  | Adição dos meus casos de uso certos, além da enumeração e padronização do documento  | [Lucas Alves](https://github.com/LucasAlves71) | [Kaleb Macedo](https://github.com/kalebmacedo) |
+>>>>>>> origin/main
 
 

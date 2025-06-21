@@ -1,4 +1,4 @@
-# Casos de Uso – Matheus de Alcântara
+# Casos de Uso – Matheus Alcatra
 
 ## UC27 – Visualizar Histórico de Consultas Realizadas
 
