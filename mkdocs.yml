@@ -88,6 +88,7 @@ nav:
           - Cenários: modelagem/metodos_tradicionais/cenarios.md
           - Especificação Suplementar: modelagem/metodos_tradicionais/especificacao-suplementar.md
           - Léxicos: modelagem/metodos_tradicionais/lexicos.md  
+      - Protótipos: modelagem/prototipos.md
 
   - Pós rastreabilidade:
       - Matriz de Rastreabilidade: pos-rastreabilidade/matriz_geral.md
