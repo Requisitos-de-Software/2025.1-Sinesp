@@ -191,6 +191,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
+
 ### Cenário 5: Busca por Especialidade Médica
 
 **Requisito Associado:** [RF01.5](../../../elicitacao/requisitos_finais/#RF01.5) - O Filtro permite busca pela especialidade médica.
@@ -235,6 +236,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
+
 ### Cenário 7: Leitura e Publicação de Comentários
 
 **Requisito Associado:** [RF02.2](../../../elicitacao/requisitos_finais/#RF02.2) - O usuário poderá deixar e/ou ler comentários sobre atendimentos em clínicas ou com profissionais específicos.
@@ -257,11 +259,13 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
+
 ### Cenário 8: Classificação de Relevância dos Comentários
 
 **Requisito Associado:** [RF02.3](../../../elicitacao/requisitos_finais/#RF02.2) - O sistema classificará comentários como “relevantes” ou “não relevantes” automaticamente com base em palavras-chave e upvotes de outros usuários.
 
 <p align="center">Tabela 10 - Cenário 8</p>
+
 
 | Elemento | Descrição |
 | :--- | :--- |
@@ -279,11 +283,13 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
+
 ### Cenário 9: Ordenação por Nota Média de Atendimento
 
 **Requisito Associado:** [RF02.4](../../../elicitacao/requisitos_finais/#RF02.2) - O sistema ordenará clínicas por nota média de atendimento, do maior para o menor.
 
 <p align="center">Tabela 11 - Cenário 9</p>
+
 
 | Elemento | Descrição |
 | :--- | :--- |
@@ -301,7 +307,9 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
+
 ### Cenário 10: Acesso à carteirinha digital sem conexão à internet  
+
 **Requisito Associado:** [RF03](../../../elicitacao/requisitos_finais/#RF03)  
 
 <p align="center">Tabela 12 - Cenário 10</p>

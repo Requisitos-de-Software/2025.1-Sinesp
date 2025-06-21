@@ -41,7 +41,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram desta etapa 
             </tr>
             <tr>
                 <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
-                <td>Classificação dos requisitos não funcionais: <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF01">RNF01</a>, <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF02">RNF02</a> e <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF03">RNF03</a>.</td>
+                <td>Classificação dos requisitos não funcionais: <a href="../../../elicitacao/requisitos_finais#RNF01.1">RNF01.1</a>, <a href="../../../elicitacao/requisitos_finais#RNF02.1">RNF02.1</a>, <a href="../../../elicitacao/requisitos_finais#RNF03.1">RNF03.1</a> e <a href="../../../elicitacao/requisitos_finais#RNF03.2">RNF03.2</a>.</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
@@ -96,7 +96,7 @@ Este tópico lista os requisitos que garantem que a interação do usuário com 
     </tr>
   </thead>
   <tbody>
-    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF01">RNF01</a></td><td>A interface deve ser intuitiva, clara e adaptada para idosos/pessoas com baixa familiaridade tecnológica.</td></tr>
+    <tr><td><a href="../../../elicitacao/requisitos_finais#RNF01.1">RNF01.1</a></td><td>A interface deve ser responsiva para dispositivos Android 5.0 ou superiores e iOS 13.0 ou superiores.</td></tr>
     <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF06">RNF06</a></td><td>O aplicativo deve ser compatível com leitores de tela para garantir acessibilidade a pessoas com deficiência visual.</td></tr>
     <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF10">RNF10</a></td><td>As informações críticas para o usuário, como a carteirinha digital, devem estar acessíveis em até 3 cliques, sendo recomendado no máximo 2 cliques a partir da tela inicial do aplicativo.</td></tr>
     <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF12">RNF12</a></td><td>O aplicativo deve disponibilizar uma funcionalidade de chat com um atendente em até 2 cliques a partir da tela inicial e mostrar um número de telefone para suporte.</td></tr>
@@ -124,7 +124,8 @@ Esta seção trata da estabilidade e segurança dadas pelo sistema, bem como sua
     </tr>
   </thead>
   <tbody>
-    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF03">RNF03</a></td><td>Assegurar segurança no acesso e armazenamento de dados pessoais, criptografar dados sensíveis conforme LGPD, incluir autenticação em dois fatores e ser transparente quanto ao uso e segurança dos dados.</td></tr>
+    <tr><td><a href="../../../elicitacao/requisitos_finais#RNF03.1">RNF03.1</a></td><td>Todos os dados sensíveis devem ser criptografados com ao menos um recurso de criptografia.</td></tr>
+    <tr><td><a href="../../../elicitacao/requisitos_finais#RNF03.2">RNF03.2</a></td><td>Autenticação de dois fatores deve estar disponível via SMS ou app de autenticação externa.</td></tr>
    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF04">RNF04</a></td><td>Manter o sistema disponível 24/7 para autorizações de urgência/emergência e apresentar alta disponibilidade (mínimo de 99% uptime).</td></tr>
     <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF07">RNF07</a></td><td>Garantir conformidade com a Portaria nº 127/2024, legislações complementares e padrões da LGPD.</td></tr>
     <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF09">RNF09</a></td><td>O sistema deve garantir comunicação segura e periódica com a folha de pagamento do GDF para processar descontos de mensalidades dos titulares, com mecanismos de verificação para garantir a integridade e consistência dos valores deco.</td></tr>
@@ -171,7 +172,7 @@ Esta seção descreve os requisitos relacionados ao desempenho do sistema, inclu
     </tr>
   </thead>
   <tbody>
-    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF02">RNF02</a></td><td>Todas as funcionalidades devem responder em ≤2 segundos.</td></tr>
+    <tr><td><a href="../../../elicitacao/requisitos_finais#RNF02.1">RNF02.1</a></td><td>95 % das ações devem ter tempo de resposta ≤ 2 segundos, medido em ambiente com até 100 usuários simultâneos.</td></tr>
     <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF08">RNF08</a></td><td>Processar autorizações prévias em até 10 dias úteis.</td></tr>
   </tbody>
 </table>
@@ -200,3 +201,4 @@ BRASIL. Ministério da Ciência, Tecnologia e Inovações. **Especificação Sup
 | 1.6 | 18/05/2025 | Adição das especificações relacionadas aos RNF11, RNF12 | [Matheus de Alcântara](https://github.com/matheusdealcantara)  | [Lucas Alves](https://github.com/)|
 | 1.7 | 18/05/2025 | Adição das especificações relacionadas aos RNF13, RNF14 | [Othavio Bolzan](https://github.com/bolzanMG)  | [Lucas Alves](https://github.com/)|
 | 1.8 | 19/06/2025 | Alterações finais para os requisitos RNF11 e RNF12 para a nova versão deixando-os testáveis | [Matheus de Alcântara](https://github.com/matheusdealcantara)  | [Kaleb Macedo](https://github.com/kalebmacedo)|
+| 1.9 | 21/06/2025 | Alterando para fazer sentidospara os requisitos não funcionais refinados: RNF01.1, RNF02.1, RNF03.1 e RNF03.2 |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
