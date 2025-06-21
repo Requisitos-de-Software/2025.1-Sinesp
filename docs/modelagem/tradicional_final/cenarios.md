@@ -916,7 +916,7 @@ Este cenário está relacionado com o requisito não funcional **implementado** 
 ---
 
 ### Cenário 36: Exigir autenticação via GovBR para login  
-**Requisito Associado:** [RNF15](../../../elicitacao/requisitos_finais/#RNF15)  
+**Requisito Associado:** [RF22](../../../elicitacao/requisitos_finais/#RF22)  
 
 <p align="center">Tabela 38 - Cenário 36</p>
 
@@ -936,33 +936,99 @@ Este cenário está relacionado com o requisito não funcional **implementado** 
 
 ---
 
-### Cenário 37: Exibir informações claras, completas e atualizadas em tempo real  
-**Requisito Associado:** [RNF16](../../../elicitacao/requisitos_finais/#RNF16)  
+### Cenário 37: Buscar Clínicas Odontológicas
+
+**Requisito Associado:** [RF13](../../elicitacao/requisitos_finais/#RF13)
 
 <p align="center">Tabela 39 - Cenário 37</p>
 
-| Elemento        | Descrição                                                                                                                                                                                                      |
-|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE37">CE37</a>  |
-| **Título**           | Exibição de informações claras, completas e atualizadas em tempo real | 
-| **Metas/Objetivos** | Garantir que dados exibidos (ex.: resultados de exames, histórico de guias) sejam precisos, contextualizados e sincronizados instantaneamente com fontes oficiais.                                            |
-| **Contexto**        | Usuário acessa seção “Resultados de Exames” ou “Histórico de Saúde” e espera ver data/hora da última atualização, com indicadores visuais de status (síncro OK, pendente, erro).                               |
-| **Ator(es)**        | - Usuário do GDF Saúde<br>- Sistemas de backend do INAS (bases governamentais)<br>- Equipe de gestão de dados |
-| **Recursos**        | - API de integração em tempo real<br>- Ferramentas de validação e sanitização<br>- Componentes visuais (selos de atualização, ícones de status)<br>- Notificações push para mudanças críticas |
-| **Exceções**        | - Falha na conexão impede atualização<br>- Dados incompletos ou inconsistentes<br>- Componentes visuais não carregam corretamente                                             |
-| **Restrições**      | - Todas as informações devem ser validadas antes da exibição<br>- Atualizações automáticas com intervalo máximo de 5 minutos                                        |
-| **Episódios**       | 1. Usuário abre seção de dados.<br>2. Sistema consulta API e valida timestamp.<br>3. Exibe selo “Atualizado em [horário]” e ícones de status.<br>4. Push notifica se há nova versão. |
+| Elemento | Descrição |
+|---|---|
+|**ID**| <a id="CE36.1">CE36.1</a> |
+| **Título** | Consulta à Rede Odontológica por Filtros |
+| **Metas/Objetivos** | Permitir que o usuário encontre clínicas odontológicas cadastradas de forma eficiente, aplicando critérios de busca específicos. |
+| **Contexto** | O usuário, já logado no aplicativo via GovBR, deseja encontrar uma clínica odontológica que atenda às suas necessidades, utilizando filtros como especialidade ou bairro. |
+| **Ator(es)** | - Usuário autenticado |
+| **Recursos** | - Aplicativo GDF Saúde<br>- Banco de dados da rede odontológica<br>- Ferramenta de filtragem de busca |
+| **Exceções** | - Nenhum resultado encontrado para os filtros aplicados<br>- Falha na conexão com o servidor de dados |
+| **Restrições** | - A funcionalidade só está disponível para usuários autenticados.<br>- Os dados das clínicas devem estar atualizados. |
+| **Episódios** | 1. Usuário acessa "Buscar rede odontológica".<br>2. Usuário insere filtros de pesquisa (ex.: "Odontopediatria", "Asa Sul").<br>3. Sistema processa os filtros e consulta o banco de dados.<br>4. Sistema exibe uma lista de clínicas odontológicas que correspondem aos critérios.<br>5. (Fluxo Alternativo) Se não houver resultados, o sistema sugere ampliar os critérios de busca.<br>6. (Fluxo de Exceção) Em caso de falha na conexão, o sistema notifica "Tente novamente mais tarde". |
 
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
+---
+
+### Cenário 38: Visualizar Novas Clínicas Próximas
+
+**Requisito Associado:** [RF14.1](../../elicitacao/requisitos_finais/#RF14.1)
+
+<p align="center">Tabela 40 - Cenário 38</p>
+
+| Elemento | Descrição |
+|---|---|
+|**ID**| <a id="CE37.1">CE37.1</a> |
+| **Título** | Descoberta de Novas Clínicas na Proximidade |
+| **Metas/Objetivos** | Apresentar ao usuário as clínicas recém-cadastradas que estão próximas à sua localização atual, ou a um endereço especificado. |
+| **Contexto** | O usuário, logado no sistema e com permissão de geolocalização, busca por novas unidades de saúde que foram adicionadas recentemente em sua região. |
+| **Ator(es)** | - Usuário autenticado<br>- Sistema de geolocalização |
+| **Recursos** | - Aplicativo GDF Saúde<br>- Serviço de geolocalização do dispositivo<br>- Banco de dados de clínicas com registro de data de cadastro |
+| **Exceções** | - Falha na detecção automática de localização<br>- Geolocalização desativada no dispositivo<br>- Nenhuma nova clínica encontrada na proximidade |
+| **Restrições** | - Requer permissão de geolocalização do usuário.<br>- A identificação de "nova clínica" deve ser baseada em um critério de tempo definido. |
+| **Episódios** | 1. Usuário acessa a opção "Novas Unidades de Saúde Próximas".<br>2. Sistema tenta detectar a localização automática do usuário.<br>3. (Fluxo Alternativo) Se a detecção automática falhar, o sistema solicita que o usuário insira o endereço manualmente.<br>4. Sistema consulta o banco de dados para identificar novas clínicas na proximidade da localização (automática ou manual).<br>5. (Fluxo de Exceção) Se a geolocalização estiver desativada, o sistema solicita a ativação ou a entrada manual do endereço.<br>6. Sistema exibe uma lista de novas clínicas encontradas, ordenadas por proximidade. |
+
+<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
 ---
 
-### Cenário 38: Pesquisa de Profissionais da Saúde
+### Cenário 39: Visualizar Clínicas Próximas
+
+**Requisito Associado:** [RF14.2](../../elicitacao/requisitos_finais/#RF14.2)
+
+<p align="center">Tabela 41 - Cenário 39</p>
+
+| Elemento | Descrição |
+|---|---|
+|**ID**| <a id="CE38.1">CE38.1</a> |
+| **Título** | Busca e Exibição de Clínicas Existentes Próximas |
+| **Metas/Objetivos** | Fornecer ao usuário uma lista de clínicas de saúde existentes próximas à sua localização, facilitando o acesso a serviços. |
+| **Contexto** | O usuário, logado e com permissão de geolocalização, deseja visualizar as unidades de saúde já cadastradas que estão mais próximas a ele, ou a um endereço especificado. |
+| **Ator(es)** | - Usuário autenticado<br>- Sistema de geolocalização |
+| **Recursos** | - Aplicativo GDF Saúde<br>- Serviço de geolocalização do dispositivo<br>- Banco de dados de clínicas cadastradas |
+| **Exceções** | - Falha na detecção automática de localização<br>- Geolocalização desativada no dispositivo<br>- Nenhuma clínica encontrada na proximidade |
+| **Restrições** | - Requer permissão de geolocalização do usuário.<br>- A lista de clínicas deve ser abrangente e atualizada. |
+| **Episódios** | 1. Usuário acessa a opção "Buscar Unidades de Saúde Próximas".<br>2. Sistema tenta detectar a localização automática do usuário.<br>3. (Fluxo Alternativo) Se a detecção automática falhar, o sistema solicita que o usuário insira o endereço manualmente.<br>4. Sistema consulta o banco de dados para identificar clínicas na proximidade da localização (automática ou manual).<br>5. (Fluxo de Exceção) Se a geolocalização estiver desativada, o sistema solicita a ativação ou a entrada manual do endereço.<br>6. Sistema exibe uma lista de clínicas encontradas, ordenadas por proximidade. |
+
+<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
+
+---
+
+### Cenário 40: Baixar Comprovante de Agendamento
+
+**Requisito Associado:** [RF15](../../elicitacao/requisitos_finais/#RF15)
+
+<p align="center">Tabela 42 - Cenário 40</p>
+
+| Elemento | Descrição |
+|---|---|
+|**ID**| <a id="CE39.1">CE39.1</a> |
+| **Título** | Download do Comprovante de Agendamento |
+| **Metas/Objetivos** | Permitir que o usuário baixe o comprovante em PDF de um agendamento confirmado para fins de registro ou apresentação. |
+| **Contexto** | O usuário, logado e com um agendamento ativo e confirmado, precisa obter o comprovante desse agendamento. |
+| **Ator(es)** | - Usuário autenticado |
+| **Recursos** | - Aplicativo GDF Saúde<br>- Módulo de gerenciamento de agendamentos<br>- Gerador de PDF |
+| **Exceções** | - Agendamento não encontrado ou expirado<br>- Falha na geração do PDF<br>- Falha no servidor |
+| **Restrições** | - O download só é permitido para agendamentos confirmados e não expirados.<br>- O comprovante deve ser gerado no formato PDF. |
+| **Episódios** | 1. Usuário acessa a área "Comprovantes de agendamento".<br>2. Sistema exibe a lista de agendamentos do usuário.<br>3. Usuário seleciona o agendamento desejado para baixar o comprovante.<br>4. Usuário clica no botão "Baixar".<br>5. Sistema gera o comprovante em formato PDF e inicia o download para o dispositivo do usuário.<br>6. (Fluxo Alternativo) Se o agendamento não for encontrado ou estiver expirado, o sistema notifica "Agendamento não encontrado".<br>7. (Fluxo de Exceção) Em caso de falha no servidor durante a geração ou download, o sistema exibe uma mensagem de erro. |
+
+<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
+
+---
+
+### Cenário 41: Pesquisa de Profissionais da Saúde
 
 **Requisito Associado:** [RF01.2](../../../elicitacao/requisitos_finais/#RF01.2) - O usuário poderá pesquisar profissionais da saúde (médicos, psicólogos etc.) por meio de filtros de busca.
 
-<p align="center">Tabela 40 - Cenário 38</p>
+<p align="center">Tabela 43 - Cenário 41</p>
 
 | Elemento | Descrição |
 | :--- | :--- |
@@ -980,11 +1046,11 @@ Este cenário está relacionado com o requisito não funcional **implementado** 
 
 ---
 
-### Cenário 39: Combinação de Filtros de Pesquisa
+### Cenário 42: Combinação de Filtros de Pesquisa
 
 **Requisito Associado:** [RF01.3](../../../elicitacao/requisitos_finais/#RF01.3) - Será possível combinar filtros de pesquisa (por ex. “região administrativa + especialidade”).
 
-<p align="center">Tabela 41 - Cenário 39</p>
+<p align="center">Tabela 44 - Cenário 42</p>
 
 | Elemento | Descrição |
 | :--- | :--- |
@@ -1002,11 +1068,11 @@ Este cenário está relacionado com o requisito não funcional **implementado** 
 
 ---
 
-### Cenário 40: Busca por Proximidade
+### Cenário 43: Busca por Proximidade
 
 **Requisito Associado:** [RF01.4](../../../elicitacao/requisitos_finais/#RF01.4) - O filtro de pesquisa deve permitir buscas por proximidade do usuário (distância em até 10 km).
 
-<p align="center">Tabela 42 - Cenário 40</p>
+<p align="center">Tabela 45 - Cenário 43</p>
 
 | Elemento | Descrição |
 | :--- | :--- |
@@ -1024,11 +1090,11 @@ Este cenário está relacionado com o requisito não funcional **implementado** 
 
 ---
 
-### Cenário 41: Busca por Especialidade Médica
+### Cenário 44: Busca por Especialidade Médica
 
 **Requisito Associado:** [RF01.5](../../../elicitacao/requisitos_finais/#RF01.5) - O Filtro permite busca pela especialidade médica.
 
-<p align="center">Tabela 43 - Cenário 41</p>
+<p align="center">Tabela 46 - Cenário 44</p>
 
 | Elemento | Descrição |
 | :--- | :--- |
@@ -1046,11 +1112,11 @@ Este cenário está relacionado com o requisito não funcional **implementado** 
 
 ---
 
-### Cenário 42: Leitura e Publicação de Comentários
+### Cenário 45: Leitura e Publicação de Comentários
 
 **Requisito Associado:** [RF02.2](../../../elicitacao/requisitos_finais/#RF02.2) - O usuário poderá deixar e/ou ler comentários sobre atendimentos em clínicas ou com profissionais específicos.
 
-<p align="center">Tabela 44 - Cenário 42</p>
+<p align="center">Tabela 47 - Cenário 45</p>
 
 | Elemento | Descrição |
 | :--- | :--- |
@@ -1068,11 +1134,11 @@ Este cenário está relacionado com o requisito não funcional **implementado** 
 
 ---
 
-### Cenário 43: Classificação de Relevância dos Comentários
+### Cenário 46: Classificação de Relevância dos Comentários
 
 **Requisito Associado:** [RF02.3](../../../elicitacao/requisitos_finais/#RF02.2) - O sistema classificará comentários como “relevantes” ou “não relevantes” automaticamente com base em palavras-chave e upvotes de outros usuários.
 
-<p align="center">Tabela 45 - Cenário 43</p>
+<p align="center">Tabela 48 - Cenário 46</p>
 
 | Elemento | Descrição |
 | :--- | :--- |
@@ -1090,11 +1156,11 @@ Este cenário está relacionado com o requisito não funcional **implementado** 
 
 ---
 
-### Cenário 44: Ordenação por Nota Média de Atendimento
+### Cenário 47: Ordenação por Nota Média de Atendimento
 
 **Requisito Associado:** [RF02.4](../../../elicitacao/requisitos_finais/#RF02.2) - O sistema ordenará clínicas por nota média de atendimento, do maior para o menor.
 
-<p align="center">Tabela 46 - Cenário 44</p>
+<p align="center">Tabela 49 - Cenário 47</p>
 
 | Elemento | Descrição |
 | :--- | :--- |
