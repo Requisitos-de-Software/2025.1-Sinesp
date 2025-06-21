@@ -362,43 +362,115 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 7: Cadastrar titulares, dependentes e optantes com validação de documentos  
-**Requisito Associado:** [RF07](../../../elicitacao/requisitos_finais/#RF07)  
+## Cenário x: Cadastrar Titular no Sistema
 
-<p align="center">Tabela 9 - Cenário 7</p>
+**Requisito Associado:** [RF07.1](../../elicitacao/requisitos_finais.md#RF07.1)
 
-| Elemento        | Descrição                                                                                                                                                                          |
-|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE07">CE07</a>  |
-| **Título**           | Cadastrar titulares, dependentes e optantes com validação de documentos                                                                                                            |
-| **Metas/Objetivos** | Garantir o cadastro completo e validado de usuários, incluindo dependentes e optantes, com conferência de documentos e critérios de elegibilidade.                                    |
-| **Contexto**        | O usuário inicia o processo de adesão pelo aplicativo ou portal, informando dados pessoais e anexando documentos oficiais para validação.                                           |
-| **Ator(es)**        | - Usuário.<br>- Sistema de Adesão.<br>- Operador do Plano.                                                                                                                         |
-| **Recursos**        | - Sistema de verificação documental.<br>- Base de dados de elegibilidade.<br>- APIs de consulta a órgãos oficiais (ex.: Receita Federal, cartórios).                              |
-| **Exceções**        | - Documentos ilegíveis ou inválidos.<br>- Usuário não elegível como dependente ou optante.<br>- Inconsistência de dados.                                                             |
-| **Restrições**      | Cadastro permitido apenas com documentação completa e validação positiva de elegibilidade.                                                                                          |
-| **Episódios**       | 1. Usuário acessa o formulário de cadastro.<br>2. Preenche dados e seleciona tipo (titular, dependente ou optante).<br>3. Anexa documentos.<br>4. Sistema valida documentos e elegibilidade.<br>5. Cadastro é aprovado ou encaminhado para análise manual. |
+| Elemento | Descrição |
+|---|---|
+| **Título** | Cadastro de Titular pelo Aplicativo |
+| **Metas/Objetivos** | Permitir ao usuário titular realizar seu cadastro no sistema, anexando documentos obrigatórios e validando suas informações. |
+| **Ator(es)** | - Usuário (Titular) |
+| **Contexto** | O usuário deseja se tornar titular do plano e precisa cadastrar seus dados e documentos pelo aplicativo. |
+| **Recursos** | - App GDF Saúde<br>- Conexão com a internet<br>- Sistema de autenticação<br>- Módulo de upload de documentos<br>- Banco de dados de titulares |
+| **Exceções** | - Falha no upload de documentos.<br>- Dados incompletos ou inválidos.<br>- Perda de conexão durante o cadastro. |
+| **Restrições** | - Documentos obrigatórios devem ser anexados.<br>- Cadastro só é concluído após validação dos dados. |
+| **Episódios** | 1. Usuário acessa a área de cadastro.<br>2. Preenche dados pessoais.<br>3. Anexa documentação.<br>4. Sistema valida informações.<br>5. Cadastro é confirmado e usuário recebe notificação. |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
 ---
 
-### Cenário 8: Verificar cobertura e necessidade de autorização prévia para procedimentos  
-**Requisito Associado:** [RF08](../../../elicitacao/requisitos_finais/#RF08)  
+## Cenário x: Cadastrar Dependente Vinculado ao Titular
 
-<p align="center">Tabela 10 - Cenário 8</p>
+**Requisito Associado:** [RF07.2](../../elicitacao/requisitos_finais.md#RF07.2)
 
-| Elemento        | Descrição                                                                                                                                                                                   |
-|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE08">CE08</a>  |
-| **Título**           | Verificar cobertura e necessidade de autorização prévia para procedimentos                                                                                                                  |
-| **Metas/Objetivos** | Garantir que os procedimentos solicitados estejam cobertos segundo normas da TABGDFSAÚDE e DUT, incluindo regras de carência e exclusão.                                                    |
-| **Contexto**        | O usuário ou prestador solicita um procedimento através do aplicativo ou sistema de autorização, aguardando confirmação automática ou técnica conforme a tabela vigente.                     |
-| **Ator(es)**        | - Usuário ou prestador.<br>- Sistema de Saúde.<br>- Equipe Técnica de Autorização.                                                                                                          |
-| **Recursos**        | - Tabela TABGDFSAÚDE.<br>- DUTs.<br>- Regras contratuais de carência/exclusão.<br>- Sistema de autorização técnica.                                                                          |
-| **Exceções**        | - Procedimento fora da cobertura.<br>- Ausência de DUT.<br>- Falta de solicitação médica válida.<br>- Necessidade de parecer técnico adicional.                                             |
-| **Restrições**      | Procedimentos só podem ser autorizados com documentação médica adequada e dentro das regras da tabela vigente.                                                                              |
-| **Episódios**       | 1. Usuário ou prestador solicita o procedimento.<br>2. Sistema verifica na TABGDFSAÚDE.<br>3. Confirma DUT e regras de carência/exclusão.<br>4. Se exigido, solicita encaminhamento médico.<br>5. Análise técnica é realizada antes da liberação. |
+| Elemento | Descrição |
+|---|---|
+| **Título** | Cadastro de Dependente pelo Titular |
+| **Metas/Objetivos** | Permitir ao titular cadastrar dependentes, anexando documentos e vinculando-os ao seu plano. |
+| **Ator(es)** | - Usuário (Titular) |
+| **Contexto** | O titular deseja incluir um dependente em seu plano de saúde pelo aplicativo. |
+| **Recursos** | - App GDF Saúde<br>- Conexão com a internet<br>- Sistema de autenticação<br>- Módulo de upload de documentos<br>- Banco de dados de dependentes |
+| **Exceções** | - Falha no upload de documentos.<br>- Dados do dependente incompletos.<br>- Perda de conexão durante o cadastro. |
+| **Restrições** | - Documentos obrigatórios do dependente devem ser anexados.<br>- Cadastro só é concluído após validação dos dados. |
+| **Episódios** | 1. Titular acessa área de dependentes.<br>2. Inicia cadastro.<br>3. Preenche dados do dependente.<br>4. Anexa documentação.<br>5. Sistema valida e confirma cadastro.<br>6. Dependente é vinculado ao titular. |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+---
+
+## Cenário x: Cadastrar Optante no Sistema
+
+**Requisito Associado:** [RF07.3](../../elicitacao/requisitos_finais.md#RF07.3)
+
+| Elemento | Descrição |
+|---|---|
+| **Título** | Cadastro de Optante pelo Aplicativo |
+| **Metas/Objetivos** | Permitir ao usuário optante realizar seu cadastro, anexando documentos obrigatórios e validando suas informações. |
+| **Ator(es)** | - Usuário (Optante) |
+| **Contexto** | O usuário deseja se cadastrar como optante do plano pelo aplicativo. |
+| **Recursos** | - App GDF Saúde<br>- Conexão com a internet<br>- Sistema de autenticação<br>- Módulo de upload de documentos<br>- Banco de dados de optantes |
+| **Exceções** | - Falha no upload de documentos.<br>- Dados incompletos ou inválidos.<br>- Perda de conexão durante o cadastro. |
+| **Restrições** | - Documentos obrigatórios devem ser anexados.<br>- Cadastro só é concluído após validação dos dados. |
+| **Episódios** | 1. Usuário acessa área de cadastro.<br>2. Seleciona opção "Optante".<br>3. Preenche dados.<br>4. Anexa documentação.<br>5. Sistema valida e confirma cadastro. |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+---
+
+## Cenário x: Validar Documentos no Cadastro
+
+**Requisito Associado:** [RF07.4](../../elicitacao/requisitos_finais.md#RF07.4)
+
+| Elemento | Descrição |
+|---|---|
+| **Título** | Validação de Documentos no Processo de Cadastro |
+| **Metas/Objetivos** | Garantir que os documentos anexados no cadastro de titulares, dependentes e optantes sejam válidos e legíveis. |
+| **Ator(es)** | - Sistema |
+| **Contexto** | O usuário anexou documentos durante o cadastro e aguarda a validação automática do sistema. |
+| **Recursos** | - App GDF Saúde<br>- Módulo de validação automática de documentos<br>- Banco de dados de documentos |
+| **Exceções** | - Documento ilegível.<br>- Falha técnica na validação.<br>- Documento incompatível com o formato exigido. |
+| **Restrições** | - Apenas documentos válidos e legíveis são aceitos.<br>- Usuário deve reenviar documentos rejeitados. |
+| **Episódios** | 1. Sistema recebe documentos anexados.<br>2. Realiza validação automática.<br>3. Informa resultado ao usuário.<br>4. Se inválido, solicita novo envio. |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+---
+
+## Cenário x: Verificar Elegibilidade no Cadastro
+
+**Requisito Associado:** [RF07.5](../../elicitacao/requisitos_finais.md#RF07.5)
+
+| Elemento | Descrição |
+|---|---|
+| **Título** | Verificação de Elegibilidade durante o Cadastro |
+| **Metas/Objetivos** | Verificar se titulares, dependentes e optantes atendem aos critérios de elegibilidade do plano durante o cadastro. |
+| **Ator(es)** | - Sistema |
+| **Contexto** | Após envio dos dados e documentos, o sistema realiza a verificação de elegibilidade. |
+| **Recursos** | - App GDF Saúde<br>- Banco de dados de critérios de elegibilidade<br>- Sistema de validação automática |
+| **Exceções** | - Dados inconsistentes.<br>- Falha técnica na verificação.<br>- Critérios de elegibilidade não atendidos. |
+| **Restrições** | - Cadastro só é aprovado se todos os critérios forem atendidos.<br>- Usuário deve corrigir dados inconsistentes. |
+| **Episódios** | 1. Sistema recebe dados e documentos.<br>2. Verifica critérios de elegibilidade.<br>3. Informa resultado ao usuário.<br>4. Se necessário, solicita correção de dados. |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+---
+
+## Cenário x: Verificar Procedimentos para Autorização
+
+**Requisito Associado:** [RF08](../../elicitacao/requisitos_finais.md#RF08)
+
+| Elemento | Descrição |
+|---|---|
+| **Título** | Verificação de Procedimentos para Autorização Prévia |
+| **Metas/Objetivos** | Verificar se o procedimento solicitado está coberto, exige análise técnica ou documentação adicional antes da autorização. |
+| **Ator(es)** | - Titular<br>- Profissional de saúde<br>- Analista técnico |
+| **Contexto** | Um procedimento médico é solicitado e precisa ser analisado conforme regras do plano. |
+| **Recursos** | - App GDF Saúde<br>- Banco TABGDFSAÚDE<br>- Sistema de análise técnica<br>- Módulo de upload de laudos médicos |
+| **Exceções** | - Solicitação incompleta.<br>- Falha técnica no sistema.<br>- Procedimento não coberto pelo plano. |
+| **Restrições** | - Procedimentos fora das regras não são autorizados.<br>- Documentação médica obrigatória para análise técnica. |
+| **Episódios** | 1. Usuário submete solicitação.<br>2. Sistema verifica TABGDFSAÚDE e DUT.<br>3. Verifica carência e exclusões.<br>4. Solicita análise técnica se necessário.<br>5. Informa resultado ao usuário. |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
@@ -1356,3 +1428,5 @@ SERRANO, Milene; SERRANO, Maurício. *Requisitos - Aula 10*. Disponível em: [ht
 |`2.1`  | 08/06/2025  | Adição de ancoras | [Isaque Camargos](https://github.com/isaqzin) | [Lucas Alves](https://github.com/LucasAlves71) |
 |`3.0`  | 12/06/2025  | Corrigindo âncoras e metodologia para uma melhor rastreabilidade e identificação dos cenários. Além disso, corrigi os meus cenários, retirando os cenários não funcionais e criando cenários para os Requisitos: RF01.1, RF01.2, RF01.3, RF01.4, RF01.5, RF02.1, RF02.2 e RF02.3 .  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
 | `3.1` | 19/06/2025  | Correção dos cenários para os requisitos RF09.1, RF09.2, RF09.3, RF09.4, RF10 e RF20 de acordo com as revisões da entrega, sendo para 2 requisitos funcionais não implementados no mínimo | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Othavio Bolzan](https://github.com/bolzanMGB) |
+| `3.2` | 21/06/2025  | Adição dos meus cenários refinados | [Lucas Alves](https://github.com/LucasAlves71)  | [Isaque Camargos](https://github.com/isaqzin) |
+
