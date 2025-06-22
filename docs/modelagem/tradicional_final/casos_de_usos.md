@@ -1112,6 +1112,7 @@ Lucid Software Português. *Tutorial de Caso de Uso UML*. Youtube, 25 abr. 2019.
 |`2.1`  | 20/06/2025  | Criando casos de uso para os requisitos: RF12.1, RF12.2, RF12.3, RF12.4, RF12.5, RF12.6 | [Othavio Bolzan](https://github.com/bolzanMGB) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | 
 |`2.2`  | 21/06/2025  | Adição dos meus casos de uso certos, além da enumeração e padronização do documento  | [Lucas Alves](https://github.com/LucasAlves71) | [Kaleb Macedo](https://github.com/kalebmacedo) |
 |`2.3`  | 21/06/2025  | Renomeação dos casos de uso  | [Othavio Bolzan](https://github.com/bolzanMGB) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+|`2.4`  | 22/06/2025  | Criação de casos de uso pros requisitos RF22, RF14.1 e RF14.2  | [Yzabella Miranda](https://github.com/redjsun) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 
 
 
