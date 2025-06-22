@@ -85,7 +85,7 @@ A tabela 2 apresenta a informação do usuário real que participou da etapa de 
                 <td><a href="../assets/Autorizacao_wellington.pdf" target="_blank">Ver Termo de Consentimento (PDF)</a></td>
             </tr>
             <tr>
-                <td>Vilmar José da Silva Fagundes dos Passos Jr.</td>
+                <td>Vilmar José Fagundes dos Passos Jr.</td>
                 <td>18/06/2025</td>
                 <td>13:20</td>
                 <td>5:20</td>
