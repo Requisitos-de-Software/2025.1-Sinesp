@@ -133,7 +133,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 | :--- | :--- |
-| **ID** | <a id="CE38">CE38</a> |
+| **ID** | <a id="CE02">CE02</a> |
 | **Título** | Pesquisa de Profissionais da Saúde por Categoria |
 | **Metas/Objetivos** | Permitir que o usuário encontre um profissional de saúde (médico, psicólogo, etc.) utilizando um filtro específico de categoria profissional. |
 | **Contexto** | Um beneficiário precisa de acompanhamento psicológico e utiliza o aplicativo para encontrar uma lista de todos os psicólogos credenciados na rede GDF Saúde. |
@@ -155,7 +155,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 | :--- | :--- |
-| **ID** | <a id="CE39">CE39</a> |
+| **ID** | <a id="CE03">CE03</a> |
 | **Título** | Refinamento da Busca com Filtros Combinados |
 | **Metas/Objetivos** | Permitir que o usuário refine os resultados da busca aplicando múltiplos filtros de forma simultânea para encontrar um atendimento altamente específico. |
 | **Contexto** | Um usuário precisa agendar uma consulta com um cardiologista que atenda na Asa Sul. Para otimizar sua busca, ele aplica os filtros "Especialidade" e "Região Administrativa" ao mesmo tempo. |
@@ -177,7 +177,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 | :--- | :--- |
-| **ID** | <a id="CE40">CE40</a> |
+| **ID** | <a id="CE04">CE04</a> |
 | **Título** | Localização de Atendimento por Proximidade |
 | **Metas/Objetivos** | Facilitar a vida do usuário permitindo que ele encontre opções de atendimento próximas à sua localização atual, dentro de um raio de 10 km. |
 | **Contexto** | Um usuário está em seu local de trabalho e precisa de atendimento odontológico com urgência. Ele utiliza a função "Buscar Perto de Mim" para ver as clínicas mais próximas. |
@@ -200,7 +200,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 | :--- | :--- |
-| **ID** | <a id="CE41">CE41</a> |
+| **ID** | <a id="CE05">CE05</a> |
 | **Título** | Filtro por Especialidade Médica |
 | **Metas/Objetivos** | Permitir que o usuário encontre facilmente profissionais e clínicas que ofereçam uma determinada especialidade médica. |
 | **Contexto** | Um usuário precisa encontrar um ortopedista para tratar uma lesão no joelho. Ele acessa o aplicativo e utiliza o filtro de especialidades para listar todas as opções disponíveis. |
@@ -221,7 +221,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 | :--- | :--- |
-| **ID** |  <a id="CE02">CE02</a>  |
+| **ID** |  <a id="CE06">CE06</a>  |
 | **Título** | Avaliação de Atendimento com escala de 1 a 5 |
 | **Metas/Objetivos** | Permitir que o usuário avalie a qualidade de um atendimento específico utilizando uma escala Likert de 1 a 5, oferecendo um feedback mais detalhado sobre sua satisfação. |
 | **Contexto** | Após uma consulta de rotina, um usuário acessa o aplicativo GDF Saúde para registrar sua experiência. Ele seleciona a opção "4 - Satisfeito" na escala de avaliação e deixa um comentário elogiando a pontualidade do atendimento. |
@@ -245,7 +245,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 | :--- | :--- |
-| **ID** | <a id="CE42">CE42</a> |
+| **ID** | <a id="CE07">CE07</a> |
 | **Título** | Interação com Comentários de Atendimentos |
 | **Metas/Objetivos** | Criar uma comunidade de feedback, permitindo que usuários leiam avaliações de outros e publiquem suas próprias experiências para ajudar na tomada de decisão. |
 | **Contexto** | Antes de marcar uma consulta com um novo pediatra para seu filho, uma usuária acessa o perfil do profissional no aplicativo para ler os comentários deixados por outros pais. |
@@ -269,7 +269,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 | :--- | :--- |
-| **ID** | <a id="CE43">CE43</a> |
+| **ID** | <a id="CE08">CE08</a> |
 | **Título** | Destaque de Comentários Relevantes |
 | **Metas/Objetivos** | Melhorar a experiência do usuário, destacando automaticamente os comentários mais úteis e informativos com base em seu conteúdo e na percepção de outros usuários. |
 | **Contexto** | Ao ler as avaliações de um hospital, um usuário nota que os comentários no topo da lista são mais detalhados, mencionam aspectos como "tempo de espera" e "qualidade do atendimento", e possuem um selo de "Relevante". |
@@ -293,7 +293,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 | :--- | :--- |
-| **ID** | <a id="CE44">CE44</a> |
+| **ID** | <a id="CE09">CE09</a> |
 | **Título** | Ordenação de Resultados por Avaliação |
 | **Metas/Objetivos** | Permitir que o usuário organize os resultados de uma busca de clínicas com base na satisfação de outros pacientes, exibindo as mais bem avaliadas primeiro. |
 | **Contexto** | Um usuário busca por "laboratórios de análises clínicas" e, para garantir um serviço de qualidade, ele usa a opção de ordenar os resultados pela nota média, do maior para o menor. |
@@ -316,7 +316,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                                                                                          |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **ID** |  <a id="CE03">CE03</a>  |
+| **ID** |  <a id="CE10">CE10</a>  |
 | **Título**        | Acesso à carteirinha digital sem conexão à internet                                                                                                                                                                                                |
 | **Metas/Objetivos** | Permitir que o usuário baixe a carteirinha para acessá-la posteriormente sem conexão à internet.                                                                                                                                                   |
 | **Contexto**        | O usuário está em um hospital, clínica ou laboratório e precisa da carteirinha para solicitar autorização do procedimento. Sem a carteirinha física e sem conexão, ele acessa a galeria de fotos do dispositivo, onde já havia baixado o arquivo. |
@@ -337,7 +337,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição|
 |-----------------|--------------------------------------------------------|
-| **ID**|  <a id="CE05">CE05</a>|
+| **ID**|  <a id="CE11">CE11</a>|
 | **Título**| Configuração de preferências de notificação pelo usuário|
 | **Metas/Objetivos** | Permitir que o usuário escolha quais tipos de eventos deseja ser notificado (ex.: vencimento de fatura, demonstrativo IR) e por quais canais (app, SMS, e-mail).|
 | **Contexto**| O usuário acessa o app GDF Saúde, entra nas configurações e define os eventos e canais pelos quais deseja ser notificado. As preferências ficam salvas no sistema.            |
@@ -358,7 +358,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição|
 |-----------------|----------------------------------------------------|
-| **ID**          |  <a id="CE06">CE06</a>|
+| **ID**          |  <a id="CE12">CE12</a>|
 | **Título**      | Envio de notificação sobre demonstrativo de IR e vencimento de fatura|
 | **Metas/Objetivos** | Informar o usuário sobre a disponibilidade do demonstrativo do Imposto de Renda e o vencimento de sua fatura de forma automática.|
 | **Contexto**| Após o sistema identificar que um demonstrativo está disponível ou uma fatura está prestes a vencer, ele envia uma notificação usando os canais configurados pelo usuário.|
@@ -372,7 +372,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 13: Agendar Consulta Médica pelo AplicativoAdd commentMore actions
+### Cenário 13: Agendar Consulta Médica pelo Aplicativo
 
 **Requisito Associado:** [RF05.1](../../elicitacao/requisitos_finais.md#RF05.1)
 
@@ -380,6 +380,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 |---|---|
+| **ID** | <a id="CE13">CE13</a> |
 | **Título** | Agendar Consulta Médica pelo Aplicativo com Pagamento Integrado |
 | **Metas/Objetivos** | Permitir ao usuário encontrar um profissional, escolher um horário e agendar uma consulta, realizando o pagamento da coparticipação de forma automática e segura. |
 | **Ator(es)** | - Beneficiário do plano de saúde |
@@ -400,6 +401,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 |---|---|
+| **ID** | <a id="CE14">CE14</a> |
 | **Título** | Cancelar Agendamento de Consulta pelo Aplicativo |
 | **Metas/Objetivos** | Permitir ao usuário cancelar uma consulta agendada de forma simples e receber o estorno do valor pago, de acordo com as regras do plano. |
 | **Ator(es)** | - Beneficiário do plano de saúde |
@@ -420,6 +422,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 |---|---|
+| **ID** | <a id="CE15">CE15</a> |
 | **Título** | Verificar o Valor Específico de uma Consulta |
 | **Metas/Objetivos** | Permitir que o usuário saiba o valor total de uma consulta em uma clínica específica antes de decidir pelo agendamento. |
 | **Ator(es)** | - Beneficiário do plano de saúde |
@@ -440,6 +443,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 |---|---|
+| **ID** | <a id="CE16">CE16</a> |
 | **Título** | Calcular e Exibir o Valor da Coparticipação |
 | **Metas/Objetivos** | Informar de forma clara ao usuário o valor que ele efetivamente pagará (coparticipação) por um procedimento, ajudando em seu planejamento financeiro. |
 | **Ator(es)** | - Beneficiário do plano de saúde |
@@ -460,6 +464,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 |---|---|
+| **ID** | <a id="CE17">CE17</a> |
 | **Título** | Gerar e Baixar Demonstrativo de Despesas Médicas para o IR |
 | **Metas/Objetivos** | Fornecer ao usuário um documento oficial e consolidado com todas as suas despesas médicas do ano anterior para facilitar a declaração do Imposto de Renda. |
 | **Ator(es)** | - Beneficiário do plano de saúde |
@@ -480,6 +485,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 |---|---|
+| **ID** | <a id="CE18">CE18</a> |
 | **Título** | Consultar Histórico de Demonstrativos de Imposto de Renda |
 | **Metas/Objetivos** | Permitir que o usuário acesse e baixe informes de pagamento de anos anteriores de forma rápida e segura. |
 | **Ator(es)** | - Beneficiário do plano de saúde |
@@ -500,6 +506,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 |---|---|
+| **ID** | <a id="CE19">CE19</a> |
 | **Título** | Mostrar Extrato Financeiro Detalhado |
 | **Metas/Objetivos** | Oferecer ao usuário uma visão transparente e atualizada de todas as suas transações financeiras com o plano de saúde. |
 | **Ator(es)** | - Beneficiário do plano de saúde |
@@ -520,6 +527,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 |---|---|
+| **ID** | <a id="CE20">CE20</a> |
 | **Título** | Exibir Painel com Metas de Saúde Personalizadas |
 | **Metas/Objetivos** | Incentivar o usuário a cuidar da saúde de forma proativa, mostrando metas de cuidados preventivos e utilizando gamificação para motivar a conclusão. |
 | **Ator(es)** | - Beneficiário do plano de saúde |
@@ -540,6 +548,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 |---|---|
+| **ID** | <a id="CE21">CE21</a> |
 | **Título** | Cadastro de Titular pelo Aplicativo |
 | **Metas/Objetivos** | Permitir ao usuário titular realizar seu cadastro no sistema, anexando documentos obrigatórios e validando suas informações. |
 | **Ator(es)** | - Usuário (Titular) |
@@ -560,6 +569,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 |---|---|
+| **ID** | <a id="CE22">CE22</a> |
 | **Título** | Cadastro de Dependente pelo Titular |
 | **Metas/Objetivos** | Permitir ao titular cadastrar dependentes, anexando documentos e vinculando-os ao seu plano. |
 | **Ator(es)** | - Usuário (Titular) |
@@ -580,6 +590,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 |---|---|
+| **ID** | <a id="CE23">CE23</a> |
 | **Título** | Cadastro de Optante pelo Aplicativo |
 | **Metas/Objetivos** | Permitir ao usuário optante realizar seu cadastro, anexando documentos obrigatórios e validando suas informações. |
 | **Ator(es)** | - Usuário (Optante) |
@@ -600,6 +611,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 |---|---|
+| **ID** | <a id="CE24">CE24</a> |
 | **Título** | Validação de Documentos no Processo de Cadastro |
 | **Metas/Objetivos** | Garantir que os documentos anexados no cadastro de titulares, dependentes e optantes sejam válidos e legíveis. |
 | **Ator(es)** | - Sistema |
@@ -620,6 +632,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 |---|---|
+| **ID** | <a id="CE25">CE25</a> |
 | **Título** | Verificação de Elegibilidade durante o Cadastro |
 | **Metas/Objetivos** | Verificar se titulares, dependentes e optantes atendem aos critérios de elegibilidade do plano durante o cadastro. |
 | **Ator(es)** | - Sistema |
@@ -640,6 +653,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 |---|---|
+| **ID** | <a id="CE26">CE26</a> |
 | **Título** | Verificação de Procedimentos para Autorização Prévia |
 | **Metas/Objetivos** | Verificar se o procedimento solicitado está coberto, exige análise técnica ou documentação adicional antes da autorização. |
 | **Ator(es)** | - Titular<br>- Profissional de saúde<br>- Analista técnico |
@@ -661,7 +675,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição |
 |-----------------|-----------|
-| **ID**          | CE09      |
+| **ID**          | <a id="CE27">CE27</a>      |
 | **Título**      | Visualizar Histórico de Consultas Realizadas |
 | **Metas/Objetivos** | Permitir ao usuário acessar e consultar todas as consultas realizadas, com detalhes de data, profissional e especialidade. |
 | **Contexto**    | Usuário autenticado deseja revisar seu histórico de consultas para controle pessoal ou agendamento de retornos. |
@@ -684,7 +698,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição |
 |-----------------|-----------|
-| **ID**          | CEXX      |
+| **ID**          | <a id="CE28">CE28</a>      |
 | **Título**      | Visualizar Histórico de Exames Realizados |
 | **Metas/Objetivos** | Permitir ao usuário consultar todos os exames realizados, com nome, data e status. |
 | **Contexto**    | Usuário autenticado deseja acompanhar exames feitos para controle de saúde e acompanhamento médico. |
@@ -706,7 +720,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição |
 |-----------------|-----------|
-| **ID**          | CEXX      |
+| **ID**          | <a id="CE29">CE29</a>      |
 | **Título**      | Visualizar Resultados de Exames Laboratoriais |
 | **Metas/Objetivos** | Permitir ao usuário acessar resultados de exames laboratoriais realizados, visualizar e baixar arquivos de resultados. |
 | **Contexto**    | Usuário autenticado deseja consultar resultados de exames para acompanhamento médico ou compartilhamento com profissionais de saúde. |
@@ -722,14 +736,12 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ### Cenário 30: Visualizar Histórico de Coparticipações
 
-
-
 **Requisito Associado:** [RF09.4](../../elicitacao/requisitos_finais.md#RF09.4)
 <p align="center">Tabela 32 - Cenário 30</p>
 
 | Elemento        | Descrição |
 |-----------------|-----------|
-| **ID**          | CEXX      |
+| **ID**          | <a id="CE30">CE30</a> |
 | **Título**      | Visualizar Histórico de Coparticipações |
 | **Metas/Objetivos** | Permitir ao usuário consultar cobranças de coparticipação detalhadas, visualizar valores, datas, serviços e status de pagamento. |
 | **Contexto**    | Usuário autenticado deseja conferir valores cobrados em coparticipação para controle financeiro e contestação de cobranças. |
@@ -750,7 +762,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE10">CE10</a>  |
+| **ID**          | <a id="CE31">CE31</a> |
 | **Título**           | Favoritar Horários de Consulta RF10                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | **Metas/Objetivos** | Permitir que o usuário marque como favoritos horários desejados durante o agendamento, facilitando futuras reservas rápidas e convenientes.                                                                                                                                                                                                                                                                                                                                                                                     |
 | **Contexto**        | Usuário autenticado no app móvel GDF Saúde está agendando uma consulta e deseja salvar horários preferidos para uso posterior.                                                                                                                                                                                                                                                                                                                                                                                                  |
@@ -771,7 +783,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                                                                                                               |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE11">CE11</a> |
+| **ID**          | <a id="CE32">CE32</a> |
 | **Título**           | Canal para o usuário enviar feedback sobre atendimentos                                                                                                                                                                                                                 |
 | **Metas/Objetivos** | Permitir ao usuário registrar sua experiência, contribuindo para a melhoria da qualidade dos serviços prestados.                                                                                                                                                        |
 | **Contexto**        | Após atendimento em clínica agendada pelo app, o usuário acessa o histórico e envia nota e comentário.                                                                                                                                                                     |
@@ -783,7 +795,6 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
-
 ---
 
 ### Cenário 33: Apresentar uma Seção no Menu Principal Chamada "Novidades"
@@ -792,7 +803,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição |
 |-----------------|-----------|
-| **ID**          | CE12.1 |
+| **ID**          | <a id="CE33">CE33</a> |
 | **Título**      | Apresentar uma seção no menu principal chamada "Novidades" |
 | **Metas/Objetivos** | Facilitar o acesso dos usuários às informações recentes do app por meio de uma entrada dedicada no menu. |
 | **Contexto**    | O app é aberto e apresenta no menu principal uma nova seção intitulada “Novidades”. |
@@ -812,7 +823,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição |
 |-----------------|-----------|
-| **ID**          | CE12.2 |
+| **ID**          | <a id="CE34">CE34</a> |
 | **Título**      | Exibir lista de funcionalidades com título, descrição e data de lançamento |
 | **Metas/Objetivos** | Permitir que o usuário se informe sobre as funcionalidades lançadas recentemente. |
 | **Contexto**    | Ao acessar a seção “Novidades”, o usuário visualiza uma lista de funcionalidades lançadas. |
@@ -821,7 +832,6 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 | **Exceções**    | - Falha ao carregar a lista <br> - Lista vazia |
 | **Restrições**  | Os dados devem ser exibidos de forma legível e organizada |
 | **Episódios**   | 1. Usuário acessa seção “Novidades” <br> 2. Lista de funcionalidades é exibida com título, descrição e data |
-
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
 
@@ -833,7 +843,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição |
 |-----------------|-----------|
-| **ID**          | CE12.3 |
+| **ID**          | <a id="CE35">CE35</a> |
 | **Título**      | Destacar funcionalidades novas com marcador "Novo" |
 | **Metas/Objetivos** | Ajudar o usuário a identificar rapidamente o que foi recentemente lançado. |
 | **Contexto**    | Na lista de novidades, as funcionalidades lançadas recentemente exibem um marcador "Novo". |
@@ -853,7 +863,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição |
 |-----------------|-----------|
-| **ID**          | CE12.4 |
+| **ID**          | <a id="CE36">CE36</a> |
 | **Título**      | Exibir pop-ups informativos com as principais novidades após atualização |
 | **Metas/Objetivos** | Informar imediatamente o usuário sobre novas funcionalidades após atualização do app. |
 | **Contexto**    | Ao abrir o app após uma atualização, um pop-up apresenta um resumo das novidades. |
@@ -867,14 +877,14 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-## Cenário 37: Ver Descrição Detalhada ao Tocar na Funcionalidade
+### Cenário 37: Ver Descrição Detalhada ao Tocar na Funcionalidade
+
 **Requisito Associado:** [RF12.5](../../../elicitacao/requisitos_finais/#RF12.5)  
 <p align="center">Tabela 39 - Cenário 37</p>
 
-
 | Elemento        | Descrição |
 |-----------------|-----------|
-| **ID**          | CE12.5 |
+| **ID**          | <a id="CE37">CE37</a> |
 | **Título**      | Permitir que o usuário toque em uma funcionalidade para ver detalhes |
 | **Metas/Objetivos** | Fornecer informações completas sobre as funcionalidades listadas. |
 | **Contexto**    | O usuário toca em uma funcionalidade na seção de novidades e acessa a descrição detalhada. |
@@ -895,7 +905,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição |
 |-----------------|-----------|
-| **ID**          | CE12.6 |
+| **ID**          | <a id="CE38">CE38</a> |
 | **Título**      | Permitir ordenação das novidades por "mais recente" e "mais antigo" |
 | **Metas/Objetivos** | Facilitar a navegação do usuário entre diferentes novidades conforme sua preferência. |
 | **Contexto**    | O usuário acessa a lista de novidades e escolhe como deseja ordenar os itens. |
@@ -917,7 +927,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 |---|---|
-|**ID**| <a id="CE36.1">CE36.1</a> |
+|**ID**| <a id="CE39">CE39</a> |
 | **Título** | Consulta à Rede Odontológica por Filtros |
 | **Metas/Objetivos** | Permitir que o usuário encontre clínicas odontológicas cadastradas de forma eficiente, aplicando critérios de busca específicos. |
 | **Contexto** | O usuário, já logado no aplicativo via GovBR, deseja encontrar uma clínica odontológica que atenda às suas necessidades, utilizando filtros como especialidade ou bairro. |
@@ -939,7 +949,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 |---|---|
-|**ID**| <a id="CE37.1">CE37.1</a> |
+|**ID**| <a id="CE40">CE40</a> |
 | **Título** | Descoberta de Novas Clínicas na Proximidade |
 | **Metas/Objetivos** | Apresentar ao usuário as clínicas recém-cadastradas que estão próximas à sua localização atual, ou a um endereço especificado. |
 | **Contexto** | O usuário, logado no sistema e com permissão de geolocalização, busca por novas unidades de saúde que foram adicionadas recentemente em sua região. |
@@ -961,7 +971,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 |---|---|
-|**ID**| <a id="CE38.1">CE38.1</a> |
+|**ID**| <a id="CE41">CE41</a> |
 | **Título** | Busca e Exibição de Clínicas Existentes Próximas |
 | **Metas/Objetivos** | Fornecer ao usuário uma lista de clínicas de saúde existentes próximas à sua localização, facilitando o acesso a serviços. |
 | **Contexto** | O usuário, logado e com permissão de geolocalização, deseja visualizar as unidades de saúde já cadastradas que estão mais próximas a ele, ou a um endereço especificado. |
@@ -983,7 +993,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento | Descrição |
 |---|---|
-|**ID**| <a id="CE39.1">CE39.1</a> |
+|**ID**| <a id="CE42">CE42</a> |
 | **Título** | Download do Comprovante de Agendamento |
 | **Metas/Objetivos** | Permitir que o usuário baixe o comprovante em PDF de um agendamento confirmado para fins de registro ou apresentação. |
 | **Contexto** | O usuário, logado e com um agendamento ativo e confirmado, precisa obter o comprovante desse agendamento. |
@@ -997,15 +1007,15 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-
 ### Cenário 43: Visualizar calendário personalizado com informações do plano  
+
 **Requisito Associado:** [RF16](../../../elicitacao/requisitos_finais/#RF16)  
 
 <p align="center">Tabela 45 - Cenário 43</p>
 
 | Elemento        | Descrição                                                                                                          |
 |-----------------|------------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE16">CE16</a>  |
+|**ID**|  <a id="CE43">CE43</a>  |
 | **Título**          | Visualizar calendário personalizado com informações do plano                                                      |
 | **Metas/Objetivos** | Permitir ao usuário acompanhar suas consultas, prazos de carência e vencimentos de forma clara e integrada.       |
 | **Contexto**        | O usuário acessa o aplicativo e consulta o calendário com eventos relacionados ao seu plano de saúde.             |
@@ -1020,13 +1030,14 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 ---
 
 ### Cenário 44: Visualizar painel de metas com gamificação  
+
 **Requisito Associado:** [RF17](../../../elicitacao/requisitos_finais/#RF17)  
 
 <p align="center">Tabela 46 - Cenário 44</p>
 
 | Elemento        | Descrição                                                                                         |
 |-----------------|-------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE17">CE17</a>  |
+|**ID**|  <a id="CE44">CE44</a>  |
 | **Título**          | Visualizar painel de metas com gamificação                                                       |
 | **Metas/Objetivos** | Estimular o acompanhamento da saúde por meio de metas e recompensas visuais.                     |
 | **Contexto**        | O usuário acessa o painel e verifica seu progresso e as metas a cumprir.                         |
@@ -1041,13 +1052,14 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 ---
 
 ### Cenário 45: Registrar denúncia contra profissional da rede credenciada  
+
 **Requisito Associado:** [RF18](../../../elicitacao/requisitos_finais/#RF18)  
 
 <p align="center">Tabela 47 - Cenário 45</p>
 
 | Elemento        | Descrição                                                                                              |
 |-----------------|------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE18">CE18</a>  |
+|**ID**|  <a id="CE45">CE45</a>  |
 | **Título**          | Registrar denúncia contra profissional da rede credenciada                                             |
 | **Metas/Objetivos** | Permitir que usuários denunciem condutas inadequadas de profissionais, garantindo um canal seguro e sigiloso. |
 | **Contexto**        | O usuário acessa o aplicativo após atendimento e deseja relatar um problema com um profissional da rede. |
@@ -1062,13 +1074,14 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 ---
 
 ### Cenário 46: Login por biometria facial ou digital  
+
 **Requisito Associado:** [RF19](../../../elicitacao/requisitos_finais/#RF19)  
 
 <p align="center">Tabela 48 - Cenário 46</p>
 
 | Elemento        | Descrição                                                                                                                                                                                                                                                                                                             |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE19">CE19</a>  |
+|**ID**|  <a id="CE46">CE46</a>  |
 | **Título**           | Login por biometria facial ou digital                                                                                                                                                                                                                                                                                 |
 | **Metas/Objetivos** | Permitir acesso prático e seguro usando biometria, sem digitar senha.                                                                                                                                                                                                                                                  |
 | **Contexto**        | Usuário com conta ativa opta por habilitar biometria no primeiro acesso ou depois e passa a usá‑la para autenticar.                                                                                                                                                                                                      |
@@ -1083,13 +1096,14 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 ---
 
 ### Cenário 47: Solicitação de Reembolso de Cobrança Indevida  
+
 **Requisito Associado:** [RF20](../../../elicitacao/requisitos_finais/#RF20)  
 
 <p align="center">Tabela 49 - Cenário 47</p>
 
 | Elemento        | Descrição                                                                                                                              |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE20">CE20</a>  |
+|**ID**|  <a id="CE47">CE47</a>  |
 | **Título**          | Solicitação de Reembolso de Cobrança Indevida                                                                                          |
 | **Metas/Objetivos** | Permitir que o usuário solicite reembolso de uma cobrança indevida de coparticipação, garantindo um processo transparente e eficiente. |
 | **Contexto**        | Usuário autenticado no app GDF Saúde identifica uma cobrança indevida e inicia o processo de solicitação de reembolso.                 |
@@ -1104,14 +1118,15 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 ---
 
 ### Cenário 48: Chatbot para Direcionamento Médico
-  
+
+
 **Requisito Associado:** [RF21](../../../elicitacao/requisitos_finais/#RF21)  
 
 <p align="center">Tabela 50 - Cenário 48 </p>
 
 | Elemento        | Descrição                                                                                                                                                                                                                                 |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE21">CE21</a>  |
+|**ID**|  <a id="CE48">CE48</a>  |
 | **Título**          | Chatbot para direcionamento médico                                                                                                                                                                                                       |
 | **Metas/Objetivos** | Auxiliar o usuário na escolha da especialidade médica adequada com base nos sintomas descritos.                                                                                                                                           |
 | **Contexto**        | Um usuário sente dores persistentes nas costas, mas não sabe qual especialidade deve procurar. Ele acessa o chatbot do aplicativo GDF Saúde, descreve seus sintomas e recebe a sugestão de procurar um ortopedista.                       |
@@ -1127,13 +1142,14 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 ---
 
 ### Cenário 49: Exigir autenticação via GovBR para login  
+
 **Requisito Associado:** [RF22](../../../elicitacao/requisitos_finais/#RF22)  
 
 <p align="center">Tabela 51 - Cenário 49</p>
 
 | Elemento        | Descrição                                                                                                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE36">CE36</a>  |
+|**ID**|  <a id="CE49">CE49</a>  |
 | **Título**          | Autenticação segura via GovBR |
 | **Metas/Objetivos** | Garantir acesso seguro ao sistema, exigindo autenticação pelo GovBR com nível de segurança adequado. |
 | **Contexto**        | Usuário tenta fazer login no app GDF Saúde e é redirecionado à plataforma GovBR para validar sua identidade e credenciais (certificado digital ou conta gov.br). |
@@ -1144,6 +1160,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 | **Episódios**       | 1. Usuário seleciona “Entrar com GovBR”.<br>2. Redirecionamento para GovBR e inserção de credenciais.<br>3. GovBR valida e retorna ao app.<br>4. App concede acesso ao usuário. |
 
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
+
 
 
 ---
