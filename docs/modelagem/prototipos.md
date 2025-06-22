@@ -39,7 +39,7 @@ Na tabela 1, estão listados todos os integrantes da equipe que participaram da 
             </tr>
             <tr>
                 <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
-                <td></td>      
+                <td>Fez o protótipo para os requisitos <a href="../../elicitacao/requisitos_finais.md#RF09.3" target="_blank">RF09.3</a> e <a href="../../elicitacao/requisitos_finais.md#RF20" target="_blank">RF20</a> e fez a validação dos mesmos com um usuário real de forma presencial.</td>      
             </tr>
             <tr> 
                 <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> </td>
@@ -174,6 +174,8 @@ O protótipo completo pode ser acessado no [Figma](https://www.figma.com/proto/K
 | [Kaleb Macedo](https://github.com/kalebmacedo) | [RF05.2](../../../elicitacao/requisitos_finais/#RF05.2) |Permitir cancelamento de consultas e exames diretamente pelo aplicativo, com pagamento automático para prestadores da Rede de Atendimento. | a tela do protótipo que implementa esse requisito é: [tela 3](../assets/implementados/prototipo-Kaleb.pdf#page=3) |
 |[Kaleb Macedo](https://github.com/kalebmacedo)| [RF05.1](../../../elicitacao/requisitos_finais/#RF05.1) |	Permitir agendamento de consultas e exames diretamente pelo aplicativo, com pagamento automático para prestadores da Rede de Atendimento. |<a href="https://www.youtube.com/embed/OJUuWXGbumY?si=2Pbb2haCblcHZ2SL">Vídeo protótipo</a>|
 |[Kaleb Macedo](https://github.com/kalebmacedo)| [RF05.2](../../../elicitacao/requisitos_finais/#RF05.2) |	Permitir cancelamento de consultas e exames diretamente pelo aplicativo, com pagamento automático para prestadores da Rede de Atendimento. |<a href="https://www.youtube.com/embed/OJUuWXGbumY?si=2Pbb2haCblcHZ2SL">Vídeo protótipo</a>|
+|[Matheus de Alcântara](https://github.com/matheusdealcantara)|<a href="../../elicitacao/requisitos_finais#RF09.3" target="_blank">RF09.3</a>|	Permitir ao usuário visualizar os resultados de seus exames laboratoriais. | <a href="https://youtu.be/DZKtZfrtrus" target="_blank">Vídeo Protótipo</a> |
+|[Matheus de Alcântara](https://github.com/matheusdealcantara)|<a href="../../elicitacao/requisitos_finais#RF20">RF20</a>|	Permitir solicitação de reembolso de uma cobrança indevida de coparticipação. | <a href="https://youtu.be/gv2dDRbZGoE" target="_blank">Vídeo Protótipo</a>  |
 
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
@@ -188,6 +190,6 @@ O protótipo completo pode ser acessado no [Figma](https://www.figma.com/proto/K
 | `1.1`  |  22/06/2025 | Adicionando o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF02.2">RF02.2</a> e <a href="../../elicitacao/requisitos_finais#RF22">RF22</a>. Também, fez a validação destes. | [Yzabella Miranda Pimenta](https://github.com/redjsun)  | [Isaque Camargos](https://github.com/isaqzin) |
 | `1.2`  |  22/06/2025 | Adicionando o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF16">RF16</a> e <a href="../../elicitacao/requisitos_finais#RF18">RF18</a>. Também, fez a validação destes. | [Luca Alves](https://github.com/LucasAlves71)  | [Kaleb Macedo](https://github.com/kalebmacedo) |
 | `1.3`  |  22/06/2025 | Adicionando o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF05.1">RF05.1</a> e <a href="../../elicitacao/requisitos_finais#RF05.2">RF05.2</a>. Também, fez a validação destes. | [Kaleb Macedo](https://github.com/kalebmacedo)  | [Luca Alves](https://github.com/LucasAlves71) |
-
+| `1.4`  |  22/06/2025 | Adicionando o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais.md#RF09.3" target="_blank">RF09.3</a> e <a href="../../elicitacao/requisitos_finais.md#RF20" target="_blank">RF20</a> e fez a validação dos mesmos com um usuário real de forma presencial. | [Matheus de Alcântara](https://github.com/matheusdealcantara)  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
 
 
