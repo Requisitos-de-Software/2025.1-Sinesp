@@ -1117,15 +1117,39 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 48: Exigir autenticação via GovBR para login  
 
+### Cenário 48: Chatbot para Direcionamento Médico
+
+
+**Requisito Associado:** [RF21](../../../elicitacao/requisitos_finais/#RF21)  
+
+<p align="center">Tabela 50 - Cenário 48 </p>
+
+| Elemento        | Descrição                                                                                                                                                                                                                                 |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|**ID**|  <a id="CE48">CE48</a>  |
+| **Título**          | Chatbot para direcionamento médico                                                                                                                                                                                                       |
+| **Metas/Objetivos** | Auxiliar o usuário na escolha da especialidade médica adequada com base nos sintomas descritos.                                                                                                                                           |
+| **Contexto**        | Um usuário sente dores persistentes nas costas, mas não sabe qual especialidade deve procurar. Ele acessa o chatbot do aplicativo GDF Saúde, descreve seus sintomas e recebe a sugestão de procurar um ortopedista.                       |
+| **Ator(es)**        | - Usuário do GDF Saúde. <br> - Chatbot embutido no aplicativo.                                                                                                                                                                            |
+| **Recursos**        | - Aplicativo GDF Saúde com chatbot funcional. <br> - Base de conhecimento médica para interpretação de sintomas.                                                                                                                          |
+| **Exceções**        | - O chatbot não compreende os sintomas descritos. <br> - A especialidade sugerida é inadequada.                                                                                                                                           |
+| **Restrições**      | O chatbot deve limitar-se a fornecer sugestões e não diagnósticos médicos.                                                                                                                                                                |
+| **Episódios**       | 1. O usuário acessa o aplicativo e abre o chatbot. <br>2. Escreve: “Estou com dores nas costas e no ombro”. <br>3. O chatbot responde: “Recomendamos procurar um ortopedista.” <br>4. O aplicativo exibe clínicas com essa especialidade. |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+
+---
+
+### Cenário 49: Exigir autenticação via GovBR para login  
 **Requisito Associado:** [RF22](../../../elicitacao/requisitos_finais/#RF22)  
 
 <p align="center">Tabela 51 - Cenário 49</p>
 
 | Elemento        | Descrição                                                                                                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE48">CE48</a>  |
+|**ID**|  <a id="CE49">CE49</a>  |
 | **Título**          | Autenticação segura via GovBR |
 | **Metas/Objetivos** | Garantir acesso seguro ao sistema, exigindo autenticação pelo GovBR com nível de segurança adequado. |
 | **Contexto**        | Usuário tenta fazer login no app GDF Saúde e é redirecionado à plataforma GovBR para validar sua identidade e credenciais (certificado digital ou conta gov.br). |
