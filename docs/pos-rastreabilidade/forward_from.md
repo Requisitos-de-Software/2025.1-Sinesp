@@ -42,7 +42,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram no refinamen
             </tr>
             <tr>
                 <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>  
-                <td>Relizou a rastreabilidade backward-from </td>
+                <td>Relizou a rastreabilidade backward-from <a href="#FF35">FF35</a> a <a href="#FF41">FF41</a> e <a href="#FF66">FF66</a> a <a href="#FF67">FF67</a>.
             </tr>
             <tr>
                 <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
@@ -294,3 +294,5 @@ SERRANO, Milene; SERRANO, Maurício. **Slides da Aula 26 - Requisitos de Softwar
 | `1.5` | 08/06/2025 | Realizou a rastreabilidade forward-from para os requisitos <a href="#FF28">FF28</a> a <a href="#FF34">FF34</a>, <a href="#FF64">FF64</a>, <a href="#FF65">FF65</a> e <a href="#FF71">FF71</a>. | [Othavio Bolzan](https://github.com/bolzanMGB) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
 | `1.6` | 08/06/2025 | Corrigiu os caminhos e links dos artefatos em toda a documentação. | [Yzabella Miranda](https://github.com/redjsun) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
 | `1.7` | 08/06/2025 | Realizou a rastreabilidade para os requisitos <a href="#FF01">FF01</a> a <a href="#FF07">FF07</a>, <a href="#FF57">FF57</a>, <a href="#FF58">FF58</a> e corrigiu a numeração de todos os IDs. | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
+| `1.7` | 22/06/2025 | Atualizou a rastreabilidade dos requisitos RF09.3, RF09.4, RF10, RF11, RF12.1, RF12.2, RF12.3, RNF10 e RNF11.
+ | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
