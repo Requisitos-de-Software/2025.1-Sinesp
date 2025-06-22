@@ -920,7 +920,7 @@ O termo "Desempenho" refere-se à velocidade e fluidez com que o sistema respond
 ---
 ## Léxico 56: <a id="LX56"></a>Segurança de Dados
 
-**Requisitos relacionados:** [RNF03.1](../../elicitacao/requisitos_finais.md#RNF03.1), [RNF03.2](../../elicitacao/requisitos_finais.md#RNF03.2)
+**Requisitos relacionados:** [RNF03.1](../../elicitacao/requisitos_finais.md#RNF03.1), [RNF03.2](../../elicitacao/requisitos_finais.md#RNF03.2), [RNF07](../../elicitacao/requisitos_finais.md#RNF07)
 
 O termo "Segurança de Dados" refere-se às medidas de proteção para informações sensíveis do usuário.
 
