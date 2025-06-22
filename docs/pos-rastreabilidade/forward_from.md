@@ -22,6 +22,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram no refinamen
         <tbody>
             <tr>
                 <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+                <td>Fez os Forward from e os elos referntes aos requisitos RF01.1, RF01.2, RF01.3, RF01.4, RF01.5, RF2.1 e RF2.2</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
