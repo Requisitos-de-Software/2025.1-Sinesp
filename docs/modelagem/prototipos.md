@@ -35,7 +35,7 @@ Na tabela 1, estão listados todos os integrantes da equipe que participaram da 
             </tr>
             <tr>
                 <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
-                <td></td>
+                <td> Fez o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF22">RF22</a> e <a href="../../elicitacao/requisitos_finais#RF02.2">RF02.2</a>. Também realizou a validação destes com um usuário real. </a> </td>
             </tr>
             <tr>
                 <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
@@ -122,7 +122,7 @@ Para realizar a validação dos protótipos, foram agendadas reuniões individua
 
 ## Protótipos 
 
-O protótipo completo pode ser acessado no [Figma](https://www.figma.com/proto/KLR0R7fGMaJXekMy0W4lyw/gdf-saude?node-id=206-236&t=Yt7APvUNbe8TuhiF-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=15%3A11)
+O protótipo completo pode ser acessado no [Figma](https://www.figma.com/proto/KLR0R7fGMaJXekMy0W4lyw/gdf-saude?node-id=206-236&p=f&t=rw6ciyuXTYIjKVvt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=15%3A11)
 
 <p align="center">Tabela 3 - Protótipos</p>
 
@@ -133,6 +133,8 @@ O protótipo completo pode ser acessado no [Figma](https://www.figma.com/proto/K
 |[Isaque Camargos](https://github.com/isaqzin)|<a href="../../elicitacao/requisitos_finais#RF04.1">RF04.1</a>|	Enviar notificações configuráveis via app, SMS ou e-mail sobre vencimento de fatura|<a href="https://youtu.be/Qe-rbW5qN5Y?si=nZsqxobvUPnKMIOM&t=26">Vídeo protótipo</a>|
 |[Isaque Camargos](https://github.com/isaqzin)|<a href="../../elicitacao/requisitos_finais#RF04.9">RF04.9</a>|	Enviar notificações configuráveis via app, SMS ou e-mail sobre disponibilidade de demonstrativos de IR|<a href="https://youtu.be/Qe-rbW5qN5Y?si=nZsqxobvUPnKMIOM&t=26">Vídeo protótipo</a>|
 |[Isaque Camargos](https://github.com/isaqzin)|<a href="../../elicitacao/requisitos_finais#RF19">RF19</a>|	Permitir login por biometria facial ou digital.|<a href="https://youtu.be/Qe-rbW5qN5Y?si=NlmEEqiWhVwHQ2pt">Vídeo protótipo</a>|
+|[Yzabella Miranda](https://github.com/isaqzin)|<a href="../../elicitacao/requisitos_finais#RF02.2">RF02.2</a>|	O usuário poderá deixar e/ou ler comentários sobre atendimentos em clínicas ou com profissionais específicos.| O protótipo deste requisito pode ser acessado a partir da tela 1 [inicial](../assets/implementados/prototipo-yza.pdf#page=2), após essa tela é possivel visualizar a tela 2 [avaliações](../assets/implementados/prototipo-yza.pdf#page=3) e, depois, a tela 3 [avalie](../assets/implementados/prototipo-yza.pdf#page=3). |
+|[Yzabella Miranda](https://github.com/isaqzin)|<a href="../../elicitacao/requisitos_finais#RF22">RF22</a>|	Permirtir login por GovBR | O protótipo deste requisito pode ser visualizado e acessado na tela 1 [login](../assets/implementados/prototipo-yza.pdf#page=1)  |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -143,5 +145,6 @@ O protótipo completo pode ser acessado no [Figma](https://www.figma.com/proto/K
 | Versão | Data          | Descrição                          | Autor(es)     |  Revisor(es)  |
 | ------ | ------------- | ---------------------------------- | ------------- | ------------- |
 | `1.0`  |  21/06/2025 | Adicionando o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF04.1">RF04.1</a>, <a href="../../elicitacao/requisitos_finais#RF19">RF19</a> e <a href="../../elicitacao/requisitos_finais#RF04.9">RF04.9</a>, fez a validação deles, introdução e metodologia | [Isaque Camargos](https://github.com/isaqzin)  | [Yzabella Miranda Pimenta](https://github.com/redjsun) |
+| `1.1`  |  22/06/2025 | Adicionando o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF02.2">RF02.2</a> e <a href="../../elicitacao/requisitos_finais#RF22">RF22</a>. Também, fez a validação destes. | [Yzabella Miranda Pimenta](https://github.com/redjsun)  | [Isaque Camargos](https://github.com/isaqzin) |
 
 
