@@ -25,7 +25,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
         <tbody>
             <tr>
                 <td><a href="https://github.com/Ana-Luiza-SC" target="_blank">Ana Luiza Soares</a></td>
-                <td>Criou os cenários  referentes aos requisitos: RF01.1, RF01.2, RF01.3, RF01.4, RF01.5, RF02.1, RF02.2, RF02.3 e RF21. Além disso, consolidou o documento final ao pegar os cenários separados, que se encontravam na plataforma <a href="https://stackedit.io/app#">StackEdit</a> e organizar no documento final para o Github Pages. Além disso refatorou os cenários para fazerem sentido para os novos requisitos finais e arrumou a rastreabilidade de todos os requisitos do antigo para o novo</td>
+                <td>Criou os cenários  referentes aos requisitos: RF01.1, RF01.2, RF01.3, RF01.4, RF01.5, RF02.1, RF02.2, RF02.3. Além disso, consolidou o documento final ao pegar os cenários separados, que se encontravam na plataforma <a href="https://stackedit.io/app#">StackEdit</a> e organizar no documento final para o Github Pages. Além disso refatorou os cenários para fazerem sentido para os novos requisitos finais e arrumou a rastreabilidade de todos os requisitos do antigo para o novo</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/isaqzin" target="_blank">Isaque Camargos</a></td>
@@ -1117,6 +1117,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
+
 ### Cenário 48: Chatbot para Direcionamento Médico
 
 
@@ -1142,7 +1143,6 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 ---
 
 ### Cenário 49: Exigir autenticação via GovBR para login  
-
 **Requisito Associado:** [RF22](../../../elicitacao/requisitos_finais/#RF22)  
 
 <p align="center">Tabela 51 - Cenário 49</p>

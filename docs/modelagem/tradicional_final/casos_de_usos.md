@@ -25,7 +25,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
     <tbody>
                 <tr>
                     <td><a  href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
-                    <td>Criou o diagrama  e especificações dos casos de uso referentes aos requisitos: RF01.1, RF01.2, RF01.3, RF01.4, RF01.5, RF02.1, RF02.2, RF02.3 e RF21. <br> Casos de uso: UC01, UC02, UC03, UC44, UC45, UC46, UC47, UC48 e UC49.</td>	
+                    <td>Criou o diagrama  e especificações dos casos de uso referentes aos requisitos: RF01.1, RF01.2, RF01.3, RF01.4, RF01.5, RF02.1, RF02.2, RF02.3 e RF21.1. <br> Casos de uso: UC01, UC02, UC03, UC44, UC45, UC46, UC47, UC48 e UC49.</td>	
                 </tr>
                 <tr>
                     <td><a  href="https://github.com/isaqzin">Isaque Camargos</a></td>
@@ -265,7 +265,7 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 | Fluxo alternativo  | - Usuário abre o aplicativo <br>- Usuário seleciona a opção "Chatbot de Saúde" <br>- Sistema exibe tela inicial do chatbot <br>- Usuário tem dúvidas ou fornece informações vagas <br>- Chatbot recomenda buscar hospital para melhor triagem |
 | Fluxo de exceção   | - Usuário abre o aplicativo <br>- Usuário seleciona a opção "Chatbot de Saúde" <br>- Inicia a conversa <br>- Chatbot redireciona para especialidade médica incorreta |
 | Pós-condições      | Especialidade médica identificada corretamente e confirmado o desempenho do chatbot posteriormente |
-| Rastreabilidade    | [RF21](../../elicitacao/requisitos_finais.md#RF21) |
+| Rastreabilidade    | [RF21.1](../../elicitacao/requisitos_finais.md#RF21.1) |
 | Data de criação    | 17/05/2025 |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>

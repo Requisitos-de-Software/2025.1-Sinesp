@@ -23,7 +23,7 @@ Na tabela 1, estão listados todos os integrantes da equipe que participaram da 
         <tbody>
             <tr>
                 <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a> </td>
-                <td></td>
+                <td> Fez o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF05.1">RF05.1</a> e <a href="../../elicitacao/requisitos_finais#RF05.2">RF05.2</a>. Também realizou a validação destes com um usuário real. </a> </td>
             </tr>
             <tr>
                 <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
@@ -46,8 +46,8 @@ Na tabela 1, estão listados todos os integrantes da equipe que participaram da 
                 <td>Fez o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF01.2">RF01.2</a> e <a href="../../elicitacao/requisitos_finais#RF02.1">RF02.1</a> e fez a validação deles com um usuário real.</td> 
             </tr>
             <tr>
-                <td>Lucas Alves</td>
-                <td></td>
+                <td><a href="https://github.com/LucasAlves71">Lucas Alves</a> </td>
+                <td> Fez o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF16">RF16</a> e <a href="../../elicitacao/requisitos_finais#RF18">RF18</a>. Também realizou a validação destes com um usuário real. </a> </td>
             </tr>
         </tbody>
     </table>
@@ -85,13 +85,33 @@ A tabela 2 apresenta a informação do usuário real que participou da etapa de 
                 <td><a href="../assets/Autorizacao_wellington.pdf" target="_blank">Ver Termo de Consentimento (PDF)</a></td>
             </tr>
             <tr>
-                <td>Vilmar José da Silva Fagundes dos Passos Jr.</td>
+
+                <td>Vilmar José Fagundes dos Passos Jr.</td>
+
                 <td>18/06/2025</td>
                 <td>13:20</td>
                 <td>5:20</td>
                 <td>Faculdade de Ciência e Tecnologia em Engenharias (FCTE) </td>
                 <td><a href="../assets/Autorizacao_wellington.pdf" target="_blank">Ver Termo de Consentimento (PDF)</a></td>
             </tr>
+
+            <tr>
+                <td>Jaqueline Nogueira da Silva</td>
+                <td>22/06/2025</td>
+                <td>15:40</td>
+                <td>2:57</td>
+                <td>Casa do usuário </td>
+                <td><a href="../assets/Autorizacao_wellington.pdf" target="_blank">Ver Termo de Consentimento (PDF)</a></td>
+            </tr>
+            <tr>
+                <td>Vanessa Lima</td>
+                <td>22/06/2025</td>
+                <td>15:10</td>
+                <td>2:30</td>
+                <td>Casa do usuário </td>
+                <td><a href="../assets/Autorizacao_wellington.pdf" target="_blank">Ver Termo de Consentimento (PDF)</a></td>
+            </tr>
+
         </tbody>
     </table>
 </div>
@@ -116,6 +136,17 @@ Para realizar a validação dos protótipos, foram agendadas reuniões individua
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sEpXX6ZuVw8?si=s4H63_Vbfmswuxcv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
+- **Gravação 3** : Validação com o usuário real realizado por Lucas Alves.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TY7s6rg3lek?si=9hwC8_vQFzUtVd3r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- **Gravação 4** : Validação com o usuário real realizado por Kaleb Macedo.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/41WRbiVs7jE?si=JJr3AVxht_01qZTx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
 ---
 
 
@@ -135,6 +166,15 @@ O protótipo completo pode ser acessado no [Figma](https://www.figma.com/proto/K
 |[Isaque Camargos](https://github.com/isaqzin)|<a href="../../elicitacao/requisitos_finais#RF19">RF19</a>|	Permitir login por biometria facial ou digital.|<a href="https://youtu.be/Qe-rbW5qN5Y?si=NlmEEqiWhVwHQ2pt">Vídeo protótipo</a>|
 |[Yzabella Miranda](https://github.com/isaqzin)|<a href="../../elicitacao/requisitos_finais#RF02.2">RF02.2</a>|	O usuário poderá deixar e/ou ler comentários sobre atendimentos em clínicas ou com profissionais específicos.| O protótipo deste requisito pode ser acessado a partir da tela 1 [inicial](../assets/implementados/prototipo-yza.pdf#page=2), após essa tela é possivel visualizar a tela 2 [avaliações](../assets/implementados/prototipo-yza.pdf#page=3) e, depois, a tela 3 [avalie](../assets/implementados/prototipo-yza.pdf#page=3). |
 |[Yzabella Miranda](https://github.com/isaqzin)|<a href="../../elicitacao/requisitos_finais#RF22">RF22</a>|	Permirtir login por GovBR | O protótipo deste requisito pode ser visualizado e acessado na tela 1 [login](../assets/implementados/prototipo-yza.pdf#page=1)  |
+| [Luca Alves](https://github.com/LucasAlves71) | [RF16](../../../elicitacao/requisitos_finais/#RF16) | O usuário poderá visualizar o calendário personalizado com informações daquele usuário. | a tela do protótipo que implementa esse requisito é: [tela 2](../assets/implementados/prototipo-Lucas.pdf#page=2) |
+| [Luca Alves](https://github.com/LucasAlves71) | [RF18](../../../elicitacao/requisitos_finais/#RF18) | O usuário poderá fazer denúncias para profissionais que atenderam aquele usuário. | a tela do protótipo que implementa esse requisito é: [tela 6](../assets/implementados/prototipo-Lucas.pdf#page=6) |
+|[Luca Alves](https://github.com/LucasAlves71)| [RF16](../../../elicitacao/requisitos_finais/#RF16) |	O usuário poderá visualizar o calendário personalizado com informações daquele usuário. |<a href="https://youtu.be/qHKuViU9kyY">Vídeo protótipo</a>|
+|[Luca Alves](https://github.com/LucasAlves71)| [RF18](../../../elicitacao/requisitos_finais/#RF18) |	O usuário poderá fazer denúncias para profissionais que atenderam aquele usuário. |<a href="https://youtu.be/qHKuViU9kyY">Vídeo protótipo</a>|
+| [Kaleb Macedo](https://github.com/kalebmacedo) | [RF05.1](../../../elicitacao/requisitos_finais/#RF05.1) | Permitir agendamento de consultas e exames diretamente pelo aplicativo, com pagamento automático para prestadores da Rede de Atendimento. | a tela do protótipo que implementa esse requisito é: [tela 1](../assets/implementados/prototipo-Kaleb.pdf#page=1) |
+| [Kaleb Macedo](https://github.com/kalebmacedo) | [RF05.2](../../../elicitacao/requisitos_finais/#RF05.2) |Permitir cancelamento de consultas e exames diretamente pelo aplicativo, com pagamento automático para prestadores da Rede de Atendimento. | a tela do protótipo que implementa esse requisito é: [tela 3](../assets/implementados/prototipo-Kaleb.pdf#page=3) |
+|[Kaleb Macedo](https://github.com/kalebmacedo)| [RF05.1](../../../elicitacao/requisitos_finais/#RF05.1) |	Permitir agendamento de consultas e exames diretamente pelo aplicativo, com pagamento automático para prestadores da Rede de Atendimento. |<a href="https://www.youtube.com/embed/OJUuWXGbumY?si=2Pbb2haCblcHZ2SL">Vídeo protótipo</a>|
+|[Kaleb Macedo](https://github.com/kalebmacedo)| [RF05.2](../../../elicitacao/requisitos_finais/#RF05.2) |	Permitir cancelamento de consultas e exames diretamente pelo aplicativo, com pagamento automático para prestadores da Rede de Atendimento. |<a href="https://www.youtube.com/embed/OJUuWXGbumY?si=2Pbb2haCblcHZ2SL">Vídeo protótipo</a>|
+
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -146,5 +186,8 @@ O protótipo completo pode ser acessado no [Figma](https://www.figma.com/proto/K
 | ------ | ------------- | ---------------------------------- | ------------- | ------------- |
 | `1.0`  |  21/06/2025 | Adicionando o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF04.1">RF04.1</a>, <a href="../../elicitacao/requisitos_finais#RF19">RF19</a> e <a href="../../elicitacao/requisitos_finais#RF04.9">RF04.9</a>, fez a validação deles, introdução e metodologia | [Isaque Camargos](https://github.com/isaqzin)  | [Yzabella Miranda Pimenta](https://github.com/redjsun) |
 | `1.1`  |  22/06/2025 | Adicionando o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF02.2">RF02.2</a> e <a href="../../elicitacao/requisitos_finais#RF22">RF22</a>. Também, fez a validação destes. | [Yzabella Miranda Pimenta](https://github.com/redjsun)  | [Isaque Camargos](https://github.com/isaqzin) |
+| `1.2`  |  22/06/2025 | Adicionando o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF16">RF16</a> e <a href="../../elicitacao/requisitos_finais#RF18">RF18</a>. Também, fez a validação destes. | [Luca Alves](https://github.com/LucasAlves71)  | [Kaleb Macedo](https://github.com/kalebmacedo) |
+| `1.3`  |  22/06/2025 | Adicionando o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF05.1">RF05.1</a> e <a href="../../elicitacao/requisitos_finais#RF05.2">RF05.2</a>. Também, fez a validação destes. | [Kaleb Macedo](https://github.com/kalebmacedo)  | [Luca Alves](https://github.com/LucasAlves71) |
+
 
 
