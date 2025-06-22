@@ -85,16 +85,13 @@ A tabela 2 apresenta a informação do usuário real que participou da etapa de 
                 <td><a href="../assets/Autorizacao_wellington.pdf" target="_blank">Ver Termo de Consentimento (PDF)</a></td>
             </tr>
             <tr>
-
                 <td>Vilmar José Fagundes dos Passos Jr.</td>
-
                 <td>18/06/2025</td>
                 <td>13:20</td>
                 <td>5:20</td>
                 <td>Faculdade de Ciência e Tecnologia em Engenharias (FCTE) </td>
                 <td><a href="../assets/Autorizacao_wellington.pdf" target="_blank">Ver Termo de Consentimento (PDF)</a></td>
             </tr>
-
             <tr>
                 <td>Jaqueline Nogueira da Silva</td>
                 <td>22/06/2025</td>
@@ -111,7 +108,6 @@ A tabela 2 apresenta a informação do usuário real que participou da etapa de 
                 <td>Casa do usuário </td>
                 <td><a href="../assets/Autorizacao_wellington.pdf" target="_blank">Ver Termo de Consentimento (PDF)</a></td>
             </tr>
-
         </tbody>
     </table>
 </div>
@@ -150,10 +146,15 @@ Para realizar a validação dos protótipos, foram agendadas reuniões individua
 ---
 
 
-
 ## Protótipos 
 
-O protótipo completo pode ser acessado no [Figma](https://www.figma.com/proto/KLR0R7fGMaJXekMy0W4lyw/gdf-saude?node-id=206-236&p=f&t=rw6ciyuXTYIjKVvt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=15%3A11)
+O protótipo completo pode ser acessado no Figma [clicando aqui](https://www.figma.com/proto/KLR0R7fGMaJXekMy0W4lyw/gdf-saude?node-id=206-236&p=f&t=rw6ciyuXTYIjKVvt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=15%3A11). Além disso, é possível visualizar todos o fluxo dos protótipos feitos pelos integrantes na gravação 5, que está logo abaixo:
+
+- **Gravação 5** : Gravação da tela do protótipo:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qe-rbW5qN5Y?si=DGD1RK0zlZwslcbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Na tabela 3 estão as informações sobre os protótipos individuais.
 
 <p align="center">Tabela 3 - Protótipos</p>
 
