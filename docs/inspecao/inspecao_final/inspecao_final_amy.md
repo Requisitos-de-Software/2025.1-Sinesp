@@ -49,12 +49,13 @@ O primeiro subgrupo, composto por **Ana Luiza Soares**, **Matheus de Alcântara*
 * **Inspeção da Lista Geral em Grupo:** Análise da organização e dos artefatos gerais do grupo, utilizando uma lista de verificação fundamentada nos **critérios mínimos estabelecidos pelo professor** para o trabalho em equipe.
 * **Inspeção da Entrega 1:** Uma análise detalhada dos artefatos da primeira entrega, utilizando uma **lista de verificação específica** para essa etapa, focada em avaliar a qualidade, completude e conformidade com os objetivos definidos para a entrega.
 
+**Observação:** Para otimizar o processo, as evidências fotográficas que comprovam a conclusão de cada item inspecionado foram centralizadas em um único documento PDF. Nas listas de verificação, cada ponto avaliado possui uma referência direta à sua respectiva página neste arquivo. Essa abordagem foi adotada para tornar a inspeção mais rápida e para facilitar a visualização e o controle do progresso por parte dos integrantes da equipe.
+
 Os demais subgrupos foram responsáveis pelas entregas subsequentes, garantindo a cobertura completa do projeto:
 
 * **Othavio Bolzan e Isaque Camargos:** Ficaram a cargo da inspeção das entregas 2 e 3.
 * **Kaleb Macedo e Lucas Alves:** Realizaram a inspeção das entregas 4, 5 e 6.
 
-Essa divisão estratégica assegurou que cada etapa do projeto recebesse a devida atenção, ao mesmo tempo em que destacou o papel fundamental do primeiro subgrupo na avaliação dos artefatos iniciais.
 
 ## Gravação da Reunião de Inspeção
 
@@ -68,7 +69,7 @@ A reunião de inspeção conduzida por Ana Luiza, Matheus e Yzabella, referente 
 
 ## Inspeção Individual
 
-<p align="center">Tabela 1 - Lista de inspeção dos integrantes</p>
+<p align="center">Tabela 2 - Lista de inspeção dos integrantes</p>
 
 | ID | Entrega | Item de verificação | Ana Luiza Soares | Isaque Camargos | Kaleb Macedo | Lucas Alves | Matheus de Alcântara | Othavio Bolzan | Yzabella Miranda |
 | :-- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -97,7 +98,7 @@ A reunião de inspeção conduzida por Ana Luiza, Matheus e Yzabella, referente 
 
 ## Inspeção em Grupo
 
-<p align="center">Tabela 2 - Lista de verificação do grupo</p>
+<p align="center">Tabela 3 - Lista de verificação do grupo</p>
 
 | ID | Entrega | Item de verificação | Status |
 | :-- | :--- | :--- | :--- |
@@ -126,7 +127,7 @@ A reunião de inspeção conduzida por Ana Luiza, Matheus e Yzabella, referente 
 
 ## Inspeção Entrega 1
 
-<p align="center">Tabela 3 - Entrega 1: Itens Técnicos e Documentais</p>
+<p align="center">Tabela 4 - Entrega 1: Itens Técnicos e Documentais</p>
 
 | ID | Item de Verificação | Status |
 | :-- | :--- | :--- |
@@ -141,8 +142,9 @@ A reunião de inspeção conduzida por Ana Luiza, Matheus e Yzabella, referente 
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC" target="_blank">Ana Luiza Soares</a>, <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a> e <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a>.</p>
 
+---
 
-<p align="center">Tabela 4 - Entrega 1: Conteúdo da disciplina</p>
+<p align="center">Tabela 5 - Entrega 1: Conteúdo da disciplina</p>
 
 | ID | Item de Verificação | Status |
 | :-- | :--- | :--- |
