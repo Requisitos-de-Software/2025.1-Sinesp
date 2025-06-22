@@ -42,7 +42,7 @@ Na tabela 1, estão listados todos os integrantes da equipe que participaram da 
                 <td></td>      
             </tr>
             <tr> 
-                <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td> 
+                <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> >Fez o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF01.2">RF01.2</a> e <a href="../../elicitacao/requisitos_finais#RF02.1">RF02.1</a> e fez a validação deles com um usuário real.</td> 
                 <td></td> 
             </tr>
             <tr>
@@ -84,6 +84,14 @@ A tabela 2 apresenta a informação do usuário real que participou da etapa de 
                 <td>Casa do usuário </td>
                 <td><a href="../assets/Autorizacao_wellington.pdf" target="_blank">Ver Termo de Consentimento (PDF)</a></td>
             </tr>
+            <tr>
+                <td>Vilmar José da Silva Fagundes dos Passos Jr.</td>
+                <td>18/06/2025</td>
+                <td>13:20</td>
+                <td>5:20</td>
+                <td>Faculdade de Ciência e Tecnologia em Engenharias (FCTE) </td>
+                <td><a href="../assets/Autorizacao_wellington.pdf" target="_blank">Ver Termo de Consentimento (PDF)</a></td>
+            </tr>
         </tbody>
     </table>
 </div>
@@ -104,18 +112,24 @@ Para realizar a validação dos protótipos, foram agendadas reuniões individua
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_m6GwOZLUa0?si=NcBFIgIjkwL7PkiZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+- **Gravação 2** : Validação com o usuário real realizado pela Ana Luiza Soares, Yzabella Miranda e Matheus de Alcântara.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sEpXX6ZuVw8?si=s4H63_Vbfmswuxcv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 
 
 ## Protótipos 
 
-O protótipo pode ser acessado no [Figma]()
+O protótipo completo pode ser acessado no [Figma](https://www.figma.com/proto/KLR0R7fGMaJXekMy0W4lyw/gdf-saude?node-id=206-236&t=Yt7APvUNbe8TuhiF-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=15%3A11)
 
 <p align="center">Tabela 3 - Protótipos</p>
 
 | Autor | Requisto | Descrição | Protótipo |
 |-------|----------|-----------|-----------|
+| [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [RF01.2](../../../elicitacao/requisitos_finais/#RF01.2) | O usuário poderá pesquisar profissionais da saúde (médicos, psicólogos etc.) por meio de filtros de busca. | as telas do protótipo que implementa esse requisito são: [tela 1](../assets/implementados/prototipo-ana.pdf#page=2), [tela 2](../assets/implementados/prototipo-ana.pdf#page=3) e [tela 3](../assets/implementados/prototipo-ana.pdf#page=4) |
+| [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [RF02.1](../../../elicitacao/requisitos_finais/#RF02.1) | O usuário poderá avaliar atendimentos com nota na escala Likert de 1 a 5. | a tela do protótipo que implementa esse requisito é: [tela 1](../assets/implementados/prototipo-ana.pdf#page=5) |
 |[Isaque Camargos](https://github.com/isaqzin)|<a href="../../elicitacao/requisitos_finais#RF04.1">RF04.1</a>|	Enviar notificações configuráveis via app, SMS ou e-mail sobre vencimento de fatura|<a href="https://youtu.be/Qe-rbW5qN5Y?si=nZsqxobvUPnKMIOM&t=26">Vídeo protótipo</a>|
 |[Isaque Camargos](https://github.com/isaqzin)|<a href="../../elicitacao/requisitos_finais#RF04.9">RF04.9</a>|	Enviar notificações configuráveis via app, SMS ou e-mail sobre disponibilidade de demonstrativos de IR|<a href="https://youtu.be/Qe-rbW5qN5Y?si=nZsqxobvUPnKMIOM&t=26">Vídeo protótipo</a>|
 |[Isaque Camargos](https://github.com/isaqzin)|<a href="../../elicitacao/requisitos_finais#RF19">RF19</a>|	Permitir login por biometria facial ou digital.|<a href="https://youtu.be/Qe-rbW5qN5Y?si=NlmEEqiWhVwHQ2pt">Vídeo protótipo</a>|
