@@ -85,13 +85,16 @@ A tabela 2 apresenta a informação do usuário real que participou da etapa de 
                 <td><a href="../assets/Autorizacao_wellington.pdf" target="_blank">Ver Termo de Consentimento (PDF)</a></td>
             </tr>
             <tr>
+
                 <td>Vilmar José Fagundes dos Passos Jr.</td>
+
                 <td>18/06/2025</td>
                 <td>13:20</td>
                 <td>5:20</td>
                 <td>Faculdade de Ciência e Tecnologia em Engenharias (FCTE) </td>
                 <td><a href="../assets/Autorizacao_wellington.pdf" target="_blank">Ver Termo de Consentimento (PDF)</a></td>
             </tr>
+
             <tr>
                 <td>Jaqueline Nogueira da Silva</td>
                 <td>22/06/2025</td>
@@ -108,6 +111,7 @@ A tabela 2 apresenta a informação do usuário real que participou da etapa de 
                 <td>Casa do usuário </td>
                 <td><a href="../assets/Autorizacao_wellington.pdf" target="_blank">Ver Termo de Consentimento (PDF)</a></td>
             </tr>
+
         </tbody>
     </table>
 </div>
@@ -132,6 +136,7 @@ Para realizar a validação dos protótipos, foram agendadas reuniões individua
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sEpXX6ZuVw8?si=s4H63_Vbfmswuxcv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
 - **Gravação 3** : Validação com o usuário real realizado por Lucas Alves.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TY7s6rg3lek?si=9hwC8_vQFzUtVd3r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -139,6 +144,7 @@ Para realizar a validação dos protótipos, foram agendadas reuniões individua
 - **Gravação 4** : Validação com o usuário real realizado por Kaleb Macedo.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/41WRbiVs7jE?si=JJr3AVxht_01qZTx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 
 ---
@@ -169,6 +175,7 @@ O protótipo completo pode ser acessado no [Figma](https://www.figma.com/proto/K
 |[Kaleb Macedo](https://github.com/kalebmacedo)| [RF05.1](../../../elicitacao/requisitos_finais/#RF05.1) |	Permitir agendamento de consultas e exames diretamente pelo aplicativo, com pagamento automático para prestadores da Rede de Atendimento. |<a href="https://www.youtube.com/embed/OJUuWXGbumY?si=2Pbb2haCblcHZ2SL">Vídeo protótipo</a>|
 |[Kaleb Macedo](https://github.com/kalebmacedo)| [RF05.2](../../../elicitacao/requisitos_finais/#RF05.2) |	Permitir cancelamento de consultas e exames diretamente pelo aplicativo, com pagamento automático para prestadores da Rede de Atendimento. |<a href="https://www.youtube.com/embed/OJUuWXGbumY?si=2Pbb2haCblcHZ2SL">Vídeo protótipo</a>|
 
+
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
 
@@ -181,5 +188,6 @@ O protótipo completo pode ser acessado no [Figma](https://www.figma.com/proto/K
 | `1.1`  |  22/06/2025 | Adicionando o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF02.2">RF02.2</a> e <a href="../../elicitacao/requisitos_finais#RF22">RF22</a>. Também, fez a validação destes. | [Yzabella Miranda Pimenta](https://github.com/redjsun)  | [Isaque Camargos](https://github.com/isaqzin) |
 | `1.2`  |  22/06/2025 | Adicionando o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF16">RF16</a> e <a href="../../elicitacao/requisitos_finais#RF18">RF18</a>. Também, fez a validação destes. | [Luca Alves](https://github.com/LucasAlves71)  | [Kaleb Macedo](https://github.com/kalebmacedo) |
 | `1.3`  |  22/06/2025 | Adicionando o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF05.1">RF05.1</a> e <a href="../../elicitacao/requisitos_finais#RF05.2">RF05.2</a>. Também, fez a validação destes. | [Kaleb Macedo](https://github.com/kalebmacedo)  | [Luca Alves](https://github.com/LucasAlves71) |
+
 
 
