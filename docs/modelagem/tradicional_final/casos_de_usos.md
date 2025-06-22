@@ -1080,6 +1080,24 @@ As figuras 1 a 7 representam as especializações dos casos de uso.
 
 <p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
 
+### UC45 – Registrar Denúncia contra Profissional
+
+<p align="center">Tabela 47 - Caso de Uso UC26</p>
+
+| Campo             | Descrição                                                                                          |
+|-------------------|----------------------------------------------------------------------------------------------------|
+| <a id="UC45"></a>UC45 | Visualizar Calendário Personalizado                                          |
+| Descrição         | Permitir ao usuário visualizar um calendário personalizado que integra consultas agendadas, prazos de carência e datas de vencimento em uma única interface. |
+| Ator              | Beneficiário (Usuário do plano de saúde)                                                           |
+| Pré-condições     | O usuário deve estar autenticado no sistema.                      |
+| Fluxo principal   | 1. Usuário acessa a seção "Calendário" ou "Minha Agenda".<br>2. Sistema carrega os dados personalizados (consultas, carências, vencimentos).<br>3. Sistema exibe o calendário com todos os eventos marcados em cores distintas por categoria.<br>4. Usuário pode navegar entre meses e anos.<br>5. Usuário seleciona uma data específica para ver detalhes dos eventos agendados.<br>6. Sistema exibe os detalhes dos eventos da data selecionada. |
+| Fluxo alternativo | A1. Nenhum evento no período:<br>- O sistema exibe o calendário sem marcações e a mensagem "Nenhum evento neste período".<br>A2. Usuário filtra por tipo de evento:<br>- Usuário seleciona filtros para exibir apenas um tipo de evento (ex: apenas consultas).<br>- Sistema atualiza o calendário mostrando apenas os eventos do tipo selecionado.                          |
+| Fluxo de exceção  | E1. Falha ao carregar dados:<br>- Sistema exibe mensagem "Erro ao carregar eventos do calendário" e oferece a opção de tentar novamente.<br>E2. Sessão expirada:<br>- Sistema solicita novo login.                                     |
+| Pós-condições     | O usuário visualiza seu calendário personalizado com todos os eventos importantes.                                                    |
+| Rastreabilidade   | [RF16](../../elicitacao/requisitos_finais.md#RF16)                                                 |
+| Data de criação   | 15/06/2025                                                                                         |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
 
 
 ---

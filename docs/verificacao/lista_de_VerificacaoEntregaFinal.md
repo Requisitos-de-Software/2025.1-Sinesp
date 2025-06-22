@@ -1,4 +1,4 @@
-# Lista de Verificação da Entrega x
+# Lista de Verificação da Entrega Final
 
 
 ## Introdução

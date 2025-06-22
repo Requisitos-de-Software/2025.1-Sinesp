@@ -45,7 +45,7 @@ Na tabela 1, estão listados todos os integrantes da equipe que participaram da 
                 <td>Criou as histórias de usuário 1 ao 6 e adicionou os requisitos RF01 ao RF06</td> 
             </tr>
             <tr>
-                <td>Kaleb Macedo</td>
+                <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
                 <td>Criou o documento das histórias de usuários e adicionou os requisitos RF05.1, RF05.2, RF05.3,RF06.1, RF06.2, RF06.3</td>
             </tr>
         </tbody>
@@ -939,6 +939,21 @@ A partir das entrevistas e da análise das gravações, foram identificadas, doc
 | **Critérios de Aceitação** | - Dado que o usuário não está logado no aplicativo GDF Saúde,<br>- Quando ele tentar acessar qualquer funcionalidade que exija autenticação,<br>- Então o sistema deve redirecioná-lo para a tela de login do GovBR (ou exibir uma opção clara para isso),<br>- E o acesso ao aplicativo só deve ser concedido após a autenticação bem-sucedida e validação das credenciais pelo GovBR. |
 | **Rastreabilidade** | [RF22](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF22) |
 | **Épico Relacionado** | <a href="../backlog#EP19">EP19</a> |
+
+### US48 - Visualizar Calendário Personalizado
+
+<p align="center">Tabela 49 - US48</p>
+
+| Campo | Descrição |
+|-------|-----------|
+| **ID** | <a id="US48">US48</a> |
+| **Título** | Visualizar Calendário Personalizado |
+| **História** | Como um usuário do GDF Saúde,<br>Eu quero visualizar um calendário personalizado com minhas consultas agendadas, prazos de carência e vencimentos,<br>Para que eu possa gerenciar melhor meus compromissos de saúde e pagamentos em um único local. |
+| **Critérios de Aceitação** | - Dado que estou logado no aplicativo,<br>- Quando acesso a seção "Calendário" ou "Minha Agenda",<br>- Então devo ver um calendário mensal com marcações visuais distintas para:<br>  • Consultas agendadas<br>  • Prazos de carência<br>  • Datas de vencimento<br><br>- Dado que estou visualizando o calendário,<br>- Quando seleciono uma data específica com eventos,<br>- Então devo ver os detalhes completos dos eventos daquele dia.<br><br>- Dado que estou visualizando o calendário,<br>- Quando alterno entre meses,<br>- Então o sistema deve manter as marcações visuais para todos os meus eventos naquele período. |
+| **Rastreabilidade** | [RF16](../../elicitacao/requisitos_finais.md#RF16) |
+| **Épico Relacionado** | <a href="../backlog#EP20">EP20</a> |
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/[seu-username]">[Seu Nome]</a></p>
 
 ---
 
