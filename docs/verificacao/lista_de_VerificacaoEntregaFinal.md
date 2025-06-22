@@ -11,7 +11,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 * Assegurar que todos os itens exigidos estejam completos e corretos.
 
 
-### Lista de inspeção dos integrantes
+## Lista de inspeção dos integrantes
 
 <p align="center">Tabela 1 – Lista de Verificação de inspenção dos integrantes</p>
 
@@ -39,7 +39,7 @@ Este documento apresenta uma lista de verificação para avaliar os artefatos pr
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a>, <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a> e <a href="https://github.com/redjsun">Yzabella Miranda</a></p>
 
-### Lista de verificação do grupo
+## Lista de verificação do grupo
 
 <p align="center">Tabela 2 – Lista de Verificação do Grupo</p>
 

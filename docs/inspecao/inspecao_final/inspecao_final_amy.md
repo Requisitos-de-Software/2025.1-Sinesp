@@ -162,6 +162,11 @@ A reunião de inspeção conduzida por Ana Luiza, Matheus e Yzabella, referente 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC" target="_blank">Ana Luiza Soares</a>, <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a> e <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a>.</p>
 
 
+## Referências
+
+SALES, André Barros de. [Plano de Ensino – Requisitos de Software: REE012025 – Turma 03](https://aprender3.unb.br/pluginfile.php/3095981/mod_resource/content/57/FGA0303-T03.pdf). Brasília: Universidade de Brasília, Faculdade UnB Gama, 2025. 7 p. Acessado em: 22 de junho de 2025
+
+
 ## Histótico de versões
 
 | Versão | Data       | Descrição                                            | Autor(es)                                                                                                  | Revisor(es)                                   |
