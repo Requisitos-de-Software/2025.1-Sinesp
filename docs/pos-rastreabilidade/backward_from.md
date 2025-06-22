@@ -145,6 +145,8 @@ Na tabela 2 encontra-se a rastreabilidade Backward from dos requisitos funcionai
 | <a id="BF52"></a>BF52 | [RF19](../elicitacao/elicitacao.md#RF19) | [RF19](../elicitacao/requisitos_finais.md#RF19) | Permitir login por biometria facial ou digital. | [BS04](../elicitacao/elicitacao.md#RF19) | Não | [ELOBF52](#ELOBF52) |
 | <a id="BF53"></a>BF53 | [RF20](../elicitacao/elicitacao.md#RF20) | [RF20](../elicitacao/requisitos_finais.md#RF20) | Permitir solicitação de reembolso de uma cobrança indevida de coparticipação. | [BS05](../elicitacao/elicitacao.md#RF20) | Não | [ELOBF53](#ELOBF53) |
 | <a id="BF54"></a>BF54 | [RF21](../elicitacao/elicitacao.md#RF21) | [RF21.1](../elicitacao/requisitos_finais.md#RF21.1) | Chatbot conversacional que direciona o usuário à especialidade médica adequada, com precisão de pelo menos 80 % nas recomendações. | [BS06](../elicitacao/elicitacao.md#RF21) | Não | [ELOBF54](#ELOBF54) |
+| <a id="BF55"></a>BF55 | [RF22](../elicitacao/elicitacao.md#RF21) | [RF22](../elicitacao/requisitos_finais.md#RF21.1) | O sistema deve exigir autenticação via GovBR para login. | [GF11](../elicitacao/tecnicas/grupo_focal.md#GF11) | Não | [ELOBF54](#ELOBF54) |
+
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a> e <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
 
