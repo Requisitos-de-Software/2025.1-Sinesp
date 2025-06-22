@@ -42,8 +42,8 @@ Na tabela 1, estão listados todos os integrantes da equipe que participaram da 
                 <td></td>      
             </tr>
             <tr> 
-                <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> >Fez o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF01.2">RF01.2</a> e <a href="../../elicitacao/requisitos_finais#RF02.1">RF02.1</a> e fez a validação deles com um usuário real.</td> 
-                <td></td> 
+                <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> </td>
+                <td>Fez o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF01.2">RF01.2</a> e <a href="../../elicitacao/requisitos_finais#RF02.1">RF02.1</a> e fez a validação deles com um usuário real.</td> 
             </tr>
             <tr>
                 <td>Lucas Alves</td>
