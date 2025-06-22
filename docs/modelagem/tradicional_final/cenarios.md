@@ -25,7 +25,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
         <tbody>
             <tr>
                 <td><a href="https://github.com/Ana-Luiza-SC" target="_blank">Ana Luiza Soares</a></td>
-                <td>Criou os cenários  referentes aos requisitos: RF01.1, RF01.2, RF01.3, RF01.4, RF01.5, RF02.1, RF02.2, RF02.3 e RF21. Além disso, consolidou o documento final ao pegar os cenários separados, que se encontravam na plataforma <a href="https://stackedit.io/app#">StackEdit</a> e organizar no documento final para o Github Pages. Além disso refatorou os cenários para fazerem sentido para os novos requisitos finais e arrumou a rastreabilidade de todos os requisitos do antigo para o novo</td>
+                <td>Criou os cenários  referentes aos requisitos: RF01.1, RF01.2, RF01.3, RF01.4, RF01.5, RF02.1, RF02.2, RF02.3. Além disso, consolidou o documento final ao pegar os cenários separados, que se encontravam na plataforma <a href="https://stackedit.io/app#">StackEdit</a> e organizar no documento final para o Github Pages. Além disso refatorou os cenários para fazerem sentido para os novos requisitos finais e arrumou a rastreabilidade de todos os requisitos do antigo para o novo</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/isaqzin" target="_blank">Isaque Camargos</a></td>
@@ -1117,31 +1117,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 ---
 
-### Cenário 48: Chatbot para Direcionamento Médico
-
-
-**Requisito Associado:** [RF21](../../../elicitacao/requisitos_finais/#RF21)  
-
-<p align="center">Tabela 50 - Cenário 48 </p>
-
-| Elemento        | Descrição                                                                                                                                                                                                                                 |
-|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE48">CE48</a>  |
-| **Título**          | Chatbot para direcionamento médico                                                                                                                                                                                                       |
-| **Metas/Objetivos** | Auxiliar o usuário na escolha da especialidade médica adequada com base nos sintomas descritos.                                                                                                                                           |
-| **Contexto**        | Um usuário sente dores persistentes nas costas, mas não sabe qual especialidade deve procurar. Ele acessa o chatbot do aplicativo GDF Saúde, descreve seus sintomas e recebe a sugestão de procurar um ortopedista.                       |
-| **Ator(es)**        | - Usuário do GDF Saúde. <br> - Chatbot embutido no aplicativo.                                                                                                                                                                            |
-| **Recursos**        | - Aplicativo GDF Saúde com chatbot funcional. <br> - Base de conhecimento médica para interpretação de sintomas.                                                                                                                          |
-| **Exceções**        | - O chatbot não compreende os sintomas descritos. <br> - A especialidade sugerida é inadequada.                                                                                                                                           |
-| **Restrições**      | O chatbot deve limitar-se a fornecer sugestões e não diagnósticos médicos.                                                                                                                                                                |
-| **Episódios**       | 1. O usuário acessa o aplicativo e abre o chatbot. <br>2. Escreve: “Estou com dores nas costas e no ombro”. <br>3. O chatbot responde: “Recomendamos procurar um ortopedista.” <br>4. O aplicativo exibe clínicas com essa especialidade. |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
-
-
----
-
-### Cenário 49: Exigir autenticação via GovBR para login  
+### Cenário 48: Exigir autenticação via GovBR para login  
 
 **Requisito Associado:** [RF22](../../../elicitacao/requisitos_finais/#RF22)  
 
@@ -1149,7 +1125,7 @@ Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais 
 
 | Elemento        | Descrição                                                                                                                                                                   |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|**ID**|  <a id="CE49">CE49</a>  |
+|**ID**|  <a id="CE48">CE48</a>  |
 | **Título**          | Autenticação segura via GovBR |
 | **Metas/Objetivos** | Garantir acesso seguro ao sistema, exigindo autenticação pelo GovBR com nível de segurança adequado. |
 | **Contexto**        | Usuário tenta fazer login no app GDF Saúde e é redirecionado à plataforma GovBR para validar sua identidade e credenciais (certificado digital ou conta gov.br). |
