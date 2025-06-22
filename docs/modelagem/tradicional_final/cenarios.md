@@ -1192,3 +1192,4 @@ SERRANO, Milene; SERRANO, Maurício. *Requisitos - Aula 10*. Disponível em: [ht
 | `3.1` | 19/06/2025  | Correção dos cenários para os requisitos RF09.1, RF09.2, RF09.3, RF09.4, RF10 e RF20 de acordo com as revisões da entrega, sendo para 2 requisitos funcionais não implementados no mínimo | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Othavio Bolzan](https://github.com/bolzanMGB) |
 | `3.2` | 21/06/2025  | Adição dos meus cenários refinados | [Lucas Alves](https://github.com/LucasAlves71)  | [Isaque Camargos](https://github.com/isaqzin) |
 |`3.3`  | 21/06/2025  | Organização e renomeação dos casos de uso  | [Othavio Bolzan](https://github.com/bolzanMGB) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+|`3.4`  | 22/06/2025  | Criação de cenários pros requisitos RF22, RF14.1 e RF14.2  | [Yzabella Miranda](https://github.com/redjsun) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
