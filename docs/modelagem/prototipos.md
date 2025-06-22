@@ -148,13 +148,7 @@ Para realizar a validação dos protótipos, foram agendadas reuniões individua
 
 ## Protótipos 
 
-O protótipo completo pode ser acessado no Figma [clicando aqui](https://www.figma.com/proto/KLR0R7fGMaJXekMy0W4lyw/gdf-saude?node-id=206-236&p=f&t=rw6ciyuXTYIjKVvt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=15%3A11). Além disso, é possível visualizar todos o fluxo dos protótipos feitos pelos integrantes na gravação 5, que está logo abaixo:
-
-- **Gravação 5** : Gravação da tela do protótipo:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Qe-rbW5qN5Y?si=DGD1RK0zlZwslcbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-Na tabela 3 estão as informações sobre os protótipos individuais.
+O protótipo completo pode ser acessado no Figma [clicando aqui](https://www.figma.com/proto/KLR0R7fGMaJXekMy0W4lyw/gdf-saude?node-id=206-236&p=f&t=rw6ciyuXTYIjKVvt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=15%3A11). Contudo, na tabela 3 estão as informações sobre os protótipos individuais.
 
 <p align="center">Tabela 3 - Protótipos</p>
 
