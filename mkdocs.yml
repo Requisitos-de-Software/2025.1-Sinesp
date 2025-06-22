@@ -88,7 +88,6 @@ nav:
           - Cenários: modelagem/metodos_tradicionais/cenarios.md
           - Especificação Suplementar: modelagem/metodos_tradicionais/especificacao-suplementar.md
           - Léxicos: modelagem/metodos_tradicionais/lexicos.md  
-      - Protótipos: modelagem/prototipos.md
 
   - Pós rastreabilidade:
       - Matriz de Rastreabilidade: pos-rastreabilidade/matriz_geral.md
@@ -123,6 +122,9 @@ nav:
           - Entrega 3: inspecao/inspecao_3_grupo+1.md
           - Entrega 4: inspecao/inspecao_4_grupo+1.md
           - Entrega 6: inspecao/inspecao_6_grupo+1.md
+    
+  - Validação:
+      - Protótipos: modelagem/prototipos.md
           
 extra_css:
   - stylesheets/extra.css
