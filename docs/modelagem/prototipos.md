@@ -31,7 +31,7 @@ Na tabela 1, estão listados todos os integrantes da equipe que participaram da 
             </tr>
             <tr>
                 <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
-                <td></td>
+                <td> Fez o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF12.1">RF12.1</a>, <a href="../../elicitacao/requisitos_finais#RF12.2">RF12.2</a>, <a href="../../elicitacao/requisitos_finais#RF012.5">RF12.5</a>, Também realizou a validação destes com um usuário real. </a> </td>
             </tr>
             <tr>
                 <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
@@ -85,16 +85,13 @@ A tabela 2 apresenta a informação do usuário real que participou da etapa de 
                 <td><a href="../assets/Autorizacao_wellington.pdf" target="_blank">Ver Termo de Consentimento (PDF)</a></td>
             </tr>
             <tr>
-
                 <td>Vilmar José Fagundes dos Passos Jr.</td>
-
                 <td>18/06/2025</td>
                 <td>13:20</td>
                 <td>5:20</td>
                 <td>Faculdade de Ciência e Tecnologia em Engenharias (FCTE) </td>
                 <td><a href="../assets/Autorizacao_wellington.pdf" target="_blank">Ver Termo de Consentimento (PDF)</a></td>
             </tr>
-
             <tr>
                 <td>Jaqueline Nogueira da Silva</td>
                 <td>22/06/2025</td>
@@ -111,7 +108,14 @@ A tabela 2 apresenta a informação do usuário real que participou da etapa de 
                 <td>Casa do usuário </td>
                 <td><a href="../assets/Autorizacao_wellington.pdf" target="_blank">Ver Termo de Consentimento (PDF)</a></td>
             </tr>
-
+            <tr>
+                <td>Samantha Melissa Pinheiro</td>
+                <td>22/06/2025</td>
+                <td>12:10</td>
+                <td>2:45</td>
+                <td>Casa do usuário </td>
+                <td><a href="../assets/Autorizacao_samantha.pdf" target="_blank">Ver Termo de Consentimento (PDF)</a></td>
+            </tr>
         </tbody>
     </table>
 </div>
@@ -146,14 +150,18 @@ Para realizar a validação dos protótipos, foram agendadas reuniões individua
 <iframe width="560" height="315" src="https://www.youtube.com/embed/41WRbiVs7jE?si=JJr3AVxht_01qZTx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
+- **Gravação 5** : Validação com o usuário real realizado por Othavio Bolzan.
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=L8eVaC2ns8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 
 ---
 
 
-
 ## Protótipos 
 
-O protótipo completo pode ser acessado no [Figma](https://www.figma.com/proto/KLR0R7fGMaJXekMy0W4lyw/gdf-saude?node-id=206-236&p=f&t=rw6ciyuXTYIjKVvt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=15%3A11)
+O protótipo completo pode ser acessado no Figma [clicando aqui](https://www.figma.com/proto/KLR0R7fGMaJXekMy0W4lyw/gdf-saude?node-id=206-236&p=f&t=rw6ciyuXTYIjKVvt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=15%3A11). Contudo, na tabela 3 estão as informações sobre os protótipos individuais.
 
 <p align="center">Tabela 3 - Protótipos</p>
 
@@ -176,6 +184,9 @@ O protótipo completo pode ser acessado no [Figma](https://www.figma.com/proto/K
 |[Kaleb Macedo](https://github.com/kalebmacedo)| [RF05.2](../../../elicitacao/requisitos_finais/#RF05.2) |	Permitir cancelamento de consultas e exames diretamente pelo aplicativo, com pagamento automático para prestadores da Rede de Atendimento. |<a href="https://www.youtube.com/embed/OJUuWXGbumY?si=2Pbb2haCblcHZ2SL">Vídeo protótipo</a>|
 |[Matheus de Alcântara](https://github.com/matheusdealcantara)|<a href="../../elicitacao/requisitos_finais#RF09.3" target="_blank">RF09.3</a>|	Permitir ao usuário visualizar os resultados de seus exames laboratoriais. | <a href="https://youtu.be/DZKtZfrtrus" target="_blank">Vídeo Protótipo</a> |
 |[Matheus de Alcântara](https://github.com/matheusdealcantara)|<a href="../../elicitacao/requisitos_finais#RF20">RF20</a>|	Permitir solicitação de reembolso de uma cobrança indevida de coparticipação. | <a href="https://youtu.be/gv2dDRbZGoE" target="_blank">Vídeo Protótipo</a>  |
+|[Othavio Bolzan](https://github.com/bolzanMGB)|<a href="../../elicitacao/requisitos_finais#RF12.1">RF12.1</a>|	Apesentar uma seção no menu principal chamada "Novidades".| a tela do protótipo que implementa esse requisito é [tela 1](../assets/implementados/telas_othavio.pdf#page=1)|
+|[Othavio Bolzan](https://github.com/bolzanMGB)|<a href="../../elicitacao/requisitos_finais#RF12.2">RF12.2</a>|	 	Exibir uma lista com título, descrição e data de lançamento das novas funcionalidades.| a tela do protótipo que implementa esse requisito é [tela 2](../assets/implementados/telas_othavio.pdf#page=2)|
+|[Othavio Bolzan](https://github.com/bolzanMGB)|<a href="../../elicitacao/requisitos_finais#RF12.5">RF12.5</a>|	 	Permitir que o usuário toque em uma funcionalidade da lista de novidades para ver uma descrição detalhada.| a tela do protótipo que implementa esse requisito é [tela 3](../assets/implementados/telas_othavio.pdf#page=3)|
 
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
@@ -191,5 +202,6 @@ O protótipo completo pode ser acessado no [Figma](https://www.figma.com/proto/K
 | `1.2`  |  22/06/2025 | Adicionando o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF16">RF16</a> e <a href="../../elicitacao/requisitos_finais#RF18">RF18</a>. Também, fez a validação destes. | [Luca Alves](https://github.com/LucasAlves71)  | [Kaleb Macedo](https://github.com/kalebmacedo) |
 | `1.3`  |  22/06/2025 | Adicionando o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF05.1">RF05.1</a> e <a href="../../elicitacao/requisitos_finais#RF05.2">RF05.2</a>. Também, fez a validação destes. | [Kaleb Macedo](https://github.com/kalebmacedo)  | [Luca Alves](https://github.com/LucasAlves71) |
 | `1.4`  |  22/06/2025 | Adicionando o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais.md#RF09.3" target="_blank">RF09.3</a> e <a href="../../elicitacao/requisitos_finais.md#RF20" target="_blank">RF20</a> e fez a validação dos mesmos com um usuário real de forma presencial. | [Matheus de Alcântara](https://github.com/matheusdealcantara)  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+| `1.5`  |  22/06/2025 | Adicionando o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais.md#RF012.1" target="_blank">RF12.1</a>,<a href="../../elicitacao/requisitos_finais.md#RF12.2" target="_blank">RF 12.2</a> e <a href="../../elicitacao/requisitos_finais.md#RF12.5" target="_blank">RF 12.5</a> e fez a validação dos mesmos com um usuário real de forma presencial. | [Othavio Bolzan](https://github.com/bolzanMGB)  | [Kaleb Macedo](https://github.com/kalebmacedo) |
 
 
