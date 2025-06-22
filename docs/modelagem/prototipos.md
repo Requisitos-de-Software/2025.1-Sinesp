@@ -42,8 +42,8 @@ Na tabela 1, estão listados todos os integrantes da equipe que participaram da 
                 <td></td>      
             </tr>
             <tr> 
-                <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> >Fez o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF01.2">RF01.2</a> e <a href="../../elicitacao/requisitos_finais#RF02.1">RF02.1</a> e fez a validação deles com um usuário real.</td> 
-                <td></td> 
+                <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> </td>
+                <td>Fez o protótipo dos requisitos <a href="../../elicitacao/requisitos_finais#RF01.2">RF01.2</a> e <a href="../../elicitacao/requisitos_finais#RF02.1">RF02.1</a> e fez a validação deles com um usuário real.</td> 
             </tr>
             <tr>
                 <td>Lucas Alves</td>
@@ -85,7 +85,7 @@ A tabela 2 apresenta a informação do usuário real que participou da etapa de 
                 <td><a href="../assets/Autorizacao_wellington.pdf" target="_blank">Ver Termo de Consentimento (PDF)</a></td>
             </tr>
             <tr>
-                <td>Vilmar José da Silva Fagundes dos Passos Jr.</td>
+                <td>Vilmar José Fagundes dos Passos Jr.</td>
                 <td>18/06/2025</td>
                 <td>13:20</td>
                 <td>5:20</td>
