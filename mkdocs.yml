@@ -101,18 +101,18 @@ nav:
           - Entrega 2: verificacao/lista_de_VerificacaoEntrega2.md
           - Entrega 3: verificacao/lista_de_verificacaoEntrega3.md
           - Entrega 4: verificacao/lista_de_verificacaoEntrega4.md
+          - Entrega 5: verificacao/lista_de_VerificacaoEntrega5.md
           - Entrega 6: verificacao/lista_de_VerificacaoEntrega6.md
-          - Entrega Final: verificacao/lista_de_VerificacaoEntregaFinal.md
       - Grupo +1:
           - Entrega 1: verificacao/lista_de_VerificacaoEntrega1.md
           - Entrega 2: verificacao/lista_de_VerificacaoEntrega2.md
           - Entrega 3: verificacao/lista_de_verificacaoEntrega3.md
           - Entrega 4: verificacao/lista_de_verificacaoEntrega4.md
+          - Entrega 5: verificacao/lista_de_VerificacaoEntrega5.md
           - Entrega 6: verificacao/lista_de_VerificacaoEntrega6.md
-          - Entrega Final: verificacao/lista_de_VerificacaoEntregaFinal.md
 
   - Inspeção:
-      - Inspeção Final:
+      - Inspeção Entrega 5:
           - Individual, Grupo e Entrega 1: inspecao/inspecao_final/inspecao_final_amy.md
           - Entrega 2: inspecao/inspecao_final/inspecao_final_2_grupo.md
           - Entrega 3: inspecao/inspecao_final/inspecao_final_3_grupo.md
@@ -124,6 +124,7 @@ nav:
           - Entrega 2: inspecao/inspecao_2_grupo.md
           - Entrega 3: inspecao/inspecao_3_grupo.md
           - Entrega 4: inspecao/inspecao_4_grupo.md
+          - Entrega 5 (Errata): inspecao/inspecao_5_grupo.md
           - Entrega 6: inspecao/inspecao_6_grupo.md
       - Grupo +1:
           - Entrega 1: inspecao/lista_de_inspecaoEntrega1Grupo+1.md
