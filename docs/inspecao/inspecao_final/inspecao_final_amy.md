@@ -116,7 +116,7 @@ A reunião de inspeção conduzida por Ana Luiza, Matheus e Yzabella, referente 
 | 12 | **Entrega 4** | Todas as gravações com usuário real foram gravadas presencialmente? | Conforme, foto na [página 20](../../assets/verificacao_amy.pdf#page=20) |
 | 13 | **Entrega 4** | Pelo menos 7 histórias de usuários? | Conforme, foto na [página 11](../../assets/verificacao_amy.pdf#page=11) |
 | 14 | **Entrega 4** | Pelo menos 7 itens no backlog? | Conforme, foto na [página 20](../../assets/verificacao_amy.pdf#page=20) |
-| 15 | **Entrega 5** | Pelo menos 7 especificações do NFR Framework? | Inconforme, ou não foi feito ou não estava pronto no momento da gravação |
+| 15 | **Entrega 4** | Pelo menos 7 especificações do NFR Framework? | Inconforme, ou não foi feito ou não estava pronto no momento da gravação |
 | 16 | **Entrega 5** | Todas as gravações com usuário real foram gravadas presencialmente? | Conforme, foto na [página 21](../../assets/verificacao_amy.pdf#page=21) |
 | 17 | **Entrega 6** | Tem a tabela dos forward from e a tabela geral de rastreabilidade? | Conforme, foto na [página 22](../../assets/verificacao_amy.pdf#page=22) |
 

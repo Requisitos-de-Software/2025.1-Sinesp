@@ -173,6 +173,7 @@ Na tabela 3 encontra-se a rastreabilidade Backward from dos requisitos não func
 | <a id="BF67"></a>BF67 | [RNF13](../elicitacao/elicitacao.md#RNF13) | [RNF13](../elicitacao/requisitos_finais.md#RNF13) | Deve funcionar de forma offline para acesso à carteirinha e histórico de consultas. | [IS22](../elicitacao/tecnicas/introspeccao.md#IS22) | Não | <a href="#ELOBF67">ELOBF67</a> |
 | <a id="BF68"></a>BF68 | [RNF14](../elicitacao/elicitacao.md#RNF14) | [RNF14](../elicitacao/requisitos_finais.md#RNF14) | O layout deve ser consistente com o portal oficial do plano. | [QT16](../elicitacao/tecnicas/questionario.md#QT16) | Não | <a href="#ELOBF68">ELOBF68</a> |
 | <a id="BF69"></a>BF69 | [RNF15](../elicitacao/elicitacao.md#RNF15) | [RNF15](../elicitacao/requisitos_finais.md#RNF15) | O sistema deve exigir autenticação via GovBR para login. | [GF11](../elicitacao/tecnicas/grupo_focal.md#GF11) | Não | <a href="#ELOBF69">ELOBF69</a> |
+| <a id="BF70"></a>BF70 | [RNF16](../elicitacao/elicitacao.md#RNF16) | [RNF16](../elicitacao/requisitos_finais.md#RNF16) | As informações exibidas devem ser claras, completas e atualizadas em tempo real. | [QT13](../elicitacao/tecnicas/questionario.md#QT13) | Sim | <a href="#ELOBF70">ELOBF70</a> |
 
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a> e <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
