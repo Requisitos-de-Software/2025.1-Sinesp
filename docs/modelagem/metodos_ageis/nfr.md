@@ -19,12 +19,12 @@ Nesta etapa de **Validação dos Casos de Uso**, toda a condução, gravação e
     </thead>
     <tbody>
       <tr>
-        <td> <a href="https://github.com/isaqzin">Isaque Camarogs</a> </td>
-        <td>Fez a introdução, metodologia, as explicações sobre o sig, decomposição, contribuição e procedimento de avaliação.</td>
+        <td> <a href="https://github.com/isaqzin">Isaque Camargos</a> </td>
+        <td>Fez a introdução, metodologia, as explicações sobre o sig, decomposição, contribuição e procedimento de avaliação, também auxiliou na produção do cartão de especificação 7.</td>
       </tr>
       <tr>
         <td> <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a> </td>
-        <td>Fez a documentação dos NFRs produzidos pelo grupo e auxiliou na produção dos mesmos</td>
+        <td>Fez a documentação dos NFRs produzidos pelo grupo e auxiliou na produção dos mesmos, também ajudou a produzir os cartões de especificação 6 e 7.</td>
       </tr>
         <td> <a href="https://github.com/redjsun">Yzabella Miranda</a> </td>
         <td>Auxiliou na produção dos NFR frameworks</td>
@@ -32,6 +32,10 @@ Nesta etapa de **Validação dos Casos de Uso**, toda a condução, gravação e
       </tr>
         <td> <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> </td>
         <td>Auxiliou na produção dos NFR frameworks</td>
+      </tr>
+      <tr>
+        <td> <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> </td>
+        <td>Auxiliou na produção do cartão de especificação 6.</td>
       </tr>
     </tbody>
   </table>
@@ -213,20 +217,49 @@ As tabelas a seguir detalham os requisitos não-funcionais elicitados para o pro
 
 <p align="center">Fonte: <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> e <a href="https://github.com/">Lucas Alves</a></p>
 
+<p align="center"><b>Tabela 6 - Cartão de Especificação 6</b></p>
+
+| Nº Requisito: RNF10                                                                 | Classificação: Usabilidade |
+| ----------------------------------------------------------------------------------- | -------------------------- |
+| **Descrição:** As informações críticas para o usuário, como a carteirinha digital, devem estar acessíveis em até 3 cliques, sendo recomendado no máximo 2 cliques a partir da tela inicial do aplicativo. |
+| **Justificativa:** Facilitar o acesso rápido a informações essenciais, melhorando a experiência do usuário. |
+| **Origem do Requisito:** Grupo Focal, Introspecção                                  |
+| **Critério de Aceitação:** Usuário acessa a carteirinha digital em até 3 cliques.   |
+| **Dependências:** Estrutura de navegação clara                                      |
+| **Prioridade:** Alta                                                                |
+| **Conflitos:** Pode impactar a complexidade do layout                               |
+| **História:** 2025                                                                  |
+
+<p align="center">Fonte: <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a> e <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+<p align="center"><b>Tabela 7 - Cartão de Especificação 7</b></p>
+
+| Nº Requisito: RNF12                                                                 | Classificação: Suporte     |
+| ----------------------------------------------------------------------------------- | -------------------------- |
+| **Descrição:** O aplicativo deve disponibilizar uma funcionalidade de chat com um atendente em até 2 cliques a partir da tela inicial e mostrar um número de telefone para suporte. |
+| **Justificativa:** Garantir suporte eficiente e acessível ao usuário.               |
+| **Origem do Requisito:** Introspecção                                               |
+| **Critério de Aceitação:** Suporte disponível e funcional nos canais especificados e o usuário acessa em até 2 cliques.  |
+| **Dependências:** Integração com sistema de atendimento                             |
+| **Prioridade:** Média                                                               |
+| **Conflitos:** Pode aumentar o custo de manutenção                                  |
+| **História:** 2025                                                                  |
+
+<p align="center">Fonte: <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a> e <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
+
 ## Requisitos Não-Funcionais
 
-<p align="center"><b>Tabela 6 - Requisitos Não-Funcionais Utilizados</b></p>
+<p align="center"><b>Tabela 8 - Requisitos Não-Funcionais Utilizados</b></p>
 
 | ID                                                                                              | Tema           | Descrição                                                                                                                                                                                  | Fonte                                                                                                                                                                                                                       | Critério de Aceitação                                    | Implementação |
 | ----------------------------------------------------------------------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------------- |
-| [RNF02](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF02) | Desempenho     | Tempo de resposta das ações não deve ultrapassar 2 segundos.                                                                                                                               | [EN11](../../elicitacao/tecnicas/entrevista.md#EN11), [GF17](../../elicitacao/tecnicas/grupo_focal.md#GF17), [IS14](../../elicitacao/tecnicas/introspeccao.md#IS14), [QT12](../../elicitacao/tecnicas/questionario.md#QT12) | 95% das ações respondem em até 2s.                       | Não           |
 | [RNF02](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF02) | Desempenho     | Tempo de resposta das ações não deve ultrapassar 2 segundos.                                                                                                                               | [EN11](../../elicitacao/tecnicas/entrevista.md#EN11), [GF17](../../elicitacao/tecnicas/grupo_focal.md#GF17), [IS14](../../elicitacao/tecnicas/introspeccao.md#IS14), [QT12](../../elicitacao/tecnicas/questionario.md#QT12) | 95% das ações respondem em até 2s.                       | Não           |
 | [RNF06](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF06) | Acessibilidade | O aplicativo deve ser compatível com leitores de tela para garantir acessibilidade a pessoas com deficiência visual.                                                                       | [IS20](../../elicitacao/tecnicas/introspeccao.md#IS20), [QT14](../../elicitacao/tecnicas/questionario.md#QT14)                                                                                                              | Testes com leitores de tela aprovados.                   | Não           |
 | [RNF07](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF07) | Conformidade   | Garantir conformidade com a Portaria nº 127/2024 e LGPD.                                                                                                                                   | [GL10](../../elicitacao/tecnicas/glossario.md#GL10), [QT15](../../elicitacao/tecnicas/questionario.md#QT15)                                                                                                                 | Auditoria confirma aderência legal.                      | Não           |
 | [RNF08](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF08) | Desempenho     | Processar autorizações prévias em até 10 dias úteis.                                                                                                                                       | [GL13](../../elicitacao/tecnicas/glossario.md#GL13)                                                                                                                                                                         | 100% das autorizações processadas no prazo.              | Não           |
 | [RNF10](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF10) | Usabilidade    | As informações críticas para o usuário, como a carteirinha digital, devem estar acessíveis em até 3 cliques, sendo recomendado no máximo 2 cliques a partir da tela inicial do aplicativo. | [GF15](../../elicitacao/tecnicas/grupo_focal.md#GF15), [IS16](../../elicitacao/tecnicas/introspeccao.md#IS16)                                                                                                               | Usuário acessa a carteirinha digital em até 3 cliques.   | Não           |
-| [RNF11](../../elicitacao/requisitos_finais.md#RNF11) | Usabilidade    | O sistema deve armazenar e permitir o acesso ao histórico de notificações do usuário por no mínimo 180 dias.                                                                                | [GF16](../../elicitacao/tecnicas/grupo_focal.md#GF16)                                                                                                                                                                       | Histórico de notificações acessível por 180 dias.        | Não           |
-| [RNF12](../../elicitacao/requisitos_finais.md#RNF12) | Suporte        | O aplicativo deve disponibilizar uma funcionalidade de chat com um atendente em até 2 cliques a partir da tela inicial e mostrar um número de telefone para suporte.                                                                                                                                   | [IS15](../../elicitacao/tecnicas/introspeccao.md#IS15)                                                                                                                                                                      | Suporte disponível e funcional nos canais especificados. | Não           |
+| [RNF11](../../elicitacao/requisitos_finais.md#RNF11)                                            | Usabilidade    | O sistema deve armazenar e permitir o acesso ao histórico de notificações do usuário por no mínimo 180 dias.                                                                               | [GF16](../../elicitacao/tecnicas/grupo_focal.md#GF16)                                                                                                                                                                       | Histórico de notificações acessível por 180 dias.        | Não           |
+| [RNF12](../../elicitacao/requisitos_finais.md#RNF12)                                            | Suporte        | O aplicativo deve disponibilizar uma funcionalidade de chat com um atendente em até 2 cliques a partir da tela inicial e mostrar um número de telefone para suporte.                       | [IS15](../../elicitacao/tecnicas/introspeccao.md#IS15)                                                                                                                                                                      | Suporte disponível e funcional nos canais especificados. | Não           |
 | [RNF14](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF14) | Usabilidade    | O layout deve ser consistente com o portal oficial do plano.                                                                                                                               | [QT16](../../elicitacao/tecnicas/questionario.md#QT16)                                                                                                                                                                      | Layout aprovado em revisão de consistência visual.       | Não           |
 | [RNF06](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF06) | Acessibilidade | Compatibilidade com leitores de tela para pessoas com deficiência visual.                                                                                                                  | [IS20](../../elicitacao/tecnicas/introspeccao.md#IS20), [QT14](../../elicitacao/tecnicas/questionario.md#QT14)                                                                                                              | Testes com leitores de tela aprovados.                   | Não           |
 | [RNF16](https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF16) | Acessibilidade | O sistema deve ser acessível em Português.                                                                                                                                                 | [IS21](../../elicitacao/tecnicas/introspeccao.md#IS21)                                                                                                                                                                      | Todo o conteúdo disponível em Português.                 | Não           |
@@ -348,7 +381,7 @@ SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais par
 
 CHUNG, L.; NIXON, B. A.; YU, E.; MYLOPOULOS, J. Non-functional requirements in software engineering. Springer Science & Business Media: [s.n.], 2000. v. 5.
 
-<p align="center"><b>Tabela 7 - Histórico de Versões</b></p>
+<p align="center"><b>Tabela 8 - Histórico de Versões</b></p>
 
 | Versão | Data       | Descrição                                                                                                                                                                 | Autor(es)                                                                                                                                                      | Revisor(es)                                    |
 | ------ | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
