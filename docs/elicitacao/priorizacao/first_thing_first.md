@@ -159,11 +159,19 @@ A Tabela 1 contêm as informações do usuário participante da Priorização, c
 
 ## Gravação da  priorização da lista
 
-A priorização da lista foio gravada e pode ser vista na Gravação 1.
+A priorização da lista foi gravada e pode ser vista na Gravação 1.
 
 <div align="center">
-    <p><strong>Gravação 1</strong> (gravação First Thing First (1))</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=uR6bilKISNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <p><strong>Gravação 1: </strong> First Thing First (1))</p>
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/uR6bilKISNk" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
 </div>
 
 ---
