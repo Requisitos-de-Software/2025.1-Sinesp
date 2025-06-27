@@ -139,11 +139,19 @@ A Tabela 1 contêm as informações do usuário participante da Priorização, c
 ## Gravação da Priorização
 A priorização e o preenchimento da lista foram gravados e podem ser vistos no Vídeo 1.
 
-<font size="3"><p style="text-align: center">Vídeo 1: Gravação da inspeção do artefato Three Level Scale.</p></font>
+<font size="3"><p style="text-align: center">Vídeo 1: Gravação Three Level Scale.</p></font>
 
 
 <div style="display: flex; justify-content: center;">
-  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=AmDLnh4qbeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/AmDLnh4qbeo" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
 </div>
 
 

@@ -152,9 +152,16 @@ Para realizar a validação dos protótipos, foram agendadas reuniões individua
 
 - **Gravação 5** : Validação com o usuário real realizado por Othavio Bolzan.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=L8eVaC2ns8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
+<iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/L8eVaC2ns8k" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" 
+  allowfullscreen>
+</iframe>
 
 ---
 
