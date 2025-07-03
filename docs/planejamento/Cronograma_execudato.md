@@ -4,7 +4,7 @@
 
 O cronograma executado é uma ferramenta essencial para acompanhar a realização prática das atividades previstas no projeto. Ele permite comparar o que foi planejado com o que de fato foi realizado, possibilitando identificar atrasos, adiantamentos e desvios ao longo do semestre.
 
-Este documento apresenta o cronograma executado da disciplina de **Requisitos de Software** (UnB - FGA), com base principalmente no [cronograma planejado do projeto GDF Saúde](https://requisitos-de-software.github.io/2025.1-GDF-Saude/planejamento/Cronograma/). Também foram consideradas referências anteriores utilizadas em semestres passados, como os projetos [TikTok (2022.1)](https://requisitos-de-software.github.io/2022.1-TikTok/cronograma/), [Lichess (2022.2)](https://requisitos-de-software.github.io/2022.2-Lichess/planejamento/cronograma_realizado/#ponto-de-controle-7) e [Bilheteria Digital (2023.1)](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/planejamento/cronograma/#entrega-final).
+Este documento apresenta o cronograma executado da disciplina de **Requisitos de Software** (UnB - FGA), com base principalmente no [cronograma planejado do projeto GDF Saúde](https://requisitos-de-software.github.io.1-GDF-Saude/planejamento/Cronograma/). Também foram consideradas referências anteriores utilizadas em semestres passados, como os projetos [TikTok (2022.1)](https://requisitos-de-software.github.io/2022.1-TikTok/cronograma/), [Lichess (2022.2)](https://requisitos-de-software.github.io/2022.2-Lichess/planejamento/cronograma_realizado/#ponto-de-controle-7) e [Bilheteria Digital (2023.1)](https://requisitos-de-software.github.io/2023.1-BilheteriaDigital/planejamento/cronograma/#entrega-final).
 
 As tabelas foram elaboradas inicialmente no **Microsoft Excel** e convertidas para Markdown com auxílio da ferramenta **Deepseek**. A estrutura segue o mesmo modelo utilizado no cronograma planejado, respeitando as etapas previstas e organizando as atividades por entrega.
 
@@ -32,7 +32,7 @@ As tabelas foram elaboradas inicialmente no **Microsoft Excel** e convertidas pa
 
 <br>
 
-<p align="center">Tabela 2 – Entrega 1 Planejada</p>
+<p align="center">Tabela 2 – Entrega 1 Executada</p>
 
 | Título                                             | Autor(es)                           | Revisor(es)          | Data de Entrega Planejada | Data de Entrega Executada |
 | -------------------------------------------------- | ----------------------------------- | -------------------- | ------------------------- | ------------------------- |
@@ -84,17 +84,17 @@ As tabelas foram elaboradas inicialmente no **Microsoft Excel** e convertidas pa
 
 | Título                                                          | Autor(es)                                                                                                            | Revisor(es)          | Data de Entrega Planejada | Data de Entrega Executada |
 | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------- | ------------------------- | ------------------------- |
-| Correções no projeto conforme apontado na apresentação anterior | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves                  | Kaleb Macedo         | 29/04 - 01/05             | 18/05/2025                |
-| Modelagem de Requisitos: Cenários                               | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves, Isaque Camargos | Othavio Bolzan       | 02/05 - 09/05             | 18/05/2025                |
-| Modelagem de Requisitos: Léxico                                 | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves, Isaque Camargos | Yzabella Miranda     | 02/05 - 09/05             | 18/05/2025                |
-| Modelagem de Requisitos: Casos de Uso                           | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves, Isaque Camargos | Isaque Camargos      | 02/05 - 09/05             | 18/05/2025                |
-| Modelagem de Requisitos: Especificação Suplementar              | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves, Isaque Camargos | Ana Luiza Soares     | 02/05 - 09/05             | 18/05/2025                |
-| Validação do Diagrama de Casos de Uso                           | Ana Luiza Soares                                                                                                     | Isaque Camargos      | 02/05 - 09/05             | 18/05/2025                |
-| Criação da lista de verificação                                 | Isaque Camargos, Othavio Bolzan                                                                                      | Yzabella Miranda     | 02/05 - 09/05             | 18/05/2025                |
-| Gravação da inspeção do grupo                                   | Isaque Camargos, Ana Luiza Soares                                                                                    | Matheus de Alcântara | 11/05 - 11/05             | 18/05/2025                |
-| Gravação da Apresentação                                        | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves, Isaque Camargos | Ana Luiza Soares            | 11/05 - 11/05             | 18/05/2025                |
-| Envio da entrega                                                | Othavio Bolzan                                                                                                       | Isaque Camargos      | 13/05 - 13/05             | 18/05/2025                |
-| Gravação da Inspeção Grupo + 1                                  | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves, Isaque Camargos |           Kaleb Macedo         | 14/05 - 14/05             |  19/05/2025             |
+| Correções no projeto conforme apontado na apresentação anterior | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves                  | Kaleb Macedo         | 29/04 - 01/05             | 18/05                |
+| Modelagem de Requisitos: Cenários                               | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves, Isaque Camargos | Othavio Bolzan       | 02/05 - 09/05             | 18/05                |
+| Modelagem de Requisitos: Léxico                                 | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves, Isaque Camargos | Yzabella Miranda     | 02/05 - 09/05             | 18/05                |
+| Modelagem de Requisitos: Casos de Uso                           | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves, Isaque Camargos | Isaque Camargos      | 02/05 - 09/05             | 18/05                |
+| Modelagem de Requisitos: Especificação Suplementar              | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves, Isaque Camargos | Ana Luiza Soares     | 02/05 - 09/05             | 18/05                |
+| Validação do Diagrama de Casos de Uso                           | Ana Luiza Soares                                                                                                     | Isaque Camargos      | 02/05 - 09/05             | 18/05                |
+| Criação da lista de verificação                                 | Isaque Camargos, Othavio Bolzan                                                                                      | Yzabella Miranda     | 02/05 - 09/05             | 18/05                |
+| Gravação da inspeção do grupo                                   | Isaque Camargos, Ana Luiza Soares                                                                                    | Matheus de Alcântara | 11/05 - 11/05             | 18/05                |
+| Gravação da Apresentação                                        | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves, Isaque Camargos | Ana Luiza Soares            | 11/05 - 11/05             | 18/05                |
+| Envio da entrega                                                | Othavio Bolzan                                                                                                       | Isaque Camargos      | 13/05 - 13/05             | 18/05                |
+| Gravação da Inspeção Grupo + 1                                  | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves, Isaque Camargos |           Kaleb Macedo         | 14/05 - 14/05             |  19/05             |
 
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
@@ -109,14 +109,14 @@ As tabelas foram elaboradas inicialmente no **Microsoft Excel** e convertidas pa
 
 | Título | Autor(es) | Revisor(es) | Data de Entrega Planejada | Data de Entrega Executada |
 |--------|-----------|-------------|----------------------------|----------------------------|
-| Correções no projeto conforme apontado na apresentação da entrega anterior | Matheus de Alcântara, Othavio Bolzan, Yzabella Miranda, Lucas Alves, Ana Luiza Soares, Kaleb Macedo | Ana Luiza Soares | 15/05 - 17/05 | 01/06/2025 |
-| Modelagem de Requisitos - Ágil: NFR Framework | Lucas Alves, Kaleb Macedo | Isaque Camargos | 19/05 - 24/05 | 01/06/2025 |
-| Modelagem de Requisitos - Ágil: Backlogs | Matheus de Alcântara, Yzabella Miranda | Ana Luiza Soares | 19/05 - 24/05 | 01/06/2025 |
-| Modelagem de Requisitos - Ágil: Histórias de Usuário | Isaque Camargos, Othavio Bolzan, Ana Luiza Soares | Lucas Alves | 19/05 - 24/05 | 01/06/2025 |
-| Criação da lista de verificação | Yzabella Miranda, Lucas Alves | Ana Luiza Soares | 19/05 - 24/05 | 01/06/2025 |
-| Gravação da inspeção do grupo | Isaque Camargos, Ana Luiza Soares | Matheus de Alcântara | 26/05 - 26/05 | 01/06/2025 |
-| Gravação da Apresentação | Othavio Bolzan | Yzabella Miranda | 26/05 - 26/05 | 01/06/2025 |
-| Envio da entrega | Ana Luiza Soares | Isaque Camargos | 27/05 - 27/05 | 01/06/2025 |
+| Correções no projeto conforme apontado na apresentação da entrega anterior | Matheus de Alcântara, Othavio Bolzan, Yzabella Miranda, Lucas Alves, Ana Luiza Soares, Kaleb Macedo | Ana Luiza Soares | 15/05 - 17/05 | 01/06 |
+| Modelagem de Requisitos - Ágil: NFR Framework | Lucas Alves, Kaleb Macedo | Isaque Camargos | 19/05 - 24/05 | 01/06 |
+| Modelagem de Requisitos - Ágil: Backlogs | Matheus de Alcântara, Yzabella Miranda | Ana Luiza Soares | 19/05 - 24/05 | 01/06 |
+| Modelagem de Requisitos - Ágil: Histórias de Usuário | Isaque Camargos, Othavio Bolzan, Ana Luiza Soares | Lucas Alves | 19/05 - 24/05 | 01/06 |
+| Criação da lista de verificação | Yzabella Miranda, Lucas Alves | Ana Luiza Soares | 19/05 - 24/05 | 01/06 |
+| Gravação da inspeção do grupo | Isaque Camargos, Ana Luiza Soares | Matheus de Alcântara | 26/05 - 26/05 | 01/06 |
+| Gravação da Apresentação | Othavio Bolzan | Yzabella Miranda | 26/05 - 26/05 | 01/06 |
+| Envio da entrega | Ana Luiza Soares | Isaque Camargos | 27/05 - 27/05 | 01/06 |
 | Gravação da Inspeção Grupo + 1 | Kaleb Macedo | Othavio Bolzan | 28/05 - 28/05 | - |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
@@ -186,12 +186,12 @@ As tabelas foram elaboradas inicialmente no **Microsoft Excel** e convertidas pa
 
 | Título | Autor(es) | Revisor | Data de início | Data do fim | Data para revisão |
 |---|---|---|---|---|---|
-| Correções no projeto conforme apontado na apresentação anterior | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves | Lucas Alves | 25/06/2025 | 30/06/2025 | 30/06/2025 - 01/07/2025 |
-| Desenvolvimento do projeto final (correção e complemento) | Isaque Camargos, Yzabella Miranda | Lucas Alves | 01/06/2025 | 07/06/2025 | 07/06/2025 - 09/06/2025 |
-| Criação da lista de verificação | Othavio Bolzan, Kaleb Macedo | Ana Luiza Soares | 01/06/2025 | 07/06/2025 | 07/06/2025 - 09/06/2025 |
-| Gravação da inspeção do grupo | Isaque Camargos, Ana Luiza Soares | Matheus de Alcântara | 05/07/2025 | 05/07/2025 | 05/07/2025 |
-| Gravação da Apresentação | Matheus de Alcântara | Ana Luiza Soares | 05/07/2025 | 05/07/2025 | 05/07/2025 |
-| Envio da entrega | Lucas Alves | Kaleb Macedo | 07/07/2025 | 07/07/2025 | 07/07/2025 |
+| Correções no projeto conforme apontado na apresentação anterior | Ana Luiza Soares, Matheus de Alcântara, Kaleb Macedo, Othavio Bolzan, Yzabella Miranda, Lucas Alves | Lucas Alves | 25/06 | 30/06 | 30/06 - 01/07 |
+| Desenvolvimento do projeto final (correção e complemento) | Isaque Camargos, Yzabella Miranda | Lucas Alves | 01/06 | 07/06 | 07/06 - 09/06 |
+| Criação da lista de verificação | Othavio Bolzan, Kaleb Macedo | Ana Luiza Soares | 01/06 | 07/06 | 07/06 - 09/06 |
+| Gravação da inspeção do grupo | Isaque Camargos, Ana Luiza Soares | Matheus de Alcântara | 05/07 | 05/07 | 05/07 |
+| Gravação da Apresentação | Matheus de Alcântara | Ana Luiza Soares | 05/07 | 05/07 | 05/07 |
+| Envio da entrega | Lucas Alves | Kaleb Macedo | 07/07 | 07/07 | 07/07 |
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> e <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
 
@@ -217,7 +217,7 @@ SALES, André Barros de. Plano de ensino da disciplina Requisitos de Software �
 
 | Versão | Data       | Descrição                    | Autor(es)        | Revisor(es)         |
 |--------|------------|------------------------------|------------------|---------------------|
-| 1.0    | 12/04/2025 | Criação do Cronograma Executado | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Isaque Camargos](https://github.com/isaqzin) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
-| 2.0    | 01/05/2025 | Atualização para corresponder ao detalhamento do cronograma e a nova data da entrega 2 | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Isaque Camargos](https://github.com/isaqzin) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
-| 2.1    | 01/05/2025 | Atualização das datas da entregas feitas durante a entrega 2 | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Isaque Camargos](https://github.com/isaqzin) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
-| 2.2    | 01/06/2025 | Adição da data de entrega 4, observação: as entregas anteriores foram adicionadas no docuemnto mas não no histórico de versão | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
+| 1.0    | 12/04 | Criação do Cronograma Executado | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Isaque Camargos](https://github.com/isaqzin) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
+| 2.0    | 01/05 | Atualização para corresponder ao detalhamento do cronograma e a nova data da entrega 2 | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Isaque Camargos](https://github.com/isaqzin) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
+| 2.1    | 01/05 | Atualização das datas da entregas feitas durante a entrega 2 | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) e [Isaque Camargos](https://github.com/isaqzin) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
+| 2.2    | 01/06 | Adição da data de entrega 4, observação: as entregas anteriores foram adicionadas no docuemnto mas não no histórico de versão | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
