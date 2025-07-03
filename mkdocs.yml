@@ -135,6 +135,13 @@ nav:
     
   - Validação:
       - Protótipos: modelagem/prototipos.md
+      - Comunicação: modelagem/comunicacao_equipe.md
+
+  - Entrega Final:
+      - Aplicativo Selecionado: entrega_final/aplicativo_selecionado.md
+      - Cronograma Final: entrega_final/cronograma_final.md
+      - Ferramentas: entrega_final/ferramentas_final.md
+      - Facilidades e Dificuldades: entrega_final/facilidades_dificuldades.md
           
 extra_css:
   - stylesheets/extra.css

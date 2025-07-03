@@ -47,7 +47,7 @@ Os dados obtidos na entrevista estão em conformidadde com o do questionário e/
 | Critério              | Especificação                           |
 |-----------------------|-------------------------------------------------------------------------|
 |Gênero             | Predominante feminino|
-| Idade             |  adultos e terceira idade (45–64 anos). |
+| Idade             |  principalmente adultos e terceira idade (45–64 anos), mas há presença menores de 18 anos até maiores de 65 anos. |
 | Experiência       | usuários intermediários |
 | Atitudes          | Neutras |
 | Tarefas Primárias | Consulta  |
@@ -74,3 +74,4 @@ Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; B
 | `1.0`  |  02/05/2025 |  Construção do Perfil do Usuário, introdução e metodologia | [Isaque Camargos](https://github.com/isaqzin)  | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
 | `1.1`  |  11/05/2025 |  Correção do link do questionario, finalização do texto da introdução e alteração nas Referência Bibliográficas | [Isaque Camargos](https://github.com/isaqzin)  | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
 | `1.2`  |  14/05/2025 |  Adição da tabela de contribuintes, conclusão, alteração na metodologia e utilização da entrevista para definir o peril de usuário| [Isaque Camargos](https://github.com/isaqzin)  | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
+| `1.3`  |  02/07/2025 | Correção da faixa etária| [Isaque Camargos](https://github.com/isaqzin)  | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
