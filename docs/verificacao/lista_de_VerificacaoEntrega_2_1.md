@@ -284,4 +284,5 @@ SOMMERVILLE, Ian. *Engenharia de software*. 08. ed. São Paulo: Pearson Addison 
 | `2.1`  | 04/05/2025 | Adicionando a tabela de verificação da técnica de Three Level Scale | [Yzabella Miranda](https://github.com/redjsun) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
 | `2.2`  | 04/05/2025 | Adição da tabela de verificação do Moscow | [Kaleb Macedo](https://github.com/kalebmacedo) | [Lucas Alves](https://github.com/LucasAlves71) |
 | `2.3`  | 06/06/2025 | Adição de tópico referente a metodologia da lista de verificação junto a um link de fonte. | [Yzabella Miranda](https://github.com/redjsun) | [Isaque Camargos](https://github.com/isaqzin) |
+| `2.4`  |  03/07/2025 |  Retirando as tabelas de artefatos que não foram utilizados pelo grupo mais um.  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Matheus de Alcântara](https://github.com/matheusdealcantara) e [Isaque Camargos](https://github.com/isaqzin) |
 

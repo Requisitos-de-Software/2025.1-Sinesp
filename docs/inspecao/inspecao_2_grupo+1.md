@@ -80,34 +80,10 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 
 ---
 
-## Lista de Inspecção - Entrevista  **Não foi feita pelo grupo+1**
-
-<p align="center">Tabela 4 – Lista de Inspeção da Entrevista </p>
-
-
-| ID | Item| Autor    | Revisor  | Status               | 
-|----|----------|----------|----------|----------------------|
-| 1  | O tipo de entrevista (estruturada, semiestruturada, não estruturada) foi respeitado? | [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" > Conforme |
-| 2  | As perguntas ou tópicos estavam claros, sem termos técnicos ou jargões inadequados? | [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" > Conforme |
-| 3  | As perguntas abertas foram exploradas com aprofundamento quando as respostas foram superficiais? | [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" > Conforme |
-| 4  | O roteiro foi previamente definido ?  | [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" > Conforme |
-| 5  | As perguntas do roteiro seguiram uma ordem lógica ?  |[Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" > Conforme |
-| 6 | O entrevistador manteve o foco no objetivo da entrevista ? | [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" > Conforme |
-| 7  | O entrevistador manteve uma postura neutra ?  | [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" > Conforme |
-| 8  | O entrevistador se apresentou ?  | [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" > Conforme |
-| 9 | O entrevistador fez um período de aquecimento ?   | [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" > Conforme |
-| 10  | O entrevistador concluiu a reunião formalmente ? | [Isaque Camargos](https://github.com/isaqzin) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" > Conforme |
-
-
-
-<font size="3"><p style="text-align: center">Fonte: [Isaque Camargos](https://github.com/isaqzin).</p></font>
-
----
-
 
 ## Lista de Inspecção - Personas 
 
-<p align="center">Tabela 5 – Lista de Inspeção  de Personas</p>
+<p align="center">Tabela 4 – Lista de Inspeção  de Personas</p>
 
 
 | ID | Item| Autor    | Revisor  | Status               | 
@@ -131,7 +107,7 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 
 ## Lista de Inspecção - $100 
 
-<p align="center">Tabela 6 – Lista de Inspeção do $100</p>
+<p align="center">Tabela 5 – Lista de Inspeção do $100</p>
 
 
 | ID | Item| Autor    | Revisor  | Status               | 
@@ -150,28 +126,9 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 
 ---
 
-## Lista de Inspecção - Grupo Focal **Não foi feito pelo grupo+1**
-
-<p align="center">Tabela 7 – Lista de Inspeção Grupo Focal</p>
-
-| ID | Item| Autor    | Revisor  | Status               | 
-|----|----------|----------|----------|----------------------|
-| 1  | O objetivo da reunião está claro para todos os participantes? | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" > Conforme |
-| 2  | A reunião foi realizada com representantes dos usuários? | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" > Conforme |
-| 3  | Foi definida uma pauta com os principais temas da discussão? | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" > Conforme |
-| 4  | O facilitador conduziu a sessão de forma neutra e produtiva? | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" > Conforme |
-| 5  | Os participantes foram incentivados a dar suas opiniões livremente? | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" > Conforme |
-| 6  | A sessão foi gravada ou registrada por alguém para garantir que nada fosse perdido? | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" > Conforme |
-| 7  | Foi preparado algum material de apoio, como protótipos ou exemplos, para facilitar a discussão? | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" > Conforme |
-| 8  | Os resultados da reunião serão compartilhados com os envolvidos para revisão e complementação? | [Matheus de Alcântara](https://github.com/matheusdealcantara) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun) | <input type="checkbox" > Conforme |
-
-<font size="3"><p style="text-align: center">Fonte: [Matheus de Alcântara](https://github.com/matheusdealcantara).</p></font>
-
----
-
 ## Lista de Inspecção - Introspecção
 
-<p align="center">Tabela 8 – Lista de Inspeção da Introspecção </p>
+<p align="center">Tabela 6 – Lista de Inspeção da Introspecção </p>
 
 | ID | Item| Autor    | Revisor  | Status               | 
 |----|----------|----------|----------|----------------------|
@@ -188,53 +145,12 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 
 <font size="3"><p style="text-align: center">Fonte: [Lucas Alves](https://github.com/LucasAlves71).</p></font>
 
-
-## Lista de Inspecção –  Glossário **Não foi feito pelo grupo+1**
-
-
-<p align="center">Tabela 9 – Lista de Inspeção do Glossário</p>
-
-| ID | Item                                                                                                                                            | Autor                                               | Revisor                                       | Status                           |
-| -- | ----------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | --------------------------------------------- | -------------------------------- |
-| 1  | A elaboração do glossário foi iniciada já nas atividades de elicitação, durante a análise do domínio do problema e das necessidades de negócio? | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |[Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun)  | <input type="checkbox" > Conforme |
-| 2  | Foram identificados termos únicos para o domínio, que não aparecem em outros contextos do projeto?                                              | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun)  | <input type="checkbox" > Conforme |
-| 3  | Foram capturados termos que têm mais de uma definição, evitando ambiguidades?                                                                   | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun)  | <input type="checkbox" > Conforme |
-| 4  | Foram incluídos termos com definição local distinta do senso comum, garantindo clareza para todos os envolvidos?                                | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun)  | <input type="checkbox" > Conforme |
-| 5  | Foram listados termos com potencial de causar dificuldades de entendimento, sustentando a pesquisa junto às partes interessadas?                | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun)  | <input type="checkbox" > Conforme |
-| 6  | Foram considerados termos técnicos do negócio (jargões, processos internos etc.)?                                                               | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun)  | <input type="checkbox" > Conforme |
-| 7  | Foram incluídas abreviações e siglas relevantes ao escopo, com suas respectivas explicações?                                                    | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun)  | <input type="checkbox" > Conforme |
-| 8  | Foram mapeados termos que são sinônimos ou antônimos, usando remissivas simples e cruzadas para facilitar a consulta?                           | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun)  | <input type="checkbox" > Conforme |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
-
-
 ---
-
-## Lista de Inspecção –  First Things First **Não foi feito pelo grupo+1**
-
-<p align="center">Tabela 10 – Lista de Inspeção do First Thing First</p>
-
-| ID | Item                                                                                                                     | Autor                                               | Revisor                                       | Status                                   |
-| -- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------- | --------------------------------------------- | ---------------------------------------- |
-| 1  | Verificar se todos os requisitos foram listados em uma planilha, considerando dependências lógicas entre eles.           | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun)  | <input type="checkbox" > Conforme |
-| 2  | Confirmar se o benefício relativo de cada requisito foi avaliado em escala numérica (1 a 9) com participação do cliente. | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun)  | <input type="checkbox" > Conforme |
-| 3  | Assegurar que a penalidade relativa (impacto de não implementar o requisito) foi definida em escala numérica (1 a 9).    | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun)  | <input type="checkbox" > Conforme |
-| 4  | A coluna valor total é a soma de (peso do benefício × valor do benefício) + (peso da penalidade × valor da penalidade).  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun)  | <input type="checkbox" > Conforme |
-| 5  | Verificar se o custo relativo da implementação está entre 1 e 9.                                                         | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun)  | <input type="checkbox" > Conforme |
-| 6  | Desenvolvedores consideraram complexidade, interface, reutilização, testes e documentação ao estimar custo.              | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun)  | <input type="checkbox" > Conforme |
-| 7  | Prioridade calculada conforme fórmula: Valor % / (Custo % × Peso + Risco % × Peso).                                      | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun)  | <input type="checkbox" > Conforme |
-| 8  | Verificar se a lista final de requisitos foi ordenada em ordem decrescente de prioridade.                                | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) [Yzabella Miranda](https://github.com/redjsun)  | <input type="checkbox"> Conforme |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
-
-
----
-
 
 ## Lista de Inspecção - MOSCOW 
 
 
-<p align="center">Tabela 11 – Lista de Inspeção Do MoSCoW</p>
+<p align="center">Tabela 7 – Lista de Inspeção Do MoSCoW</p>
 
 
 | ID | Item| Autor    | Revisor  | Status               | 
@@ -255,7 +171,7 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 
 ## Lista de Inspecção – Three Level Scale
 
-<p align="center">Tabela 12 – Lista de Inspeção do Three Level Scale</p>
+<p align="center">Tabela 8 – Lista de Inspeção do Three Level Scale</p>
 
 
 | ID | Item| Autor    | Revisor  | Status               | 
@@ -275,7 +191,7 @@ Documento baseado na lista de verificação feita para a entrega 2. Esta lista d
 
 ## Lista de Inspeção – Questionário
 
-<p align="center">Tabela 13 – Lista de Verificação do Questionário</p>
+<p align="center">Tabela 9 – Lista de Verificação do Questionário</p>
 
 | ID | Item de Verificação                                                                                                                                   | Autor                                          | Revisor                                             | Status                           |
 | -- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- | --------------------------------------------------- | -------------------------------- |
@@ -302,6 +218,7 @@ Segue abaixo a gravação da inspeção da entrega 2, realizada no dia **05 de m
 
 
 ## Referências
+
 - Utilizando a lista de verificação da entrega 2 presente neste projeto.
 
 ## Histórico de Versões
@@ -310,3 +227,4 @@ Segue abaixo a gravação da inspeção da entrega 2, realizada no dia **05 de m
 | `1.0`  |  05/05/2025 |  Criação do arquivo | [Lucas Alves](https://github.com/LucasAlves71)  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) |
 | `1.1`  |  05/05/2025 |  Preenchendo a lista de inspeção | [Lucas Alves](https://github.com/LucasAlves71)  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Isaque Camargos](https://github.com/isaqzin) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) |
 | `1.2`  |  05/05/2025 |  Adicionando o vídeo | [Isaque Camargos](https://github.com/isaqzin)  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) [Lucas Alves](https://github.com/LucasAlves71) [Kaleb de Souza](https://github.com/kalebmacedo) [Lucas Alves](https://github.com/LucasAlves71) [Matheus de Alcântara](https://github.com/matheusdealcantara) [Othavio Bolzan](https://github.com/bolzanMGB) |
+| `1.3`  |  03/07/2025 |  Retirando as tabelas de artefatos que não foram utilizados pelo grupo mais um.  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Matheus de Alcântara](https://github.com/matheusdealcantara) e [Isaque Camargos](https://github.com/isaqzin) |
