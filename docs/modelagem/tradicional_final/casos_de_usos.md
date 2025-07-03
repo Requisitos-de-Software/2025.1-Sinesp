@@ -29,7 +29,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
                 </tr>
                 <tr>
                     <td><a  href="https://github.com/isaqzin">Isaque Camargos</a></td>
-                    <td>Criou o diagrama referentes aos requisitos: RF03,RF04.1, RF04.9 e RF19. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC04, UC05, UC06, UC07, UC08 e UC09. Além disso, criou o documento inicial.</td>	
+                    <td>Criou o diagrama referentes aos requisitos: RF03,RF04.1, RF04.9 e RF19. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC07, UC08, UC09, UC10 e UC11. Além disso, criou o documento inicial.</td>	
                 </tr>
                 <tr>
                     <td><a  href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>

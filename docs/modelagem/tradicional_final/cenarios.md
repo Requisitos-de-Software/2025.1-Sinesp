@@ -29,7 +29,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram na construç
             </tr>
             <tr>
                 <td><a href="https://github.com/isaqzin" target="_blank">Isaque Camargos</a></td>
-                <td> Inicou o documento criando a introdução e criou os cenários: 3, 4, 19, 25, 25 e 26.</td>
+                <td> Inicou o documento criando a introdução e criou os cenários:10, 11, 12 e 46.</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/kalebmacedo" target="_blank">Kaleb Macedo</a></td>
