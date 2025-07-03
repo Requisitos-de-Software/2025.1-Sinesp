@@ -1,11 +1,11 @@
 # Lista de Verificação da Entrega 6
 
 ## Introdução
-Este documento apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 5, tanto para o grupo quanto para o grupo +1.
+Este documento apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 6, tanto para o grupo quanto para o grupo +1.
 
 
 ## Objetivo
-* Fornecer critérios claros para verificação dos artefatos da Entrega 5.
+* Fornecer critérios claros para verificação dos artefatos da Entrega 6.
 * Garantir a padronização e qualidade dos documentos produzidos.
 * Facilitar o processo de revisão pelos integrantes do grupo.
 * Assegurar que todos os itens exigidos estejam completos e corretos.
