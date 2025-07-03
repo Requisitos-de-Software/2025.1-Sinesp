@@ -398,6 +398,6 @@ SALES, André Barros de. Plano de ensino da disciplina Requisitos de Software �
 | Versão | Data       | Descrição                    | Autor(es)        | Revisor(es)         |
 |--------|------------|------------------------------|------------------|---------------------|
 | `1.0`    | 02/07/2025 | Criação do documento do cronograma final | [Isaque Camargos](https://github.com/isaqzin) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
-| `1.1`    | 03/07/2025 | Adicionando tabelas do cronograma planejado e corrigindo enumeração na tabela | [Isaque Camargos](https://github.com/isaqzin) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
+| `1.1`    | 03/07/2025 | Adicionando tabelas do cronograma planejado e corrigindo enumeração na | [Isaque Camargos](https://github.com/isaqzin) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
 
 ‌
