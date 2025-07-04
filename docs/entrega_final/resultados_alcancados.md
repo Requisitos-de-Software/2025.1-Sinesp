@@ -12,28 +12,28 @@ Para entender as necessidades dos usuários, foram aplicadas diversas técnicas 
 - [**Perfil de Usuário**](../elicitacao/perfil.md): Análise detalhada dos beneficiários do plano de saúde GDF <br>
 - [**Personas**](../elicitacao/personas.md): Criação de representações dos usuários típicos do aplicativo <br>
 - **Técnicas de Elicitação**: Implementação de [Questionário](../elicitacao/tecnicas/questionario.md), [Entrevista](../elicitacao/tecnicas/entrevista.md), [Introspecção](../elicitacao/tecnicas/introspeccao.md), [Grupo Focal](../elicitacao/tecnicas/grupo_focal.md) e [Glossário](../elicitacao/tecnicas/glossario.md) <br>
-- **Priorização de Requisitos**: Aplicação das técnicas [MoSCoW](../elicitacao/priorizacao/moscow.md), [100 Dólares](../elicitacao/priorizacao/dolares100.md), [First Thing First](../elicitacao/priorizacao/first_thing_first.md) e [Three Level Scale](../elicitacao/priorizacao/threeLevelScale.md) <br>
+- **Priorização de Requisitos**: Aplicação das técnicas [MoSCoW](../elicitacao/priorizacao/moscow.md), [100 Dólares](../elicitacao/priorizacao/dolares100.md), [First Thing First](../elicitacao/priorizacao/first_thing_first.md) e [Three Level Scale](../elicitacao/priorizacao/threeLevelScale.md)
 
-A modelagem de requisitos foi realizada através de técnicas tradicionais e ágeis:
-- [**Cenários**](../modelagem/tradicional_final/cenarios.md): Descrição de situações de uso do aplicativo em contextos reais de saúde
-- [**Léxicos**](../modelagem/tradicional_final/lexicos.md): Definição de termos específicos do domínio de saúde pública
-- [**Casos de Uso**](../modelagem/tradicional_final/casos_de_usos.md): Especificação detalhada das interações entre usuários e sistema
-- [**Especificação Suplementar**](../modelagem/tradicional_final/especificacao-suplementar.md): Documentação de requisitos não-funcionais
-- [**Histórias de Usuário**](../modelagem/metodos_ageis/historias_todos02.md): Narrativas centradas no usuário para desenvolvimento ágil
-- [**NFR Framework**](../modelagem/metodos_ageis/nfr.md): Análise sistemática de requisitos não-funcionais como usabilidade, desempenho e segurança
+A modelagem de requisitos foi realizada através de técnicas tradicionais e ágeis: <br>
+- [**Cenários**](../modelagem/tradicional_final/cenarios.md): Descrição de situações de uso do aplicativo em contextos reais de saúde <br>
+- [**Léxicos**](../modelagem/tradicional_final/lexicos.md): Definição de termos específicos do domínio de saúde pública <br>
+- [**Casos de Uso**](../modelagem/tradicional_final/casos_de_usos.md): Especificação detalhada das interações entre usuários e sistema <br>
+- [**Especificação Suplementar**](../modelagem/tradicional_final/especificacao-suplementar.md): Documentação de requisitos não-funcionais <br>
+- [**Histórias de Usuário**](../modelagem/metodos_ageis/historias_todos02.md): Narrativas centradas no usuário para desenvolvimento ágil <br>
+- [**NFR Framework**](../modelagem/metodos_ageis/nfr.md): Análise sistemática de requisitos não-funcionais como usabilidade, desempenho e segurança <br>
 - [**Backlog**](../modelagem/metodos_ageis/backlog.md): Lista priorizada de requisitos e funcionalidades a serem implementadas
 
 A documentação rigorosa dos requisitos foi essencial para evitar mal-entendidos e retrabalho, servindo como um guia para o desenvolvimento e validação do sistema. Todos os artefatos foram elaborados seguindo padrões acadêmicos, com histórico de versão, referências bibliográficas e rastreabilidade clara.
 
-A rastreabilidade dos requisitos foi aplicada para garantir que todas as mudanças e conexões entre os artefatos fossem claramente mapeadas. Foram desenvolvidos artefatos específicos como:
-- [**Backward-From**](../pos-rastreabilidade/backward_from.md): Rastreamento da origem dos requisitos
-- [**Forward-From**](../pos-rastreabilidade/forward_from.md): Rastreamento do destino dos requisitos
-- [**Matriz Geral de Rastreabilidade**](../pos-rastreabilidade/matriz_geral.md): Consolidação completa das relações entre requisitos e artefatos
+A rastreabilidade dos requisitos foi aplicada para garantir que todas as mudanças e conexões entre os artefatos fossem claramente mapeadas. Foram desenvolvidos artefatos específicos como: <br>
+- [**Backward-From**](../pos-rastreabilidade/backward_from.md): Rastreamento da origem dos requisitos <br>
+- [**Forward-From**](../pos-rastreabilidade/forward_from.md): Rastreamento do destino dos requisitos <br>
+- [**Matriz Geral de Rastreabilidade**](../pos-rastreabilidade/matriz_geral.md): Consolidação completa das relações entre requisitos e artefatos 
 
-Para gerenciar mudanças e melhorias, a equipe realizou inspeções detalhadas dos artefatos ao longo de todas as entregas. O processo incluiu:
-- **Listas de Verificação**: Criação de checklists específicos para cada entrega
-- **Inspeções Internas**: Avaliação sistemática dos artefatos do próprio grupo
-- **Inspeções Externas**: Avaliação dos artefatos do grupo +1
+Para gerenciar mudanças e melhorias, a equipe realizou inspeções detalhadas dos artefatos ao longo de todas as entregas. O processo incluiu: <br>
+- **Listas de Verificação**: Criação de checklists específicos para cada entrega <br>
+- **Inspeções Internas**: Avaliação sistemática dos artefatos do próprio grupo <br>
+- **Inspeções Externas**: Avaliação dos artefatos do grupo +1 <br>
 - **Retrabalho e Correções**: Implementação de melhorias baseadas nos achados das inspeções
 
 Adicionalmente, foram desenvolvidos protótipos de alta fidelidade para requisitos não implementados, validados com usuários reais do sistema GDF Saúde, proporcionando feedback valioso sobre a usabilidade e adequação das propostas de melhoria.
