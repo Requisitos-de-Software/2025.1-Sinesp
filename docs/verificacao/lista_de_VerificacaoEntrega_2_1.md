@@ -1,8 +1,9 @@
-# Lista de Verificação da Entrega 2
+# Lista de Verificação da Entrega 2 - Grupo + 1
 
-Este documento apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 2 para o nosso grupo. As tabelas 1, 2 e 3 foram elaboradas com base no plano de ensino e na lista de verificação sugerida pelo professor, [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342), sendo uma lista de verificação que será usada na inspeção da entrega 2.
+Este documento apresenta uma lista de verificação para avaliar os artefatos produzidos na Entrega 2 para o grupo +1. As tabelas 1, 2 e 3 foram elaboradas com base no plano de ensino e na lista de verificação sugerida pelo professor, [André Barros de Sales](https://sigaa.unb.br/sigaa/public/docente/portal.jsf?siape=1314342), sendo uma lista de verificação que será usada na inspeção da entrega 2.
 
 ## Objetivo
+
 - Fornecer critérios claros para verificação dos artefatos da Entrega 2;
 - Garantir a padronização e qualidade dos documentos produzidos;
 - Facilitar o processo de revisão pelos integrantes do grupo;
@@ -110,32 +111,9 @@ A abordagem selecionada para esta verificação é uma versão adaptada da técn
 <font size="3"><p style="text-align: center">Fonte: [Kaleb Macedo](https://github.com/kalebmacedo).</p></font>
 
 
-## Lista de Verificação - Entrevista 
-
-<p align="center">Tabela 5 – Lista de Verificação de Entrevista</p>
-
-| ID | Item de Verificação | Autor | Referência |
-|----|----------------------|-------|------------|
-| 1  | O tipo de entrevista (estruturada, semiestruturada, não estruturada) foi respeitado? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\entrevistaestruturada.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
-| 2  | As perguntas ou tópicos estavam claros, sem termos técnicos ou jargões inadequados? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\terminologia.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
-| 3  | As perguntas abertas foram exploradas com aprofundamento quando as respostas foram superficiais? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\elaborar.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
-| 4  | O roteiro foi previamente definido ?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\roteiro.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
-| 5  | As perguntas do roteiro seguiram uma ordem lógica ?  |[Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\roteiro.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
-| 6 | O entrevistador manteve o foco no objetivo da entrevista ? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\entrevistaestruturada.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
-| 7  | O entrevistador manteve uma postura neutra ?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\influencia.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
-| 8  | O entrevistador se apresentou ?  | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\estrutura.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
-| 9 | O entrevistador fez um período de aquecimento ?   | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\estrutura.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
-| 10  | O entrevistador concluiu a reunião formalmente ? | [Isaque Camargos](https://github.com/isaqzin) | <div><img src="..\..\assets\lventrega2\estrutura.png" alt="Referência do item" width="100px"><br><a href="https://pdfcoffee.com/interaao-humano-computador-5-pdf-free.html">Livro IHC</a></div> |
-
-
-
-<font size="3"><p style="text-align: center">Fonte: [Isaque Camargos](https://github.com/isaqzin).</p></font>
-
----
-
 ## Lista de Verificação - Introspecção
 
-<p align="center">Tabela 6 – Lista de Verificação de Introspecção</p>
+<p align="center">Tabela 5 – Lista de Verificação de Introspecção</p>
 
 | ID | Item de Verificação | Autor | Referência |
 |----|----------------------|-------|------------|
@@ -153,7 +131,7 @@ A abordagem selecionada para esta verificação é uma versão adaptada da técn
 
 ## Lista de Verificação - Questionário 
 
-<p align="center">Tabela 7 – Lista de Verificação do Questionário</p>
+<p align="center">Tabela 6 – Lista de Verificação do Questionário</p>
 
 
 | ID  | Item de Verificação                                                                                          | Autor     | Referência                                                                                                                       |
@@ -177,7 +155,7 @@ A abordagem selecionada para esta verificação é uma versão adaptada da técn
 
 ## Lista de Verificação - Moscow 
 
-<p align="center">Tabela 8 – Lista de Verificação do Questionário</p>
+<p align="center">Tabela 7 – Lista de Verificação do Questionário</p>
 
 
 | ID  | Item de Verificação                                                                                          | Autor     | Referência                                                                                                                       |
@@ -197,95 +175,9 @@ A abordagem selecionada para esta verificação é uma versão adaptada da técn
 
 ---
 
-## Lista de Verificação –  Glossário
-
-<p align="center">Tabela 9 – Lista de Verificação do Peril de Usuário</p>
-
-| ID | Descrição da verificação                                                                                                                                      | Participante                                                                                     | Evidência                                                                                                                                                                                                                                   |
-|----|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1  | Verificar se a elaboração do glossário foi iniciada já nas atividades de elicitação, durante a análise do domínio do problema e das necessidades de negócio.  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft1.jpeg" width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
-| 2  | Verificar se foram identificados termos únicos para o domínio, que não aparecem em outros contextos do projeto.                                              | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft2.jpeg" width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
-| 3  | Verificar se foram capturados termos que têm mais de uma definição, evitando ambiguidades.                                                                    | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft3.jpeg" width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
-| 4  | Verificar se foram incluídos termos com definição local distinta do senso comum, garantindo clareza para todos os envolvidos.                                 | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft4.jpeg"  width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
-| 5  | Verificar se foram listados termos com potencial de causar dificuldades de entendimento, sustentando a pesquisa junto às partes interessadas.                | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft5.jpeg" width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
-| 6  | Verificar se foram considerados termos técnicos do negócio (jargões, processos internos etc.).                                                                | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft1.jpeg" alt="ver-glossario-ft6" width="100px"><br>VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.</div> |
-| 7  | Verificar se foram incluídas abreviações e siglas relevantes ao escopo, com suas respectivas explicações.                                                     | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft7.jpeg"  width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
-| 8  | Verificar se foram mapeados termos que são sinônimos ou antônimos, usando remissivas simples e cruzadas para facilitar a consulta.                            | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)                                              | <div><img src="..\..\assets\lventrega2\ver-glossario-ft8.jpeg" width="100px"><br>(VAZQUEZ, Bruno; SIMÕES, André; ALBERT, Endrew. *Engenharia de requisitos: software orientado ao negócio*. 1. ed. Rio de Janeiro: Elsevier, 2013.)</div> |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
-
-## Lista de Verificação – Técnica: Grupo Focal
-
-<p align="center">Tabela 10 – Lista de Verificação do Grupo Focal</p>
-
-<div align="center">
-    <table>
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Item de verificação</th>
-                <th>Autor</th>
-                <th>Referência</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Q1</td>
-                <td>O objetivo da reunião está claro para todos os participantes?</td>
-                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../assets/img/grupo_focal_3.png"></td>
-            </tr>
-            <tr>
-                <td>Q2</td>
-                <td>A reunião foi realizada com representantes dos usuários?</td>
-                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../assets/img/grupo_focal_3.png"></td>
-            </tr>
-            <tr>
-                <td>Q3</td>
-                <td>Foi definida uma pauta com os principais temas da discussão?</td>
-                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../assets/img/grupo_focal_5.png"></td>
-            </tr>
-            <tr>
-                <td>Q4</td>
-                <td>O facilitador conduziu a sessão de forma neutra e produtiva?</td>
-                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../assets/img/grupo_focal_4.png"></td>
-            </tr>
-            <tr>
-                <td>Q5</td>
-                <td>Os participantes foram incentivados a dar suas opiniões livremente?</td>
-                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../assets/img/grupo_focal_3.png"></td>
-            </tr>
-            <tr>
-                <td>Q6</td>
-                <td>A sessão foi gravada ou registrada por alguém para garantir que nada fosse perdido?</td>
-                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../assets/img/grupo_focal_4.png"></td>
-            </tr>
-            <tr>
-                <td>Q7</td>
-                <td>Foi preparado algum material de apoio, como protótipos ou exemplos, para facilitar a discussão?</td>
-                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../assets/img/grupo_focal_5.png"></td>
-            </tr>
-            <tr>
-                <td>Q8</td>
-                <td>Os resultados da reunião serão compartilhados com os envolvidos para revisão e complementação?</td>
-                <td><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></td>
-                <td><img src="../assets/img/grupo_focal_5.png"></td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-<p align="center">Autor: <b><a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></b></p>
-
 ## Lista de Verificação - $100 
 
-<p align="center">Tabela 11 – Lista de Verificação 100 Dólares</p>
+<p align="center">Tabela 8 – Lista de Verificação 100 Dólares</p>
 
 | ID | Item de Verificação | Autor | Referência |
 |----|----------------------|-------|------------|
@@ -300,27 +192,11 @@ A abordagem selecionada para esta verificação é uma versão adaptada da técn
 
 <font size="3"><p style="text-align: center">Fonte: [Isaque Camargos](https://github.com/isaqzin).</p></font>
 
-## Lista de Verificação – Técnica: First Things First
-
-<p align="center">Tabela 12 – Lista de Verificação First Thing First </p>
-
-| ID | Descrição da verificação                                                                                                                                             | Participante                                             | Evidência                                                                                                                                                                                      |
-|----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1  | Verificar se todos os requisitos foram listados em uma planilha, considerando dependências lógicas entre eles.                                                        | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-1.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 37, 2023)</div>                                |
-| 2  | Confirmar se o benefício relativo de cada requisito foi avaliado em escala numérica (1 a 9) com participação do cliente.                                            | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-fisrt-2.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 38, 2023)</div>                                |
-| 3  | Assegurar que a penalidade relativa (impacto de não implementar o requisito) foi definida em escala numérica (1 a 9).                                                 | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-3.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 38, 2023)</div>                                |
-| 4  | A coluna valor total é a soma de (peso do benefício × valor do benefício) + (peso da penalidade × valor da penalidade).                                              | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-4.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 38, 2023)</div>                                |
-| 5  | Verificar se o custo relativo da implementação está entre 1 e 9.                                                                                                      | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-5.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 38, 2023)</div>                                |
-| 6  | Os desenvolvedores levaram em consideração os custos com base em fatores como complexidade de implementação, interface necessária, potencial de reutilização e níveis de testes e documentação. | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-6.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 39, 2023)</div>                                |
-| 7  | Assegurar que a priorização seguiu a fórmula: Valor % / (Custo % × Peso + Risco % × Peso).                                                                             | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-7.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 38, 2023)</div>                                |
-| 8  | Verificar se a lista final de requisitos foi ordenada em ordem decrescente de prioridade calculada.                                                                  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)      | <div><img src="..\..\assets\lventrega2\ana-first-8.jpeg" width="100px"><br>(SERRANO; SERRANO, Aula 07, p. 39, 2023)</div>                                |
-
-<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
-
+---
 
 ## Lista de Verificação – Técnica: Three Level Scale
 
-<p align="center">Tabela 13 – Lista de Verificação Three Level Scale </p>
+<p align="center">Tabela 9 – Lista de Verificação Three Level Scale </p>
 
 | ID | Descrição da verificação                                                                                                                                             | Participante                                             | Evidência                                                                                                                                                                                      |
 |----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -335,7 +211,7 @@ A abordagem selecionada para esta verificação é uma versão adaptada da técn
 
 <p align="center">Fonte: Autoria de <a href="https://github.com/redjsun">Yzabella Miranda</a></p>
 
-## Tradução das imagens da Tabela 11
+## Tradução das imagens da Tabela 8
 
 Essa tradução foi feita com auxilio do Chat GPT.
 
@@ -364,35 +240,6 @@ Na prática, no entanto, você nunca aceitaria um sistema que implementasse apen
 Outra técnica de priorização é baseada em dinheiro real, não fictício. Na técnica “objective chain” de Joy Beatty e Anthony Chen (2012), você atribui um valor em dólares estimado que representa o quanto cada funcionalidade proposta contribui para os objetivos de negócios do projeto. Assim, é possível comparar o valor relativo das funcionalidades entre si e selecionar quais implementar primeiro.
     
 ---
-
-### Tradução das imagens da Tabela 10
-
-Essa tradução foi feita com auxilio do Chat GPT.
-
-<p align="center" > <font>Figura 3: Imagem 1 de fonte da tabela 7</font> </p>
-<div><img src="../assets/img/grupo_focal_5.png" alt="Referência do item" width="100%"></div>
-<font size="3"><p style="text-align: center">Fonte: <a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></p></font>
-
-Tradução:
-Tire boas notas
-Atribua a alguém que não está participando ativamente da discussão a função de escriba, responsável por tomar notas precisas. As notas da sessão devem conter uma lista de participantes, convidados que não compareceram, decisões tomadas, ações a serem realizadas e quem é responsável por cada uma, questões pendentes e os pontos principais das discussões. Infelizmente, analistas de negócios (BAs) às vezes conduzem sessões de elicitação sem um escriba dedicado e precisam assumir esse papel. Se você estiver nessa situação, esteja preparado para escrever em taquigrafia, digitar rapidamente ou usar um dispositivo de gravação (se os participantes concordarem). Canetas de áudio podem traduzir notas manuscritas para formato eletrônico e vinculá-las ao áudio gravado da discussão. Você também pode usar quadros brancos e papéis nas paredes e fotografá-los.
-
-Prepare perguntas com antecedência para eliminar parte do pensamento improvisado necessário para manter a conversa fluindo. Crie uma notação abreviada para capturar uma pergunta que surgir enquanto alguém está falando, para que você possa voltar a ela rapidamente quando tiver uma oportunidade. Não tente capturar diagramas em softwares complicados de diagramação; apenas fotografe diagramas esboçados ou desenhe rapidamente à mão.
-
-<p align="center" > <font>Figura 4: Imagem 2 de fonte da tabela 7</font> </p>
-<div><img src="../assets/img/grupo_focal_1.png" alt="Referência do item" width="100%"></div>
-<font size="3"><p style="text-align: center">Fonte: <a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></p></font>
-<p align="center" > <font>Figura 5: Imagem 3 de fonte da tabela 7</font> </p>
-<div><img src="../assets/img/grupo_focal_2.png" alt="Referência do item" width="100%"></div>
-<font size="3"><p style="text-align: center">Fonte: <a href="https://aprender3.unb.br/pluginfile.php/3096091/mod_resource/content/3/PriorizaÃ§Ã£o%20de%20Req.pdf"> Software Requirements</a></p></font>
-
-**Tradução:**
-Grupos focais
-Um grupo focal é um grupo representativo de usuários que se reúne em uma atividade facilitada de elicitação para gerar contribuições e ideias sobre os requisitos funcionais e de qualidade de um produto. As sessões de grupos focais devem ser interativas, permitindo que todos os usuários tenham a chance de expressar suas opiniões. Grupos focais são úteis para explorar atitudes, impressões, preferências e necessidades dos usuários (IIBA 2009). Eles são particularmente valiosos se você estiver desenvolvendo produtos comerciais e não tiver acesso direto a usuários finais dentro de sua empresa.
-
-Frequentemente, você terá uma base de usuários grande e diversificada para selecionar, então escolha os membros do grupo focal com cuidado. Inclua usuários que tenham usado versões anteriores ou produtos semelhantes ao que você está implementando. Escolha um grupo de usuários do mesmo tipo (e realize vários grupos focais para diferentes classes de usuários) ou selecione um grupo que represente todo o espectro de classes de usuários, garantindo que todos estejam igualmente representados.
-
-Os grupos focais devem ser facilitados. Você precisará mantê-los no tópico, mas sem influenciar as opiniões expressas. Pode ser útil gravar a sessão para que você possa voltar e ouvir atentamente os comentários. Não espere análises quantitativas de grupos focais, mas sim muito feedback subjetivo que pode ser avaliado e priorizado à medida que os requisitos são desenvolvidos. Sessões de elicitação com grupos focais se beneficiam de muitas das mesmas dicas descritas anteriormente para workshops. Participantes de grupos focais normalmente não têm autoridade de tomada de decisão para os requisitos.
 
 ## Como utilizar esta lista de verificação
 
@@ -437,4 +284,5 @@ SOMMERVILLE, Ian. *Engenharia de software*. 08. ed. São Paulo: Pearson Addison 
 | `2.1`  | 04/05/2025 | Adicionando a tabela de verificação da técnica de Three Level Scale | [Yzabella Miranda](https://github.com/redjsun) | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
 | `2.2`  | 04/05/2025 | Adição da tabela de verificação do Moscow | [Kaleb Macedo](https://github.com/kalebmacedo) | [Lucas Alves](https://github.com/LucasAlves71) |
 | `2.3`  | 06/06/2025 | Adição de tópico referente a metodologia da lista de verificação junto a um link de fonte. | [Yzabella Miranda](https://github.com/redjsun) | [Isaque Camargos](https://github.com/isaqzin) |
+| `2.4`  |  03/07/2025 |  Retirando as tabelas de artefatos que não foram utilizados pelo grupo mais um.  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Matheus de Alcântara](https://github.com/matheusdealcantara) e [Isaque Camargos](https://github.com/isaqzin) |
 

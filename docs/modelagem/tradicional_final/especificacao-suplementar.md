@@ -41,7 +41,7 @@ Na tabela 1 contêm todos os integrantes da equipe que participaram desta etapa 
             </tr>
             <tr>
                 <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
-                <td>Classificação dos requisitos não funcionais: <a href="../../../elicitacao/requisitos_finais#RNF01.1">RNF01.1</a>, <a href="../../../elicitacao/requisitos_finais#RNF02.1">RNF02.1</a>, <a href="../../../elicitacao/requisitos_finais#RNF03.1">RNF03.1</a> e <a href="../../../elicitacao/requisitos_finais#RNF03.2">RNF03.2</a>.</td>
+                <td>Classificação dos requisitos não funcionais: <a href="../../../elicitacao/requisitos_finais#RNF01.1">RNF01.1</a> e <a href="../../../elicitacao/requisitos_finais#RNF02.1">RNF02.1</a>.</td>
             </tr>
             <tr>
                 <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
@@ -124,8 +124,6 @@ Esta seção trata da estabilidade e segurança dadas pelo sistema, bem como sua
     </tr>
   </thead>
   <tbody>
-    <tr><td><a href="../../../elicitacao/requisitos_finais#RNF03.1">RNF03.1</a></td><td>Todos os dados sensíveis devem ser criptografados com ao menos um recurso de criptografia.</td></tr>
-    <tr><td><a href="../../../elicitacao/requisitos_finais#RNF03.2">RNF03.2</a></td><td>Autenticação de dois fatores deve estar disponível via SMS ou app de autenticação externa.</td></tr>
    <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF04">RNF04</a></td><td>Manter o sistema disponível 24/7 para autorizações de urgência/emergência e apresentar alta disponibilidade (mínimo de 99% uptime).</td></tr>
     <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF07">RNF07</a></td><td>Garantir conformidade com a Portaria nº 127/2024, legislações complementares e padrões da LGPD.</td></tr>
     <tr><td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF09">RNF09</a></td><td>O sistema deve garantir comunicação segura e periódica com a folha de pagamento do GDF para processar descontos de mensalidades dos titulares, com mecanismos de verificação para garantir a integridade e consistência dos valores deco.</td></tr>
@@ -191,14 +189,15 @@ BRASIL. Ministério da Ciência, Tecnologia e Inovações. **Especificação Sup
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |--------|------|-----------|-----------|-------------|
-| 1.0 | 16/05/2025 | Criação detalhada do documento e escolha dos requeisitos | [Kaleb Macedo](https://github.com/kalebmacedo)  |[Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
-| 1.1 | 17/05/2025 | Adição das especificações relacionadas ao RNF15 | [Yzabella](https://github.com/redjsun)  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
-| 1.2 | 17/05/2025 | Adição das especificações relacionadas aos RNF01, RNF02 e RNF03 | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  | [Kaleb Macedo](https://github.com/kalebmacedo)|
-| 1.3 | 18/05/2025 | Adição das especificações relacionadas aos RNF10, RNF09 | [Lucas Alves](https://github.com/)  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)|
-| 1.4 | 18/05/2025 | Adição detalhada do documento e escolha dos requisitos |  [Kaleb Macedo](https://github.com/kalebmacedo) |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
-| 1.5 | 18/05/2025 | Adição das especificações relacionadas aos RNF04, RNF06 | [Isaque Camargos](https://github.com/isaqzin)  | [Lucas Alves](https://github.com/)|
-| 1.6 | 18/05/2025 | Adição das especificações relacionadas aos RNF11, RNF12 | [Matheus de Alcântara](https://github.com/matheusdealcantara)  | [Lucas Alves](https://github.com/)|
-| 1.7 | 18/05/2025 | Adição das especificações relacionadas aos RNF13, RNF14 | [Othavio Bolzan](https://github.com/bolzanMG)  | [Lucas Alves](https://github.com/)|
-| 1.8 | 19/06/2025 | Alterações finais para os requisitos RNF11 e RNF12 para a nova versão deixando-os testáveis | [Matheus de Alcântara](https://github.com/matheusdealcantara)  | [Kaleb Macedo](https://github.com/kalebmacedo)|
-| 1.9 | 21/06/2025 | Alterando para fazer sentidospara os requisitos não funcionais refinados: RNF01.1, RNF02.1, RNF03.1 e RNF03.2 |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
-| 2.0  | 22/06/2025  | Alteração de ES pro RNF15 | [Yzabella Miranda](https://github.com/redjsun) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+| `1.0` | 16/05/2025 | Criação detalhada do documento e escolha dos requeisitos | [Kaleb Macedo](https://github.com/kalebmacedo)  |[Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+| `1.1` | 17/05/2025 | Adição das especificações relacionadas ao RNF15 | [Yzabella](https://github.com/redjsun)  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+| `1.2` | 17/05/2025 | Adição das especificações relacionadas aos RNF01, RNF02 e RNF03 | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  | [Kaleb Macedo](https://github.com/kalebmacedo)|
+| `1.3` | 18/05/2025 | Adição das especificações relacionadas aos RNF10, RNF09 | [Lucas Alves](https://github.com/)  | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)|
+| `1.4` | 18/05/2025 | Adição detalhada do documento e escolha dos requisitos |  [Kaleb Macedo](https://github.com/kalebmacedo) |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+| `1.5` | 18/05/2025 | Adição das especificações relacionadas aos RNF04, RNF06 | [Isaque Camargos](https://github.com/isaqzin)  | [Lucas Alves](https://github.com/)|
+| `1.6` | 18/05/2025 | Adição das especificações relacionadas aos RNF11, RNF12 | [Matheus de Alcântara](https://github.com/matheusdealcantara)  | [Lucas Alves](https://github.com/)|
+| `1.7` | 18/05/2025 | Adição das especificações relacionadas aos RNF13, RNF14 | [Othavio Bolzan](https://github.com/bolzanMG)  | [Lucas Alves](https://github.com/)|
+| `2.8` | 19/06/2025 | Alterações finais para os requisitos RNF11 e RNF12 para a nova versão deixando-os testáveis | [Matheus de Alcântara](https://github.com/matheusdealcantara)  | [Kaleb Macedo](https://github.com/kalebmacedo)|
+| `1.9` | 21/06/2025 | Alterando para fazer sentidospara os requisitos não funcionais refinados: RNF01.1, RNF02.1, RNF03.1 e RNF03.2 |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  | [Matheus de Alcântara](https://github.com/matheusdealcantara) |
+| `2.0`  | 22/06/2025  | Alteração de ES pro RNF15 | [Yzabella Miranda](https://github.com/redjsun) | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) |
+| `2.1`  | 03/07/2025  | Removendo requisitos não testáveis | [Ana Luiza Soares](https://github.com/Ana-Luiza-SC) | [Yzabella Miranda](https://github.com/redjsun) |
