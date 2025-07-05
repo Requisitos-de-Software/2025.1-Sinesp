@@ -57,7 +57,51 @@ Os vídeos estão armazenados como **não listados no YouTube** e podem ser disp
 ### Reunião 08 – Reunião para a entrega 06   
 <iframe width="560" height="315" src="https://youtube.com/embed/6js2ninvKWo" frameborder="0" allowfullscreen></iframe>
 
-## Gravações Grupos +1
+---
+
+### Reunião 09 – Alinhamento sobre a Entrega 5 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0sZYfxjpOUU?si=WiTc0xZijlZpqtZu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+### Reunião 10 – Alinhamento sobre a Entrega Final 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LudFguVtv6U?si=5Vd1PyKX0Vrek3wl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+## 💻 Gravações Grupos
+
+### Entrega 03
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V9A6Tj4RxGs?si=Svq8fbthxXVHTdHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GkioJ83WwS4?si=Lp4iVKYJp3uqdNo6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+### Entrega 04
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2QbOwe-BgpM?si=5tzA3b1GPjF_D0vN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oDikVHQDH9c?si=jI0Gwi7plNg2Weq7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+### Entrega 05 (06)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1UnjWnWOIVM?si=8Pt1vvd5EzBNQJ30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+### Entrega 06 (05)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FENDRZAAL7Q?si=IQJ-6TQzDy0HEKqf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+## 📹 Gravações Grupos +1
 
 ### Entrega 01  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JjRFmRJNH2E" frameborder="0" allowfullscreen></iframe>
@@ -70,6 +114,23 @@ Os vídeos estão armazenados como **não listados no YouTube** e podem ser disp
 
 ---
 
+### Entrega 03
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AU_62RDmgFM?si=_I8ADGcKtdUWcN8q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+### Entrega 05 (06)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dJ7-pGWY5lQ?si=2iT5oeHO6QnT4GRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+### Entrega 06 (05)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ebpc9fFkZSI?si=WbhktpZNiZ22I4ZG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GPF2oc9IuC8?si=2wvEhHLZMtoEha0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Histórico de Versões
 
@@ -82,3 +143,7 @@ Os vídeos estão armazenados como **não listados no YouTube** e podem ser disp
 | 2.2 | 18/05/2025  | Adição da ATA do dia 16/05      | [Kaleb Macedo](https://github.com/kalebmacedo)  |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
 | 2.3 | 01/06/2025  | Adição da ATA do dia 30/05      | [Kaleb Macedo](https://github.com/kalebmacedo)  |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
 | 2.4 | 01/06/2025  | Adição da ATA do dia 06/06      | [Kaleb Macedo](https://github.com/kalebmacedo)  |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
+| 2.5 | 04/07/2025  | Adição da ATA do dia 13/06      | [Kaleb Macedo](https://github.com/kalebmacedo)  |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
+| 2.6 | 04/07/2025  | Adição da ATA do dia 04/07      | [Kaleb Macedo](https://github.com/kalebmacedo)  |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
+| 2.7 | 04/07/2025  | Adição da Entrega Grupo +1 03-06(05)      | [Kaleb Macedo](https://github.com/kalebmacedo)  |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
+| 2.8 | 04/07/2025  | Adição da parte de Entregas      | [Kaleb Macedo](https://github.com/kalebmacedo)  |  [Ana Luiza Soares](https://github.com/Ana-Luiza-SC)  |
