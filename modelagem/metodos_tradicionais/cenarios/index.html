@@ -1,0 +1,6235 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../validacao_caso_uso/">
+      
+      
+        <link rel="next" href="../especificacao-suplementar/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Cenários - GDF Saúde - Grupo 9</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cenario" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="GDF Saúde - Grupo 9" class="md-header__button md-logo" aria-label="GDF Saúde - Grupo 9" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GDF Saúde - Grupo 9
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Cenários
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="GDF Saúde - Grupo 9" class="md-nav__button md-logo" aria-label="GDF Saúde - Grupo 9" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    GDF Saúde - Grupo 9
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Atas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Atas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_28_03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    28/03/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_04_04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    04/04/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_11_04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    11/04/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_21_04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    21/04/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_09_05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    09/05/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_16_05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    16/05/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_30_05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    30/05/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_06_06/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    06/05/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Videos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Videos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../videos/videos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vídeos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Apresentação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Apresentação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentcao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Planejamento
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Heatmap
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/Defini%C3%A7%C3%A3o_de_Equipe_e_Responsabilidades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Responsabilidades da equipe
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ferramentas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/Cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma planejado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/Cronograma_execudato/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma executado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/aplicativo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aplicativo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/aplicativos-avaliados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aplicativos Avaliados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Pré-rastreabilidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Pré-rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pre-rastreabilidade/rich_picture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rich Picture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/requisitos_finais/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requisios Elicitados Finais
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/elicitacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requisios Elicitados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/perfil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Perfil de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/personas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Personas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Priorização
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Priorização
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/dolares100/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    $100
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/first_thing_first/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    First Thing First
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/moscow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Moscow
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/threeLevelScale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Three Level Scale
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_6" id="__nav_7_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_6">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/introspeccao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introspecção
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/entrevista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrevista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/grupo_focal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grupo Focal
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/questionario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Questionário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/glossario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Modelagem
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Metodologias Tradicionais
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_1">
+            <span class="md-nav__icon md-icon"></span>
+            Metodologias Tradicionais
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tradicional_final/casos_de_usos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Casos de uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tradicional_final/validacao_caso_uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Validação dos Casos de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tradicional_final/cenarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cenários
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tradicional_final/especificacao-suplementar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Especificação Suplementar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tradicional_final/lexicos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Léxicos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Metodologias Ágeis
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            Metodologias Ágeis
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../metodos_ageis/historias_todos02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Histórias de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../metodos_ageis/backlog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backlog do Produto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../metodos_ageis/nfr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NFR framework
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Metodologias Tradicionais Versões Antigas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            Metodologias Tradicionais Versões Antigas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casos_de_usos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Casos de uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../validacao_caso_uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Validação dos Casos de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Cenários
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cenários
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrantes-do-grupo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integrantes do Grupo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenários
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cenários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cenario-1-pesquisa-e-filtro-de-clinicas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 1: Pesquisa e Filtro de Clínicas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-2-avaliacao-de-clinicas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 2: Avaliação de Clínicas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-3-acesso-a-carteirinha-digital-sem-conexao-a-internet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 3: Acesso à carteirinha digital sem conexão à internet
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-4-recebimento-de-notificacoes-configuraveis-via-app-sms-ou-e-mail" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 4: Recebimento de notificações configuráveis via app, SMS ou e-mail
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-5-agendar-ou-cancelar-consultas-e-exames-pelo-aplicativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 5: Agendar ou cancelar consultas e exames pelo aplicativo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-6-visualizar-valores-e-demonstrativos-financeiros-no-aplicativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 6: Visualizar valores e demonstrativos financeiros no aplicativo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-7-cadastrar-titulares-dependentes-e-optantes-com-validacao-de-documentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 7: Cadastrar titulares, dependentes e optantes com validação de documentos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-8-verificar-cobertura-e-necessidade-de-autorizacao-previa-para-procedimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 8: Verificar cobertura e necessidade de autorização prévia para procedimentos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-9-visualizar-historico-de-guias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 9: Visualizar Histórico de Guias
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-10-favoritar-horarios-de-consulta" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 10: Favoritar Horários de Consulta
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-11-canal-para-o-usuario-enviar-feedback-sobre-atendimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 11: Canal para o usuário enviar feedback sobre atendimentos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-12-divulgar-informacoes-sobre-novas-funcionalidades-no-aplicativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 12: Divulgar informações sobre novas funcionalidades no aplicativo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-13-adicionar-consulta-a-rede-odontologica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 13: Adicionar consulta à rede odontológica
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-14-apresentar-novas-clinicas-e-clinicas-proximas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 14: Apresentar novas clínicas e clínicas próximas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-15-permitir-baixar-comprovantes-de-agendamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 15: Permitir baixar comprovantes de agendamento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-16-visualizar-calendario-personalizado-com-informacoes-do-plano" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 16: Visualizar calendário personalizado com informações do plano
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-17-visualizar-painel-de-metas-com-gamificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 17: Visualizar painel de metas com gamificação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-18-registrar-denuncia-contra-profissional-da-rede-credenciada" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 18: Registrar denúncia contra profissional da rede credenciada
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-19-login-por-biometria-facial-ou-digital" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 19: Login por biometria facial ou digital
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-20-solicitacao-de-reembolso-de-cobranca-indevida" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 20: Solicitação de Reembolso de Cobrança Indevida
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-21-chatbot-para-direcionamento-medico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 21: Chatbot para Direcionamento Médico
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-22-interface-intuitiva-e-acessivel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 22: Interface Intuitiva e Acessível
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-23-carregamento-rapido-e-fluido-das-telas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 23: Carregamento Rápido e Fluido das Telas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-24-seguranca-e-transparencia-no-uso-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 24: Segurança e Transparência no Uso de Dados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-25-disponibilidade-247-para-autorizacoes-de-urgenciaemergencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 25: Disponibilidade 24/7 para autorizações de urgência/emergência
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-26-compatibilidade-com-diferentes-versoes-do-android-e-ios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 26: Compatibilidade com diferentes versões do Android e iOS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-27-compatibilidade-do-aplicativo-com-leitores-de-tela" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 27: Compatibilidade do aplicativo com leitores de tela
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-28-garantir-conformidade-legal-e-protecao-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 28: Garantir conformidade legal e proteção de dados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-29-processar-autorizacoes-previas-dentro-do-prazo-legal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 29: Processar autorizações prévias dentro do prazo legal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-30-comunicar-se-com-a-folha-de-pagamento-do-gdf-para-aplicar-descontos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 30: Comunicar-se com a folha de pagamento do GDF para aplicar descontos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-31-acessar-carteirinha-digital-com-no-maximo-dois-cliques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 31: Acessar carteirinha digital com no máximo dois cliques
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-32-manter-historico-de-notificacoes-acessivel-ao-usuario-por-no-minimo-6-meses" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 32: Manter histórico de notificações acessível ao usuário por no mínimo 6 meses
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-33-suporte-ao-usuario-via-chat-ou-telefone" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 33: Suporte ao Usuário via Chat ou Telefone
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-34-funcionar-de-forma-offline-para-acesso-a-carteirinha-e-historico-de-consultas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 34: Funcionar de forma offline para acesso à carteirinha e histórico de consultas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-35-apresentar-clinicas-novas-e-proximas-da-localizacao-do-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 35: Apresentar clínicas novas e próximas da localização do usuário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-36-exigir-autenticacao-via-govbr-para-login" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 36: Exigir autenticação via GovBR para login
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-37-exibir-informacoes-claras-completas-e-atualizadas-em-tempo-real" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 37: Exibir informações claras, completas e atualizadas em tempo real
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencia-bibliografica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referência Bibliográfica
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../especificacao-suplementar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Especificação Suplementar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lexicos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Léxicos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Pós rastreabilidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Pós rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pos-rastreabilidade/matriz_geral/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Matriz de Rastreabilidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pos-rastreabilidade/backward_from/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backward From
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pos-rastreabilidade/forward_from/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Forward From
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Verificação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Verificação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_1" id="__nav_10_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_1">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_verificacaoEntrega3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_verificacaoEntrega4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_2" id="__nav_10_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo +1
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_2">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo +1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_verificacaoEntrega3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_verificacaoEntrega4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Inspeção
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            Inspeção
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_1" id="__nav_11_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Inspeção Entrega 5
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_1">
+            <span class="md-nav__icon md-icon"></span>
+            Inspeção Entrega 5
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_final/inspecao_final_amy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Individual, Grupo e Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_final/inspecao_final_2_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_final/inspecao_final_3_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_final/inspecao_final_4_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_final/inspecao_final_6_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/grupo-1eprofessor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grupo -1 e professor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_3" id="__nav_11_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_3">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/lista_de_inspecaoEntrega1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_2_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_3_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_4_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_5_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 5 (Errata)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_6_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_4" id="__nav_11_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo +1
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_4">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo +1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/lista_de_inspecaoEntrega1Grupo%2B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_2_grupo%2B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_3_grupo%2B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_4_grupo%2B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_6_grupo%2B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Validação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            Validação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../prototipos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Protótipos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao_equipe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Comunicação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Entrega Final
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            Entrega Final
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/aplicativo_selecionado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aplicativo Selecionado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/cronograma_final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma Final
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/ferramentas_final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ferramentas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/facilidades_dificuldades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Facilidades e Dificuldades
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/resultados_alcancados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resultados Alcançados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/execucao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Execução do projeto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrantes-do-grupo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integrantes do Grupo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenários
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cenários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cenario-1-pesquisa-e-filtro-de-clinicas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 1: Pesquisa e Filtro de Clínicas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-2-avaliacao-de-clinicas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 2: Avaliação de Clínicas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-3-acesso-a-carteirinha-digital-sem-conexao-a-internet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 3: Acesso à carteirinha digital sem conexão à internet
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-4-recebimento-de-notificacoes-configuraveis-via-app-sms-ou-e-mail" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 4: Recebimento de notificações configuráveis via app, SMS ou e-mail
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-5-agendar-ou-cancelar-consultas-e-exames-pelo-aplicativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 5: Agendar ou cancelar consultas e exames pelo aplicativo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-6-visualizar-valores-e-demonstrativos-financeiros-no-aplicativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 6: Visualizar valores e demonstrativos financeiros no aplicativo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-7-cadastrar-titulares-dependentes-e-optantes-com-validacao-de-documentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 7: Cadastrar titulares, dependentes e optantes com validação de documentos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-8-verificar-cobertura-e-necessidade-de-autorizacao-previa-para-procedimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 8: Verificar cobertura e necessidade de autorização prévia para procedimentos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-9-visualizar-historico-de-guias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 9: Visualizar Histórico de Guias
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-10-favoritar-horarios-de-consulta" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 10: Favoritar Horários de Consulta
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-11-canal-para-o-usuario-enviar-feedback-sobre-atendimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 11: Canal para o usuário enviar feedback sobre atendimentos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-12-divulgar-informacoes-sobre-novas-funcionalidades-no-aplicativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 12: Divulgar informações sobre novas funcionalidades no aplicativo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-13-adicionar-consulta-a-rede-odontologica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 13: Adicionar consulta à rede odontológica
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-14-apresentar-novas-clinicas-e-clinicas-proximas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 14: Apresentar novas clínicas e clínicas próximas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-15-permitir-baixar-comprovantes-de-agendamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 15: Permitir baixar comprovantes de agendamento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-16-visualizar-calendario-personalizado-com-informacoes-do-plano" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 16: Visualizar calendário personalizado com informações do plano
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-17-visualizar-painel-de-metas-com-gamificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 17: Visualizar painel de metas com gamificação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-18-registrar-denuncia-contra-profissional-da-rede-credenciada" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 18: Registrar denúncia contra profissional da rede credenciada
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-19-login-por-biometria-facial-ou-digital" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 19: Login por biometria facial ou digital
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-20-solicitacao-de-reembolso-de-cobranca-indevida" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 20: Solicitação de Reembolso de Cobrança Indevida
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-21-chatbot-para-direcionamento-medico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 21: Chatbot para Direcionamento Médico
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-22-interface-intuitiva-e-acessivel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 22: Interface Intuitiva e Acessível
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-23-carregamento-rapido-e-fluido-das-telas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 23: Carregamento Rápido e Fluido das Telas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-24-seguranca-e-transparencia-no-uso-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 24: Segurança e Transparência no Uso de Dados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-25-disponibilidade-247-para-autorizacoes-de-urgenciaemergencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 25: Disponibilidade 24/7 para autorizações de urgência/emergência
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-26-compatibilidade-com-diferentes-versoes-do-android-e-ios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 26: Compatibilidade com diferentes versões do Android e iOS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-27-compatibilidade-do-aplicativo-com-leitores-de-tela" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 27: Compatibilidade do aplicativo com leitores de tela
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-28-garantir-conformidade-legal-e-protecao-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 28: Garantir conformidade legal e proteção de dados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-29-processar-autorizacoes-previas-dentro-do-prazo-legal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 29: Processar autorizações prévias dentro do prazo legal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-30-comunicar-se-com-a-folha-de-pagamento-do-gdf-para-aplicar-descontos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 30: Comunicar-se com a folha de pagamento do GDF para aplicar descontos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-31-acessar-carteirinha-digital-com-no-maximo-dois-cliques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 31: Acessar carteirinha digital com no máximo dois cliques
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-32-manter-historico-de-notificacoes-acessivel-ao-usuario-por-no-minimo-6-meses" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 32: Manter histórico de notificações acessível ao usuário por no mínimo 6 meses
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-33-suporte-ao-usuario-via-chat-ou-telefone" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 33: Suporte ao Usuário via Chat ou Telefone
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-34-funcionar-de-forma-offline-para-acesso-a-carteirinha-e-historico-de-consultas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 34: Funcionar de forma offline para acesso à carteirinha e histórico de consultas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-35-apresentar-clinicas-novas-e-proximas-da-localizacao-do-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 35: Apresentar clínicas novas e próximas da localização do usuário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-36-exigir-autenticacao-via-govbr-para-login" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 36: Exigir autenticação via GovBR para login
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cenario-37-exibir-informacoes-claras-completas-e-atualizadas-em-tempo-real" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário 37: Exibir informações claras, completas e atualizadas em tempo real
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencia-bibliografica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referência Bibliográfica
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="cenario">Cenário</h1>
+<h2 id="introducao">Introdução</h2>
+<p>Este documento reúne cenários de uso que ilustram como os usuários interagem com o aplicativo GDF Saúde. Os cenários foram elaborados com base em requisitos funcionais e não funcionais, abordando situações reais de uso, recursos envolvidos, exceções e restrições, a fim de apoiar o desenvolvimento e validação do sistema. </p>
+<h2 id="integrantes-do-grupo">Integrantes do Grupo</h2>
+<p>Na tabela 1 contêm todos os integrantes da equipe que participaram na construção dos cenários e o que a pessoa desenvolveu durante o projeto.</p>
+<p align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+
+<div align="center">
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Quais etapas participou</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+                <td>Criou os cenários: 1, 2, 21, 22, 23 e 24. Além disso, consolidou o documento final ao pegar os cenários separados, que se encontravam na plataforma <a href="https://stackedit.io/app#">StackEdit</a> e organizar no documento final para o Github Pages</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+                <td> Inicou o documento criando a introdução e criou os cenários: 3, 4, 19, 25, 25 e 26.</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+                <td>Criou os cenários: 5, 6, 17, 27 e 28.</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+                <td>Criou os cenários: 7, 8, 16, 18, 29 e 30.</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+                <td>Desenvolveu a metodologia e criou os cenários: 9, 10, 20, 31 e 32.</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+                <td>Criou os cenários: 11, 12, 33 e 34.</td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+                <td>Ajustou a tabela 1 e criou os cenários: 13, 14, 15, 35 e 36.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Isaque Camargos</a>, <a  href="https://github.com/isaqzin">Yzabella Miranda</a> e <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+<h2 id="metodologia">Metodologia</h2>
+<p>Inicialmente, para evitar conflitos de formatação, uma vez que todos do grupo estão envolvidos no desenvolvimento deste artefato, e garantir uma documentação limpa e padronizada, utilizou-se o editor online <a href="https://stackedit.io/app#">StackEdit</a> na construção e organização do conteúdo.</p>
+<p>A metodologia adotada foi baseada nos conceitos apresentados nos slides Requisitos – Aula 10, de Milene Serrano e Maurício Serrano (2025), o PDF dos slides pode ser acessado <a href="../../assets/Requisitos-Aula-10.pdf">clicando aqui</a>, onde realizou-se o desenvolvimento dos cenários a partir da identificação dos requisitos, definindo objetivos e contexto. Foram mapeados atores e recursos, e os cenários são criados com: Título e metas, contexto, exceções e restrições, e episódios detalhando ações principais e alternativas. A documentação foi padronizada utilizando tabelas no seguinte formato apresentado na Tabela 2 abaixo.</p>
+<p  align="center">Tabela 2: padrão de cenários</p>
+
+<table>
+<thead>
+<tr>
+<th><strong>Seção</strong></th>
+<th><strong>Significado</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Título</strong></td>
+<td>Nome ou identificação do cenário, geralmente relacionado ao requisito funcional ou objetivo principal.</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Descreve o propósito do cenário, indicando o que se espera alcançar com a funcionalidade ou processo.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>Situação inicial ou ambiente em que o cenário ocorre, incluindo informações relevantes para compreensão do fluxo.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>Pessoas, sistemas ou entidades que interagem diretamente com a funcionalidade descrita no cenário.</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>Ferramentas, sistemas, dispositivos ou dados necessários para a execução do cenário.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>Situações inesperadas ou condições que podem impedir o fluxo normal do cenário.</td>
+</tr>
+<tr>
+<td><strong>Restrições</strong></td>
+<td>Limitações, regras ou condições específicas que devem ser respeitadas durante a execução do cenário.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>Passos ou ações detalhadas que descrevem o fluxo principal e alternativo do cenário, incluindo interações e decisões.</td>
+</tr>
+</tbody>
+</table>
+<p  align="center">Fonte: Autoria de <a  src="https://github.com/matheusdealcantara"  targe="_blank">Matheus de Alcântara</a>
+</p>
+
+<hr />
+<h2 id="cenarios">Cenários</h2>
+<p>Os cenários desenvolvidos com base nos requisitos funcionais e não funcionais estão descritos nas Tabelas 3 a 39. Cada cenário apresenta uma situação prática de uso do sistema, contemplando seus elementos principais, como metas, contexto, atores, recursos envolvidos, exceções e episódios. A seguir, são apresentados os cenários de forma detalhada:</p>
+<h3 id="cenario-1-pesquisa-e-filtro-de-clinicas">Cenário 1: Pesquisa e Filtro de Clínicas</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF01">RF01</a>  </p>
+<p align="center">Tabela 3 - Cenário 1 </p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE01"></a></td>
+<td>Pesquisa e filtro de clínicas</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Permitir ao usuário localizar clínicas e profissionais com base em critérios como especialidade, região, tipo de atendimento e proximidade.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>O usuário precisa agendar uma consulta com um cardiologista próximo à sua casa. Ao acessar o aplicativo GDF Saúde, ele usa os filtros disponíveis e encontra clínicas na região administrativa de residência.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário do GDF Saúde. <br> - Sistema de busca do aplicativo.</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Aplicativo GDF Saúde. <br> - Sistema de geolocalização e categorização de dados médicos.</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Falha na filtragem por região. <br> - A clínica listada está desatualizada ou não atende mais.</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>Os dados devem ser atualizados periodicamente para garantir a precisão das informações exibidas.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. O usuário acessa o aplicativo. <br>2. Entra na aba de “Clínicas e Profissionais”. <br>3. Usa os filtros para buscar “Cardiologista” na “Região Administrativa de Taguatinga”. <br>4. Visualiza uma lista com base na proximidade e tipo de atendimento.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+<hr />
+<h3 id="cenario-2-avaliacao-de-clinicas">Cenário 2: Avaliação de Clínicas</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF02">RF02</a>  </p>
+<p align="center">Tabela 4 - Cenário 2 </p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE02"></a></td>
+<td>Avaliação de clínicas</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Permitir que o usuário avalie clínicas após o atendimento, contribuindo com comentários e notas.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Após realizar uma consulta em uma clínica conveniada, o usuário acessa o aplicativo GDF Saúde e deixa uma nota de 4 estrelas e um comentário positivo sobre o atendimento recebido.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário do GDF Saúde. <br> - Clínicas credenciadas. <br> - Sistema de avaliação do aplicativo.</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Aplicativo GDF Saúde. <br> - Interface de avaliação com notas e campo para comentários.</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- O sistema não salva a avaliação. <br> - Comentários ofensivos ou inadequados são publicados.</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>O sistema deve permitir uma única avaliação por atendimento e prever moderação automática para linguagem imprópria.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. O usuário acessa o histórico de atendimentos. <br>2. Clica em “Avaliar atendimento”. <br>3. Atribui uma nota e escreve um comentário. <br>4. A avaliação é registrada e exibida para outros usuários.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+<hr />
+<h3 id="cenario-3-acesso-a-carteirinha-digital-sem-conexao-a-internet">Cenário 3: Acesso à carteirinha digital sem conexão à internet</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF03">RF03</a>  </p>
+<p align="center">Tabela 5 - Cenário 3</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE03"></a></td>
+<td>Acesso à carteirinha digital sem conexão à internet</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Permitir que o usuário baixe a carteirinha para acessá-la posteriormente sem conexão à internet.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>O usuário está em um hospital, clínica ou laboratório e precisa da carteirinha para solicitar autorização do procedimento. Sem a carteirinha física e sem conexão, ele acessa a galeria de fotos do dispositivo, onde já havia baixado o arquivo.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário cadastrado (titular ou dependente).<br>- INAS: fornece dados para emissão da carteirinha.<br>- Galeria de fotos: sistema externo que armazena o arquivo local.</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- App GDF Saúde (mobile).<br>- Dispositivo do usuário (smartphone, tablet ou computador).<br>- Armazenamento local para a carteirinha.<br>- Conexão à internet (só para o download).<br>- App de galeria de fotos.</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Usuário não baixou a carteirinha e está sem internet.<br>- Erro técnico ao abrir ou ao baixar (ex.: arquivo corrompido).</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>Depende de download prévio e espaço suficiente no dispositivo.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário faz login no GDF Saúde.<br>2. Navega até “Carteirinha” e baixa o arquivo (se necessário).<br>3. Sai do app e abre a galeria de fotos.<br>4. Localiza e visualiza a carteirinha offline.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
+
+<hr />
+<h3 id="cenario-4-recebimento-de-notificacoes-configuraveis-via-app-sms-ou-e-mail">Cenário 4: Recebimento de notificações configuráveis via app, SMS ou e-mail</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF04">RF04</a>  </p>
+<p align="center">Tabela 6 - Cenário 4</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE04"></a></td>
+<td>Recebimento de notificações configuráveis via app, SMS ou e-mail</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Permitir que o usuário receba notificações personalizadas sobre vencimento de faturas, agendamentos e demonstrativos.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>O usuário configura no app GDF Saúde quais eventos quer ser lembrado e por quais canais — app, SMS ou e-mail — e passa a receber alertas conforme sua escolha.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário (titular ou dependente).<br>- Sistema de notificações do GDF Saúde.<br>- Provedores externos de SMS e e‑mail.</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- App móvel GDF Saúde.<br>- Dispositivo do usuário.<br>- Internet para configuração e envio.<br>- Servidores de notificação e APIs de SMS/e-mail.</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Preferências não configuradas.<br>- Sem conexão ao enviar push.<br>- Provedor de SMS/e-mail indisponível.<br>- Caixa de e‑mail cheia ou número incorreto.</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>Depende de conexão ativa e permissões corretas no dispositivo.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário faz login.<br>2. Acessa “Configurações → Notificações”.<br>3. Seleciona tipos e canais de alerta.<br>4. Sistema salva preferências.<br>5. Evento ocorre e notificação é enviada.<br>6. Usuário recebe e visualiza.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
+
+<hr />
+<h3 id="cenario-5-agendar-ou-cancelar-consultas-e-exames-pelo-aplicativo">Cenário 5: Agendar ou cancelar consultas e exames pelo aplicativo</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF05">RF05</a>  </p>
+<p align="center">Tabela 7 - Cenário 5</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE05"></a></td>
+<td>Agendar ou cancelar consultas e exames pelo aplicativo</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Permitir que o usuário realize agendamentos e cancelamentos com agilidade, incluindo pagamento automático aos prestadores.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>O usuário acessa o aplicativo e seleciona a funcionalidade desejada (agendar ou cancelar).</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário.<br>- Sistema de Saúde.<br>- Prestador da Rede de Atendimento.</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Banco de dados de prestadores.<br>- Agenda integrada.<br>- Sistema de pagamentos.</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Tentativa de agendamento com prestador indisponível.<br>- Falha no pagamento automático.</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>Funcionalidade disponível apenas para usuários logados e ativos no plano.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário acessa a agenda.<br>2. Escolhe prestador e horário.<br>3. Confirma agendamento.<br>4. Pagamento é realizado automaticamente.<br>5. Usuário pode cancelar posteriormente.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
+<hr />
+<h3 id="cenario-6-visualizar-valores-e-demonstrativos-financeiros-no-aplicativo">Cenário 6: Visualizar valores e demonstrativos financeiros no aplicativo</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF06">RF06</a>  </p>
+<p align="center">Tabela 8 - Cenário 6</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE06"></a></td>
+<td>Visualizar valores e demonstrativos financeiros no aplicativo</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Informar o usuário sobre valores de consulta, coparticipações, histórico e geração de demonstrativos para IR.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>O usuário acessa a área financeira do aplicativo para consultar valores, baixar demonstrativos e ver histórico de IR.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário.<br>- Sistema do Plano de Saúde.</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Base de dados de valores.<br>- Demonstrativos em PDF.<br>- Extrato financeiro atualizado diariamente.</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Falha no carregamento de dados.<br>- Ausência de histórico para o usuário.</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>Acesso restrito a usuários com plano ativo e dados de coparticipação válidos.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário acessa área de finanças.<br>2. Visualiza valores da clínica.<br>3. Aplica coparticipação.<br>4. Gera e baixa demonstrativo.<br>5. Consulta extrato atualizado.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
+<hr />
+<h3 id="cenario-7-cadastrar-titulares-dependentes-e-optantes-com-validacao-de-documentos">Cenário 7: Cadastrar titulares, dependentes e optantes com validação de documentos</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF07">RF07</a>  </p>
+<p align="center">Tabela 9 - Cenário 7</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE07"></a></td>
+<td>Cadastrar titulares, dependentes e optantes com validação de documentos</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Garantir o cadastro completo e validado de usuários, incluindo dependentes e optantes, com conferência de documentos e critérios de elegibilidade.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>O usuário inicia o processo de adesão pelo aplicativo ou portal, informando dados pessoais e anexando documentos oficiais para validação.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário.<br>- Sistema de Adesão.<br>- Operador do Plano.</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Sistema de verificação documental.<br>- Base de dados de elegibilidade.<br>- APIs de consulta a órgãos oficiais (ex.: Receita Federal, cartórios).</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Documentos ilegíveis ou inválidos.<br>- Usuário não elegível como dependente ou optante.<br>- Inconsistência de dados.</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>Cadastro permitido apenas com documentação completa e validação positiva de elegibilidade.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário acessa o formulário de cadastro.<br>2. Preenche dados e seleciona tipo (titular, dependente ou optante).<br>3. Anexa documentos.<br>4. Sistema valida documentos e elegibilidade.<br>5. Cadastro é aprovado ou encaminhado para análise manual.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+<hr />
+<h3 id="cenario-8-verificar-cobertura-e-necessidade-de-autorizacao-previa-para-procedimentos">Cenário 8: Verificar cobertura e necessidade de autorização prévia para procedimentos</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF08">RF08</a>  </p>
+<p align="center">Tabela 10 - Cenário 8</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE08"></a></td>
+<td>Verificar cobertura e necessidade de autorização prévia para procedimentos</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Garantir que os procedimentos solicitados estejam cobertos segundo normas da TABGDFSAÚDE e DUT, incluindo regras de carência e exclusão.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>O usuário ou prestador solicita um procedimento através do aplicativo ou sistema de autorização, aguardando confirmação automática ou técnica conforme a tabela vigente.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário ou prestador.<br>- Sistema de Saúde.<br>- Equipe Técnica de Autorização.</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Tabela TABGDFSAÚDE.<br>- DUTs.<br>- Regras contratuais de carência/exclusão.<br>- Sistema de autorização técnica.</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Procedimento fora da cobertura.<br>- Ausência de DUT.<br>- Falta de solicitação médica válida.<br>- Necessidade de parecer técnico adicional.</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>Procedimentos só podem ser autorizados com documentação médica adequada e dentro das regras da tabela vigente.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário ou prestador solicita o procedimento.<br>2. Sistema verifica na TABGDFSAÚDE.<br>3. Confirma DUT e regras de carência/exclusão.<br>4. Se exigido, solicita encaminhamento médico.<br>5. Análise técnica é realizada antes da liberação.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+<hr />
+<h3 id="cenario-9-visualizar-historico-de-guias">Cenário 9: Visualizar Histórico de Guias</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF09">RF09</a>  </p>
+<p align="center">Tabela 11 - Cenário 09</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE09"></a></td>
+<td>Visualizar Histórico de Guias RF09</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Permitir que o usuário visualize seu histórico de saúde, incluindo consultas médicas, exames realizados, resultados laboratoriais e coparticipações, de forma organizada e acessível para acompanhar seu histórico médico e financeiro.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Usuário autenticado no app móvel GDF Saúde deseja revisar seu histórico de atendimentos e despesas relacionadas ao plano (consultas, exames, coparticipações).</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário cadastrado no GDF Saúde<br>- Sistema de histórico do aplicativo</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- App GDF Saúde<br>- Seção “Histórico de Guias” ou equivalente<br>- Banco de dados de consultas, exames, resultados e coparticipações<br>- Conexão à internet<br>- Dispositivo do usuário (smartphone, tablet ou computador)</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Usuário não autenticado (impede acesso)<br>- Sem histórico disponível (novo usuário ou falha de sincronização)<br>- Erro técnico (falha no servidor ou BD)<br>- Conexão instável interrompe o carregamento</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>- Autenticação obrigatória via INAS<br>- Apenas titular ou dependentes autorizados podem acessar<br>- Criptografia e LGPD para armazenamento e transmissão<br>- Desempenho: tempo de carregamento &lt; 2 s<br>- Acessibilidade conforme WCAG 2.1 AA</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário faz login no GDF Saúde.<br>2. Navega até “Histórico de Guias”.<br>3. Sistema exibe lista com consultas, exames, resultados e coparticipações.<br>4. Usuário clica em um item para ver detalhes completos.<br>5. Se sem histórico, exibe “Nenhum histórico disponível”.<br>6. Se erro técnico, exibe “Erro ao carregar histórico” e oferece “Tentar novamente” ou “Suporte”.<br>7. Usuário sai da seção ou do app.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="cenario-10-favoritar-horarios-de-consulta">Cenário 10: Favoritar Horários de Consulta</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF10">RF10</a>  </p>
+<p align="center">Tabela 12 - Cenário 10</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE10"></a></td>
+<td>Favoritar Horários de Consulta RF10</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Permitir que o usuário marque como favoritos horários desejados durante o agendamento, facilitando futuras reservas rápidas e convenientes.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Usuário autenticado no app móvel GDF Saúde está agendando uma consulta e deseja salvar horários preferidos para uso posterior.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário cadastrado no GDF Saúde</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- App GDF Saúde (mobile)<br>- Interface de agendamento com opção de favoritar<br>- Banco de dados para armazenar favoritos<br>- Conexão à internet<br>- Dispositivo do usuário</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Horário já agendado ou indisponível (não pode ser favoritado)<br>- Usuário excede limite de favoritos (ex.: &gt; 5 por médico)<br>- Erro técnico ao salvar favoritos (falha no servidor/BD)<br>- Conexão instável interrompe ação</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>- Verificação em tempo real da disponibilidade<br>- Máximo de 5 favoritos por médico ou especialidade<br>- Lista de favoritos acessível na interface de agendamento<br>- Notificação por e‑mail/app se favoritado tornar‑se indisponível<br>- Feedback visual claro (ícone de estrela e mensagem de confirmação)</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário faz login no GDF Saúde.<br>2. Navega até agendamento de consultas.<br>3. Seleciona médico, especialidade ou clínica.<br>4. Sistema exibe horários disponíveis.<br>5. Usuário marca horários com o ícone de favorito.<br>6. Sistema confirma e salva na lista de favoritos.<br>7. Caso horário se torne indisponível, notifica o usuário.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></p>
+
+<hr />
+<h3 id="cenario-11-canal-para-o-usuario-enviar-feedback-sobre-atendimentos">Cenário 11: Canal para o usuário enviar feedback sobre atendimentos</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF11">RF11</a>  </p>
+<p align="center">Tabela 13 - Cenário 11</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE11"></a></td>
+<td>Canal para o usuário enviar feedback sobre atendimentos</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Permitir ao usuário registrar sua experiência, contribuindo para a melhoria da qualidade dos serviços prestados.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Após atendimento em clínica agendada pelo app, o usuário acessa o histórico e envia nota e comentário.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário do GDF Saúde.<br>- Módulo de registro de feedback.</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- App GDF Saúde.<br>- Formulário de avaliação.<br>- Banco de dados de feedback.</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Falha no envio.<br>- Atendimento não aparece no histórico.</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>Só permite enviar após o atendimento constar no histórico; comentários não podem ser ofensivos.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário acessa o app.<br>2. Abre “Histórico de Atendimentos”.<br>3. Seleciona atendimento e clica em “Enviar Feedback”.<br>4. Preenche nota e comentário.<br>5. Envia o feedback.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Adaptado de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+<hr />
+<h3 id="cenario-12-divulgar-informacoes-sobre-novas-funcionalidades-no-aplicativo">Cenário 12: Divulgar informações sobre novas funcionalidades no aplicativo</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF12">RF12</a>  </p>
+<p align="center">Tabela 14 - Cenário 12</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE12"></a></td>
+<td>Divulgar informações sobre novas funcionalidades</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Informar os usuários sobre atualizações e incentivá‑los a usar novos recursos.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Após atualização do app com nova função “Chat com Profissionais”, o sistema exibe uma notificação no primeiro acesso.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário do GDF Saúde.<br>- Sistema de notificações e gerenciamento de versões.</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- App GDF Saúde.<br>- Banco de dados de funcionalidades e changelogs.<br>- Sistema de notificações.</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Usuário ignora ou não vê a notificação.<br>- Falha na exibição devido a erro no update.</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>Notificação exibida apenas uma vez por funcionalidade, de forma não intrusiva.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Atualização instalada.<br>2. Usuário abre o app.<br>3. Notificação sobre a novidade é exibida.<br>4. Usuário clica para saber mais.<br>5. Funcionalidade é apresentada com instruções.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Adaptado de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+<hr />
+<h3 id="cenario-13-adicionar-consulta-a-rede-odontologica">Cenário 13: Adicionar consulta à rede odontológica</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF13">RF13</a>  </p>
+<p align="center">Tabela 15 - Cenário 13</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE13"></a></td>
+<td>Consulta integrada à rede odontológica pública</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Permitir que usuários busquem e agendem consultas em unidades odontológicas públicas via aplicativo, com informações atualizadas da rede de saúde governamental.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Usuário acessa app GDF Saúde, escolhe “Rede Odontológica”, visualiza clínicas parceiras, horários e vagas em tempo real e agenda o atendimento.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário do GDF Saúde<br>- Unidades odontológicas parceiras<br>- Equipe de integração de dados do INAS</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Integração com base de dados da rede odontológica pública<br>- Mapa interativo com geolocalização<br>- Sistema de sincronização em tempo real<br>- Filtros (procedimento, localidade, disponibilidade)</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Informações de vagas ou horários desatualizadas<br>- Falha na integração com a rede odontológica<br>- Erro na exibição do mapa ou filtros</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>- Dados das clínicas devem ser validados diariamente<br>- Atualizações de vagas a cada 15 minutos</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário acessa “Rede Odontológica”.<br>2. Sistema solicita localização ou usuário insere manualmente.<br>3. Exibe lista/mapa de clínicas e horários disponíveis.<br>4. Usuário filtra e agenda consulta.<br>5. Recebe confirmação via notificação.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
+
+<hr />
+<h3 id="cenario-14-apresentar-novas-clinicas-e-clinicas-proximas">Cenário 14: Apresentar novas clínicas e clínicas próximas</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF14">RF14</a>  </p>
+<p align="center">Tabela 16 - Cenário 14</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE14"></a></td>
+<td>Apresentar clínicas novas e próximas da localização do usuário</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Permitir ao usuário descobrir facilmente novas clínicas cadastradas e clínicas próximas com base em sua localização atual.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Usuário abre app com GPS ativo; sistema identifica localização e lista clínicas próximas, destacando novas unidades cadastradas na plataforma.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário do GDF Saúde<br>- Sistema de geolocalização do dispositivo<br>- Servidores de GDF Saúde responsáveis pela gestão de clínicas</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Acesso à localização do dispositivo<br>- Banco de dados de clínicas e coordenadas geográficas<br>- Interface de listagem e mapa</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Permissão de localização negada<br>- GPS desativado<br>- Falha ao acessar banco de dados remoto</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>- Depende de permissão de geolocalização<br>- Lista deve ser atualizada periodicamente e exibida de forma clara e acessível</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário abre app com GPS ativo.<br>2. Sistema solicita permissão de localização (se necessário).<br>3. Exibe lista e mapa de clínicas próximas e novas unidades.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
+
+<hr />
+<h3 id="cenario-15-permitir-baixar-comprovantes-de-agendamento">Cenário 15: Permitir baixar comprovantes de agendamento</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF15">RF15</a>  </p>
+<p align="center">Tabela 17 - Cenário 15</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE15"></a></td>
+<td>Download de comprovantes de agendamento</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Permitir que o usuário baixe comprovantes de agendamento em formato digital (PDF), garantindo autenticidade e segurança com QR code de validação.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Após agendar uma consulta, o usuário acessa “Meus Agendamentos” e solicita geração de comprovante; o sistema gera PDF criptografado com QR code e oferece opção de download.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário do GDF Saúde<br>- Sistema de geração de documentos do INAS<br>- Serviço de armazenamento seguro de arquivos</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Gerador de PDF com dados do agendamento e QR code<br>- Armazenamento em nuvem com criptografia<br>- Componente de download integrado ao app</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Falha ao gerar o comprovante (dados incompletos)<br>- Download não inicia por conexão instável<br>- QR code inválido ou não reconhecido pelo sistema da clínica</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>- Comprovantes devem conter assinatura digital<br>- Dados sensíveis (ex.: CPF) devem ser mascarados no arquivo</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário faz login e acessa “Meus Agendamentos”.<br>2. Seleciona atendimento e clica “Gerar Comprovante”.<br>3. Sistema gera PDF com QR code.<br>4. Usuário baixa ou compartilha o comprovante via e-mail/app.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
+
+<hr />
+<h3 id="cenario-16-visualizar-calendario-personalizado-com-informacoes-do-plano">Cenário 16: Visualizar calendário personalizado com informações do plano</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF16">RF16</a>  </p>
+<p align="center">Tabela 18 - Cenário 16</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE16"></a></td>
+<td>Visualizar calendário personalizado com informações do plano</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Permitir ao usuário acompanhar suas consultas, prazos de carência e vencimentos de forma clara e integrada.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>O usuário acessa o aplicativo e consulta o calendário com eventos relacionados ao seu plano de saúde.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário.<br>- Sistema de Saúde.</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Banco de dados de agendamentos.<br>- Regras de carência.<br>- Datas de vencimento.<br>- Interface de calendário interativo.</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Falha na sincronização dos dados do calendário.<br>- Ausência de dados atualizados.</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>Calendário disponível apenas para usuários logados com plano ativo.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário acessa o aplicativo.<br>2. Entra na aba “Calendário”.<br>3. Visualiza datas de consultas, carência e vencimento.<br>4. Clica em um item para mais detalhes.<br>5. Sistema atualiza automaticamente com novos eventos.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+<hr />
+<h3 id="cenario-17-visualizar-painel-de-metas-com-gamificacao">Cenário 17: Visualizar painel de metas com gamificação</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF17">RF17</a>  </p>
+<p align="center">Tabela 19 - Cenário 17</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE17"></a></td>
+<td>Visualizar painel de metas com gamificação</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Estimular o acompanhamento da saúde por meio de metas e recompensas visuais.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>O usuário acessa o painel e verifica seu progresso e as metas a cumprir.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário.<br>- Sistema de Monitoramento de Saúde.</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Painel com indicadores.<br>- Sistema de gamificação.<br>- Metas configuráveis.</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Falha ao carregar metas personalizadas.<br>- Ausência de dados no perfil.</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>Requer perfil de saúde completo e permissão para notificações.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário acessa o painel.<br>2. Visualiza metas ativas.<br>3. Recebe feedback gamificado.<br>4. Acompanha progresso.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
+<hr />
+<h3 id="cenario-18-registrar-denuncia-contra-profissional-da-rede-credenciada">Cenário 18: Registrar denúncia contra profissional da rede credenciada</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF18">RF18</a>  </p>
+<p align="center">Tabela 20 - Cenário 18</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE18"></a></td>
+<td>Registrar denúncia contra profissional da rede credenciada</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Permitir que usuários denunciem condutas inadequadas de profissionais, garantindo um canal seguro e sigiloso.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>O usuário acessa o aplicativo após atendimento e deseja relatar um problema com um profissional da rede.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário.<br>- Sistema de Saúde.<br>- Setor de Ouvidoria.</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Formulário de denúncia.<br>- Base de dados de prestadores.<br>- Canal interno da ouvidoria.</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Denúncia com informações insuficientes.<br>- Tentativa de denúncia sem vínculo com atendimento.</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>Apenas usuários logados podem denunciar e devem vincular a denúncia a um atendimento anterior.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário acessa o menu “Ouvidoria”.<br>2. Seleciona “Denunciar conduta inadequada”.<br>3. Escolhe profissional/atendimento.<br>4. Preenche formulário e envia.<br>5. Sistema registra e encaminha para análise.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+<hr />
+<h3 id="cenario-19-login-por-biometria-facial-ou-digital">Cenário 19: Login por biometria facial ou digital</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF19">RF19</a>  </p>
+<p align="center">Tabela 21 - Cenário 19</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE19"></a></td>
+<td>Login por biometria facial ou digital</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Permitir acesso prático e seguro usando biometria, sem digitar senha.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Usuário com conta ativa opta por habilitar biometria no primeiro acesso ou depois e passa a usá‑la para autenticar.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário do GDF Saúde.<br>- SO (Android/iOS) com suporte biométrico.<br>- App GDF Saúde integrado à biometria.</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- App móvel GDF Saúde.<br>- Dispositivo com sensor biométrico.<br>- Conexão à internet para configuração inicial.</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Dispositivo sem suporte biométrico.<br>- Biometria não cadastrada.<br>- Falha no sensor.<br>- Usuário desativa biometria nas configurações.</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>Disponível apenas em dispositivos compatíveis e com biometria previamente autorizada.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Login tradicional com usuário e senha.<br>2. Opção de habilitar biometria é oferecida.<br>3. Usuário confirma e sensor biométrico valida.<br>4. Biometria é configurada com sucesso.<br>5. Futuros logins usam biometria sem senha.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
+
+<hr />
+<h3 id="cenario-20-solicitacao-de-reembolso-de-cobranca-indevida">Cenário 20: Solicitação de Reembolso de Cobrança Indevida</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF20">RF20</a>  </p>
+<p align="center">Tabela 22 - Cenário 20</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE20"></a></td>
+<td>Solicitação de Reembolso de Cobrança Indevida</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Permitir que o usuário solicite reembolso de uma cobrança indevida de coparticipação, garantindo um processo transparente e eficiente.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Usuário autenticado no app GDF Saúde identifica uma cobrança indevida e inicia o processo de solicitação de reembolso.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário.<br>- Sistema de reembolso do aplicativo.</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- App GDF Saúde.<br>- Interface de solicitação de reembolso.<br>- Banco de dados de cobranças e coparticipações.<br>- Conexão à internet.<br>- Dispositivo do usuário.</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Usuário sem acesso ao histórico de cobranças.<br>- Documentação não anexada.<br>- Erro técnico ao enviar a solicitação.</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>Solicitação deve ocorrer em até 30 dias após a cobrança e anexos devem ser criptografados conforme LGPD.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário faz login.<br>2. Navega até “Reembolso” ou “Cobranças”.<br>3. Seleciona “Solicitar Reembolso de Cobrança Indevida”.<br>4. Escolhe cobrança e anexa comprovantes.<br>5. Sistema valida e envia para análise.<br>6. Usuário recebe confirmação via notificação.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></p>
+
+<hr />
+<h3 id="cenario-21-chatbot-para-direcionamento-medico">Cenário 21: Chatbot para Direcionamento Médico</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RF21">RF21</a>  </p>
+<p align="center">Tabela 23 - Cenário 21 </p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE21"></a></td>
+<td>Chatbot para direcionamento médico</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Auxiliar o usuário na escolha da especialidade médica adequada com base nos sintomas descritos.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Um usuário sente dores persistentes nas costas, mas não sabe qual especialidade deve procurar. Ele acessa o chatbot do aplicativo GDF Saúde, descreve seus sintomas e recebe a sugestão de procurar um ortopedista.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário do GDF Saúde. <br> - Chatbot embutido no aplicativo.</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Aplicativo GDF Saúde com chatbot funcional. <br> - Base de conhecimento médica para interpretação de sintomas.</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- O chatbot não compreende os sintomas descritos. <br> - A especialidade sugerida é inadequada.</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>O chatbot deve limitar-se a fornecer sugestões e não diagnósticos médicos.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. O usuário acessa o aplicativo e abre o chatbot. <br>2. Escreve: “Estou com dores nas costas e no ombro”. <br>3. O chatbot responde: “Recomendamos procurar um ortopedista.” <br>4. O aplicativo exibe clínicas com essa especialidade.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+<hr />
+<h3 id="cenario-22-interface-intuitiva-e-acessivel">Cenário 22: Interface Intuitiva e Acessível</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF01">RNF01</a>  </p>
+<p align="center">Tabela 24 - Cenário 22 </p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE22"></a></td>
+<td>Interface intuitiva e acessível</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Tornar a experiência do usuário simples, clara e adaptada para pessoas idosas ou com pouca familiaridade com tecnologia, mantendo a organização e responsividade em dispositivos móveis.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Um servidor público aposentado acessa o aplicativo GDF Saúde em seu smartphone Android para verificar informações sobre sua carteirinha e agendar uma consulta. A interface do aplicativo apresenta botões grandes, texto legível, categorias bem definidas e respostas claras. O usuário consegue concluir as ações desejadas sem dificuldades.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário do GDF Saúde com baixa familiaridade tecnológica. <br> - Interface do aplicativo (sistema interno).</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Aplicativo GDF Saúde (Android ou iOS). <br> - Dispositivo móvel com tela sensível ao toque. <br> - Layout adaptado com foco em acessibilidade.</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- O design não é responsivo e elementos ficam desorganizados. <br> - Ícones ou textos não são compreensíveis para o público-alvo.</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>A interface deve seguir diretrizes de acessibilidade e design responsivo para funcionar em diferentes tamanhos de tela e sistemas operacionais.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. O usuário abre o aplicativo GDF Saúde. <br>2. Navega pelas seções utilizando menus autoexplicativos e ícones ilustrativos. <br>3. Localiza rapidamente a opção desejada (ex.: carteirinha, agendamento, pesquisa de clínicas). <br>4. Conclui a tarefa sem necessidade de auxílio externo.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+<hr />
+<h3 id="cenario-23-carregamento-rapido-e-fluido-das-telas">Cenário 23: Carregamento Rápido e Fluido das Telas</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF02">RNF02</a>  </p>
+<p align="center">Tabela 25 - Cenário 23 </p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE23"></a></td>
+<td>Carregamento rápido e fluido das telas</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Garantir que o aplicativo responda rapidamente a comandos do usuário, sem travamentos ou lentidão, com tempo de resposta inferior a 2 segundos.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Um usuário acessa o aplicativo GDF Saúde para verificar o status de uma autorização médica. Ele navega entre diferentes telas — login, menu principal, autorizações — e todas as transições ocorrem de maneira rápida e suave, sem atrasos perceptíveis.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário do GDF Saúde (titular ou dependente). <br> - Backend do sistema (servidores de dados e processamento).</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Aplicativo GDF Saúde. <br> - Conexão com internet estável. <br> - Arquitetura otimizada para performance.</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- O sistema demora mais de 2 segundos para carregar uma funcionalidade. <br> - O aplicativo apresenta travamentos durante a navegação.</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>Tempo de resposta das ações deve ser menor que 2 segundos sob condições normais de uso.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. O usuário abre o aplicativo e realiza login. <br>2. A tela principal é exibida em menos de 2 segundos. <br>3. O usuário navega entre as seções (clínicas, autorizações, carteirinha). <br>4. Cada clique resulta em carregamento instantâneo ou quase imperceptível.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+<hr />
+<h3 id="cenario-24-seguranca-e-transparencia-no-uso-de-dados">Cenário 24: Segurança e Transparência no Uso de Dados</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF03">RNF03</a>  </p>
+<p align="center">Tabela 26 - Cenário 24 </p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE24"></a></td>
+<td>Segurança e transparência no uso de dados</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Proteger os dados pessoais do usuário, garantindo criptografia e autenticação em dois fatores, em conformidade com a LGPD.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Um usuário realiza login no aplicativo GDF Saúde e recebe um código de verificação por SMS como segunda etapa de autenticação. Ao acessar seus dados pessoais, ele visualiza um aviso sobre como as informações estão sendo usadas e armazenadas.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário do GDF Saúde. <br> - Servidores do INAS responsáveis pela proteção dos dados.</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Aplicativo GDF Saúde. <br> - Sistema de autenticação em dois fatores. <br> - Mecanismos de criptografia de dados. <br> - Mensagem informativa sobre a LGPD e privacidade.</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- O segundo fator de autenticação não é enviado. <br> - O usuário não consegue visualizar as políticas de privacidade.</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>O acesso só pode ser liberado mediante autenticação segura; todos os dados sensíveis devem ser criptografados.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. O usuário realiza login com CPF e senha. <br>2. Recebe um código via SMS e insere no aplicativo. <br>3. Acesso concedido após verificação de dois fatores. <br>4. Visualiza informações pessoais com aviso de segurança e uso conforme LGPD.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+<hr />
+<h3 id="cenario-25-disponibilidade-247-para-autorizacoes-de-urgenciaemergencia">Cenário 25: Disponibilidade 24/7 para autorizações de urgência/emergência</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF04">RNF04</a>  </p>
+<p align="center">Tabela 8 - Cenário 25</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE25"></a></td>
+<td>Disponibilidade 24/7 para autorizações de urgência/emergência</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Garantir que o sistema esteja disponível continuamente (≥ 99% de uptime) para autorizar atendimentos de urgência e emergência.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Beneficiário chega em emergência fora do expediente e precisa autorizar procedimento pelo GDF Saúde; o sistema deve responder sem atrasos.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Beneficiário do plano. <br>- Profissional de saúde ou recepcionista. <br>- Sistema GDF Saúde. <br>- Equipe de infraestrutura/DevOps.</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Infraestrutura em nuvem com alta disponibilidade. <br>- Internet no local de atendimento. <br>- Ferramentas de monitoramento de uptime e logs.</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Queda de serviço no GDF Saúde. <br>- Instabilidade de rede ou nuvem. <br>- Falhas em janelas críticas de manutenção.</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>Manter ≥ 99% de disponibilidade mensal; manutenções planejadas em janelas de baixo impacto.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Paciente chega na emergência no fim de semana. <br>2. Recepcionista acessa GDF Saúde. <br>3. Sistema autoriza procedimento imediatamente. <br>4. Paciente é atendido sem atrasos. <br>5. Logs de operação e uptime são registrados.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
+
+<hr />
+<h3 id="cenario-26-compatibilidade-com-diferentes-versoes-do-android-e-ios">Cenário 26: Compatibilidade com diferentes versões do Android e iOS</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF05">RNF05</a>  </p>
+<p align="center">Tabela 6 - Cenário 26</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE26"></a></td>
+<td>Compatibilidade com diferentes versões do Android e iOS</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Garantir que o aplicativo funcione corretamente em dispositivos com versões variadas dos sistemas operacionais Android e iOS, atendendo a maioria dos usuários do mercado.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>O usuário possui um smartphone com uma versão intermediária do Android (ex.: Android 10) ou do iOS (ex.: iOS 14) e precisa utilizar o aplicativo GDF Saúde com todas as funcionalidades ativas, sem falhas ou incompatibilidades.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário do aplicativo GDF Saúde com diferentes versões de sistema operacional. <br>- Equipe de desenvolvimento e testes. <br>- Lojas de aplicativos (Google Play e App Store).</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Dispositivos com versões variadas de Android e iOS. <br>- Ambiente de testes com emuladores e dispositivos físicos. <br>- Ferramentas de compatibilidade (ex.: Firebase Test Lab, Xcode, Android Studio).</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Funcionalidades específicas não disponíveis em versões antigas. <br>- Comportamentos visuais ou de navegação inconsistentes entre versões. <br>- APIs ou permissões não suportadas em versões muito antigas.</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>Suporte garantido apenas para versões oficialmente mantidas e com base de usuários significativa (ex.: Android 9+ e iOS 13+).</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Definir mínimo de versões suportadas com base em dados de mercado.<br>2. Desenvolver e testar o app nas versões selecionadas.<br>3. Usuário com Android 10 ou iOS 14 abre o app.<br>4. App inicia sem falhas.<br>5. Usuário utiliza todas as funcionalidades.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
+
+<hr />
+<h3 id="cenario-27-compatibilidade-do-aplicativo-com-leitores-de-tela">Cenário 27: Compatibilidade do aplicativo com leitores de tela</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF06">RNF06</a>  </p>
+<p align="center">Tabela 7 - Cenário 27</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE27"></a></td>
+<td>Compatibilidade do aplicativo com leitores de tela</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Garantir que pessoas com deficiência visual possam utilizar o aplicativo GDF Saúde via leitores de tela, com navegação acessível, clara e funcional.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Usuário com deficiência visual utiliza o leitor de tela nativo (TalkBack ou VoiceOver) para consultar informações médicas no app, esperando que todos os elementos estejam corretamente rotulados e navegáveis.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário com deficiência visual. <br>- Sistema operacional (Android/iOS) com leitor de tela ativo.</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- App GDF Saúde com rótulos de acessibilidade (contentDescription no Android, accessibilityLabel no iOS). <br>- Leitores de tela: TalkBack e VoiceOver. <br>- Dispositivo móvel compatível.</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Elementos sem descrição adequada. <br>- Componentes interativos não reconhecidos. <br>- Informações transmitidas apenas visualmente (cores ou ícones sem texto alternativo).</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>Seguir diretrizes de acessibilidade dos SO e evitar personalizações que comprometam a leitura automatizada.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário ativa leitor de tela. <br>2. Abre o app GDF Saúde. <br>3. Leitor de tela identifica botões, menus e textos. <br>4. Usuário navega com gestos/comandos. <br>5. Acessa agendamentos e exames sem assistência visual.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
+
+<hr />
+<h3 id="cenario-28-garantir-conformidade-legal-e-protecao-de-dados">Cenário 28: Garantir conformidade legal e proteção de dados</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF07">RNF07</a>  </p>
+<p align="center">Tabela 30 - Cenário 28</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE28"></a></td>
+<td>Garantir conformidade legal e proteção de dados</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Assegurar que o sistema opere em conformidade com a Portaria nº 127/2024, legislações complementares e LGPD.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>O sistema armazena e processa dados pessoais sensíveis de usuários, devendo respeitar normas e consentimentos legais.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Desenvolvedor<br>- Administrador do sistema<br>- Órgãos reguladores</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Políticas de privacidade<br>- Logs de acesso<br>- Criptografia de dados<br>- Módulo de consentimento de uso</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Falhas de segurança detectadas<br>- Coleta de dados sem consentimento válido</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>- Uso restrito de dados sensíveis<br>- Validações legais obrigatórias antes de qualquer processamento</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Sistema solicita consentimento ao usuário.<br>2. Registra logs de acesso.<br>3. Criptografa dados sensíveis e monitora conformidade.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
+<hr />
+<h3 id="cenario-29-processar-autorizacoes-previas-dentro-do-prazo-legal">Cenário 29: Processar autorizações prévias dentro do prazo legal</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF08">RNF08</a>  </p>
+<p align="center">Tabela 31 - Cenário 29</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE29"></a></td>
+<td>Processar autorizações prévias dentro do prazo legal</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Garantir que autorizações para procedimentos sejam analisadas em até 10 dias úteis.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>O usuário solicita uma autorização via aplicativo para um procedimento médico.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário<br>- Sistema de Autorização<br>- Equipe de Análise Médica</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Formulário digital de solicitação<br>- Base de procedimentos<br>- Fluxo de trabalho de autorização</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Solicitação incompleta<br>- Falta de documentos obrigatórios</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>- Contagem de prazo apenas em dias úteis<br>- Anexos obrigatórios antes da análise</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário preenche solicitação.<br>2. Sistema verifica preenchimento.<br>3. Encaminha para equipe médica.<br>4. Resposta é enviada em até 10 dias úteis.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
+<hr />
+<h3 id="cenario-30-comunicar-se-com-a-folha-de-pagamento-do-gdf-para-aplicar-descontos">Cenário 30: Comunicar-se com a folha de pagamento do GDF para aplicar descontos</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF09">RNF09</a>  </p>
+<p align="center">Tabela 32 - Cenário 30</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE30"></a></td>
+<td>Comunicar-se com a folha de pagamento do GDF para aplicar descontos</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Garantir que o valor das mensalidades seja corretamente descontado na folha de pagamento.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Após cadastro do titular, o sistema envia informações à folha de pagamento do GDF.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Sistema do Plano de Saúde<br>- Sistema da Folha de Pagamento do GDF<br>- Usuário</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- API de integração com o GDF<br>- Banco de dados de contratos e valores de mensalidades</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Falha na comunicação com a folha de pagamento<br>- Dados inconsistentes ou ausência de matrícula</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>- Aplicável apenas a servidores públicos do GDF com matrícula ativa e vínculo permitido</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Conclusão do cadastro do titular.<br>2. Envio de dados à folha do GDF.<br>3. Folha confirma recebimento.<br>4. Desconto é aplicado.<br>5. Sistema registra sucesso da operação.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+<hr />
+<h3 id="cenario-31-acessar-carteirinha-digital-com-no-maximo-dois-cliques">Cenário 31: Acessar carteirinha digital com no máximo dois cliques</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF10">RNF10</a>  </p>
+<p align="center">Tabela 33 - Cenário 31</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE31"></a></td>
+<td>Acessar carteirinha digital com no máximo dois cliques</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Facilitar acesso rápido à carteirinha digital diretamente da tela inicial.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Usuário autentica-se e precisa apresentar a carteirinha em atendimento.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário<br>- Sistema do aplicativo</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Interface com atalho na home<br>- Módulo de exibição da carteirinha integrado ao perfil</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Falha de rede impede exibição<br>- Usuário não autenticado</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>Funcionalidade acessível em no máximo dois cliques a partir da tela inicial.</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário abre o app.<br>2. Clica em “Carteirinha Digital”.<br>3. Carteirinha é exibida na tela.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+<hr />
+<h3 id="cenario-32-manter-historico-de-notificacoes-acessivel-ao-usuario-por-no-minimo-6-meses">Cenário 32: Manter histórico de notificações acessível ao usuário por no mínimo 6 meses</h3>
+<p>Este cenário está relacionado com o requisito não funcional <strong>não implementado</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/">RNF11</a>.</p>
+<p align="center">Tabela 34 - Cenário 32</p>
+
+<table>
+<thead>
+<tr>
+<th><strong>Elemento</strong></th>
+<th><strong>Descrição</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Título <a id="CE32"></a></strong></td>
+<td>Acesso ao Histórico de Notificações</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Permitir que o usuário visualize notificações recebidas nos últimos 6 meses.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O usuário está logado no sistema INAS e deseja consultar notificações anteriores.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>Usuário (beneficiário).</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>Sistema INAS, banco de dados de notificações.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>Notificações indisponíveis devido a falhas técnicas ou expiradas após 6 meses.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. O usuário acessa a seção "Notificações" no sistema.<br>2. O sistema exibe uma lista de notificações dos últimos 6 meses.<br>3. O usuário pode filtrar ou buscar notificações específicas.<br>4. Notificações fora do período de 6 meses não são exibidas.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></p>
+
+<hr />
+<h3 id="cenario-33-suporte-ao-usuario-via-chat-ou-telefone">Cenário 33: Suporte ao Usuário via Chat ou Telefone</h3>
+<p>Este cenário está relacionado com o requisito não funcional <strong>implementado</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/">RNF12</a>.</p>
+<p align="center">Tabela 35 - Cenário 33</p>
+
+<table>
+<thead>
+<tr>
+<th><strong>Elemento</strong></th>
+<th><strong>Descrição</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Título <a id="CE33"></a></strong></td>
+<td>Suporte ao Usuário via Chat ou Telefone</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Fornecer assistência ao usuário para resolver dúvidas ou problemas.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td>O usuário está utilizando o sistema e precisa de ajuda.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>Usuário (beneficiário), Agente de Suporte.</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>Sistema INAS, canal de chat ou telefone.</td>
+</tr>
+<tr>
+<td><strong>Exceções</strong></td>
+<td>Canal de suporte indisponível ou tempo de espera excessivo.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>1. O usuário acessa a seção "Outros" no sistema.<br>2. O usuário seleciona a opção "Ajuda e ouvidoria".<br>3. Escolhe a opção "Central de relacionamento 24h".<br>4. Para telefone: liga para o número fornecido e fala com um agente.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara" target="_blank">Matheus de Alcântara</a></p>
+
+<hr />
+<h3 id="cenario-34-funcionar-de-forma-offline-para-acesso-a-carteirinha-e-historico-de-consultas">Cenário 34: Funcionar de forma offline para acesso à carteirinha e histórico de consultas</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF13">RNF13</a>  </p>
+<p align="center">Tabela 36 - Cenário 34</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE34"></a></td>
+<td>Funcionar de forma offline para acesso à carteirinha e histórico de consultas</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Garantir que a carteirinha e o histórico de consultas estejam disponíveis mesmo sem conexão à internet.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Usuário está em local sem cobertura e precisa consultar carteirinha ou histórico de atendimentos médicos.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário do GDF Saúde<br>- Sistema de sincronização offline</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Armazenamento local de dados sincronizados previamente<br>- Interface dedicada ao modo offline</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Dados não sincronizados previamente (não disponíveis offline)</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>- Apenas carteirinha e histórico de consultas ficam disponíveis offline<br>- Dados devem ser armazenados de forma segura e criptografada</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário habilita GovBR e autentica offline.<br>2. Abre o app sem conexão.<br>3. Interface reduzida exibe carteirinha e histórico sincronizados.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Adaptado de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+<hr />
+<h3 id="cenario-35-apresentar-clinicas-novas-e-proximas-da-localizacao-do-usuario">Cenário 35: Apresentar clínicas novas e próximas da localização do usuário</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF14">RNF14</a>  </p>
+<p align="center">Tabela 37 - Cenário 35</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE35"></a></td>
+<td>Apresentar clínicas novas e próximas da localização do usuário</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Permitir que o usuário descubra facilmente novas clínicas cadastradas e clínicas próximas com base em sua localização atual.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Usuário abre o app com GPS ativado; o sistema identifica a localização e lista clínicas próximas, destacando novas unidades cadastradas.</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário do GDF Saúde<br>- Sistema de geolocalização do dispositivo<br>- Servidores de GDF Saúde responsáveis pela gestão de clínicas</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- Acesso à localização do dispositivo<br>- Banco de dados de clínicas e coordenadas geográficas<br>- Interface de listagem e mapa</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Permissão de localização negada<br>- GPS desativado<br>- Falha de acesso ao banco de dados remoto</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>- Depende de permissão de geolocalização<br>- Lista deve ser atualizada periodicamente e exibida de forma clara e acessível</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário abre o app com GPS ativo.<br>2. Sistema solicita permissão (se necessário).<br>3. Exibe lista de clínicas próximas e novas unidades.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Adaptado de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+<hr />
+<h3 id="cenario-36-exigir-autenticacao-via-govbr-para-login">Cenário 36: Exigir autenticação via GovBR para login</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF15">RNF15</a>  </p>
+<p align="center">Tabela 38 - Cenário 36</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE36"></a></td>
+<td>Autenticação segura via GovBR</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Garantir acesso seguro ao sistema, exigindo autenticação pelo GovBR com nível de segurança adequado.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Usuário tenta fazer login no app GDF Saúde e é redirecionado à plataforma GovBR para validar sua identidade e credenciais (certificado digital ou conta gov.br).</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário do GDF Saúde<br>- Plataforma GovBR<br>- Servidores do INAS responsáveis pela integração</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- App GDF Saúde integrado ao GovBR<br>- Certificado digital ou conta gov.br válida<br>- Protocolo OAuth/OpenID Connect para autenticação</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Plataforma GovBR indisponível<br>- Usuário sem conta GovBR<br>- Falha na comunicação entre app e GovBR</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>- Acesso só é permitido após autenticação bem-sucedida na GovBR<br>- Dados sensíveis devem ser transmitidos e armazenados com criptografia ponta a ponta</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário seleciona “Entrar com GovBR”.<br>2. Redirecionamento para GovBR e inserção de credenciais.<br>3. GovBR valida e retorna ao app.<br>4. App concede acesso ao usuário.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
+
+<hr />
+<h3 id="cenario-37-exibir-informacoes-claras-completas-e-atualizadas-em-tempo-real">Cenário 37: Exibir informações claras, completas e atualizadas em tempo real</h3>
+<p><strong>Requisito Associado:</strong> <a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF16">RNF16</a>  </p>
+<p align="center">Tabela 39 - Cenário 37</p>
+
+<table>
+<thead>
+<tr>
+<th>Elemento</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Título <a id="CE37"></a></td>
+<td>Exibição de informações claras, completas e atualizadas em tempo real</td>
+</tr>
+<tr>
+<td>Metas/Objetivos</td>
+<td>Garantir que dados exibidos (ex.: resultados de exames, histórico de guias) sejam precisos, contextualizados e sincronizados instantaneamente com fontes oficiais.</td>
+</tr>
+<tr>
+<td>Contexto</td>
+<td>Usuário acessa seção “Resultados de Exames” ou “Histórico de Saúde” e espera ver data/hora da última atualização, com indicadores visuais de status (síncro OK, pendente, erro).</td>
+</tr>
+<tr>
+<td>Ator(es)</td>
+<td>- Usuário do GDF Saúde<br>- Sistemas de backend do INAS (bases governamentais)<br>- Equipe de gestão de dados</td>
+</tr>
+<tr>
+<td>Recursos</td>
+<td>- API de integração em tempo real<br>- Ferramentas de validação e sanitização<br>- Componentes visuais (selos de atualização, ícones de status)<br>- Notificações push para mudanças críticas</td>
+</tr>
+<tr>
+<td>Exceções</td>
+<td>- Falha na conexão impede atualização<br>- Dados incompletos ou inconsistentes<br>- Componentes visuais não carregam corretamente</td>
+</tr>
+<tr>
+<td>Restrições</td>
+<td>- Todas as informações devem ser validadas antes da exibição<br>- Atualizações automáticas com intervalo máximo de 5 minutos</td>
+</tr>
+<tr>
+<td>Episódios</td>
+<td>1. Usuário abre seção de dados.<br>2. Sistema consulta API e valida timestamp.<br>3. Exibe selo “Atualizado em [horário]” e ícones de status.<br>4. Push notifica se há nova versão.</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
+
+<hr />
+<h2 id="referencia-bibliografica">Referência Bibliográfica</h2>
+<p>SERRANO, Milene; SERRANO, Maurício. <em>Requisitos - Aula 10</em>. Disponível em: https://aprender3.unb.br/pluginfile.php/3096108/mod_resource/content/1/Aula%2010.pdf. Acesso em: 17 maio 2025.</p>
+<blockquote>
+<p>Observação: O PDF dos slides utilizados como referência pode ser acessado <a href="../../assets/Requisitos-Aula-10.pdf">clicando aqui</a></p>
+</blockquote>
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+<th>Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1.0</code></td>
+<td>16/05/2025</td>
+<td>Criação do esboço do documento, com a introdução</td>
+<td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+<td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+</tr>
+<tr>
+<td><code>1.1</code></td>
+<td>16/05/2025</td>
+<td>Criou a metodologia e a tabela referência utilizada por todos os integrantes posteriormente</td>
+<td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+<td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+</tr>
+<tr>
+<td><code>1.2</code></td>
+<td>16/05/2025</td>
+<td>Correção de bug na tabela 1</td>
+<td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+<td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+</tr>
+<tr>
+<td><code>1.3</code></td>
+<td>16/05/2025</td>
+<td>Adição dos cenários 1, 2 e 21, 22, 23 e 24</td>
+<td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+<td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+</tr>
+<tr>
+<td><code>1.4</code></td>
+<td>16/05/2025</td>
+<td>Adição dos cenários 3, 4, 19, 25 e 26</td>
+<td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+<td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+</tr>
+<tr>
+<td><code>1.5</code></td>
+<td>17/05/2025</td>
+<td>Adição dos cenários 13, 14, 15, 35 e 36</td>
+<td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+<td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+</tr>
+<tr>
+<td><code>1.6</code></td>
+<td>17/05/2025</td>
+<td>Adição dos cenários 11, 12, 33 e 34</td>
+<td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+<td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+</tr>
+<tr>
+<td><code>1.7</code></td>
+<td>17/05/2025</td>
+<td>Adição dos cenários 5, 6, 17, 27 e 28</td>
+<td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+<td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+</tr>
+<tr>
+<td><code>1.8</code></td>
+<td>17/05/2025</td>
+<td>Adição dos cenários 7, 8, 16, 18, 29 e 30</td>
+<td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+<td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+</tr>
+<tr>
+<td><code>1.9</code></td>
+<td>16/05/2025</td>
+<td>Adição dos cenários 9, 10, 20, 31 e 32</td>
+<td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+<td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+</tr>
+<tr>
+<td><code>2.0</code></td>
+<td>17/05/2025</td>
+<td>Consolidação final do documento: organização e união de todos os cenários entregues pelos integrantes</td>
+<td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+<td><a href="https://github.com/redjsun">Yzabella Miranda</a> e <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+</tr>
+<tr>
+<td><code>2.1</code></td>
+<td>08/06/2025</td>
+<td>Adição de ancoras</td>
+<td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+<td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>

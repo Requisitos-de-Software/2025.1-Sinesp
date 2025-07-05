@@ -1,0 +1,4501 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../backlog/">
+      
+      
+        <link rel="next" href="../../metodos_tradicionais/casos_de_usos/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>NFR framework - GDF Saúde - Grupo 9</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#nfr-framework" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="GDF Saúde - Grupo 9" class="md-header__button md-logo" aria-label="GDF Saúde - Grupo 9" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GDF Saúde - Grupo 9
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              NFR framework
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="GDF Saúde - Grupo 9" class="md-nav__button md-logo" aria-label="GDF Saúde - Grupo 9" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    GDF Saúde - Grupo 9
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Atas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Atas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_28_03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    28/03/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_04_04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    04/04/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_11_04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    11/04/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_21_04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    21/04/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_09_05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    09/05/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_16_05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    16/05/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_30_05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    30/05/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_06_06/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    06/05/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Videos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Videos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../videos/videos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vídeos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Apresentação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Apresentação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentcao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Planejamento
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Heatmap
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/Defini%C3%A7%C3%A3o_de_Equipe_e_Responsabilidades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Responsabilidades da equipe
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ferramentas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/Cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma planejado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/Cronograma_execudato/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma executado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/aplicativo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aplicativo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/aplicativos-avaliados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aplicativos Avaliados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Pré-rastreabilidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Pré-rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pre-rastreabilidade/rich_picture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rich Picture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/requisitos_finais/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requisios Elicitados Finais
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/elicitacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requisios Elicitados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/perfil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Perfil de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/personas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Personas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Priorização
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Priorização
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/dolares100/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    $100
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/first_thing_first/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    First Thing First
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/moscow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Moscow
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/threeLevelScale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Three Level Scale
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_6" id="__nav_7_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_6">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/introspeccao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introspecção
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/entrevista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrevista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/grupo_focal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grupo Focal
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/questionario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Questionário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/glossario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Modelagem
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Metodologias Tradicionais
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_1">
+            <span class="md-nav__icon md-icon"></span>
+            Metodologias Tradicionais
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tradicional_final/casos_de_usos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Casos de uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tradicional_final/validacao_caso_uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Validação dos Casos de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tradicional_final/cenarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cenários
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tradicional_final/especificacao-suplementar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Especificação Suplementar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tradicional_final/lexicos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Léxicos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Metodologias Ágeis
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            Metodologias Ágeis
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../historias_todos02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Histórias de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backlog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backlog do Produto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    NFR framework
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    NFR framework
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-dos-integrantes-do-grupo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela dos Integrantes do Grupo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grafico-de-interdependencia-de-softgoals-sig" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gráfico de Interdependência de Softgoals (SIG)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gráfico de Interdependência de Softgoals (SIG)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipos-de-softgoals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipos de Softgoals
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decomposicoes-no-nfr-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      Decomposições no NFR Framework
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contribuicoes-no-nfr-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contribuições no NFR Framework
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#procedimento-de-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Procedimento de Avaliação
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metodologia">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cartoes-de-especificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cartões de Especificação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-nao-funcionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requisitos Não-Funcionais
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grafico-de-interdependencia-de-softgoals-sig_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gráfico de Interdependência de Softgoals (SIG)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gráfico de Interdependência de Softgoals (SIG)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nfr-01-usabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      NFR 01 - Usabilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nfr-02-desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      NFR 02 - Desempenho
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nfr-03-conformidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      NFR 03 - Conformidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nfr-04-acessibilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      NFR 04 - Acessibilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-de-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo de Avaliação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#responsaveis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Responsáveis
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencia-bibliografica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referência Bibliográfica
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Metodologias Tradicionais Versões Antigas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            Metodologias Tradicionais Versões Antigas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../metodos_tradicionais/casos_de_usos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Casos de uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../metodos_tradicionais/validacao_caso_uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Validação dos Casos de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../metodos_tradicionais/cenarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cenários
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../metodos_tradicionais/especificacao-suplementar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Especificação Suplementar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../metodos_tradicionais/lexicos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Léxicos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Pós rastreabilidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Pós rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pos-rastreabilidade/matriz_geral/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Matriz de Rastreabilidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pos-rastreabilidade/backward_from/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backward From
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pos-rastreabilidade/forward_from/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Forward From
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Verificação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Verificação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_1" id="__nav_10_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_1">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_verificacaoEntrega3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_verificacaoEntrega4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_2" id="__nav_10_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo +1
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_2">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo +1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_verificacaoEntrega3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_verificacaoEntrega4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Inspeção
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            Inspeção
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_1" id="__nav_11_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Inspeção Entrega 5
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_1">
+            <span class="md-nav__icon md-icon"></span>
+            Inspeção Entrega 5
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_final/inspecao_final_amy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Individual, Grupo e Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_final/inspecao_final_2_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_final/inspecao_final_3_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_final/inspecao_final_4_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_final/inspecao_final_6_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/grupo-1eprofessor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grupo -1 e professor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_3" id="__nav_11_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_3">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/lista_de_inspecaoEntrega1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_2_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_3_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_4_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_5_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 5 (Errata)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_6_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_4" id="__nav_11_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo +1
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_4">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo +1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/lista_de_inspecaoEntrega1Grupo%2B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_2_grupo%2B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_3_grupo%2B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_4_grupo%2B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_6_grupo%2B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Validação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            Validação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../prototipos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Protótipos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao_equipe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Comunicação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Entrega Final
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            Entrega Final
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/aplicativo_selecionado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aplicativo Selecionado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/cronograma_final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma Final
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/ferramentas_final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ferramentas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/facilidades_dificuldades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Facilidades e Dificuldades
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/resultados_alcancados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resultados Alcançados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/execucao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Execução do projeto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-dos-integrantes-do-grupo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela dos Integrantes do Grupo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grafico-de-interdependencia-de-softgoals-sig" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gráfico de Interdependência de Softgoals (SIG)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gráfico de Interdependência de Softgoals (SIG)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipos-de-softgoals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipos de Softgoals
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decomposicoes-no-nfr-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      Decomposições no NFR Framework
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contribuicoes-no-nfr-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contribuições no NFR Framework
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#procedimento-de-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Procedimento de Avaliação
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metodologia">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cartoes-de-especificacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cartões de Especificação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-nao-funcionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requisitos Não-Funcionais
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grafico-de-interdependencia-de-softgoals-sig_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gráfico de Interdependência de Softgoals (SIG)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gráfico de Interdependência de Softgoals (SIG)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nfr-01-usabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      NFR 01 - Usabilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nfr-02-desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      NFR 02 - Desempenho
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nfr-03-conformidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      NFR 03 - Conformidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nfr-04-acessibilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      NFR 04 - Acessibilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-de-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo de Avaliação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#responsaveis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Responsáveis
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencia-bibliografica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referência Bibliográfica
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="nfr-framework">NFR FRamework</h1>
+<h2 id="introducao">Introdução</h2>
+<p>Diferentemente dos requisitos funcionais, que descrevem o que o sistema deve fazer, os requisitos não funcionais(RNF) tratam de como o sistema deve se comportar sob determinadas condições. Para lidar com a complexidade e a subjetividade desses requisitos, o NFR Framework, proposto por Chung et al. (2000), oferece uma abordagem estruturada que permite representar, analisar e tomar decisões sobre RNF's por meio do uso de softgoals — objetivos que não possuem critérios de satisfação claramente definidos.Neste trabalho, o NFR Framework é utilizado como base para representar os Requisitos Não-Funcionais, organizando-os em um gráfico de interdependência de softgoals (SIG) que evidencia as relações e os possíveis conflitos entre diferentes requisitos.</p>
+<h2 id="tabela-dos-integrantes-do-grupo">Tabela dos Integrantes do Grupo</h2>
+<p>Nesta etapa de <strong>Validação dos Casos de Uso</strong>, toda a condução, gravação e documentação foi realizada por:</p>
+<p align="center">Tabela 1 - Integralmente conduzido por</p>
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Quais etapas participou</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> <a href="https://github.com/isaqzin">Isaque Camargos</a> </td>
+        <td>Fez a introdução, metodologia, as explicações sobre o sig, decomposição, contribuição e procedimento de avaliação, também auxiliou na produção do cartão de especificação 7.</td>
+      </tr>
+      <tr>
+        <td> <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a> </td>
+        <td>Fez a documentação dos NFRs produzidos pelo grupo e auxiliou na produção dos mesmos, também ajudou a produzir os cartões de especificação 6 e 7.</td>
+      </tr>
+        <td> <a href="https://github.com/redjsun">Yzabella Miranda</a> </td>
+        <td>Auxiliou na produção dos NFR frameworks</td>
+      </tr>
+      </tr>
+        <td> <a href="https://github.com/bolzanMGB">Othavio Bolzan</a> </td>
+        <td>Auxiliou na produção dos NFR frameworks</td>
+      </tr>
+      <tr>
+        <td> <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a> </td>
+        <td>Auxiliou na produção do cartão de especificação 6.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+<h2 id="grafico-de-interdependencia-de-softgoals-sig">Gráfico de Interdependência de Softgoals (SIG)</h2>
+<p>O Gráfico de Interdependência de Softgoals, do inglês Softgoal Interdependency Graph (SIG), é um gráfico utilizado no NFR Framework para representar visualmente os Requisitos Não-Funcionais (NFR) e suas interdependências. Ele registra, de forma gráfica e concisa, as decisões de desenvolvimento, as alternativas consideradas e as justificativas associadas. Através do SIG, é possível analisar como diferentes softgoals influenciam uns aos outros e avaliar se os requisitos de nível superior foram atendidos.</p>
+<h3 id="tipos-de-softgoals">Tipos de Softgoals</h3>
+<p>Os softgoals no NFR Framework são classificados em três tipos:</p>
+<ul>
+<li><strong>Softgoals NFR</strong>: representam os próprios Requisitos Não-Funcionais, podendo ser organizados hierarquicamente e inter-relacionados.</li>
+<li>
+<p><strong>Softgoals de Operacionalização</strong>: indicam soluções de implementação para satisfazer os softgoals NFR, como processos, estruturas de dados ou restrições no sistema.</p>
+</li>
+<li>
+<p><strong>Softgoals de Afirmação</strong>: refletem características do domínio, como prioridades e carga de trabalho, justificando decisões e facilitando a revisão e rastreabilidade do sistema.</p>
+</li>
+</ul>
+<p align="center">Figura 1 - Tipos de sofgols  </p>
+<p align="center">
+  <img src="..\..\..\assets\nfr\tipossoftgol.png" alt="tipos de softgol" width="600">
+</p>
+
+<p  align="center">Fonte:<a  href="https://repositorio.ufpe.br/handle/123456789/34150" target="_blank" >Silva, 2019</a></p>
+
+<h2 id="decomposicoes-no-nfr-framework">Decomposições no NFR Framework</h2>
+<p>As interdependências definem as relações entre os softgoals no NFR Framework. Os principais tipos de interdependências são os*refinamentos e as contribuições <a  href="https://repositorio.ufpe.br/handle/123456789/34150" target="_blank" >(Silva, 2019).</a></p>
+<p>A decomposição tem como objetivo refinar softgoals, tornando-os mais especializados para facilitar a construção e o entendimento do projeto. O NFR Framework define quatro tipos de decomposição:</p>
+<ul>
+<li>
+<p><strong>Decomposição de Softgoal NFR</strong>: refina ou subdivide um softgoal NFR em outros mais específicos. Esta prática ajuda a dividir grandes problemas em partes menores, lidando com ambiguidades e facilitando o estabelecimento de prioridades.</p>
+</li>
+<li>
+<p><strong>Decomposição de Operacionalização</strong>: subdivide um softgoal de operacionalização em outros mais específicos. É útil para definir uma solução geral e detalhá-la em soluções mais específicas.</p>
+</li>
+<li>
+<p><strong>Decomposição de Afirmação (Claims)</strong>: refina um softgoal de afirmação em outros softgoals de afirmação. Esse tipo de decomposição é importante para apoiar ou negar justificativas específicas do projeto.</p>
+</li>
+<li>
+<p><strong>Priorização</strong>: trata-se de um refinamento especial, no qual um softgoal é refinado em outro do mesmo tipo e tópico, mas com uma prioridade associada. Esse tipo de decomposição é essencial para indicar a relevância relativa entre softgoals semelhantes.</p>
+</li>
+</ul>
+<p>As <strong>operacionalizações</strong> definem técnicas de desenvolvimento que ajudam a alcançar os softgoals NFR, transformando-os em softgoals de operacionalização.</p>
+<p>Por fim, as <strong>afirmações</strong> também podem ser refinadas, subdividindo um softgoal de afirmação em outros claims. Esse processo é útil para fortalecer ou refutar justificativas específicas relacionadas ao projeto.</p>
+<p align="center">Figura 2 - Tipos de decomposição  </p>
+<p align="center">
+  <img src="..\..\..\assets\nfr\decomposicao.png" alt="tipos de decomposicao" width="600">
+</p>
+
+<p  align="center">Fonte:<a  href="https://repositorio.ufpe.br/handle/123456789/34150" target="_blank" >Silva, 2019</a></p>
+
+<h2 id="contribuicoes-no-nfr-framework">Contribuições no NFR Framework</h2>
+<p>Durante o processo de refinamento dos softgoals no NFR Framework, um softgoal descendente pode contribuir de maneira positiva ou negativa, total ou parcial, para a satisfação do softgoal ascendente. É importante destacar que a "satisfação de softgoal" refere-se ao atendimento de um requisito não-funcional dentro de limites aceitáveis, e não de forma absoluta (CHUNG et al., 2000).</p>
+<p>O framework define diversos tipos de contribuições que indicam como a satisfação (ou não) de um softgoal descendente influencia a satisfação do softgoal ascendente. A seguir, são apresentados os principais tipos de contribuições:</p>
+<ul>
+<li>
+<p><strong>AND</strong>: indica que todos os softgoals descendentes precisam ser satisfeitos para que o softgoal ascendente também seja satisfeito.</p>
+</li>
+<li>
+<p><strong>OR</strong>: estabelece que basta que um dos softgoals descendentes seja satisfeito para que o softgoal ascendente também seja satisfeito.</p>
+</li>
+<li>
+<p><strong>MAKE (++)</strong>: representa uma contribuição totalmente positiva. Se o softgoal descendente for satisfeito, o softgoal ascendente também será satisfeito no mais alto nível.</p>
+</li>
+<li>
+<p><strong>BREAK (--)</strong>: representa uma contribuição totalmente negativa. Se o softgoal descendente for satisfeito, o softgoal ascendente será negado.</p>
+</li>
+<li>
+<p><strong>HELP (+)</strong>: indica uma contribuição parcialmente positiva. Se o softgoal descendente for parcialmente satisfeito, o softgoal ascendente também será parcialmente satisfeito.</p>
+</li>
+<li>
+<p><strong>HURT (-)</strong>: indica uma contribuição parcialmente negativa. Se o softgoal descendente for satisfeito, o softgoal ascendente será parcialmente negado.</p>
+</li>
+<li>
+<p><strong>UNKNOWN (?)</strong>: representa uma contribuição desconhecida, podendo ser tanto positiva quanto negativa, conforme o contexto.</p>
+</li>
+<li>
+<p><strong>EQUALS</strong>: estabelece que o softgoal descendente só será satisfeito se o softgoal ascendente for satisfeito; da mesma forma, será negado se o ascendente for negado.</p>
+</li>
+<li>
+<p><strong>SOME</strong>: usada quando se conhece o sinal da contribuição (positivo ou negativo), mas não a sua extensão (parcial ou total).</p>
+</li>
+<li><strong>SOME+</strong>: utilizada quando há certeza de que a contribuição é positiva, mas incerteza quanto ao seu grau.</li>
+<li><strong>SOME-</strong>: utilizada quando há certeza de que a contribuição é negativa, mas incerteza quanto ao seu grau.</li>
+</ul>
+<h2 id="procedimento-de-avaliacao">Procedimento de Avaliação</h2>
+<p>O procedimento de avaliação no NFR Framework é responsável por determinar o grau em que os requisitos não-funcionais foram satisfeitos por um conjunto de decisões. Esse procedimento avalia se cada softgoal ou interdependência do SIG foi suficientemente satisfeito, utilizando para isso um sistema de rótulos.</p>
+<p>Os tipos de rótulos utilizados são:</p>
+<ul>
+<li>(✓) <strong>Satisfeito</strong></li>
+<li>(𝒲+) <strong>Fracamente Satisfeito</strong></li>
+<li>( X) <strong>Negado</strong></li>
+<li>(𝒲-) <strong>Fracamente Negado</strong></li>
+<li>(🗲) <strong>Conflitante</strong></li>
+<li>(u) <strong>Indeterminado</strong></li>
+</ul>
+<p>Esses rótulos são fundamentais para analisar as decisões de projeto, pois indicam como as alternativas escolhidas impactam a satisfação dos requisitos não-funcionais.</p>
+<p>A análise dos softgoals começa pelo nível mais baixo da hierarquia do SIG, onde são tomadas decisões sobre aceitar ou negar alternativas no projeto. Essas decisões formam um <strong>conjunto inicial de rótulos</strong> que, posteriormente, é propagado para os níveis superiores da hierarquia. O procedimento continua até atingir os softgoals no nível mais alto do SIG, garantindo uma avaliação completa do impacto das decisões ao longo de todo o sistema.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>Para a criação do NFR Framework, selecionamos todos os requisitos não funcionais elicitados no projeto (ver <a href="docs/elicitacao/elicitacao.md">docs/elicitacao/elicitacao.md</a>), classificando-os em temas como usabilidade, desempenho, segurança, acessibilidade e conformidade legal. Cada requisito foi detalhado em um cartão de especificação, contendo nome, descrição, fonte, critérios de aceitação e possíveis conflitos.</p>
+<p>A seguir, organizamos os requisitos em um Gráfico de Interdependência de Softgoals (SIG), representando visualmente as relações de contribuição (MAKE, HELP, HURT, BREAK, etc.) e refinamento entre os softgoals. Utilizamos ferramentas como draw.io para a construção do SIG.</p>
+<p>A avaliação dos softgoals foi realizada aplicando os rótulos do NFR Framework, propagando as decisões do nível mais baixo até o topo da hierarquia, conforme descrito no procedimento de avaliação.</p>
+<h3 id="cartoes-de-especificacao">Cartões de Especificação</h3>
+<p>As tabelas a seguir detalham os requisitos não-funcionais elicitados para o projeto, com e critérios definidos.</p>
+<p align="center"><b>Tabela 1 - Cartão de Especificação 1</b></p>
+
+<table>
+<thead>
+<tr>
+<th>Nº Requisito: RNF01</th>
+<th>Classificação: Usabilidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong> O sistema deve ser fácil de usar para todos os perfis de usuário.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Justificativa:</strong> Facilitar o uso do sistema para todos os usuários, reduzindo a curva de aprendizado.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Origem do Requisito:</strong> Brainstorm, Introspecção</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Critério de Aceitação:</strong> Usuários realizam tarefas básicas sem auxílio externo.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Dependências:</strong> Nenhuma</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Prioridade:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Conflitos:</strong> Nenhum</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>História:</strong> 2025</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> e <a href="https://github.com/">Lucas Alves</a></p>
+
+<p align="center"><b>Tabela 2 - Cartão de Especificação 2</b></p>
+
+<table>
+<thead>
+<tr>
+<th>Nº Requisito: RNF02</th>
+<th>Classificação: Desempenho</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong> Tempo de resposta das ações não deve ultrapassar 2 segundos.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Justificativa:</strong> Garantir eficiência e boa experiência ao usuário.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Origem do Requisito:</strong> Entrevista, MoSCoW</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Critério de Aceitação:</strong> 95% das ações respondem em até 2s.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Dependências:</strong> Infraestrutura adequada</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Prioridade:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Conflitos:</strong> Pode conflitar com segurança em operações críticas</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>História:</strong> 2025</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> e <a href="https://github.com/">Lucas Alves</a></p>
+
+<p align="center"><b>Tabela 3 - Cartão de Especificação 3</b></p>
+
+<table>
+<thead>
+<tr>
+<th>Nº Requisito: RNF07</th>
+<th>Classificação: Conformidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong> Garantir conformidade com a Portaria nº 127/2024 e LGPD.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Justificativa:</strong> Atender às exigências legais e proteger dados dos usuários.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Origem do Requisito:</strong> Documentação oficial</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Critério de Aceitação:</strong> Auditoria confirma aderência legal.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Dependências:</strong> Implementação de políticas de privacidade</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Prioridade:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Conflitos:</strong> Pode impactar desempenho</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>História:</strong> 2025</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> e <a href="https://github.com/">Lucas Alves</a></p>
+
+<p align="center"><b>Tabela 4 - Cartão de Especificação 4</b></p>
+
+<table>
+<thead>
+<tr>
+<th>Nº Requisito: RNF08</th>
+<th>Classificação: Desempenho</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong> Processar autorizações prévias em até 10 dias úteis.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Justificativa:</strong> Cumprir prazos regulatórios e garantir agilidade.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Origem do Requisito:</strong> Three Level Scale</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Critério de Aceitação:</strong> 100% das autorizações processadas no prazo.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Dependências:</strong> Processos internos otimizados</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Prioridade:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Conflitos:</strong> Nenhum</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>História:</strong> 2025</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> e <a href="https://github.com/">Lucas Alves</a></p>
+
+<p align="center"><b>Tabela 5 - Cartão de Especificação 5</b></p>
+
+<table>
+<thead>
+<tr>
+<th>Nº Requisito: RNF15</th>
+<th>Classificação: Acessibilidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong> Compatibilidade com leitores de tela para pessoas com deficiência visual.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Justificativa:</strong> Tornar o sistema acessível a todos os usuários.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Origem do Requisito:</strong> Introspecção</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Critério de Aceitação:</strong> Testes com leitores de tela aprovados.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Dependências:</strong> Implementação de padrões de acessibilidade</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Prioridade:</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Conflitos:</strong> Nenhum</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>História:</strong> 2025</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: <a href="https://github.com/kalebmacedo">Kaleb Macedo</a> e <a href="https://github.com/">Lucas Alves</a></p>
+
+<p align="center"><b>Tabela 6 - Cartão de Especificação 6</b></p>
+
+<table>
+<thead>
+<tr>
+<th>Nº Requisito: RNF10</th>
+<th>Classificação: Usabilidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong> As informações críticas para o usuário, como a carteirinha digital, devem estar acessíveis em até 3 cliques, sendo recomendado no máximo 2 cliques a partir da tela inicial do aplicativo.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Justificativa:</strong> Facilitar o acesso rápido a informações essenciais, melhorando a experiência do usuário.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Origem do Requisito:</strong> Grupo Focal, Introspecção</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Critério de Aceitação:</strong> Usuário acessa a carteirinha digital em até 3 cliques.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Dependências:</strong> Estrutura de navegação clara</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Prioridade:</strong> Alta</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Conflitos:</strong> Pode impactar a complexidade do layout</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>História:</strong> 2025</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a> e <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+<p align="center"><b>Tabela 7 - Cartão de Especificação 7</b></p>
+
+<table>
+<thead>
+<tr>
+<th>Nº Requisito: RNF12</th>
+<th>Classificação: Suporte</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição:</strong> O aplicativo deve disponibilizar uma funcionalidade de chat com um atendente em até 2 cliques a partir da tela inicial e mostrar um número de telefone para suporte.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Justificativa:</strong> Garantir suporte eficiente e acessível ao usuário.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Origem do Requisito:</strong> Introspecção</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Critério de Aceitação:</strong> Suporte disponível e funcional nos canais especificados e o usuário acessa em até 2 cliques.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Dependências:</strong> Integração com sistema de atendimento</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Prioridade:</strong> Média</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Conflitos:</strong> Pode aumentar o custo de manutenção</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>História:</strong> 2025</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a> e <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
+
+<h2 id="requisitos-nao-funcionais">Requisitos Não-Funcionais</h2>
+<p align="center"><b>Tabela 8 - Requisitos Não-Funcionais Utilizados</b></p>
+
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Tema</th>
+<th>Descrição</th>
+<th>Fonte</th>
+<th>Critério de Aceitação</th>
+<th>Implementação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF02">RNF02</a></td>
+<td>Desempenho</td>
+<td>Tempo de resposta das ações não deve ultrapassar 2 segundos.</td>
+<td><a href="../../../elicitacao/tecnicas/entrevista/#EN11">EN11</a>, <a href="../../../elicitacao/tecnicas/grupo_focal/#GF17">GF17</a>, <a href="../../../elicitacao/tecnicas/introspeccao/#IS14">IS14</a>, <a href="../../../elicitacao/tecnicas/questionario/#QT12">QT12</a></td>
+<td>95% das ações respondem em até 2s.</td>
+<td>Não</td>
+</tr>
+<tr>
+<td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF06">RNF06</a></td>
+<td>Acessibilidade</td>
+<td>O aplicativo deve ser compatível com leitores de tela para garantir acessibilidade a pessoas com deficiência visual.</td>
+<td><a href="../../../elicitacao/tecnicas/introspeccao/#IS20">IS20</a>, <a href="../../../elicitacao/tecnicas/questionario/#QT14">QT14</a></td>
+<td>Testes com leitores de tela aprovados.</td>
+<td>Não</td>
+</tr>
+<tr>
+<td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF07">RNF07</a></td>
+<td>Conformidade</td>
+<td>Garantir conformidade com a Portaria nº 127/2024 e LGPD.</td>
+<td><a href="../../../elicitacao/tecnicas/glossario/#GL10">GL10</a>, <a href="../../../elicitacao/tecnicas/questionario/#QT15">QT15</a></td>
+<td>Auditoria confirma aderência legal.</td>
+<td>Não</td>
+</tr>
+<tr>
+<td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF08">RNF08</a></td>
+<td>Desempenho</td>
+<td>Processar autorizações prévias em até 10 dias úteis.</td>
+<td><a href="../../../elicitacao/tecnicas/glossario/#GL13">GL13</a></td>
+<td>100% das autorizações processadas no prazo.</td>
+<td>Não</td>
+</tr>
+<tr>
+<td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF10">RNF10</a></td>
+<td>Usabilidade</td>
+<td>As informações críticas para o usuário, como a carteirinha digital, devem estar acessíveis em até 3 cliques, sendo recomendado no máximo 2 cliques a partir da tela inicial do aplicativo.</td>
+<td><a href="../../../elicitacao/tecnicas/grupo_focal/#GF15">GF15</a>, <a href="../../../elicitacao/tecnicas/introspeccao/#IS16">IS16</a></td>
+<td>Usuário acessa a carteirinha digital em até 3 cliques.</td>
+<td>Não</td>
+</tr>
+<tr>
+<td><a href="../../../elicitacao/requisitos_finais/#RNF11">RNF11</a></td>
+<td>Usabilidade</td>
+<td>O sistema deve armazenar e permitir o acesso ao histórico de notificações do usuário por no mínimo 180 dias.</td>
+<td><a href="../../../elicitacao/tecnicas/grupo_focal/#GF16">GF16</a></td>
+<td>Histórico de notificações acessível por 180 dias.</td>
+<td>Não</td>
+</tr>
+<tr>
+<td><a href="../../../elicitacao/requisitos_finais/#RNF12">RNF12</a></td>
+<td>Suporte</td>
+<td>O aplicativo deve disponibilizar uma funcionalidade de chat com um atendente em até 2 cliques a partir da tela inicial e mostrar um número de telefone para suporte.</td>
+<td><a href="../../../elicitacao/tecnicas/introspeccao/#IS15">IS15</a></td>
+<td>Suporte disponível e funcional nos canais especificados.</td>
+<td>Não</td>
+</tr>
+<tr>
+<td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF14">RNF14</a></td>
+<td>Usabilidade</td>
+<td>O layout deve ser consistente com o portal oficial do plano.</td>
+<td><a href="../../../elicitacao/tecnicas/questionario/#QT16">QT16</a></td>
+<td>Layout aprovado em revisão de consistência visual.</td>
+<td>Não</td>
+</tr>
+<tr>
+<td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF06">RNF06</a></td>
+<td>Acessibilidade</td>
+<td>Compatibilidade com leitores de tela para pessoas com deficiência visual.</td>
+<td><a href="../../../elicitacao/tecnicas/introspeccao/#IS20">IS20</a>, <a href="../../../elicitacao/tecnicas/questionario/#QT14">QT14</a></td>
+<td>Testes com leitores de tela aprovados.</td>
+<td>Não</td>
+</tr>
+<tr>
+<td><a href="https://requisitos-de-software.github.io/2025.1-GDF-Saude/elicitacao/elicitacao/#RNF16">RNF16</a></td>
+<td>Acessibilidade</td>
+<td>O sistema deve ser acessível em Português.</td>
+<td><a href="../../../elicitacao/tecnicas/introspeccao/#IS21">IS21</a></td>
+<td>Todo o conteúdo disponível em Português.</td>
+<td>Não</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: <a href="https://github.com/kalebmacedo">Kaleb Macedo</a>, <a href="https://github.com/">Lucas Alves</a> e <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
+
+<h2 id="grafico-de-interdependencia-de-softgoals-sig_1">Gráfico de Interdependência de Softgoals (SIG)</h2>
+<p>A Figura 3 apresenta o Gráfico de Interdependência de Softgoals (SIG) para os Requisitos Não-Funcionais do projeto. Este gráfico ilustra as relações entre os softgoals, destacando como cada requisito contribui para a satisfação dos objetivos gerais do sistema.</p>
+<p align="center">Figura 3 - Gráfico de Interdependência de Softgoals (SIG)</p>
+
+<p><img src="..\..\..\assets\nfr\geral.jpeg" alt="Gráfico de Interdependência de Softgoals (SIG)" width="800"></p>
+<p align="center">Fonte: (SILVA, 2019)</p>
+
+<h3 id="nfr-01-usabilidade"><a id="NFR01"></a>NFR 01 - Usabilidade</h3>
+<p>Os requisitos utilizados para o NFR 01 (usabilidade) estão presentes na tabela 6, e são:</p>
+<ul>
+<li>RNF06: O aplicativo deve ser compatível com leitores de tela para garantir acessibilidade a pessoas com deficiência visual.</li>
+<li>RNF12: O aplicativo deve disponibilizar uma funcionalidade de chat com um atendente em até 2 cliques a partir da tela inicial e mostrar um número de telefone para suporte.</li>
+<li>RNF10: As informações críticas para o usuário, como a carteirinha digital, devem estar acessíveis em até 3 cliques, sendo recomendado no máximo 2 cliques a partir da tela inicial do aplicativo.</li>
+<li>RNF14: O layout deve ser consistente com o portal oficial do plano.</li>
+<li>RNF16: O sistema deve ser acessível em Português.</li>
+</ul>
+<p>A figura 4 apresenta o gráfico de interdependência de softgoals (SIG) para o NFR 01, destacando as relações de contribuição entre os requisitos de usabilidade.</p>
+<p align="center">Figura 4 - Gráfico de Interdependência de Softgoals (SIG) - NFR 01</p>
+
+<p><img src="..\..\..\assets\nfr\usabilidade.jpeg" alt="Gráfico de Interdependência de Softgoals (SIG) - NFR 01" width="800"></p>
+<p align="center">Fonte: (SILVA, 2019)</p>
+
+<p><strong>Avaliação dos softgoals de usabilidade:</strong></p>
+<ul>
+<li><strong>RNF06 (Acessibilidade)</strong>: Francamente Satisfeito (𝒲+) – O aplicativo é compatível com leitores de tela, mas com algumas limitações</li>
+<li><strong>RNF12 (Suporte)</strong>: Francamente Satisfeito (𝒲+) – O suporte por chat não está disponível, mas por telefone está funcionando adequadamente.</li>
+<li><strong>RNF10 (Acessibilidade)</strong>: Satisfeito (✓) – A carteirinha digital é acessível em até 3 cliques.</li>
+<li><strong>RNF11 (Histórico)</strong>: Negado (X) – O sistema não armazena o histórico de notificações por 180 dias conforme especificado.</li>
+<li><strong>RNF14 (Consistência Visual)</strong>: Indeterminado (u)</li>
+</ul>
+<h3 id="nfr-02-desempenho"><a id="NFR02"></a>NFR 02 - Desempenho</h3>
+<p>Os requisitos utilizados para o NFR 02 (desempenho) estão presentes na tabela 6, e são:</p>
+<ul>
+<li>RNF02: Tempo de resposta das ações não deve ultrapassar 2 segundos.</li>
+<li>RNF08: Processar autorizações prévias em até 10 dias úteis.</li>
+</ul>
+<p>A figura 5 apresenta o gráfico de interdependência de softgoals (SIG) para o NFR 02, destacando as relações de contribuição entre os requisitos de desempenho.</p>
+<p align="center">Figura 5 - Gráfico de Interdependência de Softgoals (SIG) - NFR 02</p>
+
+<p><img src="..\..\..\assets\nfr\desempenho.jpeg" alt="Gráfico de Interdependência de Softgoals (SIG) - NFR 02" width="800"></p>
+<p align="center">Fonte: (SILVA, 2019)</p>
+
+<p><strong>Avaliação dos softgoals de desempenho:</strong></p>
+<ul>
+<li><strong>RNF02 (Desempenho)</strong>: Francamente (𝒲-) – Testes mostram que algumas ações possuem tempo de resposta maior que 2s.</li>
+<li><strong>RNF08 (Desempenho)</strong>: Satisfeito (✓) – 100% das autorizações prévias são processadas em até 10 dias úteis.</li>
+</ul>
+<h3 id="nfr-03-conformidade"><a id="NFR03"></a>NFR 03 - Conformidade</h3>
+<p>Os requisitos utilizados para o NFR 03 (conformidade) estão presentes na tabela 6, e são:</p>
+<ul>
+<li>RNF07: Garantir conformidade com a Portaria nº 127/2024 e LGPD.</li>
+</ul>
+<p>A figura 6 apresenta o gráfico de interdependência de softgoals (SIG) para o NFR 03, destacando as relações de contribuição entre os requisitos de conformidade.</p>
+<p align="center">Figura 6 - Gráfico de Interdependência de Softgoals (SIG) - NFR 03</p>
+
+<div align="center">
+  <img src="..\..\..\assets\nfr\conformidade.jpeg" alt="Gráfico de Interdependência de Softgoals (SIG) - NFR 03" width="300" height="100">
+</div>
+
+<p align="center">Fonte: (SILVA, 2019)</p>
+
+<p><strong>Avaliação dos softgoals de conformidade:</strong></p>
+<ul>
+<li><strong>RNF07 (Conformidade)</strong>: Indeterminado (u) – Auditoria pendente para verificar a conformidade com a Portaria nº 127/2024 e LGPD.</li>
+</ul>
+<h3 id="nfr-04-acessibilidade"><a id="NFR04"></a>NFR 04 - Acessibilidade</h3>
+<p>Os requisitos utilizados para o NFR 04 (acessibilidade) estão presentes na tabela 6, e são:</p>
+<ul>
+<li>RNF06: O aplicativo deve ser compatível com leitores de tela para garantir acessibilidade a pessoas com deficiência visual.</li>
+<li>RNF16: O sistema deve ser acessível em Português.</li>
+</ul>
+<p>A figura 7 apresenta o gráfico de interdependência de softgoals (SIG) para o NFR 04, destacando as relações de contribuição entre os requisitos de acessibilidade.</p>
+<p align="center">Figura 7 - Gráfico de Interdependência de Softgoals (SIG) - NFR 04</p>
+
+<div align="center">
+  <img src="..\..\..\assets\nfr\acessibilidade.jpeg" alt="Gráfico de Interdependência de Softgoals (SIG) - NFR 04" width="300" height="100">
+</div>
+
+<p align="center">Fonte: (SILVA, 2019)</p>
+
+<p><strong>Avaliação dos softgoals de acessibilidade:</strong></p>
+<ul>
+<li><strong>RNF06 (Acessibilidade)</strong>: Francamente Satisfeito (𝒲+) – O aplicativo é compatível com leitores de tela, mas com algumas limitações.</li>
+<li><strong>RNF16 (Acessibilidade)</strong>: Satisfeito (✓) – Todo o conteúdo do sistema está disponível em Português.</li>
+</ul>
+<h3 id="exemplo-de-avaliacao">Exemplo de Avaliação</h3>
+<ul>
+<li><strong>RNF02 (Desempenho)</strong>: Satisfeito (✓) – Testes mostram tempo de resposta adequado.</li>
+<li><strong>RNF15 (Acessibilidade)</strong>: Fracamente Satisfeito (𝒲+) – Compatível com leitores de tela, mas com pequenas limitações.</li>
+<li><strong>RNF07 (Conformidade)</strong>: Indeterminado (u) – Auditoria pendente.</li>
+</ul>
+<h3 id="responsaveis">Responsáveis</h3>
+<ul>
+<li>Modelagem: Isaque Camargos, Ana Luiza Soares, Kaleb Macedo, Lucas Alves, Matheus de Alcântara, Othavio Bolzan, Yzabella Miranda</li>
+<li>Validação: conforme tabelas de integrantes do grupo.</li>
+</ul>
+<h2 id="referencia-bibliografica">Referência Bibliográfica</h2>
+<p>SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, 2019. Disponível em: <a href="https://repositorio.ufpe.br/handle/123456789/34150">Link</a>. Acesso em: 30 de maio de 2025.</p>
+<p>CHUNG, L.; NIXON, B. A.; YU, E.; MYLOPOULOS, J. Non-functional requirements in software engineering. Springer Science &amp; Business Media: [s.n.], 2000. v. 5.</p>
+<p align="center"><b>Tabela 8 - Histórico de Versões</b></p>
+
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+<th>Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1.0</code></td>
+<td>01/06/2025</td>
+<td>Estruturação do documento inicial, adicionando introdução, metodologia, as explicações sobre o sig, decomposição, contribuição, procedimento de avaliação e refenrencias.</td>
+<td><a href="https://github.com/">Lucas Alves</a></td>
+<td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+</tr>
+<tr>
+<td><code>1.1</code></td>
+<td>01/06/2025</td>
+<td>Arrumando questões de imagem, fonte e prioridade.</td>
+<td><a href="https://github.com/">Lucas Alves</a></td>
+<td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+</tr>
+<tr>
+<td><code>1.2</code></td>
+<td>01/06/2025</td>
+<td>Fonte nas tabelas.</td>
+<td><a href="https://github.com/">Lucas Alves</a></td>
+<td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+</tr>
+<tr>
+<td><code>1.3</code></td>
+<td>01/06/2025</td>
+<td>Adicionando os SIG de cada NFR e a avaliação dos softgoals.</td>
+<td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a>, <a href="https://github.com/redjsun">Yzabella Miranda</a> e <a href="https://github.com/BolzanMGB">Othavio Bolzan</a></td>
+<td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>

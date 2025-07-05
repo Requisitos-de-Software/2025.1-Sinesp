@@ -1,0 +1,7323 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../../elicitacao/tecnicas/glossario/">
+      
+      
+        <link rel="next" href="../validacao_caso_uso/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Casos de uso - GDF Saúde - Grupo 9</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#diagrama-e-especificacao-de-casos-de-uso" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="GDF Saúde - Grupo 9" class="md-header__button md-logo" aria-label="GDF Saúde - Grupo 9" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GDF Saúde - Grupo 9
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Casos de uso
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="GDF Saúde - Grupo 9" class="md-nav__button md-logo" aria-label="GDF Saúde - Grupo 9" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    GDF Saúde - Grupo 9
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Atas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Atas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_28_03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    28/03/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_04_04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    04/04/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_11_04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    11/04/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_21_04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    21/04/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_09_05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    09/05/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_16_05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    16/05/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_30_05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    30/05/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata_06_06/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    06/05/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Videos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Videos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../videos/videos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vídeos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Apresentação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Apresentação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentcao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacao/apresentacao6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Planejamento
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Heatmap
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/Defini%C3%A7%C3%A3o_de_Equipe_e_Responsabilidades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Responsabilidades da equipe
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ferramentas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/Cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma planejado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/Cronograma_execudato/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma executado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/aplicativo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aplicativo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/aplicativos-avaliados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aplicativos Avaliados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Pré-rastreabilidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Pré-rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pre-rastreabilidade/rich_picture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rich Picture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/requisitos_finais/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requisios Elicitados Finais
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/elicitacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requisios Elicitados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/perfil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Perfil de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/personas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Personas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Priorização
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_5">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Priorização
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/dolares100/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    $100
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/first_thing_first/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    First Thing First
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/moscow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Moscow
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/priorizacao/threeLevelScale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Three Level Scale
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_6" id="__nav_7_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Técnicas de Elicitação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_6">
+            <span class="md-nav__icon md-icon"></span>
+            Técnicas de Elicitação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/introspeccao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introspecção
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/entrevista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrevista
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/grupo_focal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grupo Focal
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/questionario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Questionário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../elicitacao/tecnicas/glossario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Modelagem
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Metodologias Tradicionais
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8_1">
+            <span class="md-nav__icon md-icon"></span>
+            Metodologias Tradicionais
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Casos de uso
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Casos de uso
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrantes-do-grupo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integrantes do Grupo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metodologia">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#elementos-de-caso-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Elementos de caso de uso
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagramas-de-caso-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagramas de caso de uso
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#especializacao-dos-casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Especialização dos casos de uso
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Especialização dos casos de uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uc01-pesquisar-redes-por-filtros" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC01 – Pesquisar Redes por Filtros
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc02-pesquisar-profissionais-da-saude" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC02 – Pesquisar Profissionais da Saúde
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc03-atribuir-nota-de-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC03 – Atribuir Nota de Avaliação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc04-ler-e-escrever-comentarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC04 – Ler e Escrever Comentários
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc05-visualizar-comentarios-relevantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC05 – Visualizar Comentários Relevantes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc06-iniciar-conversa-com-chatbot-de-triagem" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC06 – Iniciar Conversa com Chatbot de Triagem
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc07-fazer-login" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC07 – Fazer Login
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc08-login-por-biometria" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC08 – Login por Biometria
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc09-baixar-carteirinha" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC09 – Baixar Carteirinha
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc10-configurar-notificacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC10 – Configurar Notificações
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc11-enviar-notificacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC11 – Enviar Notificações
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc12-agendar-consulta-ou-exame" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC12 – Agendar Consulta ou Exame
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc13-cancelar-consulta-ou-exame" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC13 – Cancelar Consulta ou Exame
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc14-exibir-valor-de-consulta-em-clinica" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC14 – Exibir Valor de Consulta em Clínica
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc15-calcular-e-exibir-valor-da-coparticipacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC15 – Calcular e Exibir Valor da Coparticipação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc16-gerar-demonstrativo-de-despesas-para-ir" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC16 – Gerar Demonstrativo de Despesas para IR
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc17-consultar-historico-de-demonstrativos-de-ir" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC17 – Consultar Histórico de Demonstrativos de IR
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc18-consultar-extrato-financeiro" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC18 – Consultar Extrato Financeiro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc19-visualizar-painel-de-metas-de-saude" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC19 – Visualizar Painel de Metas de Saúde
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc20-cadastrar-titular" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC20 – Cadastrar Titular
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc21-cadastrar-dependente" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC21 – Cadastrar Dependente
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc22-cadastrar-optante" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC22 – Cadastrar Optante
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc23-validar-documentos-no-cadastro" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC23 – Validar Documentos no Cadastro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc24-verificar-elegibilidade-no-cadastro" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC24 – Verificar Elegibilidade no Cadastro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc25-verificar-procedimentos-para-autorizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC25 – Verificar Procedimentos para Autorização
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc26-registrar-denuncia-contra-profissional" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC26 – Registrar Denúncia contra Profissional
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc27-visualizar-historico-de-consultas-realizadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC27 – Visualizar Histórico de Consultas Realizadas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc28-visualizar-historico-de-exames-realizados" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC28 – Visualizar Histórico de Exames Realizados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc29-visualizar-resultados-de-exames-laboratoriais" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC29 – Visualizar Resultados de Exames Laboratoriais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc30-visualizar-historico-de-coparticipacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC30 – Visualizar Histórico de Coparticipações
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc31-favoritar-horarios-de-consulta" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC31 – Favoritar Horários de Consulta
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc32-solicitar-reembolso-de-cobranca-indevida" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC32 – Solicitar Reembolso de Cobrança Indevida
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc33-enviar-feedback-de-atendimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC33 – Enviar Feedback de Atendimento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc34-apresentar-secao-novidades-no-menu-principal" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC34 – Apresentar Seção “Novidades” no Menu Principal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc35-exibir-lista-de-funcionalidades-com-titulo-descricao-e-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC35 – Exibir Lista de Funcionalidades com Título, Descrição e Data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc36-destacar-funcionalidades-com-marcador-novo" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC36 – Destacar Funcionalidades com Marcador “Novo”
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc37-exibir-pop-ups-com-novidades-apos-atualizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC37 – Exibir Pop-ups com Novidades Após Atualização
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc38-ver-descricao-detalhada-de-funcionalidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC38 – Ver Descrição Detalhada de Funcionalidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc39-ordenar-novidades-por-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC39 – Ordenar Novidades por Data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc40-fazer-login-via-govbr" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC40 – Fazer login via GovBR
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc41-consultar-rede-odontologica" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC41 – Consultar rede odontológica
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc42-apresentar-novas-clinicas-proximas" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC42 – Apresentar Novas Clínicas Próximas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc43-apresentar-clinicas-proximas" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC43 – Apresentar Clínicas Próximas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc44-baixar-comprovante-de-agendamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC44 – Baixar comprovante de agendamento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc45-registrar-denuncia-contra-profissional" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC45 – Registrar Denúncia contra Profissional
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencia-bibliografica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referência Bibliográfica
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../validacao_caso_uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Validação dos Casos de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cenários
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../especificacao-suplementar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Especificação Suplementar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lexicos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Léxicos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Metodologias Ágeis
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            Metodologias Ágeis
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../metodos_ageis/historias_todos02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Histórias de Usuário
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../metodos_ageis/backlog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backlog do Produto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../metodos_ageis/nfr/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NFR framework
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Metodologias Tradicionais Versões Antigas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            Metodologias Tradicionais Versões Antigas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../metodos_tradicionais/casos_de_usos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Casos de uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../metodos_tradicionais/validacao_caso_uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Validação dos Casos de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../metodos_tradicionais/cenarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cenários
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../metodos_tradicionais/especificacao-suplementar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Especificação Suplementar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../metodos_tradicionais/lexicos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Léxicos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Pós rastreabilidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Pós rastreabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pos-rastreabilidade/matriz_geral/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Matriz de Rastreabilidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pos-rastreabilidade/backward_from/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backward From
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pos-rastreabilidade/forward_from/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Forward From
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Verificação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Verificação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_1" id="__nav_10_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_1">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_verificacaoEntrega3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_verificacaoEntrega4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_2" id="__nav_10_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo +1
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_2">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo +1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_verificacaoEntrega3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_verificacaoEntrega4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/lista_de_VerificacaoEntrega6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Inspeção
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            Inspeção
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_1" id="__nav_11_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Inspeção Entrega 5
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_1">
+            <span class="md-nav__icon md-icon"></span>
+            Inspeção Entrega 5
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_final/inspecao_final_amy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Individual, Grupo e Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_final/inspecao_final_2_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_final/inspecao_final_3_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_final/inspecao_final_4_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_final/inspecao_final_6_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/grupo-1eprofessor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Grupo -1 e professor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_3" id="__nav_11_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_3">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/lista_de_inspecaoEntrega1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_2_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_3_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_4_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_5_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 5 (Errata)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_6_grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_4" id="__nav_11_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Grupo +1
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_4">
+            <span class="md-nav__icon md-icon"></span>
+            Grupo +1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/lista_de_inspecaoEntrega1Grupo%2B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_2_grupo%2B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_3_grupo%2B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_4_grupo%2B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecao/inspecao_6_grupo%2B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrega 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Validação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            Validação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../prototipos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Protótipos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunicacao_equipe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Comunicação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Entrega Final
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            Entrega Final
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/aplicativo_selecionado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aplicativo Selecionado
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/cronograma_final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cronograma Final
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/ferramentas_final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ferramentas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/facilidades_dificuldades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Facilidades e Dificuldades
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/resultados_alcancados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resultados Alcançados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega_final/execucao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Execução do projeto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrantes-do-grupo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integrantes do Grupo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metodologia">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#elementos-de-caso-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Elementos de caso de uso
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagramas-de-caso-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagramas de caso de uso
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#especializacao-dos-casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Especialização dos casos de uso
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Especialização dos casos de uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uc01-pesquisar-redes-por-filtros" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC01 – Pesquisar Redes por Filtros
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc02-pesquisar-profissionais-da-saude" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC02 – Pesquisar Profissionais da Saúde
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc03-atribuir-nota-de-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC03 – Atribuir Nota de Avaliação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc04-ler-e-escrever-comentarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC04 – Ler e Escrever Comentários
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc05-visualizar-comentarios-relevantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC05 – Visualizar Comentários Relevantes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc06-iniciar-conversa-com-chatbot-de-triagem" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC06 – Iniciar Conversa com Chatbot de Triagem
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc07-fazer-login" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC07 – Fazer Login
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc08-login-por-biometria" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC08 – Login por Biometria
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc09-baixar-carteirinha" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC09 – Baixar Carteirinha
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc10-configurar-notificacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC10 – Configurar Notificações
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc11-enviar-notificacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC11 – Enviar Notificações
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc12-agendar-consulta-ou-exame" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC12 – Agendar Consulta ou Exame
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc13-cancelar-consulta-ou-exame" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC13 – Cancelar Consulta ou Exame
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc14-exibir-valor-de-consulta-em-clinica" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC14 – Exibir Valor de Consulta em Clínica
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc15-calcular-e-exibir-valor-da-coparticipacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC15 – Calcular e Exibir Valor da Coparticipação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc16-gerar-demonstrativo-de-despesas-para-ir" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC16 – Gerar Demonstrativo de Despesas para IR
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc17-consultar-historico-de-demonstrativos-de-ir" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC17 – Consultar Histórico de Demonstrativos de IR
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc18-consultar-extrato-financeiro" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC18 – Consultar Extrato Financeiro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc19-visualizar-painel-de-metas-de-saude" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC19 – Visualizar Painel de Metas de Saúde
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc20-cadastrar-titular" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC20 – Cadastrar Titular
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc21-cadastrar-dependente" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC21 – Cadastrar Dependente
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc22-cadastrar-optante" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC22 – Cadastrar Optante
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc23-validar-documentos-no-cadastro" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC23 – Validar Documentos no Cadastro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc24-verificar-elegibilidade-no-cadastro" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC24 – Verificar Elegibilidade no Cadastro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc25-verificar-procedimentos-para-autorizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC25 – Verificar Procedimentos para Autorização
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc26-registrar-denuncia-contra-profissional" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC26 – Registrar Denúncia contra Profissional
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc27-visualizar-historico-de-consultas-realizadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC27 – Visualizar Histórico de Consultas Realizadas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc28-visualizar-historico-de-exames-realizados" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC28 – Visualizar Histórico de Exames Realizados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc29-visualizar-resultados-de-exames-laboratoriais" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC29 – Visualizar Resultados de Exames Laboratoriais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc30-visualizar-historico-de-coparticipacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC30 – Visualizar Histórico de Coparticipações
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc31-favoritar-horarios-de-consulta" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC31 – Favoritar Horários de Consulta
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc32-solicitar-reembolso-de-cobranca-indevida" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC32 – Solicitar Reembolso de Cobrança Indevida
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc33-enviar-feedback-de-atendimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC33 – Enviar Feedback de Atendimento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc34-apresentar-secao-novidades-no-menu-principal" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC34 – Apresentar Seção “Novidades” no Menu Principal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc35-exibir-lista-de-funcionalidades-com-titulo-descricao-e-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC35 – Exibir Lista de Funcionalidades com Título, Descrição e Data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc36-destacar-funcionalidades-com-marcador-novo" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC36 – Destacar Funcionalidades com Marcador “Novo”
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc37-exibir-pop-ups-com-novidades-apos-atualizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC37 – Exibir Pop-ups com Novidades Após Atualização
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc38-ver-descricao-detalhada-de-funcionalidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC38 – Ver Descrição Detalhada de Funcionalidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc39-ordenar-novidades-por-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC39 – Ordenar Novidades por Data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc40-fazer-login-via-govbr" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC40 – Fazer login via GovBR
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc41-consultar-rede-odontologica" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC41 – Consultar rede odontológica
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc42-apresentar-novas-clinicas-proximas" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC42 – Apresentar Novas Clínicas Próximas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc43-apresentar-clinicas-proximas" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC43 – Apresentar Clínicas Próximas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc44-baixar-comprovante-de-agendamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC44 – Baixar comprovante de agendamento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uc45-registrar-denuncia-contra-profissional" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC45 – Registrar Denúncia contra Profissional
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencia-bibliografica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referência Bibliográfica
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="diagrama-e-especificacao-de-casos-de-uso">Diagrama e Especificação de Casos de Uso</h1>
+<h2 id="introducao">Introdução</h2>
+<p>Um caso de uso é uma representação detalhada de como os usuários do aplicativo GDF Saúde interagem com o sistema em situações específicas, como acessar a carteirinha, enviar feedback ou visualizar novas funcionalidades. Ele descreve passo a passo como essas interações ocorrem, desde a ação do usuário até a resposta do sistema.</p>
+<p>Seu principal objetivo é apoiar o desenvolvimento do aplicativo, oferecendo uma visão clara e prática dos requisitos funcionais. Os casos de uso ajudam a definir o comportamento esperado do sistema diante de ações comuns dos usuários, contribuindo para garantir que as funcionalidades atendam às necessidades reais dos beneficiários do plano de saúde.</p>
+<p>É importante notar que esses casos de uso foram <strong>refatorados</strong> para maior clareza e precisão, além de corresponderem com os requisitos finais que foram refinados. Você pode acessar a versão antiga clicando <a href="../../metodos_tradicionais/casos_de_usos">aqui</a>.</p>
+<h2 id="integrantes-do-grupo">Integrantes do Grupo</h2>
+<p>Na tabela 1 contêm todos os integrantes da equipe que participaram na construção dos cenários e o que a pessoa desenvolveu durante o projeto.</p>
+<p  align="center">Tabela 1 - Integrantes do grupo envolvidos</p>
+<div align="center">
+<div>
+    <table>
+        <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Quais etapas participou</th>
+                </tr>
+        </thead>
+    <tbody>
+                <tr>
+                    <td><a  href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+                    <td>Criou o diagrama  e especificações dos casos de uso referentes aos requisitos: RF01.1, RF01.2, RF01.3, RF01.4, RF01.5, RF02.1, RF02.2, RF02.3 e RF21.1. <br> Casos de uso: UC01, UC02, UC03, UC44, UC45, UC46, UC47, UC48 e UC49.</td>  
+                </tr>
+                <tr>
+                    <td><a  href="https://github.com/isaqzin">Isaque Camargos</a></td>
+                    <td>Criou o diagrama referentes aos requisitos: RF03,RF04.1, RF04.9 e RF19. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC07, UC08, UC09, UC10 e UC11. Além disso, criou o documento inicial.</td>    
+                </tr>
+                <tr>
+                    <td><a  href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+                    <td>Criou o diagrama referentes aos requisitos: RF05, RF06 e RF17. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC13, UC14, UC15, UC16, UC28, UC29, UC30, UC31, UC32, UC33, UC34, UC35.</td>   
+                </tr>
+                <tr>
+                    <td><a  href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+                    <td>Criou o diagrama referentes aos requisitos: RF07, RF08 e RF18. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC17, UC18, UC19, UC20, UC21, UC22, UC23.</td> 
+                </tr>
+                <tr>
+                    <td><a  href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+                    <td>Criou o diagrama referentes aos requisitos: RF09.1 a RF09.4, RF10 e RF20. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC27, UC28, UC29, UC30, UC31, UC32.</td>    
+                </tr>
+                <tr>
+                    <td><a  href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+                    <td>Criou o diagrama referentes aos requisitos: RF11, RF12.1, RF12.2, RF12.3, RF12.4, RF12.5, RF12.6. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC33, UC34, UC35, UC38, UC39.</td>  
+                </tr>
+                <tr>
+                    <td><a  href="https://github.com/redjsun">Yzabella Miranda</a></td>
+                    <td>Criou o diagrama referentes aos requisitos: RF3, RF13, RF14.1, RF14.2, RF15 e RF22. Criou as especificações dos casos de uso referente a estes requisitos, sendo eles UC36, UC37, UC38, UC39, UC42, UC43.</td>  
+                </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Isaque Camargos</a> e <a  href="https://github.com/isaqzin">Yzabella Miranda</a></p>
+
+<h2 id="metodologia">Metodologia</h2>
+<p>Para mapear e compreender melhor o funcionamento do aplicativo GDF Saúde, utilizamos o diagrama de caso de uso — uma ferramenta da Engenharia de Requisitos que representa visualmente como os usuários interagem com o sistema. Esse diagrama descreve, por meio de "atores" (como beneficiários do plano) e "casos de uso" (como acessar a carteirinha ou enviar feedback), as funcionalidades oferecidas e os comportamentos esperados do sistema.</p>
+<p>No desenvolvimento do diagrama, empregamos dois relacionamentos fundamentais: o include e o extend. O relacionamento include é usado quando uma funcionalidade sempre faz parte de outra, como, por exemplo, o caso “Acessar Aplicativo” incluir automaticamente os casos “Consultar histórico de consultas” e “Acessar carteirinha”. Já o relacionamento extend representa funcionalidades opcionais ou condicionais, que se aplicam em determinados contextos — como o caso “Modo Offline”, que estende o acesso ao histórico e à carteirinha somente quando não há conexão com a internet.</p>
+<p>Com foco nos diagramas de caso de uso, a Tabela 2 apresenta os principais elementos que compõem o modelo, oferecendo uma visão clara e organizada da estrutura de interações entre os atores e o sistema.</p>
+<h3 id="elementos-de-caso-de-uso">Elementos de caso de uso</h3>
+<p  align="center">Tabela 2: legenda dos diagramas de caso de uso</p>
+
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Função</th>
+<th>Elemento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ator</td>
+<td>Representam os diversos tipos de usuários externos que interagem com o sistema.</td>
+<td><div><img src="..\..\assets\casos-uso\casos-uso-ator.png" alt="Referência do item" width="100px"><br></div></td>
+</tr>
+<tr>
+<td>Elipse (Caso de Uso)</td>
+<td>É utilizada para representar os casos de uso em um diagrama, destacando funcionalidades ou ações específicas que o sistema realiza em resposta às interações dos atores.</td>
+<td><div><img src="..\..\assets\casos-uso\casos-uso-elipse.png" alt="Referência do item" width="100px"><br></div></td>
+</tr>
+<tr>
+<td>Retângulo (Sistema)</td>
+<td>É utilizado para representar o sistema ou o componente em análise, agrupando os casos de uso e os atores associados a ele.</td>
+<td><div><img src="..\..\assets\casos-uso\casos-uso-retangulo.png" alt="Referência do item" width="100px"><br></div></td>
+</tr>
+<tr>
+<td>Flecha (Relações)</td>
+<td>As setas são utilizadas para ilustrar as relações ou interações entre os atores e os casos de uso no diagrama.</td>
+<td><div><img src="..\..\assets\casos-uso\casos-uso-relacionamento.png" alt="Referência do item" width="100px"><br></div></td>
+</tr>
+</tbody>
+</table>
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/isaqzin">Yzabella Miranda</a></p>
+
+<h2 id="diagramas-de-caso-de-uso">Diagramas de caso de uso</h2>
+<p>As figuras 1 a 7 representam as especializações dos casos de uso.</p>
+<p align="center">Figura 1 - Caso de uso UC01 a UC03 </p>
+<p align="center">
+  <img src="..\..\assets\casos-uso\casos-uso-ana-novo.png" width="600">
+</p>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC" target="_blank">Ana Luiza Soares</a></p>
+
+<p align="center">Figura 2 - Caso de uso UC07 a UC12 </p>
+<p align="center">
+  <img src="..\..\assets\casos-uso\new_diagrama_isaque.png" alt="Heatmap de disponibilidade da equipe" width="600">
+</p>
+
+<p align="center">Fonte: Autoria de <a src="https://github.com/isaqzin" targe="_blank">Isaque Camargos</a></p>
+
+<p align="center">Figura 3 - Caso de uso UC13 a UC20 </p>
+<p align="center">
+  <img src="..\..\assets\casos-uso\casos-uso-kaleb-rf.png" alt="Heatmap de disponibilidade da equipe" width="600">
+</p>
+
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo" target="_blank">Kaleb Macedo</a></p>
+
+<p align="center">Figura 4 - Caso de uso UC21 a UC26 </p>
+<p align="center">
+  <img src="..\..\assets\casos-uso\new_diagrama_lucas.png" alt="Heatmap de disponibilidade da equipe" width="600">
+</p>
+
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/LucasAlves71" target="_blank">Lucas Alves</a></p>
+
+<p align="center">Figura 5 - Caso de uso UC27 a UC32 </p>
+<p align="center">
+  <img src="..\..\assets\casos-uso\new_diagrama_matheus.jpeg" alt="Diagrama de casos de uso Matheus" width="600">
+</p>
+
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/matheusdealcantara" target="_blank" >Matheus de Alcântara</a></p>
+
+<p align="center">Figura 6 - Caso de uso UC32 a UC34 </p>
+<p align="center">
+  <img src="..\..\assets\casos-uso\casos-de-uso-othavio-novo.png" alt="Heatmap de disponibilidade da equipe" width="600">
+</p>
+
+<p  align="center">Fonte: Autoria de <a  href="https://github.com/bolzanMGB" target="_blank">Othavio Bolzan</a></p>
+
+<p align="center">Figura 7 - Caso de uso UC35 a UC38 </p>
+<p align="center">
+  <img src="..\..\assets\casos-uso\casos-uso-yza.png" alt="Heatmap de disponibilidade da equipe" width="600">
+</p>
+
+<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
+
+<h2 id="especializacao-dos-casos-de-uso">Especialização dos casos de uso</h2>
+<h3 id="uc01-pesquisar-redes-por-filtros">UC01 – Pesquisar Redes por Filtros</h3>
+<p align="center">Tabela 3 - Caso de Uso UC01</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC01"></a>UC01</td>
+<td>Pesquisar Redes Credenciadas por Filtros</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário localizar redes credenciadas aplicando filtros de busca gerais para refinar os resultados.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário do aplicativo GDF Saúde</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>1. Conexão com internet. <br>2. Usuário é beneficiário do Plano INAS e está logado.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>Usuário aplica um ou mais filtros na tela de busca e inicia a pesquisa.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>- Usuário abre o aplicativo e acessa a aba "Rede Credenciada". <br>- Sistema exibe a interface de busca com as opções de filtro. <br>- Usuário seleciona o filtro "Região Administrativa" e escolhe uma opção. <br>- Sistema exibe os resultados que correspondem ao filtro aplicado.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>- Usuário realiza a busca sem aplicar nenhum filtro. <br>- Sistema exibe a lista completa de todas as redes credenciadas, ordenadas alfabeticamente.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>- Usuário aplica um filtro que não possui nenhuma rede correspondente. <br>- Sistema exibe a mensagem "Nenhuma rede credenciada encontrada para os critérios selecionados."</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>A lista de redes credenciadas que atende aos filtros aplicados é exibida com sucesso para o usuário.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF01.1">RF01.1</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>12/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+<hr />
+<h3 id="uc02-pesquisar-profissionais-da-saude">UC02 – Pesquisar Profissionais da Saúde</h3>
+<p align="center">Tabela 4 - Caso de Uso UC02</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC02"></a>UC02</td>
+<td>Pesquisar Profissionais da Saúde</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário encontrar um profissional da saúde específico (médico, psicólogo, etc.) através de uma busca dedicada.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário do aplicativo GDF Saúde</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>1. Conexão com internet. <br>2. Usuário é beneficiário do Plano INAS e está logado.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>Usuário insere o nome de um profissional ou seleciona uma especialidade na área de busca de profissionais.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>- Usuário acessa a seção "Buscar Profissional". <br>- Sistema exibe o campo de busca. <br>- Usuário digita o nome do profissional. <br>- Usuário aciona a busca. <br>- Sistema exibe o perfil detalhado do profissional encontrado.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>- Usuário digita um nome parcial ou incompleto. <br>- Sistema exibe uma lista de profissionais cujos nomes correspondem à busca parcial para que o usuário selecione o correto.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>- A busca não retorna nenhum profissional com o nome inserido. <br>- Sistema exibe a mensagem "Nenhum profissional encontrado com os dados informados."</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>O perfil do profissional de saúde desejado é encontrado e suas informações são exibidas para o usuário.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF01.2">RF01.2</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>12/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+<hr />
+<h3 id="uc03-atribuir-nota-de-avaliacao">UC03 – Atribuir Nota de Avaliação</h3>
+<p align="center">Tabela 5 - Caso de Uso UC03</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC03"></a>UC03</td>
+<td>Atribuir Nota de Avaliação</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário classificar a qualidade de um atendimento utilizando uma nota na escala Likert de 1 a 5.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário do aplicativo GDF Saúde</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>1. Usuário teve um atendimento registrado na rede a ser avaliada. <br>2. Usuário está logado no aplicativo.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>Usuário seleciona uma nota de 1 a 5 estrelas na tela de avaliação de um atendimento.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>- Usuário acessa o perfil da clínica e seleciona a opção "Avaliar Atendimento". <br>- Sistema exibe a interface de avaliação. <br>- Usuário seleciona a nota desejada (ex: 4 de 5 estrelas). <br>- Usuário confirma a submissão da nota.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>- O usuário seleciona uma nota, mas decide alterá-la antes de submeter. <br>- O usuário toca em uma nova quantidade de estrelas, e o sistema atualiza a seleção.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>- O usuário tenta submeter a avaliação, mas ocorre uma falha de conexão. <br>- Sistema exibe uma mensagem de erro e oferece a opção de tentar novamente, mantendo a nota selecionada.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>A nota de avaliação do usuário é registrada com sucesso no sistema e associada ao respectivo atendimento.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF02.1">RF02.1</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>12/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+<hr />
+<h3 id="uc04-ler-e-escrever-comentarios">UC04 – Ler e Escrever Comentários</h3>
+<p align="center">Tabela 6 - Caso de Uso UC04</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC04"></a>UC04</td>
+<td>Ler e Escrever Comentários</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário ler as experiências de outros beneficiários e deixar seus próprios comentários sobre atendimentos.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário do aplicativo GDF Saúde</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>1. Usuário está logado. <br>2. Usuário está visualizando o perfil de uma clínica ou profissional.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>Usuário acessa a seção de comentários para ler as avaliações ou preenche o campo de texto para submeter um novo comentário.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>- Leitura: Usuário acessa a aba "Avaliações" e percorre a lista de comentários existentes. <br>- Escrita: Na mesma tela, usuário toca em "Deixar um comentário", digita seu feedback no campo de texto e toca em "Enviar".</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>- Ao escrever um comentário, o usuário decide cancelar a ação antes de enviar. <br>- O usuário toca no botão "Cancelar" e o sistema o retorna à tela anterior sem salvar o rascunho.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>- O comentário do usuário contém termos inadequados bloqueados pelo sistema. <br>- Ao tentar enviar, o sistema exibe uma mensagem informando que o comentário não pode ser publicado e destaca as diretrizes da comunidade.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Usuário visualiza os comentários de outros ou tem seu novo comentário submetido com sucesso para moderação e publicação.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF02.2">RF02.2</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>12/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+<hr />
+<h3 id="uc05-visualizar-comentarios-relevantes">UC05 – Visualizar Comentários Relevantes</h3>
+<p align="center">Tabela 7 - Caso de Uso UC05</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC05"></a>UC05</td>
+<td>Visualizar Comentários Relevantes</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário visualizar primeiro os comentários que o sistema classifica automaticamente como os mais "relevantes", com base em critérios como utilidade e palavras-chave.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário do aplicativo GDF Saúde</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>Usuário está na seção de avaliações de uma clínica que possui múltiplos comentários.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>Usuário abre a lista de comentários de um profissional ou clínica.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>- Usuário acessa a aba de "Avaliações" de uma clínica. <br>- A lista de comentários é carregada. <br>- O sistema, por padrão, exibe no topo os comentários que foram identificados como os mais relevantes.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>- O usuário prefere ver os comentários mais recentes. <br>- O usuário seleciona a opção de ordenação "Mais Recentes". <br>- O sistema recarrega a lista, exibindo os comentários em ordem cronológica decrescente.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>- A clínica não possui comentários suficientes para que a classificação por relevância seja significativa. <br>- O sistema exibe todos os comentários disponíveis, ordenados por data como padrão alternativo.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>O usuário tem acesso rápido às opiniões consideradas mais úteis, otimizando seu tempo de análise.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF02.3">RF02.3</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>12/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+<hr />
+<h3 id="uc06-iniciar-conversa-com-chatbot-de-triagem">UC06 – Iniciar Conversa com Chatbot de Triagem</h3>
+<p align="center">Tabela 8 - Caso de Uso UC06</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC06"></a>UC06</td>
+<td>Iniciar Conversa com Chatbot de Triagem</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário interagir com chatbot para identificar especialidade médica adequada</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário do aplicativo GDF Saúde</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>1. Conexão com internet. <br>2. Usuário é beneficiário do Plano INAS</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>Usuário inicia conversa e descreve sintomas</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>- Usuário abre o aplicativo <br>- Usuário seleciona a opção "Chatbot de Saúde" <br>- Sistema exibe tela inicial do chatbot <br>- Usuário descreve sintomas <br>- Chatbot analisa e sugere especialidade médica <br>- Sistema pede confirmação ao usuário posteriormente para análise de desempenho</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>- Usuário abre o aplicativo <br>- Usuário seleciona a opção "Chatbot de Saúde" <br>- Sistema exibe tela inicial do chatbot <br>- Usuário tem dúvidas ou fornece informações vagas <br>- Chatbot recomenda buscar hospital para melhor triagem</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>- Usuário abre o aplicativo <br>- Usuário seleciona a opção "Chatbot de Saúde" <br>- Inicia a conversa <br>- Chatbot redireciona para especialidade médica incorreta</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Especialidade médica identificada corretamente e confirmado o desempenho do chatbot posteriormente</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF21.1">RF21.1</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>17/05/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></p>
+
+<hr />
+<h3 id="uc07-fazer-login">UC07 – Fazer Login</h3>
+<p align="center">Tabela 9 - Caso de Uso UC07</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC07"></a>UC07</td>
+<td>Fazer Login</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir que o usuário acesse o app com e-mail/CPF e senha.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário cadastrado</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>App instalado e com conexão à internet.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>O usuário preenche e-mail/CPF e senha e confirma para entrar.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>- O usuário acessa a tela de login.<br>- Insere e-mail/CPF e senha.<br>- O sistema valida os dados.<br>- O usuário é autenticado.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>- Credenciais inválidas: sistema exibe mensagem de erro.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>- Ausência de conexão: sistema informa que não é possível conectar.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Usuário autenticado e apto a usar o aplicativo.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF19">RF19</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/05/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
+
+<hr />
+<h3 id="uc08-login-por-biometria">UC08 – Login por Biometria</h3>
+<p align="center">Tabela 10 - Caso de Uso UC08</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC08"></a>UC08</td>
+<td>Login por Biometria</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir login via impressão digital ou reconhecimento facial.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário cadastrado</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>Dispositivo com sensor biométrico, usuário já logado ao menos uma vez.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>O usuário seleciona "Entrar por biometria" e realiza autenticação.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>- O usuário abre o app.<br>- Seleciona “Entrar com biometria”.<br>- Biometria é validada pelo sistema operacional.<br>- O usuário é autenticado.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>- Biometria não reconhecida: sistema oferece login por senha.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>- Sensor indisponível: app informa erro e redireciona para login comum.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Usuário autenticado via biometria ou direcionado para login manual.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF19">RF19</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/05/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
+
+<hr />
+<h3 id="uc09-baixar-carteirinha">UC09 – Baixar Carteirinha</h3>
+<p align="center">Tabela 11 - Caso de Uso UC09</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC09"></a>UC09</td>
+<td>Baixar Carteirinha</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir download da carteirinha digital para uso offline.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário autenticado</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>Conexão com internet e usuário logado.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>O usuário solicita o download da carteirinha.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>- O usuário acessa a seção “Carteirinha”.<br>- Clica em “Baixar”.<br>- O sistema realiza o download.<br>- A carteirinha é salva no dispositivo.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>- Caso já tenha sido baixada, o sistema permite rebaixar.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>- Falta de conexão ou falha no armazenamento: erro informado ao usuário.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Carteirinha disponível localmente mesmo sem internet.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF03">RF03</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/05/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/redjsun">Yzabella Miranda</a></p>
+
+<hr />
+<h3 id="uc10-configurar-notificacoes">UC10 – Configurar Notificações</h3>
+<p align="center">Tabela 12 - Caso de Uso UC10</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC10"></a>UC10</td>
+<td>Configurar Notificações</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário selecionar tipos e canais de notificações.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário autenticado</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>Login realizado com sucesso.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>O usuário acessa as configurações de notificação e define suas preferências.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>- O usuário acessa “Configurações”.<br>- Escolhe os tipos e canais desejados.<br>- Salva as alterações.<br>- Preferências são persistidas pelo sistema.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>- Sistema exibe erro ao tentar salvar.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Preferências de notificação atualizadas.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF04.1">RF04.1</a> e <a href="../../../elicitacao/requisitos_finais/#RF04.9">RF04.9</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/05/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
+
+<hr />
+<h3 id="uc11-enviar-notificacoes">UC11 – Enviar Notificações</h3>
+<p align="center">Tabela 13 - Caso de Uso UC11</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC11"></a>UC11</td>
+<td>Enviar Notificações</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Enviar notificações com base nas preferências do usuário.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Serviços de notificação</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>Configurações de notificação existentes e evento ativador.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>O sistema identifica evento e envia a notificação pelo canal configurado.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>- Evento ocorre (ex: consulta cancelada).<br>- Preferências são consultadas.<br>- Sistema envia via canal apropriado (e-mail, SMS e/ou notificação do próprio app).<br>- Envio é registrado.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>- Falha de envio: sistema realiza tentativa posterior.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>- Falha permanente: log de erro registrado, equipe notificada.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Notificação enviada ou tentativa registrada para análise.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF04.1">RF04.1</a> e <a href="../../../elicitacao/requisitos_finais/#RF04.9">RF04.9</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/05/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/isaqzin">Isaque Camargos</a></p>
+
+<hr />
+<h3 id="uc12-agendar-consulta-ou-exame">UC12 – Agendar Consulta ou Exame</h3>
+<p align="center">Tabela 14 - Caso de Uso UC12</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC12"></a>UC12</td>
+<td>Agendar Consulta ou Exame</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário agendar consultas e exames diretamente pelo aplicativo, com pagamento automático para prestadores da Rede de Atendimento.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Beneficiário (Usuário do plano de saúde)</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>O usuário deve estar autenticado no sistema.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário acessa a seção "Agendamentos".<br>2. Usuário seleciona a opção "Novo Agendamento".<br>3. O sistema solicita que o usuário busque por especialidade, profissional ou clínica.<br>4. O usuário realiza a busca e seleciona o profissional e o horário desejado.<br>5. O sistema exibe um resumo do agendamento (data, hora, profissional, local).<br>6. O sistema informa que o pagamento da coparticipação (se aplicável) será processado.<br>7. Usuário confirma os detalhes do agendamento.<br>8. O sistema processa o pagamento automático.<br>9. O sistema confirma o agendamento e envia uma notificação ao usuário.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td><strong>A1. Horário tornou-se indisponível:</strong><br>- Se o horário selecionado for ocupado durante o processo, o sistema exibe a mensagem "Este horário não está mais disponível" e solicita que o usuário escolha um novo horário.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td><strong>E1. Falha no processamento do pagamento:</strong><br>- Sistema exibe mensagem "Falha ao processar o pagamento. Verifique seus dados ou tente outro método.".<br>- O agendamento não é concluído.<br><strong>E2. Sessão expirada:</strong><br>- Sistema solicita novo login.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>A consulta ou exame está agendada no sistema. O pagamento aplicável foi processado.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF05.1">RF05.1</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
+<hr />
+<h3 id="uc13-cancelar-consulta-ou-exame">UC13 – Cancelar Consulta ou Exame</h3>
+<p align="center">Tabela 15 - Caso de Uso UC13</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC13"></a>UC13</td>
+<td>Cancelar Consulta ou Exame</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário cancelar uma consulta ou exame agendado diretamente pelo aplicativo, com o devido processamento de estorno de pagamento conforme as regras de negócio.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Beneficiário (Usuário do plano de saúde)</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>O usuário deve estar autenticado no sistema e ter ao menos uma consulta ou exame futuro agendado.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário acessa a seção "Meus Agendamentos".<br>2. O sistema exibe a lista de agendamentos futuros.<br>3. Usuário seleciona o agendamento que deseja cancelar.<br>4. O sistema exibe os detalhes do agendamento e a opção "Cancelar Agendamento".<br>5. Usuário confirma o cancelamento.<br>6. O sistema processa o cancelamento e o estorno do pagamento, se aplicável.<br>7. O sistema exibe a mensagem "Agendamento cancelado com sucesso.".</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td><strong>A1. Cancelamento sujeito a taxas:</strong><br>- O sistema informa que o cancelamento está sujeito a uma taxa de acordo com a política e pergunta se o usuário deseja continuar.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td><strong>E1. Falha ao processar o estorno:</strong><br>- O sistema exibe a mensagem "O agendamento foi cancelado, mas houve um erro ao processar o estorno. Entre em contato com o suporte."</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>A consulta ou exame está com o status "Cancelado". O valor correspondente foi estornado, se aplicável.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF05.2">RF05.2</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
+<hr />
+<h3 id="uc14-exibir-valor-de-consulta-em-clinica">UC14 – Exibir Valor de Consulta em Clínica</h3>
+<p align="center">Tabela 16 - Caso de Uso UC14</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC14"></a>UC14</td>
+<td>Exibir Valor de Consulta em Clínica</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário visualizar o valor específico de uma consulta ou procedimento em cada clínica disponível na rede.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Beneficiário (Usuário do plano de saúde)</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>O usuário deve estar autenticado no sistema.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário acessa a "Rede de Atendimento".<br>2. Usuário busca por uma especialidade ou procedimento.<br>3. O sistema exibe a lista de clínicas e profissionais que atendem ao critério.<br>4. Para cada resultado da lista, o sistema exibe o valor específico da consulta naquele local.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td><strong>A1. Valor não informado:</strong><br>- Se uma clínica não disponibiliza o valor, o sistema exibe a mensagem "Valor a consultar".</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td><strong>E1. Falha ao carregar a rede:</strong><br>- O sistema exibe a mensagem "Erro ao carregar a rede de atendimento. Tente novamente."</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>O usuário visualizou os valores das consultas nas clínicas de seu interesse.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF06.1">RF06.1</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
+<hr />
+<h3 id="uc15-calcular-e-exibir-valor-da-coparticipacao">UC15 – Calcular e Exibir Valor da Coparticipação</h3>
+<p align="center">Tabela 17 - Caso de Uso UC15</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC15"></a>UC15</td>
+<td>Calcular e Exibir Valor da Coparticipação</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>O sistema deve calcular e exibir o valor da coparticipação do beneficiário para cada consulta e procedimento médico realizado que esteja sujeito a este regime.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Beneficiário (Usuário do plano de saúde)</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>O usuário deve estar autenticado e visualizando um procedimento sujeito a coparticipação.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. O usuário seleciona um procedimento (ex: durante um agendamento).<br>2. O sistema identifica o procedimento e o plano do beneficiário.<br>3. O sistema acessa as regras de coparticipação do plano.<br>4. O sistema calcula o valor exato ou estimado da coparticipação.<br>5. O sistema exibe o valor calculado para o usuário de forma clara.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td><strong>A1. Procedimento isento:</strong><br>- Se o procedimento for isento, o sistema exibe "Coparticipação: R$ 0,00" ou "Isento".</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td><strong>E1. Erro no cálculo:</strong><br>- O sistema exibe a mensagem "Não foi possível calcular a coparticipação. O valor será detalhado no seu extrato."</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>O usuário foi informado sobre o valor da sua coparticipação para um procedimento.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF06.2">RF06.2</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
+<hr />
+<h3 id="uc16-gerar-demonstrativo-de-despesas-para-ir">UC16 – Gerar Demonstrativo de Despesas para IR</h3>
+<p align="center">Tabela 18 - Caso de Uso UC16</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC16"></a>UC16</td>
+<td>Gerar Demonstrativo de Despesas para Imposto de Renda</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário gerar e baixar o demonstrativo consolidado de despesas médicas de um ano específico para a declaração de Imposto de Renda.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Beneficiário (Usuário do plano de saúde)</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>O usuário deve estar autenticado no sistema.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário acessa a seção "Financeiro" ou "Documentos".<br>2. Usuário seleciona a opção "Demonstrativo para Imposto de Renda".<br>3. O sistema solicita ao usuário que selecione o ano-calendário.<br>4. Usuário seleciona o ano e confirma.<br>5. O sistema compila as despesas e gera o documento em PDF.<br>6. O sistema disponibiliza o arquivo para download.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td><strong>A1. Nenhuma despesa no período:</strong><br>- O sistema exibe a mensagem "Nenhuma despesa médica foi encontrada para o ano selecionado.".</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td><strong>E1. Erro na geração do documento:</strong><br>- O sistema exibe a mensagem "Ocorreu um erro ao gerar seu demonstrativo. Por favor, tente novamente."</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>O usuário obteve o arquivo com seu demonstrativo de despesas.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF06.3">RF06.3</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
+<hr />
+<h3 id="uc17-consultar-historico-de-demonstrativos-de-ir">UC17 – Consultar Histórico de Demonstrativos de IR</h3>
+<p align="center">Tabela 19 - Caso de Uso UC17</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC17"></a>UC17</td>
+<td>Consultar Histórico de Demonstrativos de IR</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário visualizar e baixar demonstrativos de Imposto de Renda que foram gerados anteriormente.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Beneficiário (Usuário do plano de saúde)</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>O usuário deve estar autenticado no sistema.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário acessa a seção "Financeiro" ou "Documentos".<br>2. Usuário navega até a área "Histórico de Demonstrativos de IR".<br>3. O sistema exibe a lista de demonstrativos disponíveis, por ano.<br>4. Usuário seleciona um demonstrativo da lista para baixar.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td><strong>A1. Histórico vazio:</strong><br>- O sistema exibe a mensagem "Nenhum demonstrativo foi gerado anteriormente.".</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td><strong>E1. Falha na recuperação do arquivo:</strong><br>- O sistema exibe a mensagem "Erro ao carregar o arquivo do demonstrativo."</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>O usuário visualizou seu histórico e/ou baixou um demonstrativo antigo.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF06.4">RF06.4</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
+<hr />
+<h3 id="uc18-consultar-extrato-financeiro">UC18 – Consultar Extrato Financeiro</h3>
+<p align="center">Tabela 20 - Caso de Uso UC18</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC18"></a>UC18</td>
+<td>Consultar Extrato Financeiro</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário consultar seu extrato financeiro detalhado e atualizado diariamente.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Beneficiário (Usuário do plano de saúde)</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>O usuário deve estar autenticado no sistema.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário acessa a seção "Financeiro".<br>2. O sistema exibe o extrato, com as transações mais recentes primeiro.<br>3. Cada item exibe data, descrição da transação e valor.<br>4. O usuário pode aplicar filtros para buscar transações.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td><strong>A1. Nenhuma transação no período:</strong><br>- O sistema exibe a mensagem "Nenhuma transação encontrada para o período selecionado.".</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td><strong>E1. Falha ao carregar o extrato:</strong><br>- Sistema exibe mensagem "Erro ao carregar o extrato financeiro."</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>O usuário visualizou suas movimentações financeiras.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF06.5">RF06.5</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
+<hr />
+<h3 id="uc19-visualizar-painel-de-metas-de-saude">UC19 – Visualizar Painel de Metas de Saúde</h3>
+<p align="center">Tabela 21 - Caso de Uso UC19</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC19"></a>UC19</td>
+<td>Visualizar Painel de Metas de Saúde</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Exibir um painel personalizado com metas de saúde e gamificação para incentivar o acompanhamento.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Beneficiário (Usuário do plano de saúde)</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>O usuário deve estar autenticado no sistema.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário acessa a seção "Minha Saúde" ou "Painel de Metas".<br>2. O sistema exibe o painel de metas personalizadas.<br>3. O painel mostra as metas, o progresso e elementos de gamificação (pontos, emblemas).<br>4. Usuário pode clicar em uma meta para ver detalhes ou agendar o procedimento correspondente.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td><strong>A1. Usuário sem metas definidas:</strong><br>- O sistema exibe uma mensagem de boas-vindas e incentiva a configuração das primeiras metas.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td><strong>E1. Falha ao carregar o painel de metas:</strong><br>- O sistema exibe a mensagem "Não foi possível carregar suas metas de saúde."</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>O usuário visualizou seu progresso em relação às suas metas de saúde.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF17">RF17</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/kalebmacedo">Kaleb Macedo</a></p>
+
+<hr />
+<h3 id="uc20-cadastrar-titular">UC20 – Cadastrar Titular</h3>
+<p align="center">Tabela 22 - Caso de Uso UC20</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC20"></a>UC20</td>
+<td>Cadastrar Titular</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir o cadastro de titulares no sistema, com validação de dados e documentação.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário (Titular)</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>Usuário autenticado; documentação necessária digitalizada.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário acessa a área de cadastro.<br>2. Preenche dados pessoais.<br>3. Anexa documentação.<br>4. Sistema valida informações.<br>5. Cadastro é confirmado.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>Dados incompletos: sistema solicita complementação.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>Falha no upload de documentos: sistema exibe erro e orienta tentar novamente.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Titular cadastrado e apto a utilizar o sistema.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF07.1">RF07.1</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+<hr />
+<h3 id="uc21-cadastrar-dependente">UC21 – Cadastrar Dependente</h3>
+<p align="center">Tabela 23 - Caso de Uso UC21</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC21"></a>UC21</td>
+<td>Cadastrar Dependente</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir o cadastro de dependentes vinculados a um titular.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário (Titular)</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>Titular autenticado; documentação do dependente digitalizada.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Titular acessa área de dependentes.<br>2. Inicia cadastro.<br>3. Preenche dados do dependente.<br>4. Anexa documentação.<br>5. Sistema valida e confirma cadastro.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>Dados incompletos: sistema solicita complementação.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>Falha no upload de documentos: sistema exibe erro e orienta tentar novamente.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Dependente cadastrado e vinculado ao titular.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF07.2">RF07.2</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+<hr />
+<h3 id="uc22-cadastrar-optante">UC22 – Cadastrar Optante</h3>
+<p align="center">Tabela 24 - Caso de Uso UC22</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC22"></a>UC22</td>
+<td>Cadastrar Optante</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir o cadastro de optantes no sistema, com validação de dados e documentação.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário (Optante)</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>Usuário autenticado; documentação necessária digitalizada.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário acessa área de cadastro.<br>2. Seleciona opção "Optante".<br>3. Preenche dados.<br>4. Anexa documentação.<br>5. Sistema valida e confirma cadastro.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>Dados incompletos: sistema solicita complementação.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>Falha no upload de documentos: sistema exibe erro e orienta tentar novamente.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Optante cadastrado e apto a utilizar o sistema.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF07.3">RF07.3</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+<hr />
+<h3 id="uc23-validar-documentos-no-cadastro">UC23 – Validar Documentos no Cadastro</h3>
+<p align="center">Tabela 25 - Caso de Uso UC23</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC23"></a>UC23</td>
+<td>Validar Documentos no Cadastro</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Validar os documentos apresentados durante o cadastro de titulares, dependentes e optantes.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Sistema</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>Documentos anexados no processo de cadastro.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Sistema recebe documentos.<br>2. Realiza validação automática.<br>3. Informa resultado ao usuário.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>Documento ilegível: solicita novo envio.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>Falha técnica na validação: sistema exibe erro e orienta tentar novamente.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Documentos validados ou solicitação de reenvio.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF07.4">RF07.4</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+<hr />
+<h3 id="uc24-verificar-elegibilidade-no-cadastro">UC24 – Verificar Elegibilidade no Cadastro</h3>
+<p align="center">Tabela 26 - Caso de Uso UC24</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC24"></a>UC24</td>
+<td>Verificar Elegibilidade no Cadastro</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Verificar a elegibilidade dos titulares, dependentes e optantes durante o processo de cadastro.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Sistema</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>Dados e documentos enviados no cadastro.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Sistema recebe dados.<br>2. Verifica critérios de elegibilidade.<br>3. Informa resultado ao usuário.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>Dados inconsistentes: solicita correção.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>Falha técnica na verificação: sistema exibe erro e orienta tentar novamente.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Cadastro aprovado ou pendente de regularização.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF07.5">RF07.5</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+<hr />
+<h3 id="uc25-verificar-procedimentos-para-autorizacao">UC25 – Verificar Procedimentos para Autorização</h3>
+<p align="center">Tabela 27 - Caso de Uso UC25</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC25"></a>UC25</td>
+<td>Verificar Procedimentos para Autorização</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Verificar se procedimentos estão na TABGDFSAÚDE, atendem às DUT, carência ou exclusões, exigindo solicitação médica e análise técnica para autorizações prévias.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Titular / Profissional de saúde / Analista técnico</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>Procedimento solicitado e dados médicos anexados.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário submete solicitação.<br>2. Sistema verifica TABGDFSAÚDE e DUT.<br>3. Verifica carência e exclusões.<br>4. Solicita análise técnica se necessário.<br>5. Informa resultado ao usuário.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>Procedimento coberto e sem exigência de análise: autorização automática.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>Solicitação incompleta: sistema solicita complementação.<br>Falha técnica: exibe erro e orienta tentar novamente.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Procedimento autorizado ou negado com justificativa técnica.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF08">RF08</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+<hr />
+<h3 id="uc26-registrar-denuncia-contra-profissional">UC26 – Registrar Denúncia contra Profissional</h3>
+<p align="center">Tabela 28 - Caso de Uso UC26</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC26"></a>UC26</td>
+<td>Registrar Denúncia contra Profissional</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário registrar denúncias de condutas inadequadas por parte de profissionais da rede credenciada.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário (Titular, Dependente ou Optante)</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>Usuário autenticado; denúncia relacionada a profissional da rede credenciada.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário acessa área de denúncias.<br>2. Preenche formulário com detalhes.<br>3. Anexa evidências, se houver.<br>4. Envia denúncia.<br>5. Sistema registra e encaminha para análise.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>Usuário não anexa evidências: sistema permite envio apenas com descrição.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>Falha no envio: sistema exibe erro e orienta tentar novamente.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Denúncia registrada e encaminhada para análise.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF18">RF18</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+<hr />
+<h3 id="uc27-visualizar-historico-de-consultas-realizadas">UC27 – Visualizar Histórico de Consultas Realizadas</h3>
+<p align="center">Tabela 29 - Caso de Uso UC27</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC27"></a>UC27</td>
+<td>Visualizar Histórico de Consultas Realizadas</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário visualizar a lista de todas as consultas realizadas, com data, profissional e especialidade.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário cadastrado no plano de saúde GDF Saúde</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>O usuário deve estar autenticado no sistema.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>O usuário acessa a seção "Histórico de Consultas".</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário faz login no sistema.<br>2. Usuário navega até a seção "Histórico de Consultas".<br>3. Sistema recupera e exibe a lista de consultas realizadas, ordenadas da mais recente para a mais antiga.<br>4. Cada item exibe data, profissional e especialidade.<br>5. Usuário pode buscar ou filtrar consultas por período, profissional ou especialidade.<br>6. Usuário seleciona uma consulta para ver detalhes.<br>7. Sistema exibe detalhes completos da consulta selecionada.<br>8. Usuário retorna à lista ou encerra a navegação.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>A1. Se não houver consultas registradas:<br>  - Sistema exibe mensagem "Nenhuma consulta encontrada".<br>  - Usuário pode retornar ao menu principal.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>E1. Falha na recuperação dos dados:<br>  - Sistema exibe mensagem "Erro ao carregar histórico de consultas".<br>  - Usuário pode tentar novamente ou contatar o suporte.<br>E2. Sessão expirada:<br>  - Sistema solicita novo login.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>O usuário visualizou seu histórico de consultas.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF09.1">RF09.1</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/05/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
+
+<hr />
+<h3 id="uc28-visualizar-historico-de-exames-realizados">UC28 – Visualizar Histórico de Exames Realizados</h3>
+<p align="center">Tabela 30 - Caso de Uso UC28</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC28"></a>UC28</td>
+<td>Visualizar Histórico de Exames Realizados</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário visualizar a lista de todos os exames realizados, com nome do exame e data.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário cadastrado no plano de saúde GDF Saúde</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>O usuário deve estar autenticado no sistema.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>O usuário acessa a seção "Histórico de Exames".</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário faz login.<br>2. Acessa "Histórico de Exames".<br>3. Sistema exibe lista de exames realizados.<br>4. Cada item mostra nome do exame e data.<br>5. Usuário pode buscar ou filtrar exames.<br>6. Usuário seleciona exame para ver detalhes.<br>7. Sistema exibe detalhes do exame.<br>8. Usuário retorna à lista ou encerra.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>A1. Se não houver exames:<br>  - Sistema exibe "Nenhum exame encontrado".<br>  - Usuário pode retornar ao menu principal.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>E1. Falha ao carregar exames:<br>  - Sistema exibe "Erro ao carregar exames".<br>  - Usuário pode tentar novamente ou contatar suporte.<br>E2. Sessão expirada:<br>  - Sistema solicita novo login.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>O usuário visualizou seu histórico de exames.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF09.2">RF09.2</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/05/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
+
+<hr />
+<h3 id="uc29-visualizar-resultados-de-exames-laboratoriais">UC29 – Visualizar Resultados de Exames Laboratoriais</h3>
+<p align="center">Tabela 31 - Caso de Uso UC29</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC29"></a>UC29</td>
+<td>Visualizar Resultados de Exames Laboratoriais</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário acessar e visualizar os resultados de exames laboratoriais realizados.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário cadastrado no plano de saúde GDF Saúde</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>O usuário deve estar autenticado e ter exames laboratoriais com resultado disponível.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>O usuário acessa a seção "Histórico de Exames" e seleciona um exame com resultado.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário faz login.<br>2. Acessa "Histórico de Exames".<br>3. Sistema exibe lista de exames laboratoriais.<br>4. Exames com resultado disponível exibem botão "Ver Resultado".<br>5. Usuário clica para visualizar ou baixar o resultado.<br>6. Sistema exibe ou permite download do resultado.<br>7. Usuário retorna à lista ou encerra.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>A1. Se não houver resultados disponíveis:<br>  - Sistema exibe "Nenhum resultado disponível".<br>  - Usuário pode retornar ao menu principal.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>E1. Falha ao carregar resultados:<br>  - Sistema exibe "Erro ao carregar resultados".<br>  - Usuário pode tentar novamente ou contatar suporte.<br>E2. Arquivo corrompido:<br>  - Sistema exibe mensagem de erro e orienta novo download.<br>E3. Sessão expirada:<br>  - Sistema solicita novo login.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>O usuário visualizou o resultado do exame laboratorial.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF09.3">RF09.3</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/05/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
+
+<hr />
+<h3 id="uc30-visualizar-historico-de-coparticipacoes">UC30 – Visualizar Histórico de Coparticipações</h3>
+<p align="center">Tabela 32 - Caso de Uso UC30</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC30"></a>UC30</td>
+<td>Visualizar Histórico de Coparticipações</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário acessar o histórico detalhado de cobranças de coparticipação.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário cadastrado no plano de saúde GDF Saúde</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>O usuário deve estar autenticado no sistema.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>O usuário acessa a seção "Histórico de Coparticipações" ou "Financeiro".</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário faz login.<br>2. Acessa "Histórico de Coparticipações".<br>3. Sistema exibe lista de cobranças de coparticipação.<br>4. Cada item mostra serviço, data e valor cobrado.<br>5. Usuário pode buscar ou filtrar cobranças.<br>6. Usuário seleciona uma cobrança para ver detalhes.<br>7. Sistema exibe detalhes completos.<br>8. Usuário retorna à lista ou encerra.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>A1. Se não houver cobranças:<br>  - Sistema exibe "Nenhuma coparticipação encontrada".<br>  - Usuário pode retornar ao menu principal.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>E1. Falha ao carregar histórico:<br>  - Sistema exibe "Erro ao carregar histórico de coparticipações".<br>  - Usuário pode tentar novamente ou contatar suporte.<br>E2. Sessão expirada:<br>  - Sistema solicita novo login.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>O usuário visualizou seu histórico de coparticipações.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF09.4">RF09.4</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/05/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
+
+<hr />
+<h3 id="uc31-favoritar-horarios-de-consulta">UC31 – Favoritar Horários de Consulta</h3>
+<p align="center">Tabela 33 - Caso de Uso UC31</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC31"></a>UC31</td>
+<td>Favoritar Horários de Consulta</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário marcar horários preferidos para agendamentos futuros.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário cadastrado no plano de saúde GDF Saúde</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>O sistema deve exibir horários disponíveis para consulta.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>O usuário acessa a seção de agendamento, seleciona horários para favoritar e confirma a ação.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário faz login.<br>2. Acessa a seção de agendamento.<br>3. Sistema exibe horários disponíveis.<br>4. Usuário seleciona um ou mais horários para favoritar.<br>5. Usuário confirma a ação.<br>6. Sistema salva horários favoritos no perfil do usuário.<br>7. Sistema exibe confirmação de sucesso.<br>8. Usuário pode visualizar ou editar favoritos.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>A1. Horário indisponível:<br>  - Sistema notifica "Horário não disponível" e remove da seleção.<br>  - Usuário pode escolher outro horário.<br>A2. Limite de favoritos atingido:<br>  - Sistema informa o limite e impede seleção adicional.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>E1. Erro ao salvar favoritos:<br>  - Sistema exibe "Erro ao salvar horário favorito" e oferece tentar novamente.<br>E2. Sessão expirada:<br>  - Sistema solicita novo login.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Horários favoritados salvos no perfil do usuário.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF10">RF10</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/05/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
+
+<hr />
+<h3 id="uc32-solicitar-reembolso-de-cobranca-indevida">UC32 – Solicitar Reembolso de Cobrança Indevida</h3>
+<p align="center">Tabela 34 - Caso de Uso UC32</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC32"></a>UC32</td>
+<td>Solicitar Reembolso de Cobrança Indevida</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário solicitar reembolso de valores cobrados indevidamente, fornecendo justificativa e documentos.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário cadastrado no plano de saúde GDF Saúde</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>1. O usuário deve ter uma cobrança registrada.<br>2. Solicitação feita em até 30 dias da cobrança.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>O usuário acessa a seção de reembolso, seleciona a cobrança, preenche justificativa, anexa documentos e envia.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário faz login.<br>2. Acessa a seção de reembolso.<br>3. Sistema exibe lista de cobranças.<br>4. Usuário seleciona cobrança indevida.<br>5. Sistema apresenta formulário para justificativa e anexos.<br>6. Usuário preenche justificativa e anexa documentos.<br>7. Usuário envia solicitação.<br>8. Sistema valida dados e envia solicitação.<br>9. Sistema notifica usuário sobre o recebimento.<br>10. Usuário pode acompanhar o status da solicitação.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>A1. Documentação incompleta:<br>  - Sistema solicita arquivos faltantes.<br>  - Usuário anexa documentos adicionais.<br>  - Sistema retoma validação.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>E1. Erro técnico ao enviar solicitação:<br>  - Sistema exibe "Erro ao enviar solicitação" e oferece tentar novamente.<br>E2. Prazo excedido:<br>  - Sistema informa que o prazo para solicitação expirou e impede envio.<br>E3. Sessão expirada:<br>  - Sistema solicita novo login.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Solicitação registrada e enviada para análise.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF20">RF20</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/05/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></p>
+
+<hr />
+<h3 id="uc33-enviar-feedback-de-atendimento">UC33 – Enviar Feedback de Atendimento</h3>
+<p align="center">Tabela 35 - Caso de Uso UC33</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC33"></a>UC33</td>
+<td>Enviar Feedback de Atendimento</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir que o usuário envie feedback sobre o atendimento de uma consulta realizada.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário cadastrado no GovBR</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>1. Usuário autenticado <br> 2. Consulta já realizada <br> 3. Conexão com a internet ativa</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>Usuário acessa o canal de feedback, seleciona uma consulta anterior e preenche o formulário com a avaliação.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>- Usuário acessa a área de feedback <br> - Seleciona uma consulta <br> - Preenche formulário de avaliação <br> - Envia feedback</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>- Consulta ainda não realizada: sistema bloqueia envio <br> - Avaliação incompleta: sistema solicita preenchimento obrigatório</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>- Falha de rede durante envio <br> - Erro de autenticação do usuário</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Feedback registrado e vinculado à consulta avaliada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF11">RF11</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>17/05/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+<hr />
+<h3 id="uc34-apresentar-secao-novidades-no-menu-principal">UC34 – Apresentar Seção “Novidades” no Menu Principal</h3>
+<p align="center">Tabela 36 - Caso de Uso UC34</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC34"></a>UC34</td>
+<td>Apresentar Seção “Novidades” no Menu Principal</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir que o usuário visualize no menu principal uma nova seção chamada “Novidades”.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário do plano de saúde <br> Sistema do GDF Saúde</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>1. Aplicativo iniciado <br> 2. Conexão com a internet ativada</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>Sistema exibe a seção "Novidades" no menu principal.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>- Sistema atualiza menu <br> - Seção “Novidades” aparece visível para o usuário</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>- Menu não atualizado <br> - Seção não aparece até próxima atualização</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>- Falha na exibição do menu <br> - Problema de renderização no aplicativo</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Usuário pode acessar a área de novidades a partir do menu principal</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF12.1">RF12.1</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>20/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+<hr />
+<h3 id="uc35-exibir-lista-de-funcionalidades-com-titulo-descricao-e-data">UC35 – Exibir Lista de Funcionalidades com Título, Descrição e Data</h3>
+<p align="center">Tabela 37 - Caso de Uso UC35</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC35"></a>UC35</td>
+<td>Exibir Lista de Funcionalidades com Título, Descrição e Data</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir que o usuário visualize uma lista contendo as novas funcionalidades, incluindo título, descrição e data de lançamento.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário do plano de saúde <br> Sistema do GDF Saúde</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>1. Aplicativo iniciado <br> 2. Conexão com a internet ativada</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>Sistema apresenta uma lista com as informações das novas funcionalidades</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>- Sistema busca e exibe as funcionalidades na tela de novidades</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>- Lista vazia ou sem novas entradas <br> - Exibe mensagem de "nenhuma novidade disponível"</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>- Falha ao carregar dados do servidor</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Usuário visualiza a lista informativa de funcionalidades lançadas</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF12.2">RF12.2</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>20/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+<hr />
+<h3 id="uc36-destacar-funcionalidades-com-marcador-novo">UC36 – Destacar Funcionalidades com Marcador “Novo”</h3>
+<p align="center">Tabela 38 - Caso de Uso 36 </p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UC34.3</td>
+<td>Destacar Funcionalidades com Marcador “Novo”</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Destacar funcionalidades lançadas recentemente com um marcador visual “Novo” por um período configurável.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>- Usuário do plano de saúde <br> - Sistema do GDF Saúde</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>1. Aplicativo iniciado <br> 2. Conexão com a internet ativada</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>Sistema exibe marcador “Novo” para funcionalidades recentes</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>- Funcionalidade foi lançada nos últimos X dias <br> - Sistema adiciona marcador visual “Novo”</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>- Funcionalidade foi lançada há mais de X dias <br> - Nenhum marcador é exibido</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>- Erro de cálculo no período do marcador</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Funcionalidades novas são facilmente identificáveis pelo usuário</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF12.3">RF12.3</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>20/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+<hr />
+<h3 id="uc37-exibir-pop-ups-com-novidades-apos-atualizacao">UC37 – Exibir Pop-ups com Novidades Após Atualização</h3>
+<p align="center">Tabela 39 - Caso de Uso 37 </p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UC34.4</td>
+<td>Exibir Pop-ups com Novidades Após Atualização</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Exibir automaticamente pop-ups informativos com as principais novidades sempre que o aplicativo for atualizado.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>- Usuário do plano de saúde <br> - Sistema do GDF Saúde</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>1. Aplicativo recém-atualizado <br> 2. Conexão com a internet ativada</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>Sistema apresenta pop-up informativo ao iniciar o app após atualização</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>- Sistema detecta atualização <br> - Pop-up com resumo das novidades é exibido</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>- Pop-up já exibido anteriormente <br> - Sistema não exibe novamente</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>- Falha na verificação de versão ou na exibição do pop-up</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Usuário toma conhecimento das principais mudanças</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF12.4">RF12.4</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>20/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+<hr />
+<h3 id="uc38-ver-descricao-detalhada-de-funcionalidade">UC38 – Ver Descrição Detalhada de Funcionalidade</h3>
+<p align="center">Tabela 40 - Caso de Uso 38 </p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UC34.5</td>
+<td>Ver Descrição Detalhada de Funcionalidade</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir que o usuário acesse uma descrição detalhada de uma nova funcionalidade ao tocá-la na lista de novidades.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>- Usuário do plano de saúde <br> - Sistema do GDF Saúde</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>1. Aplicativo iniciado <br> 2. Conexão com a internet ativada</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>Sistema carrega e exibe os detalhes da funcionalidade selecionada</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>- Usuário toca em uma funcionalidade <br> - Detalhes completos são exibidos</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>- Nenhuma funcionalidade tocada <br> - Nenhuma ação ocorre</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>- Falha no carregamento dos dados detalhados</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Usuário visualiza informações completas da funcionalidade selecionada</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF12.5">RF12.5</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>20/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+<hr />
+<h3 id="uc39-ordenar-novidades-por-data">UC39 – Ordenar Novidades por Data</h3>
+<p align="center">Tabela 41 - Caso de Uso 39 </p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UC34.6</td>
+<td>Ordenar Novidades por Data</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir que o usuário ordene as novidades exibidas por "mais recente" ou "mais antigo".</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>- Usuário do plano de saúde <br> - Sistema do GDF Saúde</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>1. Aplicativo iniciado <br> 2. Conexão com a internet ativada</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>Sistema exibe opção de ordenação e reorganiza a lista conforme escolha do usuário</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>- Usuário seleciona critério de ordenação <br> - Sistema aplica filtro e exibe resultado</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>- Ordenação não alterada <br> - Lista permanece na ordem padrão</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>- Falha na ordenação ou erro na interface de filtro</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Usuário visualiza as novidades ordenadas conforme preferência</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF12.6">RF12.6</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>20/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/bolzanMGB">Othavio Bolzan</a></p>
+
+<hr />
+<h3 id="uc40-fazer-login-via-govbr">UC40 – Fazer login via GovBR</h3>
+<p align="center">Tabela 42 - Caso de Uso 40 </p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC35"></a>UC35</td>
+<td>Fazer login via GovBR</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir que o usuário acesse o app mediante autenticação GovBR.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário cadastrado no GovBR</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>App instalado, conexão à internet e conta GovBR ativa.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>O usuário seleciona "Login com GovBR" e realiza a autenticação.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário acessa a tela de login.<br>2. Seleciona "Autenticar com GovBR".<br>3. Sistema redireciona para a plataforma GovBR.<br>4. Usuário insere credenciais GovBR.<br>5. Sistema valida e autentica o usuário.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>Credenciais inválidas: sistema exibe mensagem de erro e sugere recuperação de senha.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>Falha na conexão com GovBR: sistema informa indisponibilidade temporária.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Usuário autenticado e com acesso às funcionalidades do app.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/elicitacao/#RF22">RF22</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>17/05/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
+
+<hr />
+<h3 id="uc41-consultar-rede-odontologica">UC41 – Consultar rede odontológica</h3>
+<p align="center">Tabela 43 - Caso de Uso 41 </p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC36"></a>UC36</td>
+<td>Consultar rede odontológica</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário buscar clínicas odontológicas cadastradas.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário autenticado</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>Usuário estar logado via GovBR.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>O usuário acessa a funcionalidade de busca e insere critérios de pesquisa.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário acessa "Buscar rede odontológica".<br>2. Insere filtros (ex.: especialidade, bairro).<br>3. Sistema exibe lista de clínicas disponíveis.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>Nenhum resultado: sistema sugere ampliar critérios de busca.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>Falha na conexão: sistema notifica "Tente novamente mais tarde".</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Usuário visualiza clínicas odontológicas compatíveis.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/elicitacao/#RF13">RF13</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>17/05/2025</td>
+</tr>
+<tr>
+<td>---</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
+
+<h3 id="uc42-apresentar-novas-clinicas-proximas">UC42 – Apresentar Novas Clínicas Próximas</h3>
+<p align="center">Tabela 44 - Caso de Uso 42 </p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC37.1"></a>UC37</td>
+<td>Apresentar Novas Clínicas Próximas</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Exibir novas clínicas que surgiram na região do usuário, com base em sua localização.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário autenticado</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>Usuário logado e permissão para uso de geolocalização.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>O sistema detecta a localização do usuário e apresenta uma lista de novas clínicas na proximidade.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário acessa a opção "Novas Unidades de Saúde Próximas".<br>2. Sistema detecta a localização automática do usuário.<br>3. Exibe uma lista de novas clínicas em ordem de proximidade.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>Localização automática falha: usuário insere o endereço manualmente.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>Geolocalização desativada: sistema solicita ativação ou entrada manual.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Usuário visualiza novas clínicas próximas ou resultados conforme o endereço inserido.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/elicitacao/#RF14.1">RF14.1</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>20/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
+<hr />
+<h3 id="uc43-apresentar-clinicas-proximas">UC43 – Apresentar Clínicas Próximas</h3>
+<p align="center">Tabela 45 - Caso de Uso 43 </p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC38"></a>UC38</td>
+<td>Apresentar Clínicas Próximas</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Exibir clínicas existentes na região do usuário, com base em sua localização.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário autenticado</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>Usuário logado e permissão para uso de geolocalização.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>O sistema detecta a localização do usuário e apresenta uma lista de clínicas próximas.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário acessa a opção "Buscar Unidades de Saúde Próximas".<br>2. Sistema detecta a localização automática do usuário.<br>3. Exibe uma lista de clínicas em ordem de proximidade.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>Localização automática falha: usuário insere o endereço manualmente.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>Geolocalização desativada: sistema solicita ativação ou entrada manual.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Usuário visualiza clínicas próximas ou resultados conforme o endereço inserido.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/elicitacao/#RF14.2">RF14.2</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>20/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
+
+<hr />
+<h3 id="uc44-baixar-comprovante-de-agendamento">UC44 – Baixar comprovante de agendamento</h3>
+<p align="center">Tabela 46 - Caso de Uso 44 </p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC38"></a>UC38</td>
+<td>Baixar comprovante de agendamento</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário baixar comprovantes de agendamentos realizados.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Usuário autenticado com agendamento ativo.</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>Usuário logado e agendamento confirmado.</td>
+</tr>
+<tr>
+<td>Ação</td>
+<td>O usuário acessa a lista de agendamentos e seleciona "Baixar comprovante".</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário acessa "Comprovantes de agendamento".<br>2. Seleciona o agendamento desejado.<br>3. Clica em "Baixar" e o sistema gera um PDF.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>Comprovante expirado: sistema notifica "Agendamento não encontrado".</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>Falha no servidor: sistema exibe mensagem de erro.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>Comprovante é salvo no dispositivo do usuário.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/elicitacao/#RF15">RF15</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>17/05/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Adaptado de <a href="https://github.com/redjsun" target="_blank">Yzabella Miranda</a></p>
+
+<h3 id="uc45-registrar-denuncia-contra-profissional">UC45 – Registrar Denúncia contra Profissional</h3>
+<p align="center">Tabela 47 - Caso de Uso UC26</p>
+
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a id="UC45"></a>UC45</td>
+<td>Visualizar Calendário Personalizado</td>
+</tr>
+<tr>
+<td>Descrição</td>
+<td>Permitir ao usuário visualizar um calendário personalizado que integra consultas agendadas, prazos de carência e datas de vencimento em uma única interface.</td>
+</tr>
+<tr>
+<td>Ator</td>
+<td>Beneficiário (Usuário do plano de saúde)</td>
+</tr>
+<tr>
+<td>Pré-condições</td>
+<td>O usuário deve estar autenticado no sistema.</td>
+</tr>
+<tr>
+<td>Fluxo principal</td>
+<td>1. Usuário acessa a seção "Calendário" ou "Minha Agenda".<br>2. Sistema carrega os dados personalizados (consultas, carências, vencimentos).<br>3. Sistema exibe o calendário com todos os eventos marcados em cores distintas por categoria.<br>4. Usuário pode navegar entre meses e anos.<br>5. Usuário seleciona uma data específica para ver detalhes dos eventos agendados.<br>6. Sistema exibe os detalhes dos eventos da data selecionada.</td>
+</tr>
+<tr>
+<td>Fluxo alternativo</td>
+<td>A1. Nenhum evento no período:<br>- O sistema exibe o calendário sem marcações e a mensagem "Nenhum evento neste período".<br>A2. Usuário filtra por tipo de evento:<br>- Usuário seleciona filtros para exibir apenas um tipo de evento (ex: apenas consultas).<br>- Sistema atualiza o calendário mostrando apenas os eventos do tipo selecionado.</td>
+</tr>
+<tr>
+<td>Fluxo de exceção</td>
+<td>E1. Falha ao carregar dados:<br>- Sistema exibe mensagem "Erro ao carregar eventos do calendário" e oferece a opção de tentar novamente.<br>E2. Sessão expirada:<br>- Sistema solicita novo login.</td>
+</tr>
+<tr>
+<td>Pós-condições</td>
+<td>O usuário visualiza seu calendário personalizado com todos os eventos importantes.</td>
+</tr>
+<tr>
+<td>Rastreabilidade</td>
+<td><a href="../../../elicitacao/requisitos_finais/#RF16">RF16</a></td>
+</tr>
+<tr>
+<td>Data de criação</td>
+<td>15/06/2025</td>
+</tr>
+</tbody>
+</table>
+<p align="center">Fonte: Autoria de <a href="https://github.com/LucasAlves71">Lucas Alves</a></p>
+
+<hr />
+<h2 id="referencia-bibliografica">Referência Bibliográfica</h2>
+<p>DevMedia. <em>O que é UML e Diagramas de Caso de Uso: Introdução Prática à UML</em>. 2012. Disponível em: https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408. Acessado em 25 mai. de 2025</p>
+<p>Lucid Software Português. <em>Tutorial de Caso de Uso UML</em>. Youtube, 25 abr. 2019. Disponível em: https://youtu.be/ab6eDdwS3rA?si=rWAOOakqyrtqkKng. Accesso em 25 mai. 2025.</p>
+<hr />
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+<th>Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1.0</code></td>
+<td>15/05/2025</td>
+<td>Criação do documento</td>
+<td><a href="https://github.com/redjsun">Yzabella Miranda</a> e <a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+<td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+</tr>
+<tr>
+<td><code>1.1</code></td>
+<td>15/05/2025</td>
+<td>Adição dos casos de usos referentes aos requisitos funcionais 3, 4 e 19 e dos requisitos não funcionais 4, 5 e 6</td>
+<td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+<td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+</tr>
+<tr>
+<td><code>1.2</code></td>
+<td>15/05/2025</td>
+<td>Adição dos casos de usos referentes aos requisitos funcionais 9, 10 e 20 e dos requisitos não funcionais 11 e 12</td>
+<td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+<td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+</tr>
+<tr>
+<td><code>1.3</code></td>
+<td>17/05/2025</td>
+<td>Adição dos casos de usos referentes aos requisitos funcionais 1, 2 e 21 e dos requisitos não funcionais 1, 2 e 3</td>
+<td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+<td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+</tr>
+<tr>
+<td><code>1.4</code></td>
+<td>17/05/2025</td>
+<td>Adição dos casos de usos referentes aos requisitos funcionais 5, 6 e 17 e dos requisitos não funcionais 7 e 8</td>
+<td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+<td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+</tr>
+<tr>
+<td><code>1.5</code></td>
+<td>17/05/2025</td>
+<td>Adição dos casos de usos referentes aos requisitos funcionais 7, 8 e 18 e dos requisitos não funcionais 9 e 10</td>
+<td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+<td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+</tr>
+<tr>
+<td><code>1.6</code></td>
+<td>17/05/2025</td>
+<td>Adição dos casos de usos referentes aos requisitos funcionais 11 e 12 e dos requisitos não funcionais 13 e 14</td>
+<td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+<td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+</tr>
+<tr>
+<td><code>1.7</code></td>
+<td>17/05/2025</td>
+<td>Adição dos casos de usos referentes aos requisitos funcionais 13, 14 e 15 e dos requisitos não funcionais 15</td>
+<td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+<td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+</tr>
+<tr>
+<td><code>1.8</code></td>
+<td>08/06/2025</td>
+<td>Adição de ancoras</td>
+<td><a href="https://github.com/isaqzin">Isaque Camargos</a></td>
+<td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+</tr>
+<tr>
+<td><code>1.9</code></td>
+<td>17/05/2025</td>
+<td>Retirando o diagrama de caso de uso referente aos requisitos funcionais da Ana</td>
+<td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+<td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+</tr>
+<tr>
+<td><code>2.0</code></td>
+<td>11/06/2025</td>
+<td>Corrigi os meus cenários, retirando as especificações e diagrama dos casos de uso de requisitos não funcionais e criando casos de uso para os requisitos: RF01.1, RF01.2, RF01.3, RF01.4, RF01.5, RF02.1, RF02.2 e RF02.3 .</td>
+<td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+<td><a href="https://github.com/matheusdealcantara">Matheus de Alcântara</a></td>
+</tr>
+<tr>
+<td><code>2.1</code></td>
+<td>20/06/2025</td>
+<td>Criando casos de uso para os requisitos: RF12.1, RF12.2, RF12.3, RF12.4, RF12.5, RF12.6</td>
+<td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+<td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+</tr>
+<tr>
+<td><code>2.2</code></td>
+<td>21/06/2025</td>
+<td>Adição dos meus casos de uso certos, além da enumeração e padronização do documento</td>
+<td><a href="https://github.com/LucasAlves71">Lucas Alves</a></td>
+<td><a href="https://github.com/kalebmacedo">Kaleb Macedo</a></td>
+</tr>
+<tr>
+<td><code>2.3</code></td>
+<td>21/06/2025</td>
+<td>Renomeação dos casos de uso</td>
+<td><a href="https://github.com/bolzanMGB">Othavio Bolzan</a></td>
+<td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+</tr>
+<tr>
+<td><code>2.4</code></td>
+<td>22/06/2025</td>
+<td>Criação de casos de uso pros requisitos RF22, RF14.1 e RF14.2</td>
+<td><a href="https://github.com/redjsun">Yzabella Miranda</a></td>
+<td><a href="https://github.com/Ana-Luiza-SC">Ana Luiza Soares</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>
